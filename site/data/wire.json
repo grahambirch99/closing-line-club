@@ -1,6 +1,36 @@
 {
  "items": [
   {
+   "at": "2026-10-24T20:04:28.437992+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "Dontayvion Wicks (PHI WR) status questionable -> out [Ankle]"
+  },
+  {
+   "at": "2026-10-24T20:04:28.437992+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "DeVonta Smith (PHI WR) status questionable -> out [Hamstring]"
+  },
+  {
+   "at": "2026-10-24T20:04:28.437992+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Saquon Barkley questionable for MNF in Week 7"
+  },
+  {
+   "at": "2026-10-24T20:04:28.437992+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "DeVonta Smith, Dontayvion Wicks out for Week 7"
+  },
+  {
+   "at": "2026-10-24T19:46:06.814500+00:00",
+   "kind": "qb",
+   "source": "sleeper",
+   "text": "Lamar Jackson (BAL QB) status questionable -> out [Ankle]"
+  },
+  {
    "at": "2026-10-24T19:36:33.991011+00:00",
    "kind": "qb",
    "source": "rapsheet",
@@ -149,36 +179,6 @@
    "kind": "injury",
    "source": "rotowire",
    "text": "KC Concepcion: Limited in practice Wednesday"
-  },
-  {
-   "at": "2026-10-21T20:20:00.239591+00:00",
-   "kind": "injury",
-   "source": "rotowire",
-   "text": "Denzel Boston: Limited by foot issue"
-  },
-  {
-   "at": "2026-10-21T20:20:00.239591+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Jordan Love (shoulder) limited in practice"
-  },
-  {
-   "at": "2026-10-21T20:16:58.629390+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "KC Concepcion (calf/quad) limited to begin Week 7"
-  },
-  {
-   "at": "2026-10-21T19:40:20.447356+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Emeka Egbuka (concussion/foot) does not practice"
-  },
-  {
-   "at": "2026-10-21T16:41:47.644399+00:00",
-   "kind": "qb",
-   "source": "rotowire",
-   "text": "Jameis Winston: Ceding starting gig to McCarthy"
   }
  ]
 }
