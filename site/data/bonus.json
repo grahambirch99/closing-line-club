@@ -10,6 +10,60 @@
  },
  "parlays": [
   {
+   "id": "BP-2026-10-24",
+   "date": "2026-10-24",
+   "sport": "NBA",
+   "posted": "2026-10-24T18:27:49Z",
+   "app": "Underdog",
+   "size": 3,
+   "payout": 6.0,
+   "odds": 500,
+   "p_hit": 0.1729,
+   "ev": 0.0372,
+   "boost_needed": 0.0,
+   "boost": null,
+   "payout_boost": null,
+   "ev_boost": null,
+   "status": "pending",
+   "units": null,
+   "units_boost": null,
+   "legs": [
+    {
+     "player": "Jalen Smith",
+     "bet": "Lower 13.5 points",
+     "game": "Wizards at Bulls",
+     "kick": "2026-10-25T00:10:00Z",
+     "fair": 0.561,
+     "push": 0,
+     "ref": "Pinnacle+Kalshi",
+     "result": null,
+     "actual": null
+    },
+    {
+     "player": "Max Christie",
+     "bet": "Lower 3.5 rebounds",
+     "game": "Spurs at Mavericks",
+     "kick": "2026-10-25T00:10:00Z",
+     "fair": 0.555,
+     "push": 0,
+     "ref": "Kalshi",
+     "result": null,
+     "actual": null
+    },
+    {
+     "player": "Aaron Gordon",
+     "bet": "Lower 17.5 points",
+     "game": "Pelicans at Nuggets",
+     "kick": "2026-10-25T01:10:00Z",
+     "fair": 0.5552,
+     "push": 0,
+     "ref": "Pinnacle+Kalshi",
+     "result": null,
+     "actual": null
+    }
+   ]
+  },
+  {
    "id": "BP-2026-10-22",
    "date": "2026-10-22",
    "sport": "NBA",
