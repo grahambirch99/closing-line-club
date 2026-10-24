@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T20:27:22Z",
+ "generated_at": "2026-10-24T19:57:34Z",
  "current_week": 7,
  "weeks": [
   {
@@ -65,6 +65,31 @@
      "clv": 1.1,
      "units": -0.75,
      "posted": "2026-10-22T22:55:27Z"
+    },
+    {
+     "id": "2026-W07-0023",
+     "week": 7,
+     "kind": "bet",
+     "tier": "A",
+     "market": "h2h",
+     "title": "Ravens",
+     "bet": "moneyline",
+     "game": "Bengals at Ravens",
+     "kick": "2026-10-25T17:00:00Z",
+     "kick_label": "Sun 10:00 AM PT",
+     "venue": "Novig",
+     "price": "+135",
+     "stake": 7.5,
+     "implied": 42.6,
+     "fair": 46.7,
+     "edge": 9.7,
+     "worst": "+121",
+     "analysis": "Novig at +135 beats Pinnacle's no-vig price (47% to hit), a +9.7% edge right after news broke (QB BAL: Ravens QB Lamar Jackson (ankle) has been downgraded ).",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-10-24T19:36:48Z"
     },
     {
      "id": "2026-W07-0021",
