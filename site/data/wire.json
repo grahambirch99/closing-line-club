@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "at": "2026-10-24T21:00:18.463563+00:00",
+   "kind": "injury",
+   "source": "rapsheet",
+   "text": "\u2014 The Broncos activated RB Jonah Coleman from IR and OLB Jonathon Cooper from the exempt list. \u2014 The 49ers activated WR Christian Kirk to make his debut. \u2014 The Vikings activated RB Jordan Mason off injured reserve to their 53-man roster."
+  },
+  {
+   "at": "2026-10-24T20:51:13.829842+00:00",
+   "kind": "injury",
+   "source": "rotowire",
+   "text": "Christian Kirk: Activated from injured reserve"
+  },
+  {
+   "at": "2026-10-24T20:45:10.814300+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "KaVontae Turpin (DAL WR) status questionable -> out [Ribs]"
+  },
+  {
+   "at": "2026-10-24T20:36:06.232759+00:00",
+   "kind": "injury",
+   "source": "rapsheet",
+   "text": "DeVonta Smith is out, while Saquon Barkley is questionable but expected to play."
+  },
+  {
    "at": "2026-10-24T20:20:30.316396+00:00",
    "kind": "injury",
    "source": "rotowire",
@@ -155,30 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Mike Washington (foot/back) limited Wednesday"
-  },
-  {
-   "at": "2026-10-21T23:31:24.551326+00:00",
-   "kind": "injury",
-   "source": "rotowire",
-   "text": "Brock Bowers: Logs limited practice Wednesday"
-  },
-  {
-   "at": "2026-10-21T23:13:06.245444+00:00",
-   "kind": "injury",
-   "source": "rotowire",
-   "text": "Travis Kelce: Limited Wednesday"
-  },
-  {
-   "at": "2026-10-21T23:09:45.489852+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Travis Kelce (ankle) limited Wednesday"
-  },
-  {
-   "at": "2026-10-21T21:43:42.354574+00:00",
-   "kind": "injury",
-   "source": "rotowire",
-   "text": "Rico Dowdle: Limited by knee Wednesday"
   }
  ]
 }
