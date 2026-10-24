@@ -28,3 +28,4 @@
 {"kind": "injury", "source": "sleeper", "team": "SEA", "player": "Zach Charbonnet", "pos": "RB", "text": "Zach Charbonnet (SEA RB) status questionable -> out [Knee - ACL]", "at": "2026-10-23T20:51:42.118941+00:00"}
 {"kind": "injury", "source": "sleeper", "team": "NYG", "player": "Theo Johnson", "pos": "TE", "text": "Theo Johnson (NYG TE) status questionable -> doubtful [Neck]", "at": "2026-10-23T21:01:16.445670+00:00"}
 {"kind": "injury", "team": "", "player": "Dylan Sampson", "pos": "", "source": "rotowire", "text": "Dylan Sampson: Activated from injured reserve", "at": "2026-10-24T16:56:33.205974+00:00"}
+{"kind": "qb", "team": "BAL", "player": "Lamar Jackson", "pos": "QB", "source": "rapsheet", "text": "Ravens QB Lamar Jackson (ankle) has been downgraded to out for tomorrow\u2019s game vs. the Bengals.", "at": "2026-10-24T19:36:33.991011+00:00"}
