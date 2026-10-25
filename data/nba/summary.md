@@ -10,20 +10,20 @@ Matchup test (research/nba_h2h_forward_PREREG.md, Kalshi taker): 323 bets; grade
 
 | Group | Edges | Avg est. edge | With close | Avg CLV vs Pinnacle (pts) | Beat close |
 |---|---|---|---|---|---|
-| Paper bets | 129 | +6.4% | 93 | +1.09 | 68% |
-| All Tier A/B | 274 | +5.9% | 186 | +1.31 | 71% |
-| Tier A | 165 | +7.5% | 106 | +1.71 | 75% |
+| Paper bets | 129 | +6.4% | 97 | +1.24 | 68% |
+| All Tier A/B | 274 | +5.9% | 194 | +1.43 | 72% |
+| Tier A | 165 | +7.5% | 114 | +1.88 | 75% |
 | Tier B | 109 | +3.4% | 80 | +0.79 | 66% |
-| Tier C (2-3%) | 151 | +2.5% | 103 | +0.83 | 68% |
-| A/B h2h | 2 | +5.4% | 1 | +1.60 | 100% |
-| A/B assists | 102 | +6.7% | 45 | +1.50 | 73% |
-| A/B points | 80 | +5.0% | 75 | +0.91 | 63% |
-| A/B rebounds | 90 | +5.8% | 65 | +1.65 | 78% |
+| Tier C (2-3%) | 151 | +2.5% | 108 | +0.80 | 68% |
+| A/B h2h | 2 | +5.4% | 2 | +1.34 | 100% |
+| A/B assists | 102 | +6.7% | 47 | +1.53 | 74% |
+| A/B points | 80 | +5.0% | 79 | +1.13 | 63% |
+| A/B rebounds | 90 | +5.8% | 66 | +1.72 | 79% |
 
 Independent checks on v2 paper bets (CLV vs Pinnacle mostly restates the starting edge, because Pinnacle's NBA
 prop prices rarely move before tip):
-- Pinnacle fair move, bet to close: -1.66 (n=93, 24% > 0) pts (+ = moved our way)
-- Beat the venue's own closing price: +1.54 (n=120, 28% > 0) pts
+- Pinnacle fair move, bet to close: -1.51 (n=97, 26% > 0) pts (+ = moved our way)
+- Beat the venue's own closing price: +1.66 (n=126, 29% > 0) pts
 - CLV vs Kalshi ladder at tip (independent): +2.71 (n=123, 94% > 0) pts
 - Over share of paper bets: 10%
 
