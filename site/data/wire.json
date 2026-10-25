@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "at": "2026-10-25T15:47:53.002332+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "Olamide Zaccheaus (ATL WR) status questionable -> out [Shoulder]"
+  },
+  {
+   "at": "2026-10-25T15:38:41.175153+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Tyjae Spears officially inactive vs. Browns"
+  },
+  {
    "at": "2026-10-25T15:38:20.304172+00:00",
    "kind": "injury",
    "source": "sleeper",
@@ -167,18 +179,6 @@
    "kind": "injury",
    "source": "sleeper",
    "text": "Cole Kmet (CHI TE) status healthy -> out [Knee]"
-  },
-  {
-   "at": "2026-10-22T23:18:30.289566+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Mike Washington (foot/back) downgrades to DNP"
-  },
-  {
-   "at": "2026-10-22T23:09:06.989246+00:00",
-   "kind": "injury",
-   "source": "rotowire",
-   "text": "Mike Washington: Downgraded to DNP on Thursday"
   }
  ]
 }
