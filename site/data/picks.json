@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T15:55:17Z",
+ "generated_at": "2026-10-25T18:52:38Z",
  "current_week": 7,
  "weeks": [
   {
@@ -85,10 +85,10 @@
      "edge": 4.7,
      "worst": "+163",
      "analysis": "Novig at +167 beats Pinnacle's no-vig price (39% to hit), a +4.7% edge in the Saturday preview.",
-     "status": "pending",
-     "actual": "",
+     "status": "void",
+     "actual": "did not play",
      "clv": null,
-     "units": null,
+     "units": 0.0,
      "posted": "2026-10-24T20:53:32Z"
     },
     {
@@ -110,10 +110,10 @@
      "edge": 3.4,
      "worst": "-105",
      "analysis": "Novig at -104 beats Pinnacle's no-vig price (53% to hit), a +3.4% edge after inactives were announced.",
-     "status": "pending",
-     "actual": "",
+     "status": "void",
+     "actual": "did not play",
      "clv": null,
-     "units": null,
+     "units": 0.0,
      "posted": "2026-10-25T12:04:37Z"
     },
     {
@@ -135,10 +135,10 @@
      "edge": 3.3,
      "worst": "+103",
      "analysis": "Novig at +104 beats Pinnacle's no-vig price (51% to hit), a +3.3% edge after inactives were announced.",
-     "status": "pending",
-     "actual": "",
+     "status": "void",
+     "actual": "did not play",
      "clv": null,
-     "units": null,
+     "units": 0.0,
      "posted": "2026-10-25T12:04:37Z"
     },
     {

@@ -1,12 +1,12 @@
 {
  "summary": {
-  "n": 1,
+  "n": 2,
   "hit": 0,
-  "miss": 1,
-  "units": -0.5,
+  "miss": 2,
+  "units": -1.0,
   "boosted_n": 0,
   "units_boost": 0,
-  "exp_hits": 0.17
+  "exp_hits": 0.34
  },
  "parlays": [
   {
@@ -24,8 +24,8 @@
    "boost": null,
    "payout_boost": null,
    "ev_boost": null,
-   "status": "pending",
-   "units": null,
+   "status": "L",
+   "units": -0.5,
    "units_boost": null,
    "legs": [
     {
@@ -36,8 +36,8 @@
      "fair": 0.561,
      "push": 0,
      "ref": "Pinnacle+Kalshi",
-     "result": null,
-     "actual": null
+     "result": "L",
+     "actual": "14"
     },
     {
      "player": "Max Christie",
@@ -47,8 +47,8 @@
      "fair": 0.555,
      "push": 0,
      "ref": "Kalshi",
-     "result": null,
-     "actual": null
+     "result": "L",
+     "actual": "5"
     },
     {
      "player": "Aaron Gordon",
@@ -58,8 +58,8 @@
      "fair": 0.5552,
      "push": 0,
      "ref": "Pinnacle+Kalshi",
-     "result": null,
-     "actual": null
+     "result": "W",
+     "actual": "7"
     }
    ]
   },

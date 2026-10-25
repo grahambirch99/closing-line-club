@@ -99,6 +99,24 @@
    "week": 7,
    "label": "D'Andre Swift: Under 2.5 receptions",
    "units": 0.14
+  },
+  {
+   "id": "2026-W07-0034",
+   "week": 7,
+   "label": "Kendre Miller: Under 0.5 receptions",
+   "units": 0.14
+  },
+  {
+   "id": "2026-W07-0041",
+   "week": 7,
+   "label": "Jaylen Warren: Under 25.5 receiving yards",
+   "units": 0.14
+  },
+  {
+   "id": "2026-W07-0042",
+   "week": 7,
+   "label": "Juwan Johnson: Over 32.5 receiving yards",
+   "units": 0.14
   }
  ],
  "clv_by_week": [
