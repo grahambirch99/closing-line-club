@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-10-25T17:57:01.906107+00:00",
+   "kind": "injury",
+   "source": "rotowire",
+   "text": "Aaron Rodgers: Limited production in Week 7 win"
+  },
+  {
    "at": "2026-10-25T15:47:53.002332+00:00",
    "kind": "injury",
    "source": "sleeper",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Jordan Mason (thumb) questionable after 3 FPs"
-  },
-  {
-   "at": "2026-10-23T03:31:40.316717+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Cole Kmet (CHI TE) status healthy -> out [Knee]"
   }
  ]
 }
