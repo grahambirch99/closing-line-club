@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T19:20:25Z",
+ "generated_at": "2026-10-25T23:15:15Z",
  "current_week": 7,
  "weeks": [
   {
@@ -965,6 +965,56 @@
      "clv": null,
      "units": null,
      "posted": "2026-10-24T20:53:32Z"
+    },
+    {
+     "id": "2026-W07-0056",
+     "week": 7,
+     "kind": "bet",
+     "tier": "A",
+     "market": "player_receptions",
+     "title": "Tory Horton",
+     "bet": "Over 1.5 receptions",
+     "game": "Chiefs at Seahawks",
+     "kick": "2026-10-26T00:20:00Z",
+     "kick_label": "Sun 5:20 PM PT",
+     "venue": "Novig",
+     "price": "+156",
+     "stake": 5.0,
+     "implied": 39.1,
+     "fair": 41.0,
+     "edge": 4.9,
+     "worst": "+151",
+     "analysis": "Novig at +156 beats Pinnacle's no-vig price (41% to hit), a +4.9% edge after inactives were announced.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-10-25T22:54:28Z"
+    },
+    {
+     "id": "2026-W07-0057",
+     "week": 7,
+     "kind": "bet",
+     "tier": "B",
+     "market": "player_reception_yds",
+     "title": "Xavier Worthy",
+     "bet": "Over 50.5 receiving yards",
+     "game": "Chiefs at Seahawks",
+     "kick": "2026-10-26T00:20:00Z",
+     "kick_label": "Sun 5:20 PM PT",
+     "venue": "Novig",
+     "price": "+108",
+     "stake": 5.0,
+     "implied": 48.1,
+     "fair": 49.9,
+     "edge": 3.8,
+     "worst": "+106",
+     "analysis": "Novig at +108 beats the sharp-book consensus's no-vig price (50% to hit), a +3.8% edge after inactives were announced.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-10-25T22:54:28Z"
     }
    ]
   },
