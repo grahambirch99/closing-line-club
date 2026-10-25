@@ -168,6 +168,17 @@
    "clv": null,
    "beat": null,
    "n_clv": 0
+  },
+  {
+   "type": "Teasers",
+   "w": 0,
+   "l": 0,
+   "p": 0,
+   "units": 0,
+   "roi": null,
+   "clv": null,
+   "beat": null,
+   "n_clv": 0
   }
  ]
 }
