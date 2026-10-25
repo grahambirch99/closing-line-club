@@ -50,3 +50,4 @@
 {"kind": "injury", "team": "", "player": "Aaron Rodgers", "pos": "", "source": "rotowire", "text": "Aaron Rodgers: Limited production in Week 7 win", "at": "2026-10-25T17:57:01.906107+00:00"}
 {"kind": "injury", "team": "", "player": "Tyrone Tracy", "pos": "", "source": "rapsheet", "text": "Giants RB Tyrone Tracy Jr. is questionable to return with a hamstring injury.", "at": "2026-10-25T18:21:41.139138+00:00"}
 {"kind": "injury", "team": "", "player": "Tyrone Tracy", "pos": "", "source": "rapsheet", "text": "Giants RB Tyrone Tracy Jr. is questionable to return with a hamstring injury.", "at": "2026-10-25T18:24:43.691795+00:00"}
+{"kind": "injury", "source": "sleeper", "team": "GB", "player": "Kaleb Johnson", "pos": "RB", "text": "Kaleb Johnson (GB RB) status healthy -> out [Coach's Decision]", "at": "2026-10-25T19:07:46.171561+00:00"}
