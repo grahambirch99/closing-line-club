@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T18:52:38Z",
+ "generated_at": "2026-10-25T19:00:18Z",
  "current_week": 7,
  "weeks": [
   {
@@ -765,6 +765,31 @@
      "clv": null,
      "units": null,
      "posted": "2026-10-24T20:53:32Z"
+    },
+    {
+     "id": "2026-W07-0052",
+     "week": 7,
+     "kind": "bet",
+     "tier": "A",
+     "market": "player_receptions",
+     "title": "Courtland Sutton",
+     "bet": "Over 3.5 receptions",
+     "game": "Broncos at Cardinals",
+     "kick": "2026-10-25T20:05:00Z",
+     "kick_label": "Sun 1:05 PM PT",
+     "venue": "Novig",
+     "price": "+150",
+     "stake": 5.0,
+     "implied": 40.0,
+     "fair": 42.0,
+     "edge": 5.1,
+     "worst": "+145",
+     "analysis": "Novig at +150 beats the sharp-book consensus's no-vig price (42% to hit), a +5.1% edge after inactives were announced.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-10-25T18:39:29Z"
     },
     {
      "id": "2026-W07-0025",
