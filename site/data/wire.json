@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-10-25T21:22:29.020872+00:00",
+   "kind": "injury",
+   "source": "rotowire",
+   "text": "Nico Collins: Limited to six yards in OT loss"
+  },
+  {
    "at": "2026-10-25T19:35:18.819021+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "sleeper",
    "text": "Tyler Warren (IND TE) status questionable -> out [Groin]"
-  },
-  {
-   "at": "2026-10-23T19:59:44.161520+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Emeka Egbuka (TB WR) status questionable -> out [Concussion]"
   }
  ]
 }
