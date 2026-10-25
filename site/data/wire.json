@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-10-25T19:07:46.171561+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "Kaleb Johnson (GB RB) status healthy -> out [Coach's Decision]"
+  },
+  {
    "at": "2026-10-25T18:24:43.691795+00:00",
    "kind": "injury",
    "source": "rapsheet",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Tyjae Spears (knee) pops back on questionable line"
-  },
-  {
-   "at": "2026-10-23T19:59:44.161520+00:00",
-   "kind": "qb",
-   "source": "rotoworld-fb",
-   "text": "Baker Mayfield (thumb) officially questionable"
   }
  ]
 }
