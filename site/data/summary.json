@@ -1,13 +1,13 @@
 {
  "season": {
-  "w": 7,
-  "l": 8,
+  "w": 21,
+  "l": 31,
   "p": 0,
-  "units": 0.14,
-  "roi": 2.2,
-  "clv": -0.26,
-  "beat": 67,
-  "n_clv": 12
+  "units": -1.73,
+  "roi": -5.9,
+  "clv": 0.44,
+  "beat": 69,
+  "n_clv": 49
  },
  "curve": [
   {
@@ -104,19 +104,223 @@
    "id": "2026-W07-0034",
    "week": 7,
    "label": "Kendre Miller: Under 0.5 receptions",
-   "units": 0.14
+   "units": -0.36
   },
   {
    "id": "2026-W07-0041",
    "week": 7,
    "label": "Jaylen Warren: Under 25.5 receiving yards",
-   "units": 0.14
+   "units": -0.86
   },
   {
    "id": "2026-W07-0042",
    "week": 7,
    "label": "Juwan Johnson: Over 32.5 receiving yards",
-   "units": 0.14
+   "units": -1.36
+  },
+  {
+   "id": "2026-W07-0018",
+   "week": 7,
+   "label": "Giants: moneyline",
+   "units": 0.59
+  },
+  {
+   "id": "2026-W07-0021",
+   "week": 7,
+   "label": "Zachariah Branch: Over 1.5 receptions",
+   "units": 0.09
+  },
+  {
+   "id": "2026-W07-0022",
+   "week": 7,
+   "label": "Austin Hooper: Over 0.5 receptions",
+   "units": 0.54
+  },
+  {
+   "id": "2026-W07-0023",
+   "week": 7,
+   "label": "Ravens: moneyline",
+   "units": -0.21
+  },
+  {
+   "id": "2026-W07-0024",
+   "week": 7,
+   "label": "Will Mallory: Under 1.5 receptions",
+   "units": 0.62
+  },
+  {
+   "id": "2026-W07-0028",
+   "week": 7,
+   "label": "Adonai Mitchell: Over 2.5 receptions",
+   "units": 0.12
+  },
+  {
+   "id": "2026-W07-0030",
+   "week": 7,
+   "label": "Devin Singletary: Over 1.5 receptions",
+   "units": 1.12
+  },
+  {
+   "id": "2026-W07-0032",
+   "week": 7,
+   "label": "Jalen Coker: Over 5.5 receptions",
+   "units": 0.37
+  },
+  {
+   "id": "2026-W07-0035",
+   "week": 7,
+   "label": "KC Concepcion: Over 4.5 receptions",
+   "units": 1.2
+  },
+  {
+   "id": "2026-W07-0036",
+   "week": 7,
+   "label": "Zachariah Branch: Under 7.5 receiving yards",
+   "units": 0.45
+  },
+  {
+   "id": "2026-W07-0037",
+   "week": 7,
+   "label": "Harold Fannin Jr.: Over 3.5 receptions",
+   "units": 1.45
+  },
+  {
+   "id": "2026-W07-0038",
+   "week": 7,
+   "label": "Gunnar Helm: Over 2.5 receptions",
+   "units": 2.4
+  },
+  {
+   "id": "2026-W07-0039",
+   "week": 7,
+   "label": "Tez Johnson: Over 2.5 receptions",
+   "units": 1.65
+  },
+  {
+   "id": "2026-W07-0040",
+   "week": 7,
+   "label": "Chris Godwin: Over 4.5 receptions",
+   "units": 0.9
+  },
+  {
+   "id": "2026-W07-0043",
+   "week": 7,
+   "label": "Elic Ayomanor: Under 1.5 receptions",
+   "units": 0.15
+  },
+  {
+   "id": "2026-W07-0044",
+   "week": 7,
+   "label": "Adonai Mitchell: Under 26.5 receiving yards",
+   "units": 0.98
+  },
+  {
+   "id": "2026-W07-0045",
+   "week": 7,
+   "label": "Cade Otton: Under 3.5 receptions",
+   "units": 1.72
+  },
+  {
+   "id": "2026-W07-0046",
+   "week": 7,
+   "label": "Tank Dell: Under 6.5 receiving yards",
+   "units": 1.22
+  },
+  {
+   "id": "2026-W07-0047",
+   "week": 7,
+   "label": "Gunnar Helm: Under 1.5 receptions",
+   "units": 0.72
+  },
+  {
+   "id": "2026-W07-0048",
+   "week": 7,
+   "label": "Tee Higgins: Over 5.5 receptions",
+   "units": 1.54
+  },
+  {
+   "id": "2026-W07-0049",
+   "week": 7,
+   "label": "Mason Taylor: Over 2.5 receptions",
+   "units": 2.08
+  },
+  {
+   "id": "2026-W07-0050",
+   "week": 7,
+   "label": "Brandin Cooks: Under 23.5 receiving yards",
+   "units": 2.61
+  },
+  {
+   "id": "2026-W07-0027",
+   "week": 7,
+   "label": "J.K. Dobbins: Over 1.5 receptions",
+   "units": 2.11
+  },
+  {
+   "id": "2026-W07-0031",
+   "week": 7,
+   "label": "Tyler Allgeier: Over 2.5 receptions",
+   "units": 3.12
+  },
+  {
+   "id": "2026-W07-0052",
+   "week": 7,
+   "label": "Courtland Sutton: Over 3.5 receptions",
+   "units": 2.62
+  },
+  {
+   "id": "2026-W07-0025",
+   "week": 7,
+   "label": "Pierre Strong Jr.: Over 1.5 receptions",
+   "units": 1.88
+  },
+  {
+   "id": "2026-W07-0033",
+   "week": 7,
+   "label": "Kyren Williams: Under 3.5 receptions",
+   "units": 2.77
+  },
+  {
+   "id": "2026-W07-0053",
+   "week": 7,
+   "label": "Jahmyr Gibbs: Over 42.5 receiving yards",
+   "units": 2.02
+  },
+  {
+   "id": "2026-W07-0054",
+   "week": 7,
+   "label": "Kyren Williams: Over 28.5 receiving yards",
+   "units": 1.27
+  },
+  {
+   "id": "2026-W07-0055",
+   "week": 7,
+   "label": "Blake Corum: Over 9.5 receiving yards",
+   "units": 0.77
+  },
+  {
+   "id": "2026-W07-0026",
+   "week": 7,
+   "label": "Jaxon Smith-Njigba: Under 6.5 receptions",
+   "units": 0.02
+  },
+  {
+   "id": "2026-W07-0029",
+   "week": 7,
+   "label": "Rashid Shaheed: Over 2.5 receptions",
+   "units": -0.73
+  },
+  {
+   "id": "2026-W07-0056",
+   "week": 7,
+   "label": "Tory Horton: Over 1.5 receptions",
+   "units": -1.23
+  },
+  {
+   "id": "2026-W07-0057",
+   "week": 7,
+   "label": "Xavier Worthy: Over 50.5 receiving yards",
+   "units": -1.73
   }
  ],
  "clv_by_week": [
@@ -127,21 +331,43 @@
   },
   {
    "week": 7,
-   "clv": 1.6,
-   "n": 2
+   "clv": 0.72,
+   "n": 39
   }
  ],
  "by_type": [
   {
    "type": "Receptions",
-   "w": 6,
-   "l": 6,
+   "w": 17,
+   "l": 20,
    "p": 0,
-   "units": 0.14,
-   "roi": 2.2,
-   "clv": -0.26,
-   "beat": 67,
-   "n_clv": 12
+   "units": 0.45,
+   "roi": 2.1,
+   "clv": 0.71,
+   "beat": 65,
+   "n_clv": 37
+  },
+  {
+   "type": "Receiving yards",
+   "w": 2,
+   "l": 9,
+   "p": 0,
+   "units": -3.39,
+   "roi": -56.5,
+   "clv": -0.34,
+   "beat": 90,
+   "n_clv": 10
+  },
+  {
+   "type": "Game lines",
+   "w": 1,
+   "l": 1,
+   "p": 0,
+   "units": 1.21,
+   "roi": 96.8,
+   "clv": -0.6,
+   "beat": 50,
+   "n_clv": 2
   },
   {
    "type": "Rushing yards",
@@ -155,31 +381,9 @@
    "n_clv": 0
   },
   {
-   "type": "Receiving yards",
-   "w": 0,
-   "l": 1,
-   "p": 0,
-   "units": 0,
-   "roi": null,
-   "clv": null,
-   "beat": null,
-   "n_clv": 0
-  },
-  {
    "type": "Kicking points",
    "w": 0,
    "l": 1,
-   "p": 0,
-   "units": 0,
-   "roi": null,
-   "clv": null,
-   "beat": null,
-   "n_clv": 0
-  },
-  {
-   "type": "Game lines",
-   "w": 0,
-   "l": 0,
    "p": 0,
    "units": 0,
    "roi": null,

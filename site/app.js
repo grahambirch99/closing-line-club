@@ -51,8 +51,8 @@
 
   function ticket(p) {
     const st = p.status === "pending" ? "open" : p.status;
-    const tierTag = p.kind === "nba" ? `<span class="tag T">Paper</span>${p.retired ? '<span class="tag">Retired v1 rules</span>' : p.rules === "h2h" ? '<span class="tag">Matchup test</span>' : p.tier === "A" ? '<span class="tag A">Strong</span>' : ""}`
-      : p.kind === "paper" ? '<span class="tag">Paper</span>'
+    const tierTag = p.kind === "nba" ? `<span class="tag T">Paper</span>${p.conflict ? '<span class="tag">Conflicts with an earlier bet: not a pick</span>' : ""}${p.retired ? '<span class="tag">Retired v1 rules</span>' : p.rules === "h2h" ? '<span class="tag">Matchup test</span>' : p.tier === "A" ? '<span class="tag A">Strong</span>' : ""}`
+      : p.kind === "paper" ? `<span class="tag">Paper</span>${p.system ? `<span class="tag">${esc(p.system)}</span>` : ""}`
       : p.kind === "teaser" ? '<span class="tag T">Teaser</span>'
       : p.tier === "A" ? '<span class="tag A">Strong</span>' : p.tier === "B" ? '<span class="tag">Value</span>' : "";
     const stake = p.stake ? `${+(p.stake / 10).toFixed(2)}u` : "";

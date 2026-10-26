@@ -110,7 +110,8 @@
      "units": 0.707,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-5fa2793b9b",
@@ -137,7 +138,8 @@
      "units": 0.882,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-fd1a0f09d5",
@@ -164,7 +166,8 @@
      "units": 0.804,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-f1f2c9ee26",
@@ -191,7 +194,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-481df65edf",
@@ -218,7 +222,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-7d253b45e8",
@@ -245,7 +250,8 @@
      "units": 0.521,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-80c8830fff",
@@ -272,7 +278,8 @@
      "units": -0.75,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-8a961140fa",
@@ -299,7 +306,8 @@
      "units": 0.953,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-c8a96cef5d",
@@ -326,7 +334,8 @@
      "units": 0.69,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-555e5a4921",
@@ -353,7 +362,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-52305579f2",
@@ -380,7 +390,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-120955be09",
@@ -407,7 +418,8 @@
      "units": 0.352,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-b53d780a4f",
@@ -434,7 +446,8 @@
      "units": 0.382,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-8dc7e7aa09",
@@ -461,7 +474,8 @@
      "units": 0.525,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-70792535e6",
@@ -488,7 +502,8 @@
      "units": 0.545,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-8d0bbecc52",
@@ -515,7 +530,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-2c29dc16f4",
@@ -542,7 +558,8 @@
      "units": 0.57,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-e7deef7dda",
@@ -569,7 +586,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-841180a272",
@@ -596,7 +614,8 @@
      "units": 0.298,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-913f41cc19",
@@ -623,7 +642,8 @@
      "units": 0.73,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-2d2837c908",
@@ -650,7 +670,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-3ae60c9022",
@@ -677,7 +698,8 @@
      "units": 0.595,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-e4a26a30c1",
@@ -704,7 +726,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-384b4ccbe6",
@@ -731,7 +754,8 @@
      "units": 1.764,
      "posted": "2026-10-25T21:10:07Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-a09ae7837f",
@@ -758,7 +782,8 @@
      "units": 0.521,
      "posted": "2026-10-25T21:10:07Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-ee6c188ca0",
@@ -785,7 +810,8 @@
      "units": -0.5,
      "posted": "2026-10-25T21:10:07Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-a14e9889d4",
@@ -812,7 +838,8 @@
      "units": 0.97,
      "posted": "2026-10-25T21:10:07Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-a2715f9376",
@@ -839,7 +866,8 @@
      "units": 0.904,
      "posted": "2026-10-25T21:10:07Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-0f88ae7a10",
@@ -866,7 +894,8 @@
      "units": 0.772,
      "posted": "2026-10-25T21:10:07Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-cdc18c2c5c",
@@ -893,7 +922,8 @@
      "units": 0.708,
      "posted": "2026-10-25T21:10:07Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-3e86baf24c",
@@ -920,7 +950,8 @@
      "units": -0.75,
      "posted": "2026-10-25T21:10:07Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-27d84e50dc",
@@ -947,7 +978,8 @@
      "units": 0.307,
      "posted": "2026-10-25T21:10:07Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-51586d3f8a",
@@ -974,7 +1006,8 @@
      "units": 0.382,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-b7202b8606",
@@ -1001,7 +1034,8 @@
      "units": 0.397,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-f1e73bbd2e",
@@ -1028,7 +1062,8 @@
      "units": 0.311,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-cf4a421f6e",
@@ -1055,7 +1090,8 @@
      "units": 0.485,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-2c3b7ee093",
@@ -1082,7 +1118,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-f176528bf5",
@@ -1109,7 +1146,8 @@
      "units": 0.67,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-af72726cdd",
@@ -1136,7 +1174,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-7c3e835ccf",
@@ -1163,7 +1202,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-36d7cbd273",
@@ -1190,7 +1230,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-3f6f35172b",
@@ -1217,7 +1258,8 @@
      "units": 0.286,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-cc05f877f0",
@@ -1244,7 +1286,8 @@
      "units": 1.617,
      "posted": "2026-10-25T22:00:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-cd828a858d",
@@ -1271,7 +1314,8 @@
      "units": -0.5,
      "posted": "2026-10-25T22:00:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-596d092217",
@@ -1298,7 +1342,8 @@
      "units": 1.103,
      "posted": "2026-10-25T22:00:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-b20ed4b057",
@@ -1325,7 +1370,8 @@
      "units": -0.75,
      "posted": "2026-10-25T22:00:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-e6f7446ad7",
@@ -1352,7 +1398,8 @@
      "units": 0.772,
      "posted": "2026-10-25T22:00:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-ecec74f2c8",
@@ -1379,7 +1426,8 @@
      "units": 0.955,
      "posted": "2026-10-25T22:00:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-671d8e6a0b",
@@ -1406,7 +1454,8 @@
      "units": -0.75,
      "posted": "2026-10-25T22:00:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-f0a07cedd4",
@@ -1433,7 +1482,8 @@
      "units": -0.75,
      "posted": "2026-10-25T22:00:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-7314052f73",
@@ -1460,7 +1510,8 @@
      "units": -0.5,
      "posted": "2026-10-25T22:00:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-19ccd7d1ca",
@@ -1487,7 +1538,8 @@
      "units": 0.24,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-8c27ac49ee",
@@ -1514,7 +1566,8 @@
      "units": 0.485,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-e963efafdf",
@@ -1541,7 +1594,8 @@
      "units": 0.485,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-cbbfe7c817",
@@ -1568,7 +1622,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-1d3cd5f1e1",
@@ -1595,7 +1650,8 @@
      "units": 0.172,
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-cf1c2096f6",
@@ -1622,7 +1678,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-5667a92f49",
@@ -1649,7 +1706,8 @@
      "units": 0.172,
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-407c32d7d3",
@@ -1676,7 +1734,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-32da2d0467",
@@ -1703,7 +1762,8 @@
      "units": 0.645,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-96dd115d19",
@@ -1730,7 +1790,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-f202b62a08",
@@ -1757,7 +1818,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-83ee988a35",
@@ -1784,7 +1846,8 @@
      "units": 0.352,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-04aa2cbfb3",
@@ -1811,7 +1874,8 @@
      "units": 0.286,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-e07f611729",
@@ -1838,7 +1902,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-383e8a4ab5",
@@ -1865,7 +1930,8 @@
      "units": 0.325,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-9046d2820d",
@@ -1892,7 +1958,8 @@
      "units": 0.431,
      "posted": "2026-10-25T21:10:06Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-e0ef0cf9d2",
@@ -1919,7 +1986,8 @@
      "units": 0.76,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-882370efe7",
@@ -1946,7 +2014,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-249d2c8161",
@@ -1973,7 +2042,8 @@
      "units": -0.5,
      "posted": "2026-10-25T22:10:13Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-9a8403bc55",
@@ -2000,7 +2070,8 @@
      "units": -0.5,
      "posted": "2026-10-25T22:10:13Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-3aec78e014",
@@ -2027,7 +2098,8 @@
      "units": 0.953,
      "posted": "2026-10-25T22:10:13Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-8c60624c40",
@@ -2054,7 +2126,8 @@
      "units": -0.5,
      "posted": "2026-10-25T22:10:13Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-41f940daa2",
@@ -2081,7 +2154,8 @@
      "units": -0.75,
      "posted": "2026-10-25T22:10:13Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-a033c59f4f",
@@ -2108,7 +2182,8 @@
      "units": -0.75,
      "posted": "2026-10-25T22:10:13Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-0ff76ea756",
@@ -2135,7 +2210,8 @@
      "units": 0.926,
      "posted": "2026-10-25T22:10:13Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-25b37a8e3b",
@@ -2162,7 +2238,8 @@
      "units": -0.75,
      "posted": "2026-10-25T22:10:13Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-55eca7f5f6",
@@ -2189,7 +2266,8 @@
      "units": -0.5,
      "posted": "2026-10-25T22:10:13Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-cb1176e29e",
@@ -2216,7 +2294,8 @@
      "units": 0.45,
      "posted": "2026-10-25T22:10:13Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-013b964faf",
@@ -2243,7 +2322,8 @@
      "units": 0.076,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-78d7954d45",
@@ -2270,7 +2350,8 @@
      "units": 0.229,
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-a1eb25b483",
@@ -2297,7 +2378,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-a21cb4dc3e",
@@ -2324,7 +2406,8 @@
      "units": 0.365,
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-612b7f17cc",
@@ -2351,7 +2434,8 @@
      "units": 0.262,
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-dba911b011",
@@ -2378,7 +2462,8 @@
      "units": 0.397,
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-234bb9bc57",
@@ -2405,7 +2490,8 @@
      "units": 0.19,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-ebe786397f",
@@ -2432,7 +2518,8 @@
      "units": 0.298,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-7dbb5917fd",
@@ -2459,7 +2546,8 @@
      "units": 0.446,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-222ba4bbec",
@@ -2486,7 +2574,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-e7f97dcd3d",
@@ -2513,7 +2602,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-022352fb4e",
@@ -2540,7 +2630,8 @@
      "units": 0.0,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-74341d8462",
@@ -2567,7 +2658,8 @@
      "units": 0.352,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-637f4e5792",
@@ -2594,7 +2686,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-91b2f56f64",
@@ -2621,7 +2714,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-6db6fa0a1d",
@@ -2648,7 +2742,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-3635d929f0",
@@ -2675,7 +2770,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-5dba4d968c",
@@ -2702,7 +2798,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-08d718d82e",
@@ -2729,7 +2826,8 @@
      "units": 0.413,
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-434014b1f7",
@@ -2756,7 +2854,8 @@
      "units": 0.298,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-fcc93666ae",
@@ -2783,7 +2882,8 @@
      "units": 0.446,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-b141b0f467",
@@ -2810,7 +2910,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-e6bea186ec",
@@ -2837,7 +2938,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-4bb59de4dd",
@@ -2864,7 +2966,8 @@
      "units": 0.73,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-1f83e0ff9e",
@@ -2891,7 +2994,8 @@
      "units": 0.19,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-2ab08715c8",
@@ -2918,7 +3022,8 @@
      "units": 0.338,
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-928b67ce73",
@@ -2945,7 +3050,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-1e07079f2e",
@@ -2972,7 +3078,8 @@
      "units": 0.273,
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-04f5370b8d",
@@ -2999,7 +3106,8 @@
      "units": 0.229,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-a8dda34ee9",
@@ -3026,7 +3134,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-7bb935d4f9",
@@ -3053,7 +3162,8 @@
      "units": 0.467,
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-d88d6122f8",
@@ -3080,7 +3190,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-cca86bce48",
@@ -3107,7 +3218,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-41f4934cc4",
@@ -3134,7 +3246,8 @@
      "units": 0.83,
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-b7f1f8dc3f",
@@ -3161,7 +3274,8 @@
      "units": 0.338,
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-57520b76bf",
@@ -3188,7 +3302,8 @@
      "units": 0.485,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-0649b21e11",
@@ -3215,7 +3330,8 @@
      "units": 0.62,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-98aa774c04",
@@ -3242,7 +3358,8 @@
      "units": 0.7,
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-88eafea4a9",
@@ -3269,7 +3386,8 @@
      "units": 0.365,
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-b4106b2cf8",
@@ -3296,7 +3414,8 @@
      "units": 0.7,
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-71ec337df6",
@@ -3323,7 +3442,8 @@
      "units": -0.5,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-694a60cc78",
@@ -3350,7 +3470,8 @@
      "units": 0.99,
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-62f49e5f7c",
@@ -3377,7 +3498,8 @@
      "units": 0.67,
      "posted": "2026-10-25T22:40:16Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-d9826b7620",
@@ -3404,7 +3526,8 @@
      "units": 0.83,
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-9f59fd3d9f",
@@ -3431,7 +3554,8 @@
      "units": 0.51,
      "posted": "2026-10-25T22:40:17Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-731223cce2",
@@ -3458,7 +3582,8 @@
      "units": 0.267,
      "posted": "2026-10-25T22:40:17Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-8b4a5190d1",
@@ -3485,7 +3610,8 @@
      "units": -0.75,
      "posted": "2026-10-25T22:40:17Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-804c4a48b1",
@@ -3512,7 +3638,8 @@
      "units": null,
      "posted": "2026-10-25T22:40:17Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-326cee1c2b",
@@ -3539,7 +3666,8 @@
      "units": 0.0,
      "posted": "2026-10-25T22:40:17Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-176a4168dc",
@@ -3566,7 +3694,8 @@
      "units": -0.5,
      "posted": "2026-10-25T22:40:17Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-f93fb32c58",
@@ -3593,7 +3722,8 @@
      "units": 0.0,
      "posted": "2026-10-25T21:10:06Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-fa074af2ae",
@@ -3620,7 +3750,8 @@
      "units": 0.352,
      "posted": "2026-10-25T21:10:06Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-04e72957a2",
@@ -3647,7 +3778,8 @@
      "units": 0.298,
      "posted": "2026-10-25T21:10:06Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-21e9a32ec8",
@@ -3674,7 +3806,8 @@
      "units": 0.485,
      "posted": "2026-10-25T21:10:06Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-fbbc54732f",
@@ -3701,7 +3834,8 @@
      "units": -0.5,
      "posted": "2026-10-25T21:10:06Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-16fb91b2dd",
@@ -3728,7 +3862,8 @@
      "units": 0.325,
      "posted": "2026-10-25T22:40:16Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-058399952b",
@@ -3755,7 +3890,8 @@
      "units": -0.5,
      "posted": "2026-10-25T21:10:06Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-64c4a1e2da",
@@ -3782,7 +3918,8 @@
      "units": 0.229,
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-fa96e8c013",
@@ -3809,7 +3946,8 @@
      "units": 0.76,
      "posted": "2026-10-25T21:10:06Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-01133a294b",
@@ -3836,7 +3974,8 @@
      "units": -0.5,
      "posted": "2026-10-25T21:10:06Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-f36cd8e845",
@@ -3863,7 +4002,8 @@
      "units": 0.311,
      "posted": "2026-10-25T22:40:16Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-6343d088bf",
@@ -3890,7 +4030,8 @@
      "units": -0.5,
      "posted": "2026-10-25T21:10:06Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-c309c24104",
@@ -3917,7 +4058,8 @@
      "units": null,
      "posted": "2026-10-25T21:10:06Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-c3b8d2110f",
@@ -3944,7 +4086,8 @@
      "units": 0.286,
      "posted": "2026-10-25T22:40:16Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-c124945ad0",
@@ -3971,7 +4114,8 @@
      "units": 0.843,
      "posted": "2026-10-26T00:00:26Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-b4833479d6",
@@ -3998,7 +4142,8 @@
      "units": -0.75,
      "posted": "2026-10-26T00:00:26Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-4de11e6a4e",
@@ -4025,7 +4170,8 @@
      "units": 0.694,
      "posted": "2026-10-26T00:00:26Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-d48f1c15fc",
@@ -4052,7 +4198,8 @@
      "units": -0.5,
      "posted": "2026-10-26T00:00:26Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-1ec0eb2a82",
@@ -4079,7 +4226,8 @@
      "units": null,
      "posted": "2026-10-26T00:00:26Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-3516dc7619",
@@ -4106,7 +4254,8 @@
      "units": 0.941,
      "posted": "2026-10-26T00:00:26Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-78c008d014",
@@ -4133,7 +4282,8 @@
      "units": -0.75,
      "posted": "2026-10-26T00:00:26Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-e85380b922",
@@ -4160,7 +4310,8 @@
      "units": -0.75,
      "posted": "2026-10-26T00:00:26Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-e3c73fe6dd",
@@ -4187,7 +4338,8 @@
      "units": -0.5,
      "posted": "2026-10-26T00:00:26Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-9f22de68f0",
@@ -4214,7 +4366,8 @@
      "units": -0.5,
      "posted": "2026-10-26T00:00:26Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-410593d4f7",
@@ -4241,7 +4394,8 @@
      "units": 0.043,
      "posted": "2026-10-26T00:00:26Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-55dbcf5c5a",
@@ -4268,7 +4422,8 @@
      "units": 0.298,
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-bdc33a38bd",
@@ -4295,7 +4450,8 @@
      "units": null,
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-21ed55bd3a",
@@ -4322,7 +4478,8 @@
      "units": -0.5,
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-74caa7e82c",
@@ -4349,7 +4506,8 @@
      "units": 0.397,
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-b15810cf4a",
@@ -4376,7 +4534,8 @@
      "units": -0.5,
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-4aff75c33f",
@@ -4403,7 +4562,8 @@
      "units": 0.76,
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-e73dfe226c",
@@ -4430,7 +4590,8 @@
      "units": -0.5,
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-c92e6d6a9c",
@@ -4457,7 +4618,8 @@
      "units": null,
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-bd10376562",
@@ -4484,7 +4646,8 @@
      "units": null,
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-dd7609a50a",
@@ -4511,7 +4674,8 @@
      "units": 0.865,
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     }
    ]
   },
@@ -4554,7 +4718,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-7e6e70cd0a",
@@ -4581,7 +4746,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-816c12ded4",
@@ -4608,7 +4774,8 @@
      "units": 1.0,
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-30648a2c84",
@@ -4635,7 +4802,8 @@
      "units": 0.774,
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-e0bd0e6ca3",
@@ -4662,7 +4830,8 @@
      "units": 0.645,
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-8a8e09e4da",
@@ -4689,7 +4858,8 @@
      "units": 0.755,
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-27b4592516",
@@ -4716,7 +4886,8 @@
      "units": -0.75,
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-e7928a2ba3",
@@ -4743,7 +4914,8 @@
      "units": 0.469,
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-9a583c1fda",
@@ -4770,7 +4942,8 @@
      "units": -0.75,
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-ac914ca009",
@@ -4797,7 +4970,8 @@
      "units": 0.564,
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-baeca08ce8",
@@ -4824,7 +4998,8 @@
      "units": 0.755,
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-bd1f793a41",
@@ -4851,7 +5026,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-d17c6dcf37",
@@ -4878,7 +5054,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-5c1516357d",
@@ -4905,7 +5082,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-4580691504",
@@ -4932,7 +5110,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-9b5890064c",
@@ -4959,7 +5138,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-b561390129",
@@ -4986,7 +5166,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-fa8484d150",
@@ -5013,7 +5194,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-f751d24730",
@@ -5040,7 +5222,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-7c2bbbabd2",
@@ -5067,7 +5250,8 @@
      "units": 0.397,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-29d13b5fe4",
@@ -5094,7 +5278,8 @@
      "units": 0.62,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-032cd7683d",
@@ -5121,7 +5306,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-1fef644ba9",
@@ -5148,7 +5334,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-71d63563dc",
@@ -5175,7 +5362,8 @@
      "units": 0.76,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-e46dbec984",
@@ -5202,7 +5390,8 @@
      "units": 0.595,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-5dba61981d",
@@ -5229,7 +5418,8 @@
      "units": 0.325,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-7614c9e89b",
@@ -5256,7 +5446,8 @@
      "units": 0.505,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-0b76f88614",
@@ -5283,7 +5474,8 @@
      "units": 0.57,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-95bd00e939",
@@ -5310,7 +5502,8 @@
      "units": 0.431,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-462ce7fc29",
@@ -5337,7 +5530,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-0f5912e587",
@@ -5364,7 +5558,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-065e8ab43b",
@@ -5391,7 +5586,8 @@
      "units": -0.5,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-4fe08d74d6",
@@ -5418,7 +5614,8 @@
      "units": 1.935,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-07ff7d9ca6",
@@ -5445,7 +5642,8 @@
      "units": 1.103,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-5a8ab34e78",
@@ -5472,7 +5670,8 @@
      "units": 0.902,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-33072c1e85",
@@ -5499,7 +5698,8 @@
      "units": 0.97,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-960c85cb58",
@@ -5526,7 +5726,8 @@
      "units": -0.5,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-3dd7e2a4a4",
@@ -5553,7 +5754,8 @@
      "units": -0.75,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-f1ca830e17",
@@ -5580,7 +5782,8 @@
      "units": -0.75,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-773b68fa79",
@@ -5607,7 +5810,8 @@
      "units": -0.75,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-c8ce2e26bb",
@@ -5634,7 +5838,8 @@
      "units": 0.472,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-b5ee4bd623",
@@ -5661,7 +5866,8 @@
      "units": -0.5,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-5d3cdb24a0",
@@ -5688,7 +5894,8 @@
      "units": -0.5,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-16ef465c4c",
@@ -5715,7 +5922,8 @@
      "units": -0.5,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-daf9e08377",
@@ -5742,7 +5950,8 @@
      "units": -0.5,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-f2911add0a",
@@ -5769,7 +5978,8 @@
      "units": 0.575,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-b7e694fb58",
@@ -5796,7 +6006,8 @@
      "units": 0.437,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-dc5e1f6cde",
@@ -5823,7 +6034,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-4128b69651",
@@ -5850,7 +6062,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-af51326e81",
@@ -5877,7 +6090,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-2c8cc6ce11",
@@ -5904,7 +6118,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-624ada899f",
@@ -5931,7 +6146,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-9a1b1129de",
@@ -5958,7 +6174,8 @@
      "units": 0.413,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-59438be45c",
@@ -5985,7 +6202,8 @@
      "units": 0.431,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-aebf0bc45c",
@@ -6012,7 +6230,8 @@
      "units": 0.311,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-8505f353b2",
@@ -6039,7 +6258,8 @@
      "units": 0.24,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-077a13e32a",
@@ -6066,7 +6286,8 @@
      "units": 0.338,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-9154157349",
@@ -6093,7 +6314,8 @@
      "units": 0.505,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-b278fb3bb0",
@@ -6120,7 +6342,8 @@
      "units": 0.338,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-b188845a02",
@@ -6147,7 +6370,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-eca69d29cb",
@@ -6174,7 +6398,8 @@
      "units": 0.397,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-c3c66b3086",
@@ -6201,7 +6426,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-419ac72bb7",
@@ -6228,7 +6454,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-8f913422b5",
@@ -6255,7 +6482,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-7032513b85",
@@ -6282,7 +6510,8 @@
      "units": 0.325,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-baaa8d8f45",
@@ -6309,7 +6538,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-6a603f7a7d",
@@ -6336,7 +6566,8 @@
      "units": 0.62,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-17dd035719",
@@ -6363,7 +6594,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-cc971da0a5",
@@ -6390,7 +6622,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-26110dd6a7",
@@ -6417,7 +6650,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-126f968b44",
@@ -6444,7 +6678,8 @@
      "units": 0.352,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-04c03cd656",
@@ -6471,7 +6706,8 @@
      "units": 0.505,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-861fae1a52",
@@ -6498,7 +6734,8 @@
      "units": 0.73,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-7ff78a1245",
@@ -6525,7 +6762,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-1e53cb383a",
@@ -6552,7 +6790,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-01f327d8bf",
@@ -6579,7 +6818,8 @@
      "units": 0.7,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-2b1c2dba2b",
@@ -6606,7 +6846,8 @@
      "units": -0.5,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-18d1a51982",
@@ -6633,7 +6874,8 @@
      "units": 0.67,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-bf1b1549ff",
@@ -6660,7 +6902,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-c858fe1765",
@@ -6687,7 +6930,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-f9ba9bb7db",
@@ -6714,7 +6958,8 @@
      "units": 0.545,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-995093e07d",
@@ -6741,7 +6986,8 @@
      "units": -0.5,
      "posted": "2026-10-24T23:40:15Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-5320bd6195",
@@ -6768,7 +7014,8 @@
      "units": -0.5,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-3ae67e4f93",
@@ -6795,7 +7042,8 @@
      "units": -0.5,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-fb422542d8",
@@ -6822,7 +7070,8 @@
      "units": -0.75,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-198164f188",
@@ -6849,7 +7098,8 @@
      "units": -0.5,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-c87d9f0409",
@@ -6876,7 +7126,8 @@
      "units": -0.5,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-b924637f86",
@@ -6903,7 +7154,8 @@
      "units": 0.892,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-5db5512313",
@@ -6930,7 +7182,8 @@
      "units": 0.902,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-039fcd0bb3",
@@ -6957,7 +7210,8 @@
      "units": -0.75,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-bc258b82d2",
@@ -6984,7 +7238,8 @@
      "units": 0.735,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-daa6d3f997",
@@ -7011,7 +7266,8 @@
      "units": -0.5,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-20c736905a",
@@ -7038,7 +7294,8 @@
      "units": 0.938,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-68fe22c619",
@@ -7065,7 +7322,8 @@
      "units": 0.532,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-7d750998b7",
@@ -7092,7 +7350,8 @@
      "units": -0.75,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-21b84518f2",
@@ -7119,7 +7378,8 @@
      "units": -0.75,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-5cfba805cc",
@@ -7146,7 +7406,8 @@
      "units": -0.75,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-b1559f6440",
@@ -7173,7 +7434,8 @@
      "units": -0.75,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-e6655753a4",
@@ -7200,7 +7462,8 @@
      "units": -0.5,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-d5d83aee4a",
@@ -7227,7 +7490,8 @@
      "units": -0.75,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-c5f6fb7791",
@@ -7254,7 +7518,8 @@
      "units": -0.5,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-e1cf08124b",
@@ -7281,7 +7546,8 @@
      "units": 0.657,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-4595c130a5",
@@ -7308,7 +7574,8 @@
      "units": 0.559,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-43e8312cc4",
@@ -7335,7 +7602,8 @@
      "units": 0.45,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-c4d17f5ca5",
@@ -7362,7 +7630,8 @@
      "units": -0.5,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-3b81ee1a2b",
@@ -7389,7 +7658,8 @@
      "units": 0.311,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-17dc2951fa",
@@ -7416,7 +7686,8 @@
      "units": 0.325,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-76ff37bb25",
@@ -7443,7 +7714,8 @@
      "units": 0.467,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-657dba56db",
@@ -7470,7 +7742,8 @@
      "units": 0.338,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-f460bb2a77",
@@ -7497,7 +7770,8 @@
      "units": 0.262,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-e0275bb399",
@@ -7524,7 +7798,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-e1670b882d",
@@ -7551,7 +7826,8 @@
      "units": 0.467,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-d2bfedd5ff",
@@ -7578,7 +7854,8 @@
      "units": 0.485,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-2fe1afd1d8",
@@ -7605,7 +7882,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-bd0ca8d25c",
@@ -7632,7 +7910,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-d122bdef19",
@@ -7659,7 +7938,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-df9f85e90a",
@@ -7686,7 +7966,8 @@
      "units": 0.251,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-1ff2e27880",
@@ -7713,7 +7994,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-9b22726e0d",
@@ -7740,7 +8022,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-0136ed1a11",
@@ -7767,7 +8050,8 @@
      "units": 0.67,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-39f6cf33b1",
@@ -7794,7 +8078,8 @@
      "units": 0.62,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-a821477625",
@@ -7821,7 +8106,8 @@
      "units": -0.5,
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-02eee60c8d",
@@ -7848,7 +8134,8 @@
      "units": 0.73,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-037448c721",
@@ -7875,7 +8162,8 @@
      "units": -0.5,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-6311e3db3d",
@@ -7902,7 +8190,8 @@
      "units": -0.5,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-8cb723f476",
@@ -7929,7 +8218,8 @@
      "units": 0.505,
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-89daf7f690",
@@ -7956,7 +8246,8 @@
      "units": 0.83,
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-bd46cf9cea",
@@ -7983,7 +8274,8 @@
      "units": 0.311,
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-96764e19a4",
@@ -8010,7 +8302,8 @@
      "units": -0.5,
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-164fd90005",
@@ -8037,7 +8330,8 @@
      "units": -0.75,
      "posted": "2026-10-24T23:40:16Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-51245e767a",
@@ -8064,7 +8358,8 @@
      "units": -0.75,
      "posted": "2026-10-24T23:40:16Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-e3f6c7add5",
@@ -8091,7 +8386,8 @@
      "units": -0.75,
      "posted": "2026-10-24T23:40:16Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-27a7fa728f",
@@ -8118,7 +8414,8 @@
      "units": -0.5,
      "posted": "2026-10-24T23:40:16Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-dbafa5cc89",
@@ -8145,7 +8442,8 @@
      "units": -0.75,
      "posted": "2026-10-24T23:40:16Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-642258c4db",
@@ -8172,7 +8470,8 @@
      "units": 0.904,
      "posted": "2026-10-24T23:40:16Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-9eb8b64118",
@@ -8199,7 +8498,8 @@
      "units": -0.5,
      "posted": "2026-10-24T23:40:16Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-a3f20e7327",
@@ -8226,7 +8526,8 @@
      "units": -0.75,
      "posted": "2026-10-24T23:40:16Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-1e4a730d27",
@@ -8253,7 +8554,8 @@
      "units": -0.5,
      "posted": "2026-10-24T23:40:16Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-f7f4796344",
@@ -8280,7 +8582,8 @@
      "units": -0.5,
      "posted": "2026-10-24T23:40:16Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-6be4255456",
@@ -8307,7 +8610,8 @@
      "units": 0.383,
      "posted": "2026-10-24T23:40:16Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-736e8787cd",
@@ -8334,7 +8638,8 @@
      "units": -0.5,
      "posted": "2026-10-24T23:40:16Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-1764a84a5e",
@@ -8361,7 +8666,8 @@
      "units": 0.365,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-cf90ae55af",
@@ -8388,7 +8694,8 @@
      "units": -0.5,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-289d720f16",
@@ -8415,7 +8722,8 @@
      "units": 0.298,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-1a7de0e6ae",
@@ -8442,7 +8750,8 @@
      "units": -0.5,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-ddbe9d57d1",
@@ -8469,7 +8778,8 @@
      "units": 0.311,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-17b90224d6",
@@ -8496,7 +8806,8 @@
      "units": 0.485,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-1545b1acb5",
@@ -8523,7 +8834,8 @@
      "units": -0.5,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-154de57980",
@@ -8550,7 +8862,8 @@
      "units": -0.5,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-eeed8d6133",
@@ -8577,7 +8890,8 @@
      "units": -0.5,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-f5ec0ff41f",
@@ -8604,7 +8918,8 @@
      "units": 0.73,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-f40deb2598",
@@ -8631,7 +8946,8 @@
      "units": 0.7,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-acfc1412c8",
@@ -8658,7 +8974,8 @@
      "units": -0.5,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-faaddde6cd",
@@ -8685,7 +9002,8 @@
      "units": 0.67,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-2493866494",
@@ -8712,7 +9030,8 @@
      "units": 0.311,
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-931643f4f5",
@@ -8739,7 +9058,8 @@
      "units": 0.382,
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-e78c9e5ad4",
@@ -8766,7 +9086,8 @@
      "units": 0.446,
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-b70506305b",
@@ -8793,7 +9114,8 @@
      "units": 0.62,
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-f81d4a1897",
@@ -8820,7 +9142,8 @@
      "units": 0.251,
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-0122abf32c",
@@ -8847,7 +9170,8 @@
      "units": -0.5,
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-39f222c8bb",
@@ -8874,7 +9198,8 @@
      "units": 0.795,
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-d746725c54",
@@ -8901,7 +9226,8 @@
      "units": 0.75,
      "posted": "2026-10-25T00:10:20Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-4a98bff0a6",
@@ -8928,7 +9254,8 @@
      "units": 0.975,
      "posted": "2026-10-25T00:10:20Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-2aba8da685",
@@ -8955,7 +9282,8 @@
      "units": -0.75,
      "posted": "2026-10-25T00:10:20Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-58f933e258",
@@ -8982,7 +9310,8 @@
      "units": 1.088,
      "posted": "2026-10-25T00:10:20Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-e456eb4b8e",
@@ -9009,7 +9338,8 @@
      "units": -0.75,
      "posted": "2026-10-25T00:10:20Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-8ee0d8a58a",
@@ -9036,7 +9366,8 @@
      "units": 0.833,
      "posted": "2026-10-25T00:10:20Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-639238181f",
@@ -9063,7 +9394,8 @@
      "units": 0.262,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-58653460a1",
@@ -9090,7 +9422,8 @@
      "units": 0.273,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-2795dc5261",
@@ -9117,7 +9450,8 @@
      "units": 0.286,
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-596f6ae562",
@@ -9144,7 +9478,8 @@
      "units": 0.325,
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-4f67ea1636",
@@ -9171,7 +9506,8 @@
      "units": 0.338,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-42c8d37d7b",
@@ -9198,7 +9534,8 @@
      "units": 0.229,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-70ced09a3f",
@@ -9225,7 +9562,8 @@
      "units": 0.325,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-c79714fc36",
@@ -9252,7 +9590,8 @@
      "units": -0.5,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-68d2f6962c",
@@ -9279,7 +9618,8 @@
      "units": -0.5,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-5f6c24dc88",
@@ -9306,7 +9646,8 @@
      "units": 0.209,
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-b375b27277",
@@ -9333,7 +9674,8 @@
      "units": 0.505,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-004113e59a",
@@ -9360,7 +9702,8 @@
      "units": 0.298,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-20b3377e01",
@@ -9387,7 +9730,8 @@
      "units": 0.525,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-42f578d9ff",
@@ -9414,7 +9758,8 @@
      "units": 0.7,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-e6b087e54f",
@@ -9441,7 +9786,8 @@
      "units": 0.83,
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-9bbed1e63c",
@@ -9468,7 +9814,8 @@
      "units": 0.67,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-28dc20c4dd",
@@ -9495,7 +9842,8 @@
      "units": -0.5,
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-a06d8cd07e",
@@ -9522,7 +9870,8 @@
      "units": -0.5,
      "posted": "2026-10-25T01:10:05Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-3a223d6bef",
@@ -9549,7 +9898,8 @@
      "units": 1.014,
      "posted": "2026-10-25T01:10:05Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-54505fc517",
@@ -9576,7 +9926,8 @@
      "units": -0.75,
      "posted": "2026-10-25T01:10:05Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-870db563cd",
@@ -9603,7 +9954,8 @@
      "units": 1.004,
      "posted": "2026-10-25T01:10:05Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-0aa949dd1f",
@@ -9630,7 +9982,8 @@
      "units": -0.75,
      "posted": "2026-10-25T01:10:05Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-716e3367a1",
@@ -9657,7 +10010,8 @@
      "units": 0.267,
      "posted": "2026-10-25T01:10:05Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-a76ad38e27",
@@ -9684,7 +10038,8 @@
      "units": -0.5,
      "posted": "2026-10-25T01:10:05Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-fa260d1909",
@@ -9711,7 +10066,8 @@
      "units": -0.5,
      "posted": "2026-10-25T01:10:05Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-8a223fcd60",
@@ -9738,7 +10094,8 @@
      "units": -0.5,
      "posted": "2026-10-24T23:40:15Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-9fc67eeab6",
@@ -9765,7 +10122,8 @@
      "units": -0.5,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-80e6e6481a",
@@ -9792,7 +10150,8 @@
      "units": -0.5,
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-22a8d1134d",
@@ -9819,7 +10178,8 @@
      "units": -0.5,
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-76768a384f",
@@ -9846,7 +10206,8 @@
      "units": 0.505,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-30c7a8577b",
@@ -9873,7 +10234,8 @@
      "units": -0.5,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-6730ff1cec",
@@ -9900,7 +10262,8 @@
      "units": 0.431,
      "posted": "2026-10-24T23:10:11Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     }
    ]
   },
@@ -9943,7 +10306,8 @@
      "units": 0.951,
      "posted": "2026-10-23T19:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-e7065bc440",
@@ -9970,7 +10334,8 @@
      "units": -0.75,
      "posted": "2026-10-23T19:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-3b536d3033",
@@ -9997,7 +10362,8 @@
      "units": -0.75,
      "posted": "2026-10-23T19:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-16a5e873ce",
@@ -10024,7 +10390,8 @@
      "units": -0.5,
      "posted": "2026-10-23T19:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-6c252f389a",
@@ -10051,7 +10418,8 @@
      "units": -0.5,
      "posted": "2026-10-23T19:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-b923f3ba24",
@@ -10078,7 +10446,8 @@
      "units": -0.5,
      "posted": "2026-10-23T19:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-733f4050c2",
@@ -10105,7 +10474,8 @@
      "units": 0.273,
      "posted": "2026-10-23T19:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-37811a76f1",
@@ -10132,7 +10502,8 @@
      "units": 0.338,
      "posted": "2026-10-23T19:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-a1785854a9",
@@ -10159,7 +10530,8 @@
      "units": 0.352,
      "posted": "2026-10-23T19:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-d6fdb0804e",
@@ -10186,7 +10558,8 @@
      "units": -0.5,
      "posted": "2026-10-23T19:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-681cf6a97f",
@@ -10213,7 +10586,8 @@
      "units": 0.298,
      "posted": "2026-10-23T19:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-ea57bb8132",
@@ -10240,7 +10614,8 @@
      "units": 0.311,
      "posted": "2026-10-23T19:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-4f05ded805",
@@ -10267,7 +10642,8 @@
      "units": 0.505,
      "posted": "2026-10-23T19:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-5123ab9ea5",
@@ -10294,7 +10670,8 @@
      "units": 0.545,
      "posted": "2026-10-23T19:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-679a999f1b",
@@ -10321,7 +10698,8 @@
      "units": -0.5,
      "posted": "2026-10-23T19:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-81c2a765c7",
@@ -10348,7 +10726,8 @@
      "units": -0.5,
      "posted": "2026-10-23T19:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-c3c9970b1f",
@@ -10375,7 +10754,8 @@
      "units": 0.67,
      "posted": "2026-10-23T19:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-6101aeadc1",
@@ -10402,7 +10782,8 @@
      "units": 0.905,
      "posted": "2026-10-23T19:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-e42d4a111a",
@@ -10429,7 +10810,8 @@
      "units": 0.532,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-56fe4b2693",
@@ -10456,7 +10838,8 @@
      "units": 0.892,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-7bba1ad933",
@@ -10483,7 +10866,8 @@
      "units": -0.75,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-fee434ed92",
@@ -10510,7 +10894,8 @@
      "units": 2.401,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-a5dea09a1e",
@@ -10537,7 +10922,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-ce67c46bff",
@@ -10564,7 +10950,8 @@
      "units": 1.053,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-b7f2e19444",
@@ -10591,7 +10978,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-feadbcc535",
@@ -10618,7 +11006,8 @@
      "units": 0.998,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-0306268013",
@@ -10645,7 +11034,8 @@
      "units": 0.75,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-28d3772835",
@@ -10672,7 +11062,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-44b3eeea6e",
@@ -10699,7 +11090,8 @@
      "units": 0.953,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-13a6d8c0cf",
@@ -10726,7 +11118,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-e648d43f61",
@@ -10753,7 +11146,8 @@
      "units": 0.117,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-a9d264016b",
@@ -10780,7 +11174,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-9460d3e0cb",
@@ -10807,7 +11202,8 @@
      "units": 0.588,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-43ef387c88",
@@ -10834,7 +11230,8 @@
      "units": 0.65,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-dfd7459007",
@@ -10861,7 +11258,8 @@
      "units": 0.437,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-4dfd2b7f21",
@@ -10888,7 +11286,8 @@
      "units": 0.647,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-12e27a1731",
@@ -10915,7 +11314,8 @@
      "units": 0.166,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-ceb7b28d7c",
@@ -10942,7 +11342,8 @@
      "units": 0.163,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-2c1da7b72b",
@@ -10969,7 +11370,8 @@
      "units": 0.19,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-694f6e19e2",
@@ -10996,7 +11398,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-fea15636a2",
@@ -11023,7 +11426,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-13d308c61f",
@@ -11050,7 +11454,8 @@
      "units": 0.24,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-48aebbb500",
@@ -11077,7 +11482,8 @@
      "units": 0.24,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-4859e4041e",
@@ -11104,7 +11510,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-5e2515779d",
@@ -11131,7 +11538,8 @@
      "units": 0.286,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-906f37e18a",
@@ -11158,7 +11566,8 @@
      "units": 0.286,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-8595c76ecc",
@@ -11185,7 +11594,8 @@
      "units": 0.286,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-acab5f3d62",
@@ -11212,7 +11622,8 @@
      "units": 0.286,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-b1a766059d",
@@ -11239,7 +11650,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-fe3b5dfdee",
@@ -11266,7 +11678,8 @@
      "units": 0.286,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-2c0c20f801",
@@ -11293,7 +11706,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-c259bf2bde",
@@ -11320,7 +11734,8 @@
      "units": 0.298,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-23603c6ca1",
@@ -11347,7 +11762,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-cd24e5a2e7",
@@ -11374,7 +11790,8 @@
      "units": 0.311,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-20400eee80",
@@ -11401,7 +11818,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-2f1098bf1a",
@@ -11428,7 +11846,8 @@
      "units": 0.325,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-7f3c0544bd",
@@ -11455,7 +11874,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-e36402c54d",
@@ -11482,7 +11902,8 @@
      "units": 0.325,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-f8106a3619",
@@ -11509,7 +11930,8 @@
      "units": 0.352,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-cfdcf61b3a",
@@ -11536,7 +11958,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-459b6df47a",
@@ -11563,7 +11986,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-18878273a6",
@@ -11590,7 +12014,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-e0b6202004",
@@ -11617,7 +12042,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-fe82aacdcd",
@@ -11644,7 +12070,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-da29ffbb73",
@@ -11671,7 +12098,8 @@
      "units": 0.262,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-8d66229984",
@@ -11698,7 +12126,8 @@
      "units": 0.397,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-10751a554c",
@@ -11725,7 +12154,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-b768ce25e3",
@@ -11752,7 +12182,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-cbe56aa30e",
@@ -11779,7 +12210,8 @@
      "units": 0.413,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-4ffc7fcfd5",
@@ -11806,7 +12238,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-93aa0491e1",
@@ -11833,7 +12266,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-1c8e99786e",
@@ -11860,7 +12294,8 @@
      "units": 0.485,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-079cb1df04",
@@ -11887,7 +12322,8 @@
      "units": 0.338,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-5567bb3f93",
@@ -11914,7 +12350,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-5eea580195",
@@ -11941,7 +12378,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-8cde01cdd1",
@@ -11968,7 +12406,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-c5f3163513",
@@ -11995,7 +12434,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-9b6a228bf1",
@@ -12022,7 +12462,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-62a3f90bd4",
@@ -12049,7 +12490,8 @@
      "units": 0.382,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-1f99441fcb",
@@ -12076,7 +12518,8 @@
      "units": 0.57,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-0b73ae8db7",
@@ -12103,7 +12546,8 @@
      "units": 0.57,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-2f8f657065",
@@ -12130,7 +12574,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-d0aa812288",
@@ -12157,7 +12602,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-72744b4937",
@@ -12184,7 +12630,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-492860b955",
@@ -12211,7 +12658,8 @@
      "units": 0.595,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-eeb1dc93b4",
@@ -12238,7 +12686,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-99cc48c491",
@@ -12265,7 +12714,8 @@
      "units": 0.595,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-fa98e1f8be",
@@ -12292,7 +12742,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-dee1d1ebbc",
@@ -12319,7 +12770,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-f3a5f4dec1",
@@ -12346,7 +12798,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-834edfdd84",
@@ -12373,7 +12826,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-52e7e4ec8b",
@@ -12400,7 +12854,8 @@
      "units": 0.67,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-6a844cf030",
@@ -12427,7 +12882,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-e3e11506f6",
@@ -12454,7 +12910,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-2509dca250",
@@ -12481,7 +12938,8 @@
      "units": 0.446,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-a37d776076",
@@ -12508,7 +12966,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-7bb8525f82",
@@ -12535,7 +12994,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-a14e1f7d79",
@@ -12562,7 +13022,8 @@
      "units": 0.73,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-87603c5db0",
@@ -12589,7 +13050,8 @@
      "units": 0.795,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-3934f056ee",
@@ -12616,7 +13078,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-451c140395",
@@ -12643,7 +13106,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-248b2cf765",
@@ -12670,7 +13134,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-918c1e3a03",
@@ -12697,7 +13162,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-5de4d439f6",
@@ -12724,7 +13190,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-f57207bf93",
@@ -12751,7 +13218,8 @@
      "units": 0.595,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-6d0ea35e1e",
@@ -12778,7 +13246,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-93618c6c9a",
@@ -12805,7 +13274,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-648812b3a6",
@@ -12832,7 +13302,8 @@
      "units": 0.525,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-6b2471c5fb",
@@ -12859,7 +13330,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-6cffd181d8",
@@ -12886,7 +13358,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-374995ec16",
@@ -12913,7 +13386,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-31da491969",
@@ -12940,7 +13414,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-dcee074af5",
@@ -12967,7 +13442,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-bbf9a11441",
@@ -12994,7 +13470,8 @@
      "units": -0.75,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-4e6eeb0179",
@@ -13021,7 +13498,8 @@
      "units": 1.201,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-99172ceee8",
@@ -13048,7 +13526,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-e607ce5fe4",
@@ -13075,7 +13554,8 @@
      "units": 0.298,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-0759f21cc9",
@@ -13102,7 +13582,8 @@
      "units": 0.338,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-cf3adf7ab8",
@@ -13129,7 +13610,8 @@
      "units": 0.352,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-9825ecd121",
@@ -13156,7 +13638,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-fead545aa9",
@@ -13183,7 +13666,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-a32104de17",
@@ -13210,7 +13694,8 @@
      "units": 0.365,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-35b6fb4aad",
@@ -13237,7 +13722,8 @@
      "units": 0.446,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-fba7dcde3c",
@@ -13264,7 +13750,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-f06f2161ee",
@@ -13291,7 +13778,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-fa796df62e",
@@ -13318,7 +13806,8 @@
      "units": 0.485,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-f12debbce8",
@@ -13345,7 +13834,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-7666927890",
@@ -13372,7 +13862,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-3c93596f2c",
@@ -13399,7 +13890,8 @@
      "units": 0.219,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-d7957852a9",
@@ -13426,7 +13918,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-283995b849",
@@ -13453,7 +13946,8 @@
      "units": 0.325,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-568a61b5d7",
@@ -13480,7 +13974,8 @@
      "units": 0.485,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-629fe4ab9c",
@@ -13507,7 +14002,8 @@
      "units": 0.76,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-34276a672e",
@@ -13534,7 +14030,8 @@
      "units": 0.505,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-0121a7d01b",
@@ -13561,7 +14058,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-a7686241c8",
@@ -13588,7 +14086,8 @@
      "units": -0.5,
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-d4e949b6d0",
@@ -13615,7 +14114,8 @@
      "units": -0.5,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-9da4132dc6",
@@ -13642,7 +14142,8 @@
      "units": 1.127,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-227f121816",
@@ -13669,7 +14170,8 @@
      "units": 0.774,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-30839a2476",
@@ -13696,7 +14198,8 @@
      "units": -0.5,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-d60df380d4",
@@ -13723,7 +14226,8 @@
      "units": -0.5,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-bdfa1bb463",
@@ -13750,7 +14254,8 @@
      "units": -0.5,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-368a0dbb87",
@@ -13777,7 +14282,8 @@
      "units": -0.5,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-8291002f19",
@@ -13804,7 +14310,8 @@
      "units": 0.53,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-d3ee8e85b5",
@@ -13831,7 +14338,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-45b117cfa2",
@@ -13858,7 +14366,8 @@
      "units": 0.273,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-942b0d4281",
@@ -13885,7 +14394,8 @@
      "units": 0.286,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-e74ba98099",
@@ -13912,7 +14422,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-82fa5c755f",
@@ -13939,7 +14450,8 @@
      "units": 0.155,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-67baece40f",
@@ -13966,7 +14478,8 @@
      "units": 0.352,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-f51e454770",
@@ -13993,7 +14506,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-7b74dd8642",
@@ -14020,7 +14534,8 @@
      "units": 0.397,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-8dde8ce61c",
@@ -14047,7 +14562,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-a7fad284c2",
@@ -14074,7 +14590,8 @@
      "units": 0.413,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-8a3554e4a0",
@@ -14101,7 +14618,8 @@
      "units": 0.431,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-9e77023500",
@@ -14128,7 +14646,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-7a21c38ddc",
@@ -14155,7 +14674,8 @@
      "units": 0.446,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-70561dd392",
@@ -14182,7 +14702,8 @@
      "units": 0.338,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-885575f474",
@@ -14209,7 +14730,8 @@
      "units": 0.251,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-9895ff0755",
@@ -14236,7 +14758,8 @@
      "units": 0.352,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-0463670727",
@@ -14263,7 +14786,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-1a2ae71a65",
@@ -14290,7 +14814,8 @@
      "units": 0.397,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-4e850c361c",
@@ -14317,7 +14842,8 @@
      "units": 0.645,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-2f12718bce",
@@ -14344,7 +14870,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-1580121b91",
@@ -14371,7 +14898,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-9c25b467d1",
@@ -14398,7 +14926,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-14f55da3f9",
@@ -14425,7 +14954,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-631a7bc3e1",
@@ -14452,7 +14982,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-c2e22cb9ed",
@@ -14479,7 +15010,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-5c2645f4a0",
@@ -14506,7 +15038,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-4ce0d722a4",
@@ -14533,7 +15066,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-39cc161991",
@@ -14560,7 +15094,8 @@
      "units": -0.5,
      "posted": "2026-10-24T01:10:17Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-289f75f631",
@@ -14587,7 +15122,8 @@
      "units": 0.273,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-25072cabb7",
@@ -14614,7 +15150,8 @@
      "units": 0.595,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-491eec495a",
@@ -14641,7 +15178,8 @@
      "units": -0.5,
      "posted": "2026-10-24T01:10:17Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-5cdbcf9203",
@@ -14668,7 +15206,8 @@
      "units": -0.75,
      "posted": "2026-10-24T01:10:17Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-00e98f167f",
@@ -14695,7 +15234,8 @@
      "units": 0.35,
      "posted": "2026-10-24T01:10:17Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-a4fde956da",
@@ -14722,7 +15262,8 @@
      "units": 0.853,
      "posted": "2026-10-24T01:10:17Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-0f18a73270",
@@ -14749,7 +15290,8 @@
      "units": 0.938,
      "posted": "2026-10-24T01:10:17Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-02b8023390",
@@ -14776,7 +15318,8 @@
      "units": -0.75,
      "posted": "2026-10-24T01:10:17Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-bbe41b7eef",
@@ -14803,7 +15346,8 @@
      "units": -0.5,
      "posted": "2026-10-24T01:10:17Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-c1bb3599c2",
@@ -14830,7 +15374,8 @@
      "units": -0.5,
      "posted": "2026-10-24T01:10:17Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-4b6d23a7ff",
@@ -14857,7 +15402,8 @@
      "units": -0.5,
      "posted": "2026-10-24T01:10:17Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-e69c7cb6b2",
@@ -14884,7 +15430,8 @@
      "units": 0.617,
      "posted": "2026-10-24T01:10:17Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-aed3b66457",
@@ -14911,7 +15458,8 @@
      "units": 0.675,
      "posted": "2026-10-24T01:10:17Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-ff27ac0817",
@@ -14938,7 +15486,8 @@
      "units": 0.19,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-f27cb0bae2",
@@ -14965,7 +15514,8 @@
      "units": 0.251,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-2b6eac06ca",
@@ -14992,7 +15542,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-99db09ad7e",
@@ -15019,7 +15570,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-673713dbbe",
@@ -15046,7 +15598,8 @@
      "units": 0.311,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-443ae9de50",
@@ -15073,7 +15626,8 @@
      "units": 0.311,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-0bbd4c5938",
@@ -15100,7 +15654,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-298d236faf",
@@ -15127,7 +15682,8 @@
      "units": 0.325,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-203d6adcd6",
@@ -15154,7 +15710,8 @@
      "units": 0.352,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-22cc00c3be",
@@ -15181,7 +15738,8 @@
      "units": 0.352,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-13925cbcea",
@@ -15208,7 +15766,8 @@
      "units": 0.352,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-11b6af6f7c",
@@ -15235,7 +15794,8 @@
      "units": 0.273,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-d59139914b",
@@ -15262,7 +15822,8 @@
      "units": -0.5,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-9923d648e1",
@@ -15289,7 +15850,8 @@
      "units": 0.431,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-c563f8e604",
@@ -15316,7 +15878,8 @@
      "units": 0.446,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-e1d4ff2975",
@@ -15343,7 +15906,8 @@
      "units": 0.505,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-80c8a660d4",
@@ -15370,7 +15934,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-322f57c058",
@@ -15397,7 +15962,8 @@
      "units": 0.505,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-a13f84425d",
@@ -15424,7 +15990,8 @@
      "units": 0.525,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-65d00e988b",
@@ -15451,7 +16018,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-55cbc0a772",
@@ -15478,7 +16046,8 @@
      "units": 0.57,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-901d2311bc",
@@ -15505,7 +16074,8 @@
      "units": 0.397,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-f8a8245a48",
@@ -15532,7 +16102,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-0bf3a8751b",
@@ -15559,7 +16130,8 @@
      "units": 0.286,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-3e81ea11c6",
@@ -15586,7 +16158,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-01eba45c59",
@@ -15613,7 +16186,8 @@
      "units": 0.7,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-bcf554861d",
@@ -15640,7 +16214,8 @@
      "units": 0.063,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-bec3361b3e",
@@ -15667,7 +16242,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-013b1a0635",
@@ -15694,7 +16270,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-3e3fa82bcb",
@@ -15721,7 +16298,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-38de99da23",
@@ -15748,7 +16326,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-40e1da09fc",
@@ -15775,7 +16354,8 @@
      "units": 0.397,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-ce5f7a3c09",
@@ -15802,7 +16382,8 @@
      "units": 0.595,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-9767d6769d",
@@ -15829,7 +16410,8 @@
      "units": 0.62,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-e4613fce35",
@@ -15856,7 +16438,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-a3c407550b",
@@ -15883,7 +16466,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-fe5bb42d1f",
@@ -15910,7 +16494,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-0581080d69",
@@ -15937,7 +16522,8 @@
      "units": 0.19,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-983afe7f35",
@@ -15964,7 +16550,8 @@
      "units": 0.124,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-31a349a8a4",
@@ -15991,7 +16578,8 @@
      "units": 0.413,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-d0518a1eef",
@@ -16018,7 +16606,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-8c11dad415",
@@ -16045,7 +16634,8 @@
      "units": -0.5,
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-e99840a6e3",
@@ -16072,7 +16662,8 @@
      "units": -0.5,
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     }
    ]
   },
@@ -16115,7 +16706,8 @@
      "units": -0.5,
      "posted": "2026-10-22T22:10:32Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-5ea5b652f4",
@@ -16142,7 +16734,8 @@
      "units": 0.921,
      "posted": "2026-10-22T22:10:32Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-7f32adb68d",
@@ -16169,7 +16762,8 @@
      "units": -0.5,
      "posted": "2026-10-22T22:10:32Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-86fdda40df",
@@ -16196,7 +16790,8 @@
      "units": 0.676,
      "posted": "2026-10-22T22:10:32Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-03f0221e58",
@@ -16223,7 +16818,8 @@
      "units": 0.975,
      "posted": "2026-10-22T22:10:32Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-8402091365",
@@ -16250,7 +16846,8 @@
      "units": 0.481,
      "posted": "2026-10-22T22:10:32Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-5a9e9a1560",
@@ -16277,7 +16874,8 @@
      "units": 0.585,
      "posted": "2026-10-22T22:10:32Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-b7991286fd",
@@ -16304,7 +16902,8 @@
      "units": -0.5,
      "posted": "2026-10-22T22:10:32Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-cef02137f7",
@@ -16331,7 +16930,8 @@
      "units": -0.5,
      "posted": "2026-10-22T22:10:32Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-0281ff5452",
@@ -16358,7 +16958,8 @@
      "units": -0.5,
      "posted": "2026-10-22T22:10:32Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-2d9aa80fc8",
@@ -16385,7 +16986,8 @@
      "units": 0.273,
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-ae3c5bf836",
@@ -16412,7 +17014,8 @@
      "units": -0.5,
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-7e9b72a9d7",
@@ -16439,7 +17042,8 @@
      "units": -0.5,
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-62408caa9e",
@@ -16466,7 +17070,8 @@
      "units": 0.338,
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-40f4d1d18a",
@@ -16493,7 +17098,8 @@
      "units": 0.338,
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-ca4fd28109",
@@ -16520,7 +17126,8 @@
      "units": -0.5,
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-591516b594",
@@ -16547,7 +17154,8 @@
      "units": -0.5,
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-fb6154619b",
@@ -16574,7 +17182,8 @@
      "units": -0.5,
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-c19ea8be58",
@@ -16601,7 +17210,8 @@
      "units": 0.505,
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-b70c5bd97e",
@@ -16628,7 +17238,8 @@
      "units": 0.338,
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-58a73da069",
@@ -16655,7 +17266,8 @@
      "units": 0.273,
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-bea97a8b06",
@@ -16682,7 +17294,8 @@
      "units": -0.5,
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-7140010f38",
@@ -16709,7 +17322,8 @@
      "units": 0.595,
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-6eff42cbf9",
@@ -16736,7 +17350,8 @@
      "units": 0.645,
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-e819a025a2",
@@ -16763,7 +17378,8 @@
      "units": 0.446,
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-c712f50708",
@@ -16790,7 +17406,8 @@
      "units": -0.5,
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-afc7174a66",
@@ -16817,7 +17434,8 @@
      "units": -0.5,
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-69bc923649",
@@ -16844,7 +17462,8 @@
      "units": -0.5,
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-0773b75aac",
@@ -16871,7 +17490,8 @@
      "units": -0.5,
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-1ad175e293",
@@ -16898,7 +17518,8 @@
      "units": -0.5,
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-1e3c09a2dd",
@@ -16925,7 +17546,8 @@
      "units": -0.75,
      "posted": "2026-10-23T00:40:43Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-3be0d3080e",
@@ -16952,7 +17574,8 @@
      "units": 0.615,
      "posted": "2026-10-23T00:40:43Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "nba-b297736ff6",
@@ -16979,7 +17602,8 @@
      "units": -0.5,
      "posted": "2026-10-23T00:40:43Z",
      "rules": "v2",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-ebcc17598d",
@@ -17006,7 +17630,8 @@
      "units": 0.273,
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-3ed390542a",
@@ -17033,7 +17658,8 @@
      "units": -0.5,
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-1e906b4b66",
@@ -17060,7 +17686,8 @@
      "units": 0.311,
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-181ae2194b",
@@ -17087,7 +17714,8 @@
      "units": -0.5,
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-4a7a42396c",
@@ -17114,7 +17742,8 @@
      "units": 0.325,
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-76a37c93cc",
@@ -17141,7 +17770,8 @@
      "units": -0.5,
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-160e4254fa",
@@ -17168,7 +17798,8 @@
      "units": 0.251,
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-c3d35fbd73",
@@ -17195,7 +17826,8 @@
      "units": -0.5,
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-8bf03c3ecb",
@@ -17222,7 +17854,8 @@
      "units": -0.5,
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-19ca27c5d1",
@@ -17249,7 +17882,8 @@
      "units": 0.57,
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-3c63587cbc",
@@ -17276,7 +17910,8 @@
      "units": 0.595,
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-51785e7c57",
@@ -17303,7 +17938,8 @@
      "units": 0.62,
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-e8a9e4094b",
@@ -17330,7 +17966,8 @@
      "units": -0.5,
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-b07fa00a80",
@@ -17357,7 +17994,8 @@
      "units": 0.7,
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-d8b2ab049e",
@@ -17384,7 +18022,8 @@
      "units": 0.311,
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-076366afd4",
@@ -17411,7 +18050,8 @@
      "units": -0.5,
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     },
     {
      "id": "h2h-97c5afced2",
@@ -17438,7 +18078,8 @@
      "units": 0.76,
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
-     "retired": false
+     "retired": false,
+     "conflict": false
     }
    ]
   },
@@ -17481,7 +18122,8 @@
      "units": -0.5,
      "posted": "2026-10-21T22:10:14Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-8d6db5f927",
@@ -17508,7 +18150,8 @@
      "units": -0.75,
      "posted": "2026-10-21T22:10:14Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-5e4e65cb5c",
@@ -17535,7 +18178,8 @@
      "units": 0.721,
      "posted": "2026-10-21T22:10:14Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-788fdf5f43",
@@ -17562,7 +18206,8 @@
      "units": -0.75,
      "posted": "2026-10-21T22:10:14Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-e315180a77",
@@ -17589,7 +18234,8 @@
      "units": 0.75,
      "posted": "2026-10-21T22:30:16Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-21a66c71b7",
@@ -17616,7 +18262,8 @@
      "units": -0.75,
      "posted": "2026-10-21T22:30:16Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-ad0457d463",
@@ -17643,7 +18290,8 @@
      "units": 0.998,
      "posted": "2026-10-21T22:30:16Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-bb536b87d3",
@@ -17670,7 +18318,8 @@
      "units": -0.5,
      "posted": "2026-10-21T22:30:16Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-1e83662c7f",
@@ -17697,7 +18346,8 @@
      "units": -0.5,
      "posted": "2026-10-21T22:40:18Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-2e6e9645c7",
@@ -17724,7 +18374,8 @@
      "units": 0.81,
      "posted": "2026-10-21T22:40:18Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-1b12219da8",
@@ -17751,7 +18402,8 @@
      "units": 1.08,
      "posted": "2026-10-21T22:40:18Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-39bba0953d",
@@ -17778,7 +18430,8 @@
      "units": -0.5,
      "posted": "2026-10-21T22:40:18Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-4d873ea712",
@@ -17805,7 +18458,8 @@
      "units": 0.833,
      "posted": "2026-10-21T22:40:18Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-c2456c770b",
@@ -17832,7 +18486,8 @@
      "units": -0.5,
      "posted": "2026-10-21T22:40:18Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-d49d169a1e",
@@ -17859,7 +18514,8 @@
      "units": -0.5,
      "posted": "2026-10-21T22:40:18Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-bf02f2c3f4",
@@ -17886,7 +18542,8 @@
      "units": 0.52,
      "posted": "2026-10-21T22:40:18Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-290a421f9f",
@@ -17913,7 +18570,8 @@
      "units": -0.5,
      "posted": "2026-10-21T22:40:18Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-b483f0a499",
@@ -17940,7 +18598,8 @@
      "units": 0.78,
      "posted": "2026-10-21T22:40:18Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-0b80fb9644",
@@ -17967,7 +18626,8 @@
      "units": -0.5,
      "posted": "2026-10-21T22:40:18Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-923f79488d",
@@ -17994,7 +18654,8 @@
      "units": -0.75,
      "posted": "2026-10-21T23:10:21Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-4d071fabe1",
@@ -18021,7 +18682,8 @@
      "units": -0.5,
      "posted": "2026-10-21T23:10:21Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-6b7346ddbf",
@@ -18048,7 +18710,8 @@
      "units": 0.463,
      "posted": "2026-10-21T23:10:21Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-a5f099edb8",
@@ -18075,7 +18738,8 @@
      "units": -0.5,
      "posted": "2026-10-21T23:10:21Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-ddcf348c84",
@@ -18102,7 +18766,8 @@
      "units": 0.472,
      "posted": "2026-10-21T23:10:21Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-9fea56566b",
@@ -18129,7 +18794,8 @@
      "units": -0.5,
      "posted": "2026-10-21T23:10:21Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-1a1882f5e1",
@@ -18156,7 +18822,8 @@
      "units": 0.85,
      "posted": "2026-10-21T23:40:25Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-c77cf1a02e",
@@ -18183,7 +18850,8 @@
      "units": 0.75,
      "posted": "2026-10-21T23:40:25Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-2a389b0227",
@@ -18210,7 +18878,8 @@
      "units": -0.5,
      "posted": "2026-10-21T23:40:25Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-4327d098de",
@@ -18237,7 +18906,8 @@
      "units": 0.481,
      "posted": "2026-10-21T23:40:25Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-6fb8a4605b",
@@ -18264,7 +18934,8 @@
      "units": -0.5,
      "posted": "2026-10-21T23:40:25Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-f3fd73548d",
@@ -18291,7 +18962,8 @@
      "units": -0.75,
      "posted": "2026-10-22T01:00:32Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-921a50144b",
@@ -18318,7 +18990,8 @@
      "units": -0.75,
      "posted": "2026-10-22T01:00:32Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-6d145f3f3e",
@@ -18345,7 +19018,8 @@
      "units": -0.75,
      "posted": "2026-10-22T01:00:32Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-e3406df29e",
@@ -18372,7 +19046,8 @@
      "units": -0.75,
      "posted": "2026-10-22T01:00:32Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-c589cf64f3",
@@ -18399,7 +19074,8 @@
      "units": 0.472,
      "posted": "2026-10-22T01:00:32Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-e116c616d4",
@@ -18426,7 +19102,8 @@
      "units": -0.5,
      "posted": "2026-10-22T01:10:33Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-12dc68c0d7",
@@ -18453,7 +19130,8 @@
      "units": -0.75,
      "posted": "2026-10-22T01:10:33Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-98895547d0",
@@ -18480,7 +19158,8 @@
      "units": -0.75,
      "posted": "2026-10-22T01:10:33Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-c11163718b",
@@ -18507,7 +19186,8 @@
      "units": -0.75,
      "posted": "2026-10-22T01:10:33Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-8b3032e415",
@@ -18534,7 +19214,8 @@
      "units": -0.75,
      "posted": "2026-10-22T01:10:33Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-fcb34b591a",
@@ -18561,7 +19242,8 @@
      "units": -0.75,
      "posted": "2026-10-22T01:10:33Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-265bfcdf07",
@@ -18588,7 +19270,8 @@
      "units": -0.5,
      "posted": "2026-10-22T01:10:33Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-0b6ee8d658",
@@ -18615,7 +19298,8 @@
      "units": -0.5,
      "posted": "2026-10-22T01:10:33Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-e267ec7b23",
@@ -18642,7 +19326,8 @@
      "units": 1.08,
      "posted": "2026-10-22T01:40:36Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-fa4dc10e0d",
@@ -18669,7 +19354,8 @@
      "units": -0.75,
      "posted": "2026-10-22T01:40:36Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-7c8fbcc57f",
@@ -18696,7 +19382,8 @@
      "units": -0.75,
      "posted": "2026-10-22T01:40:36Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-d6f0874837",
@@ -18723,7 +19410,8 @@
      "units": 0.877,
      "posted": "2026-10-22T01:40:36Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-bcfa25976b",
@@ -18750,7 +19438,8 @@
      "units": -0.5,
      "posted": "2026-10-22T01:40:36Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-c9c5294a13",
@@ -18777,7 +19466,8 @@
      "units": -0.5,
      "posted": "2026-10-22T01:40:36Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-79afbda7a6",
@@ -18804,7 +19494,8 @@
      "units": -0.5,
      "posted": "2026-10-22T01:40:36Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     }
    ]
   },
@@ -18847,7 +19538,8 @@
      "units": 0.9,
      "posted": "2026-10-21T00:42:56Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-0a13d1917a",
@@ -18874,7 +19566,8 @@
      "units": -0.75,
      "posted": "2026-10-21T00:42:56Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-1f88ef3088",
@@ -18901,7 +19594,8 @@
      "units": -0.5,
      "posted": "2026-10-21T00:42:56Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-11e7578008",
@@ -18928,7 +19622,8 @@
      "units": -0.5,
      "posted": "2026-10-21T00:42:56Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-d006c53e17",
@@ -18955,7 +19650,8 @@
      "units": -0.5,
      "posted": "2026-10-21T00:42:56Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     },
     {
      "id": "nba-e33726b709",
@@ -18982,7 +19678,8 @@
      "units": -0.5,
      "posted": "2026-10-21T00:42:56Z",
      "rules": "v1",
-     "retired": true
+     "retired": true,
+     "conflict": false
     }
    ]
   }
