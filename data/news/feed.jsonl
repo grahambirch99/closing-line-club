@@ -54,3 +54,4 @@
 {"kind": "injury", "team": "", "player": "Aaron Jones", "pos": "", "source": "rotoworld-fb", "text": "Aaron Jones (knee) questionable to return", "at": "2026-10-25T19:35:18.819021+00:00"}
 {"kind": "injury", "team": "", "player": "Nico Collins", "pos": "", "source": "rotowire", "text": "Nico Collins: Limited to six yards in OT loss", "at": "2026-10-25T21:22:29.020872+00:00"}
 {"kind": "injury", "team": "", "player": "Rashid Shaheed", "pos": "", "source": "rotowire", "text": "Rashid Shaheed: Questionable to return for second half", "at": "2026-10-26T02:18:22.073313+00:00"}
+{"kind": "injury", "source": "sleeper", "team": "SEA", "player": "Rashid Shaheed", "pos": "WR", "text": "Rashid Shaheed (SEA WR) status questionable -> out [Knee]", "at": "2026-10-26T03:01:13.612421+00:00"}
