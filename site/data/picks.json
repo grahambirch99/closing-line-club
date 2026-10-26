@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T20:45:45Z",
+ "generated_at": "2026-10-26T23:15:38Z",
  "current_week": 7,
  "weeks": [
   {
@@ -1887,6 +1887,56 @@
      "units": -5.0,
      "posted": "2026-10-22T22:33:38Z",
      "system": "Mid-week props model"
+    },
+    {
+     "id": "2026-W07-0060",
+     "week": 7,
+     "kind": "bet",
+     "tier": "A",
+     "market": "player_receptions",
+     "title": "Elijah Moore",
+     "bet": "Over 1.5 receptions",
+     "game": "Cowboys at Eagles",
+     "kick": "2026-10-27T00:15:00Z",
+     "kick_label": "Mon 5:15 PM PT",
+     "venue": "Novig",
+     "price": "+115",
+     "stake": 7.5,
+     "implied": 46.5,
+     "fair": 48.8,
+     "edge": 4.9,
+     "worst": "+111",
+     "analysis": "Novig at +115 beats the sharp-book consensus's no-vig price (49% to hit), a +4.9% edge after inactives were announced.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-10-26T22:54:48Z"
+    },
+    {
+     "id": "2026-W07-0061",
+     "week": 7,
+     "kind": "bet",
+     "tier": "B",
+     "market": "player_reception_yds",
+     "title": "Makai Lemon",
+     "bet": "Under 38.5 receiving yards",
+     "game": "Cowboys at Eagles",
+     "kick": "2026-10-27T00:15:00Z",
+     "kick_label": "Mon 5:15 PM PT",
+     "venue": "Novig",
+     "price": "+111",
+     "stake": 5.0,
+     "implied": 47.4,
+     "fair": 48.9,
+     "edge": 3.1,
+     "worst": "+111",
+     "analysis": "Novig at +111 beats Pinnacle's no-vig price (49% to hit), a +3.1% edge after inactives were announced.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-10-26T22:54:48Z"
     }
    ]
   },
