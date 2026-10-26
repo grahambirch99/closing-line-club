@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-10-26T02:18:22.073313+00:00",
+   "kind": "injury",
+   "source": "rotowire",
+   "text": "Rashid Shaheed: Questionable to return for second half"
+  },
+  {
    "at": "2026-10-25T21:22:29.020872+00:00",
    "kind": "injury",
    "source": "rotowire",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "sleeper",
    "text": "Brian Robinson Jr. (ATL RB) status questionable -> out [Hamstring]"
-  },
-  {
-   "at": "2026-10-23T19:59:44.161520+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Tyler Warren (IND TE) status questionable -> out [Groin]"
   }
  ]
 }
