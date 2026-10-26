@@ -57,6 +57,8 @@ jobs:
             git commit -qm "site update $(date -u +%Y-%m-%dT%H:%MZ)"
             for i in 1 2 3 4 5; do git pull -q --rebase -X theirs && git push -q && break; sleep $((i*5)); done
           fi
+      - name: Pick'em page (unlisted; deployed but never committed)
+        run: ODDS_DB=p/data/odds.db PICKEM_SHEET=p/data/pickem/sheet.csv python p/pickem.py --site site || echo "pick'em page skipped"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
