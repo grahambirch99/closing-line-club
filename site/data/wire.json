@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-10-26T03:01:13.612421+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "Rashid Shaheed (SEA WR) status questionable -> out [Knee]"
+  },
+  {
    "at": "2026-10-26T02:18:22.073313+00:00",
    "kind": "injury",
    "source": "rotowire",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "sleeper",
    "text": "Zach Charbonnet (SEA RB) status questionable -> out [Knee - ACL]"
-  },
-  {
-   "at": "2026-10-23T19:59:44.161520+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Brian Robinson Jr. (ATL RB) status questionable -> out [Hamstring]"
   }
  ]
 }
