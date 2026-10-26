@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-10-26T21:38:07.447928+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Jalen Coker (shoulder) listed as limited Monday"
+  },
+  {
    "at": "2026-10-26T20:23:47.816385+00:00",
    "kind": "qb",
    "source": "rapsheet",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotowire",
    "text": "Dylan Sampson: Activated from injured reserve"
-  },
-  {
-   "at": "2026-10-23T21:01:16.445670+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Theo Johnson (NYG TE) status questionable -> doubtful [Neck]"
   }
  ]
 }
