@@ -36,8 +36,15 @@ jobs:
           path: research-cache
           key: research-${{ github.run_id }}
           restore-keys: research-
+      - name: Restore NBA odds cache (read-only; for NBA venue/price research)
+        uses: actions/cache/restore@v4
+        with:
+          path: nba-cache
+          key: nba-db-none
+          restore-keys: nba-db-
       - name: Run
         env:
+          NBA_DB: ${{ github.workspace }}/nba-cache/nba.db
           SCRIPT: ${{ inputs.script }}
           OUT: ${{ inputs.out }}
           RESEARCH_CACHE: ${{ github.workspace }}/research-cache
