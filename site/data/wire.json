@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-10-26T20:23:47.816385+00:00",
+   "kind": "qb",
+   "source": "rapsheet",
+   "text": "Raiders coach Klint Kubiak made clear that \u201cthere is no controversy\u201d \u2014 Kirk Cousins will start this week. As for Fernando Mendoza, \u201cFernando is going to play at some point, but it\u2019s not going to be this week.\u201d"
+  },
+  {
    "at": "2026-10-26T03:01:13.612421+00:00",
    "kind": "injury",
    "source": "sleeper",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "sleeper",
    "text": "Theo Johnson (NYG TE) status questionable -> doubtful [Neck]"
-  },
-  {
-   "at": "2026-10-23T20:51:42.118941+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Zach Charbonnet (SEA RB) status questionable -> out [Knee - ACL]"
   }
  ]
 }
