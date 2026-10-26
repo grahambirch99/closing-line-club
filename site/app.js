@@ -51,7 +51,7 @@
 
   function ticket(p) {
     const st = p.status === "pending" ? "open" : p.status;
-    const tierTag = p.kind === "nba" ? `<span class="tag T">Paper</span>${p.conflict ? '<span class="tag">Conflicts with an earlier bet: not a pick</span>' : ""}${p.retired ? '<span class="tag">Retired v1 rules</span>' : p.rules === "h2h" ? '<span class="tag">Matchup test</span>' : p.tier === "A" ? '<span class="tag A">Strong</span>' : ""}`
+    const tierTag = p.kind === "nba" ? `<span class="tag T">Paper</span>${p.conflict ? '<span class="tag">Conflicts with an earlier bet: not a pick</span>' : ""}${p.retired ? '<span class="tag">Retired v1 rules</span>' : p.rules === "h2h" ? '<span class="tag">Matchup test</span>' : p.v3 ? '<span class="tag A">v3</span>' : p.rules === "v2" ? '<span class="tag">v2 rules</span>' : ""}`
       : p.kind === "paper" ? `<span class="tag">Paper</span>${p.system ? `<span class="tag">${esc(p.system)}</span>` : ""}`
       : p.kind === "teaser" ? '<span class="tag T">Teaser</span>'
       : p.tier === "A" ? '<span class="tag A">Strong</span>' : p.tier === "B" ? '<span class="tag">Value</span>' : "";
@@ -183,22 +183,23 @@
   let night = null;
   function renderNba() {
     const N = D.nba, s = N.summary || {}, nights = N.nights || [];
-    const goal = s.goal || 100, n = s.graded_clv || 0;
+    const goal = s.goal || 400, n = s.graded || 0;
     $("#nba-goal-n").textContent = `${Math.min(n, goal)} of ${goal}`;
     const fill = $("#nba-goal-fill");
     fill.style.width = `${Math.min(100, (n / goal) * 100)}%`;
-    fill.className = `goal-fill${n ? (s.clv > 0 ? " beat" : " lag") : ""}`;
+    fill.className = `goal-fill${n ? (s.lean > 0 ? " beat" : " lag") : ""}`;
     $("#nba-goal-bar").setAttribute("aria-valuenow", Math.min(n, goal));
     const v = $("#nba-goal-verdict");
     v.className = "verdict";
-    if (!n) v.textContent = "First bets grade at tip-off";
+    if (!n) v.textContent = "First v3 picks grade after tonight's games";
     else if (n >= goal) { v.textContent = s.passed ? "Passed the test" : "Not passing: stays on paper"; v.classList.add(s.passed ? "beat" : "lag"); }
-    else { v.textContent = `Average so far ${fmtPts(s.clv)} pts`; v.classList.add(s.clv > 0 ? "beat" : "lag"); }
-    const items = [[s.w + s.l + (s.p || 0) ? rec(s) : "–", "Paper record"], [s.w + s.l ? fmtU(s.units) : "–", "Paper profit in units"],
-      [s.roi == null ? "–" : `${s.roi > 0 ? "+" : ""}${s.roi}%`, "Return on stakes"],
-      [s.clv == null ? "–" : `${fmtPts(s.clv)} pts`, "Average CLV vs Kalshi's close"], [s.beat == null ? "–" : `${s.beat}%`, "Bets that beat Kalshi's close"],
-      [s.h2h && s.h2h.w + s.h2h.l ? `${rec(s.h2h)}, ${fmtU(s.h2h.units)}` : s.h2h && s.h2h.bets ? `${s.h2h.bets} open` : "–", "Matchup test (separate)"],
-      [s.v1 && s.v1.w + s.v1.l ? `${rec(s.v1)}, ${fmtU(s.v1.units)}` : "–", "Retired v1 rules (Oct 20–21)"]];
+    else { v.textContent = `Wins vs break-even so far ${fmtPts(s.lean)} pts (95% range ${fmtPts(s.lean_lo)} to ${fmtPts(s.lean_hi)})`; v.classList.add(s.lean > 0 ? "beat" : "lag"); }
+    const sub = (x) => x && x.w + x.l ? `${rec(x)}, ${fmtU(x.units)}` : "–";
+    const items = [[s.w + s.l + (s.p || 0) ? rec(s) : "–", "v3 paper record"], [s.w + s.l ? fmtU(s.units) : "–", "v3 paper profit in units"],
+      [s.roi == null ? "–" : `${s.roi > 0 ? "+" : ""}${s.roi}%`, "v3 return on stakes"],
+      [s.lean == null ? "–" : `${fmtPts(s.lean)} pts`, "v3 wins above break-even"],
+      [sub(s.v2), "v2 rules (posted Oct 22–25, still tracked)"], [sub(s.h2h), "Matchup test (tracked, not posted)"],
+      [sub(s.v1), "Retired v1 rules (Oct 20–21)"]];
     $("#nba-stats").innerHTML = items.map(([val, k]) => `<div class="stat"><div class="v">${val}</div><div class="k">${k}</div></div>`).join("");
     const cur = nights.find((x) => x.night === night) || nights[0];
     night = cur ? cur.night : null;
@@ -210,7 +211,7 @@
     const t = N.by_type || [];
     $("#nba-type-table").innerHTML = `<thead><tr><th scope="col">Market</th><th scope="col">Record</th><th scope="col">Units</th><th scope="col">Avg CLV</th></tr></thead><tbody>` +
       (t.length ? t.map((r) => `<tr><td>${esc(r.type)}</td><td>${rec(r)}</td><td>${fmtU(r.units)}</td><td>${r.clv == null ? "–" : fmtPts(r.clv)}</td></tr>`).join("")
-        : '<tr><td colspan="4">No graded paper bets under the current rules yet.</td></tr>') + "</tbody>";
+        : '<tr><td colspan="4">No graded v3 picks yet.</td></tr>') + "</tbody>";
   }
 
   /* ---------------- wire ---------------- */

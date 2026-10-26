@@ -1,17 +1,31 @@
 {
  "summary": {
-  "w": 86,
-  "l": 102,
+  "w": 0,
+  "l": 0,
   "p": 0,
-  "units": 6.27,
-  "roi": 5.5,
-  "clv": 3.0,
-  "beat": 95,
-  "n_clv": 190,
-  "bets": 191,
-  "goal": 100,
-  "graded_clv": 190,
-  "passed": true,
+  "units": 0,
+  "roi": null,
+  "clv": null,
+  "beat": null,
+  "n_clv": 0,
+  "bets": 0,
+  "goal": 400,
+  "graded": 0,
+  "lean": null,
+  "lean_lo": null,
+  "lean_hi": null,
+  "passed": null,
+  "v2": {
+   "w": 86,
+   "l": 102,
+   "p": 0,
+   "units": 6.27,
+   "roi": 5.5,
+   "clv": 3.03,
+   "beat": 95,
+   "n_clv": 187,
+   "bets": 191
+  },
   "v1": {
    "w": 17,
    "l": 39,
@@ -35,41 +49,7 @@
    "bets": 450
   }
  },
- "by_type": [
-  {
-   "type": "Assists",
-   "w": 33,
-   "l": 30,
-   "p": 0,
-   "units": 8.99,
-   "roi": 24.5,
-   "clv": 2.73,
-   "beat": 92,
-   "n_clv": 62
-  },
-  {
-   "type": "Points",
-   "w": 27,
-   "l": 33,
-   "p": 0,
-   "units": -1.84,
-   "roi": -4.6,
-   "clv": 3.32,
-   "beat": 97,
-   "n_clv": 60
-  },
-  {
-   "type": "Rebounds",
-   "w": 26,
-   "l": 39,
-   "p": 0,
-   "units": -0.89,
-   "roi": -2.4,
-   "clv": 3.03,
-   "beat": 97,
-   "n_clv": 65
-  }
- ],
+ "by_type": [],
  "nights": [
   {
    "night": "2026-10-25",
@@ -111,7 +91,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-5fa2793b9b",
@@ -139,7 +122,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-fd1a0f09d5",
@@ -167,7 +153,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-f1f2c9ee26",
@@ -195,7 +184,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-481df65edf",
@@ -223,7 +215,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-7d253b45e8",
@@ -251,7 +246,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-80c8830fff",
@@ -279,7 +277,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-8a961140fa",
@@ -307,7 +308,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-c8a96cef5d",
@@ -335,7 +339,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-555e5a4921",
@@ -363,7 +370,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-52305579f2",
@@ -391,7 +401,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-120955be09",
@@ -419,7 +432,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-b53d780a4f",
@@ -447,7 +463,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-8dc7e7aa09",
@@ -475,7 +494,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-70792535e6",
@@ -503,7 +525,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-8d0bbecc52",
@@ -531,7 +556,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-2c29dc16f4",
@@ -559,7 +587,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-e7deef7dda",
@@ -587,7 +618,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-841180a272",
@@ -615,7 +649,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-913f41cc19",
@@ -643,7 +680,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-2d2837c908",
@@ -671,7 +711,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-3ae60c9022",
@@ -699,7 +742,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-e4a26a30c1",
@@ -727,7 +773,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-384b4ccbe6",
@@ -755,7 +804,10 @@
      "posted": "2026-10-25T21:10:07Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-a09ae7837f",
@@ -783,7 +835,10 @@
      "posted": "2026-10-25T21:10:07Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-ee6c188ca0",
@@ -811,7 +866,10 @@
      "posted": "2026-10-25T21:10:07Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-a14e9889d4",
@@ -839,7 +897,10 @@
      "posted": "2026-10-25T21:10:07Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-a2715f9376",
@@ -867,7 +928,10 @@
      "posted": "2026-10-25T21:10:07Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-0f88ae7a10",
@@ -895,7 +959,10 @@
      "posted": "2026-10-25T21:10:07Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-cdc18c2c5c",
@@ -923,7 +990,10 @@
      "posted": "2026-10-25T21:10:07Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-3e86baf24c",
@@ -951,7 +1021,10 @@
      "posted": "2026-10-25T21:10:07Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-27d84e50dc",
@@ -979,7 +1052,10 @@
      "posted": "2026-10-25T21:10:07Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-51586d3f8a",
@@ -1007,7 +1083,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-b7202b8606",
@@ -1035,7 +1114,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-f1e73bbd2e",
@@ -1063,7 +1145,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-cf4a421f6e",
@@ -1091,7 +1176,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-2c3b7ee093",
@@ -1119,7 +1207,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-f176528bf5",
@@ -1147,7 +1238,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-af72726cdd",
@@ -1175,7 +1269,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-7c3e835ccf",
@@ -1203,7 +1300,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-36d7cbd273",
@@ -1231,7 +1331,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-3f6f35172b",
@@ -1259,7 +1362,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-cc05f877f0",
@@ -1287,7 +1393,10 @@
      "posted": "2026-10-25T22:00:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-cd828a858d",
@@ -1315,7 +1424,10 @@
      "posted": "2026-10-25T22:00:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-596d092217",
@@ -1343,7 +1455,10 @@
      "posted": "2026-10-25T22:00:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-b20ed4b057",
@@ -1371,7 +1486,10 @@
      "posted": "2026-10-25T22:00:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-e6f7446ad7",
@@ -1399,7 +1517,10 @@
      "posted": "2026-10-25T22:00:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-ecec74f2c8",
@@ -1427,7 +1548,10 @@
      "posted": "2026-10-25T22:00:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-671d8e6a0b",
@@ -1455,7 +1579,10 @@
      "posted": "2026-10-25T22:00:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-f0a07cedd4",
@@ -1483,7 +1610,10 @@
      "posted": "2026-10-25T22:00:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-7314052f73",
@@ -1511,7 +1641,10 @@
      "posted": "2026-10-25T22:00:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-19ccd7d1ca",
@@ -1539,7 +1672,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-8c27ac49ee",
@@ -1567,7 +1703,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-e963efafdf",
@@ -1595,7 +1734,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-cbbfe7c817",
@@ -1623,7 +1765,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-1d3cd5f1e1",
@@ -1651,7 +1796,10 @@
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-cf1c2096f6",
@@ -1679,7 +1827,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-5667a92f49",
@@ -1707,7 +1858,10 @@
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-407c32d7d3",
@@ -1735,7 +1889,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-32da2d0467",
@@ -1763,7 +1920,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-96dd115d19",
@@ -1791,7 +1951,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-f202b62a08",
@@ -1819,7 +1982,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-83ee988a35",
@@ -1847,7 +2013,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-04aa2cbfb3",
@@ -1875,7 +2044,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-e07f611729",
@@ -1903,7 +2075,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-383e8a4ab5",
@@ -1931,7 +2106,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-9046d2820d",
@@ -1959,7 +2137,10 @@
      "posted": "2026-10-25T21:10:06Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-e0ef0cf9d2",
@@ -1987,7 +2168,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-882370efe7",
@@ -2015,7 +2199,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-249d2c8161",
@@ -2043,7 +2230,10 @@
      "posted": "2026-10-25T22:10:13Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-9a8403bc55",
@@ -2071,7 +2261,10 @@
      "posted": "2026-10-25T22:10:13Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-3aec78e014",
@@ -2099,7 +2292,10 @@
      "posted": "2026-10-25T22:10:13Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-8c60624c40",
@@ -2127,7 +2323,10 @@
      "posted": "2026-10-25T22:10:13Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-41f940daa2",
@@ -2155,7 +2354,10 @@
      "posted": "2026-10-25T22:10:13Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-a033c59f4f",
@@ -2183,7 +2385,10 @@
      "posted": "2026-10-25T22:10:13Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-0ff76ea756",
@@ -2211,7 +2416,10 @@
      "posted": "2026-10-25T22:10:13Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-25b37a8e3b",
@@ -2239,7 +2447,10 @@
      "posted": "2026-10-25T22:10:13Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-55eca7f5f6",
@@ -2267,7 +2478,10 @@
      "posted": "2026-10-25T22:10:13Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-cb1176e29e",
@@ -2295,7 +2509,10 @@
      "posted": "2026-10-25T22:10:13Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-013b964faf",
@@ -2323,7 +2540,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-78d7954d45",
@@ -2351,7 +2571,10 @@
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-a1eb25b483",
@@ -2379,7 +2602,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-a21cb4dc3e",
@@ -2407,7 +2633,10 @@
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-612b7f17cc",
@@ -2435,7 +2664,10 @@
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-dba911b011",
@@ -2463,7 +2695,10 @@
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-234bb9bc57",
@@ -2491,7 +2726,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-ebe786397f",
@@ -2519,7 +2757,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-7dbb5917fd",
@@ -2547,7 +2788,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-222ba4bbec",
@@ -2575,7 +2819,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-e7f97dcd3d",
@@ -2603,7 +2850,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-022352fb4e",
@@ -2631,7 +2881,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-74341d8462",
@@ -2659,7 +2912,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-637f4e5792",
@@ -2687,7 +2943,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-91b2f56f64",
@@ -2715,7 +2974,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-6db6fa0a1d",
@@ -2743,7 +3005,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-3635d929f0",
@@ -2771,7 +3036,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-5dba4d968c",
@@ -2799,7 +3067,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-08d718d82e",
@@ -2827,7 +3098,10 @@
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-434014b1f7",
@@ -2855,7 +3129,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-fcc93666ae",
@@ -2883,7 +3160,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-b141b0f467",
@@ -2911,7 +3191,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-e6bea186ec",
@@ -2939,7 +3222,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-4bb59de4dd",
@@ -2967,7 +3253,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-1f83e0ff9e",
@@ -2995,7 +3284,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-2ab08715c8",
@@ -3023,7 +3315,10 @@
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-928b67ce73",
@@ -3051,7 +3346,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-1e07079f2e",
@@ -3079,7 +3377,10 @@
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-04f5370b8d",
@@ -3107,7 +3408,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-a8dda34ee9",
@@ -3135,7 +3439,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-7bb935d4f9",
@@ -3163,7 +3470,10 @@
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-d88d6122f8",
@@ -3191,7 +3501,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-cca86bce48",
@@ -3219,7 +3532,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-41f4934cc4",
@@ -3247,7 +3563,10 @@
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-b7f1f8dc3f",
@@ -3275,7 +3594,10 @@
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-57520b76bf",
@@ -3303,7 +3625,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-0649b21e11",
@@ -3331,7 +3656,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-98aa774c04",
@@ -3359,7 +3687,10 @@
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-88eafea4a9",
@@ -3387,7 +3718,10 @@
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-b4106b2cf8",
@@ -3415,7 +3749,10 @@
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-71ec337df6",
@@ -3443,7 +3780,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-694a60cc78",
@@ -3471,7 +3811,10 @@
      "posted": "2026-10-25T20:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-62f49e5f7c",
@@ -3499,7 +3842,10 @@
      "posted": "2026-10-25T22:40:16Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-d9826b7620",
@@ -3527,7 +3873,10 @@
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-9f59fd3d9f",
@@ -3555,7 +3904,10 @@
      "posted": "2026-10-25T22:40:17Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-731223cce2",
@@ -3583,7 +3935,10 @@
      "posted": "2026-10-25T22:40:17Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-8b4a5190d1",
@@ -3611,7 +3966,10 @@
      "posted": "2026-10-25T22:40:17Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-804c4a48b1",
@@ -3639,7 +3997,10 @@
      "posted": "2026-10-25T22:40:17Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-326cee1c2b",
@@ -3667,7 +4028,10 @@
      "posted": "2026-10-25T22:40:17Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-176a4168dc",
@@ -3695,7 +4059,10 @@
      "posted": "2026-10-25T22:40:17Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-f93fb32c58",
@@ -3723,7 +4090,10 @@
      "posted": "2026-10-25T21:10:06Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-fa074af2ae",
@@ -3751,7 +4121,10 @@
      "posted": "2026-10-25T21:10:06Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-04e72957a2",
@@ -3779,7 +4152,10 @@
      "posted": "2026-10-25T21:10:06Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-21e9a32ec8",
@@ -3807,7 +4183,10 @@
      "posted": "2026-10-25T21:10:06Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-fbbc54732f",
@@ -3835,7 +4214,10 @@
      "posted": "2026-10-25T21:10:06Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-16fb91b2dd",
@@ -3863,7 +4245,10 @@
      "posted": "2026-10-25T22:40:16Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-058399952b",
@@ -3891,7 +4276,10 @@
      "posted": "2026-10-25T21:10:06Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-64c4a1e2da",
@@ -3919,7 +4307,10 @@
      "posted": "2026-10-25T22:10:13Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-fa96e8c013",
@@ -3947,7 +4338,10 @@
      "posted": "2026-10-25T21:10:06Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-01133a294b",
@@ -3975,7 +4369,10 @@
      "posted": "2026-10-25T21:10:06Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-f36cd8e845",
@@ -4003,7 +4400,10 @@
      "posted": "2026-10-25T22:40:16Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-6343d088bf",
@@ -4031,7 +4431,10 @@
      "posted": "2026-10-25T21:10:06Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-c309c24104",
@@ -4059,7 +4462,10 @@
      "posted": "2026-10-25T21:10:06Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-c3b8d2110f",
@@ -4087,7 +4493,10 @@
      "posted": "2026-10-25T22:40:16Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-c124945ad0",
@@ -4115,7 +4524,10 @@
      "posted": "2026-10-26T00:00:26Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-b4833479d6",
@@ -4143,7 +4555,10 @@
      "posted": "2026-10-26T00:00:26Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-4de11e6a4e",
@@ -4171,7 +4586,10 @@
      "posted": "2026-10-26T00:00:26Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-d48f1c15fc",
@@ -4199,7 +4617,10 @@
      "posted": "2026-10-26T00:00:26Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-1ec0eb2a82",
@@ -4227,7 +4648,10 @@
      "posted": "2026-10-26T00:00:26Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-3516dc7619",
@@ -4255,7 +4679,10 @@
      "posted": "2026-10-26T00:00:26Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-78c008d014",
@@ -4283,7 +4710,10 @@
      "posted": "2026-10-26T00:00:26Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-e85380b922",
@@ -4311,7 +4741,10 @@
      "posted": "2026-10-26T00:00:26Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-e3c73fe6dd",
@@ -4339,7 +4772,10 @@
      "posted": "2026-10-26T00:00:26Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-9f22de68f0",
@@ -4367,7 +4803,10 @@
      "posted": "2026-10-26T00:00:26Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-410593d4f7",
@@ -4395,7 +4834,10 @@
      "posted": "2026-10-26T00:00:26Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-55dbcf5c5a",
@@ -4423,7 +4865,10 @@
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-bdc33a38bd",
@@ -4451,7 +4896,10 @@
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-21ed55bd3a",
@@ -4479,7 +4927,10 @@
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-74caa7e82c",
@@ -4507,7 +4958,10 @@
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-b15810cf4a",
@@ -4535,7 +4989,10 @@
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-4aff75c33f",
@@ -4563,7 +5020,10 @@
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-e73dfe226c",
@@ -4591,7 +5051,10 @@
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-c92e6d6a9c",
@@ -4619,7 +5082,10 @@
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-bd10376562",
@@ -4647,7 +5113,10 @@
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-dd7609a50a",
@@ -4675,7 +5144,10 @@
      "posted": "2026-10-25T22:00:11Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     }
    ]
   },
@@ -4719,7 +5191,10 @@
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-7e6e70cd0a",
@@ -4747,7 +5222,10 @@
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-816c12ded4",
@@ -4775,7 +5253,10 @@
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-30648a2c84",
@@ -4803,7 +5284,10 @@
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-e0bd0e6ca3",
@@ -4831,7 +5315,10 @@
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-8a8e09e4da",
@@ -4859,7 +5346,10 @@
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-27b4592516",
@@ -4887,7 +5377,10 @@
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-e7928a2ba3",
@@ -4915,7 +5408,10 @@
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-9a583c1fda",
@@ -4943,7 +5439,10 @@
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-ac914ca009",
@@ -4971,7 +5470,10 @@
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-baeca08ce8",
@@ -4999,7 +5501,10 @@
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-bd1f793a41",
@@ -5027,7 +5532,10 @@
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-d17c6dcf37",
@@ -5055,7 +5563,10 @@
      "posted": "2026-10-24T21:10:02Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-5c1516357d",
@@ -5083,7 +5594,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-4580691504",
@@ -5111,7 +5625,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-9b5890064c",
@@ -5139,7 +5656,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-b561390129",
@@ -5167,7 +5687,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-fa8484d150",
@@ -5195,7 +5718,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-f751d24730",
@@ -5223,7 +5749,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-7c2bbbabd2",
@@ -5251,7 +5780,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-29d13b5fe4",
@@ -5279,7 +5811,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-032cd7683d",
@@ -5307,7 +5842,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-1fef644ba9",
@@ -5335,7 +5873,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-71d63563dc",
@@ -5363,7 +5904,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-e46dbec984",
@@ -5391,7 +5935,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-5dba61981d",
@@ -5419,7 +5966,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-7614c9e89b",
@@ -5447,7 +5997,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-0b76f88614",
@@ -5475,7 +6028,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-95bd00e939",
@@ -5503,7 +6059,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-462ce7fc29",
@@ -5531,7 +6090,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-0f5912e587",
@@ -5559,7 +6121,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-065e8ab43b",
@@ -5587,7 +6152,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-4fe08d74d6",
@@ -5615,7 +6183,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-07ff7d9ca6",
@@ -5643,7 +6214,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-5a8ab34e78",
@@ -5671,7 +6245,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-33072c1e85",
@@ -5699,7 +6276,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-960c85cb58",
@@ -5727,7 +6307,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-3dd7e2a4a4",
@@ -5755,7 +6338,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-f1ca830e17",
@@ -5783,7 +6369,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-773b68fa79",
@@ -5811,7 +6400,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-c8ce2e26bb",
@@ -5839,7 +6431,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-b5ee4bd623",
@@ -5867,7 +6462,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-5d3cdb24a0",
@@ -5895,7 +6493,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-16ef465c4c",
@@ -5923,7 +6524,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-daf9e08377",
@@ -5951,7 +6555,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-f2911add0a",
@@ -5979,7 +6586,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-b7e694fb58",
@@ -6007,7 +6617,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-dc5e1f6cde",
@@ -6035,7 +6648,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-4128b69651",
@@ -6063,7 +6679,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-af51326e81",
@@ -6091,7 +6710,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-2c8cc6ce11",
@@ -6119,7 +6741,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-624ada899f",
@@ -6147,7 +6772,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-9a1b1129de",
@@ -6175,7 +6803,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-59438be45c",
@@ -6203,7 +6834,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-aebf0bc45c",
@@ -6231,7 +6865,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-8505f353b2",
@@ -6259,7 +6896,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-077a13e32a",
@@ -6287,7 +6927,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-9154157349",
@@ -6315,7 +6958,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-b278fb3bb0",
@@ -6343,7 +6989,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-b188845a02",
@@ -6371,7 +7020,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-eca69d29cb",
@@ -6399,7 +7051,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-c3c66b3086",
@@ -6427,7 +7082,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-419ac72bb7",
@@ -6455,7 +7113,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-8f913422b5",
@@ -6483,7 +7144,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-7032513b85",
@@ -6511,7 +7175,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-baaa8d8f45",
@@ -6539,7 +7206,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-6a603f7a7d",
@@ -6567,7 +7237,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-17dd035719",
@@ -6595,7 +7268,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-cc971da0a5",
@@ -6623,7 +7299,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-26110dd6a7",
@@ -6651,7 +7330,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-126f968b44",
@@ -6679,7 +7361,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-04c03cd656",
@@ -6707,7 +7392,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-861fae1a52",
@@ -6735,7 +7423,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-7ff78a1245",
@@ -6763,7 +7454,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-1e53cb383a",
@@ -6791,7 +7485,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-01f327d8bf",
@@ -6819,7 +7516,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-2b1c2dba2b",
@@ -6847,7 +7547,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-18d1a51982",
@@ -6875,7 +7578,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-bf1b1549ff",
@@ -6903,7 +7609,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-c858fe1765",
@@ -6931,7 +7640,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-f9ba9bb7db",
@@ -6959,7 +7671,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-995093e07d",
@@ -6987,7 +7702,10 @@
      "posted": "2026-10-24T23:40:15Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-5320bd6195",
@@ -7015,7 +7733,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-3ae67e4f93",
@@ -7043,7 +7764,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-fb422542d8",
@@ -7071,7 +7795,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-198164f188",
@@ -7099,7 +7826,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-c87d9f0409",
@@ -7127,7 +7857,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-b924637f86",
@@ -7155,7 +7888,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-5db5512313",
@@ -7183,7 +7919,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-039fcd0bb3",
@@ -7211,7 +7950,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-bc258b82d2",
@@ -7239,7 +7981,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-daa6d3f997",
@@ -7267,7 +8012,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-20c736905a",
@@ -7295,7 +8043,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-68fe22c619",
@@ -7323,7 +8074,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-7d750998b7",
@@ -7351,7 +8105,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-21b84518f2",
@@ -7379,7 +8136,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-5cfba805cc",
@@ -7407,7 +8167,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-b1559f6440",
@@ -7435,7 +8198,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-e6655753a4",
@@ -7463,7 +8229,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-d5d83aee4a",
@@ -7491,7 +8260,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-c5f6fb7791",
@@ -7519,7 +8291,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-e1cf08124b",
@@ -7547,7 +8322,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-4595c130a5",
@@ -7575,7 +8353,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-43e8312cc4",
@@ -7603,7 +8384,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-c4d17f5ca5",
@@ -7631,7 +8415,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-3b81ee1a2b",
@@ -7659,7 +8446,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-17dc2951fa",
@@ -7687,7 +8477,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-76ff37bb25",
@@ -7715,7 +8508,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-657dba56db",
@@ -7743,7 +8539,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-f460bb2a77",
@@ -7771,7 +8570,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-e0275bb399",
@@ -7799,7 +8601,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-e1670b882d",
@@ -7827,7 +8632,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-d2bfedd5ff",
@@ -7855,7 +8663,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-2fe1afd1d8",
@@ -7883,7 +8694,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-bd0ca8d25c",
@@ -7911,7 +8725,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-d122bdef19",
@@ -7939,7 +8756,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-df9f85e90a",
@@ -7967,7 +8787,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-1ff2e27880",
@@ -7995,7 +8818,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-9b22726e0d",
@@ -8023,7 +8849,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-0136ed1a11",
@@ -8051,7 +8880,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-39f6cf33b1",
@@ -8079,7 +8911,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-a821477625",
@@ -8107,7 +8942,10 @@
      "posted": "2026-10-24T21:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-02eee60c8d",
@@ -8135,7 +8973,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-037448c721",
@@ -8163,7 +9004,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-6311e3db3d",
@@ -8191,7 +9035,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-8cb723f476",
@@ -8219,7 +9066,10 @@
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-89daf7f690",
@@ -8247,7 +9097,10 @@
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-bd46cf9cea",
@@ -8275,7 +9128,10 @@
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-96764e19a4",
@@ -8303,7 +9159,10 @@
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-164fd90005",
@@ -8331,7 +9190,10 @@
      "posted": "2026-10-24T23:40:16Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-51245e767a",
@@ -8359,7 +9221,10 @@
      "posted": "2026-10-24T23:40:16Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-e3f6c7add5",
@@ -8387,7 +9252,10 @@
      "posted": "2026-10-24T23:40:16Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-27a7fa728f",
@@ -8415,7 +9283,10 @@
      "posted": "2026-10-24T23:40:16Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-dbafa5cc89",
@@ -8443,7 +9314,10 @@
      "posted": "2026-10-24T23:40:16Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-642258c4db",
@@ -8471,7 +9345,10 @@
      "posted": "2026-10-24T23:40:16Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-9eb8b64118",
@@ -8499,7 +9376,10 @@
      "posted": "2026-10-24T23:40:16Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-a3f20e7327",
@@ -8527,7 +9407,10 @@
      "posted": "2026-10-24T23:40:16Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-1e4a730d27",
@@ -8555,7 +9438,10 @@
      "posted": "2026-10-24T23:40:16Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-f7f4796344",
@@ -8583,7 +9469,10 @@
      "posted": "2026-10-24T23:40:16Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-6be4255456",
@@ -8611,7 +9500,10 @@
      "posted": "2026-10-24T23:40:16Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-736e8787cd",
@@ -8639,7 +9531,10 @@
      "posted": "2026-10-24T23:40:16Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-1764a84a5e",
@@ -8667,7 +9562,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-cf90ae55af",
@@ -8695,7 +9593,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-289d720f16",
@@ -8723,7 +9624,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-1a7de0e6ae",
@@ -8751,7 +9655,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-ddbe9d57d1",
@@ -8779,7 +9686,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-17b90224d6",
@@ -8807,7 +9717,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-1545b1acb5",
@@ -8835,7 +9748,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-154de57980",
@@ -8863,7 +9779,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-eeed8d6133",
@@ -8891,7 +9810,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-f5ec0ff41f",
@@ -8919,7 +9841,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-f40deb2598",
@@ -8947,7 +9872,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-acfc1412c8",
@@ -8975,7 +9903,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-faaddde6cd",
@@ -9003,7 +9934,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-2493866494",
@@ -9031,7 +9965,10 @@
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-931643f4f5",
@@ -9059,7 +9996,10 @@
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-e78c9e5ad4",
@@ -9087,7 +10027,10 @@
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-b70506305b",
@@ -9115,7 +10058,10 @@
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-f81d4a1897",
@@ -9143,7 +10089,10 @@
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-0122abf32c",
@@ -9171,7 +10120,10 @@
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-39f222c8bb",
@@ -9199,7 +10151,10 @@
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-d746725c54",
@@ -9227,7 +10182,10 @@
      "posted": "2026-10-25T00:10:20Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-4a98bff0a6",
@@ -9255,7 +10213,10 @@
      "posted": "2026-10-25T00:10:20Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-2aba8da685",
@@ -9283,7 +10244,10 @@
      "posted": "2026-10-25T00:10:20Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-58f933e258",
@@ -9311,7 +10275,10 @@
      "posted": "2026-10-25T00:10:20Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-e456eb4b8e",
@@ -9339,7 +10306,10 @@
      "posted": "2026-10-25T00:10:20Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-8ee0d8a58a",
@@ -9367,7 +10337,10 @@
      "posted": "2026-10-25T00:10:20Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-639238181f",
@@ -9395,7 +10368,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-58653460a1",
@@ -9423,7 +10399,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-2795dc5261",
@@ -9451,7 +10430,10 @@
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-596f6ae562",
@@ -9479,7 +10461,10 @@
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-4f67ea1636",
@@ -9507,7 +10492,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-42c8d37d7b",
@@ -9535,7 +10523,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-70ced09a3f",
@@ -9563,7 +10554,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-c79714fc36",
@@ -9591,7 +10585,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-68d2f6962c",
@@ -9619,7 +10616,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-5f6c24dc88",
@@ -9647,7 +10647,10 @@
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-b375b27277",
@@ -9675,7 +10678,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-004113e59a",
@@ -9703,7 +10709,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-20b3377e01",
@@ -9731,7 +10740,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-42f578d9ff",
@@ -9759,7 +10771,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-e6b087e54f",
@@ -9787,7 +10802,10 @@
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-9bbed1e63c",
@@ -9815,7 +10833,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-28dc20c4dd",
@@ -9843,7 +10864,10 @@
      "posted": "2026-10-24T22:40:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-a06d8cd07e",
@@ -9871,7 +10895,10 @@
      "posted": "2026-10-25T01:10:05Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-3a223d6bef",
@@ -9899,7 +10926,10 @@
      "posted": "2026-10-25T01:10:05Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-54505fc517",
@@ -9927,7 +10957,10 @@
      "posted": "2026-10-25T01:10:05Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-870db563cd",
@@ -9955,7 +10988,10 @@
      "posted": "2026-10-25T01:10:05Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-0aa949dd1f",
@@ -9983,7 +11019,10 @@
      "posted": "2026-10-25T01:10:05Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-716e3367a1",
@@ -10011,7 +11050,10 @@
      "posted": "2026-10-25T01:10:05Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-a76ad38e27",
@@ -10039,7 +11081,10 @@
      "posted": "2026-10-25T01:10:05Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-fa260d1909",
@@ -10067,7 +11112,10 @@
      "posted": "2026-10-25T01:10:05Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-8a223fcd60",
@@ -10095,7 +11143,10 @@
      "posted": "2026-10-24T23:40:15Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-9fc67eeab6",
@@ -10123,7 +11174,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-80e6e6481a",
@@ -10151,7 +11205,10 @@
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-22a8d1134d",
@@ -10179,7 +11236,10 @@
      "posted": "2026-10-25T00:10:19Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-76768a384f",
@@ -10207,7 +11267,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-30c7a8577b",
@@ -10235,7 +11298,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-6730ff1cec",
@@ -10263,7 +11329,10 @@
      "posted": "2026-10-24T23:10:11Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     }
    ]
   },
@@ -10307,7 +11376,10 @@
      "posted": "2026-10-23T19:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-e7065bc440",
@@ -10335,7 +11407,10 @@
      "posted": "2026-10-23T19:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-3b536d3033",
@@ -10363,7 +11438,10 @@
      "posted": "2026-10-23T19:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-16a5e873ce",
@@ -10391,7 +11469,10 @@
      "posted": "2026-10-23T19:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-6c252f389a",
@@ -10419,7 +11500,10 @@
      "posted": "2026-10-23T19:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-b923f3ba24",
@@ -10447,7 +11531,10 @@
      "posted": "2026-10-23T19:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-733f4050c2",
@@ -10475,7 +11562,10 @@
      "posted": "2026-10-23T19:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-37811a76f1",
@@ -10503,7 +11593,10 @@
      "posted": "2026-10-23T19:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-a1785854a9",
@@ -10531,7 +11624,10 @@
      "posted": "2026-10-23T19:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-d6fdb0804e",
@@ -10559,7 +11655,10 @@
      "posted": "2026-10-23T19:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-681cf6a97f",
@@ -10587,7 +11686,10 @@
      "posted": "2026-10-23T19:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-ea57bb8132",
@@ -10615,7 +11717,10 @@
      "posted": "2026-10-23T19:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-4f05ded805",
@@ -10643,7 +11748,10 @@
      "posted": "2026-10-23T19:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-5123ab9ea5",
@@ -10671,7 +11779,10 @@
      "posted": "2026-10-23T19:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-679a999f1b",
@@ -10699,7 +11810,10 @@
      "posted": "2026-10-23T19:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-81c2a765c7",
@@ -10727,7 +11841,10 @@
      "posted": "2026-10-23T19:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-c3c9970b1f",
@@ -10755,7 +11872,10 @@
      "posted": "2026-10-23T19:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-6101aeadc1",
@@ -10783,7 +11903,10 @@
      "posted": "2026-10-23T19:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-e42d4a111a",
@@ -10811,7 +11934,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-56fe4b2693",
@@ -10839,7 +11965,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-7bba1ad933",
@@ -10867,7 +11996,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-fee434ed92",
@@ -10895,7 +12027,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-a5dea09a1e",
@@ -10923,7 +12058,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-ce67c46bff",
@@ -10951,7 +12089,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-b7f2e19444",
@@ -10979,7 +12120,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-feadbcc535",
@@ -11007,7 +12151,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-0306268013",
@@ -11035,7 +12182,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-28d3772835",
@@ -11063,7 +12213,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-44b3eeea6e",
@@ -11091,7 +12244,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-13a6d8c0cf",
@@ -11119,7 +12275,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-e648d43f61",
@@ -11147,7 +12306,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-a9d264016b",
@@ -11175,7 +12337,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-9460d3e0cb",
@@ -11203,7 +12368,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-43ef387c88",
@@ -11231,7 +12399,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-dfd7459007",
@@ -11259,7 +12430,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-4dfd2b7f21",
@@ -11287,7 +12461,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-12e27a1731",
@@ -11315,7 +12492,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-ceb7b28d7c",
@@ -11343,7 +12523,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-2c1da7b72b",
@@ -11371,7 +12554,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-694f6e19e2",
@@ -11399,7 +12585,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-fea15636a2",
@@ -11427,7 +12616,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-13d308c61f",
@@ -11455,7 +12647,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-48aebbb500",
@@ -11483,7 +12678,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-4859e4041e",
@@ -11511,7 +12709,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-5e2515779d",
@@ -11539,7 +12740,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-906f37e18a",
@@ -11567,7 +12771,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-8595c76ecc",
@@ -11595,7 +12802,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-acab5f3d62",
@@ -11623,7 +12833,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-b1a766059d",
@@ -11651,7 +12864,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-fe3b5dfdee",
@@ -11679,7 +12895,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-2c0c20f801",
@@ -11707,7 +12926,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-c259bf2bde",
@@ -11735,7 +12957,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-23603c6ca1",
@@ -11763,7 +12988,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-cd24e5a2e7",
@@ -11791,7 +13019,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-20400eee80",
@@ -11819,7 +13050,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-2f1098bf1a",
@@ -11847,7 +13081,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-7f3c0544bd",
@@ -11875,7 +13112,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-e36402c54d",
@@ -11903,7 +13143,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-f8106a3619",
@@ -11931,7 +13174,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-cfdcf61b3a",
@@ -11959,7 +13205,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-459b6df47a",
@@ -11987,7 +13236,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-18878273a6",
@@ -12015,7 +13267,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-e0b6202004",
@@ -12043,7 +13298,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-fe82aacdcd",
@@ -12071,7 +13329,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-da29ffbb73",
@@ -12099,7 +13360,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-8d66229984",
@@ -12127,7 +13391,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-10751a554c",
@@ -12155,7 +13422,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-b768ce25e3",
@@ -12183,7 +13453,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-cbe56aa30e",
@@ -12211,7 +13484,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-4ffc7fcfd5",
@@ -12239,7 +13515,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-93aa0491e1",
@@ -12267,7 +13546,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-1c8e99786e",
@@ -12295,7 +13577,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-079cb1df04",
@@ -12323,7 +13608,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-5567bb3f93",
@@ -12351,7 +13639,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-5eea580195",
@@ -12379,7 +13670,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-8cde01cdd1",
@@ -12407,7 +13701,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-c5f3163513",
@@ -12435,7 +13732,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-9b6a228bf1",
@@ -12463,7 +13763,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-62a3f90bd4",
@@ -12491,7 +13794,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-1f99441fcb",
@@ -12519,7 +13825,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-0b73ae8db7",
@@ -12547,7 +13856,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-2f8f657065",
@@ -12575,7 +13887,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-d0aa812288",
@@ -12603,7 +13918,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-72744b4937",
@@ -12631,7 +13949,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-492860b955",
@@ -12659,7 +13980,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-eeb1dc93b4",
@@ -12687,7 +14011,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-99cc48c491",
@@ -12715,7 +14042,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-fa98e1f8be",
@@ -12743,7 +14073,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-dee1d1ebbc",
@@ -12771,7 +14104,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-f3a5f4dec1",
@@ -12799,7 +14135,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-834edfdd84",
@@ -12827,7 +14166,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-52e7e4ec8b",
@@ -12855,7 +14197,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-6a844cf030",
@@ -12883,7 +14228,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-e3e11506f6",
@@ -12911,7 +14259,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-2509dca250",
@@ -12939,7 +14290,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-a37d776076",
@@ -12967,7 +14321,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-7bb8525f82",
@@ -12995,7 +14352,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-a14e1f7d79",
@@ -13023,7 +14383,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-87603c5db0",
@@ -13051,7 +14414,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-3934f056ee",
@@ -13079,7 +14445,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-451c140395",
@@ -13107,7 +14476,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-248b2cf765",
@@ -13135,7 +14507,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-918c1e3a03",
@@ -13163,7 +14538,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-5de4d439f6",
@@ -13191,7 +14569,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-f57207bf93",
@@ -13219,7 +14600,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-6d0ea35e1e",
@@ -13247,7 +14631,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-93618c6c9a",
@@ -13275,7 +14662,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-648812b3a6",
@@ -13303,7 +14693,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-6b2471c5fb",
@@ -13331,7 +14724,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-6cffd181d8",
@@ -13359,7 +14755,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-374995ec16",
@@ -13387,7 +14786,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-31da491969",
@@ -13415,7 +14817,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-dcee074af5",
@@ -13443,7 +14848,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-bbf9a11441",
@@ -13471,7 +14879,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-4e6eeb0179",
@@ -13499,7 +14910,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-99172ceee8",
@@ -13527,7 +14941,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-e607ce5fe4",
@@ -13555,7 +14972,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-0759f21cc9",
@@ -13583,7 +15003,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-cf3adf7ab8",
@@ -13611,7 +15034,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-9825ecd121",
@@ -13639,7 +15065,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-fead545aa9",
@@ -13667,7 +15096,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-a32104de17",
@@ -13695,7 +15127,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-35b6fb4aad",
@@ -13723,7 +15158,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-fba7dcde3c",
@@ -13751,7 +15189,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-f06f2161ee",
@@ -13779,7 +15220,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-fa796df62e",
@@ -13807,7 +15251,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-f12debbce8",
@@ -13835,7 +15282,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-7666927890",
@@ -13863,7 +15313,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-3c93596f2c",
@@ -13891,7 +15344,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-d7957852a9",
@@ -13919,7 +15375,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-283995b849",
@@ -13947,7 +15406,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-568a61b5d7",
@@ -13975,7 +15437,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-629fe4ab9c",
@@ -14003,7 +15468,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-34276a672e",
@@ -14031,7 +15499,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-0121a7d01b",
@@ -14059,7 +15530,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-a7686241c8",
@@ -14087,7 +15561,10 @@
      "posted": "2026-10-23T22:10:01Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-d4e949b6d0",
@@ -14115,7 +15592,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-9da4132dc6",
@@ -14143,7 +15623,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-227f121816",
@@ -14171,7 +15654,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-30839a2476",
@@ -14199,7 +15685,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-d60df380d4",
@@ -14227,7 +15716,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-bdfa1bb463",
@@ -14255,7 +15747,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-368a0dbb87",
@@ -14283,7 +15778,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-8291002f19",
@@ -14311,7 +15809,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-d3ee8e85b5",
@@ -14339,7 +15840,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-45b117cfa2",
@@ -14367,7 +15871,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-942b0d4281",
@@ -14395,7 +15902,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-e74ba98099",
@@ -14423,7 +15933,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-82fa5c755f",
@@ -14451,7 +15964,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-67baece40f",
@@ -14479,7 +15995,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-f51e454770",
@@ -14507,7 +16026,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-7b74dd8642",
@@ -14535,7 +16057,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-8dde8ce61c",
@@ -14563,7 +16088,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-a7fad284c2",
@@ -14591,7 +16119,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-8a3554e4a0",
@@ -14619,7 +16150,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-9e77023500",
@@ -14647,7 +16181,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-7a21c38ddc",
@@ -14675,7 +16212,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-70561dd392",
@@ -14703,7 +16243,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-885575f474",
@@ -14731,7 +16274,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-9895ff0755",
@@ -14759,7 +16305,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-0463670727",
@@ -14787,7 +16336,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-1a2ae71a65",
@@ -14815,7 +16367,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-4e850c361c",
@@ -14843,7 +16398,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-2f12718bce",
@@ -14871,7 +16429,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-1580121b91",
@@ -14899,7 +16460,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-9c25b467d1",
@@ -14927,7 +16491,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-14f55da3f9",
@@ -14955,7 +16522,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-631a7bc3e1",
@@ -14983,7 +16553,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-c2e22cb9ed",
@@ -15011,7 +16584,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-5c2645f4a0",
@@ -15039,7 +16615,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-4ce0d722a4",
@@ -15067,7 +16646,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-39cc161991",
@@ -15095,7 +16677,10 @@
      "posted": "2026-10-24T01:10:17Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-289f75f631",
@@ -15123,7 +16708,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-25072cabb7",
@@ -15151,7 +16739,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-491eec495a",
@@ -15179,7 +16770,10 @@
      "posted": "2026-10-24T01:10:17Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-5cdbcf9203",
@@ -15207,7 +16801,10 @@
      "posted": "2026-10-24T01:10:17Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-00e98f167f",
@@ -15235,7 +16832,10 @@
      "posted": "2026-10-24T01:10:17Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-a4fde956da",
@@ -15263,7 +16863,10 @@
      "posted": "2026-10-24T01:10:17Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-0f18a73270",
@@ -15291,7 +16894,10 @@
      "posted": "2026-10-24T01:10:17Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-02b8023390",
@@ -15319,7 +16925,10 @@
      "posted": "2026-10-24T01:10:17Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-bbe41b7eef",
@@ -15347,7 +16956,10 @@
      "posted": "2026-10-24T01:10:17Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-c1bb3599c2",
@@ -15375,7 +16987,10 @@
      "posted": "2026-10-24T01:10:17Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-4b6d23a7ff",
@@ -15403,7 +17018,10 @@
      "posted": "2026-10-24T01:10:17Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-e69c7cb6b2",
@@ -15431,7 +17049,10 @@
      "posted": "2026-10-24T01:10:17Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-aed3b66457",
@@ -15459,7 +17080,10 @@
      "posted": "2026-10-24T01:10:17Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-ff27ac0817",
@@ -15487,7 +17111,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-f27cb0bae2",
@@ -15515,7 +17142,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-2b6eac06ca",
@@ -15543,7 +17173,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-99db09ad7e",
@@ -15571,7 +17204,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-673713dbbe",
@@ -15599,7 +17235,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-443ae9de50",
@@ -15627,7 +17266,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-0bbd4c5938",
@@ -15655,7 +17297,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-298d236faf",
@@ -15683,7 +17328,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-203d6adcd6",
@@ -15711,7 +17359,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-22cc00c3be",
@@ -15739,7 +17390,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-13925cbcea",
@@ -15767,7 +17421,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-11b6af6f7c",
@@ -15795,7 +17452,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-d59139914b",
@@ -15823,7 +17483,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-9923d648e1",
@@ -15851,7 +17514,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-c563f8e604",
@@ -15879,7 +17545,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-e1d4ff2975",
@@ -15907,7 +17576,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-80c8a660d4",
@@ -15935,7 +17607,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-322f57c058",
@@ -15963,7 +17638,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-a13f84425d",
@@ -15991,7 +17669,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-65d00e988b",
@@ -16019,7 +17700,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-55cbc0a772",
@@ -16047,7 +17731,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-901d2311bc",
@@ -16075,7 +17762,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-f8a8245a48",
@@ -16103,7 +17793,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-0bf3a8751b",
@@ -16131,7 +17824,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-3e81ea11c6",
@@ -16159,7 +17855,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-01eba45c59",
@@ -16187,7 +17886,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-bcf554861d",
@@ -16215,7 +17917,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-bec3361b3e",
@@ -16243,7 +17948,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-013b1a0635",
@@ -16271,7 +17979,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-3e3fa82bcb",
@@ -16299,7 +18010,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-38de99da23",
@@ -16327,7 +18041,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-40e1da09fc",
@@ -16355,7 +18072,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-ce5f7a3c09",
@@ -16383,7 +18103,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-9767d6769d",
@@ -16411,7 +18134,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-e4613fce35",
@@ -16439,7 +18165,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-a3c407550b",
@@ -16467,7 +18196,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-fe5bb42d1f",
@@ -16495,7 +18227,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-0581080d69",
@@ -16523,7 +18258,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-983afe7f35",
@@ -16551,7 +18289,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-31a349a8a4",
@@ -16579,7 +18320,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-d0518a1eef",
@@ -16607,7 +18351,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-8c11dad415",
@@ -16635,7 +18382,10 @@
      "posted": "2026-10-23T23:10:08Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-e99840a6e3",
@@ -16663,7 +18413,10 @@
      "posted": "2026-10-24T00:40:14Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     }
    ]
   },
@@ -16707,7 +18460,10 @@
      "posted": "2026-10-22T22:10:32Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-5ea5b652f4",
@@ -16735,7 +18491,10 @@
      "posted": "2026-10-22T22:10:32Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-7f32adb68d",
@@ -16763,7 +18522,10 @@
      "posted": "2026-10-22T22:10:32Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-86fdda40df",
@@ -16791,7 +18553,10 @@
      "posted": "2026-10-22T22:10:32Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-03f0221e58",
@@ -16819,7 +18584,10 @@
      "posted": "2026-10-22T22:10:32Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-8402091365",
@@ -16847,7 +18615,10 @@
      "posted": "2026-10-22T22:10:32Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-5a9e9a1560",
@@ -16875,7 +18646,10 @@
      "posted": "2026-10-22T22:10:32Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-b7991286fd",
@@ -16903,7 +18677,10 @@
      "posted": "2026-10-22T22:10:32Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-cef02137f7",
@@ -16931,7 +18708,10 @@
      "posted": "2026-10-22T22:10:32Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-0281ff5452",
@@ -16959,7 +18739,10 @@
      "posted": "2026-10-22T22:10:32Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-2d9aa80fc8",
@@ -16987,7 +18770,10 @@
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-ae3c5bf836",
@@ -17015,7 +18801,10 @@
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-7e9b72a9d7",
@@ -17043,7 +18832,10 @@
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-62408caa9e",
@@ -17071,7 +18863,10 @@
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-40f4d1d18a",
@@ -17099,7 +18894,10 @@
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-ca4fd28109",
@@ -17127,7 +18925,10 @@
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-591516b594",
@@ -17155,7 +18956,10 @@
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-fb6154619b",
@@ -17183,7 +18987,10 @@
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-c19ea8be58",
@@ -17211,7 +19018,10 @@
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-b70c5bd97e",
@@ -17239,7 +19049,10 @@
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-58a73da069",
@@ -17267,7 +19080,10 @@
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-bea97a8b06",
@@ -17295,7 +19111,10 @@
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-7140010f38",
@@ -17323,7 +19142,10 @@
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-6eff42cbf9",
@@ -17351,7 +19173,10 @@
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-e819a025a2",
@@ -17379,7 +19204,10 @@
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-c712f50708",
@@ -17407,7 +19235,10 @@
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-afc7174a66",
@@ -17435,7 +19266,10 @@
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-69bc923649",
@@ -17463,7 +19297,10 @@
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-0773b75aac",
@@ -17491,7 +19328,10 @@
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-1ad175e293",
@@ -17519,7 +19359,10 @@
      "posted": "2026-10-22T22:10:31Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-1e3c09a2dd",
@@ -17547,7 +19390,10 @@
      "posted": "2026-10-23T00:40:43Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-3be0d3080e",
@@ -17575,7 +19421,10 @@
      "posted": "2026-10-23T00:40:43Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-b297736ff6",
@@ -17603,7 +19452,10 @@
      "posted": "2026-10-23T00:40:43Z",
      "rules": "v2",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-ebcc17598d",
@@ -17631,7 +19483,10 @@
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-3ed390542a",
@@ -17659,7 +19514,10 @@
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-1e906b4b66",
@@ -17687,7 +19545,10 @@
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-181ae2194b",
@@ -17715,7 +19576,10 @@
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-4a7a42396c",
@@ -17743,7 +19607,10 @@
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-76a37c93cc",
@@ -17771,7 +19638,10 @@
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-160e4254fa",
@@ -17799,7 +19669,10 @@
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-c3d35fbd73",
@@ -17827,7 +19700,10 @@
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-8bf03c3ecb",
@@ -17855,7 +19731,10 @@
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-19ca27c5d1",
@@ -17883,7 +19762,10 @@
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-3c63587cbc",
@@ -17911,7 +19793,10 @@
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-51785e7c57",
@@ -17939,7 +19824,10 @@
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-e8a9e4094b",
@@ -17967,7 +19855,10 @@
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-b07fa00a80",
@@ -17995,7 +19886,10 @@
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-d8b2ab049e",
@@ -18023,7 +19917,10 @@
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-076366afd4",
@@ -18051,7 +19948,10 @@
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "h2h-97c5afced2",
@@ -18079,7 +19979,10 @@
      "posted": "2026-10-23T00:40:43Z",
      "rules": "h2h",
      "retired": false,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     }
    ]
   },
@@ -18123,7 +20026,10 @@
      "posted": "2026-10-21T22:10:14Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-8d6db5f927",
@@ -18151,7 +20057,10 @@
      "posted": "2026-10-21T22:10:14Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-5e4e65cb5c",
@@ -18179,7 +20088,10 @@
      "posted": "2026-10-21T22:10:14Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-788fdf5f43",
@@ -18207,7 +20119,10 @@
      "posted": "2026-10-21T22:10:14Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-e315180a77",
@@ -18235,7 +20150,10 @@
      "posted": "2026-10-21T22:30:16Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-21a66c71b7",
@@ -18263,7 +20181,10 @@
      "posted": "2026-10-21T22:30:16Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-ad0457d463",
@@ -18291,7 +20212,10 @@
      "posted": "2026-10-21T22:30:16Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-bb536b87d3",
@@ -18319,7 +20243,10 @@
      "posted": "2026-10-21T22:30:16Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-1e83662c7f",
@@ -18347,7 +20274,10 @@
      "posted": "2026-10-21T22:40:18Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-2e6e9645c7",
@@ -18375,7 +20305,10 @@
      "posted": "2026-10-21T22:40:18Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-1b12219da8",
@@ -18403,7 +20336,10 @@
      "posted": "2026-10-21T22:40:18Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-39bba0953d",
@@ -18431,7 +20367,10 @@
      "posted": "2026-10-21T22:40:18Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-4d873ea712",
@@ -18459,7 +20398,10 @@
      "posted": "2026-10-21T22:40:18Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-c2456c770b",
@@ -18487,7 +20429,10 @@
      "posted": "2026-10-21T22:40:18Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-d49d169a1e",
@@ -18515,7 +20460,10 @@
      "posted": "2026-10-21T22:40:18Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-bf02f2c3f4",
@@ -18543,7 +20491,10 @@
      "posted": "2026-10-21T22:40:18Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-290a421f9f",
@@ -18571,7 +20522,10 @@
      "posted": "2026-10-21T22:40:18Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-b483f0a499",
@@ -18599,7 +20553,10 @@
      "posted": "2026-10-21T22:40:18Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-0b80fb9644",
@@ -18627,7 +20584,10 @@
      "posted": "2026-10-21T22:40:18Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-923f79488d",
@@ -18655,7 +20615,10 @@
      "posted": "2026-10-21T23:10:21Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-4d071fabe1",
@@ -18683,7 +20646,10 @@
      "posted": "2026-10-21T23:10:21Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-6b7346ddbf",
@@ -18711,7 +20677,10 @@
      "posted": "2026-10-21T23:10:21Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-a5f099edb8",
@@ -18739,7 +20708,10 @@
      "posted": "2026-10-21T23:10:21Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-ddcf348c84",
@@ -18767,7 +20739,10 @@
      "posted": "2026-10-21T23:10:21Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-9fea56566b",
@@ -18795,7 +20770,10 @@
      "posted": "2026-10-21T23:10:21Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-1a1882f5e1",
@@ -18823,7 +20801,10 @@
      "posted": "2026-10-21T23:40:25Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-c77cf1a02e",
@@ -18851,7 +20832,10 @@
      "posted": "2026-10-21T23:40:25Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-2a389b0227",
@@ -18879,7 +20863,10 @@
      "posted": "2026-10-21T23:40:25Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-4327d098de",
@@ -18907,7 +20894,10 @@
      "posted": "2026-10-21T23:40:25Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-6fb8a4605b",
@@ -18935,7 +20925,10 @@
      "posted": "2026-10-21T23:40:25Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-f3fd73548d",
@@ -18963,7 +20956,10 @@
      "posted": "2026-10-22T01:00:32Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-921a50144b",
@@ -18991,7 +20987,10 @@
      "posted": "2026-10-22T01:00:32Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-6d145f3f3e",
@@ -19019,7 +21018,10 @@
      "posted": "2026-10-22T01:00:32Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-e3406df29e",
@@ -19047,7 +21049,10 @@
      "posted": "2026-10-22T01:00:32Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-c589cf64f3",
@@ -19075,7 +21080,10 @@
      "posted": "2026-10-22T01:00:32Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-e116c616d4",
@@ -19103,7 +21111,10 @@
      "posted": "2026-10-22T01:10:33Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-12dc68c0d7",
@@ -19131,7 +21142,10 @@
      "posted": "2026-10-22T01:10:33Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-98895547d0",
@@ -19159,7 +21173,10 @@
      "posted": "2026-10-22T01:10:33Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-c11163718b",
@@ -19187,7 +21204,10 @@
      "posted": "2026-10-22T01:10:33Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-8b3032e415",
@@ -19215,7 +21235,10 @@
      "posted": "2026-10-22T01:10:33Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-fcb34b591a",
@@ -19243,7 +21266,10 @@
      "posted": "2026-10-22T01:10:33Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-265bfcdf07",
@@ -19271,7 +21297,10 @@
      "posted": "2026-10-22T01:10:33Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-0b6ee8d658",
@@ -19299,7 +21328,10 @@
      "posted": "2026-10-22T01:10:33Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-e267ec7b23",
@@ -19327,7 +21359,10 @@
      "posted": "2026-10-22T01:40:36Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-fa4dc10e0d",
@@ -19355,7 +21390,10 @@
      "posted": "2026-10-22T01:40:36Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-7c8fbcc57f",
@@ -19383,7 +21421,10 @@
      "posted": "2026-10-22T01:40:36Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-d6f0874837",
@@ -19411,7 +21452,10 @@
      "posted": "2026-10-22T01:40:36Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-bcfa25976b",
@@ -19439,7 +21483,10 @@
      "posted": "2026-10-22T01:40:36Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-c9c5294a13",
@@ -19467,7 +21514,10 @@
      "posted": "2026-10-22T01:40:36Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-79afbda7a6",
@@ -19495,7 +21545,10 @@
      "posted": "2026-10-22T01:40:36Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     }
    ]
   },
@@ -19539,7 +21592,10 @@
      "posted": "2026-10-21T00:42:56Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-0a13d1917a",
@@ -19567,7 +21623,10 @@
      "posted": "2026-10-21T00:42:56Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-1f88ef3088",
@@ -19595,7 +21654,10 @@
      "posted": "2026-10-21T00:42:56Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-11e7578008",
@@ -19623,7 +21685,10 @@
      "posted": "2026-10-21T00:42:56Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-d006c53e17",
@@ -19651,7 +21716,10 @@
      "posted": "2026-10-21T00:42:56Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     },
     {
      "id": "nba-e33726b709",
@@ -19679,7 +21747,10 @@
      "posted": "2026-10-21T00:42:56Z",
      "rules": "v1",
      "retired": true,
-     "conflict": false
+     "conflict": false,
+     "v3": false,
+     "stake_v3": null,
+     "cost": null
     }
    ]
   }

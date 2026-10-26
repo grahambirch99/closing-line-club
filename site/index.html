@@ -112,20 +112,21 @@
         </div>
         <span class="tag test-tag">Paper only</span>
       </div>
-      <p class="lede">We're testing NBA player props on paper before anything goes live. A bet needs an exchange price
-        (Novig or ProphetX) that beats the average of Pinnacle's and Kalshi's prices: Unders by 3% or more, Overs by 6% or
-        more, and no Overs longer than +233. Each bet is graded against Kalshi's price at tip-off. Nothing here is sent to
-        Discord or counts in the record. To pass, 100 graded bets must beat Kalshi's closing price by at least 1 point on
-        average, with at least 55% of them beating it.</p>
-      <p class="lede">Our first NBA rules (Oct 20–21) compared exchange prices with Pinnacle alone. Pinnacle's NBA prop
-        prices turned out to barely move before tip-off, so those "edges" weren't real: the bets went 17-39. We retired
-        those rules on Oct 22. Their bets stay listed below, marked "Retired v1 rules".</p>
-      <p class="lede">Bets marked "Matchup test" are a separate experiment: players whose past results against tonight's
-        opponent were well above or below their usual numbers, priced at Kalshi. It has its own record and needs 200
-        graded bets before we judge it.</p>
+      <p class="lede">We're testing NBA player props on paper before anything goes live. Since Oct 26 (rules v3) a pick
+        needs an exchange price (Novig or ProphetX) whose break-even, after fees, is at least 3 points below Kalshi's
+        price for the same side. At most 3 picks per game and 8 per night, biggest gaps first. Picks are judged on
+        results: to pass, 400 graded picks must win at least 3 points more often than their break-even, with the 95%
+        range above zero and a profit. Nothing here counts in the NFL record.</p>
+      <p class="lede">Oct 22–25 used rules v2 (Unders 3%+, Overs 6%+ against Pinnacle and Kalshi combined). We scored
+        those against Kalshi's closing price, but Kalshi was part of the price we bet against and barely moves before
+        tip-off, so that score mostly repeated the edge we started with. It said "passed"; the results over those nights (86-102, about
+        what Kalshi's prices expected) don't show a proven edge. v2 bets are still tracked but no longer posted.</p>
+      <p class="lede">Our first rules (Oct 20–21) compared exchange prices with Pinnacle alone and went 17-39; retired
+        Oct 22. The matchup test (past results against tonight's opponent, priced at Kalshi) keeps a separate record
+        and is decided at 1,500 bets or Jan 31.</p>
       <div class="panel goal">
-        <div class="goal-head"><span><b id="nba-goal-n">0 of 100</b> bets graded against Kalshi's closing price</span><span id="nba-goal-verdict"></span></div>
-        <div class="goal-track" role="progressbar" aria-label="Paper bets graded" aria-valuemin="0" aria-valuemax="100" id="nba-goal-bar"><div class="goal-fill" id="nba-goal-fill"></div></div>
+        <div class="goal-head"><span><b id="nba-goal-n">0 of 400</b> v3 picks graded on results</span><span id="nba-goal-verdict"></span></div>
+        <div class="goal-track" role="progressbar" aria-label="Paper bets graded" aria-valuemin="0" aria-valuemax="400" id="nba-goal-bar"><div class="goal-fill" id="nba-goal-fill"></div></div>
       </div>
       <div class="stats" id="nba-stats"></div>
       <div class="weeks" role="tablist" aria-label="Game night" id="nba-nights"></div>
