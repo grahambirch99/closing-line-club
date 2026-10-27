@@ -125,7 +125,7 @@
      "posted": "2026-10-26T22:10:03Z",
      "rules": "v3",
      "retired": false,
-     "conflict": true,
+     "conflict": false,
      "v3": true,
      "stake_v3": 5.0,
      "cost": 0.367
@@ -187,7 +187,7 @@
      "posted": "2026-10-26T22:10:03Z",
      "rules": "v3",
      "retired": false,
-     "conflict": true,
+     "conflict": false,
      "v3": true,
      "stake_v3": 5.0,
      "cost": 0.6231
