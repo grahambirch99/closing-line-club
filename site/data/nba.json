@@ -8,7 +8,7 @@
   "clv": 2.81,
   "beat": 88,
   "n_clv": 8,
-  "bets": 8,
+  "bets": 9,
   "goal": 400,
   "graded": 8,
   "lean": -20.4,
@@ -24,7 +24,7 @@
    "clv": 3.04,
    "beat": 96,
    "n_clv": 245,
-   "bets": 249
+   "bets": 252
   },
   "v1": {
    "w": 17,
@@ -46,7 +46,7 @@
    "clv": -2.82,
    "beat": 7,
    "n_clv": 566,
-   "bets": 581
+   "bets": 627
   }
  },
  "by_type": [
@@ -85,6 +85,53 @@
   }
  ],
  "nights": [
+  {
+   "night": "2026-10-27",
+   "label": "Tue Oct 27",
+   "record": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "units": 0,
+    "roi": null,
+    "clv": null,
+    "beat": null,
+    "n_clv": 0
+   },
+   "picks": [
+    {
+     "id": "nba-92cc3d66ad",
+     "night": "2026-10-27",
+     "kind": "nba",
+     "tier": "A",
+     "market": "player_points",
+     "title": "Michael Porter Jr",
+     "bet": "Under 18.5 points",
+     "game": "Nets at Celtics",
+     "kick": "2026-10-27T23:40:00Z",
+     "kick_label": "Tue 4:40 PM PT",
+     "venue": "ProphetX",
+     "price": "+186",
+     "stake": 5.0,
+     "implied": 35.0,
+     "fair": 39.8,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 40% chance; ProphetX at +186 breaks even at 35% after fees, a 4.4-point gap, 60 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-10-27T22:40:01Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "stake_v3": 5.0,
+     "cost": 0.3543
+    }
+   ]
+  },
   {
    "night": "2026-10-26",
    "label": "Mon Oct 26",
