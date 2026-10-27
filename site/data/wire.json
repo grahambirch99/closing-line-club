@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-10-27T02:53:32.585483+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Saquon Barkley questionable to return to Week 7"
+  },
+  {
    "at": "2026-10-26T21:38:07.447928+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "qb",
    "source": "rapsheet",
    "text": "Ravens QB Lamar Jackson (ankle) has been downgraded to out for tomorrow\u2019s game vs. the Bengals."
-  },
-  {
-   "at": "2026-10-24T16:56:33.205974+00:00",
-   "kind": "injury",
-   "source": "rotowire",
-   "text": "Dylan Sampson: Activated from injured reserve"
   }
  ]
 }
