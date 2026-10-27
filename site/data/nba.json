@@ -120,7 +120,7 @@
      "analysis": "Kalshi's price gives this side a 40% chance; ProphetX at +186 breaks even at 35% after fees, a 4.4-point gap, 60 minutes before tip.",
      "status": "pending",
      "actual": "",
-     "clv": null,
+     "clv": 5.23,
      "units": null,
      "posted": "2026-10-27T22:40:01Z",
      "rules": "v3",
