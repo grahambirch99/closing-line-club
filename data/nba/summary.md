@@ -1,14 +1,14 @@
-# NBA Test: paper tracking (updated Mon Oct 26 6:51 PM PT)
+# NBA Test: paper tracking (updated Mon Oct 26 10:00 PM PT)
 
 Rules v2 (research/nba_rules_v2_PREREG.md): fair = Pinnacle + Kalshi ladder; Unders >= 3% edge, Overs >= 6% and no
 longer than +233; Novig/ProphetX only. Scorecard: CLV vs the Kalshi ladder at tip ('Kalshi CLV').
 Gate (100+ graded): Kalshi CLV >= +1.0 pt with lower 95% bound > 0, >= 55% beat it, wins not significantly below expected.
 
-v3 picks (research/nba_rules_v3_PREREG.md, the only posted NBA bets): 8; graded 0-0, +0.00u; lean (win - cost) n/a; gate at 400
+v3 picks (research/nba_rules_v3_PREREG.md, the only posted NBA bets): 8; graded 2-6, -1.66u; lean (win - cost) -20.4 pts; gate at 400
 
-v2 paper bets (no longer posted; its Kalshi-CLV gate was circular): 257 bets; graded 86-102-0, +6.27u (+5.5% ROI)
+v2 paper bets (no longer posted; its Kalshi-CLV gate was circular): 257 bets; graded 110-142-0, +2.14u (+1.4% ROI)
 v1 (retired Oct 22, Pinnacle-only fair): 56 bets; graded 17-39-0, -10.66u (-31.4% ROI)
-Matchup test (research/nba_h2h_forward_PREREG.md, Kalshi taker): 578 bets; graded 241-203-0, +3.12u (+1.4% ROI); lean vs entry price +3.8 pts (n=444)
+Matchup test (research/nba_h2h_forward_PREREG.md, Kalshi taker): 578 bets; graded 305-254-0, +8.10u (+2.9% ROI); lean vs entry price +4.8 pts (n=559)
 
 | Group | Edges | Avg est. edge | With close | Avg CLV vs Pinnacle (pts) | Beat close |
 |---|---|---|---|---|---|
@@ -27,7 +27,7 @@ Independent checks on v2 paper bets (CLV vs Pinnacle mostly restates the startin
 prop prices rarely move before tip):
 - Pinnacle fair move, bet to close: -1.43 (n=200, 28% > 0) pts (+ = moved our way)
 - Beat the venue's own closing price: +2.19 (n=248, 37% > 0) pts
-- CLV vs Kalshi ladder at tip (independent): +3.02 (n=254, 95% > 0) pts
+- CLV vs Kalshi ladder at tip (independent): +3.01 (n=256, 95% > 0) pts
 - Over share of paper bets: 12%
 
 Nights tracked: 5; edges per night: 2026-10-22 31, 2026-10-23 200, 2026-10-24 211, 2026-10-25 168, 2026-10-26 201
