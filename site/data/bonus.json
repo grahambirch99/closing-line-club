@@ -10,6 +10,60 @@
  },
  "parlays": [
   {
+   "id": "BP-2026-10-27",
+   "date": "2026-10-27",
+   "sport": "NBA",
+   "posted": "2026-10-27T18:28:59Z",
+   "app": "Underdog",
+   "size": 3,
+   "payout": 6.0,
+   "odds": 500,
+   "p_hit": 0.1703,
+   "ev": 0.0216,
+   "boost_needed": 0.0,
+   "boost": null,
+   "payout_boost": null,
+   "ev_boost": null,
+   "status": "pending",
+   "units": null,
+   "units_boost": null,
+   "legs": [
+    {
+     "player": "Payton Pritchard",
+     "bet": "Lower 4.5 assists",
+     "game": "Nets at Celtics",
+     "kick": "2026-10-27T23:40:00Z",
+     "fair": 0.5566,
+     "push": 0,
+     "ref": "Kalshi",
+     "result": null,
+     "actual": null
+    },
+    {
+     "player": "Michael Porter Jr",
+     "bet": "Lower 22.5 points",
+     "game": "Nets at Celtics",
+     "kick": "2026-10-27T23:40:00Z",
+     "fair": 0.5556,
+     "push": 0,
+     "ref": "Pinnacle+Kalshi",
+     "result": null,
+     "actual": null
+    },
+    {
+     "player": "OG Anunoby",
+     "bet": "Lower 16.5 points",
+     "game": "Pistons at Knicks",
+     "kick": "2026-10-28T00:10:00Z",
+     "fair": 0.5506,
+     "push": 0,
+     "ref": "Pinnacle+Kalshi",
+     "result": null,
+     "actual": null
+    }
+   ]
+  },
+  {
    "id": "BP-2026-10-26",
    "date": "2026-10-26",
    "sport": "NBA",
