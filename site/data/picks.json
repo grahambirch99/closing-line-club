@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T07:26:08Z",
+ "generated_at": "2026-10-27T10:53:04Z",
  "current_week": 8,
  "weeks": [
   {
@@ -72,14 +72,14 @@
    "week": 7,
    "dates": "Oct 22\u201326",
    "record": {
-    "w": 15,
-    "l": 24,
+    "w": 16,
+    "l": 25,
     "p": 0,
-    "units": -1.83,
-    "roi": -7.6,
-    "clv": 0.72,
+    "units": -1.47,
+    "roi": -5.8,
+    "clv": 0.73,
     "beat": 72,
-    "n_clv": 39
+    "n_clv": 40
    },
    "picks": [
     {
@@ -1907,10 +1907,10 @@
      "edge": 4.9,
      "worst": "+111",
      "analysis": "Novig at +115 beats the sharp-book consensus's no-vig price (49% to hit), a +4.9% edge after inactives were announced.",
-     "status": "pending",
-     "actual": "",
+     "status": "W",
+     "actual": "2 rec",
      "clv": null,
-     "units": null,
+     "units": 0.862,
      "posted": "2026-10-26T22:54:48Z"
     },
     {
@@ -1932,10 +1932,10 @@
      "edge": 3.1,
      "worst": "+111",
      "analysis": "Novig at +111 beats Pinnacle's no-vig price (49% to hit), a +3.1% edge after inactives were announced.",
-     "status": "pending",
-     "actual": "",
-     "clv": null,
-     "units": null,
+     "status": "L",
+     "actual": "67 rec yds",
+     "clv": 1.1,
+     "units": -0.5,
      "posted": "2026-10-26T22:54:48Z"
     }
    ]

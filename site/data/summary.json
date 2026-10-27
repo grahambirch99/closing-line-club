@@ -1,13 +1,13 @@
 {
  "season": {
-  "w": 21,
-  "l": 31,
+  "w": 22,
+  "l": 32,
   "p": 0,
-  "units": -1.73,
-  "roi": -5.9,
-  "clv": 0.44,
-  "beat": 69,
-  "n_clv": 49
+  "units": -1.36,
+  "roi": -4.5,
+  "clv": 0.46,
+  "beat": 70,
+  "n_clv": 50
  },
  "curve": [
   {
@@ -321,6 +321,18 @@
    "week": 7,
    "label": "Xavier Worthy: Over 50.5 receiving yards",
    "units": -1.73
+  },
+  {
+   "id": "2026-W07-0060",
+   "week": 7,
+   "label": "Elijah Moore: Over 1.5 receptions",
+   "units": -0.86
+  },
+  {
+   "id": "2026-W07-0061",
+   "week": 7,
+   "label": "Makai Lemon: Under 38.5 receiving yards",
+   "units": -1.36
   }
  ],
  "clv_by_week": [
@@ -331,18 +343,18 @@
   },
   {
    "week": 7,
-   "clv": 0.72,
-   "n": 39
+   "clv": 0.73,
+   "n": 40
   }
  ],
  "by_type": [
   {
    "type": "Receptions",
-   "w": 17,
+   "w": 18,
    "l": 20,
    "p": 0,
-   "units": 0.45,
-   "roi": 2.1,
+   "units": 1.31,
+   "roi": 5.8,
    "clv": 0.71,
    "beat": 65,
    "n_clv": 37
@@ -350,13 +362,13 @@
   {
    "type": "Receiving yards",
    "w": 2,
-   "l": 9,
+   "l": 10,
    "p": 0,
-   "units": -3.39,
-   "roi": -56.5,
-   "clv": -0.34,
-   "beat": 90,
-   "n_clv": 10
+   "units": -3.89,
+   "roi": -59.8,
+   "clv": -0.21,
+   "beat": 91,
+   "n_clv": 11
   },
   {
    "type": "Game lines",

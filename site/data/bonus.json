@@ -1,12 +1,12 @@
 {
  "summary": {
-  "n": 2,
+  "n": 3,
   "hit": 0,
-  "miss": 2,
-  "units": -1.0,
+  "miss": 3,
+  "units": -1.5,
   "boosted_n": 0,
   "units_boost": 0,
-  "exp_hits": 0.34
+  "exp_hits": 0.54
  },
  "parlays": [
   {
@@ -24,8 +24,8 @@
    "boost": null,
    "payout_boost": null,
    "ev_boost": null,
-   "status": "pending",
-   "units": null,
+   "status": "L",
+   "units": -0.5,
    "units_boost": null,
    "legs": [
     {
@@ -36,8 +36,8 @@
      "fair": 0.6203,
      "push": 0,
      "ref": "Kalshi",
-     "result": null,
-     "actual": null
+     "result": "L",
+     "actual": "4"
     },
     {
      "player": "Tyler Herro",
@@ -47,8 +47,8 @@
      "fair": 0.5738,
      "push": 0,
      "ref": "Kalshi",
-     "result": null,
-     "actual": null
+     "result": "W",
+     "actual": "23"
     },
     {
      "player": "Brandin Podziemski",
@@ -58,8 +58,8 @@
      "fair": 0.5581,
      "push": 0,
      "ref": "Kalshi",
-     "result": null,
-     "actual": null
+     "result": "L",
+     "actual": "18"
     }
    ]
   },
