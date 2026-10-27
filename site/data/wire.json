@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-10-27T20:19:21.175911+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Matthew Golden (shoulder/foot) remains DNP Tuesday"
+  },
+  {
    "at": "2026-10-27T02:53:32.585483+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "qb",
    "source": "sleeper",
    "text": "Lamar Jackson (BAL QB) status questionable -> out [Ankle]"
-  },
-  {
-   "at": "2026-10-24T19:36:33.991011+00:00",
-   "kind": "qb",
-   "source": "rapsheet",
-   "text": "Ravens QB Lamar Jackson (ankle) has been downgraded to out for tomorrow\u2019s game vs. the Bengals."
   }
  ]
 }
