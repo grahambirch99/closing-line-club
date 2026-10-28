@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "at": "2026-10-28T23:22:45.556084+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "DeVonta Smith, Dontayvion Wicks DNP Wednesday"
+  },
+  {
+   "at": "2026-10-28T23:19:42.756208+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Saquon Barkley (hamstring/back) DNP Wednesday"
+  },
+  {
    "at": "2026-10-28T22:36:12.346518+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -167,18 +179,6 @@
    "kind": "injury",
    "source": "sleeper",
    "text": "Tyjae Spears (TEN RB) status questionable -> out [Knee]"
-  },
-  {
-   "at": "2026-10-25T15:11:07.700478+00:00",
-   "kind": "injury",
-   "source": "rapsheet",
-   "text": "Before he was placed on IR, Chiefs LT Josh Simmons was told to leave a team meeting by coach Andy Reid and QB Patrick Mahomes. The back story from me and Mike Garafolo."
-  },
-  {
-   "at": "2026-10-25T15:11:07.700478+00:00",
-   "kind": "injury",
-   "source": "rapsheet",
-   "text": "Falcons DE Za\u2019Darius Smith (neck) and DT Gervon Dexter Sr. (hamstring) are listed as questionable and both are expected to go, sources say. Much less optimism for Olamide Zaccheaus (shoulder)."
   }
  ]
 }
