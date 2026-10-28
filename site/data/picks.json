@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T10:53:04Z",
+ "generated_at": "2026-10-28T19:25:30Z",
  "current_week": 8,
  "weeks": [
   {
@@ -16,6 +16,32 @@
     "n_clv": 0
    },
    "picks": [
+    {
+     "id": "pp-40-185",
+     "week": 8,
+     "kind": "paper",
+     "tier": "B",
+     "market": "player_reception_yds",
+     "title": "Tucker Kraft",
+     "bet": "Under 43.5 receiving yards",
+     "game": "Panthers at Packers",
+     "kick": "2026-10-30T00:15:00Z",
+     "kick_label": "Thu 5:15 PM PT",
+     "venue": "Novig",
+     "price": "+122",
+     "stake": 5.0,
+     "implied": 45.1,
+     "fair": 46.7,
+     "edge": 3.6,
+     "worst": "",
+     "analysis": "Mid-week props model (paper): price +3.6% vs the sharp fair price (Kalshi ladder).",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-10-28T18:53:40Z",
+     "system": "Mid-week props model"
+    },
     {
      "id": "2026-W08-0058",
      "week": 8,
