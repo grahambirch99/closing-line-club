@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "at": "2026-10-28T21:50:02.063907+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Texans place Jaylin Noel (toe) on injured reserve"
+  },
+  {
+   "at": "2026-10-28T21:46:59.471958+00:00",
+   "kind": "injury",
+   "source": "rotowire",
+   "text": "Dalton Kincaid: Limited to begin Week 8"
+  },
+  {
    "at": "2026-10-28T21:28:24.748198+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -167,18 +179,6 @@
    "kind": "injury",
    "source": "rapsheet",
    "text": "\u2014 The Broncos activated RB Jonah Coleman from IR and OLB Jonathon Cooper from the exempt list. \u2014 The 49ers activated WR Christian Kirk to make his debut. \u2014 The Vikings activated RB Jordan Mason off injured reserve to their 53-man roster."
-  },
-  {
-   "at": "2026-10-24T20:51:13.829842+00:00",
-   "kind": "injury",
-   "source": "rotowire",
-   "text": "Christian Kirk: Activated from injured reserve"
-  },
-  {
-   "at": "2026-10-24T20:45:10.814300+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "KaVontae Turpin (DAL WR) status questionable -> out [Ribs]"
   }
  ]
 }
