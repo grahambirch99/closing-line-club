@@ -95,8 +95,8 @@ jobs:
           M=$(( 335 - ${SLEPT:-0} )); [ "$M" -gt "${{ inputs.minutes || '330' }}" ] && M=${{ inputs.minutes || '330' }}
           # Commit paper bets every 10 minutes, so each one is timestamped before tip-off; then rebuild the site.
           ( while sleep 600; do
+              [ -f nba-cache/nba.db ] && python p/nba_h2h.py flag > /dev/null 2>&1 || true   # first, so v3 picks see the matchup side
               [ -f nba-cache/nba.db ] && python p/nba_paper.py > /dev/null 2>&1 || true
-              [ -f nba-cache/nba.db ] && python p/nba_h2h.py flag > /dev/null 2>&1 || true
               git add data/nba 2>/dev/null || true
               if ! git diff --cached --quiet; then
                 git commit -qm "nba paper bets $(date -u +%Y-%m-%dT%H:%MZ)"
