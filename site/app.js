@@ -51,7 +51,7 @@
 
   function ticket(p) {
     const st = p.status === "pending" ? "open" : p.status;
-    const tierTag = p.kind === "nba" ? `<span class="tag T">Paper</span>${p.conflict ? '<span class="tag">Conflicts with an earlier bet: not a pick</span>' : ""}${p.retired ? '<span class="tag">Retired v1 rules</span>' : p.rules === "h2h" ? '<span class="tag">Matchup test</span>' : p.v3 ? '<span class="tag A">v3</span>' : p.rules === "v2" ? '<span class="tag">v2 rules</span>' : ""}`
+    const tierTag = p.kind === "nba" ? `<span class="tag T">Paper</span>${p.conflict ? '<span class="tag">Conflicts with an earlier bet: not a pick</span>' : ""}${p.retired ? '<span class="tag">Retired v1 rules</span>' : p.rules === "h2h" ? '<span class="tag">Matchup test</span>' : p.v3 ? `<span class="tag A">v3</span>${p.matchup ? `<span class="tag">${{agree: "Matchup agrees", disagree: "Matchup disagrees", none: "No matchup pick"}[p.matchup] || ""}</span>` : ""}` : p.rules === "v2" ? '<span class="tag">v2 rules</span>' : ""}`
       : p.kind === "paper" ? `<span class="tag">Paper</span>${p.system ? `<span class="tag">${esc(p.system)}</span>` : ""}`
       : p.kind === "teaser" ? '<span class="tag T">Teaser</span>'
       : p.tier === "A" ? '<span class="tag A">Strong</span>' : p.tier === "B" ? '<span class="tag">Value</span>' : "";
@@ -191,13 +191,16 @@
     $("#nba-goal-bar").setAttribute("aria-valuenow", Math.min(n, goal));
     const v = $("#nba-goal-verdict");
     v.className = "verdict";
-    if (!n) v.textContent = "First v3 picks grade after tonight's games";
+    if (!n) v.textContent = "First v3.1 picks grade after tonight's games";
     else if (n >= goal) { v.textContent = s.passed ? "Passed the test" : "Not passing: stays on paper"; v.classList.add(s.passed ? "beat" : "lag"); }
     else { v.textContent = `Wins vs break-even so far ${fmtPts(s.lean)} pts (95% range ${fmtPts(s.lean_lo)} to ${fmtPts(s.lean_hi)})`; v.classList.add(s.lean > 0 ? "beat" : "lag"); }
     const sub = (x) => x && x.w + x.l ? `${rec(x)}, ${fmtU(x.units)}` : "–";
-    const items = [[s.w + s.l + (s.p || 0) ? rec(s) : "–", "v3 paper record"], [s.w + s.l ? fmtU(s.units) : "–", "v3 paper profit in units"],
-      [s.roi == null ? "–" : `${s.roi > 0 ? "+" : ""}${s.roi}%`, "v3 return on stakes"],
-      [s.lean == null ? "–" : `${fmtPts(s.lean)} pts`, "v3 wins above break-even"],
+    const items = [[s.w + s.l + (s.p || 0) ? rec(s) : "–", "v3.1 paper record"], [s.w + s.l ? fmtU(s.units) : "–", "v3.1 paper profit in units"],
+      [s.roi == null ? "–" : `${s.roi > 0 ? "+" : ""}${s.roi}%`, "v3.1 return on stakes"],
+      [s.lean == null ? "–" : `${fmtPts(s.lean)} pts`, "v3.1 wins above break-even"],
+      [sub(s.matchup && s.matchup.agree), "v3.1 picks the matchup test agrees with"],
+      [sub(s.matchup && s.matchup.disagree), "v3.1 picks the matchup test disagrees with"],
+      [sub(s.v3_capped), "v3 with caps (Oct 26–27)"],
       [sub(s.v2), "v2 rules (posted Oct 22–25, still tracked)"], [sub(s.h2h), "Matchup test (tracked, not posted)"],
       [sub(s.v1), "Retired v1 rules (Oct 20–21)"]];
     $("#nba-stats").innerHTML = items.map(([val, k]) => `<div class="stat"><div class="v">${val}</div><div class="k">${k}</div></div>`).join("");
