@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-10-28T20:39:01.285281+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Emeka Egbuka (conussion/foot) limited in practice"
+  },
+  {
    "at": "2026-10-28T20:20:33.426632+00:00",
    "kind": "injury",
    "source": "rotowire",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotowire",
    "text": "Tank Dell: Activated from injured reserve"
-  },
-  {
-   "at": "2026-10-24T20:04:28.437992+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Dontayvion Wicks (PHI WR) status questionable -> out [Ankle]"
   }
  ]
 }
