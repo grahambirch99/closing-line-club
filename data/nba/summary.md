@@ -1,4 +1,4 @@
-# NBA Test: paper tracking (updated Tue Oct 27 4:51 PM PT)
+# NBA Test: paper tracking (updated Tue Oct 27 7:06 PM PT)
 
 Rules v2 (research/nba_rules_v2_PREREG.md): fair = Pinnacle + Kalshi ladder; Unders >= 3% edge, Overs >= 6% and no
 longer than +233; Novig/ProphetX only. Scorecard: CLV vs the Kalshi ladder at tip ('Kalshi CLV').
@@ -27,7 +27,7 @@ Independent checks on v2 paper bets (CLV vs Pinnacle mostly restates the startin
 prop prices rarely move before tip):
 - Pinnacle fair move, bet to close: -1.39 (n=214, 29% > 0) pts (+ = moved our way)
 - Beat the venue's own closing price: +2.17 (n=265, 37% > 0) pts
-- CLV vs Kalshi ladder at tip (independent): +3.00 (n=260, 95% > 0) pts
+- CLV vs Kalshi ladder at tip (independent): +2.98 (n=273, 95% > 0) pts
 - Over share of paper bets: 13%
 
 Nights tracked: 6; edges per night: 2026-10-22 31, 2026-10-23 200, 2026-10-24 211, 2026-10-25 168, 2026-10-26 201, 2026-10-27 56
