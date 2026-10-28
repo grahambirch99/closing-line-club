@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-10-28T21:28:24.748198+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Eagles place Dameon Pierce on injured reserve"
+  },
+  {
    "at": "2026-10-28T21:00:38.316689+00:00",
    "kind": "injury",
    "source": "rotowire",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "sleeper",
    "text": "KaVontae Turpin (DAL WR) status questionable -> out [Ribs]"
-  },
-  {
-   "at": "2026-10-24T20:36:06.232759+00:00",
-   "kind": "injury",
-   "source": "rapsheet",
-   "text": "DeVonta Smith is out, while Saquon Barkley is questionable but expected to play."
   }
  ]
 }
