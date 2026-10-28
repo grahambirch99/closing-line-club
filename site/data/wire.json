@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-10-28T22:36:12.346518+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "George Pickens (shoulder/hamstring) limited Wed."
+  },
+  {
    "at": "2026-10-28T21:50:02.063907+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rapsheet",
    "text": "Falcons DE Za\u2019Darius Smith (neck) and DT Gervon Dexter Sr. (hamstring) are listed as questionable and both are expected to go, sources say. Much less optimism for Olamide Zaccheaus (shoulder)."
-  },
-  {
-   "at": "2026-10-24T21:00:18.463563+00:00",
-   "kind": "injury",
-   "source": "rapsheet",
-   "text": "\u2014 The Broncos activated RB Jonah Coleman from IR and OLB Jonathon Cooper from the exempt list. \u2014 The 49ers activated WR Christian Kirk to make his debut. \u2014 The Vikings activated RB Jordan Mason off injured reserve to their 53-man roster."
   }
  ]
 }
