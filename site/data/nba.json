@@ -140,7 +140,7 @@
      "conflict": false,
      "v3": true,
      "v3_ver": "3",
-     "matchup": "",
+     "matchup": "none",
      "stake_v3": 5.0,
      "cost": 0.3543
     },
@@ -173,7 +173,7 @@
      "conflict": false,
      "v3": true,
      "v3_ver": "3",
-     "matchup": "",
+     "matchup": "none",
      "stake_v3": 5.0,
      "cost": 0.3567
     },
@@ -206,7 +206,7 @@
      "conflict": false,
      "v3": true,
      "v3_ver": "3",
-     "matchup": "",
+     "matchup": "none",
      "stake_v3": 5.0,
      "cost": 0.4
     },
@@ -239,7 +239,7 @@
      "conflict": false,
      "v3": true,
      "v3_ver": "3",
-     "matchup": "",
+     "matchup": "none",
      "stake_v3": 5.0,
      "cost": 0.4049
     },
@@ -272,7 +272,7 @@
      "conflict": false,
      "v3": true,
      "v3_ver": "3",
-     "matchup": "",
+     "matchup": "none",
      "stake_v3": 5.0,
      "cost": 0.5349
     },
@@ -305,7 +305,7 @@
      "conflict": false,
      "v3": true,
      "v3_ver": "3",
-     "matchup": "",
+     "matchup": "disagree",
      "stake_v3": 5.0,
      "cost": 0.5455
     }
@@ -354,7 +354,7 @@
      "conflict": false,
      "v3": true,
      "v3_ver": "3",
-     "matchup": "",
+     "matchup": "disagree",
      "stake_v3": 5.0,
      "cost": 0.367
     },
@@ -387,7 +387,7 @@
      "conflict": false,
      "v3": true,
      "v3_ver": "3",
-     "matchup": "",
+     "matchup": "none",
      "stake_v3": 5.0,
      "cost": 0.4444
     },
@@ -420,7 +420,7 @@
      "conflict": false,
      "v3": true,
      "v3_ver": "3",
-     "matchup": "",
+     "matchup": "disagree",
      "stake_v3": 5.0,
      "cost": 0.6231
     },
@@ -453,7 +453,7 @@
      "conflict": false,
      "v3": true,
      "v3_ver": "3",
-     "matchup": "",
+     "matchup": "none",
      "stake_v3": 5.0,
      "cost": 0.3219
     },
@@ -486,7 +486,7 @@
      "conflict": false,
      "v3": true,
      "v3_ver": "3",
-     "matchup": "",
+     "matchup": "agree",
      "stake_v3": 5.0,
      "cost": 0.5098
     },
@@ -519,7 +519,7 @@
      "conflict": false,
      "v3": true,
      "v3_ver": "3",
-     "matchup": "",
+     "matchup": "none",
      "stake_v3": 5.0,
      "cost": 0.5098
     },
@@ -552,7 +552,7 @@
      "conflict": false,
      "v3": true,
      "v3_ver": "3",
-     "matchup": "",
+     "matchup": "none",
      "stake_v3": 5.0,
      "cost": 0.4216
     },
@@ -585,7 +585,7 @@
      "conflict": false,
      "v3": true,
      "v3_ver": "3",
-     "matchup": "",
+     "matchup": "none",
      "stake_v3": 5.0,
      "cost": 0.4348
     }
