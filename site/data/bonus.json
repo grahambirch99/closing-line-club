@@ -10,6 +10,60 @@
  },
  "parlays": [
   {
+   "id": "BP-2026-10-28",
+   "date": "2026-10-28",
+   "sport": "NBA",
+   "posted": "2026-10-28T18:29:52Z",
+   "app": "Underdog",
+   "size": 3,
+   "payout": 6.0,
+   "odds": 500,
+   "p_hit": 0.1712,
+   "ev": 0.0273,
+   "boost_needed": 0.0,
+   "boost": null,
+   "payout_boost": null,
+   "ev_boost": null,
+   "status": "pending",
+   "units": null,
+   "units_boost": null,
+   "legs": [
+    {
+     "player": "Jalen Brunson",
+     "bet": "Lower 26.5 points",
+     "game": "Knicks at Bulls",
+     "kick": "2026-10-29T00:10:00Z",
+     "fair": 0.5435,
+     "push": 0,
+     "ref": "Pinnacle+Kalshi",
+     "result": null,
+     "actual": null
+    },
+    {
+     "player": "Tari Eason",
+     "bet": "Lower 12.5 points",
+     "game": "Rockets at Bucks",
+     "kick": "2026-10-29T00:10:00Z",
+     "fair": 0.5428,
+     "push": 0,
+     "ref": "Kalshi",
+     "result": null,
+     "actual": null
+    },
+    {
+     "player": "Cooper Flagg",
+     "bet": "Lower 6.5 assists",
+     "game": "Thunder at Mavericks",
+     "kick": "2026-10-29T01:40:00Z",
+     "fair": 0.5804,
+     "push": 0,
+     "ref": "Pinnacle",
+     "result": null,
+     "actual": null
+    }
+   ]
+  },
+  {
    "id": "BP-2026-10-27",
    "date": "2026-10-27",
    "sport": "NBA",
