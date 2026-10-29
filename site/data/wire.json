@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-10-29T21:46:32.985868+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Jaylen Waddle upgrades to limited Thursday"
+  },
+  {
    "at": "2026-10-29T21:15:40.381063+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rapsheet",
    "text": "Giants RB Tyrone Tracy Jr. is questionable to return with a hamstring injury."
-  },
-  {
-   "at": "2026-10-25T17:57:01.906107+00:00",
-   "kind": "injury",
-   "source": "rotowire",
-   "text": "Aaron Rodgers: Limited production in Week 7 win"
   }
  ]
 }
