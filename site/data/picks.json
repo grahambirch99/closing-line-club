@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T23:05:19Z",
+ "generated_at": "2026-10-29T23:14:53Z",
  "current_week": 8,
  "weeks": [
   {
@@ -16,6 +16,56 @@
     "n_clv": 0
    },
    "picks": [
+    {
+     "id": "2026-W08-0062",
+     "week": 8,
+     "kind": "bet",
+     "tier": "A",
+     "market": "player_reception_yds",
+     "title": "John Metchie III",
+     "bet": "Over 16.5 receiving yards",
+     "game": "Panthers at Packers",
+     "kick": "2026-10-30T00:15:00Z",
+     "kick_label": "Thu 5:15 PM PT",
+     "venue": "Novig",
+     "price": "+113",
+     "stake": 7.5,
+     "implied": 46.9,
+     "fair": 50.2,
+     "edge": 7.0,
+     "worst": "+105",
+     "analysis": "Novig at +113 beats the sharp-book consensus's no-vig price (50% to hit), a +7.0% edge after inactives were announced.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-10-29T22:54:08Z"
+    },
+    {
+     "id": "2026-W08-0063",
+     "week": 8,
+     "kind": "bet",
+     "tier": "A",
+     "market": "player_reception_yds",
+     "title": "Matthew Golden",
+     "bet": "Over 59.5 receiving yards",
+     "game": "Panthers at Packers",
+     "kick": "2026-10-30T00:15:00Z",
+     "kick_label": "Thu 5:15 PM PT",
+     "venue": "ProphetX",
+     "price": "+112",
+     "stake": 7.5,
+     "implied": 47.2,
+     "fair": 50.7,
+     "edge": 6.3,
+     "worst": "+105",
+     "analysis": "ProphetX at +112 beats Pinnacle's no-vig price (51% to hit), a +6.3% edge after inactives were announced.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-10-29T22:54:08Z"
+    },
     {
      "id": "pp-40-185",
      "week": 8,
