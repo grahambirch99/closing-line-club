@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-10-29T20:50:57.351218+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "DJ Moore limited again in Thursday's practice"
+  },
+  {
    "at": "2026-10-29T20:23:20.184766+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "sleeper",
    "text": "Olamide Zaccheaus (ATL WR) status questionable -> out [Shoulder]"
-  },
-  {
-   "at": "2026-10-25T15:38:41.175153+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Tyjae Spears officially inactive vs. Browns"
   }
  ]
 }
