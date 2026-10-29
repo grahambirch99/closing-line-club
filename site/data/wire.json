@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "at": "2026-10-29T20:23:20.184766+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "TreVeyon Henderson (illness) DNP, added to report"
+  },
+  {
+   "at": "2026-10-29T20:14:11.532648+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Tyler Warren (groin) limited again Thursday"
+  },
+  {
    "at": "2026-10-29T18:45:19.802548+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -167,18 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Tyjae Spears officially inactive vs. Browns"
-  },
-  {
-   "at": "2026-10-25T15:38:20.304172+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Audric Estime (CLE RB) status healthy -> out [Coach's Decision]"
-  },
-  {
-   "at": "2026-10-25T15:38:20.304172+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Calvin Ridley (TEN WR) status questionable -> out [Hip]"
   }
  ]
 }
