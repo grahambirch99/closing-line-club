@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-10-29T21:15:40.381063+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "George Pickens limited again in Thursday's session"
+  },
+  {
    "at": "2026-10-29T20:50:57.351218+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotowire",
    "text": "Aaron Rodgers: Limited production in Week 7 win"
-  },
-  {
-   "at": "2026-10-25T15:47:53.002332+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Olamide Zaccheaus (ATL WR) status questionable -> out [Shoulder]"
   }
  ]
 }
