@@ -1,7 +1,6 @@
 (() => {
   const D = window.__DATA__ || { picks: { weeks: [] }, summary: {}, wire: { items: [] } };
   D.nba = D.nba || { summary: {}, nights: [], by_type: [] };
-  D.bonus = D.bonus || { summary: {}, parlays: [] };
   const CFG = window.SITE_CONFIG || {};
   const $ = (s, el = document) => el.querySelector(s);
   const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -247,44 +246,6 @@
     });
   }
 
-  /* ---------------- Bonus parlay ---------------- */
-  const pct = (x) => `${Math.round(x * 100)}%`;
-  function bonusCard(b) {
-    const st = b.status === "pending" ? "open" : b.status === "L" ? "L" : b.status.startsWith("W") ? "W" : "void";
-    const label = { open: "Open", W: b.status === "W" ? "Hit" : "Hit (reduced)", L: "Missed", void: "Refund" }[st];
-    const legs = b.legs.map((l) => {
-      const r = l.result === "W" ? "W" : l.result === "L" ? "L" : l.result === "void" ? "void" : "open";
-      return `<li class="leg ${r}"><span class="leg-icon">${ICON[r] || ""}</span><span><b>${esc(l.player)}</b> ${esc(l.bet)}
-        <small>${esc(l.game)} · wins ${pct(l.fair)}${l.push ? `, pushes ${pct(l.push)}` : ""}${l.actual ? ` · ${esc(l.actual)}` : ""}</small></span></li>`;
-    }).join("");
-    const ev = `${b.ev >= 0 ? "+" : ""}${(b.ev * 100).toFixed(0)}% EV`;
-    const boostLine = b.boost != null
-      ? `<span>${b.boost}% boost → ${b.payout_boost}x, ${b.ev_boost >= 0 ? "+" : ""}${(b.ev_boost * 100).toFixed(0)}% EV</span>`
-      : b.boost_needed > 0 ? `<span>Needs a ${b.boost_needed}%+ boost</span>` : "<span>+EV without a boost</span>";
-    const units = st === "open" ? `<div class="stub-line">${untilKick(b.legs[0].kick, b.sport === "NBA")}</div>`
-      : `<div class="stub-line"><span>${fmtU(b.units)} normal</span>${b.units_boost != null ? ` <span>${fmtU(b.units_boost)} boosted</span>` : ""}</div>`;
-    const day = new Date(b.date + "T12:00:00").toLocaleDateString([], { weekday: "short", month: "short", day: "numeric" });
-    return `<article class="ticket paper ${st}" id="bonus-${esc(b.id)}">
-      <div class="t-body">
-        <div class="t-meta"><span class="tag T">For fun</span><span>${esc(b.sport)}</span><span>${esc(day)}</span></div>
-        <h3 class="t-bet">${esc(b.app)} ${b.size}-pick</h3>
-        <div class="t-price"><span class="odds">${b.payout}x (+${b.odds})</span><span>Hits ${pct(b.p_hit)}</span><span>${ev}</span>${boostLine}</div>
-        <ul class="legs">${legs}</ul>
-        <p class="t-posted">Posted ${esc(new Date(b.posted).toLocaleString([], { weekday: "short", hour: "numeric", minute: "2-digit" }))}</p>
-      </div>
-      <div class="t-stub"><div class="result ${st}">${ICON[st] || ""}<span>${label}</span></div>${units}</div>
-    </article>`;
-  }
-  function renderBonus() {
-    const s = D.bonus.summary || {}, list = D.bonus.parlays || [];
-    const items = [[s.n ? `${s.hit}–${s.miss}` : "–", "Hit–missed"], [s.n ? `${s.exp_hits}` : "–", "Hits expected at our prices"],
-      [s.n ? fmtU(s.units) : "–", "Units at normal payout"], [s.boosted_n ? fmtU(s.units_boost) : "–", `Units with boosts (${s.boosted_n || 0} entries)`]];
-    $("#bonus-stats").innerHTML = items.map(([v, k]) => `<div class="stat"><div class="v">${v}</div><div class="k">${k}</div></div>`).join("");
-    $("#bonus-sub").textContent = list.length ? `${list.length} parlay${list.length === 1 ? "" : "s"} so far` : "Starts with the next game day.";
-    $("#bonus-cards").innerHTML = list.length ? list.map(bonusCard).join("")
-      : '<div class="empty"><b>No bonus parlay yet.</b>It posts late morning: about 11:15 AM PT Saturday for Sunday NFL games, about 11:30 AM PT on NBA game days.</div>';
-  }
-
   /* ---------------- alerts ---------------- */
   if (CFG.discord) {
     const d = $("#discord-btn"); d.href = CFG.discord; d.hidden = false; d.target = "_blank"; d.rel = "noopener";
@@ -292,7 +253,7 @@
   }
 
   /* ---------------- routing ---------------- */
-  const VIEWS = ["board", "record", "nba", "bonus", "wire", "method"];
+  const VIEWS = ["board", "record", "nba", "wire", "method"];
   function route() {
     const h = location.hash.replace("#", "");
     if (h === "alerts") { $("#alerts").scrollIntoView({ behavior: "smooth" }); return; }
@@ -304,7 +265,6 @@
     if (v === "record") renderRecord();
     if (v === "wire") renderWire();
     if (v === "nba") renderNba();
-    if (v === "bonus") renderBonus();
     if (!h.startsWith("pick-")) window.scrollTo(0, 0);
   }
   window.addEventListener("hashchange", route);
