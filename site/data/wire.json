@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-10-29T00:21:17.744882+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Tyler Allgeier (toe) DNP Wednesday"
+  },
+  {
    "at": "2026-10-28T23:22:45.556084+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "sleeper",
    "text": "CJ Donaldson (NO RB) status questionable -> out [Shoulder]"
-  },
-  {
-   "at": "2026-10-25T15:38:20.304172+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Tyjae Spears (TEN RB) status questionable -> out [Knee]"
   }
  ]
 }
