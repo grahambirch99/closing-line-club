@@ -8,7 +8,7 @@
   "clv": null,
   "beat": null,
   "n_clv": 0,
-  "bets": 19,
+  "bets": 21,
   "goal": 400,
   "graded": 0,
   "lean": null,
@@ -58,7 +58,7 @@
     "clv": null,
     "beat": null,
     "n_clv": 0,
-    "bets": 10
+    "bets": 12
    }
   },
   "v2": {
@@ -70,7 +70,7 @@
    "clv": 2.99,
    "beat": 95,
    "n_clv": 263,
-   "bets": 298
+   "bets": 304
   },
   "v1": {
    "w": 17,
@@ -92,7 +92,7 @@
    "clv": -2.78,
    "beat": 7,
    "n_clv": 624,
-   "bets": 791
+   "bets": 801
   }
  },
  "by_type": [
@@ -771,6 +771,72 @@
      "matchup": "disagree",
      "stake_v3": 5.0,
      "cost": 0.5098
+    },
+    {
+     "id": "nba-80c3c94443",
+     "night": "2026-10-28",
+     "kind": "nba",
+     "tier": "A",
+     "market": "player_points",
+     "title": "Devin Vassell",
+     "bet": "Under 10.5 points",
+     "game": "Spurs at Jazz",
+     "kick": "2026-10-29T01:10:00Z",
+     "kick_label": "Wed 6:10 PM PT",
+     "venue": "ProphetX",
+     "price": "+168",
+     "stake": 5.0,
+     "implied": 37.3,
+     "fair": 41.0,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 41% chance; ProphetX at +168 breaks even at 38% after fees, a 3.2-point gap, 59 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-10-29T00:10:47Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "none",
+     "stake_v3": 5.0,
+     "cost": 0.3779
+    },
+    {
+     "id": "nba-30e0ebc8c0",
+     "night": "2026-10-28",
+     "kind": "nba",
+     "tier": "A",
+     "market": "player_assists",
+     "title": "Devin Vassell",
+     "bet": "Over 2.5 assists",
+     "game": "Spurs at Jazz",
+     "kick": "2026-10-29T01:10:00Z",
+     "kick_label": "Wed 6:10 PM PT",
+     "venue": "ProphetX",
+     "price": "-134",
+     "stake": 5.0,
+     "implied": 57.3,
+     "fair": 61.0,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 61% chance; ProphetX at -134 breaks even at 58% after fees, a 3.2-point gap, 59 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-10-29T00:10:47Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "none",
+     "stake_v3": 5.0,
+     "cost": 0.5776
     }
    ]
   },
