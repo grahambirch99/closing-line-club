@@ -8,7 +8,7 @@
   "clv": 4.22,
   "beat": 100,
   "n_clv": 28,
-  "bets": 30,
+  "bets": 32,
   "goal": 400,
   "graded": 28,
   "lean": 3.2,
@@ -58,7 +58,7 @@
     "clv": 3.99,
     "beat": 100,
     "n_clv": 17,
-    "bets": 17
+    "bets": 19
    }
   },
   "v2": {
@@ -70,7 +70,7 @@
    "clv": 2.87,
    "beat": 95,
    "n_clv": 304,
-   "bets": 318
+   "bets": 324
   },
   "v1": {
    "w": 17,
@@ -92,7 +92,7 @@
    "clv": -2.83,
    "beat": 7,
    "n_clv": 796,
-   "bets": 858
+   "bets": 859
   }
  },
  "by_type": [
@@ -210,6 +210,72 @@
      "matchup": "disagree",
      "stake_v3": 5.0,
      "cost": 0.3028
+    },
+    {
+     "id": "nba-643f2e68f8",
+     "night": "2026-10-29",
+     "kind": "nba",
+     "tier": "A",
+     "market": "player_rebounds",
+     "title": "Damian Lillard",
+     "bet": "Under 4.5 rebounds",
+     "game": "Grizzlies at Blazers",
+     "kick": "2026-10-30T02:10:00Z",
+     "kick_label": "Thu 7:10 PM PT",
+     "venue": "Novig",
+     "price": "-174",
+     "stake": 5.0,
+     "implied": 63.5,
+     "fair": 67.0,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 67% chance; Novig at -174 breaks even at 64% after fees, a 3.5-point gap, 60 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-10-30T01:10:08Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "none",
+     "stake_v3": 5.0,
+     "cost": 0.635
+    },
+    {
+     "id": "nba-cc60c4be07",
+     "night": "2026-10-29",
+     "kind": "nba",
+     "tier": "B",
+     "market": "player_points",
+     "title": "Damian Lillard",
+     "bet": "Under 20.5 points",
+     "game": "Grizzlies at Blazers",
+     "kick": "2026-10-30T02:10:00Z",
+     "kick_label": "Thu 7:10 PM PT",
+     "venue": "Novig",
+     "price": "+111",
+     "stake": 5.0,
+     "implied": 47.4,
+     "fair": 49.1,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 51% chance; Novig at +111 breaks even at 47% after fees, a 3.4-point gap, 60 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-10-30T01:10:08Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "none",
+     "stake_v3": 5.0,
+     "cost": 0.4739
     }
    ]
   },
