@@ -1,19 +1,19 @@
 {
  "summary": {
-  "w": 13,
+  "w": 15,
   "l": 17,
   "p": 0,
-  "units": -0.69,
-  "roi": -4.6,
-  "clv": 4.12,
+  "units": 0.16,
+  "roi": 1.0,
+  "clv": 4.13,
   "beat": 100,
-  "n_clv": 30,
+  "n_clv": 32,
   "bets": 32,
   "goal": 400,
-  "graded": 30,
-  "lean": 1.0,
-  "lean_lo": -19.1,
-  "lean_hi": 16.3,
+  "graded": 32,
+  "lean": 3.7,
+  "lean_lo": -16.5,
+  "lean_hi": 18.7,
   "passed": null,
   "v3_capped": {
    "w": 5,
@@ -50,26 +50,26 @@
     "bets": 7
    },
    "none": {
-    "w": 7,
+    "w": 9,
     "l": 10,
     "p": 0,
-    "units": -0.79,
-    "roi": -9.3,
-    "clv": 3.99,
+    "units": 0.05,
+    "roi": 0.5,
+    "clv": 4.03,
     "beat": 100,
-    "n_clv": 17,
+    "n_clv": 19,
     "bets": 19
    }
   },
   "v2": {
-   "w": 134,
-   "l": 181,
+   "w": 138,
+   "l": 183,
    "p": 0,
-   "units": -1.66,
-   "roi": -0.9,
+   "units": 0.41,
+   "roi": 0.2,
    "clv": 2.81,
    "beat": 94,
-   "n_clv": 314,
+   "n_clv": 320,
    "bets": 324
   },
   "v1": {
@@ -84,14 +84,14 @@
    "bets": 56
   },
   "h2h": {
-   "w": 451,
-   "l": 384,
+   "w": 457,
+   "l": 393,
    "p": 0,
-   "units": 12.54,
-   "roi": 3.0,
-   "clv": -2.84,
+   "units": 10.3,
+   "roi": 2.4,
+   "clv": -2.81,
    "beat": 7,
-   "n_clv": 828,
+   "n_clv": 843,
    "bets": 859
   }
  },
@@ -109,25 +109,25 @@
   },
   {
    "type": "Points",
-   "w": 8,
+   "w": 9,
    "l": 10,
    "p": 0,
-   "units": -0.96,
-   "roi": -10.7,
-   "clv": 4.43,
+   "units": -0.41,
+   "roi": -4.3,
+   "clv": 4.44,
    "beat": 100,
-   "n_clv": 18
+   "n_clv": 19
   },
   {
    "type": "Rebounds",
-   "w": 4,
+   "w": 5,
    "l": 3,
    "p": 0,
-   "units": 1.27,
-   "roi": 36.4,
-   "clv": 4.19,
+   "units": 1.56,
+   "roi": 39.0,
+   "clv": 4.15,
    "beat": 100,
-   "n_clv": 7
+   "n_clv": 8
   }
  ],
  "nights": [
@@ -135,14 +135,14 @@
    "night": "2026-10-29",
    "label": "Thu Oct 29",
    "record": {
-    "w": 0,
+    "w": 2,
     "l": 2,
     "p": 0,
-    "units": -1.0,
-    "roi": -100.0,
-    "clv": 2.79,
+    "units": -0.16,
+    "roi": -7.9,
+    "clv": 3.55,
     "beat": 100,
-    "n_clv": 2
+    "n_clv": 4
    },
    "picks": [
     {
@@ -230,10 +230,10 @@
      "edge": null,
      "worst": "",
      "analysis": "Kalshi's price gives this side a 67% chance; Novig at -174 breaks even at 64% after fees, a 3.5-point gap, 60 minutes before tip.",
-     "status": "pending",
-     "actual": "",
+     "status": "W",
+     "actual": "2 reb",
      "clv": 3.87,
-     "units": null,
+     "units": 0.287,
      "posted": "2026-10-30T01:10:08Z",
      "rules": "v3",
      "retired": false,
@@ -263,10 +263,10 @@
      "edge": null,
      "worst": "",
      "analysis": "Kalshi's price gives this side a 51% chance; Novig at +111 breaks even at 47% after fees, a 3.4-point gap, 60 minutes before tip.",
-     "status": "pending",
-     "actual": "",
+     "status": "W",
+     "actual": "9 pts",
      "clv": 4.77,
-     "units": null,
+     "units": 0.555,
      "posted": "2026-10-30T01:10:08Z",
      "rules": "v3",
      "retired": false,
