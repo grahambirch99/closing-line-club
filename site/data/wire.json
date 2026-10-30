@@ -1,6 +1,42 @@
 {
  "items": [
   {
+   "at": "2026-10-30T17:51:18.701660+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "DJ Moore (shoulder) to be questionable for Week 8"
+  },
+  {
+   "at": "2026-10-30T17:51:18.701660+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Brady: Dalton Kincaid questionable for Week 8"
+  },
+  {
+   "at": "2026-10-30T17:26:49.191085+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Brian Robinson (hammy) ruled out vs. Buccaneers"
+  },
+  {
+   "at": "2026-10-30T17:23:44.743013+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "Emeka Egbuka (TB WR) status questionable -> out [Foot]"
+  },
+  {
+   "at": "2026-10-30T17:23:44.743013+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Vrabel: A.J. Brown (knee) questionable for Week 8"
+  },
+  {
+   "at": "2026-10-30T17:23:44.743013+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Emeka Egbuka (foot) will not play vs. Falcons"
+  },
+  {
    "at": "2026-10-30T01:25:48.502248+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -143,42 +179,6 @@
    "kind": "qb",
    "source": "rapsheet",
    "text": "Raiders coach Klint Kubiak made clear that \u201cthere is no controversy\u201d \u2014 Kirk Cousins will start this week. As for Fernando Mendoza, \u201cFernando is going to play at some point, but it\u2019s not going to be this week.\u201d"
-  },
-  {
-   "at": "2026-10-26T03:01:13.612421+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Rashid Shaheed (SEA WR) status questionable -> out [Knee]"
-  },
-  {
-   "at": "2026-10-26T02:18:22.073313+00:00",
-   "kind": "injury",
-   "source": "rotowire",
-   "text": "Rashid Shaheed: Questionable to return for second half"
-  },
-  {
-   "at": "2026-10-25T21:22:29.020872+00:00",
-   "kind": "injury",
-   "source": "rotowire",
-   "text": "Nico Collins: Limited to six yards in OT loss"
-  },
-  {
-   "at": "2026-10-25T19:35:18.819021+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Aaron Jones (knee) questionable to return"
-  },
-  {
-   "at": "2026-10-25T19:07:46.171561+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Kaleb Johnson (GB RB) status healthy -> out [Coach's Decision]"
-  },
-  {
-   "at": "2026-10-25T18:24:43.691795+00:00",
-   "kind": "injury",
-   "source": "rapsheet",
-   "text": "Giants RB Tyrone Tracy Jr. is questionable to return with a hamstring injury."
   }
  ]
 }
