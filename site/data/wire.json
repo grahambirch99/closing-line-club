@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-10-30T01:25:48.502248+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Christian Watson (chest) questionable to return"
+  },
+  {
    "at": "2026-10-29T21:46:32.985868+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -170,12 +176,6 @@
   },
   {
    "at": "2026-10-25T18:24:43.691795+00:00",
-   "kind": "injury",
-   "source": "rapsheet",
-   "text": "Giants RB Tyrone Tracy Jr. is questionable to return with a hamstring injury."
-  },
-  {
-   "at": "2026-10-25T18:21:41.139138+00:00",
    "kind": "injury",
    "source": "rapsheet",
    "text": "Giants RB Tyrone Tracy Jr. is questionable to return with a hamstring injury."
