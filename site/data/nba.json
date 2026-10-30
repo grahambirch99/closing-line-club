@@ -8,7 +8,7 @@
   "clv": 4.13,
   "beat": 100,
   "n_clv": 32,
-  "bets": 32,
+  "bets": 35,
   "goal": 400,
   "graded": 32,
   "lean": 3.7,
@@ -36,7 +36,7 @@
     "clv": 3.75,
     "beat": 100,
     "n_clv": 6,
-    "bets": 6
+    "bets": 7
    },
    "disagree": {
     "w": 3,
@@ -47,7 +47,7 @@
     "clv": 4.76,
     "beat": 100,
     "n_clv": 7,
-    "bets": 7
+    "bets": 8
    },
    "none": {
     "w": 9,
@@ -58,7 +58,7 @@
     "clv": 4.03,
     "beat": 100,
     "n_clv": 19,
-    "bets": 19
+    "bets": 20
    }
   },
   "v2": {
@@ -70,7 +70,7 @@
    "clv": 2.81,
    "beat": 94,
    "n_clv": 320,
-   "bets": 324
+   "bets": 334
   },
   "v1": {
    "w": 17,
@@ -92,7 +92,7 @@
    "clv": -2.81,
    "beat": 7,
    "n_clv": 843,
-   "bets": 859
+   "bets": 963
   }
  },
  "by_type": [
@@ -131,6 +131,121 @@
   }
  ],
  "nights": [
+  {
+   "night": "2026-10-30",
+   "label": "Fri Oct 30",
+   "record": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "units": 0,
+    "roi": null,
+    "clv": null,
+    "beat": null,
+    "n_clv": 0
+   },
+   "picks": [
+    {
+     "id": "nba-25b097bacc",
+     "night": "2026-10-30",
+     "kind": "nba",
+     "tier": "A",
+     "market": "player_points",
+     "title": "Moussa Diabate",
+     "bet": "Over 10.5 points",
+     "game": "Hornets at Wizards",
+     "kick": "2026-10-30T23:10:00Z",
+     "kick_label": "Fri 4:10 PM PT",
+     "venue": "ProphetX",
+     "price": "+220",
+     "stake": 5.0,
+     "implied": 31.2,
+     "fair": 35.9,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 36% chance; ProphetX at +220 breaks even at 32% after fees, a 4.2-point gap, 60 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-10-30T22:10:01Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "agree",
+     "stake_v3": 5.0,
+     "cost": 0.3169
+    },
+    {
+     "id": "nba-a8f49f03a5",
+     "night": "2026-10-30",
+     "kind": "nba",
+     "tier": "A",
+     "market": "player_assists",
+     "title": "Brandon Miller",
+     "bet": "Under 4.5 assists",
+     "game": "Hornets at Wizards",
+     "kick": "2026-10-30T23:10:00Z",
+     "kick_label": "Fri 4:10 PM PT",
+     "venue": "ProphetX",
+     "price": "-290",
+     "stake": 5.0,
+     "implied": 74.4,
+     "fair": 78.2,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 78% chance; ProphetX at -290 breaks even at 75% after fees, a 3.5-point gap, 60 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-10-30T22:10:01Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "none",
+     "stake_v3": 5.0,
+     "cost": 0.7474
+    },
+    {
+     "id": "nba-81d181add6",
+     "night": "2026-10-30",
+     "kind": "nba",
+     "tier": "B",
+     "market": "player_points",
+     "title": "Naz Reid",
+     "bet": "Under 16.5 points",
+     "game": "Hornets at Wizards",
+     "kick": "2026-10-30T23:10:00Z",
+     "kick_label": "Fri 4:10 PM PT",
+     "venue": "Novig",
+     "price": "+141",
+     "stake": 5.0,
+     "implied": 41.5,
+     "fair": 42.9,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 45% chance; Novig at +141 breaks even at 41% after fees, a 3.8-point gap, 60 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-10-30T22:10:01Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "disagree",
+     "stake_v3": 5.0,
+     "cost": 0.4149
+    }
+   ]
+  },
   {
    "night": "2026-10-29",
    "label": "Thu Oct 29",
