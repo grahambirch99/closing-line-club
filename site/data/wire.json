@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-10-30T20:53:05.710511+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Jaylen Waddle (chest) questionable for Week 8"
+  },
+  {
    "at": "2026-10-30T20:06:39.035967+00:00",
    "kind": "injury",
    "source": "sleeper",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Emeka Egbuka (conussion/foot) limited in practice"
-  },
-  {
-   "at": "2026-10-28T20:20:33.426632+00:00",
-   "kind": "injury",
-   "source": "rotowire",
-   "text": "Jakobi Meyers: Limited by hamstring issue"
   }
  ]
 }
