@@ -1,13 +1,13 @@
 {
  "season": {
-  "w": 22,
-  "l": 32,
+  "w": 23,
+  "l": 33,
   "p": 0,
-  "units": -1.36,
-  "roi": -4.5,
-  "clv": 0.46,
-  "beat": 70,
-  "n_clv": 50
+  "units": -1.29,
+  "roi": -4.1,
+  "clv": 0.48,
+  "beat": 69,
+  "n_clv": 52
  },
  "curve": [
   {
@@ -333,6 +333,18 @@
    "week": 7,
    "label": "Makai Lemon: Under 38.5 receiving yards",
    "units": -1.36
+  },
+  {
+   "id": "2026-W08-0062",
+   "week": 8,
+   "label": "John Metchie III: Over 16.5 receiving yards",
+   "units": -2.11
+  },
+  {
+   "id": "2026-W08-0063",
+   "week": 8,
+   "label": "Matthew Golden: Over 59.5 receiving yards",
+   "units": -1.29
   }
  ],
  "clv_by_week": [
@@ -345,6 +357,11 @@
    "week": 7,
    "clv": 0.73,
    "n": 40
+  },
+  {
+   "week": 8,
+   "clv": 1.05,
+   "n": 2
   }
  ],
  "by_type": [
@@ -361,14 +378,14 @@
   },
   {
    "type": "Receiving yards",
-   "w": 2,
-   "l": 10,
+   "w": 3,
+   "l": 11,
    "p": 0,
-   "units": -3.89,
-   "roi": -59.8,
-   "clv": -0.21,
-   "beat": 91,
-   "n_clv": 11
+   "units": -3.81,
+   "roi": -47.7,
+   "clv": -0.02,
+   "beat": 85,
+   "n_clv": 13
   },
   {
    "type": "Game lines",

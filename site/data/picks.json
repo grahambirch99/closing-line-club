@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-10-29T23:14:53Z",
+ "generated_at": "2026-10-30T14:43:36Z",
  "current_week": 8,
  "weeks": [
   {
    "week": 8,
    "dates": "Oct 29 \u2013 Nov 2",
    "record": {
-    "w": 0,
-    "l": 0,
+    "w": 1,
+    "l": 1,
     "p": 0,
-    "units": 0,
-    "roi": null,
-    "clv": null,
-    "beat": null,
-    "n_clv": 0
+    "units": 0.07,
+    "roi": 4.9,
+    "clv": 1.05,
+    "beat": 50,
+    "n_clv": 2
    },
    "picks": [
     {
@@ -35,10 +35,10 @@
      "edge": 7.0,
      "worst": "+105",
      "analysis": "Novig at +113 beats the sharp-book consensus's no-vig price (50% to hit), a +7.0% edge after inactives were announced.",
-     "status": "pending",
-     "actual": "",
-     "clv": null,
-     "units": null,
+     "status": "L",
+     "actual": "14 rec yds",
+     "clv": 3.2,
+     "units": -0.75,
      "posted": "2026-10-29T22:54:08Z"
     },
     {
@@ -60,10 +60,10 @@
      "edge": 6.3,
      "worst": "+105",
      "analysis": "ProphetX at +112 beats Pinnacle's no-vig price (51% to hit), a +6.3% edge after inactives were announced.",
-     "status": "pending",
-     "actual": "",
-     "clv": null,
-     "units": null,
+     "status": "W",
+     "actual": "79 rec yds",
+     "clv": -1.1,
+     "units": 0.823,
      "posted": "2026-10-29T22:54:08Z"
     },
     {
@@ -85,10 +85,10 @@
      "edge": 3.6,
      "worst": "",
      "analysis": "Mid-week props model (paper): price +3.6% vs the sharp fair price (Kalshi ladder).",
-     "status": "pending",
-     "actual": "",
-     "clv": null,
-     "units": null,
+     "status": "L",
+     "actual": "53 receiving yards",
+     "clv": 3.85,
+     "units": -5.0,
      "posted": "2026-10-28T18:53:40Z",
      "system": "Mid-week props model"
     },
