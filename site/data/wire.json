@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-10-30T21:21:04.256624+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "George Pickens officially questionable for Week 8"
+  },
+  {
    "at": "2026-10-30T20:53:05.710511+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotowire",
    "text": "Malik Washington: Limited to begin week"
-  },
-  {
-   "at": "2026-10-28T20:39:01.285281+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Emeka Egbuka (conussion/foot) limited in practice"
   }
  ]
 }
