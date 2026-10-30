@@ -89,3 +89,6 @@
 {"kind": "injury", "team": "", "player": "Colby Parkinson", "pos": "", "source": "rotoworld-fb", "text": "Colby Parkinson officially questionable for Week 8", "at": "2026-10-30T18:43:48.556606+00:00"}
 {"kind": "injury", "team": "", "player": "Emeka Egbuka", "pos": "", "source": "rapsheet", "text": "Emeka Egbuka ruled out.", "at": "2026-10-30T19:08:27.295969+00:00"}
 {"kind": "injury", "team": "", "player": "Jakobi Meyers", "pos": "", "source": "rotoworld-fb", "text": "Jakobi Meyers DNP Friday, draws 'Q' tag for Week 8", "at": "2026-10-30T19:39:04.851064+00:00"}
+{"kind": "injury", "team": "", "player": "Carnell Tate", "pos": "", "source": "rotoworld-fb", "text": "Carnell Tate ruled out for Week 8 vs. Bengals", "at": "2026-10-30T19:54:33.398792+00:00"}
+{"kind": "injury", "team": "", "player": "Dontayvion Wicks", "pos": "", "source": "rotoworld-fb", "text": "DeVonta, Dontayvion Wicks ruled out for Week 8", "at": "2026-10-30T20:00:36.097743+00:00"}
+{"kind": "injury", "source": "sleeper", "team": "PHI", "player": "DeVonta Smith", "pos": "WR", "text": "DeVonta Smith (PHI WR) status questionable -> out [Hamstring]", "at": "2026-10-30T20:06:39.035967+00:00"}
