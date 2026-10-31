@@ -1,30 +1,30 @@
-# NBA Test: paper tracking (updated Sat Oct 31 3:06 PM PT)
+# NBA Test: paper tracking (updated Sat Oct 31 3:16 PM PT)
 
 Rules v2 (research/nba_rules_v2_PREREG.md): fair = Pinnacle + Kalshi ladder; Unders >= 3% edge, Overs >= 6% and no
 longer than +233; Novig/ProphetX only. Scorecard: CLV vs the Kalshi ladder at tip ('Kalshi CLV').
 Gate (100+ graded): Kalshi CLV >= +1.0 pt with lower 95% bound > 0, >= 55% beat it, wins not significantly below expected.
 
-v3.1 picks (no caps, from Oct 28; the posted NBA bets; gate at 400): 65 picks; graded 27-33, -1.32u; lean (win - cost) -0.1 pts
+v3.1 picks (no caps, from Oct 28; the posted NBA bets; gate at 400): 70 picks; graded 30-34, -0.41u; lean (win - cost) +1.5 pts
 v3 picks Oct 26-27 (3/game, 8/night caps): 14 picks; graded 5-9, -1.56u; lean (win - cost) -8.8 pts
-  v3.1 matchup agree: 11 picks; graded 5-5, +1.11u; lean (win - cost) +10.6 pts
-  v3.1 matchup disagree: 15 picks; graded 6-8, -1.26u; lean (win - cost) -2.5 pts
-  v3.1 matchup none: 39 picks; graded 16-20, -1.18u; lean (win - cost) -2.1 pts
+  v3.1 matchup agree: 12 picks; graded 5-5, +1.11u; lean (win - cost) +10.6 pts
+  v3.1 matchup disagree: 15 picks; graded 7-8, -1.05u; lean (win - cost) -0.4 pts
+  v3.1 matchup none: 43 picks; graded 18-21, -0.47u; lean (win - cost) -0.1 pts
 
-v2 paper bets (no longer posted; its Kalshi-CLV gate was circular): 446 bets; graded 181-250-0, -7.70u (-3.0% ROI)
+v2 paper bets (no longer posted; its Kalshi-CLV gate was circular): 461 bets; graded 185-253-0, -7.29u (-2.8% ROI)
 v1 (retired Oct 22, Pinnacle-only fair): 56 bets; graded 17-39-0, -10.66u (-31.4% ROI)
-Matchup test (research/nba_h2h_forward_PREREG.md, Kalshi taker): 1068 bets; graded 525-462-0, +2.97u (+0.6% ROI); lean vs entry price +3.1 pts (n=987)
+Matchup test (research/nba_h2h_forward_PREREG.md, Kalshi taker): 1084 bets; graded 528-471-0, -0.30u (-0.1% ROI); lean vs entry price +2.8 pts (n=999)
 
 | Group | Edges | Avg est. edge | With close | Avg CLV vs Pinnacle (pts) | Beat close |
 |---|---|---|---|---|---|
-| Paper bets | 446 | +6.6% | 370 | +1.66 | 74% |
-| All Tier A/B | 975 | +6.3% | 774 | +1.80 | 78% |
-| Tier A | 641 | +7.8% | 510 | +2.15 | 80% |
-| Tier B | 334 | +3.5% | 264 | +1.11 | 73% |
-| Tier C (2-3%) | 451 | +2.5% | 349 | +0.71 | 68% |
+| Paper bets | 461 | +6.6% | 370 | +1.66 | 74% |
+| All Tier A/B | 998 | +6.3% | 774 | +1.80 | 78% |
+| Tier A | 661 | +7.8% | 510 | +2.15 | 80% |
+| Tier B | 337 | +3.5% | 264 | +1.11 | 73% |
+| Tier C (2-3%) | 457 | +2.5% | 349 | +0.71 | 68% |
 | A/B h2h | 9 | +7.4% | 9 | +0.96 | 100% |
-| A/B assists | 289 | +7.4% | 167 | +1.99 | 80% |
-| A/B points | 375 | +5.8% | 363 | +1.27 | 69% |
-| A/B rebounds | 300 | +5.9% | 235 | +2.49 | 89% |
+| A/B assists | 299 | +7.4% | 167 | +1.99 | 80% |
+| A/B points | 383 | +5.8% | 363 | +1.27 | 69% |
+| A/B rebounds | 305 | +5.9% | 235 | +2.49 | 89% |
 | A/B totals | 2 | +3.4% | 0 | +nan | 0% |
 
 Independent checks on v2 paper bets (CLV vs Pinnacle mostly restates the starting edge, because Pinnacle's NBA
@@ -32,7 +32,7 @@ prop prices rarely move before tip):
 - Pinnacle fair move, bet to close: -1.35 (n=370, 30% > 0) pts (+ = moved our way)
 - Beat the venue's own closing price: +2.29 (n=428, 41% > 0) pts
 - CLV vs Kalshi ladder at tip (independent): +2.90 (n=440, 95% > 0) pts
-- Over share of paper bets: 14%
+- Over share of paper bets: 13%
 
-Nights tracked: 10; edges per night: 2026-10-22 31, 2026-10-23 200, 2026-10-24 211, 2026-10-25 168, 2026-10-26 201, 2026-10-27 80, 2026-10-28 237, 2026-10-29 50, 2026-10-30 198, 2026-10-31 50
-Odds API credits: 6819 left (shared with NFL); NBA spend by night: 2026-10-25 78, 2026-10-26 90, 2026-10-27 42, 2026-10-28 108, 2026-10-29 30, 2026-10-30 84, 2026-10-31 24
+Nights tracked: 10; edges per night: 2026-10-22 31, 2026-10-23 200, 2026-10-24 211, 2026-10-25 168, 2026-10-26 201, 2026-10-27 80, 2026-10-28 237, 2026-10-29 50, 2026-10-30 198, 2026-10-31 79
+Odds API credits: 6813 left (shared with NFL); NBA spend by night: 2026-10-25 78, 2026-10-26 90, 2026-10-27 42, 2026-10-28 108, 2026-10-29 30, 2026-10-30 84, 2026-10-31 30
