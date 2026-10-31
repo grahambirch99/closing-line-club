@@ -39,7 +39,7 @@ jobs:
       ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
       UNIVERSE_DB: universe-cache/universe.db
       MIN_CREDITS_RESERVE: "2500"
-      UNIVERSE_MONTHLY_CAP: "2000"
+      UNIVERSE_MONTHLY_CAP: "2800"   # universe ~1,300 + college props ~500 (Oct 31)
       GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v5
