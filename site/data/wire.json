@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-10-31T21:03:42.835387+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Rashid Shaheed (knee) out for Week 8 vs. Bears"
+  },
+  {
    "at": "2026-10-31T20:32:22.093477+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Saquon Barkley (hamstring/back) DNP Wednesday"
-  },
-  {
-   "at": "2026-10-28T22:36:12.346518+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "George Pickens (shoulder/hamstring) limited Wed."
   }
  ]
 }
