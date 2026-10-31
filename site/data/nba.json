@@ -10,7 +10,7 @@
   "n_clv": 0,
   "clv_any": 3.95,
   "n_clv_any": 60,
-  "bets": 64,
+  "bets": 65,
   "goal": 400,
   "graded": 60,
   "lean": -0.1,
@@ -42,7 +42,7 @@
     "n_clv": 0,
     "clv_any": 3.15,
     "n_clv_any": 10,
-    "bets": 10
+    "bets": 11
    },
    "disagree": {
     "w": 6,
@@ -82,7 +82,7 @@
    "n_clv": 0,
    "clv_any": 2.74,
    "n_clv_any": 368,
-   "bets": 375
+   "bets": 379
   },
   "v1": {
    "w": 17,
@@ -108,7 +108,7 @@
    "n_clv": 0,
    "clv_any": -2.8,
    "n_clv_any": 978,
-   "bets": 1012,
+   "bets": 1068,
    "net_lean": 0.3,
    "net_lo": -3.3,
    "net_hi": 4.1,
@@ -304,6 +304,39 @@
      "matchup": "disagree",
      "stake_v3": 5.0,
      "cost": 0.7101
+    },
+    {
+     "id": "nba-11ab10e203",
+     "night": "2026-10-31",
+     "kind": "nba",
+     "tier": "A",
+     "market": "player_points",
+     "title": "Dennis Schroder",
+     "bet": "Over 15.5 points",
+     "game": "76ers at Hornets",
+     "kick": "2026-10-31T22:10:00Z",
+     "kick_label": "Sat 3:10 PM PT",
+     "venue": "ProphetX",
+     "price": "+178",
+     "stake": 5.0,
+     "implied": 36.0,
+     "fair": 39.8,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 40% chance; ProphetX at +178 breaks even at 36% after fees, a 3.4-point gap, 60 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-10-31T21:10:01Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "agree",
+     "stake_v3": 5.0,
+     "cost": 0.3644
     }
    ]
   },
