@@ -94,3 +94,6 @@
 {"kind": "injury", "source": "sleeper", "team": "PHI", "player": "DeVonta Smith", "pos": "WR", "text": "DeVonta Smith (PHI WR) status questionable -> out [Hamstring]", "at": "2026-10-30T20:06:39.035967+00:00"}
 {"kind": "injury", "team": "", "player": "Jaylen Waddle", "pos": "", "source": "rotoworld-fb", "text": "Jaylen Waddle (chest) questionable for Week 8", "at": "2026-10-30T20:53:05.710511+00:00"}
 {"kind": "injury", "team": "", "player": "George Pickens", "pos": "", "source": "rotoworld-fb", "text": "George Pickens officially questionable for Week 8", "at": "2026-10-30T21:21:04.256624+00:00"}
+{"kind": "injury", "team": "", "player": "Treveyon Henderson", "pos": "", "source": "rotoworld-fb", "text": "TreVeyon Henderson (illness) out for Week 8", "at": "2026-10-31T17:13:26.188059+00:00"}
+{"kind": "injury", "team": "", "player": "Aj Brown", "pos": "", "source": "rotoworld-fb", "text": "A.J. Brown (knee) ruled out for Week 8 vs. MIA", "at": "2026-10-31T17:13:26.188059+00:00"}
+{"kind": "injury", "source": "sleeper", "team": "NE", "player": "A.J. Brown", "pos": "WR", "text": "A.J. Brown (NE WR) status questionable -> out [Ankle]", "at": "2026-10-31T17:19:28.740959+00:00"}
