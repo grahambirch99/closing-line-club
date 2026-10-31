@@ -25,6 +25,32 @@
   "goal": 150,
   "deadline": "2027-01-13"
  },
+ "cfb": {
+  "w": 0,
+  "l": 0,
+  "p": 0,
+  "units": 0,
+  "roi": null,
+  "clv": null,
+  "beat": null,
+  "n_clv": 0,
+  "clv_any": null,
+  "n_clv_any": 0,
+  "goal": 150
+ },
+ "cfb_props": {
+  "w": 0,
+  "l": 0,
+  "p": 0,
+  "units": 0,
+  "roi": null,
+  "clv": null,
+  "beat": null,
+  "n_clv": 0,
+  "clv_any": null,
+  "n_clv_any": 0,
+  "goal": 150
+ },
  "curve": [
   {
    "id": "W6-01",

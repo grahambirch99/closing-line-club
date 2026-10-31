@@ -51,8 +51,9 @@
   function ticket(p) {
     const st = p.status === "pending" ? "open" : p.status;
     const tierTag = p.kind === "nba" ? `<span class="tag T">Paper</span>${p.conflict ? '<span class="tag">Conflicts with an earlier bet: not a pick</span>' : ""}${p.retired ? '<span class="tag">Retired v1 rules</span>' : p.rules === "h2h" ? '<span class="tag">Matchup test</span>' : p.v3 ? `<span class="tag A">v3</span>${p.matchup ? `<span class="tag">${{agree: "Matchup agrees", disagree: "Matchup disagrees", none: "No matchup pick"}[p.matchup] || ""}</span>` : ""}` : p.rules === "v2" ? '<span class="tag">v2 rules</span>' : ""}`
-      : p.kind === "paper" ? `<span class="tag">Paper</span>${p.system ? `<span class="tag">${esc(p.system)}</span>` : ""}`
+      : p.kind === "paper" ? `<span class="tag">Paper</span>${p.system ? `<span class="tag${/both agree/.test(p.system) ? " A" : ""}">${esc(p.system)}</span>` : ""}`
       : p.kind === "teaser" ? '<span class="tag T">Teaser</span>'
+      : p.kind === "cfb" ? `<span class="tag T">Paper</span><span class="tag">${esc(p.system || "College football")}</span>${p.tier === "A" ? '<span class="tag A">Strong</span>' : ""}`
       : p.kind === "trial" ? `<span class="tag T">Paper</span><span class="tag">Rules v2 test</span>${p.tier === "A" ? '<span class="tag A">Strong</span>' : ""}`
       : p.tier === "A" ? '<span class="tag A">Strong</span>' : p.tier === "B" ? '<span class="tag">Value</span>' : "";
     const stake = p.stake ? `${+(p.stake / 10).toFixed(2)}u` : "";
@@ -63,7 +64,7 @@
     const stub = st === "open"
       ? `<div class="result open">${ICON.open}<span>Open</span></div><div class="stub-line">${untilKick(p.kick, p.kind === "nba")}</div>`
       : `<div class="result ${st}">${ICON[st] || ""}<span>${STATUS[st]}</span></div>
-         <div class="stub-line">${p.actual ? `<b>${esc(p.actual)}</b>` : ""}${p.units != null && p.kind !== "paper" ? ` <span>${fmtU(p.units)}${p.kind === "trial" ? " paper" : ""}</span>` : ""}</div>`;
+         <div class="stub-line">${p.actual ? `<b>${esc(p.actual)}</b>` : ""}${p.units != null && p.kind !== "paper" ? ` <span>${fmtU(p.units)}${p.kind === "trial" || p.kind === "cfb" ? " paper" : ""}</span>` : ""}</div>`;
     return `<article class="ticket ${st} ${p.kind}${fresh}" id="pick-${esc(p.id)}">
       <div class="t-body">
         <div class="t-meta">${tierTag}<span>${esc(p.game)}</span><span>${esc(p.kick_label)}</span></div>
@@ -88,7 +89,8 @@
         Week ${w.week}<small>${w.record.w + w.record.l ? rec(w.record) : w.paper_record && w.paper_record.w + w.paper_record.l ? `${rec(w.paper_record)} paper` : w.picks.length ? `${w.picks.length} open` : "No picks yet"}</small></button>`).join("");
     const ps = wk.picks.filter((p) => filter === "all" || (filter === "open" ? p.status === "pending" : p.status === filter));
     const groups = [["Bets", ps.filter((p) => p.kind === "bet")],
-      ["Picks: paper while the rules v2 test runs", ps.filter((p) => p.kind === "trial")], ["Teasers", ps.filter((p) => p.kind === "teaser")],
+      ["Picks: paper while the rules v2 test runs", ps.filter((p) => p.kind === "trial")],
+      ["College football: paper test (no Big Ten or SEC teams)", ps.filter((p) => p.kind === "cfb")], ["Teasers", ps.filter((p) => p.kind === "teaser")],
       ["Paper picks (tracked, not counted)", ps.filter((p) => p.kind === "paper")]];
     let html = groups.filter(([, g]) => g.length).map(([t, g]) => `<h2 class="group-title">${t}</h2>${g.map(ticket).join("")}`).join("");
     if (!html) {
@@ -175,6 +177,10 @@
     const g = D.summary.gate;
     if (g) items.push([g.w + g.l + (g.p || 0) ? `${rec(g)}, ${fmtU(g.units)}` : "–", "Rules v2 paper test record (from Nov 1)"],
       [`${g.n_clv || 0} of ${g.goal}`, `Rules v2 test: measurable picks so far${g.clv != null ? `, CLV ${fmtPts(g.clv)} pts` : ""}`]);
+    const cf = D.summary.cfb;
+    if (cf) items.push([cf.w + cf.l + (cf.p || 0) ? `${rec(cf)}, ${fmtU(cf.units)}` : "–", `College football paper test (no Big Ten/SEC)${cf.clv != null ? `: CLV ${fmtPts(cf.clv)} pts on ${cf.n_clv} of ${cf.goal}` : ""}`]);
+    const cp = D.summary.cfb_props;
+    if (cp) items.push([cp.w + cp.l + (cp.p || 0) ? `${rec(cp)}, ${fmtU(cp.units)}` : "–", `College football props paper test (ProphetX)${cp.clv != null ? `: CLV ${fmtPts(cp.clv)} pts on ${cp.n_clv} of ${cp.goal}` : ""}`]);
     $("#stats").innerHTML = items.map(([v, k]) => `<div class="stat"><div class="v">${v}</div><div class="k">${k}</div></div>`).join("");
     unitsChart(); clvChart();
     const t = D.summary.by_type || [];
