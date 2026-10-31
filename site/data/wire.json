@@ -1,6 +1,24 @@
 {
  "items": [
   {
+   "at": "2026-10-31T17:19:28.740959+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "A.J. Brown (NE WR) status questionable -> out [Ankle]"
+  },
+  {
+   "at": "2026-10-31T17:13:26.188059+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "TreVeyon Henderson (illness) out for Week 8"
+  },
+  {
+   "at": "2026-10-31T17:13:26.188059+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "A.J. Brown (knee) ruled out for Week 8 vs. MIA"
+  },
+  {
    "at": "2026-10-30T21:21:04.256624+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -161,24 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Texans place Jaylin Noel (toe) on injured reserve"
-  },
-  {
-   "at": "2026-10-28T21:46:59.471958+00:00",
-   "kind": "injury",
-   "source": "rotowire",
-   "text": "Dalton Kincaid: Limited to begin Week 8"
-  },
-  {
-   "at": "2026-10-28T21:28:24.748198+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Eagles place Dameon Pierce on injured reserve"
-  },
-  {
-   "at": "2026-10-28T21:00:38.316689+00:00",
-   "kind": "injury",
-   "source": "rotowire",
-   "text": "Malik Washington: Limited to begin week"
   }
  ]
 }
