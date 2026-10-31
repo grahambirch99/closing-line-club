@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-10-31T20:32:22.093477+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Broncos move RJ Harvey (knee) to injured reserve"
+  },
+  {
    "at": "2026-10-31T17:19:28.740959+00:00",
    "kind": "injury",
    "source": "sleeper",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "George Pickens (shoulder/hamstring) limited Wed."
-  },
-  {
-   "at": "2026-10-28T21:50:02.063907+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Texans place Jaylin Noel (toe) on injured reserve"
   }
  ]
 }
