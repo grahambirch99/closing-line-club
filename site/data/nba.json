@@ -10,7 +10,7 @@
   "n_clv": 0,
   "clv_any": 3.84,
   "n_clv_any": 64,
-  "bets": 78,
+  "bets": 79,
   "goal": 400,
   "graded": 64,
   "lean": 1.5,
@@ -68,7 +68,7 @@
     "n_clv": 0,
     "clv_any": 3.71,
     "n_clv_any": 39,
-    "bets": 48
+    "bets": 49
    }
   },
   "v2": {
@@ -82,7 +82,7 @@
    "n_clv": 0,
    "clv_any": 2.75,
    "n_clv_any": 371,
-   "bets": 408
+   "bets": 415
   },
   "v1": {
    "w": 17,
@@ -108,7 +108,7 @@
    "n_clv": 0,
    "clv_any": -2.81,
    "n_clv_any": 990,
-   "bets": 1085,
+   "bets": 1086,
    "net_lean": -0.0,
    "net_lo": -3.6,
    "net_hi": 3.7,
@@ -766,6 +766,39 @@
      "matchup": "none",
      "stake_v3": 5.0,
      "cost": 0.5098
+    },
+    {
+     "id": "nba-a7024a15d9",
+     "night": "2026-10-31",
+     "kind": "nba",
+     "tier": "A",
+     "market": "player_rebounds",
+     "title": "Ajay Mitchell",
+     "bet": "Under 2.5 rebounds",
+     "game": "Thunder at Rockets",
+     "kick": "2026-11-01T00:40:00Z",
+     "kick_label": "Sat 5:40 PM PT",
+     "venue": "ProphetX",
+     "price": "+230",
+     "stake": 5.0,
+     "implied": 30.3,
+     "fair": 35.4,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 35% chance; ProphetX at +230 breaks even at 31% after fees, a 4.7-point gap, 60 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-10-31T23:40:25Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "none",
+     "stake_v3": 5.0,
+     "cost": 0.3073
     }
    ]
   },
