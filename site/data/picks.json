@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T19:14:52Z",
+ "generated_at": "2026-10-31T15:03:17Z",
  "current_week": 8,
  "weeks": [
   {
@@ -11,9 +11,35 @@
     "p": 0,
     "units": 0.07,
     "roi": 4.9,
-    "clv": 1.05,
-    "beat": 50,
-    "n_clv": 2
+    "clv": -1.3,
+    "beat": 0,
+    "n_clv": 1,
+    "clv_any": 1.0,
+    "n_clv_any": 2
+   },
+   "paper_record": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "units": 0,
+    "roi": null,
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": null,
+    "n_clv_any": 0
+   },
+   "clv_record": {
+    "w": 1,
+    "l": 1,
+    "p": 0,
+    "units": 0.07,
+    "roi": 4.9,
+    "clv": -1.3,
+    "beat": 0,
+    "n_clv": 1,
+    "clv_any": 1.0,
+    "n_clv_any": 2
    },
    "picks": [
     {
@@ -37,9 +63,13 @@
      "analysis": "Novig at +113 beats the sharp-book consensus's no-vig price (50% to hit), a +7.0% edge after inactives were announced.",
      "status": "L",
      "actual": "14 rec yds",
-     "clv": 3.2,
+     "clv": 3.3,
      "units": -0.75,
-     "posted": "2026-10-29T22:54:08Z"
+     "posted": "2026-10-29T22:54:08Z",
+     "rules": "v1.1 (Shin, 2-pt minimum)",
+     "clv_method": "shifted (ladder)",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "2026-W08-0063",
@@ -62,9 +92,13 @@
      "analysis": "ProphetX at +112 beats Pinnacle's no-vig price (51% to hit), a +6.3% edge after inactives were announced.",
      "status": "W",
      "actual": "79 rec yds",
-     "clv": -1.1,
+     "clv": -1.3,
      "units": 0.823,
-     "posted": "2026-10-29T22:54:08Z"
+     "posted": "2026-10-29T22:54:08Z",
+     "rules": "v1.1 (Shin, 2-pt minimum)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "pp-40-185",
@@ -115,7 +149,11 @@
      "actual": "",
      "clv": null,
      "units": null,
-     "posted": "2026-10-26T20:24:03Z"
+     "posted": "2026-10-26T20:24:03Z",
+     "rules": "v1 (Shin devig)",
+     "clv_method": "",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "pp-45-283",
@@ -712,7 +750,11 @@
      "actual": "",
      "clv": null,
      "units": null,
-     "posted": "2026-10-26T20:24:03Z"
+     "posted": "2026-10-26T20:24:03Z",
+     "rules": "v1 (Shin devig)",
+     "clv_method": "",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "pp-45-291",
@@ -933,9 +975,35 @@
     "p": 0,
     "units": -1.47,
     "roi": -5.8,
-    "clv": 0.73,
-    "beat": 72,
-    "n_clv": 40
+    "clv": 0.06,
+    "beat": 68,
+    "n_clv": 25,
+    "clv_any": 0.51,
+    "n_clv_any": 40
+   },
+   "paper_record": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "units": 0,
+    "roi": null,
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": null,
+    "n_clv_any": 0
+   },
+   "clv_record": {
+    "w": 16,
+    "l": 25,
+    "p": 0,
+    "units": -1.47,
+    "roi": -5.8,
+    "clv": 0.06,
+    "beat": 68,
+    "n_clv": 25,
+    "clv_any": 0.51,
+    "n_clv_any": 40
    },
    "picks": [
     {
@@ -959,9 +1027,13 @@
      "analysis": "Novig at +156 beats Pinnacle's no-vig price (41% to hit), a +5.7% edge after inactives were announced.",
      "status": "W",
      "actual": "3 rec",
-     "clv": 2.1,
+     "clv": 1.6,
      "units": 0.78,
-     "posted": "2026-10-22T22:55:27Z"
+     "posted": "2026-10-22T22:55:27Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "2026-W07-0020",
@@ -984,9 +1056,13 @@
      "analysis": "Novig at +133 beats Pinnacle's no-vig price (45% to hit), a +4.9% edge after inactives were announced.",
      "status": "L",
      "actual": "4 rec",
-     "clv": 1.1,
+     "clv": 0.8,
      "units": -0.75,
-     "posted": "2026-10-22T22:55:27Z"
+     "posted": "2026-10-22T22:55:27Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "2026-W07-0034",
@@ -1009,9 +1085,13 @@
      "analysis": "Novig at +167 beats Pinnacle's no-vig price (39% to hit), a +4.7% edge in the Saturday preview.",
      "status": "L",
      "actual": "3 rec",
-     "clv": 1.8,
+     "clv": 1.3,
      "units": -0.5,
-     "posted": "2026-10-24T20:53:32Z"
+     "posted": "2026-10-24T20:53:32Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "2026-W07-0041",
@@ -1034,9 +1114,13 @@
      "analysis": "Novig at -104 beats Pinnacle's no-vig price (53% to hit), a +3.4% edge after inactives were announced.",
      "status": "L",
      "actual": "36 rec yds",
-     "clv": 1.7,
+     "clv": 1.8,
      "units": -0.5,
-     "posted": "2026-10-25T12:04:37Z"
+     "posted": "2026-10-25T12:04:37Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "0",
+     "clv_ok": false
     },
     {
      "id": "2026-W07-0042",
@@ -1059,9 +1143,13 @@
      "analysis": "Novig at +104 beats Pinnacle's no-vig price (51% to hit), a +3.3% edge after inactives were announced.",
      "status": "L",
      "actual": "7 rec yds",
-     "clv": 1.6,
+     "clv": 1.7,
      "units": -0.5,
-     "posted": "2026-10-25T12:04:37Z"
+     "posted": "2026-10-25T12:04:37Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "0",
+     "clv_ok": false
     },
     {
      "id": "pp-12-10",
@@ -1136,9 +1224,13 @@
      "analysis": "Novig at +135 beats Pinnacle's no-vig price (47% to hit), a +9.7% edge right after news broke (QB BAL: Ravens QB Lamar Jackson (ankle) has been downgraded ).",
      "status": "L",
      "actual": "final Bengals 35, Ravens 13",
-     "clv": -2.7,
+     "clv": -3.0,
      "units": -0.75,
-     "posted": "2026-10-24T19:36:48Z"
+     "posted": "2026-10-24T19:36:48Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "2026-W07-0024",
@@ -1161,9 +1253,13 @@
      "analysis": "Novig at +167 beats Pinnacle's no-vig price (41% to hit), a +8.5% edge in the Saturday preview.",
      "status": "W",
      "actual": "0 rec",
-     "clv": -1.0,
+     "clv": -1.6,
      "units": 0.835,
-     "posted": "2026-10-24T20:53:32Z"
+     "posted": "2026-10-24T20:53:32Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "2026-W07-0021",
@@ -1188,7 +1284,11 @@
      "actual": "1 rec",
      "clv": 16.4,
      "units": -0.5,
-     "posted": "2026-10-23T19:59:57Z"
+     "posted": "2026-10-23T19:59:57Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "2026-W07-0043",
@@ -1213,7 +1313,11 @@
      "actual": "3 rec",
      "clv": -0.8,
      "units": -0.75,
-     "posted": "2026-10-25T15:34:24Z"
+     "posted": "2026-10-25T15:34:24Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "2026-W07-0028",
@@ -1236,9 +1340,13 @@
      "analysis": "ProphetX at +164 beats the sharp-book consensus's no-vig price (41% to hit), a +6.8% edge in the Saturday preview.",
      "status": "L",
      "actual": "0 rec",
-     "clv": 3.2,
+     "clv": 2.8,
      "units": -0.5,
-     "posted": "2026-10-24T20:53:32Z"
+     "posted": "2026-10-24T20:53:32Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "2026-W07-0030",
@@ -1261,9 +1369,13 @@
      "analysis": "Novig at +133 beats Pinnacle's no-vig price (45% to hit), a +5.5% edge in the Saturday preview.",
      "status": "W",
      "actual": "3 rec",
-     "clv": -5.5,
+     "clv": -6.1,
      "units": 0.998,
-     "posted": "2026-10-24T20:53:32Z"
+     "posted": "2026-10-24T20:53:32Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "2026-W07-0032",
@@ -1286,9 +1398,13 @@
      "analysis": "Novig at +117 beats Pinnacle's no-vig price (48% to hit), a +5.3% edge in the Saturday preview.",
      "status": "L",
      "actual": "1 rec",
-     "clv": 2.4,
+     "clv": 2.3,
      "units": -0.75,
-     "posted": "2026-10-24T20:53:32Z"
+     "posted": "2026-10-24T20:53:32Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "2026-W07-0039",
@@ -1311,9 +1427,13 @@
      "analysis": "Novig at +138 beats Pinnacle's no-vig price (44% to hit), a +5.1% edge right after news broke (Emeka Egbuka (Tampa Bay Buccaneers WR) active -> out).",
      "status": "L",
      "actual": "2 rec",
-     "clv": 1.4,
+     "clv": 1.0,
      "units": -0.75,
-     "posted": "2026-10-25T11:29:29Z"
+     "posted": "2026-10-25T11:29:29Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "2026-W07-0040",
@@ -1336,9 +1456,13 @@
      "analysis": "Novig at +100 beats Pinnacle's no-vig price (52% to hit), a +5.0% edge right after news broke (Emeka Egbuka (Tampa Bay Buccaneers WR) active -> out).",
      "status": "L",
      "actual": "4 rec",
-     "clv": 2.5,
+     "clv": 2.6,
      "units": -0.75,
-     "posted": "2026-10-25T11:29:29Z"
+     "posted": "2026-10-25T11:29:29Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "0",
+     "clv_ok": false
     },
     {
      "id": "2026-W07-0037",
@@ -1361,9 +1485,13 @@
      "analysis": "Novig at +133 beats Pinnacle's no-vig price (45% to hit), a +4.9% edge right after news broke (Dillon Gabriel (Cleveland Browns QB) not listed -> injured r).",
      "status": "W",
      "actual": "6 rec",
-     "clv": 2.2,
+     "clv": 1.9,
      "units": 0.998,
-     "posted": "2026-10-25T11:29:27Z"
+     "posted": "2026-10-25T11:29:27Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "2026-W07-0038",
@@ -1386,9 +1514,13 @@
      "analysis": "Novig at +190 beats Pinnacle's no-vig price (36% to hit), a +4.9% edge right after news broke (Dillon Gabriel (Cleveland Browns QB) not listed -> injured r).",
      "status": "W",
      "actual": "3 rec",
-     "clv": 0.9,
+     "clv": 0.2,
      "units": 0.95,
-     "posted": "2026-10-25T11:29:27Z"
+     "posted": "2026-10-25T11:29:27Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "2026-W07-0044",
@@ -1413,7 +1545,11 @@
      "actual": "0 rec yds",
      "clv": 0.1,
      "units": 0.833,
-     "posted": "2026-10-25T15:34:24Z"
+     "posted": "2026-10-25T15:34:24Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "shifted (ladder)",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "2026-W07-0045",
@@ -1436,9 +1572,13 @@
      "analysis": "ProphetX at +150 beats Pinnacle's no-vig price (42% to hit), a +4.8% edge after inactives were announced.",
      "status": "W",
      "actual": "0 rec",
-     "clv": 2.5,
+     "clv": 2.1,
      "units": 0.735,
-     "posted": "2026-10-25T15:34:24Z"
+     "posted": "2026-10-25T15:34:24Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "2026-W07-0035",
@@ -1461,9 +1601,13 @@
      "analysis": "Novig at +111 beats Pinnacle's no-vig price (50% to hit), a +4.6% edge in the Saturday preview.",
      "status": "W",
      "actual": "8 rec",
-     "clv": -1.0,
+     "clv": -1.2,
      "units": 0.833,
-     "posted": "2026-10-24T20:53:32Z"
+     "posted": "2026-10-24T20:53:32Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "2026-W07-0018",
@@ -1486,9 +1630,13 @@
      "analysis": "ProphetX at +400 beats Pinnacle's no-vig price (21% to hit), a +4.5% edge.",
      "status": "W",
      "actual": "final Giants 27, Texans 21",
-     "clv": 1.5,
+     "clv": 0.6,
      "units": 1.96,
-     "posted": "2026-10-20T16:58:43Z"
+     "posted": "2026-10-20T16:58:43Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "2026-W07-0036",
@@ -1511,9 +1659,13 @@
      "analysis": "Novig at +108 beats Pinnacle's no-vig price (50% to hit), a +4.0% edge right after news broke (Brian Robinson Jr. (Atlanta Falcons RB) active -> out).",
      "status": "L",
      "actual": "9 rec yds",
-     "clv": -12.2,
+     "clv": -12.5,
      "units": -0.75,
-     "posted": "2026-10-25T11:29:27Z"
+     "posted": "2026-10-25T11:29:27Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "shifted (typical sigma)",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "2026-W07-0022",
@@ -1536,9 +1688,13 @@
      "analysis": "Novig at -113 beats the sharp-book consensus's no-vig price (55% to hit), a +3.9% edge right after news broke (Brian Robinson Jr. (ATL RB) status questionable -> out [Hams).",
      "status": "W",
      "actual": "2 rec",
-     "clv": 1.3,
+     "clv": 1.5,
      "units": 0.442,
-     "posted": "2026-10-23T19:59:57Z"
+     "posted": "2026-10-23T19:59:57Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "2026-W07-0046",
@@ -1561,9 +1717,13 @@
      "analysis": "Novig at +133 beats Pinnacle's no-vig price (45% to hit), a +3.8% edge after inactives were announced.",
      "status": "L",
      "actual": "43 rec yds",
-     "clv": 0.7,
+     "clv": 0.4,
      "units": -0.5,
-     "posted": "2026-10-25T15:34:24Z"
+     "posted": "2026-10-25T15:34:24Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "2026-W07-0047",
@@ -1586,9 +1746,13 @@
      "analysis": "ProphetX at +134 beats the sharp-book consensus's no-vig price (45% to hit), a +3.6% edge after inactives were announced.",
      "status": "L",
      "actual": "3 rec",
-     "clv": -1.6,
+     "clv": -0.8,
      "units": -0.5,
-     "posted": "2026-10-25T15:34:24Z"
+     "posted": "2026-10-25T15:34:24Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "shifted (ladder)",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "2026-W07-0048",
@@ -1611,9 +1775,13 @@
      "analysis": "ProphetX at +168 beats Pinnacle's no-vig price (39% to hit), a +3.5% edge after inactives were announced.",
      "status": "W",
      "actual": "6 rec",
-     "clv": 1.8,
+     "clv": 1.3,
      "units": 0.823,
-     "posted": "2026-10-25T15:34:24Z"
+     "posted": "2026-10-25T15:34:24Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "0",
+     "clv_ok": false
     },
     {
      "id": "2026-W07-0049",
@@ -1636,9 +1804,13 @@
      "analysis": "Novig at +108 beats Pinnacle's no-vig price (50% to hit), a +3.1% edge after inactives were announced.",
      "status": "W",
      "actual": "5 rec",
-     "clv": 0.3,
+     "clv": 0.2,
      "units": 0.54,
-     "posted": "2026-10-25T15:34:24Z"
+     "posted": "2026-10-25T15:34:24Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "2026-W07-0050",
@@ -1663,7 +1835,11 @@
      "actual": "13 rec yds",
      "clv": 0.8,
      "units": 0.53,
-     "posted": "2026-10-25T15:34:24Z"
+     "posted": "2026-10-25T15:34:24Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "pp-16-103",
@@ -2130,7 +2306,11 @@
      "actual": "",
      "clv": null,
      "units": null,
-     "posted": "2026-10-25T15:34:24Z"
+     "posted": "2026-10-25T15:34:24Z",
+     "rules": "teaser-v1",
+     "clv_method": "",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "wind-2823e986597c449ab94126cd5ed3fae9-45.0",
@@ -2179,9 +2359,13 @@
      "analysis": "Novig at +167 beats Pinnacle's no-vig price (40% to hit), a +7.5% edge in the Saturday preview.",
      "status": "L",
      "actual": "0 rec",
-     "clv": 2.0,
+     "clv": 1.5,
      "units": -0.5,
-     "posted": "2026-10-24T20:53:32Z"
+     "posted": "2026-10-24T20:53:32Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "2026-W07-0031",
@@ -2204,9 +2388,13 @@
      "analysis": "Novig at +135 beats Pinnacle's no-vig price (45% to hit), a +5.5% edge in the Saturday preview.",
      "status": "W",
      "actual": "3 rec",
-     "clv": -4.2,
+     "clv": -4.8,
      "units": 1.013,
-     "posted": "2026-10-24T20:53:32Z"
+     "posted": "2026-10-24T20:53:32Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "2026-W07-0052",
@@ -2229,9 +2417,13 @@
      "analysis": "Novig at +150 beats the sharp-book consensus's no-vig price (42% to hit), a +5.1% edge after inactives were announced.",
      "status": "L",
      "actual": "3 rec",
-     "clv": -0.8,
+     "clv": -0.5,
      "units": -0.5,
-     "posted": "2026-10-25T18:39:29Z"
+     "posted": "2026-10-25T18:39:29Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "shifted (ladder)",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "pp-16-107",
@@ -2358,9 +2550,13 @@
      "analysis": "Novig at +133 beats Pinnacle's no-vig price (46% to hit), a +8.2% edge in the Saturday preview.",
      "status": "L",
      "actual": "0 rec",
-     "clv": 2.6,
+     "clv": 2.4,
      "units": -0.75,
-     "posted": "2026-10-24T20:53:32Z"
+     "posted": "2026-10-24T20:53:32Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "2026-W07-0053",
@@ -2385,7 +2581,11 @@
      "actual": "27 rec yds",
      "clv": 0.3,
      "units": -0.75,
-     "posted": "2026-10-25T18:59:38Z"
+     "posted": "2026-10-25T18:59:38Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "shifted (ladder)",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "2026-W07-0033",
@@ -2408,9 +2608,13 @@
      "analysis": "Novig at +120 beats Pinnacle's no-vig price (48% to hit), a +5.1% edge in the Saturday preview.",
      "status": "W",
      "actual": "2 rec",
-     "clv": 1.9,
+     "clv": 1.7,
      "units": 0.9,
-     "posted": "2026-10-24T20:53:32Z"
+     "posted": "2026-10-24T20:53:32Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "2026-W07-0054",
@@ -2433,9 +2637,13 @@
      "analysis": "Novig at +113 beats Pinnacle's no-vig price (49% to hit), a +4.2% edge after inactives were announced.",
      "status": "L",
      "actual": "22 rec yds",
-     "clv": 2.0,
+     "clv": 1.9,
      "units": -0.75,
-     "posted": "2026-10-25T18:59:38Z"
+     "posted": "2026-10-25T18:59:38Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "0",
+     "clv_ok": false
     },
     {
      "id": "2026-W07-0055",
@@ -2458,9 +2666,13 @@
      "analysis": "Novig at +113 beats Pinnacle's no-vig price (48% to hit), a +3.3% edge after inactives were announced.",
      "status": "L",
      "actual": "8 rec yds",
-     "clv": 0.8,
+     "clv": 0.7,
      "units": -0.5,
-     "posted": "2026-10-25T18:59:38Z"
+     "posted": "2026-10-25T18:59:38Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "pp-12-1",
@@ -2613,9 +2825,13 @@
      "analysis": "Novig at +133 beats Pinnacle's no-vig price (46% to hit), a +7.5% edge in the Saturday preview.",
      "status": "L",
      "actual": "9 rec",
-     "clv": -0.5,
+     "clv": -0.9,
      "units": -0.75,
-     "posted": "2026-10-24T20:53:32Z"
+     "posted": "2026-10-24T20:53:32Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "2026-W07-0029",
@@ -2638,9 +2854,13 @@
      "analysis": "Novig at +138 beats Pinnacle's no-vig price (44% to hit), a +5.6% edge in the Saturday preview.",
      "status": "L",
      "actual": "2 rec",
-     "clv": -0.3,
+     "clv": -0.7,
      "units": -0.75,
-     "posted": "2026-10-24T20:53:32Z"
+     "posted": "2026-10-24T20:53:32Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "2026-W07-0056",
@@ -2663,9 +2883,13 @@
      "analysis": "Novig at +156 beats Pinnacle's no-vig price (41% to hit), a +4.9% edge after inactives were announced.",
      "status": "L",
      "actual": "0 rec",
-     "clv": 1.9,
+     "clv": 1.5,
      "units": -0.5,
-     "posted": "2026-10-25T22:54:28Z"
+     "posted": "2026-10-25T22:54:28Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "exact",
+     "close_moved": "0",
+     "clv_ok": false
     },
     {
      "id": "2026-W07-0057",
@@ -2688,9 +2912,13 @@
      "analysis": "Novig at +108 beats the sharp-book consensus's no-vig price (50% to hit), a +3.8% edge after inactives were announced.",
      "status": "L",
      "actual": "11 rec yds",
-     "clv": 0.8,
+     "clv": 0.9,
      "units": -0.5,
-     "posted": "2026-10-25T22:54:28Z"
+     "posted": "2026-10-25T22:54:28Z",
+     "rules": "v1 (proportional devig)",
+     "clv_method": "shifted (ladder)",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "pp-16-110",
@@ -2767,7 +2995,11 @@
      "actual": "2 rec",
      "clv": null,
      "units": 0.862,
-     "posted": "2026-10-26T22:54:48Z"
+     "posted": "2026-10-26T22:54:48Z",
+     "rules": "v1 (Shin devig)",
+     "clv_method": "none (no Pinnacle at close)",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "2026-W07-0061",
@@ -2790,9 +3022,13 @@
      "analysis": "Novig at +111 beats Pinnacle's no-vig price (49% to hit), a +3.1% edge after inactives were announced.",
      "status": "L",
      "actual": "67 rec yds",
-     "clv": 1.1,
+     "clv": 1.0,
      "units": -0.5,
-     "posted": "2026-10-26T22:54:48Z"
+     "posted": "2026-10-26T22:54:48Z",
+     "rules": "v1 (Shin devig)",
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     }
    ]
   },
@@ -2805,9 +3041,35 @@
     "p": 0,
     "units": 0.1,
     "roi": 2.1,
-    "clv": -0.63,
-    "beat": 60,
-    "n_clv": 10
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": -0.63,
+    "n_clv_any": 10
+   },
+   "paper_record": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "units": 0,
+    "roi": null,
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": null,
+    "n_clv_any": 0
+   },
+   "clv_record": {
+    "w": 6,
+    "l": 7,
+    "p": 0,
+    "units": 0.1,
+    "roi": 2.1,
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": -0.63,
+    "n_clv_any": 10
    },
    "picks": [
     {
@@ -2833,7 +3095,11 @@
      "actual": "11 rec",
      "clv": 2.0,
      "units": -0.5,
-     "posted": "2026-10-18T15:38:00Z"
+     "posted": "2026-10-18T15:38:00Z",
+     "rules": "wk6-hand-card",
+     "clv_method": "hand card (not reproducible)",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "W6-29",
@@ -2858,7 +3124,11 @@
      "actual": "1 rec",
      "clv": 2.2,
      "units": -0.5,
-     "posted": "2026-10-18T15:59:00Z"
+     "posted": "2026-10-18T15:59:00Z",
+     "rules": "wk6-hand-card",
+     "clv_method": "hand card (not reproducible)",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "W6-03",
@@ -2883,7 +3153,11 @@
      "actual": "2 rec",
      "clv": 1.4,
      "units": 0.833,
-     "posted": "2026-10-17T18:30:00Z"
+     "posted": "2026-10-17T18:30:00Z",
+     "rules": "wk6-hand-card",
+     "clv_method": "hand card (not reproducible)",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "W6-01",
@@ -2908,7 +3182,11 @@
      "actual": "5 rec",
      "clv": -0.1,
      "units": -0.5,
-     "posted": "2026-10-17T18:30:00Z"
+     "posted": "2026-10-17T18:30:00Z",
+     "rules": "wk6-hand-card",
+     "clv_method": "hand card (not reproducible)",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "W6-05",
@@ -2933,7 +3211,11 @@
      "actual": "2 rec",
      "clv": -2.5,
      "units": 0.335,
-     "posted": "2026-10-17T18:30:00Z"
+     "posted": "2026-10-17T18:30:00Z",
+     "rules": "wk6-hand-card",
+     "clv_method": "hand card (not reproducible)",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "W6-02",
@@ -2958,7 +3240,11 @@
      "actual": "4 rec",
      "clv": -10.9,
      "units": 0.417,
-     "posted": "2026-10-17T18:30:00Z"
+     "posted": "2026-10-17T18:30:00Z",
+     "rules": "wk6-hand-card",
+     "clv_method": "hand card (not reproducible)",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "W6-07",
@@ -2983,7 +3269,11 @@
      "actual": "2 rec",
      "clv": -1.4,
      "units": 0.539,
-     "posted": "2026-10-17T18:30:00Z"
+     "posted": "2026-10-17T18:30:00Z",
+     "rules": "wk6-hand-card",
+     "clv_method": "hand card (not reproducible)",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "W6-25",
@@ -3008,7 +3298,11 @@
      "actual": "1 rec",
      "clv": 0.3,
      "units": 0.481,
-     "posted": "2026-10-17T18:30:00Z"
+     "posted": "2026-10-17T18:30:00Z",
+     "rules": "wk6-hand-card",
+     "clv_method": "hand card (not reproducible)",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "W6-04",
@@ -3033,7 +3327,11 @@
      "actual": "2 rec",
      "clv": 1.7,
      "units": -0.5,
-     "posted": "2026-10-17T18:30:00Z"
+     "posted": "2026-10-17T18:30:00Z",
+     "rules": "wk6-hand-card",
+     "clv_method": "hand card (not reproducible)",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "W6-06",
@@ -3058,7 +3356,11 @@
      "actual": "3 rec",
      "clv": 1.0,
      "units": -0.5,
-     "posted": "2026-10-17T18:30:00Z"
+     "posted": "2026-10-17T18:30:00Z",
+     "rules": "wk6-hand-card",
+     "clv_method": "hand card (not reproducible)",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "W6-08",
@@ -3083,7 +3385,11 @@
      "actual": "2 rush yds",
      "clv": null,
      "units": null,
-     "posted": "2026-10-17T18:30:00Z"
+     "posted": "2026-10-17T18:30:00Z",
+     "rules": "wk6-hand-card",
+     "clv_method": "none (pick'em app)",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "W6-09",
@@ -3108,7 +3414,11 @@
      "actual": "47 yds",
      "clv": null,
      "units": null,
-     "posted": "2026-10-17T18:30:00Z"
+     "posted": "2026-10-17T18:30:00Z",
+     "rules": "wk6-hand-card",
+     "clv_method": "none (pick'em app)",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "W6-15",
@@ -3133,7 +3443,11 @@
      "actual": "13 pts (4/4 FG)",
      "clv": null,
      "units": null,
-     "posted": "2026-10-17T18:30:00Z"
+     "posted": "2026-10-17T18:30:00Z",
+     "rules": "wk6-hand-card",
+     "clv_method": "none (pick'em app)",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "W6-10",
@@ -3158,7 +3472,11 @@
      "actual": "2 rec (Under hit; model wrong)",
      "clv": -1.1,
      "units": null,
-     "posted": "2026-10-17T18:30:00Z"
+     "posted": "2026-10-17T18:30:00Z",
+     "rules": "wk6-hand-card",
+     "clv_method": "hand card (not reproducible)",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "W6-26",
@@ -3183,7 +3501,11 @@
      "actual": "4 rec",
      "clv": 1.1,
      "units": null,
-     "posted": "2026-10-17T18:30:00Z"
+     "posted": "2026-10-17T18:30:00Z",
+     "rules": "wk6-hand-card",
+     "clv_method": "hand card (not reproducible)",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "W6-16",
@@ -3208,7 +3530,11 @@
      "actual": "7 pts",
      "clv": null,
      "units": null,
-     "posted": "2026-10-17T18:30:00Z"
+     "posted": "2026-10-17T18:30:00Z",
+     "rules": "wk6-hand-card",
+     "clv_method": "none (pick'em app)",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "W6-17",
@@ -3233,7 +3559,11 @@
      "actual": "11 pts",
      "clv": null,
      "units": null,
-     "posted": "2026-10-17T18:30:00Z"
+     "posted": "2026-10-17T18:30:00Z",
+     "rules": "wk6-hand-card",
+     "clv_method": "none (pick'em app)",
+     "close_moved": "",
+     "clv_ok": false
     }
    ]
   }

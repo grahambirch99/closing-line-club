@@ -5,9 +5,11 @@
   "p": 0,
   "units": -1.32,
   "roi": -4.4,
-  "clv": 3.95,
-  "beat": 98,
-  "n_clv": 60,
+  "clv": null,
+  "beat": null,
+  "n_clv": 0,
+  "clv_any": 3.95,
+  "n_clv_any": 60,
   "bets": 60,
   "goal": 400,
   "graded": 60,
@@ -21,9 +23,11 @@
    "p": 0,
    "units": -1.56,
    "roi": -22.2,
-   "clv": 3.34,
-   "beat": 93,
-   "n_clv": 14,
+   "clv": null,
+   "beat": null,
+   "n_clv": 0,
+   "clv_any": 3.34,
+   "n_clv_any": 14,
    "bets": 14
   },
   "matchup": {
@@ -33,9 +37,11 @@
     "p": 0,
     "units": 1.11,
     "roi": 22.3,
-    "clv": 3.15,
-    "beat": 90,
-    "n_clv": 10,
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": 3.15,
+    "n_clv_any": 10,
     "bets": 10
    },
    "disagree": {
@@ -44,9 +50,11 @@
     "p": 0,
     "units": -1.26,
     "roi": -18.0,
-    "clv": 4.86,
-    "beat": 100,
-    "n_clv": 14,
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": 4.86,
+    "n_clv_any": 14,
     "bets": 14
    },
    "none": {
@@ -55,9 +63,11 @@
     "p": 0,
     "units": -1.18,
     "roi": -6.6,
-    "clv": 3.83,
-    "beat": 100,
-    "n_clv": 36,
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": 3.83,
+    "n_clv_any": 36,
     "bets": 36
    }
   },
@@ -67,9 +77,11 @@
    "p": 0,
    "units": -4.65,
    "roi": -2.2,
-   "clv": 2.74,
-   "beat": 94,
-   "n_clv": 368,
+   "clv": null,
+   "beat": null,
+   "n_clv": 0,
+   "clv_any": 2.74,
+   "n_clv_any": 368,
    "bets": 372
   },
   "v1": {
@@ -78,9 +90,11 @@
    "p": 0,
    "units": -10.66,
    "roi": -31.4,
-   "clv": -0.14,
-   "beat": 41,
-   "n_clv": 44,
+   "clv": null,
+   "beat": null,
+   "n_clv": 0,
+   "clv_any": -0.14,
+   "n_clv_any": 44,
    "bets": 56
   },
   "h2h": {
@@ -89,10 +103,16 @@
    "p": 0,
    "units": 2.97,
    "roi": 0.6,
-   "clv": -2.8,
-   "beat": 7,
-   "n_clv": 978,
-   "bets": 1000
+   "clv": null,
+   "beat": null,
+   "n_clv": 0,
+   "clv_any": -2.8,
+   "n_clv_any": 978,
+   "bets": 1000,
+   "net_lean": 0.3,
+   "net_lo": -3.3,
+   "net_hi": 4.1,
+   "lean_vs_mid": 3.1
   }
  },
  "by_type": [
@@ -103,9 +123,11 @@
    "p": 0,
    "units": -1.24,
    "roi": -24.8,
-   "clv": 3.22,
-   "beat": 100,
-   "n_clv": 10
+   "clv": null,
+   "beat": null,
+   "n_clv": 0,
+   "clv_any": 3.22,
+   "n_clv_any": 10
   },
   {
    "type": "Points",
@@ -114,9 +136,11 @@
    "p": 0,
    "units": -1.6,
    "roi": -9.2,
-   "clv": 4.13,
-   "beat": 97,
-   "n_clv": 35
+   "clv": null,
+   "beat": null,
+   "n_clv": 0,
+   "clv_any": 4.13,
+   "n_clv_any": 35
   },
   {
    "type": "Rebounds",
@@ -125,9 +149,11 @@
    "p": 0,
    "units": 1.52,
    "roi": 20.3,
-   "clv": 4.03,
-   "beat": 100,
-   "n_clv": 15
+   "clv": null,
+   "beat": null,
+   "n_clv": 0,
+   "clv_any": 4.03,
+   "n_clv_any": 15
   }
  ],
  "nights": [
@@ -140,9 +166,11 @@
     "p": 0,
     "units": -1.48,
     "roi": -10.6,
-    "clv": 3.75,
-    "beat": 96,
-    "n_clv": 28
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": 3.75,
+    "n_clv_any": 28
    },
    "picks": [
     {
@@ -1080,9 +1108,11 @@
     "p": 0,
     "units": -0.16,
     "roi": -7.9,
-    "clv": 3.55,
-    "beat": 100,
-    "n_clv": 4
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": 3.55,
+    "n_clv_any": 4
    },
    "picks": [
     {
@@ -1228,9 +1258,11 @@
     "p": 0,
     "units": 0.31,
     "roi": 2.2,
-    "clv": 4.22,
-    "beat": 100,
-    "n_clv": 28
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": 4.22,
+    "n_clv_any": 28
    },
    "picks": [
     {
@@ -2168,9 +2200,11 @@
     "p": 0,
     "units": 0.1,
     "roi": 3.4,
-    "clv": 4.06,
-    "beat": 100,
-    "n_clv": 6
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": 4.06,
+    "n_clv_any": 6
    },
    "picks": [
     {
@@ -2382,9 +2416,11 @@
     "p": 0,
     "units": -1.66,
     "roi": -41.4,
-    "clv": 2.81,
-    "beat": 88,
-    "n_clv": 8
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": 2.81,
+    "n_clv_any": 8
    },
    "picks": [
     {
@@ -2662,9 +2698,11 @@
     "p": 0,
     "units": 14.35,
     "roi": 17.0,
-    "clv": -0.88,
-    "beat": 39,
-    "n_clv": 155
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": -0.88,
+    "n_clv_any": 155
    },
    "picks": [
     {
@@ -8090,9 +8128,11 @@
     "p": 0,
     "units": -0.24,
     "roi": -0.2,
-    "clv": -0.46,
-    "beat": 40,
-    "n_clv": 196
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": -0.46,
+    "n_clv_any": 196
    },
    "picks": [
     {
@@ -14673,9 +14713,11 @@
     "p": 0,
     "units": -4.7,
     "roi": -4.0,
-    "clv": -1.66,
-    "beat": 24,
-    "n_clv": 228
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": -1.66,
+    "n_clv_any": 228
    },
    "picks": [
     {
@@ -22213,9 +22255,11 @@
     "p": 0,
     "units": -0.03,
     "roi": -0.1,
-    "clv": -1.13,
-    "beat": 30,
-    "n_clv": 50
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": -1.13,
+    "n_clv_any": 50
    },
    "picks": [
     {
@@ -23879,9 +23923,11 @@
     "p": 0,
     "units": -8.81,
     "roi": -28.9,
-    "clv": -0.2,
-    "beat": 37,
-    "n_clv": 41
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": -0.2,
+    "n_clv_any": 41
    },
    "picks": [
     {
@@ -25545,9 +25591,11 @@
     "p": 0,
     "units": -1.85,
     "roi": -52.9,
-    "clv": 0.66,
-    "beat": 100,
-    "n_clv": 3
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": 0.66,
+    "n_clv_any": 3
    },
    "picks": [
     {

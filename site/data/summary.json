@@ -5,9 +5,25 @@
   "p": 0,
   "units": -1.29,
   "roi": -4.1,
-  "clv": 0.48,
-  "beat": 69,
-  "n_clv": 52
+  "clv": 0.0,
+  "beat": 65,
+  "n_clv": 26,
+  "clv_any": 0.31,
+  "n_clv_any": 52
+ },
+ "gate": {
+  "w": 0,
+  "l": 0,
+  "p": 0,
+  "units": 0,
+  "roi": null,
+  "clv": null,
+  "beat": null,
+  "n_clv": 0,
+  "clv_any": null,
+  "n_clv_any": 0,
+  "goal": 150,
+  "deadline": "2027-01-13"
  },
  "curve": [
   {
@@ -349,19 +365,14 @@
  ],
  "clv_by_week": [
   {
-   "week": 6,
-   "clv": -0.63,
-   "n": 10
-  },
-  {
    "week": 7,
-   "clv": 0.73,
-   "n": 40
+   "clv": 0.06,
+   "n": 25
   },
   {
    "week": 8,
-   "clv": 1.05,
-   "n": 2
+   "clv": -1.3,
+   "n": 1
   }
  ],
  "by_type": [
@@ -372,9 +383,11 @@
    "p": 0,
    "units": 1.31,
    "roi": 5.8,
-   "clv": 0.71,
-   "beat": 65,
-   "n_clv": 37
+   "clv": 0.05,
+   "beat": 63,
+   "n_clv": 19,
+   "clv_any": 0.52,
+   "n_clv_any": 37
   },
   {
    "type": "Receiving yards",
@@ -383,9 +396,11 @@
    "p": 0,
    "units": -3.81,
    "roi": -47.7,
-   "clv": -0.02,
-   "beat": 85,
-   "n_clv": 13
+   "clv": 0.32,
+   "beat": 80,
+   "n_clv": 5,
+   "clv_any": -0.07,
+   "n_clv_any": 13
   },
   {
    "type": "Game lines",
@@ -394,9 +409,11 @@
    "p": 0,
    "units": 1.21,
    "roi": 96.8,
-   "clv": -0.6,
+   "clv": -1.2,
    "beat": 50,
-   "n_clv": 2
+   "n_clv": 2,
+   "clv_any": -1.2,
+   "n_clv_any": 2
   },
   {
    "type": "Rushing yards",
@@ -407,7 +424,9 @@
    "roi": null,
    "clv": null,
    "beat": null,
-   "n_clv": 0
+   "n_clv": 0,
+   "clv_any": null,
+   "n_clv_any": 0
   },
   {
    "type": "Kicking points",
@@ -418,7 +437,9 @@
    "roi": null,
    "clv": null,
    "beat": null,
-   "n_clv": 0
+   "n_clv": 0,
+   "clv_any": null,
+   "n_clv_any": 0
   },
   {
    "type": "Teasers",
@@ -429,7 +450,9 @@
    "roi": null,
    "clv": null,
    "beat": null,
-   "n_clv": 0
+   "n_clv": 0,
+   "clv_any": null,
+   "n_clv_any": 0
   }
  ]
 }

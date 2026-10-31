@@ -45,7 +45,7 @@
         <div class="clv-fill ${cls}" style="left:${left}%;width:${Math.max(width, 1.5)}%"></div>
         <div class="clv-mark" style="left:calc(${a}% - 2px)"></div>
       </div>
-      <div class="clv-label"><span>Closing-line value</span><b>${fmtPts(p.clv)} pts</b></div></div>`;
+      <div class="clv-label"><span>Closing-line value${p.clv_method && p.clv_method !== "exact" ? " (estimated, not in the average)" : p.close_moved === "0" ? " (close unchanged, not in the average)" : ""}</span><b>${fmtPts(p.clv)} pts</b></div></div>`;
   }
 
   function ticket(p) {
@@ -53,6 +53,7 @@
     const tierTag = p.kind === "nba" ? `<span class="tag T">Paper</span>${p.conflict ? '<span class="tag">Conflicts with an earlier bet: not a pick</span>' : ""}${p.retired ? '<span class="tag">Retired v1 rules</span>' : p.rules === "h2h" ? '<span class="tag">Matchup test</span>' : p.v3 ? `<span class="tag A">v3</span>${p.matchup ? `<span class="tag">${{agree: "Matchup agrees", disagree: "Matchup disagrees", none: "No matchup pick"}[p.matchup] || ""}</span>` : ""}` : p.rules === "v2" ? '<span class="tag">v2 rules</span>' : ""}`
       : p.kind === "paper" ? `<span class="tag">Paper</span>${p.system ? `<span class="tag">${esc(p.system)}</span>` : ""}`
       : p.kind === "teaser" ? '<span class="tag T">Teaser</span>'
+      : p.kind === "trial" ? `<span class="tag T">Paper</span><span class="tag">Rules v2 test</span>${p.tier === "A" ? '<span class="tag A">Strong</span>' : ""}`
       : p.tier === "A" ? '<span class="tag A">Strong</span>' : p.tier === "B" ? '<span class="tag">Value</span>' : "";
     const stake = p.stake ? `${+(p.stake / 10).toFixed(2)}u` : "";
     const worst = st === "open" && p.worst ? `<span>Take ${esc(p.worst)} or better</span>` : "";
@@ -62,7 +63,7 @@
     const stub = st === "open"
       ? `<div class="result open">${ICON.open}<span>Open</span></div><div class="stub-line">${untilKick(p.kick, p.kind === "nba")}</div>`
       : `<div class="result ${st}">${ICON[st] || ""}<span>${STATUS[st]}</span></div>
-         <div class="stub-line">${p.actual ? `<b>${esc(p.actual)}</b>` : ""}${p.units != null && p.kind !== "paper" ? ` <span>${fmtU(p.units)}</span>` : ""}</div>`;
+         <div class="stub-line">${p.actual ? `<b>${esc(p.actual)}</b>` : ""}${p.units != null && p.kind !== "paper" ? ` <span>${fmtU(p.units)}${p.kind === "trial" ? " paper" : ""}</span>` : ""}</div>`;
     return `<article class="ticket ${st} ${p.kind}${fresh}" id="pick-${esc(p.id)}">
       <div class="t-body">
         <div class="t-meta">${tierTag}<span>${esc(p.game)}</span><span>${esc(p.kick_label)}</span></div>
@@ -80,13 +81,14 @@
     const wk = weeks.find((w) => w.week === week) || weeks[0] || { week, picks: [], record: { w: 0, l: 0, p: 0 } };
     week = wk.week;
     $("#week-num").textContent = wk.week;
-    $("#week-sub").textContent = wk.dates ? `${wk.dates}${wk.record && (wk.record.w + wk.record.l) ? `, ${rec(wk.record)} this week` : ""}` : "";
+    $("#week-sub").textContent = wk.dates ? `${wk.dates}${wk.record && (wk.record.w + wk.record.l) ? `, ${rec(wk.record)} this week` : wk.paper_record && (wk.paper_record.w + wk.paper_record.l) ? `, ${rec(wk.paper_record)} paper this week` : ""}` : "";
     const s = D.summary.season || {};
-    $("#season-line").innerHTML = (s.w + s.l) ? `Season <b>${rec(s)}</b>, <b>${fmtU(s.units)}</b>${s.beat != null ? `, beat the close on <b>${s.beat}%</b> of bets` : ""}` : "";
+    $("#season-line").innerHTML = (s.w + s.l) ? `Season <b>${rec(s)}</b>, <b>${fmtU(s.units)}</b>${s.clv != null ? `, closing-line value <b>${fmtPts(s.clv)} pts</b> on ${s.n_clv} measurable bets` : ""}` : "";
     $("#week-pills").innerHTML = weeks.map((w) => `<button class="week-pill" role="tab" aria-selected="${w.week === wk.week}" data-week="${w.week}">
-        Week ${w.week}<small>${w.record.w + w.record.l ? rec(w.record) : w.picks.length ? `${w.picks.length} open` : "No picks yet"}</small></button>`).join("");
+        Week ${w.week}<small>${w.record.w + w.record.l ? rec(w.record) : w.paper_record && w.paper_record.w + w.paper_record.l ? `${rec(w.paper_record)} paper` : w.picks.length ? `${w.picks.length} open` : "No picks yet"}</small></button>`).join("");
     const ps = wk.picks.filter((p) => filter === "all" || (filter === "open" ? p.status === "pending" : p.status === filter));
-    const groups = [["Bets", ps.filter((p) => p.kind === "bet")], ["Teasers", ps.filter((p) => p.kind === "teaser")],
+    const groups = [["Bets", ps.filter((p) => p.kind === "bet")],
+      ["Picks: paper while the rules v2 test runs", ps.filter((p) => p.kind === "trial")], ["Teasers", ps.filter((p) => p.kind === "teaser")],
       ["Paper picks (tracked, not counted)", ps.filter((p) => p.kind === "paper")]];
     let html = groups.filter(([, g]) => g.length).map(([t, g]) => `<h2 class="group-title">${t}</h2>${g.map(ticket).join("")}`).join("");
     if (!html) {
@@ -167,9 +169,12 @@
   function renderRecord() {
     const s = D.summary.season || { w: 0, l: 0, p: 0 };
     const items = [[rec(s), "Record (bets and teasers)"], [fmtU(s.units), "Profit in units"], [s.roi == null ? "–" : `${s.roi > 0 ? "+" : ""}${s.roi}%`, "Return on stakes"],
-      [s.clv == null ? "–" : `${fmtPts(s.clv)} pts`, "Average CLV vs Kalshi's close"], [s.beat == null ? "–" : `${s.beat}%`, "Bets that beat Kalshi's close"],
-      [s.h2h && s.h2h.w + s.h2h.l ? `${rec(s.h2h)}, ${fmtU(s.h2h.units)}` : s.h2h && s.h2h.bets ? `${s.h2h.bets} open` : "–", "Matchup test (separate)"],
-      [s.v1 && s.v1.w + s.v1.l ? `${rec(s.v1)}, ${fmtU(s.v1.units)}` : "–", "Retired v1 rules (Oct 20–21)"]];
+      [s.clv == null ? "–" : `${fmtPts(s.clv)} pts`, `Average CLV vs Pinnacle's close (${s.n_clv || 0} bets with an exact closing line that moved)`],
+      [s.beat == null ? "–" : `${s.beat}%`, "Of those, share that beat the close"],
+      [s.clv_any == null ? "–" : `${fmtPts(s.clv_any)} pts`, `CLV over all ${s.n_clv_any || 0} bets incl. estimated or unchanged closes (reference only)`]];
+    const g = D.summary.gate;
+    if (g) items.push([g.w + g.l + (g.p || 0) ? `${rec(g)}, ${fmtU(g.units)}` : "–", "Rules v2 paper test record (from Nov 1)"],
+      [`${g.n_clv || 0} of ${g.goal}`, `Rules v2 test: measurable picks so far${g.clv != null ? `, CLV ${fmtPts(g.clv)} pts` : ""}`]);
     $("#stats").innerHTML = items.map(([v, k]) => `<div class="stat"><div class="v">${v}</div><div class="k">${k}</div></div>`).join("");
     unitsChart(); clvChart();
     const t = D.summary.by_type || [];
@@ -200,7 +205,8 @@
       [sub(s.matchup && s.matchup.agree), "v3.1 picks the matchup test agrees with"],
       [sub(s.matchup && s.matchup.disagree), "v3.1 picks the matchup test disagrees with"],
       [sub(s.v3_capped), "v3 with caps (Oct 26–27)"],
-      [sub(s.v2), "v2 rules (posted Oct 22–25, still tracked)"], [sub(s.h2h), "Matchup test (tracked, not posted)"],
+      [sub(s.v2), "v2 rules (posted Oct 22–25, still tracked)"], [s.h2h && s.h2h.net_lean != null ? `${fmtPts(s.h2h.net_lean)} pts` : "–", `Matchup test: wins above the price actually paid, after Kalshi's fee${s.h2h && s.h2h.net_lo != null ? ` (95% range ${fmtPts(s.h2h.net_lo)} to ${fmtPts(s.h2h.net_hi)})` : ""}`],
+      [sub(s.h2h), `Matchup test record (tracked, not posted)${s.h2h && s.h2h.lean_vs_mid != null ? `; ${fmtPts(s.h2h.lean_vs_mid)} pts vs Kalshi's midpoint, before spread and fee` : ""}`],
       [sub(s.v1), "Retired v1 rules (Oct 20–21)"]];
     $("#nba-stats").innerHTML = items.map(([val, k]) => `<div class="stat"><div class="v">${val}</div><div class="k">${k}</div></div>`).join("");
     const cur = nights.find((x) => x.night === night) || nights[0];
