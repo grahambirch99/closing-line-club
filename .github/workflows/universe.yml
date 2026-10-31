@@ -16,6 +16,9 @@ on:
         type: choice
         options: [run, report]
         default: run
+      budget:
+        description: "Minutes this run may wait for pulls before chaining a fresh run"
+        default: "320"
 
 concurrency:
   group: universe
@@ -59,7 +62,7 @@ jobs:
       - name: Log
         id: log
         if: inputs.task != 'report'
-        run: python p/universe.py run --budget 320 | tee run.log; echo "again=$(sed -n 's/^again=//p' run.log | tail -1)" >> "$GITHUB_OUTPUT"
+        run: python p/universe.py run --budget "${{ inputs.budget || '320' }}" | tee run.log; echo "again=$(sed -n 's/^again=//p' run.log | tail -1)" >> "$GITHUB_OUTPUT"
       - name: Save universe cache
         if: always()
         uses: actions/cache/save@v4
