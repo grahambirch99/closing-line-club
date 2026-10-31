@@ -5,6 +5,9 @@ name: universe
 # Each run sleeps (free in a public repo) until the next planned pull (entry 3 h before each sport's first start, a
 # close 12 min before each cluster of starts), pulls (3 credits per sport), and chains a fresh run before its time
 # limit. The crons only (re)start the chain. Raw odds stay in a GitHub Actions cache. Monthly cap 2,000 credits.
+# College football PAPER picks (no Big Ten/SEC teams, research/cfb_v1_PREREG.md) come from the same pulls: an extra pick
+# pull 75 min before each start cluster. Picks go to data/cfb/paper.csv (committed within 5 min, so each is timestamped
+# before kickoff) and the site rebuilds; graded from scores. Only that derived file is committed, never raw odds.
 on:
   schedule:
     - cron: "10 13 * * *"   # ~6 AM PT
@@ -25,7 +28,7 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: read
+  contents: write
   actions: write
 
 jobs:
@@ -39,6 +42,7 @@ jobs:
       UNIVERSE_MONTHLY_CAP: "2000"
       GH_TOKEN: ${{ github.token }}
     steps:
+      - uses: actions/checkout@v5
       - uses: actions/checkout@v5
         with:
           repository: grahambirch99/nfl-odds-logger
@@ -54,15 +58,42 @@ jobs:
           path: universe-cache
           key: uni-db-${{ github.run_id }}
           restore-keys: uni-db-
-      - name: Scores (at most once per 20 h)
-        run: python p/universe.py scores || true
+      - name: Scores (at most once per 20 h) + grade college football paper picks
+        run: |
+          python p/universe.py scores || true
+          git config user.name  "closing-line-club"
+          git config user.email "closing-line-club@users.noreply.github.com"
+          git add data/cfb 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -qm "cfb paper graded $(date -u +%Y-%m-%dT%H:%MZ)"
+            for i in 1 2 3 4 5; do git pull -q --rebase -X theirs && git push -q && break; sleep $((i*5)); done
+            gh api -X POST "repos/${{ github.repository }}/actions/workflows/site.yml/dispatches" -f ref=main || true
+          fi
       - name: Report
         if: inputs.task == 'report'
         run: python p/universe.py report
       - name: Log
         id: log
         if: inputs.task != 'report'
-        run: python p/universe.py run --budget "${{ inputs.budget || '320' }}" | tee run.log; echo "again=$(sed -n 's/^again=//p' run.log | tail -1)" >> "$GITHUB_OUTPUT"
+        run: |
+          # commit new college football paper picks within 5 minutes, then rebuild the site (picks show after its 20-min delay)
+          ( while sleep 300; do
+              git add data/cfb 2>/dev/null || true
+              if ! git diff --cached --quiet; then
+                git commit -qm "cfb paper picks $(date -u +%Y-%m-%dT%H:%MZ)"
+                for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && break; sleep $((i*5)); done
+                gh api -X POST "repos/${{ github.repository }}/actions/workflows/site.yml/dispatches" -f ref=main > /dev/null 2>&1 || true
+              fi
+            done ) &
+          python p/universe.py run --budget "${{ inputs.budget || '320' }}" | tee run.log
+          echo "again=$(sed -n 's/^again=//p' run.log | tail -1)" >> "$GITHUB_OUTPUT"
+          python p/universe.py scores || true      # CLV for games that kicked off during this run
+          git add data/cfb 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -qm "cfb paper $(date -u +%Y-%m-%dT%H:%MZ)"
+            for i in 1 2 3 4 5; do git pull -q --rebase -X theirs && git push -q && break; sleep $((i*5)); done
+            gh api -X POST "repos/${{ github.repository }}/actions/workflows/site.yml/dispatches" -f ref=main || true
+          fi
       - name: Save universe cache
         if: always()
         uses: actions/cache/save@v4
