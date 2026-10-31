@@ -1,0 +1,71 @@
+name: universe
+
+# Passive universe logger for new markets (research/universe_PREREG.md in the private repo): NHL, NCAAB and NCAAF
+# game lines at Pinnacle, Novig, ProphetX and Kalshi. No picks, nothing posted, nothing committed.
+# Each run sleeps (free in a public repo) until the next planned pull (entry 3 h before each sport's first start, a
+# close 12 min before each cluster of starts), pulls (3 credits per sport), and chains a fresh run before its time
+# limit. The crons only (re)start the chain. Raw odds stay in a GitHub Actions cache. Monthly cap 2,000 credits.
+on:
+  schedule:
+    - cron: "10 13 * * *"   # ~6 AM PT
+    - cron: "40 20 * * *"   # ~1:40 PM PT
+  workflow_dispatch:
+    inputs:
+      task:
+        description: "run = logger chain; report = write the report to the run summary"
+        type: choice
+        options: [run, report]
+        default: run
+
+concurrency:
+  group: universe
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  actions: write
+
+jobs:
+  log:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 355
+    env:
+      ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+      UNIVERSE_DB: universe-cache/universe.db
+      MIN_CREDITS_RESERVE: "2500"
+      UNIVERSE_MONTHLY_CAP: "2000"
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          repository: grahambirch99/nfl-odds-logger
+          token: ${{ secrets.PRIVATE_REPO_TOKEN }}
+          path: p
+          fetch-depth: 1
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Restore universe cache
+        uses: actions/cache/restore@v4
+        with:
+          path: universe-cache
+          key: uni-db-${{ github.run_id }}
+          restore-keys: uni-db-
+      - name: Scores (at most once per 20 h)
+        run: python p/universe.py scores || true
+      - name: Report
+        if: inputs.task == 'report'
+        run: python p/universe.py report
+      - name: Log
+        id: log
+        if: inputs.task != 'report'
+        run: python p/universe.py run --budget 320 | tee run.log; echo "again=$(sed -n 's/^again=//p' run.log | tail -1)" >> "$GITHUB_OUTPUT"
+      - name: Save universe cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: universe-cache
+          key: uni-db-${{ github.run_id }}
+      - name: Continue the chain
+        if: always() && steps.log.outputs.again == '1'
+        run: gh api -X POST "repos/${{ github.repository }}/actions/workflows/universe.yml/dispatches" -f ref=main
