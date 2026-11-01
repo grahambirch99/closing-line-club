@@ -10,7 +10,7 @@
   "n_clv": 0,
   "clv_any": 3.67,
   "n_clv_any": 78,
-  "bets": 80,
+  "bets": 81,
   "goal": 400,
   "graded": 78,
   "lean": -0.8,
@@ -68,7 +68,7 @@
     "n_clv": 0,
     "clv_any": 3.41,
     "n_clv_any": 49,
-    "bets": 50
+    "bets": 51
    }
   },
   "v2": {
@@ -82,7 +82,7 @@
    "n_clv": 0,
    "clv_any": 2.75,
    "n_clv_any": 409,
-   "bets": 419
+   "bets": 423
   },
   "v1": {
    "w": 17,
@@ -205,6 +205,39 @@
      "matchup": "none",
      "stake_v3": 5.0,
      "cost": 0.3323
+    },
+    {
+     "id": "nba-ef6dd82b1e",
+     "night": "2026-11-01",
+     "kind": "nba",
+     "tier": "B",
+     "market": "player_points",
+     "title": "Jarace Walker",
+     "bet": "Under 10.5 points",
+     "game": "Nets at Pacers",
+     "kick": "2026-11-01T22:10:00Z",
+     "kick_label": "Sun 2:10 PM PT",
+     "venue": "Novig",
+     "price": "+102",
+     "stake": 5.0,
+     "implied": 49.5,
+     "fair": 51.1,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 53% chance; Novig at +102 breaks even at 50% after fees, a 3.9-point gap, 60 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-01T21:10:08Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "none",
+     "stake_v3": 5.0,
+     "cost": 0.495
     }
    ]
   },
