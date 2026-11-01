@@ -105,3 +105,5 @@
 {"kind": "injury", "team": "", "player": "Breece Hall", "pos": "", "source": "rotoworld-fb", "text": "Breece Hall (quad) officially inactive vs. Raiders", "at": "2026-11-01T17:21:41.146272+00:00"}
 {"kind": "injury", "team": "", "player": "Jake Ferguson", "pos": "", "source": "rotoworld-fb", "text": "Jake Ferguson (ankle) questionable to return", "at": "2026-11-01T18:35:18.073453+00:00"}
 {"kind": "qb", "team": "BAL", "player": "Lamar Jackson", "pos": "QB", "strong": false, "source": "rotoworld-fb", "text": "Lamar Jackson (thumb) questionable to return vs. Bills", "at": "2026-11-01T18:35:18.073453+00:00"}
+{"kind": "qb", "source": "sleeper", "team": "BAL", "player": "Lamar Jackson", "pos": "QB", "text": "Lamar Jackson (BAL QB) status questionable -> out [Thumb]", "at": "2026-11-01T18:50:49.918282+00:00"}
+{"kind": "injury", "team": "", "player": "Tyler Huntley", "pos": "", "source": "rapsheet", "text": "Ravens undrafted QB Joe Fagnano is now in the game. He was the emergency No. 3 QB \u2014 the first one to be used all season. Baltimore QB Tyler Huntley is questionable with a toe injury.", "at": "2026-11-01T19:12:13.286459+00:00"}
