@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-01T20:01:34.273649+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "Jake Ferguson (DAL TE) status questionable -> out [Ankle]"
+  },
+  {
    "at": "2026-11-01T19:12:35.529066+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Emeka Egbuka (foot) will not play vs. Falcons"
-  },
-  {
-   "at": "2026-10-30T01:25:48.502248+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Christian Watson (chest) questionable to return"
   }
  ]
 }
