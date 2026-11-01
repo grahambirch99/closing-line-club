@@ -103,3 +103,5 @@
 {"kind": "injury", "team": "", "player": "Jakobi Meyers", "pos": "", "source": "rapsheet", "text": "Jaguars WR Jakobi Meyers, questionable with hamstring and ankle injuries, is good to go today, per source.", "at": "2026-11-01T17:21:41.146272+00:00"}
 {"kind": "injury", "team": "", "player": "Calvin Ridley", "pos": "", "source": "rapsheet", "text": "Titans WR Calvin Ridley (hip) is listed as questionable and and expected to play, source said.", "at": "2026-11-01T17:21:41.146272+00:00"}
 {"kind": "injury", "team": "", "player": "Breece Hall", "pos": "", "source": "rotoworld-fb", "text": "Breece Hall (quad) officially inactive vs. Raiders", "at": "2026-11-01T17:21:41.146272+00:00"}
+{"kind": "injury", "team": "", "player": "Jake Ferguson", "pos": "", "source": "rotoworld-fb", "text": "Jake Ferguson (ankle) questionable to return", "at": "2026-11-01T18:35:18.073453+00:00"}
+{"kind": "qb", "team": "BAL", "player": "Lamar Jackson", "pos": "QB", "strong": false, "source": "rotoworld-fb", "text": "Lamar Jackson (thumb) questionable to return vs. Bills", "at": "2026-11-01T18:35:18.073453+00:00"}
