@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T22:00:28Z",
+ "generated_at": "2026-11-01T15:26:13Z",
  "current_week": 8,
  "weeks": [
   {
@@ -1010,6 +1010,35 @@
      "units": null,
      "posted": "2026-10-30T18:54:10Z",
      "system": "Mid-week props model"
+    },
+    {
+     "id": "2026-W08-0077",
+     "week": 8,
+     "kind": "trial",
+     "tier": "A",
+     "market": "player_receptions",
+     "title": "Efton Chism III",
+     "bet": "Under 1.5 receptions",
+     "game": "Patriots at Dolphins",
+     "kick": "2026-11-01T21:25:00Z",
+     "kick_label": "Sun 1:25 PM PT",
+     "venue": "Novig",
+     "price": "+223",
+     "stake": 5.0,
+     "implied": 31.0,
+     "fair": 33.2,
+     "edge": 7.4,
+     "worst": "+210",
+     "analysis": "Novig at +223 beats Pinnacle's no-vig price (33% to hit), a +7.4% edge right after news broke (TreVeyon Henderson (New England Patriots RB) questionable ->).",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-01T12:41:10Z",
+     "rules": "nfl-v2-paper",
+     "clv_method": "",
+     "close_moved": "",
+     "clv_ok": false
     },
     {
      "id": "2026-W08-0059",
