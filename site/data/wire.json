@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "at": "2026-11-01T18:35:18.073453+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Jake Ferguson (ankle) questionable to return"
+  },
+  {
+   "at": "2026-11-01T18:35:18.073453+00:00",
+   "kind": "qb",
+   "source": "rotoworld-fb",
+   "text": "Lamar Jackson (thumb) questionable to return vs. Bills"
+  },
+  {
    "at": "2026-11-01T17:21:41.146272+00:00",
    "kind": "injury",
    "source": "sleeper",
@@ -167,18 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "DJ Moore limited again in Thursday's practice"
-  },
-  {
-   "at": "2026-10-29T20:23:20.184766+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "TreVeyon Henderson (illness) DNP, added to report"
-  },
-  {
-   "at": "2026-10-29T20:14:11.532648+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Tyler Warren (groin) limited again Thursday"
   }
  ]
 }
