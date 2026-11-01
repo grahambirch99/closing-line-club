@@ -110,3 +110,5 @@
 {"kind": "injury", "team": "", "player": "Jeremiyah Love", "pos": "", "source": "rotoworld-fb", "text": "Jeremiyah Love (ankle) questionable to return", "at": "2026-11-01T19:12:35.529066+00:00"}
 {"kind": "injury", "source": "sleeper", "team": "DAL", "player": "Jake Ferguson", "pos": "TE", "text": "Jake Ferguson (DAL TE) status questionable -> out [Ankle]", "at": "2026-11-01T20:01:34.273649+00:00"}
 {"kind": "injury", "source": "sleeper", "team": "ARI", "player": "Jeremiyah Love", "pos": "RB", "text": "Jeremiyah Love (ARI RB) status questionable -> out [Ankle]", "at": "2026-11-01T21:21:53.869955+00:00"}
+{"kind": "qb", "team": "BAL", "player": "Lamar Jackson", "pos": "QB", "strong": true, "source": "rapsheet", "text": "Ravens QB Lamar Jackson will have surgery on his thumb and will go on Injured Reserve, per coach Jesse Minter. \u201cWe\u2019ll see\u201d if it\u2019s season ending.", "at": "2026-11-01T21:43:33.806529+00:00"}
+{"kind": "injury", "team": "", "player": "Lamar Jackson", "pos": "", "source": "rotoworld-fb", "text": "Lamar Jackson (thumb) to have surgery, headed to IR", "at": "2026-11-01T21:43:33.806529+00:00"}
