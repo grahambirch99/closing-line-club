@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "at": "2026-11-01T17:21:41.146272+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "Breece Hall (NYJ RB) status questionable -> out [Quadriceps]"
+  },
+  {
+   "at": "2026-11-01T17:21:41.146272+00:00",
+   "kind": "injury",
+   "source": "rapsheet",
+   "text": "Jaguars WR Jakobi Meyers, questionable with hamstring and ankle injuries, is good to go today, per source."
+  },
+  {
+   "at": "2026-11-01T17:21:41.146272+00:00",
+   "kind": "injury",
+   "source": "rapsheet",
+   "text": "Titans WR Calvin Ridley (hip) is listed as questionable and and expected to play, source said."
+  },
+  {
+   "at": "2026-11-01T17:21:41.146272+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Breece Hall (quad) officially inactive vs. Raiders"
+  },
+  {
    "at": "2026-10-31T21:03:42.835387+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -155,30 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Tyler Warren (groin) limited again Thursday"
-  },
-  {
-   "at": "2026-10-29T18:45:19.802548+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "A.J. Brown (knee) absent THU after limited WED"
-  },
-  {
-   "at": "2026-10-29T00:21:17.744882+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Tyler Allgeier (toe) DNP Wednesday"
-  },
-  {
-   "at": "2026-10-28T23:22:45.556084+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "DeVonta Smith, Dontayvion Wicks DNP Wednesday"
-  },
-  {
-   "at": "2026-10-28T23:19:42.756208+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Saquon Barkley (hamstring/back) DNP Wednesday"
   }
  ]
 }
