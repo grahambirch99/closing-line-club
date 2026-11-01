@@ -108,3 +108,4 @@
 {"kind": "qb", "source": "sleeper", "team": "BAL", "player": "Lamar Jackson", "pos": "QB", "text": "Lamar Jackson (BAL QB) status questionable -> out [Thumb]", "at": "2026-11-01T18:50:49.918282+00:00"}
 {"kind": "injury", "team": "", "player": "Tyler Huntley", "pos": "", "source": "rapsheet", "text": "Ravens undrafted QB Joe Fagnano is now in the game. He was the emergency No. 3 QB \u2014 the first one to be used all season. Baltimore QB Tyler Huntley is questionable with a toe injury.", "at": "2026-11-01T19:12:13.286459+00:00"}
 {"kind": "injury", "team": "", "player": "Jeremiyah Love", "pos": "", "source": "rotoworld-fb", "text": "Jeremiyah Love (ankle) questionable to return", "at": "2026-11-01T19:12:35.529066+00:00"}
+{"kind": "injury", "source": "sleeper", "team": "DAL", "player": "Jake Ferguson", "pos": "TE", "text": "Jake Ferguson (DAL TE) status questionable -> out [Ankle]", "at": "2026-11-01T20:01:34.273649+00:00"}
