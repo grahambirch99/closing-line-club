@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T17:49:12Z",
+ "generated_at": "2026-11-01T19:35:26Z",
  "current_week": 8,
  "weeks": [
   {
@@ -928,7 +928,7 @@
      "clv": null,
      "units": null,
      "posted": "2026-11-01T16:41:10Z",
-     "rules": "",
+     "rules": "teaser-v1",
      "clv_method": "",
      "close_moved": "",
      "clv_ok": false
