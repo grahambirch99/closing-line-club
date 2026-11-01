@@ -10,7 +10,7 @@
   "n_clv": 0,
   "clv_any": 3.67,
   "n_clv_any": 78,
-  "bets": 79,
+  "bets": 80,
   "goal": 400,
   "graded": 78,
   "lean": -0.8,
@@ -68,7 +68,7 @@
     "n_clv": 0,
     "clv_any": 3.41,
     "n_clv_any": 49,
-    "bets": 49
+    "bets": 50
    }
   },
   "v2": {
@@ -82,7 +82,7 @@
    "n_clv": 0,
    "clv_any": 2.75,
    "n_clv_any": 409,
-   "bets": 415
+   "bets": 419
   },
   "v1": {
    "w": 17,
@@ -108,7 +108,7 @@
    "n_clv": 0,
    "clv_any": -2.81,
    "n_clv_any": 1060,
-   "bets": 1086,
+   "bets": 1110,
    "net_lean": -0.4,
    "net_lo": -3.9,
    "net_hi": 3.3,
@@ -157,6 +157,57 @@
   }
  ],
  "nights": [
+  {
+   "night": "2026-11-01",
+   "label": "Sun Nov 1",
+   "record": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "units": 0,
+    "roi": null,
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": null,
+    "n_clv_any": 0
+   },
+   "picks": [
+    {
+     "id": "nba-9aa7c84104",
+     "night": "2026-11-01",
+     "kind": "nba",
+     "tier": "A",
+     "market": "player_points",
+     "title": "Paul George",
+     "bet": "Under 14.5 points",
+     "game": "Celtics at Magic",
+     "kick": "2026-11-01T20:40:00Z",
+     "kick_label": "Sun 12:40 PM PT",
+     "venue": "ProphetX",
+     "price": "+205",
+     "stake": 5.0,
+     "implied": 32.8,
+     "fair": 36.5,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 36% chance; ProphetX at +205 breaks even at 33% after fees, a 3.3-point gap, 60 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-01T19:40:01Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "none",
+     "stake_v3": 5.0,
+     "cost": 0.3323
+    }
+   ]
+  },
   {
    "night": "2026-10-31",
    "label": "Sat Oct 31",
