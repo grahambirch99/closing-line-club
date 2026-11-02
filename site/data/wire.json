@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "at": "2026-11-02T20:58:39.173787+00:00",
+   "kind": "injury",
+   "source": "rapsheet",
+   "text": "Vikings coach Kevin O'Connell said QB Kyler Murray is dealing with a sore hamstring, and he'll have a full evaluation. Murray seemed limited at the end of Sunday's game."
+  },
+  {
+   "at": "2026-11-02T20:58:39.173787+00:00",
+   "kind": "qb",
+   "source": "rotoworld-fb",
+   "text": "Daniel Jones will start in Week 9 against Cowboys"
+  },
+  {
    "at": "2026-11-02T00:20:30.609626+00:00",
    "kind": "injury",
    "source": "sleeper",
@@ -167,18 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Glenn: Breece Hall (quad) questionable for Week 8"
-  },
-  {
-   "at": "2026-10-30T17:51:18.701660+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "DJ Moore (shoulder) to be questionable for Week 8"
-  },
-  {
-   "at": "2026-10-30T17:51:18.701660+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Brady: Dalton Kincaid questionable for Week 8"
   }
  ]
 }
