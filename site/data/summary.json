@@ -1,27 +1,27 @@
 {
  "season": {
   "w": 24,
-  "l": 35,
+  "l": 36,
   "p": 0,
-  "units": -1.87,
-  "roi": -5.6,
-  "clv": -0.24,
-  "beat": 63,
-  "n_clv": 27,
+  "units": -2.37,
+  "roi": -7.0,
+  "clv": -0.22,
+  "beat": 64,
+  "n_clv": 28,
   "clv_any": 0.18,
-  "n_clv_any": 53
+  "n_clv_any": 54
  },
  "gate": {
-  "w": 2,
-  "l": 1,
+  "w": 6,
+  "l": 4,
   "p": 0,
-  "units": 0.72,
-  "roi": 32.0,
-  "clv": -1.65,
-  "beat": 50,
-  "n_clv": 2,
-  "clv_any": -0.4,
-  "n_clv_any": 3,
+  "units": 1.48,
+  "roi": 22.7,
+  "clv": -0.42,
+  "beat": 60,
+  "n_clv": 5,
+  "clv_any": -0.15,
+  "n_clv_any": 10,
   "goal": 150,
   "deadline": "2027-01-13"
  },
@@ -405,6 +405,12 @@
    "week": 8,
    "label": "Two-team teaser: Falcons +1.5 to +7.5 and Raiders +1.5 to +7.5",
    "units": -1.87
+  },
+  {
+   "id": "2026-W08-0059",
+   "week": 8,
+   "label": "Dolphins: moneyline",
+   "units": -2.37
   }
  ],
  "clv_by_week": [
@@ -415,8 +421,8 @@
   },
   {
    "week": 8,
-   "clv": -2.77,
-   "n": 4
+   "clv": -1.21,
+   "n": 8
   }
  ],
  "by_type": [
@@ -449,15 +455,15 @@
   {
    "type": "Game lines",
    "w": 1,
-   "l": 2,
+   "l": 3,
    "p": 0,
-   "units": 0.71,
-   "roi": 40.6,
-   "clv": -2.97,
-   "beat": 33,
-   "n_clv": 3,
-   "clv_any": -2.97,
-   "n_clv_any": 3
+   "units": 0.21,
+   "roi": 9.3,
+   "clv": -2.17,
+   "beat": 50,
+   "n_clv": 4,
+   "clv_any": -2.17,
+   "n_clv_any": 4
   },
   {
    "type": "Teasers",
