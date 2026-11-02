@@ -78,6 +78,7 @@
     const h = (t * sd) / Math.sqrt(n);
     return { n, mean: m, lo: m - h, hi: m + h };
   }
+  const state0 = {};
   const nflPicks = (D.picks.weeks || []).flatMap((w) => w.picks || []);
   // Every tracked pick counts in the record (Graham, Nov 2). Picks from a strategy that was on real money when posted carry p.live.
   const COUNTED = ["bet", "teaser", "trial", "paper", "cfb"];
@@ -90,6 +91,50 @@
     return ci;
   }
   const seasonCI = clvCI(COUNTED, D.summary.season && D.summary.season.clv);
+
+  /* ---------- "Hide retired strategies" view ----------
+     Recomputes the record without picks from strategies whose current status is retired. The recompute mirrors
+     site_build.summarize(); the toggle is only offered when that recompute reproduces every published number
+     (season, each strategy row and each weekly CLV bar), so the filtered view can't drift from the official one. */
+  const retiredIds = new Set(STRATS.filter((x) => x.status === "retired").map((x) => x.id));
+  const isRetiredPick = (p) => retiredIds.has(p.strategy);
+  const r1 = (v, d) => Math.round(v * 10 ** d) / 10 ** d;
+  function summ(ps) {
+    const c = ps.filter((p) => COUNTED.includes(p.kind) && isGraded(p));
+    const w = c.filter((p) => p.status === "W").length, l = c.filter((p) => p.status === "L").length, pu = c.filter((p) => p.status === "P").length;
+    const units = c.reduce((a, p) => a + (p.units || 0), 0);
+    const risked = c.filter((p) => p.units != null).reduce((a, p) => a + (p.stake || 5) / 10, 0);
+    const clvs = c.filter((p) => p.clv_ok).map((p) => p.clv), anyc = c.filter((p) => p.clv != null).map((p) => p.clv);
+    return { w, l, p: pu, units: r1(units, 2), roi: risked ? r1((units / risked) * 100, 1) : null,
+      clv: clvs.length ? r1(clvs.reduce((a, b) => a + b, 0) / clvs.length, 2) : null,
+      beat: clvs.length ? Math.round((100 * clvs.filter((x) => x > 0).length) / clvs.length) : null, n_clv: clvs.length,
+      clv_any: anyc.length ? r1(anyc.reduce((a, b) => a + b, 0) / anyc.length, 2) : null, n_clv_any: anyc.length };
+  }
+  const near = (a, b, tol) => (a == null && b == null) || (isNum(a) && isNum(b) && Math.abs(a - b) <= tol);
+  const sameRec = (a, b) => !!a && !!b && a.w === b.w && a.l === b.l && (a.p || 0) === (b.p || 0) && near(a.units, b.units, 0.011)
+    && near(a.roi, b.roi, 0.11) && near(a.clv, b.clv, 0.011) && near(a.beat, b.beat, 1) && (a.n_clv || 0) === (b.n_clv || 0);
+  const canHideRetired = (() => {
+    const S = D.summary;
+    if (!retiredIds.size || !S.season || !nflPicks.some(isRetiredPick)) return false;
+    if (!sameRec(summ(nflPicks), S.season)) return false;
+    if ((S.by_type || []).some((r) => r.id && !sameRec(summ(nflPicks.filter((p) => p.strategy === r.id)), r))) return false;
+    if ((S.clv_by_week || []).some((wk) => { const x = summ(nflPicks.filter((p) => p.week === wk.week)); return !near(x.clv, wk.clv, 0.011) || x.n_clv !== wk.n; })) return false;
+    return true;
+  })();
+  if (retiredIds.size && !canHideRetired) console.warn("Retired filter disabled: recompute did not match the published record.");
+  state0.hideRetired = false;
+  const viewPicks = () => (state0.hideRetired ? nflPicks.filter((p) => !isRetiredPick(p)) : nflPicks);
+  function viewSeason() {
+    if (!state0.hideRetired) return { s: D.summary.season, ci: seasonCI };
+    const ps = viewPicks(), s = summ(ps);
+    return { s, ci: meanCI(ps.filter((p) => COUNTED.includes(p.kind) && isGraded(p) && p.clv_ok && isNum(p.clv)).map((p) => p.clv)) };
+  }
+  function retiredNote() {
+    const names = STRATS.filter((x) => x.status === "retired" && nflPicks.some((p) => p.strategy === x.id));
+    const parts = names.map((x) => { const r = summ(nflPicks.filter((p) => p.strategy === x.id)); return `${esc(x.name)} (${graded(r)} graded, ${rec(r)}, ${fmtU(r.units)})`; });
+    const full = D.summary.season;
+    return `Retired strategies hidden: ${parts.join("; ")}. The full record is <b>${rec(full)}, ${fmtU(full.units)}</b> on ${graded(full)} graded picks. <button type="button" class="linkish" data-retired-toggle>Show everything</button>`;
+  }
   function clvSentence(s, ci) {
     if (!s || !s.n_clv) return "No pick has a measurable closing line yet.";
     let out = `Average closing-line value is <b>${fmtPts(s.clv, 2)} pts</b> on ${s.n_clv} measurable pick${s.n_clv === 1 ? "" : "s"}`;
@@ -331,10 +376,13 @@
     const s = D.summary.season;
     if (!s) { $("#board-figures").innerHTML = '<div class="figure">No graded picks yet.</div>'; return; }
     $("#board-figures").className = "figures six";
-    $("#board-figures").innerHTML = seasonFigures(s, seasonCI);
+    const v = viewSeason();
+    $("#board-figures").innerHTML = seasonFigures(v.s, v.ci);
+    $("#board-retired-note").hidden = !state0.hideRetired;
+    if (state0.hideRetired) $("#board-retired-note").innerHTML = retiredNote();
     const rm = D.summary.real_money;
     $("#perf-note").innerHTML = `Every tracked NFL and college pick, real money and paper. NBA has its own page.${rm && graded(rm) ? ` Real-money picks alone: <b>${rec(rm)}, ${fmtU(rm.units)}</b>.` : ""} <a href="#record">Full record and charts</a>`;
-    $("#board-verdict").innerHTML = clvSentence(s, seasonCI);
+    $("#board-verdict").innerHTML = clvSentence(v.s, v.ci);
   }
 
   /* ================= RECORD ================= */
@@ -352,7 +400,14 @@
   }
 
   function unitsChart() {
-    const fig = $("#units-chart"), c = D.summary.curve || [];
+    const fig = $("#units-chart");
+    let c = D.summary.curve || [];
+    if (state0.hideRetired) {
+      const byId = new Map(nflPicks.map((p) => [p.id, p]));
+      let run = 0;
+      c = c.filter((d) => { const p = byId.get(d.id); return p && !isRetiredPick(p); })
+        .map((d) => { run += byId.get(d.id).units || 0; return { ...d, units: r1(run, 2) }; });
+    }
     if (c.length < 2) { fig.innerHTML = '<p class="chart-empty">The chart starts after two graded picks.</p>'; return; }
     const W = 760, H = 260, P = { l: 52, r: 16, t: 14, b: 30 };
     const ys = c.map((d) => d.units).concat(0);
@@ -393,7 +448,9 @@
   }
 
   function clvChart() {
-    const fig = $("#clv-chart"), c = D.summary.clv_by_week || [];
+    const fig = $("#clv-chart");
+    let c = D.summary.clv_by_week || [];
+    if (state0.hideRetired) c = c.map((wk) => { const x = summ(viewPicks().filter((p) => p.week === wk.week)); return { week: wk.week, clv: x.clv, n: x.n_clv }; }).filter((wk) => wk.clv != null);
     if (!c.length) { fig.innerHTML = '<p class="chart-empty">Shows up once closing prices are graded.</p>'; return; }
     const W = 520, H = 250, P = { l: 44, r: 12, t: 22, b: 40 };
     const m = Math.max(2, ...c.map((d) => Math.abs(d.clv))) * 1.2;
@@ -454,12 +511,16 @@
     const S = D.summary, s = S.season || {};
     $("#record-meta").innerHTML = `<div><dt>Season</dt><dd>2026 NFL</dd></div><div><dt>Graded picks</dt><dd>${graded(s)}</dd></div>${D.picks.generated_at ? `<div><dt>Picks last changed</dt><dd>${esc(when(D.picks.generated_at))}</dd></div>` : ""}`;
     $("#record-figures").className = "figures six";
-    $("#record-figures").innerHTML = S.season ? seasonFigures(s, seasonCI) : figure("Graded picks", "0", "No graded picks yet");
-    $("#record-verdict").innerHTML = S.season ? clvSentence(s, seasonCI) : "";
+    const v = viewSeason();
+    $("#record-figures").innerHTML = S.season ? seasonFigures(v.s, v.ci) : figure("Graded picks", "0", "No graded picks yet");
+    $("#record-verdict").innerHTML = S.season ? clvSentence(v.s, v.ci) : "";
+    $("#record-retired-note").hidden = !state0.hideRetired;
+    if (state0.hideRetired) $("#record-retired-note").innerHTML = retiredNote();
     unitsChart();
     clvChart();
-    const t = S.by_type || [];
-    $("#type-table").innerHTML = statHead("Type") + `<tbody>${t.length ? t.map((r) => statRow(esc(r.type), r)).join("") + (S.season ? statRow("All tracked picks", s).replace("<tr>", '<tr class="total">') : "") : '<tr><td colspan="7">No graded picks yet.</td></tr>'}</tbody>`;
+    const t = (S.by_type || []).filter((r) => !(state0.hideRetired && retiredIds.has(r.id)));
+    const chipFor = (r) => { const st = STRATS.find((x) => x.id === r.id); return st && st.status !== "paper" ? ` ${CHIP[st.status] || ""}` : ""; };
+    $("#type-table").innerHTML = statHead("Strategy") + `<tbody>${t.length ? t.map((r) => statRow(esc(r.type), r, chipFor(r))).join("") + (S.season ? statRow(state0.hideRetired ? "All except retired" : "All tracked picks", v.s).replace("<tr>", '<tr class="total">') : "") : '<tr><td colspan="7">No graded picks yet.</td></tr>'}</tbody>`;
 
     // paper tests
     const N = D.nba.summary;
@@ -595,13 +656,37 @@
   }
 
   /* ================= VENUES & DISCORD ================= */
-  function renderVenues() {
+  function renderOffers() {
     const apps = (CFG.apps || []).filter((a) => a.url || a.code);
     if (!apps.length) return;
-    $("#apps").hidden = false;
-    $("#app-table").innerHTML = `<thead><tr><th scope="col">Venue</th><th scope="col">Type</th><th scope="col">Sign-up offer</th><th scope="col"><span class="sr">Code and link</span></th></tr></thead><tbody>` +
-      apps.map((a) => `<tr><td class="name">${esc(a.name)}</td><td class="type">${esc(a.what || "")}</td><td class="offer">${a.offer ? esc(a.offer) : '<span class="muted">No current offer listed</span>'}</td>
-        <td class="actions" style="white-space:nowrap">${a.code ? `<button type="button" class="code" data-code="${esc(a.code)}" aria-label="Copy referral code ${esc(a.code)}">Code ${esc(a.code)}</button>` : ""} ${a.url ? `<a href="${esc(a.url)}" target="_blank" rel="noopener sponsored">Sign up<span class="sr"> for ${esc(a.name)} (referral link, opens in a new tab)</span></a>` : ""}</td></tr>`).join("") + "</tbody>";
+    // Which apps this week's prices came from (venue names in the picks), so the most useful sign-ups come first.
+    const wk = weeks.find((w) => w.week === D.picks.current_week) || weeks[0] || { picks: [] };
+    const key = (x) => String(x || "").toLowerCase().split(/[\s(]/)[0];
+    const used = {};
+    (wk.picks || []).forEach((p) => { const k = key(p.venue); used[k] = (used[k] || 0) + 1; });
+    const ranked = apps.map((a, i) => ({ a, i, n: used[key(a.name)] || 0 }))
+      .sort((x, y) => (y.n > 0) - (x.n > 0) || y.n - x.n || (!!y.a.offer - !!x.a.offer) || x.i - y.i);
+    const SHOW = 4;
+    $("#offers").hidden = false;
+    $("#offer-grid").innerHTML = ranked.map(({ a, n }, i) => `<article class="offer${i >= SHOW ? " extra" : ""}">
+        <div class="offer-top"><h3 class="offer-name">${esc(a.name)}</h3><span class="offer-type">${esc(a.what || "")}</span></div>
+        <p class="offer-text${a.offer ? "" : " muted"}">${a.offer ? esc(a.offer) : "See the app for the current sign-up offer."}</p>
+        ${n ? `<p class="offer-used">Used for ${n} pick${n === 1 ? "" : "s"} in Week ${esc(wk.week)}</p>` : ""}
+        <div class="offer-actions">
+          ${a.url ? `<a class="btn offer-go" href="${esc(a.url)}" target="_blank" rel="noopener sponsored">Sign up<span class="sr"> for ${esc(a.name)} (referral link, opens in a new tab)</span></a>` : ""}
+          ${a.code ? `<button type="button" class="code" data-code="${esc(a.code)}" aria-label="Copy referral code ${esc(a.code)}">Code <b>${esc(a.code)}</b></button>` : ""}
+        </div></article>`).join("");
+    const more = $("#offers-more"), extra = ranked.length - SHOW;
+    if (extra > 0) {
+      more.hidden = false;
+      more.textContent = `Show ${extra} more app${extra === 1 ? "" : "s"}`;
+      more.onclick = () => {
+        const open = !$("#offers").classList.contains("all");
+        $("#offers").classList.toggle("all", open);
+        more.setAttribute("aria-expanded", String(open));
+        more.textContent = open ? "Show fewer" : `Show ${extra} more app${extra === 1 ? "" : "s"}`;
+      };
+    }
   }
   if (CFG.discord) {
     const d = $("#discord-btn"); d.href = CFG.discord; d.hidden = false; d.target = "_blank"; d.rel = "noopener";
@@ -612,6 +697,14 @@
   /* ================= events ================= */
   document.addEventListener("click", (e) => {
     const t = e.target;
+    const rt = t.closest("[data-retired-toggle]");
+    if (rt) {
+      state0.hideRetired = !state0.hideRetired;
+      $$(".toggle[data-retired-toggle]").forEach((b) => b.setAttribute("aria-pressed", String(state0.hideRetired)));
+      renderBoardSummary();
+      if (!$("#view-record").hidden) renderRecord();
+      return;
+    }
     const infoBtn = t.closest(".info");
     $$('.info[aria-expanded="true"]').forEach((b) => { if (b !== infoBtn) b.setAttribute("aria-expanded", "false"); });
     if (infoBtn) { infoBtn.setAttribute("aria-expanded", infoBtn.getAttribute("aria-expanded") === "true" ? "false" : "true"); placeTip(infoBtn); return; }
@@ -637,7 +730,7 @@
     }
     const code = t.closest(".code");
     if (code && navigator.clipboard) {
-      navigator.clipboard.writeText(code.dataset.code).then(() => { const old = code.textContent; code.textContent = "Copied"; setTimeout(() => (code.textContent = old), 1400); }).catch(() => {});
+      navigator.clipboard.writeText(code.dataset.code).then(() => { const old = code.innerHTML; code.textContent = "Copied"; setTimeout(() => (code.innerHTML = old), 1400); }).catch(() => {});
     }
   });
   document.addEventListener("keydown", (e) => {
@@ -666,7 +759,7 @@
 
   /* ================= routing ================= */
   const VIEWS = ["board", "record", "nba", "wire", "method"];
-  const ALIAS = { news: "wire", methodology: "method", research: "nba", alerts: "board" };
+  const ALIAS = { news: "wire", methodology: "method", research: "nba", alerts: "board", offers: "board" };
   const rendered = {};
   function route() {
     const h = decodeURIComponent(location.hash.replace("#", ""));
@@ -682,12 +775,12 @@
       }
     }
     if (h.startsWith("m-")) { v = "method"; target = h; }
-    if (h === "alerts") target = "alerts";
+    if (h === "alerts" || h === "offers") target = h;
     VIEWS.forEach((x) => { $(`#view-${x}`).hidden = x !== v; });
     $$(".nav a").forEach((a) => { if (a.dataset.tab === v) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
     document.title = { board: "Closing Line Club: betting research with receipts", record: "Performance record | Closing Line Club", nba: "NBA research | Closing Line Club",
       wire: "News wire | Closing Line Club", method: "Methodology | Closing Line Club" }[v];
-    if (v === "board") { renderBoard(); if (!rendered.board) { renderStanding(); renderBoardSummary(); renderVenues(); rendered.board = 1; } }
+    if (v === "board") { renderBoard(); if (!rendered.board) { renderStanding(); renderBoardSummary(); renderOffers(); rendered.board = 1; } }
     if (v === "record") renderRecord();
     if (v === "nba") renderNba();
     if (v === "wire") renderWire();
@@ -711,6 +804,7 @@
     $$(".prose section").forEach((s) => io.observe(s));
   }
 
+  if (canHideRetired) $$(".toggle[data-retired-toggle]").forEach((b) => { b.hidden = false; });
   if (!RAW) $("#data-error").hidden = false;
   if (D.picks.generated_at) $("#updated").textContent = `Picks last changed ${when(D.picks.generated_at)}.`;
   route();

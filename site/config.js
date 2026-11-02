@@ -1,10 +1,12 @@
-// Site settings Graham can edit in the browser (GitHub -> site/config.js -> pencil icon).
+// Site settings Graham can edit in the browser: GitHub -> nfl-odds-logger (the PRIVATE repo) -> site/config.js -> pencil icon.
+// Edits made in the public closing-line-club repo are overwritten by the next site build.
 window.SITE_CONFIG = {
   name: "Closing Line Club",
   // Discord invite link (Invite People -> never expires). Leave "" to hide the Discord button.
   discord: "https://discord.gg/RAysA794j",
-  // Apps we bet on, shown on the Board with your referral links. Fill in url (your referral link), code and offer
+  // Apps we bet on, shown as "Sign-up offers" at the top of the Board. Fill in url (your referral link), code and offer
   // (copy the offer wording from each app's "Refer a friend" screen). Apps with no url and no code stay hidden.
+  // Order: apps whose prices were used in the current week's picks come first, then apps with an offer, then the rest.
   apps: [
     { name: "Novig", what: "No-vig sports exchange", url: "https://novig.onelink.me/JHQQ/4o86htdc", code: "0EF358", offer: "" },
     { name: "ProphetX", what: "Sports prediction market", url: "https://prophetx.onelink.me/E5Yi/65i2sc80", code: "",

@@ -33,6 +33,7 @@
         <a href="#wire" data-tab="wire"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="2"/><path d="M5.5 5.5a6.4 6.4 0 000 9M14.5 5.5a6.4 6.4 0 010 9"/></svg><span>News</span></a>
         <a href="#method" data-tab="method"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 3h9l3 3v11H4z"/><path d="M7 9h6M7 12h6"/></svg><span>Method</span></a>
       </nav>
+      <a class="offers-link" href="#offers"><span class="nav-long">Sign-up offers</span><span class="nav-short">Offers</span></a>
       <a class="discord-link" id="top-discord" href="#alerts">Discord</a>
     </div>
   </header>
@@ -52,6 +53,15 @@
         <p class="report-lede" id="board-lede">Loading this week's picks.</p>
       </header>
 
+      <section class="offers" id="offers" aria-labelledby="offers-title" hidden>
+        <div class="offers-head">
+          <h2 id="offers-title" class="h2">Sign-up offers</h2>
+          <p class="offers-note"><b>Referral links:</b> we may get a bonus when you sign up. They never change which picks are posted. 21+ and only where legal; offers change, so check each app's terms.</p>
+        </div>
+        <div class="offer-grid" id="offer-grid"></div>
+        <button type="button" class="btn btn-quiet offers-more" id="offers-more" aria-expanded="false" hidden></button>
+      </section>
+
       <section class="block" aria-labelledby="standing-title">
         <div class="block-head">
           <h2 id="standing-title" class="h2">What's on real money</h2>
@@ -62,8 +72,9 @@
 
       <section class="block" aria-labelledby="perf-title">
         <div class="block-head">
-          <h2 id="perf-title" class="h2">Record, season to date</h2>
+          <div class="title-row title-row-split"><h2 id="perf-title" class="h2">Record, season to date</h2><button type="button" class="toggle" data-retired-toggle aria-pressed="false" hidden><span class="toggle-box" aria-hidden="true"></span>Hide retired strategies</button></div>
           <p class="block-note" id="perf-note"></p>
+          <p class="retired-note" id="board-retired-note" hidden></p>
         </div>
         <div class="figures" id="board-figures"></div>
         <p class="verdict-line" id="board-verdict"></p>
@@ -113,15 +124,6 @@
         <a class="btn" id="discord-btn" href="#" hidden>Join the Discord</a>
       </section>
 
-      <section class="block venues" id="apps" aria-labelledby="apps-title" hidden>
-        <div class="block-head">
-          <h2 id="apps-title" class="h3">Where the prices come from</h2>
-          <p class="block-note"><b>Referral disclosure:</b> the links below are referral links, and we may get a bonus when you sign up. They don't affect which picks are posted. Offers, age limits and availability vary by state and change often, so check the terms in each app.</p>
-        </div>
-        <div class="table-wrap">
-          <table class="data venue-table" id="app-table"></table>
-        </div>
-      </section>
     </section>
 
     <!-- ================= RECORD ================= -->
@@ -133,7 +135,8 @@
       </header>
 
       <section class="block" aria-labelledby="rec-sum-title">
-        <h2 id="rec-sum-title" class="h2">Season record, every tracked pick</h2>
+        <div class="title-row title-row-split"><h2 id="rec-sum-title" class="h2">Season record, every tracked pick</h2><button type="button" class="toggle" data-retired-toggle aria-pressed="false" hidden><span class="toggle-box" aria-hidden="true"></span>Hide retired strategies</button></div>
+        <p class="retired-note" id="record-retired-note" hidden></p>
         <div class="figures" id="record-figures"></div>
         <p class="verdict-line" id="record-verdict"></p>
       </section>
