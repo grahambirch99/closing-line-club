@@ -50,7 +50,6 @@
   ICON.void = ICON.P;
   const STATUS_LABEL = { W: "Won", L: "Lost", P: "Push", void: "Void", open: "Open" };
   const CHIP = {
-    live: '<span class="chip chip-live">Live</span>',
     paper: '<span class="chip chip-paper">Paper</span>',
     experimental: '<span class="chip chip-exp">Experimental</span>',
     retired: '<span class="chip chip-retired">Retired</span>',
@@ -77,7 +76,8 @@
     return { n, mean: m, lo: m - h, hi: m + h };
   }
   const nflPicks = (D.picks.weeks || []).flatMap((w) => w.picks || []);
-  const isLive = (p) => p.kind === "bet" || p.kind === "teaser";
+  // Every tracked pick counts in the record (Graham, Nov 2): there is no real-money/paper split on the site.
+  const COUNTED = ["bet", "teaser", "trial", "paper", "cfb"];
   const isGraded = (p) => ["W", "L", "P"].includes(p.status);
   // Same selection as site_build.summarize(): counted kinds, graded, exact close that moved (clv_ok).
   function clvCI(kinds, published) {
@@ -86,10 +86,10 @@
     if (!ci || !isNum(published) || Math.abs(ci.mean - published) > 0.006) return null;   // integrity check
     return ci;
   }
-  const seasonCI = clvCI(["bet", "teaser"], D.summary.season && D.summary.season.clv);
+  const seasonCI = clvCI(COUNTED, D.summary.season && D.summary.season.clv);
   function clvSentence(s, ci) {
-    if (!s || !s.n_clv) return "No real-money pick has a measurable closing line yet.";
-    let out = `Average closing-line value is <b>${fmtPts(s.clv, 2)} pts</b> on ${s.n_clv} measurable bet${s.n_clv === 1 ? "" : "s"}`;
+    if (!s || !s.n_clv) return "No pick has a measurable closing line yet.";
+    let out = `Average closing-line value is <b>${fmtPts(s.clv, 2)} pts</b> on ${s.n_clv} measurable pick${s.n_clv === 1 ? "" : "s"}`;
     if (ci) {
       out += ` (95% range ${fmtPts(ci.lo)} to ${fmtPts(ci.hi)}). `;
       out += ci.lo > 0 ? "The range is above zero, but the sample is still small." : ci.hi < 0 ? "The whole range is below zero: so far our prices have trailed the close."
@@ -106,21 +106,21 @@
   }
   function seasonFigures(s, ci) {
     const g = graded(s);
-    const firstWeek = Math.min(...nflPicks.filter(isLive).map((p) => p.week));
+    const firstWeek = Math.min(...nflPicks.filter((p) => COUNTED.includes(p.kind)).map((p) => p.week));
     const winPct = s.w + s.l ? Math.round((100 * s.w) / (s.w + s.l)) : null;
     return [
-      figure("Graded picks", fmtInt(g), isFinite(firstWeek) ? `Bets and teasers since Week ${firstWeek}` : "Bets and teasers",
-        "Real-money picks with a final result. Voids are not counted. Paper picks and NBA research are excluded."),
+      figure("Graded picks", fmtInt(g), isFinite(firstWeek) ? `Every tracked pick since Week ${firstWeek}` : "Every tracked pick",
+        "Every NFL and college pick we posted that has a final result, from every strategy and rule version. Voids are not counted. NBA has its own page."),
       figure("Record", rec(s), winPct != null ? `${winPct}% won` : "", "Wins–losses (–pushes). Win rate alone doesn't show skill: it depends on the prices taken."),
-      figure("Units", `<span class="${tone(s.units)}">${fmtU(s.units)}</span>`, "Flat 0.5u–0.75u stakes",
-        "Total profit or loss in units. 1 unit is 2% of a bankroll; a 0.5u pick is $5 on a $500 bankroll."),
+      figure("Units", `<span class="${tone(s.units)}">${fmtU(s.units)}</span>`, "Flat 0.5u–0.75u paper stakes",
+        "Total profit or loss in units at the posted stakes. All picks are paper: no money is staked."),
       figure("Return on stakes", `<span class="${tone(s.roi)}">${fmtPct(s.roi)}</span>`, g ? `On ${g} graded picks` : "",
         "Profit divided by the total amount staked. Swings widely below several hundred bets."),
       figure("Average CLV", `<span class="${tone(s.clv)}">${s.clv == null ? "–" : `${fmtPts(s.clv, 2)} pts`}</span>`,
-        `${s.n_clv || 0} measurable bets${ci ? `<br>95% range ${fmtPts(ci.lo)} to ${fmtPts(ci.hi)}` : ""}`,
+        `${s.n_clv || 0} measurable picks${ci ? `<br>95% range ${fmtPts(ci.lo)} to ${fmtPts(ci.hi)}` : ""}`,
         "Points of win probability our price beat (+) or trailed (−) Pinnacle's no-margin closing price. Only picks where Pinnacle quoted the same line at the close and its price moved are averaged."),
-      figure("Beat the close", s.beat == null ? "–" : `${s.beat}%`, `Of ${s.n_clv || 0} measurable bets`,
-        "Share of measurable bets whose price was better than the closing price. Around 50% is what no edge looks like."),
+      figure("Beat the close", s.beat == null ? "–" : `${s.beat}%`, `Of ${s.n_clv || 0} measurable picks`,
+        "Share of measurable picks whose price was better than the closing price. Around 50% is what no edge looks like."),
     ].join("");
   }
 
@@ -146,7 +146,13 @@
       return { w: ps.filter((p) => p.status === "W").length, l: ps.filter((p) => p.status === "L").length,
         p: ps.filter((p) => p.status === "P").length, units: ps.reduce((a, p) => a + (p.units || 0), 0) };
     };
-    const map = { "nfl-v1": sumKind("bet"), teasers: sumKind("teaser"), "nfl-v2": D.summary.gate, cfb: D.summary.cfb, "cfb-props": D.summary.cfb_props,
+    const sumSys = (f) => {
+      const ps = nflPicks.filter((p) => p.kind === "paper" && f(p.system || "") && isGraded(p));
+      if (!ps.length) return null;
+      return { w: ps.filter((p) => p.status === "W").length, l: ps.filter((p) => p.status === "L").length,
+        p: ps.filter((p) => p.status === "P").length, units: ps.reduce((a, p) => a + (p.units || 0), 0) };
+    };
+    const map = { "nfl-v1": sumKind("bet"), teasers: sumKind("teaser"), "props-midweek": sumSys((x) => /props/i.test(x)), wind: sumSys((x) => /wind/i.test(x)), "nfl-v2": D.summary.gate, cfb: D.summary.cfb, "cfb-props": D.summary.cfb_props,
       "nba-v31": N.goal ? N : null, "nba-v3": N.v3_capped, "nba-v2": N.v2, "nba-v1": N.v1, "nba-h2h": N.h2h };
     const r = map[id];
     return r && graded(r) ? r : null;
@@ -198,13 +204,12 @@
   function pickRow(p) {
     const nba = p.kind === "nba";
     const st = p.status === "pending" ? "open" : p.status;
-    const live = isLive(p);
     const fresh = Date.now() - new Date(p.posted) < 2 * 36e5;
     const kick = esc(String(p.kick_label || "").replace(/ PT$/, ""));
-    const showUnits = isNum(p.units) && p.kind !== "paper";
+    const showUnits = isNum(p.units);
     const result = st === "open"
       ? `${statusChip("open")}<span class="actual">${untilKick(p.kick, nba)}</span>`
-      : `${statusChip(st)}<span class="actual">${p.actual ? esc(p.actual) : ""}${showUnits ? `${p.actual ? ", " : ""}<span class="units ${tone(p.units)}">${fmtU(p.units)}</span>${live ? "" : " paper"}` : ""}</span>`;
+      : `${statusChip(st)}<span class="actual">${p.actual ? esc(p.actual) : ""}${showUnits ? `${p.actual ? ", " : ""}<span class="units ${tone(p.units)}">${fmtU(p.units)}</span>` : ""}</span>`;
     const stake = nba && p.v3 ? stakeU(p.stake_v3) : stakeU(p.stake);
     const worst = p.worst ? esc(p.worst) : "–";
     const who = p.kind === "teaser" ? "Two-team teaser" : esc(p.title);
@@ -245,11 +250,11 @@
   /* ================= BOARD ================= */
   const weeks = D.picks.weeks || [];
   const GROUPS = [
-    { k: "bet", chip: "live", title: "Real-money picks", desc: "Game-day price picks. Counted in the record." },
-    { k: "teaser", chip: "live", title: "Teasers", desc: "Counted in the record. Teasers have no closing-line value, so they are judged on results." },
-    { k: "trial", chip: "paper", title: "NFL game-day picks, rules v2 test", desc: "Same rules and posting as the real-money picks, on paper since Nov 1 until the test is judged (150 measurable picks or Jan 13, 2027)." },
-    { k: "cfb", chip: "paper", title: "College football test", desc: "Games with no Big Ten or SEC team. Paper only, judged on closing-line value." },
-    { k: "paper", chip: "paper", title: "Mid-week props model and angles", desc: "Tracked on paper and never counted. Paper results are shown as won or lost only." },
+    { k: "bet", chip: "retired", title: "NFL game-day picks, rules v1", desc: "Retired Oct 31. Counted in the record." },
+    { k: "trial", chip: "paper", title: "NFL game-day picks, rules v2 test", desc: "Judged at 150 measurable picks or Jan 13, 2027. Counted in the record." },
+    { k: "teaser", chip: "paper", title: "Teasers", desc: "Counted in the record. Teasers have no closing-line value, so they are judged on results." },
+    { k: "cfb", chip: "paper", title: "College football test", desc: "Games with no Big Ten or SEC team, judged on closing-line value. Counted in the record." },
+    { k: "paper", chip: "paper", title: "Mid-week props model and angles", desc: "Counted in the record." },
   ];
   const state = { week: D.picks.current_week, status: "all", sport: "all", market: "all", night: null };
   const marketCat = (p) => (p.kind === "teaser" ? "teaser" : ["spreads", "totals", "h2h"].includes(p.market) ? "lines" : "props");
@@ -257,29 +262,25 @@
     const f = state.status;
     if (f === "open" && p.status !== "pending") return false;
     if ((f === "W" || f === "L") && p.status !== f) return false;
-    if (f === "live" && !isLive(p)) return false;
-    if (f === "paper" && isLive(p)) return false;
     if (state.sport !== "all" && (p.kind === "cfb" ? "cfb" : "nfl") !== state.sport) return false;
     if (state.market !== "all" && marketCat(p) !== state.market) return false;
     return true;
   }
 
   function renderStanding() {
-    const order = { live: 0, paper: 1, experimental: 2 };
+    const order = { paper: 0, experimental: 1 };
     const rows = STRATS.filter((s) => s.status !== "retired").sort((a, b) => order[a.status] - order[b.status]);
     const row = (s) => {
       const pr = s.progress ? stratProgress(s.progress) : null;
-      const prog = pr ? progressHtml(pr.n, pr.goal, pr.unit) : `<span>${s.status === "live" ? "Counted in the record" : "Tracked, not counted"}</span>`;
-      return `<div class="standing-row${s.status === "live" ? " is-live" : ""}">
+      const prog = pr ? progressHtml(pr.n, pr.goal, pr.unit) : "<span>Counted in the record</span>";
+      return `<div class="standing-row">
         <div class="st-chip">${CHIP[s.status] || ""}</div>
         <div class="st-name"><span>${esc(s.name)}</span><span class="st-sport">${esc(s.sport)}</span>${info(`${s.rule} ${s.verdict}`)}</div>
         <div class="st-progress">${prog}</div>
         <div class="st-since">Since ${esc(s.since)}</div></div>`;
     };
-    const live = rows.filter((s) => s.status === "live"), rest = rows.filter((s) => s.status !== "live");
     $("#standing").innerHTML = rows.length
-      ? (live.length ? live.map(row).join("") : '<div class="standing-row is-none"><div class="st-name">Nothing is on real money right now.</div></div>') +
-        (rest.length ? `<details class="standing-more"${window.innerWidth >= 1024 ? " open" : ""}><summary>${rest.length} ${rest.length === 1 ? "strategy" : "strategies"} on paper or experimental<span class="small"> (not counted)</span></summary>${rest.map(row).join("")}</details>` : "")
+      ? `<details class="standing-more"${window.innerWidth >= 1024 ? " open" : ""}><summary>${rows.length} ${rows.length === 1 ? "strategy" : "strategies"} being tested<span class="small"> (all on paper, all counted)</span></summary>${rows.map(row).join("")}</details>`
       : '<div class="standing-row"><div>Strategy list unavailable.</div></div>';
   }
 
@@ -288,13 +289,13 @@
     state.week = wk.week;
     const ps = wk.picks || [];
     $("#week-num").textContent = wk.week ?? "–";
-    const live = ps.filter(isLive).length, open = ps.filter((p) => p.status === "pending").length;
+    const open = ps.filter((p) => p.status === "pending").length;
     $("#board-meta").innerHTML = `<div><dt>Season</dt><dd>2026 NFL</dd></div><div><dt>Week</dt><dd>${esc(wk.week)}</dd></div>${wk.dates ? `<div><dt>Games</dt><dd>${esc(wk.dates)}</dd></div>` : ""}${D.picks.generated_at ? `<div><dt>Picks last changed</dt><dd>${esc(when(D.picks.generated_at))}</dd></div>` : ""}`;
     $("#board-lede").innerHTML = ps.length
-      ? `${ps.length} pick${ps.length === 1 ? "" : "s"} posted for Week ${esc(wk.week)}: <b>${live} on real money</b> and ${ps.length - live} on paper.${open ? ` ${open} still open.` : " All graded."}${live && graded(wk.record) ? ` Real money this week: ${rec(wk.record)}, ${fmtU(wk.record.units)}.` : ""}`
+      ? `${ps.length} pick${ps.length === 1 ? "" : "s"} posted for Week ${esc(wk.week)}, all on paper and all counted.${open ? ` ${open} still open.` : " All graded."}${graded(wk.record) ? ` This week: <b>${rec(wk.record)}, ${fmtU(wk.record.units)}</b>.` : ""}`
       : `No picks posted for Week ${esc(wk.week)} yet. Most picks post on Sunday mornings after inactives are announced.`;
     $("#week-pills").innerHTML = weeks.map((w) => {
-      const sub = graded(w.record) ? `${rec(w.record)} live` : w.paper_record && graded(w.paper_record) ? `${rec(w.paper_record)} paper` : w.picks.length ? `${w.picks.length} picks` : "No picks yet";
+      const sub = graded(w.record) ? rec(w.record) : w.picks.length ? `${w.picks.length} picks` : "No picks yet";
       return `<button type="button" class="pill" role="tab" aria-selected="${w.week === wk.week}" data-week="${w.week}">Week ${w.week}<small>${sub}</small></button>`;
     }).join("");
     const shown = ps.filter(passes);
@@ -319,7 +320,7 @@
     if (!s) { $("#board-figures").innerHTML = '<div class="figure">No graded picks yet.</div>'; return; }
     $("#board-figures").className = "figures six";
     $("#board-figures").innerHTML = seasonFigures(s, seasonCI);
-    $("#perf-note").innerHTML = `Bets and teasers only. Paper picks and NBA research are excluded. <a href="#record">Full record and charts</a>`;
+    $("#perf-note").innerHTML = `Every tracked NFL and college pick, all on paper. NBA has its own page. <a href="#record">Full record and charts</a>`;
     $("#board-verdict").innerHTML = clvSentence(s, seasonCI);
   }
 
@@ -357,7 +358,7 @@
     g += `<text x="${X(c.length - 1) - 8}" y="${Y(last.units) + (last.units >= 0 ? -10 : 18)}" text-anchor="end" style="font:600 12px var(--sans);fill:var(--ink)">${fmtU(last.units)}</text>`;
     g += `<line class="xh" stroke="var(--slate-2)" y1="${P.t}" y2="${H - P.b}" visibility="hidden"/><circle class="xd" r="5" fill="var(--navy-900)" stroke="var(--surface)" stroke-width="2" visibility="hidden"/>`;
     g += `<rect class="hit" x="${P.l}" y="0" width="${W - P.l - P.r}" height="${H}"/>`;
-    fig.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Cumulative units after each of ${c.length} graded real-money picks, ending at ${fmtU(last.units)}">${g}</svg>
+    fig.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Cumulative units after each of ${c.length} graded picks, ending at ${fmtU(last.units)}">${g}</svg>
       <figcaption>${c.length} graded picks. Hover or tap the line for each pick.</figcaption>
       <details class="chart-table"><summary>Show as a table</summary><div class="table-wrap" style="margin-top:8px;max-height:260px;overflow:auto"><table class="data"><thead><tr><th>#</th><th>Week</th><th>Pick</th><th class="r">This pick</th><th class="r">Running total</th></tr></thead><tbody>${c.map((d, i) => `<tr><td class="num">${i + 1}</td><td>${d.week}</td><td>${esc(d.label)}</td><td class="r ${tone(d.units - (i ? c[i - 1].units : 0))}">${fmtU(d.units - (i ? c[i - 1].units : 0))}</td><td class="r">${fmtU(d.units)}</td></tr>`).join("")}</tbody></table></div></details>`;
     const svg = $("svg", fig), tip = attachTip(fig), xh = $(".xh", svg), xd = $(".xd", svg);
@@ -381,7 +382,6 @@
   function clvChart() {
     const fig = $("#clv-chart"), c = D.summary.clv_by_week || [];
     if (!c.length) { fig.innerHTML = '<p class="chart-empty">Shows up once closing prices are graded.</p>'; return; }
-    const trialWeeks = new Set(nflPicks.filter((p) => p.kind === "trial" && p.clv_ok && isGraded(p)).map((p) => p.week));
     const W = 520, H = 250, P = { l: 44, r: 12, t: 22, b: 40 };
     const m = Math.max(2, ...c.map((d) => Math.abs(d.clv))) * 1.2;
     const ticks = niceTicks(-m, m, 4).filter((v) => Math.abs(v) <= m);
@@ -394,12 +394,11 @@
       const fill = d.clv >= 0 ? "var(--pos)" : "var(--neg-mark)";
       return `<rect class="cbar" data-i="${i}" x="${X(i) - bw / 2}" y="${top}" width="${bw}" height="${h}" rx="2" fill="${fill}"/>
         <g class="axis"><text x="${X(i)}" y="${d.clv >= 0 ? top - 6 : top + h + 14}" text-anchor="middle" style="fill:var(--ink);font-weight:600">${fmtPts(d.clv, 2)}</text>
-        <text x="${X(i)}" y="${H - 22}" text-anchor="middle">Week ${d.week}${trialWeeks.has(d.week) ? "*" : ""}</text><text x="${X(i)}" y="${H - 8}" text-anchor="middle">n = ${d.n}</text></g>
+        <text x="${X(i)}" y="${H - 22}" text-anchor="middle">Week ${d.week}</text><text x="${X(i)}" y="${H - 8}" text-anchor="middle">n = ${d.n}</text></g>
         <rect class="hit" data-i="${i}" x="${X(i) - slot / 2}" y="${P.t}" width="${slot}" height="${H - P.t - P.b}"/>`;
     }).join("");
-    const anyTrial = c.some((d) => trialWeeks.has(d.week));
     fig.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Average closing-line value by week: ${c.map((d) => `Week ${d.week} ${fmtPts(d.clv, 2)} points on ${d.n} picks`).join("; ")}">${g}</svg>
-      <figcaption>n = measurable picks that week. Small weeks swing a lot.${anyTrial ? " *Includes the rules v2 paper picks (same rules, on paper from Nov 1), so this week is not real-money only." : ""}</figcaption>`;
+      <figcaption>n = measurable picks that week, every strategy included. Small weeks swing a lot.</figcaption>`;
     const tip = attachTip(fig), svg = $("svg", fig);
     $$(".hit", svg).forEach((b) => {
       const show = () => {
@@ -407,7 +406,7 @@
         tip.hidden = false;
         tip.style.left = `${Math.max(90, Math.min(fr.width - 90, r.left - fr.left + (X(i) / W) * r.width))}px`;
         tip.style.top = `${r.top - fr.top + (Math.min(Y(0), Y(d.clv)) / H) * r.height}px`;
-        tip.innerHTML = `Week ${d.week}: <b>${fmtPts(d.clv, 2)} pts</b> average<br>over ${d.n} measurable pick${d.n === 1 ? "" : "s"}${trialWeeks.has(d.week) ? "<br>includes rules v2 paper picks" : ""}`;
+        tip.innerHTML = `Week ${d.week}: <b>${fmtPts(d.clv, 2)} pts</b> average<br>over ${d.n} measurable pick${d.n === 1 ? "" : "s"}`;
       };
       b.addEventListener("pointerenter", show); b.addEventListener("pointerdown", show);
       b.addEventListener("pointerleave", () => { tip.hidden = true; });
@@ -440,14 +439,14 @@
 
   function renderRecord() {
     const S = D.summary, s = S.season || {};
-    $("#record-meta").innerHTML = `<div><dt>Season</dt><dd>2026 NFL</dd></div><div><dt>Graded real-money picks</dt><dd>${graded(s)}</dd></div>${D.picks.generated_at ? `<div><dt>Picks last changed</dt><dd>${esc(when(D.picks.generated_at))}</dd></div>` : ""}`;
+    $("#record-meta").innerHTML = `<div><dt>Season</dt><dd>2026 NFL</dd></div><div><dt>Graded picks</dt><dd>${graded(s)}</dd></div>${D.picks.generated_at ? `<div><dt>Picks last changed</dt><dd>${esc(when(D.picks.generated_at))}</dd></div>` : ""}`;
     $("#record-figures").className = "figures six";
     $("#record-figures").innerHTML = S.season ? seasonFigures(s, seasonCI) : figure("Graded picks", "0", "No graded picks yet");
     $("#record-verdict").innerHTML = S.season ? clvSentence(s, seasonCI) : "";
     unitsChart();
     clvChart();
     const t = S.by_type || [];
-    $("#type-table").innerHTML = statHead("Type") + `<tbody>${t.length ? t.map((r) => statRow(esc(r.type), r)).join("") + (S.season ? statRow("All real-money picks", s).replace("<tr>", '<tr class="total">') : "") : '<tr><td colspan="7">No graded picks yet.</td></tr>'}</tbody>`;
+    $("#type-table").innerHTML = statHead("Type") + `<tbody>${t.length ? t.map((r) => statRow(esc(r.type), r)).join("") + (S.season ? statRow("All tracked picks", s).replace("<tr>", '<tr class="total">') : "") : '<tr><td colspan="7">No graded picks yet.</td></tr>'}</tbody>`;
 
     // paper tests
     const N = D.nba.summary;
@@ -479,7 +478,7 @@
     el.innerHTML = STRATS.map((s) => {
       const r = stratRecord(s.id);
       return `<li class="${s.status}"><div class="h-top">${CHIP[s.status] || ""}<span class="h-name">${esc(s.sport)}: ${esc(s.name)}</span><span class="h-when">${esc(s.since)}</span></div>
-        <p>${esc(s.rule)} ${esc(s.verdict)}</p>${r ? `<div class="h-rec">Record ${rec(r)}, ${fmtU(r.units)}${s.status === "live" || s.id === "nfl-v1" ? "" : " (paper)"}</div>` : ""}</li>`;
+        <p>${esc(s.rule)} ${esc(s.verdict)}</p>${r ? `<div class="h-rec">Record ${rec(r)}, ${fmtU(r.units)}</div>` : ""}</li>`;
     }).join("");
   }
 
@@ -497,7 +496,7 @@
     $("#nba-progress-note").textContent = n < goal ? `${fmtInt(goal - n)} more graded picks before the verdict. ${s.bets != null ? `${s.bets} v3.1 picks posted so far.` : ""}` : "Sample complete.";
     let stateTxt;
     if (s.passed === true) stateTxt = '<span class="chip chip-W">Passed on paper</span>It met its pre-registered test. A second, untouched paper sample comes next; no money until that passes too.';
-    else if (s.passed === false) stateTxt = '<span class="chip chip-L">Did not pass</span>It missed its pre-registered test, so it does not move to real money.';
+    else if (s.passed === false) stateTxt = '<span class="chip chip-L">Did not pass</span>It missed its pre-registered test, so it is retired.';
     else stateTxt = `<span class="chip chip-open">${ICON.open}In progress</span>No verdict until ${goal} graded picks. The numbers below are interim and are not a result.`;
     $("#nba-state").innerHTML = stateTxt;
     $("#nba-gauge").innerHTML = gaugeSvg(s.lean, s.lean_lo, s.lean_hi, 3, { label: "Wins above break-even", note: "The bootstrap resamples whole games." });
@@ -545,7 +544,7 @@
     $("#h2h-fill").style.width = `${Math.min(100, (100 * hn) / 1500)}%`;
     $("#h2h-bar").setAttribute("aria-valuenow", Math.min(hn, 1500));
     $("#h2h-state").innerHTML = hn >= 1500 ? '<span class="chip chip-open">Sample complete</span>Verdict pending review.'
-      : `<span class="chip chip-open">${ICON.open}In progress</span>No verdict until 1,500 graded bets or Jan 31, 2027. Real money would also need the net result's 95% range above zero.`;
+      : `<span class="chip chip-open">${ICON.open}In progress</span>No verdict until 1,500 graded bets or Jan 31, 2027. Passing would also need the net result's 95% range above zero.`;
     $("#h2h-gauge").innerHTML = gaugeSvg(h.net_lean, h.net_lo, h.net_hi, 0, { label: "Net result after costs", note: h.lean_vs_mid != null ? `Before the spread and fee, against Kalshi's midpoint: ${fmtPts(h.lean_vs_mid)} pts (context only).` : "" });
     $("#h2h-figures").className = "figures four";
     $("#h2h-figures").innerHTML = [

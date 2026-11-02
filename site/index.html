@@ -54,15 +54,15 @@
 
       <section class="block" aria-labelledby="standing-title">
         <div class="block-head">
-          <h2 id="standing-title" class="h2">What's on real money</h2>
-          <p class="block-note">Only strategies marked Live count in the record. Everything else is posted and graded the same way, on paper, until it passes a test written down before it started.</p>
+          <h2 id="standing-title" class="h2">What we're testing</h2>
+          <p class="block-note">Every strategy is on paper: no money is staked. Every pick is posted before kickoff and counts in the record, wins and losses alike. Each strategy is judged once, by a test written down before it started.</p>
         </div>
         <div class="standing" id="standing"></div>
       </section>
 
       <section class="block" aria-labelledby="perf-title">
         <div class="block-head">
-          <h2 id="perf-title" class="h2">Real-money record, season to date</h2>
+          <h2 id="perf-title" class="h2">Record, season to date</h2>
           <p class="block-note" id="perf-note"></p>
         </div>
         <div class="figures" id="board-figures"></div>
@@ -82,8 +82,6 @@
               <button type="button" data-filter="open" aria-pressed="false">Open</button>
               <button type="button" data-filter="W" aria-pressed="false">Won</button>
               <button type="button" data-filter="L" aria-pressed="false">Lost</button>
-              <button type="button" data-filter="live" aria-pressed="false">Live</button>
-              <button type="button" data-filter="paper" aria-pressed="false">Paper</button>
             </div>
             <label class="select"><span>Sport</span>
               <select id="sport-filter">
@@ -131,11 +129,11 @@
       <header class="report-head">
         <dl class="report-meta" id="record-meta"></dl>
         <h1 id="record-title" class="report-title">Performance record</h1>
-        <p class="report-lede">Every real-money pick, graded after the game, losses included. The money record counts bets and teasers only; paper tests are reported separately below and never mixed in. Closing-line value, whether we got a better price than the market's final word, is the main scorecard, because a few dozen wins and losses say little about skill.</p>
+        <p class="report-lede">Every NFL and college pick we have posted, from every strategy and rule version, graded after the game, losses included. All picks are paper: no money is staked. Closing-line value, whether we got a better price than the market's final word, is the main scorecard, because a few dozen wins and losses say little about skill.</p>
       </header>
 
       <section class="block" aria-labelledby="rec-sum-title">
-        <h2 id="rec-sum-title" class="h2">Real-money record</h2>
+        <h2 id="rec-sum-title" class="h2">Season record, every tracked pick</h2>
         <div class="figures" id="record-figures"></div>
         <p class="verdict-line" id="record-verdict"></p>
       </section>
@@ -143,7 +141,7 @@
       <section class="block" aria-labelledby="units-title">
         <div class="block-head">
           <h2 id="units-title" class="h2">Cumulative units</h2>
-          <p class="block-note">Running profit in units after each graded real-money pick, in kickoff order. Voids count as zero.</p>
+          <p class="block-note">Running profit in units after each graded pick, in kickoff order. Voids count as zero.</p>
         </div>
         <figure class="chart" id="units-chart"></figure>
       </section>
@@ -158,8 +156,8 @@
         </section>
         <section class="block" aria-labelledby="type-title">
           <div class="block-head">
-            <h2 id="type-title" class="h2">By bet type</h2>
-            <p class="block-note">Real-money picks only. Small rows are listed for completeness, not as evidence.</p>
+            <h2 id="type-title" class="h2">By strategy</h2>
+            <p class="block-note">Every tracked pick, split by strategy. Small rows are listed for completeness, not as evidence.</p>
           </div>
           <div class="table-wrap"><table class="data" id="type-table"></table></div>
         </section>
@@ -167,8 +165,8 @@
 
       <section class="block" aria-labelledby="tests-title">
         <div class="block-head">
-          <h2 id="tests-title" class="h2">Paper tests in progress</h2>
-          <p class="block-note">Posted and graded like real picks, never counted above. Each is judged once, at a sample size set before it started.</p>
+          <h2 id="tests-title" class="h2">Tests in progress</h2>
+          <p class="block-note">Each is also counted in the record above. Each is judged once, at a sample size set before it started.</p>
         </div>
         <div class="table-wrap"><table class="data" id="tests-table"></table></div>
       </section>
@@ -190,7 +188,7 @@
           <h1 id="nba-title" class="report-title">NBA player props</h1>
           <span class="chip chip-paper chip-lg">Paper only</span>
         </div>
-        <p class="report-lede">A paper experiment: every pick the rules would make is posted and graded, but no money is on it, none of it goes to the main Discord channel, and nothing here counts in the NFL record.</p>
+        <p class="report-lede">A paper experiment: every pick the rules would make is posted, graded and counted here, kept separate from the NFL record and out of the main Discord channel.</p>
       </header>
 
       <section class="block experiment" aria-labelledby="exp-title">
@@ -306,7 +304,7 @@
             <li><a href="#m-timing">Timing</a></li>
             <li><a href="#m-clv">Closing-line value</a></li>
             <li><a href="#m-grading">Grading</a></li>
-            <li><a href="#m-paper">Paper and live</a></li>
+            <li><a href="#m-paper">Paper picks and tests</a></li>
             <li><a href="#m-units">Units and staking</a></li>
             <li><a href="#m-teasers">Teasers</a></li>
             <li><a href="#m-nba">NBA research</a></li>
@@ -350,28 +348,28 @@
           </section>
           <section id="m-grading">
             <h2>Grading</h2>
-            <p>Results come from official box scores. A player who doesn't play is void and counts as zero. Picks marked paper are graded exactly the same way but are never counted in the money record. NFL picks are graded against Pinnacle's close; NBA picks are graded against Kalshi's price at tip-off, because Pinnacle's NBA prop prices rarely move before the game.</p>
+            <p>Results come from official box scores. A player who doesn't play is void and counts as zero. Every pick is graded the same way and counted in the record. NFL picks are graded against Pinnacle's close; NBA picks are graded against Kalshi's price at tip-off, because Pinnacle's NBA prop prices rarely move before the game.</p>
           </section>
           <section id="m-paper">
-            <h2>Paper and live</h2>
-            <p><span class="chip chip-live">Live</span> picks are real-money and count in the record. <span class="chip chip-paper">Paper</span> picks are posted and graded the same way but never counted. A strategy moves from paper to live only by passing a test written down before it started, and then a second, untouched paper sample half that size.</p>
-            <p>An outside review and our own recheck found that NFL closing-line value was smaller than it looked. Counting only closing lines Pinnacle actually moved, it was about zero over the first 26 measurable bets, so the edge is not proven. From Nov 1 every NFL game-day pick is still posted the same way, but on paper. Real-money picks return only if 150 measurable picks beat Pinnacle's close by at least 1 point, with the 95% range above zero, and also beat Kalshi's close. That is judged once, by Jan 13, 2027. The record before Nov 1 stays exactly as it was.</p>
+            <h2>Paper picks and tests</h2>
+            <p>Every pick on this site is a paper pick: posted before kickoff at a real, available price, graded the same way, and counted in the record. No strategy has passed its test yet, so none is presented as proven. Each strategy is judged once, by a test written down before it started; one that fails is retired, and its picks stay in the record.</p>
+            <p>An outside review and our own recheck found that NFL closing-line value was smaller than it looked. Counting only closing lines Pinnacle actually moved, it was about zero over the first 26 measurable picks, so rules v1 was retired on Oct 31. Rules v2 passes only if 150 measurable picks beat Pinnacle's close by at least 1 point, with the 95% range above zero, and also beat Kalshi's close. That is judged once, by Jan 13, 2027.</p>
           </section>
           <section id="m-units">
             <h2>Units and staking</h2>
-            <p>Every stake and result is in units, so the record means the same thing whatever your bankroll. One unit is 2% of your bankroll. With a $500 bankroll, 1 unit is $10: a 0.5u pick is a $5 bet, a 0.75u Strong pick is $7.50, and a +1.2u week means you're up $12. Picks are flat 0.5u to 0.75u, and long shots (+150 or longer) stay at 0.5u. Stakes never go up after losses.</p>
+            <p>Every stake and result is in units, so the record means the same thing whatever your bankroll. One unit is 2% of your bankroll. With a $500 bankroll, 1 unit is $10: a 0.5u pick is $5, a 0.75u Strong pick is $7.50, and a +1.2u week would be up $12. Picks are flat 0.5u to 0.75u, and long shots (+150 or longer) stay at 0.5u. Stakes never go up after losses.</p>
           </section>
           <section id="m-teasers">
             <h2>Teasers</h2>
-            <p>Two-team, six-point teasers on underdogs of +1.5 to +2.5 in games with totals of 49 or less. Teasing through 3 and 7 has won about 78% of legs since 2014, above the 74% needed at the usual price. Teasers have no closing-line value, so they are judged on results.</p>
+            <p>Two-team, six-point teasers on underdogs of +1.5 to +2.5 in games with totals of 49 or less. Teasing through 3 and 7 has won about 78% of legs since 2014, above the 74% needed at the usual price. Teasers have no closing-line value, so they are judged on results. On paper since Nov 2, like everything else.</p>
           </section>
           <section id="m-nba">
             <h2>NBA research</h2>
-            <p>NBA picks are on paper while we test them. Every bet the rules would make is posted and graded on the NBA research page, but none count in the record. Rules v3.1 (since Oct 28) needs an exchange price (Novig or ProphetX) whose break-even, after fees, is at least 3 points below Kalshi's price for the same side, with no limit per game or per night. To pass, 400 graded v3.1 picks must win at least 3 points more often than their break-even, with the 95% range above zero and a profit, judged by Feb 15, 2027 at the latest. The separate matchup test is decided at 1,500 bets or Jan 31, 2027.</p>
+            <p>NBA picks are on paper while we test them. Every bet the rules would make is posted, graded and counted on the NBA research page. Rules v3.1 (since Oct 28) needs an exchange price (Novig or ProphetX) whose break-even, after fees, is at least 3 points below Kalshi's price for the same side, with no limit per game or per night. To pass, 400 graded v3.1 picks must win at least 3 points more often than their break-even, with the 95% range above zero and a profit, judged by Feb 15, 2027 at the latest. The separate matchup test is decided at 1,500 bets or Jan 31, 2027.</p>
           </section>
           <section id="m-history">
             <h2>Strategy versions</h2>
-            <p>Every version that has run, with its dates and what happened to it. Records for each live on the Record and NBA research pages.</p>
+            <p>Every version that has run, with its dates and what happened to it. Records for each are on the Record and NBA research pages.</p>
             <ol class="history compact" id="method-history"></ol>
           </section>
           <section id="m-limits">

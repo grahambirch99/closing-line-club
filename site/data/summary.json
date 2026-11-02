@@ -1,15 +1,15 @@
 {
  "season": {
-  "w": 24,
-  "l": 36,
+  "w": 76,
+  "l": 68,
   "p": 0,
-  "units": -2.37,
-  "roi": -7.0,
-  "clv": -0.22,
-  "beat": 64,
-  "n_clv": 28,
-  "clv_any": 0.18,
-  "n_clv_any": 54
+  "units": 12.58,
+  "roi": 16.5,
+  "clv": -0.06,
+  "beat": 68,
+  "n_clv": 41,
+  "clv_any": 0.15,
+  "n_clv_any": 129
  },
  "gate": {
   "w": 6,
@@ -107,9 +107,27 @@
    "units": 0.62
   },
   {
+   "id": "W6-10",
+   "week": 6,
+   "label": "Kalif Raymond: Under 2.5 receptions",
+   "units": 0.62
+  },
+  {
    "id": "W6-15",
    "week": 6,
    "label": "Chase McLaughlin: Under 6.5 kicking points",
+   "units": 0.62
+  },
+  {
+   "id": "W6-16",
+   "week": 6,
+   "label": "Andre Szmyt: Under 6.5 kicking points",
+   "units": 0.62
+  },
+  {
+   "id": "W6-17",
+   "week": 6,
+   "label": "Trey Smack: Under 7.5 kicking points",
    "units": 0.62
   },
   {
@@ -122,6 +140,12 @@
    "id": "W6-25",
    "week": 6,
    "label": "Mark Andrews: Under 3.5 receptions",
+   "units": 0.6
+  },
+  {
+   "id": "W6-26",
+   "week": 6,
+   "label": "Chris Godwin: Over 3.5 receptions",
    "units": 0.6
   },
   {
@@ -161,256 +185,736 @@
    "units": -1.36
   },
   {
+   "id": "pp-12-10",
+   "week": 7,
+   "label": "Aaron Rodgers: Under 21.5 completions",
+   "units": -0.8
+  },
+  {
+   "id": "pp-12-20",
+   "week": 7,
+   "label": "Chris Olave: Under 74.5 receiving yards",
+   "units": -0.22
+  },
+  {
    "id": "2026-W07-0018",
    "week": 7,
    "label": "Giants: moneyline",
-   "units": 0.59
+   "units": 1.74
   },
   {
    "id": "2026-W07-0021",
    "week": 7,
    "label": "Zachariah Branch: Over 1.5 receptions",
-   "units": 0.09
+   "units": 1.24
   },
   {
    "id": "2026-W07-0022",
    "week": 7,
    "label": "Austin Hooper: Over 0.5 receptions",
-   "units": 0.54
+   "units": 1.68
   },
   {
    "id": "2026-W07-0023",
    "week": 7,
    "label": "Ravens: moneyline",
-   "units": -0.21
+   "units": 0.93
   },
   {
    "id": "2026-W07-0024",
    "week": 7,
    "label": "Will Mallory: Under 1.5 receptions",
-   "units": 0.62
+   "units": 1.76
   },
   {
    "id": "2026-W07-0028",
    "week": 7,
    "label": "Adonai Mitchell: Over 2.5 receptions",
-   "units": 0.12
+   "units": 1.26
   },
   {
    "id": "2026-W07-0030",
    "week": 7,
    "label": "Devin Singletary: Over 1.5 receptions",
-   "units": 1.12
+   "units": 2.26
   },
   {
    "id": "2026-W07-0032",
    "week": 7,
    "label": "Jalen Coker: Over 5.5 receptions",
-   "units": 0.37
+   "units": 1.51
   },
   {
    "id": "2026-W07-0035",
    "week": 7,
    "label": "KC Concepcion: Over 4.5 receptions",
-   "units": 1.2
+   "units": 2.35
   },
   {
    "id": "2026-W07-0036",
    "week": 7,
    "label": "Zachariah Branch: Under 7.5 receiving yards",
-   "units": 0.45
+   "units": 1.6
   },
   {
    "id": "2026-W07-0037",
    "week": 7,
    "label": "Harold Fannin Jr.: Over 3.5 receptions",
-   "units": 1.45
+   "units": 2.59
   },
   {
    "id": "2026-W07-0038",
    "week": 7,
    "label": "Gunnar Helm: Over 2.5 receptions",
-   "units": 2.4
+   "units": 3.54
   },
   {
    "id": "2026-W07-0039",
    "week": 7,
    "label": "Tez Johnson: Over 2.5 receptions",
-   "units": 1.65
+   "units": 2.79
   },
   {
    "id": "2026-W07-0040",
    "week": 7,
    "label": "Chris Godwin: Over 4.5 receptions",
-   "units": 0.9
+   "units": 2.04
   },
   {
    "id": "2026-W07-0043",
    "week": 7,
    "label": "Elic Ayomanor: Under 1.5 receptions",
-   "units": 0.15
+   "units": 1.29
   },
   {
    "id": "2026-W07-0044",
    "week": 7,
    "label": "Adonai Mitchell: Under 26.5 receiving yards",
-   "units": 0.98
+   "units": 2.13
   },
   {
    "id": "2026-W07-0045",
    "week": 7,
    "label": "Cade Otton: Under 3.5 receptions",
-   "units": 1.72
+   "units": 2.86
   },
   {
    "id": "2026-W07-0046",
    "week": 7,
    "label": "Tank Dell: Under 6.5 receiving yards",
-   "units": 1.22
+   "units": 2.36
   },
   {
    "id": "2026-W07-0047",
    "week": 7,
    "label": "Gunnar Helm: Under 1.5 receptions",
-   "units": 0.72
+   "units": 1.86
   },
   {
    "id": "2026-W07-0048",
    "week": 7,
    "label": "Tee Higgins: Over 5.5 receptions",
-   "units": 1.54
+   "units": 2.69
   },
   {
    "id": "2026-W07-0049",
    "week": 7,
    "label": "Mason Taylor: Over 2.5 receptions",
-   "units": 2.08
+   "units": 3.23
   },
   {
    "id": "2026-W07-0050",
    "week": 7,
    "label": "Brandin Cooks: Under 23.5 receiving yards",
-   "units": 2.61
+   "units": 3.76
   },
   {
    "id": "2026-W07-0051",
    "week": 7,
    "label": "Two-team teaser: Titans +2.5 to +8.5 and Vikings +2.5 to +8.5",
-   "units": 3.03
+   "units": 4.17
+  },
+  {
+   "id": "pp-12-17",
+   "week": 7,
+   "label": "Chris Godwin: Under 41.5 receiving yards",
+   "units": 4.72
+  },
+  {
+   "id": "pp-12-29",
+   "week": 7,
+   "label": "George Kittle: Under 66.5 receiving yards",
+   "units": 4.22
+  },
+  {
+   "id": "pp-12-35",
+   "week": 7,
+   "label": "Malachi Fields: Under 1.5 receptions",
+   "units": 3.72
+  },
+  {
+   "id": "pp-12-48",
+   "week": 7,
+   "label": "Wan'Dale Robinson: Under 34.5 receiving yards",
+   "units": 4.25
+  },
+  {
+   "id": "pp-12-49",
+   "week": 7,
+   "label": "Isaiah Likely: Under 5.5 receptions",
+   "units": 4.72
+  },
+  {
+   "id": "pp-12-53",
+   "week": 7,
+   "label": "Brock Purdy: Under 30.5 pass attempts",
+   "units": 4.22
+  },
+  {
+   "id": "pp-16-103",
+   "week": 7,
+   "label": "KC Concepcion: Under 39.5 receiving yards",
+   "units": 3.72
+  },
+  {
+   "id": "pp-16-104",
+   "week": 7,
+   "label": "Tank Dell: Under 0.5 receptions",
+   "units": 3.22
+  },
+  {
+   "id": "pp-16-108",
+   "week": 7,
+   "label": "Tony Pollard: Under 16.5 rush attempts",
+   "units": 2.72
+  },
+  {
+   "id": "pp-16-116",
+   "week": 7,
+   "label": "Geno Smith: Under 5.5 rushing yards",
+   "units": 3.32
+  },
+  {
+   "id": "pp-16-124",
+   "week": 7,
+   "label": "Will Mallory: Under 1.5 receptions",
+   "units": 4.04
+  },
+  {
+   "id": "pp-16-127",
+   "week": 7,
+   "label": "Josh Downs: Under 45.5 receiving yards",
+   "units": 4.68
+  },
+  {
+   "id": "pp-16-137",
+   "week": 7,
+   "label": "Ja'Marr Chase: Under 79.5 receiving yards",
+   "units": 5.25
+  },
+  {
+   "id": "pp-16-141",
+   "week": 7,
+   "label": "Baker Mayfield: Under 20.5 completions",
+   "units": 5.78
+  },
+  {
+   "id": "pp-16-143",
+   "week": 7,
+   "label": "Jaylen Wright: Under 14.5 rushing yards",
+   "units": 6.31
+  },
+  {
+   "id": "pp-16-149",
+   "week": 7,
+   "label": "Tyrone Tracy Jr.: Under 2.5 receptions",
+   "units": 6.47
+  },
+  {
+   "id": "pp-16-151",
+   "week": 7,
+   "label": "Ted Hurst III: Under 39.5 receiving yards",
+   "units": 6.87
+  },
+  {
+   "id": "wind-2823e986597c449ab94126cd5ed3fae9-45.0",
+   "week": 7,
+   "label": "Buccaneers at Panthers: Under 45.0 points",
+   "units": 6.87
   },
   {
    "id": "2026-W07-0027",
    "week": 7,
    "label": "J.K. Dobbins: Over 1.5 receptions",
-   "units": 2.53
+   "units": 6.37
   },
   {
    "id": "2026-W07-0031",
    "week": 7,
    "label": "Tyler Allgeier: Over 2.5 receptions",
-   "units": 3.54
+   "units": 7.38
   },
   {
    "id": "2026-W07-0052",
    "week": 7,
    "label": "Courtland Sutton: Over 3.5 receptions",
-   "units": 3.04
+   "units": 6.88
+  },
+  {
+   "id": "pp-12-28",
+   "week": 7,
+   "label": "Evan Engram: Under 2.5 receptions",
+   "units": 7.35
+  },
+  {
+   "id": "pp-12-33",
+   "week": 7,
+   "label": "Bo Nix: Under 21.5 completions",
+   "units": 7.84
+  },
+  {
+   "id": "pp-16-107",
+   "week": 7,
+   "label": "Bam Knight: Under 39.5 rushing yards",
+   "units": 7.34
+  },
+  {
+   "id": "pp-16-121",
+   "week": 7,
+   "label": "J.K. Dobbins: Under 46.5 rushing yards",
+   "units": 7.88
   },
   {
    "id": "2026-W07-0025",
    "week": 7,
    "label": "Pierre Strong Jr.: Over 1.5 receptions",
-   "units": 2.29
+   "units": 7.13
   },
   {
    "id": "2026-W07-0033",
    "week": 7,
    "label": "Kyren Williams: Under 3.5 receptions",
-   "units": 3.19
+   "units": 8.03
   },
   {
    "id": "2026-W07-0053",
    "week": 7,
    "label": "Jahmyr Gibbs: Over 42.5 receiving yards",
-   "units": 2.44
+   "units": 7.28
   },
   {
    "id": "2026-W07-0054",
    "week": 7,
    "label": "Kyren Williams: Over 28.5 receiving yards",
-   "units": 1.69
+   "units": 6.53
   },
   {
    "id": "2026-W07-0055",
    "week": 7,
    "label": "Blake Corum: Over 9.5 receiving yards",
-   "units": 1.19
+   "units": 6.03
+  },
+  {
+   "id": "pp-12-1",
+   "week": 7,
+   "label": "Tyler Higbee: Under 3.5 receptions",
+   "units": 6.85
+  },
+  {
+   "id": "pp-12-7",
+   "week": 7,
+   "label": "Jordan Whittington: Under 4.5 receiving yards",
+   "units": 7.46
+  },
+  {
+   "id": "pp-12-30",
+   "week": 7,
+   "label": "Jahmyr Gibbs: Under 38.5 receiving yards",
+   "units": 8.04
+  },
+  {
+   "id": "pp-12-39",
+   "week": 7,
+   "label": "Sam LaPorta: Under 4.5 receptions",
+   "units": 8.68
+  },
+  {
+   "id": "pp-16-109",
+   "week": 7,
+   "label": "Blake Corum: Under 2.5 receptions",
+   "units": 8.79
   },
   {
    "id": "2026-W07-0026",
    "week": 7,
    "label": "Jaxon Smith-Njigba: Under 6.5 receptions",
-   "units": 0.44
+   "units": 8.04
   },
   {
    "id": "2026-W07-0029",
    "week": 7,
    "label": "Rashid Shaheed: Over 2.5 receptions",
-   "units": -0.31
+   "units": 7.29
   },
   {
    "id": "2026-W07-0056",
    "week": 7,
    "label": "Tory Horton: Over 1.5 receptions",
-   "units": -0.81
+   "units": 6.79
   },
   {
    "id": "2026-W07-0057",
    "week": 7,
    "label": "Xavier Worthy: Over 50.5 receiving yards",
-   "units": -1.31
+   "units": 6.29
+  },
+  {
+   "id": "pp-12-60",
+   "week": 7,
+   "label": "Kenneth Walker III: Under 19.5 receiving yards",
+   "units": 5.79
+  },
+  {
+   "id": "pp-16-110",
+   "week": 7,
+   "label": "Patrick Mahomes: Under 16.5 rushing yards",
+   "units": 6.33
   },
   {
    "id": "2026-W07-0060",
    "week": 7,
    "label": "Elijah Moore: Over 1.5 receptions",
-   "units": -0.45
+   "units": 7.19
   },
   {
    "id": "2026-W07-0061",
    "week": 7,
    "label": "Makai Lemon: Under 38.5 receiving yards",
-   "units": -0.95
+   "units": 6.69
   },
   {
    "id": "2026-W08-0062",
    "week": 8,
    "label": "John Metchie III: Over 16.5 receiving yards",
-   "units": -1.7
+   "units": 5.94
   },
   {
    "id": "2026-W08-0063",
    "week": 8,
    "label": "Matthew Golden: Over 59.5 receiving yards",
-   "units": -0.87
+   "units": 6.77
+  },
+  {
+   "id": "pp-40-185",
+   "week": 8,
+   "label": "Tucker Kraft: Under 43.5 receiving yards",
+   "units": 6.27
   },
   {
    "id": "2026-W08-0058",
    "week": 8,
    "label": "Titans: moneyline",
-   "units": -1.37
+   "units": 5.77
+  },
+  {
+   "id": "2026-W08-0064",
+   "week": 8,
+   "label": "Elijah Higgins: Over 17.5 receiving yards",
+   "units": 5.02
+  },
+  {
+   "id": "2026-W08-0065",
+   "week": 8,
+   "label": "Dohnte Meyers: Over 1.5 receptions",
+   "units": 5.74
+  },
+  {
+   "id": "2026-W08-0069",
+   "week": 8,
+   "label": "Wan'Dale Robinson: Over 5.5 receptions",
+   "units": 6.61
+  },
+  {
+   "id": "2026-W08-0070",
+   "week": 8,
+   "label": "Darnell Washington: Over 2.5 receptions",
+   "units": 7.67
+  },
+  {
+   "id": "2026-W08-0072",
+   "week": 8,
+   "label": "Jauan Jennings: Over 1.5 receptions",
+   "units": 8.5
+  },
+  {
+   "id": "2026-W08-0075",
+   "week": 8,
+   "label": "Isaac TeSlaa: Over 1.5 receptions",
+   "units": 7.75
+  },
+  {
+   "id": "2026-W08-0078",
+   "week": 8,
+   "label": "Chris Godwin: Under 41.5 receiving yards",
+   "units": 8.5
   },
   {
    "id": "2026-W08-0079",
    "week": 8,
    "label": "Two-team teaser: Falcons +1.5 to +7.5 and Raiders +1.5 to +7.5",
-   "units": -1.87
+   "units": 8.0
+  },
+  {
+   "id": "pp-42-194",
+   "week": 8,
+   "label": "Chris Rodriguez Jr.: Under 26.5 rushing yards",
+   "units": 7.5
+  },
+  {
+   "id": "pp-42-199",
+   "week": 8,
+   "label": "Pat Freiermuth: Under 23.5 receiving yards",
+   "units": 7.0
+  },
+  {
+   "id": "pp-42-203",
+   "week": 8,
+   "label": "Brenton Strange: Under 3.5 receptions",
+   "units": 7.63
+  },
+  {
+   "id": "pp-42-204",
+   "week": 8,
+   "label": "Derrick Henry: Under 79.5 rushing yards",
+   "units": 8.06
+  },
+  {
+   "id": "pp-42-206",
+   "week": 8,
+   "label": "Garrett Wilson: Under 4.5 receptions",
+   "units": 7.56
+  },
+  {
+   "id": "pp-42-207",
+   "week": 8,
+   "label": "Ryan Flournoy: Under 35.5 receiving yards",
+   "units": 7.06
+  },
+  {
+   "id": "pp-42-214",
+   "week": 8,
+   "label": "Keon Coleman: Under 2.5 receptions",
+   "units": 7.41
+  },
+  {
+   "id": "pp-42-216",
+   "week": 8,
+   "label": "Geno Smith: Under 29.5 pass attempts",
+   "units": 6.91
+  },
+  {
+   "id": "pp-42-220",
+   "week": 8,
+   "label": "Bijan Robinson: Under 24.5 receiving yards",
+   "units": 7.56
+  },
+  {
+   "id": "pp-42-227",
+   "week": 8,
+   "label": "Rico Dowdle: Under 24.5 rushing yards",
+   "units": 7.06
+  },
+  {
+   "id": "pp-45-283",
+   "week": 8,
+   "label": "Ted Hurst III: Under 39.5 receiving yards",
+   "units": 7.41
+  },
+  {
+   "id": "pp-45-284",
+   "week": 8,
+   "label": "Jaylen Warren: Under 24.5 receiving yards",
+   "units": 8.0
+  },
+  {
+   "id": "pp-45-286",
+   "week": 8,
+   "label": "Chase Brown: Under 13.5 rush attempts",
+   "units": 8.74
+  },
+  {
+   "id": "pp-45-287",
+   "week": 8,
+   "label": "Tee Higgins: Under 66.5 receiving yards",
+   "units": 8.24
+  },
+  {
+   "id": "pp-45-292",
+   "week": 8,
+   "label": "Aaron Rodgers: Under 0.5 rushing yards",
+   "units": 8.75
+  },
+  {
+   "id": "pp-45-302",
+   "week": 8,
+   "label": "Seth McGowan: Under 19.5 rushing yards",
+   "units": 8.25
+  },
+  {
+   "id": "pp-45-304",
+   "week": 8,
+   "label": "Sione Vaki: Under 4.5 rushing yards",
+   "units": 7.75
+  },
+  {
+   "id": "pp-45-305",
+   "week": 8,
+   "label": "Jalen Nailor: Under 1.5 receptions",
+   "units": 7.25
+  },
+  {
+   "id": "pp-45-307",
+   "week": 8,
+   "label": "Khalil Shakir: Under 38.5 receiving yards",
+   "units": 6.75
+  },
+  {
+   "id": "pp-45-314",
+   "week": 8,
+   "label": "James Cook: Under 9.5 receiving yards",
+   "units": 6.25
+  },
+  {
+   "id": "pp-45-316",
+   "week": 8,
+   "label": "Trey McBride: Under 7.5 receptions",
+   "units": 6.82
+  },
+  {
+   "id": "wind-159dbf0253dd2038eda2212f84387f0c-46.5",
+   "week": 8,
+   "label": "Colts at Jaguars: Under 46.5 points",
+   "units": 6.82
+  },
+  {
+   "id": "2026-W08-0073",
+   "week": 8,
+   "label": "Keaton Mitchell: Over 1.5 receptions",
+   "units": 7.76
+  },
+  {
+   "id": "2026-W08-0074",
+   "week": 8,
+   "label": "Kimani Vidal: Over 1.5 receptions",
+   "units": 8.7
+  },
+  {
+   "id": "pp-45-312",
+   "week": 8,
+   "label": "Omarion Hampton: Under 32.5 rushing yards",
+   "units": 9.24
   },
   {
    "id": "2026-W08-0059",
    "week": 8,
    "label": "Dolphins: moneyline",
-   "units": -2.37
+   "units": 8.74
+  },
+  {
+   "id": "2026-W08-0066",
+   "week": 8,
+   "label": "Cyrus Allen: Over 0.5 receptions",
+   "units": 9.31
+  },
+  {
+   "id": "2026-W08-0071",
+   "week": 8,
+   "label": "Rashee Rice: Over 4.5 receptions",
+   "units": 10.11
+  },
+  {
+   "id": "2026-W08-0077",
+   "week": 8,
+   "label": "Efton Chism III: Under 1.5 receptions",
+   "units": 9.61
+  },
+  {
+   "id": "2026-W08-0080",
+   "week": 8,
+   "label": "Rhamondre Stevenson: Under 2.5 receptions",
+   "units": 9.11
+  },
+  {
+   "id": "2026-W08-0081",
+   "week": 8,
+   "label": "Corey Kiner: Over 1.5 receiving yards",
+   "units": 8.61
+  },
+  {
+   "id": "pp-42-217",
+   "week": 8,
+   "label": "Kenneth Walker III: Under 88.5 rushing yards",
+   "units": 9.12
+  },
+  {
+   "id": "pp-42-231",
+   "week": 8,
+   "label": "Hunter Henry: Under 38.5 receiving yards",
+   "units": 9.64
+  },
+  {
+   "id": "pp-42-249",
+   "week": 8,
+   "label": "Patrick Mahomes: Under 12.5 rushing yards",
+   "units": 10.17
+  },
+  {
+   "id": "pp-45-291",
+   "week": 8,
+   "label": "Jonah Coleman: Under 1.5 receptions",
+   "units": 9.67
+  },
+  {
+   "id": "pp-45-297",
+   "week": 8,
+   "label": "Drake Maye: Under 4.5 rush attempts",
+   "units": 9.17
+  },
+  {
+   "id": "pp-45-309",
+   "week": 8,
+   "label": "DeMario Douglas: Under 3.5 receptions",
+   "units": 9.66
+  },
+  {
+   "id": "2026-W08-0067",
+   "week": 8,
+   "label": "Chig Okonkwo: Under 32.5 receiving yards",
+   "units": 10.49
+  },
+  {
+   "id": "2026-W08-0068",
+   "week": 8,
+   "label": "Stefon Diggs: Under 4.5 receptions",
+   "units": 11.05
+  },
+  {
+   "id": "2026-W08-0076",
+   "week": 8,
+   "label": "Darius Cooper: Under 2.5 receptions",
+   "units": 11.78
+  },
+  {
+   "id": "2026-W08-0082",
+   "week": 8,
+   "label": "Saquon Barkley: Under 2.5 receptions",
+   "units": 12.08
+  },
+  {
+   "id": "pp-42-241",
+   "week": 8,
+   "label": "Rachaad White: Under 12.5 rush attempts",
+   "units": 12.58
   }
  ],
  "clv_by_week": [
@@ -421,49 +925,62 @@
   },
   {
    "week": 8,
-   "clv": -1.21,
-   "n": 8
+   "clv": -0.23,
+   "n": 16
   }
  ],
  "by_type": [
   {
-   "type": "Receptions",
-   "w": 18,
-   "l": 20,
+   "type": "Mid-week props model",
+   "w": 37,
+   "l": 23,
    "p": 0,
-   "units": 1.31,
-   "roi": 5.8,
-   "clv": 0.05,
-   "beat": 63,
-   "n_clv": 19,
-   "clv_any": 0.52,
-   "n_clv_any": 37
+   "units": 8.05,
+   "roi": 26.8,
+   "clv": null,
+   "beat": null,
+   "n_clv": 0,
+   "clv_any": 0.09,
+   "n_clv_any": 55
   },
   {
-   "type": "Receiving yards",
-   "w": 3,
-   "l": 11,
+   "type": "Game-day picks, rules v1",
+   "w": 23,
+   "l": 35,
    "p": 0,
-   "units": -3.81,
-   "roi": -47.7,
-   "clv": 0.32,
-   "beat": 80,
-   "n_clv": 5,
-   "clv_any": -0.07,
-   "n_clv_any": 13
+   "units": -2.29,
+   "roi": -7.0,
+   "clv": -0.22,
+   "beat": 64,
+   "n_clv": 28,
+   "clv_any": 0.18,
+   "n_clv_any": 54
   },
   {
-   "type": "Game lines",
-   "w": 1,
+   "type": "Saturday preview and Week 6 card",
+   "w": 9,
    "l": 3,
    "p": 0,
-   "units": 0.21,
-   "roi": 9.3,
-   "clv": -2.17,
-   "beat": 50,
-   "n_clv": 4,
-   "clv_any": -2.17,
-   "n_clv_any": 4
+   "units": 5.42,
+   "roi": 90.4,
+   "clv": 0.75,
+   "beat": 88,
+   "n_clv": 8,
+   "clv_any": 0.6,
+   "n_clv_any": 10
+  },
+  {
+   "type": "Game-day picks, rules v2",
+   "w": 6,
+   "l": 4,
+   "p": 0,
+   "units": 1.48,
+   "roi": 22.7,
+   "clv": -0.42,
+   "beat": 60,
+   "n_clv": 5,
+   "clv_any": -0.15,
+   "n_clv_any": 10
   },
   {
    "type": "Teasers",
@@ -479,22 +996,9 @@
    "n_clv_any": 0
   },
   {
-   "type": "Rushing yards",
-   "w": 1,
-   "l": 0,
-   "p": 0,
-   "units": 0,
-   "roi": null,
-   "clv": null,
-   "beat": null,
-   "n_clv": 0,
-   "clv_any": null,
-   "n_clv_any": 0
-  },
-  {
-   "type": "Kicking points",
+   "type": "Wind Unders angle",
    "w": 0,
-   "l": 1,
+   "l": 2,
    "p": 0,
    "units": 0,
    "roi": null,

@@ -1,27 +1,27 @@
-// Strategy register: what each strategy is, whether it is on real money, and how it will be judged.
+// Strategy register: what each strategy is and how it will be judged. Everything is paper (Graham, Nov 2, 2026).
 // Edit in the PRIVATE repo (nfl-odds-logger -> site/strategies.js -> pencil icon); every site build copies it to the
 // public repo, so edits made there are overwritten. Text only: records and progress always come from the data files.
 //
-// status: "live"     real money, counted in the record
-//         "paper"    posted and graded, never counted in the money record
+// status: "paper"    posted before kickoff, graded and counted in the record (no money staked; nothing is presented
+//                    as proven until it passes its pre-registered test)
 //         "experimental" tracked for measurement only (not posted as picks)
 //         "retired"  no longer run; its record stays visible
 // progress: which data block counts toward the verdict (filled in by app.js from data/bundle.js):
 //   "gate" | "cfb" | "cfb_props" (summary.json), "nba" | "h2h" (nba.json)
 window.CLC_STRATEGIES = [
-  { id: "teasers", sport: "NFL", name: "Two-team teasers", status: "live", since: "Oct 2026",
+  { id: "teasers", sport: "NFL", name: "Two-team teasers", status: "paper", since: "Oct 2026",
     rule: "Six-point teasers on underdogs of +1.5 to +2.5 in games with a total of 49 or less, teased through 3 and 7.",
-    verdict: "Counted in the real-money record." },
+    verdict: "Backed by closing lines since 2014 (about 78% of legs won), but only a handful of forward picks so far, so not proven. On paper since Nov 2; counted in the record. Reviewed after 25 graded: stops if the leg win rate is under 70%." },
   { id: "nfl-v2", sport: "NFL", name: "Game-day prices, rules v2", status: "paper", since: "Nov 1, 2026",
-    rule: "Same picks and posting as the real-money run, tracked on paper while the edge is re-tested.",
-    verdict: "Judged once at 150 measurable picks or Jan 13, 2027: average CLV vs Pinnacle's close of at least +1.0 pt with the 95% range above zero, and positive CLV vs Kalshi's close. A pass is followed by a second, untouched paper sample before any money.",
+    rule: "Same picks and posting as rules v1, re-tested with stricter closing-line value.",
+    verdict: "Judged once at 150 measurable picks or Jan 13, 2027: average CLV vs Pinnacle's close of at least +1.0 pt with the 95% range above zero, and positive CLV vs Kalshi's close. A pass is followed by a second, untouched paper sample.",
     progress: "gate" },
   { id: "props-midweek", sport: "NFL", name: "Mid-week props model", status: "paper", since: "Oct 21, 2026",
     rule: "Mid-week player-prop prices compared with Pinnacle alone and with Kalshi alone; plays where both agree are flagged.",
-    verdict: "Tracked on paper. Never counted in the record." },
+    verdict: "Counted in the record. Judged on closing-line value against Pinnacle and Kalshi separately." },
   { id: "wind", sport: "NFL", name: "Wind Unders angle", status: "paper", since: "Oct 2026",
     rule: "Game-total Unders when the kickoff wind forecast is strong.",
-    verdict: "Tracked on paper. Never counted in the record." },
+    verdict: "Counted in the record." },
   { id: "cfb", sport: "College football", name: "College game lines", status: "paper", since: "Oct 31, 2026",
     rule: "Same price rule as the NFL picks, in games with no Big Ten or SEC team.",
     verdict: "Judged on closing-line value at 150 measurable picks.", progress: "cfb" },
@@ -34,11 +34,11 @@ window.CLC_STRATEGIES = [
     progress: "nba" },
   { id: "nba-h2h", sport: "NBA", name: "NBA matchup test", status: "experimental", since: "Oct 22, 2026",
     rule: "Players whose past results against tonight's opponent rank in the top or bottom 20% of last season's matchups, priced at Kalshi.",
-    verdict: "Decided once at 1,500 graded bets or Jan 31, 2027. Money needs the net result's 95% range above zero.",
+    verdict: "Decided once at 1,500 graded bets or Jan 31, 2027. Passing also needs the net result's 95% range above zero.",
     progress: "h2h" },
-  { id: "nfl-v1", sport: "NFL", name: "Game-day prices, real money (rules v1 to v1.1)", status: "retired", since: "Oct 15 – Oct 31, 2026",
+  { id: "nfl-v1", sport: "NFL", name: "Game-day prices, rules v1 to v1.1", status: "retired", since: "Oct 15 – Oct 31, 2026",
     rule: "Exchange prices at least 3% better than Pinnacle's no-margin price and 2 points above break-even.",
-    verdict: "Real money ended Oct 31: counting only closing lines Pinnacle actually moved, closing-line value was about zero, so the edge is not proven. Its record stays in full." },
+    verdict: "Retired Oct 31: counting only closing lines Pinnacle actually moved, closing-line value was about zero, so the edge is not proven. Its record stays in full." },
   { id: "nba-v3", sport: "NBA", name: "NBA rules v3 with caps", status: "retired", since: "Oct 26 – 27, 2026",
     rule: "The v3 rule with at most 3 picks per game and 8 per night.",
     verdict: "Replaced by v3.1 on Oct 28 (caps removed). Reported separately; not part of the v3.1 test." },
