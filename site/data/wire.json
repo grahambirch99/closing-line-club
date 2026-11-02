@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-02T22:41:29.657627+00:00",
+   "kind": "qb",
+   "source": "rapsheet",
+   "text": "The Cardinals are naming QB Gardner Minshew as their starting QB, one day after his heroics led to a dramatic win over the Cowboys. Jacoby Brissett heads to the bench"
+  },
+  {
    "at": "2026-11-02T22:13:33.272720+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Jakobi Meyers DNP Friday, draws 'Q' tag for Week 8"
-  },
-  {
-   "at": "2026-10-30T19:08:27.295969+00:00",
-   "kind": "injury",
-   "source": "rapsheet",
-   "text": "Emeka Egbuka ruled out."
   }
  ]
 }
