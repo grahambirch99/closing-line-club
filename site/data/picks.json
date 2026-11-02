@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T07:25:12Z",
+ "generated_at": "2026-11-02T15:03:14Z",
  "current_week": 8,
  "weeks": [
   {
@@ -634,15 +634,15 @@
      "edge": 4.6,
      "worst": "+110",
      "analysis": "Novig at +113 beats Pinnacle's no-vig price (49% to hit), a +4.6% edge in the Saturday preview.",
-     "status": "pending",
-     "actual": "",
-     "clv": null,
-     "units": null,
+     "status": "L",
+     "actual": "0 rec",
+     "clv": 2.1,
+     "units": -0.75,
      "posted": "2026-10-31T21:39:43Z",
      "rules": "v1.1 (Shin, 2-pt minimum)",
-     "clv_method": "",
-     "close_moved": "",
-     "clv_ok": false
+     "clv_method": "exact",
+     "close_moved": "1",
+     "clv_ok": true
     },
     {
      "id": "pp-42-214",
