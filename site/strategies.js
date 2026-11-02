@@ -1,9 +1,10 @@
-// Strategy register: what each strategy is and how it will be judged. Everything is paper (Graham, Nov 2, 2026).
+// Strategy register: what each strategy is and how it will be judged.
 // Edit in the PRIVATE repo (nfl-odds-logger -> site/strategies.js -> pencil icon); every site build copies it to the
 // public repo, so edits made there are overwritten. Text only: records and progress always come from the data files.
 //
-// status: "paper"    posted before kickoff, graded and counted in the record (no money staked; nothing is presented
-//                    as proven until it passes its pre-registered test)
+// status: base status only. The live status comes from data/picks/strategy_status.csv (summary.status), set by
+//         strategy_status.py: real money at >= 30 graded and ROI > +10%, back to paper below +10% (Graham, Nov 2).
+//         "paper"    posted before kickoff, graded and counted in the record
 //         "experimental" tracked for measurement only (not posted as picks)
 //         "retired"  no longer run; its record stays visible
 // progress: which data block counts toward the verdict (filled in by app.js from data/bundle.js):
@@ -19,6 +20,9 @@ window.CLC_STRATEGIES = [
   { id: "props-midweek", sport: "NFL", name: "Mid-week props model", status: "paper", since: "Oct 21, 2026",
     rule: "Mid-week player-prop prices compared with Pinnacle alone and with Kalshi alone; plays where both agree are flagged.",
     verdict: "Counted in the record. Judged on closing-line value against Pinnacle and Kalshi separately." },
+  { id: "sat-preview", sport: "NFL", name: "Saturday preview picks", status: "paper", since: "Oct 28, 2026",
+    rule: "Saturday edges against Pinnacle, posted the day before games.",
+    verdict: "Counted in the record." },
   { id: "wind", sport: "NFL", name: "Wind Unders angle", status: "paper", since: "Oct 2026",
     rule: "Game-total Unders when the kickoff wind forecast is strong.",
     verdict: "Counted in the record." },

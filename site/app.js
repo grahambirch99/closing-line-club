@@ -14,7 +14,9 @@
   D.nba.summary = D.nba.summary || {};
   D.nba.nights = D.nba.nights || [];
   const CFG = window.SITE_CONFIG || {};
-  const STRATS = window.CLC_STRATEGIES || [];
+  // Status comes from the data (data/picks/strategy_status.csv via summary.status) when present: real money by ROI rule.
+  const STATUS = D.summary.status || {};
+  const STRATS = (window.CLC_STRATEGIES || []).map((s) => (STATUS[s.id] ? { ...s, status: STATUS[s.id].status, statusSince: STATUS[s.id].since, statusWhy: STATUS[s.id].reason } : s));
   const REPO = CFG.repo || "https://github.com/grahambirch99/closing-line-club";
   const TZ = "America/Los_Angeles";
 
@@ -50,6 +52,7 @@
   ICON.void = ICON.P;
   const STATUS_LABEL = { W: "Won", L: "Lost", P: "Push", void: "Void", open: "Open" };
   const CHIP = {
+    live: '<span class="chip chip-live">Real money</span>',
     paper: '<span class="chip chip-paper">Paper</span>',
     experimental: '<span class="chip chip-exp">Experimental</span>',
     retired: '<span class="chip chip-retired">Retired</span>',
@@ -76,7 +79,7 @@
     return { n, mean: m, lo: m - h, hi: m + h };
   }
   const nflPicks = (D.picks.weeks || []).flatMap((w) => w.picks || []);
-  // Every tracked pick counts in the record (Graham, Nov 2): there is no real-money/paper split on the site.
+  // Every tracked pick counts in the record (Graham, Nov 2). Picks from a strategy that was on real money when posted carry p.live.
   const COUNTED = ["bet", "teaser", "trial", "paper", "cfb"];
   const isGraded = (p) => ["W", "L", "P"].includes(p.status);
   // Same selection as site_build.summarize(): counted kinds, graded, exact close that moved (clv_ok).
@@ -112,8 +115,8 @@
       figure("Graded picks", fmtInt(g), isFinite(firstWeek) ? `Every tracked pick since Week ${firstWeek}` : "Every tracked pick",
         "Every NFL and college pick we posted that has a final result, from every strategy and rule version. Voids are not counted. NBA has its own page."),
       figure("Record", rec(s), winPct != null ? `${winPct}% won` : "", "Wins–losses (–pushes). Win rate alone doesn't show skill: it depends on the prices taken."),
-      figure("Units", `<span class="${tone(s.units)}">${fmtU(s.units)}</span>`, "Flat 0.5u–0.75u paper stakes",
-        "Total profit or loss in units at the posted stakes. All picks are paper: no money is staked."),
+      figure("Units", `<span class="${tone(s.units)}">${fmtU(s.units)}</span>`, "Flat 0.5u–0.75u stakes",
+        "Total profit or loss in units at the posted stakes, real money and paper alike."),
       figure("Return on stakes", `<span class="${tone(s.roi)}">${fmtPct(s.roi)}</span>`, g ? `On ${g} graded picks` : "",
         "Profit divided by the total amount staked. Swings widely below several hundred bets."),
       figure("Average CLV", `<span class="${tone(s.clv)}">${s.clv == null ? "–" : `${fmtPts(s.clv, 2)} pts`}</span>`,
@@ -152,7 +155,13 @@
       return { w: ps.filter((p) => p.status === "W").length, l: ps.filter((p) => p.status === "L").length,
         p: ps.filter((p) => p.status === "P").length, units: ps.reduce((a, p) => a + (p.units || 0), 0) };
     };
-    const map = { "nfl-v1": sumKind("bet"), teasers: sumKind("teaser"), "props-midweek": sumSys((x) => /props/i.test(x)), wind: sumSys((x) => /wind/i.test(x)), "nfl-v2": D.summary.gate, cfb: D.summary.cfb, "cfb-props": D.summary.cfb_props,
+    const sumStrat = (sid) => {
+      const ps = nflPicks.filter((p) => p.strategy === sid && isGraded(p));
+      if (!ps.length) return null;
+      return { w: ps.filter((p) => p.status === "W").length, l: ps.filter((p) => p.status === "L").length,
+        p: ps.filter((p) => p.status === "P").length, units: ps.reduce((a, p) => a + (p.units || 0), 0) };
+    };
+    const map = { "sat-preview": sumStrat("sat-preview"), "nfl-v1": sumKind("bet"), teasers: sumKind("teaser"), "props-midweek": sumSys((x) => /props/i.test(x)), wind: sumSys((x) => /wind/i.test(x)), "nfl-v2": D.summary.gate, cfb: D.summary.cfb, "cfb-props": D.summary.cfb_props,
       "nba-v31": N.goal ? N : null, "nba-v3": N.v3_capped, "nba-v2": N.v2, "nba-v1": N.v1, "nba-h2h": N.h2h };
     const r = map[id];
     return r && graded(r) ? r : null;
@@ -195,6 +204,7 @@
       t.push(nbaRuleChip(p));
       if (p.v3 && p.matchup) t.push(`<span class="chip ${p.matchup === "agree" ? "chip-agree" : "chip-tag"}">${{ agree: "Matchup agrees", disagree: "Matchup disagrees", none: "No matchup pick" }[p.matchup] || ""}</span>`);
     }
+    t.push(p.live ? CHIP.live : CHIP.paper);
     if (p.tier === "A" && p.kind !== "nba" && p.kind !== "teaser") t.push('<span class="chip chip-strong">Strong</span>');
     if (p.system) t.push(`<span class="chip chip-tag">${esc(p.system)}</span>`);
     if (p.rules && p.kind !== "nba") t.push(`<span class="chip chip-tag">Rules ${esc(p.rules)}</span>`);
@@ -268,19 +278,21 @@
   }
 
   function renderStanding() {
-    const order = { paper: 0, experimental: 1 };
+    const order = { live: 0, paper: 1, experimental: 2 };
     const rows = STRATS.filter((s) => s.status !== "retired").sort((a, b) => order[a.status] - order[b.status]);
     const row = (s) => {
       const pr = s.progress ? stratProgress(s.progress) : null;
       const prog = pr ? progressHtml(pr.n, pr.goal, pr.unit) : "<span>Counted in the record</span>";
-      return `<div class="standing-row">
+      return `<div class="standing-row${s.status === "live" ? " is-live" : ""}">
         <div class="st-chip">${CHIP[s.status] || ""}</div>
         <div class="st-name"><span>${esc(s.name)}</span><span class="st-sport">${esc(s.sport)}</span>${info(`${s.rule} ${s.verdict}`)}</div>
-        <div class="st-progress">${prog}</div>
+        <div class="st-progress">${s.status === "live" && s.statusSince ? `<span>Real money since ${esc(when(s.statusSince))}</span>` : prog}</div>
         <div class="st-since">Since ${esc(s.since)}</div></div>`;
     };
+    const live = rows.filter((s) => s.status === "live"), rest = rows.filter((s) => s.status !== "live");
     $("#standing").innerHTML = rows.length
-      ? `<details class="standing-more"${window.innerWidth >= 1024 ? " open" : ""}><summary>${rows.length} ${rows.length === 1 ? "strategy" : "strategies"} being tested<span class="small"> (all on paper, all counted)</span></summary>${rows.map(row).join("")}</details>`
+      ? (live.length ? live.map(row).join("") : '<div class="standing-row is-none"><div class="st-name">Nothing is on real money right now.</div></div>') +
+        (rest.length ? `<details class="standing-more"${window.innerWidth >= 1024 ? " open" : ""}><summary>${rest.length} ${rest.length === 1 ? "strategy" : "strategies"} on paper<span class="small"> (also counted)</span></summary>${rest.map(row).join("")}</details>` : "")
       : '<div class="standing-row"><div>Strategy list unavailable.</div></div>';
   }
 
@@ -292,7 +304,7 @@
     const open = ps.filter((p) => p.status === "pending").length;
     $("#board-meta").innerHTML = `<div><dt>Season</dt><dd>2026 NFL</dd></div><div><dt>Week</dt><dd>${esc(wk.week)}</dd></div>${wk.dates ? `<div><dt>Games</dt><dd>${esc(wk.dates)}</dd></div>` : ""}${D.picks.generated_at ? `<div><dt>Picks last changed</dt><dd>${esc(when(D.picks.generated_at))}</dd></div>` : ""}`;
     $("#board-lede").innerHTML = ps.length
-      ? `${ps.length} pick${ps.length === 1 ? "" : "s"} posted for Week ${esc(wk.week)}, all on paper and all counted.${open ? ` ${open} still open.` : " All graded."}${graded(wk.record) ? ` This week: <b>${rec(wk.record)}, ${fmtU(wk.record.units)}</b>.` : ""}`
+      ? `${ps.length} pick${ps.length === 1 ? "" : "s"} posted for Week ${esc(wk.week)}${ps.some((p) => p.live) ? `: <b>${ps.filter((p) => p.live).length} on real money</b>, ${ps.filter((p) => !p.live).length} on paper, all counted.` : ", all on paper and all counted."}${open ? ` ${open} still open.` : " All graded."}${graded(wk.record) ? ` This week: <b>${rec(wk.record)}, ${fmtU(wk.record.units)}</b>.` : ""}`
       : `No picks posted for Week ${esc(wk.week)} yet. Most picks post on Sunday mornings after inactives are announced.`;
     $("#week-pills").innerHTML = weeks.map((w) => {
       const sub = graded(w.record) ? rec(w.record) : w.picks.length ? `${w.picks.length} picks` : "No picks yet";
@@ -320,7 +332,8 @@
     if (!s) { $("#board-figures").innerHTML = '<div class="figure">No graded picks yet.</div>'; return; }
     $("#board-figures").className = "figures six";
     $("#board-figures").innerHTML = seasonFigures(s, seasonCI);
-    $("#perf-note").innerHTML = `Every tracked NFL and college pick, all on paper. NBA has its own page. <a href="#record">Full record and charts</a>`;
+    const rm = D.summary.real_money;
+    $("#perf-note").innerHTML = `Every tracked NFL and college pick, real money and paper. NBA has its own page.${rm && graded(rm) ? ` Real-money picks alone: <b>${rec(rm)}, ${fmtU(rm.units)}</b>.` : ""} <a href="#record">Full record and charts</a>`;
     $("#board-verdict").innerHTML = clvSentence(s, seasonCI);
   }
 

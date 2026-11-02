@@ -11,6 +11,35 @@
   "clv_any": 0.15,
   "n_clv_any": 129
  },
+ "real_money": {
+  "w": 0,
+  "l": 0,
+  "p": 0,
+  "units": 0,
+  "roi": null,
+  "clv": null,
+  "beat": null,
+  "n_clv": 0,
+  "clv_any": null,
+  "n_clv_any": 0
+ },
+ "status": {
+  "nfl-v1": {
+   "status": "retired",
+   "since": "2026-10-31T23:59:00Z",
+   "reason": "Rules v1 retired Oct 31 (CLV about zero on measurable picks)"
+  },
+  "teasers": {
+   "status": "paper",
+   "since": "2026-11-02T17:45:00Z",
+   "reason": "Graham, Nov 2: everything to paper"
+  },
+  "props-midweek": {
+   "status": "live",
+   "since": "2026-11-02T17:59:27Z",
+   "reason": "60 graded, ROI +26.8% (> +10%)"
+  }
+ },
  "gate": {
   "w": 6,
   "l": 4,
@@ -932,6 +961,7 @@
  "by_type": [
   {
    "type": "Mid-week props model",
+   "id": "props-midweek",
    "w": 37,
    "l": 23,
    "p": 0,
@@ -945,6 +975,7 @@
   },
   {
    "type": "Game-day picks, rules v1",
+   "id": "nfl-v1",
    "w": 23,
    "l": 35,
    "p": 0,
@@ -958,6 +989,7 @@
   },
   {
    "type": "Saturday preview and Week 6 card",
+   "id": "sat-preview",
    "w": 9,
    "l": 3,
    "p": 0,
@@ -971,6 +1003,7 @@
   },
   {
    "type": "Game-day picks, rules v2",
+   "id": "nfl-v2",
    "w": 6,
    "l": 4,
    "p": 0,
@@ -984,6 +1017,7 @@
   },
   {
    "type": "Teasers",
+   "id": "teasers",
    "w": 1,
    "l": 1,
    "p": 0,
@@ -997,6 +1031,7 @@
   },
   {
    "type": "Wind Unders angle",
+   "id": "wind",
    "w": 0,
    "l": 2,
    "p": 0,

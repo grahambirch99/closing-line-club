@@ -204,7 +204,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.3323
+     "cost": 0.3323,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-ef6dd82b1e",
@@ -237,7 +239,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.495
+     "cost": 0.495,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-5bd6c33a01",
@@ -270,7 +274,9 @@
      "v3_ver": "3.1",
      "matchup": "agree",
      "stake_v3": 5.0,
-     "cost": 0.4149
+     "cost": 0.4149,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-7c46c6f062",
@@ -303,7 +309,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.5652
+     "cost": 0.5652,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-d554775566",
@@ -336,7 +344,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.3953
+     "cost": 0.3953,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-460a8d9801",
@@ -369,7 +379,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.5172
+     "cost": 0.5172,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-55ea114e6f",
@@ -402,7 +414,9 @@
      "v3_ver": "3.1",
      "matchup": "agree",
      "stake_v3": 5.0,
-     "cost": 0.4608
+     "cost": 0.4608,
+     "strategy": "nba-v31",
+     "live": false
     }
    ]
   },
@@ -453,7 +467,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.3985
+     "cost": 0.3985,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-2d9354bf00",
@@ -486,7 +502,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.3424
+     "cost": 0.3424,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-3d80050bba",
@@ -519,7 +537,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.5243
+     "cost": 0.5243,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-b3a3e068eb",
@@ -552,7 +572,9 @@
      "v3_ver": "3.1",
      "matchup": "disagree",
      "stake_v3": 5.0,
-     "cost": 0.7101
+     "cost": 0.7101,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-11ab10e203",
@@ -585,7 +607,9 @@
      "v3_ver": "3.1",
      "matchup": "agree",
      "stake_v3": 5.0,
-     "cost": 0.3644
+     "cost": 0.3644,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-d82f6944cf",
@@ -618,7 +642,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.25
+     "cost": 0.25,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-8c1d2fd067",
@@ -651,7 +677,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.2389
+     "cost": 0.2389,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-9046850d18",
@@ -684,7 +712,9 @@
      "v3_ver": "3.1",
      "matchup": "agree",
      "stake_v3": 5.0,
-     "cost": 0.4417
+     "cost": 0.4417,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-5c1c26dbab",
@@ -717,7 +747,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.4149
+     "cost": 0.4149,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-ef3f452c5f",
@@ -750,7 +782,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.4695
+     "cost": 0.4695,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-81bd51e8b7",
@@ -783,7 +817,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.7812
+     "cost": 0.7812,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-4550d2beda",
@@ -816,7 +852,9 @@
      "v3_ver": "3.1",
      "matchup": "agree",
      "stake_v3": 5.0,
-     "cost": 0.312
+     "cost": 0.312,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-a7cbe6d763",
@@ -849,7 +887,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.327
+     "cost": 0.327,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-57d96de657",
@@ -882,7 +922,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.5075
+     "cost": 0.5075,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-2a657eb9ab",
@@ -915,7 +957,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.3219
+     "cost": 0.3219,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-480b0a451c",
@@ -948,7 +992,9 @@
      "v3_ver": "3.1",
      "matchup": "disagree",
      "stake_v3": 5.0,
-     "cost": 0.3644
+     "cost": 0.3644,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-038d87bdfc",
@@ -981,7 +1027,9 @@
      "v3_ver": "3.1",
      "matchup": "disagree",
      "stake_v3": 5.0,
-     "cost": 0.5288
+     "cost": 0.5288,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-e4d08cd07a",
@@ -1014,7 +1062,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.5098
+     "cost": 0.5098,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-a7024a15d9",
@@ -1047,7 +1097,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.3073
+     "cost": 0.3073,
+     "strategy": "nba-v31",
+     "live": false
     }
    ]
   },
@@ -1098,7 +1150,9 @@
      "v3_ver": "3.1",
      "matchup": "agree",
      "stake_v3": 5.0,
-     "cost": 0.3169
+     "cost": 0.3169,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-a8f49f03a5",
@@ -1131,7 +1185,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.7474
+     "cost": 0.7474,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-81d181add6",
@@ -1164,7 +1220,9 @@
      "v3_ver": "3.1",
      "matchup": "disagree",
      "stake_v3": 5.0,
-     "cost": 0.4149
+     "cost": 0.4149,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-3001b22531",
@@ -1197,7 +1255,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.2983
+     "cost": 0.2983,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-9467cd18f9",
@@ -1230,7 +1290,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.4405
+     "cost": 0.4405,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-d72d7c8ed4",
@@ -1263,7 +1325,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.4251
+     "cost": 0.4251,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-d6b5ba8152",
@@ -1296,7 +1360,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.327
+     "cost": 0.327,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-e19889c4cb",
@@ -1329,7 +1395,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.3807
+     "cost": 0.3807,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-e6e62a596a",
@@ -1362,7 +1430,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.5902
+     "cost": 0.5902,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-cb1bbabace",
@@ -1395,7 +1465,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.3894
+     "cost": 0.3894,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-d9dab2cb4e",
@@ -1428,7 +1500,9 @@
      "v3_ver": "3.1",
      "matchup": "agree",
      "stake_v3": 5.0,
-     "cost": 0.5495
+     "cost": 0.5495,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-3fb333d965",
@@ -1461,7 +1535,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.3724
+     "cost": 0.3724,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-c720074331",
@@ -1494,7 +1570,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.3567
+     "cost": 0.3567,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-484d161f4e",
@@ -1527,7 +1605,9 @@
      "v3_ver": "3.1",
      "matchup": "disagree",
      "stake_v3": 5.0,
-     "cost": 0.5392
+     "cost": 0.5392,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-943c64ad52",
@@ -1560,7 +1640,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.6766
+     "cost": 0.6766,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-1a0962b5fc",
@@ -1593,7 +1675,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.7184
+     "cost": 0.7184,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-955d4b79bc",
@@ -1626,7 +1710,9 @@
      "v3_ver": "3.1",
      "matchup": "disagree",
      "stake_v3": 5.0,
-     "cost": 0.3401
+     "cost": 0.3401,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-059f4d9a0d",
@@ -1659,7 +1745,9 @@
      "v3_ver": "3.1",
      "matchup": "disagree",
      "stake_v3": 5.0,
-     "cost": 0.3618
+     "cost": 0.3618,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-a780395b45",
@@ -1692,7 +1780,9 @@
      "v3_ver": "3.1",
      "matchup": "agree",
      "stake_v3": 5.0,
-     "cost": 0.3751
+     "cost": 0.3751,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-09e795892f",
@@ -1725,7 +1815,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.4767
+     "cost": 0.4767,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-12d5a9e5f7",
@@ -1758,7 +1850,9 @@
      "v3_ver": "3.1",
      "matchup": "agree",
      "stake_v3": 5.0,
-     "cost": 0.5146
+     "cost": 0.5146,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-ec7a73ff6b",
@@ -1791,7 +1885,9 @@
      "v3_ver": "3.1",
      "matchup": "disagree",
      "stake_v3": 5.0,
-     "cost": 0.4695
+     "cost": 0.4695,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-e63d345f55",
@@ -1824,7 +1920,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.4251
+     "cost": 0.4251,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-00627be71d",
@@ -1857,7 +1955,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.4398
+     "cost": 0.4398,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-ad0f3975e0",
@@ -1890,7 +1990,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.5442
+     "cost": 0.5442,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-155ce3782f",
@@ -1923,7 +2025,9 @@
      "v3_ver": "3.1",
      "matchup": "disagree",
      "stake_v3": 5.0,
-     "cost": 0.5652
+     "cost": 0.5652,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-749c360761",
@@ -1956,7 +2060,9 @@
      "v3_ver": "3.1",
      "matchup": "disagree",
      "stake_v3": 5.0,
-     "cost": 0.5702
+     "cost": 0.5702,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-16154e722c",
@@ -1989,7 +2095,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.6047
+     "cost": 0.6047,
+     "strategy": "nba-v31",
+     "live": false
     }
    ]
   },
@@ -2040,7 +2148,9 @@
      "v3_ver": "3.1",
      "matchup": "agree",
      "stake_v3": 5.0,
-     "cost": 0.294
+     "cost": 0.294,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-e4fa47d6d4",
@@ -2073,7 +2183,9 @@
      "v3_ver": "3.1",
      "matchup": "disagree",
      "stake_v3": 5.0,
-     "cost": 0.3028
+     "cost": 0.3028,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-643f2e68f8",
@@ -2106,7 +2218,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.635
+     "cost": 0.635,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-cc60c4be07",
@@ -2139,7 +2253,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.4739
+     "cost": 0.4739,
+     "strategy": "nba-v31",
+     "live": false
     }
    ]
   },
@@ -2190,7 +2306,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.2362
+     "cost": 0.2362,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-d5ce1209fd",
@@ -2223,7 +2341,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.4323
+     "cost": 0.4323,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-b66820db87",
@@ -2256,7 +2376,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.4255
+     "cost": 0.4255,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-cbe19b7939",
@@ -2289,7 +2411,9 @@
      "v3_ver": "3.1",
      "matchup": "disagree",
      "stake_v3": 5.0,
-     "cost": 0.3906
+     "cost": 0.3906,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-4920ff4020",
@@ -2322,7 +2446,9 @@
      "v3_ver": "3.1",
      "matchup": "disagree",
      "stake_v3": 5.0,
-     "cost": 0.4835
+     "cost": 0.4835,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-a370f96095",
@@ -2355,7 +2481,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.5
+     "cost": 0.5,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-fa6ffa33f7",
@@ -2388,7 +2516,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.3567
+     "cost": 0.3567,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-6db410dbf9",
@@ -2421,7 +2551,9 @@
      "v3_ver": "3.1",
      "matchup": "disagree",
      "stake_v3": 5.0,
-     "cost": 0.6966
+     "cost": 0.6966,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-76efd59b64",
@@ -2454,7 +2586,9 @@
      "v3_ver": "3.1",
      "matchup": "agree",
      "stake_v3": 5.0,
-     "cost": 0.5146
+     "cost": 0.5146,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-2d84d101d6",
@@ -2487,7 +2621,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.5261
+     "cost": 0.5261,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-81b271069d",
@@ -2520,7 +2656,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.4808
+     "cost": 0.4808,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-f7f8564b91",
@@ -2553,7 +2691,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.6397
+     "cost": 0.6397,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-470dba75a6",
@@ -2586,7 +2726,9 @@
      "v3_ver": "3.1",
      "matchup": "agree",
      "stake_v3": 5.0,
-     "cost": 0.3401
+     "cost": 0.3401,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-92346b2997",
@@ -2619,7 +2761,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.3865
+     "cost": 0.3865,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-12840c25c9",
@@ -2652,7 +2796,9 @@
      "v3_ver": "3.1",
      "matchup": "disagree",
      "stake_v3": 5.0,
-     "cost": 0.4739
+     "cost": 0.4739,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-484a71b02b",
@@ -2685,7 +2831,9 @@
      "v3_ver": "3.1",
      "matchup": "agree",
      "stake_v3": 5.0,
-     "cost": 0.5525
+     "cost": 0.5525,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-78876c61dd",
@@ -2718,7 +2866,9 @@
      "v3_ver": "3.1",
      "matchup": "agree",
      "stake_v3": 5.0,
-     "cost": 0.2308
+     "cost": 0.2308,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-4a5fd6b525",
@@ -2751,7 +2901,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.3323
+     "cost": 0.3323,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-c6a70cd6ae",
@@ -2784,7 +2936,9 @@
      "v3_ver": "3.1",
      "matchup": "disagree",
      "stake_v3": 5.0,
-     "cost": 0.5098
+     "cost": 0.5098,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-80c3c94443",
@@ -2817,7 +2971,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.3779
+     "cost": 0.3779,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-30e0ebc8c0",
@@ -2850,7 +3006,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.5776
+     "cost": 0.5776,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-61e8f58a68",
@@ -2883,7 +3041,9 @@
      "v3_ver": "3.1",
      "matchup": "disagree",
      "stake_v3": 5.0,
-     "cost": 0.2257
+     "cost": 0.2257,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-5a469bd500",
@@ -2916,7 +3076,9 @@
      "v3_ver": "3.1",
      "matchup": "agree",
      "stake_v3": 5.0,
-     "cost": 0.2507
+     "cost": 0.2507,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-50d7d5d11b",
@@ -2949,7 +3111,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.3779
+     "cost": 0.3779,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-c1c6df405b",
@@ -2982,7 +3146,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.3724
+     "cost": 0.3724,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-00033e6942",
@@ -3015,7 +3181,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.4147
+     "cost": 0.4147,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-99677fb550",
@@ -3048,7 +3216,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.4181
+     "cost": 0.4181,
+     "strategy": "nba-v31",
+     "live": false
     },
     {
      "id": "nba-7aa9651d18",
@@ -3081,7 +3251,9 @@
      "v3_ver": "3.1",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.5847
+     "cost": 0.5847,
+     "strategy": "nba-v31",
+     "live": false
     }
    ]
   },
@@ -3132,7 +3304,9 @@
      "v3_ver": "3",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.3543
+     "cost": 0.3543,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-a610dc13cb",
@@ -3165,7 +3339,9 @@
      "v3_ver": "3",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.3567
+     "cost": 0.3567,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-4f477f60ff",
@@ -3198,7 +3374,9 @@
      "v3_ver": "3",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.4
+     "cost": 0.4,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-2459a216c9",
@@ -3231,7 +3409,9 @@
      "v3_ver": "3",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.4049
+     "cost": 0.4049,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-5abfd230ec",
@@ -3264,7 +3444,9 @@
      "v3_ver": "3",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.5349
+     "cost": 0.5349,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-385d4dbdc1",
@@ -3297,7 +3479,9 @@
      "v3_ver": "3",
      "matchup": "disagree",
      "stake_v3": 5.0,
-     "cost": 0.5455
+     "cost": 0.5455,
+     "strategy": "nba-old",
+     "live": false
     }
    ]
   },
@@ -3348,7 +3532,9 @@
      "v3_ver": "3",
      "matchup": "disagree",
      "stake_v3": 5.0,
-     "cost": 0.367
+     "cost": 0.367,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-5862426edb",
@@ -3381,7 +3567,9 @@
      "v3_ver": "3",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.4444
+     "cost": 0.4444,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-e1506e6c27",
@@ -3414,7 +3602,9 @@
      "v3_ver": "3",
      "matchup": "disagree",
      "stake_v3": 5.0,
-     "cost": 0.6231
+     "cost": 0.6231,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-56cc24cc91",
@@ -3447,7 +3637,9 @@
      "v3_ver": "3",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.3219
+     "cost": 0.3219,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-fd51cd83bc",
@@ -3480,7 +3672,9 @@
      "v3_ver": "3",
      "matchup": "agree",
      "stake_v3": 5.0,
-     "cost": 0.5098
+     "cost": 0.5098,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-12a474d48c",
@@ -3513,7 +3707,9 @@
      "v3_ver": "3",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.5098
+     "cost": 0.5098,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-5ff910f488",
@@ -3546,7 +3742,9 @@
      "v3_ver": "3",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.4216
+     "cost": 0.4216,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-414ce5219b",
@@ -3579,7 +3777,9 @@
      "v3_ver": "3",
      "matchup": "none",
      "stake_v3": 5.0,
-     "cost": 0.4348
+     "cost": 0.4348,
+     "strategy": "nba-old",
+     "live": false
     }
    ]
   },
@@ -3630,7 +3830,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-5fa2793b9b",
@@ -3663,7 +3865,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-fd1a0f09d5",
@@ -3696,7 +3900,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-f1f2c9ee26",
@@ -3729,7 +3935,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-481df65edf",
@@ -3762,7 +3970,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-7d253b45e8",
@@ -3795,7 +4005,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-80c8830fff",
@@ -3828,7 +4040,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-8a961140fa",
@@ -3861,7 +4075,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-c8a96cef5d",
@@ -3894,7 +4110,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "h2h-555e5a4921",
@@ -3927,7 +4145,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-52305579f2",
@@ -3960,7 +4180,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-120955be09",
@@ -3993,7 +4215,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-b53d780a4f",
@@ -4026,7 +4250,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-8dc7e7aa09",
@@ -4059,7 +4285,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-70792535e6",
@@ -4092,7 +4320,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-8d0bbecc52",
@@ -4125,7 +4355,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-2c29dc16f4",
@@ -4158,7 +4390,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-e7deef7dda",
@@ -4191,7 +4425,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-841180a272",
@@ -4224,7 +4460,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-913f41cc19",
@@ -4257,7 +4495,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-2d2837c908",
@@ -4290,7 +4530,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-3ae60c9022",
@@ -4323,7 +4565,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-e4a26a30c1",
@@ -4356,7 +4600,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "nba-384b4ccbe6",
@@ -4389,7 +4635,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-a09ae7837f",
@@ -4422,7 +4670,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-ee6c188ca0",
@@ -4455,7 +4705,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-a14e9889d4",
@@ -4488,7 +4740,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-a2715f9376",
@@ -4521,7 +4775,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-0f88ae7a10",
@@ -4554,7 +4810,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-cdc18c2c5c",
@@ -4587,7 +4845,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-3e86baf24c",
@@ -4620,7 +4880,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-27d84e50dc",
@@ -4653,7 +4915,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "h2h-51586d3f8a",
@@ -4686,7 +4950,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-b7202b8606",
@@ -4719,7 +4985,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-f1e73bbd2e",
@@ -4752,7 +5020,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-cf4a421f6e",
@@ -4785,7 +5055,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-2c3b7ee093",
@@ -4818,7 +5090,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-f176528bf5",
@@ -4851,7 +5125,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-af72726cdd",
@@ -4884,7 +5160,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-7c3e835ccf",
@@ -4917,7 +5195,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-36d7cbd273",
@@ -4950,7 +5230,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-3f6f35172b",
@@ -4983,7 +5265,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "nba-cc05f877f0",
@@ -5016,7 +5300,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-cd828a858d",
@@ -5049,7 +5335,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-596d092217",
@@ -5082,7 +5370,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-b20ed4b057",
@@ -5115,7 +5405,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-e6f7446ad7",
@@ -5148,7 +5440,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-ecec74f2c8",
@@ -5181,7 +5475,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-671d8e6a0b",
@@ -5214,7 +5510,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-f0a07cedd4",
@@ -5247,7 +5545,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-7314052f73",
@@ -5280,7 +5580,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "h2h-19ccd7d1ca",
@@ -5313,7 +5615,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-8c27ac49ee",
@@ -5346,7 +5650,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-e963efafdf",
@@ -5379,7 +5685,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-cbbfe7c817",
@@ -5412,7 +5720,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-1d3cd5f1e1",
@@ -5445,7 +5755,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-cf1c2096f6",
@@ -5478,7 +5790,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-5667a92f49",
@@ -5511,7 +5825,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-407c32d7d3",
@@ -5544,7 +5860,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-32da2d0467",
@@ -5577,7 +5895,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-96dd115d19",
@@ -5610,7 +5930,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-f202b62a08",
@@ -5643,7 +5965,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-83ee988a35",
@@ -5676,7 +6000,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-04aa2cbfb3",
@@ -5709,7 +6035,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-e07f611729",
@@ -5742,7 +6070,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-383e8a4ab5",
@@ -5775,7 +6105,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-9046d2820d",
@@ -5808,7 +6140,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-e0ef0cf9d2",
@@ -5841,7 +6175,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-882370efe7",
@@ -5874,7 +6210,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "nba-249d2c8161",
@@ -5907,7 +6245,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-9a8403bc55",
@@ -5940,7 +6280,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-3aec78e014",
@@ -5973,7 +6315,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-8c60624c40",
@@ -6006,7 +6350,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-41f940daa2",
@@ -6039,7 +6385,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-a033c59f4f",
@@ -6072,7 +6420,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-0ff76ea756",
@@ -6105,7 +6455,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-25b37a8e3b",
@@ -6138,7 +6490,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-55eca7f5f6",
@@ -6171,7 +6525,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-cb1176e29e",
@@ -6204,7 +6560,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "h2h-013b964faf",
@@ -6237,7 +6595,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-78d7954d45",
@@ -6270,7 +6630,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-a1eb25b483",
@@ -6303,7 +6665,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-a21cb4dc3e",
@@ -6336,7 +6700,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-612b7f17cc",
@@ -6369,7 +6735,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-dba911b011",
@@ -6402,7 +6770,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-234bb9bc57",
@@ -6435,7 +6805,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-ebe786397f",
@@ -6468,7 +6840,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-7dbb5917fd",
@@ -6501,7 +6875,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-222ba4bbec",
@@ -6534,7 +6910,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-e7f97dcd3d",
@@ -6567,7 +6945,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-022352fb4e",
@@ -6600,7 +6980,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-74341d8462",
@@ -6633,7 +7015,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-637f4e5792",
@@ -6666,7 +7050,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-91b2f56f64",
@@ -6699,7 +7085,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-6db6fa0a1d",
@@ -6732,7 +7120,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-3635d929f0",
@@ -6765,7 +7155,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-5dba4d968c",
@@ -6798,7 +7190,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-08d718d82e",
@@ -6831,7 +7225,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-434014b1f7",
@@ -6864,7 +7260,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-fcc93666ae",
@@ -6897,7 +7295,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-b141b0f467",
@@ -6930,7 +7330,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-e6bea186ec",
@@ -6963,7 +7365,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-4bb59de4dd",
@@ -6996,7 +7400,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-1f83e0ff9e",
@@ -7029,7 +7435,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-2ab08715c8",
@@ -7062,7 +7470,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-928b67ce73",
@@ -7095,7 +7505,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-1e07079f2e",
@@ -7128,7 +7540,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-04f5370b8d",
@@ -7161,7 +7575,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-a8dda34ee9",
@@ -7194,7 +7610,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-7bb935d4f9",
@@ -7227,7 +7645,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-d88d6122f8",
@@ -7260,7 +7680,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-cca86bce48",
@@ -7293,7 +7715,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-41f4934cc4",
@@ -7326,7 +7750,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-b7f1f8dc3f",
@@ -7359,7 +7785,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-57520b76bf",
@@ -7392,7 +7820,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-0649b21e11",
@@ -7425,7 +7855,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-98aa774c04",
@@ -7458,7 +7890,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-88eafea4a9",
@@ -7491,7 +7925,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-b4106b2cf8",
@@ -7524,7 +7960,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-71ec337df6",
@@ -7557,7 +7995,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-694a60cc78",
@@ -7590,7 +8030,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-62f49e5f7c",
@@ -7623,7 +8065,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-d9826b7620",
@@ -7656,7 +8100,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "nba-9f59fd3d9f",
@@ -7689,7 +8135,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-731223cce2",
@@ -7722,7 +8170,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-8b4a5190d1",
@@ -7755,7 +8205,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-804c4a48b1",
@@ -7788,7 +8240,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-326cee1c2b",
@@ -7821,7 +8275,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-176a4168dc",
@@ -7854,7 +8310,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "h2h-f93fb32c58",
@@ -7887,7 +8345,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-fa074af2ae",
@@ -7920,7 +8380,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-04e72957a2",
@@ -7953,7 +8415,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-21e9a32ec8",
@@ -7986,7 +8450,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-fbbc54732f",
@@ -8019,7 +8485,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-16fb91b2dd",
@@ -8052,7 +8520,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-058399952b",
@@ -8085,7 +8555,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-64c4a1e2da",
@@ -8118,7 +8590,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-fa96e8c013",
@@ -8151,7 +8625,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-01133a294b",
@@ -8184,7 +8660,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-f36cd8e845",
@@ -8217,7 +8695,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-6343d088bf",
@@ -8250,7 +8730,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-c309c24104",
@@ -8283,7 +8765,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-c3b8d2110f",
@@ -8316,7 +8800,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "nba-c124945ad0",
@@ -8349,7 +8835,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-b4833479d6",
@@ -8382,7 +8870,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-4de11e6a4e",
@@ -8415,7 +8905,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-d48f1c15fc",
@@ -8448,7 +8940,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-1ec0eb2a82",
@@ -8481,7 +8975,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-3516dc7619",
@@ -8514,7 +9010,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-78c008d014",
@@ -8547,7 +9045,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-e85380b922",
@@ -8580,7 +9080,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-e3c73fe6dd",
@@ -8613,7 +9115,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-9f22de68f0",
@@ -8646,7 +9150,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-410593d4f7",
@@ -8679,7 +9185,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "h2h-55dbcf5c5a",
@@ -8712,7 +9220,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-bdc33a38bd",
@@ -8745,7 +9255,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-21ed55bd3a",
@@ -8778,7 +9290,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-74caa7e82c",
@@ -8811,7 +9325,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-b15810cf4a",
@@ -8844,7 +9360,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-4aff75c33f",
@@ -8877,7 +9395,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-e73dfe226c",
@@ -8910,7 +9430,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-c92e6d6a9c",
@@ -8943,7 +9465,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-bd10376562",
@@ -8976,7 +9500,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-dd7609a50a",
@@ -9009,7 +9535,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     }
    ]
   },
@@ -9060,7 +9588,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-7e6e70cd0a",
@@ -9093,7 +9623,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-816c12ded4",
@@ -9126,7 +9658,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-30648a2c84",
@@ -9159,7 +9693,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-e0bd0e6ca3",
@@ -9192,7 +9728,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-8a8e09e4da",
@@ -9225,7 +9763,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-27b4592516",
@@ -9258,7 +9798,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-e7928a2ba3",
@@ -9291,7 +9833,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-9a583c1fda",
@@ -9324,7 +9868,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-ac914ca009",
@@ -9357,7 +9903,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-baeca08ce8",
@@ -9390,7 +9938,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-bd1f793a41",
@@ -9423,7 +9973,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-d17c6dcf37",
@@ -9456,7 +10008,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "h2h-5c1516357d",
@@ -9489,7 +10043,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-4580691504",
@@ -9522,7 +10078,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-9b5890064c",
@@ -9555,7 +10113,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-b561390129",
@@ -9588,7 +10148,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-fa8484d150",
@@ -9621,7 +10183,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-f751d24730",
@@ -9654,7 +10218,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-7c2bbbabd2",
@@ -9687,7 +10253,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-29d13b5fe4",
@@ -9720,7 +10288,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-032cd7683d",
@@ -9753,7 +10323,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-1fef644ba9",
@@ -9786,7 +10358,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-71d63563dc",
@@ -9819,7 +10393,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-e46dbec984",
@@ -9852,7 +10428,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-5dba61981d",
@@ -9885,7 +10463,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-7614c9e89b",
@@ -9918,7 +10498,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-0b76f88614",
@@ -9951,7 +10533,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-95bd00e939",
@@ -9984,7 +10568,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-462ce7fc29",
@@ -10017,7 +10603,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-0f5912e587",
@@ -10050,7 +10638,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "nba-065e8ab43b",
@@ -10083,7 +10673,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-4fe08d74d6",
@@ -10116,7 +10708,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-07ff7d9ca6",
@@ -10149,7 +10743,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-5a8ab34e78",
@@ -10182,7 +10778,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-33072c1e85",
@@ -10215,7 +10813,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-960c85cb58",
@@ -10248,7 +10848,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-3dd7e2a4a4",
@@ -10281,7 +10883,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-f1ca830e17",
@@ -10314,7 +10918,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-773b68fa79",
@@ -10347,7 +10953,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-c8ce2e26bb",
@@ -10380,7 +10988,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-b5ee4bd623",
@@ -10413,7 +11023,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-5d3cdb24a0",
@@ -10446,7 +11058,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-16ef465c4c",
@@ -10479,7 +11093,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-daf9e08377",
@@ -10512,7 +11128,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-f2911add0a",
@@ -10545,7 +11163,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-b7e694fb58",
@@ -10578,7 +11198,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "h2h-dc5e1f6cde",
@@ -10611,7 +11233,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-4128b69651",
@@ -10644,7 +11268,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-af51326e81",
@@ -10677,7 +11303,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-2c8cc6ce11",
@@ -10710,7 +11338,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-624ada899f",
@@ -10743,7 +11373,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-9a1b1129de",
@@ -10776,7 +11408,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-59438be45c",
@@ -10809,7 +11443,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-aebf0bc45c",
@@ -10842,7 +11478,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-8505f353b2",
@@ -10875,7 +11513,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-077a13e32a",
@@ -10908,7 +11548,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-9154157349",
@@ -10941,7 +11583,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-b278fb3bb0",
@@ -10974,7 +11618,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-b188845a02",
@@ -11007,7 +11653,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-eca69d29cb",
@@ -11040,7 +11688,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-c3c66b3086",
@@ -11073,7 +11723,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-419ac72bb7",
@@ -11106,7 +11758,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-8f913422b5",
@@ -11139,7 +11793,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-7032513b85",
@@ -11172,7 +11828,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-baaa8d8f45",
@@ -11205,7 +11863,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-6a603f7a7d",
@@ -11238,7 +11898,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-17dd035719",
@@ -11271,7 +11933,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-cc971da0a5",
@@ -11304,7 +11968,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-26110dd6a7",
@@ -11337,7 +12003,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-126f968b44",
@@ -11370,7 +12038,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-04c03cd656",
@@ -11403,7 +12073,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-861fae1a52",
@@ -11436,7 +12108,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-7ff78a1245",
@@ -11469,7 +12143,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-1e53cb383a",
@@ -11502,7 +12178,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-01f327d8bf",
@@ -11535,7 +12213,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-2b1c2dba2b",
@@ -11568,7 +12248,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-18d1a51982",
@@ -11601,7 +12283,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-bf1b1549ff",
@@ -11634,7 +12318,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-c858fe1765",
@@ -11667,7 +12353,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-f9ba9bb7db",
@@ -11700,7 +12388,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-995093e07d",
@@ -11733,7 +12423,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "nba-5320bd6195",
@@ -11766,7 +12458,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-3ae67e4f93",
@@ -11799,7 +12493,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-fb422542d8",
@@ -11832,7 +12528,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-198164f188",
@@ -11865,7 +12563,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-c87d9f0409",
@@ -11898,7 +12598,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-b924637f86",
@@ -11931,7 +12633,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-5db5512313",
@@ -11964,7 +12668,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-039fcd0bb3",
@@ -11997,7 +12703,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-bc258b82d2",
@@ -12030,7 +12738,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-daa6d3f997",
@@ -12063,7 +12773,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-20c736905a",
@@ -12096,7 +12808,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-68fe22c619",
@@ -12129,7 +12843,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-7d750998b7",
@@ -12162,7 +12878,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-21b84518f2",
@@ -12195,7 +12913,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-5cfba805cc",
@@ -12228,7 +12948,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-b1559f6440",
@@ -12261,7 +12983,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-e6655753a4",
@@ -12294,7 +13018,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-d5d83aee4a",
@@ -12327,7 +13053,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-c5f6fb7791",
@@ -12360,7 +13088,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-e1cf08124b",
@@ -12393,7 +13123,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-4595c130a5",
@@ -12426,7 +13158,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-43e8312cc4",
@@ -12459,7 +13193,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-c4d17f5ca5",
@@ -12492,7 +13228,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "h2h-3b81ee1a2b",
@@ -12525,7 +13263,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-17dc2951fa",
@@ -12558,7 +13298,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-76ff37bb25",
@@ -12591,7 +13333,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-657dba56db",
@@ -12624,7 +13368,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-f460bb2a77",
@@ -12657,7 +13403,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-e0275bb399",
@@ -12690,7 +13438,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-e1670b882d",
@@ -12723,7 +13473,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-d2bfedd5ff",
@@ -12756,7 +13508,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-2fe1afd1d8",
@@ -12789,7 +13543,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-bd0ca8d25c",
@@ -12822,7 +13578,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-d122bdef19",
@@ -12855,7 +13613,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-df9f85e90a",
@@ -12888,7 +13648,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-1ff2e27880",
@@ -12921,7 +13683,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-9b22726e0d",
@@ -12954,7 +13718,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-0136ed1a11",
@@ -12987,7 +13753,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-39f6cf33b1",
@@ -13020,7 +13788,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-a821477625",
@@ -13053,7 +13823,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-02eee60c8d",
@@ -13086,7 +13858,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-037448c721",
@@ -13119,7 +13893,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-6311e3db3d",
@@ -13152,7 +13928,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-8cb723f476",
@@ -13185,7 +13963,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-89daf7f690",
@@ -13218,7 +13998,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-bd46cf9cea",
@@ -13251,7 +14033,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-96764e19a4",
@@ -13284,7 +14068,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "nba-164fd90005",
@@ -13317,7 +14103,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-51245e767a",
@@ -13350,7 +14138,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-e3f6c7add5",
@@ -13383,7 +14173,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-27a7fa728f",
@@ -13416,7 +14208,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-dbafa5cc89",
@@ -13449,7 +14243,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-642258c4db",
@@ -13482,7 +14278,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-9eb8b64118",
@@ -13515,7 +14313,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-a3f20e7327",
@@ -13548,7 +14348,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-1e4a730d27",
@@ -13581,7 +14383,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-f7f4796344",
@@ -13614,7 +14418,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-6be4255456",
@@ -13647,7 +14453,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-736e8787cd",
@@ -13680,7 +14488,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "h2h-1764a84a5e",
@@ -13713,7 +14523,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-cf90ae55af",
@@ -13746,7 +14558,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-289d720f16",
@@ -13779,7 +14593,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-1a7de0e6ae",
@@ -13812,7 +14628,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-ddbe9d57d1",
@@ -13845,7 +14663,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-17b90224d6",
@@ -13878,7 +14698,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-1545b1acb5",
@@ -13911,7 +14733,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-154de57980",
@@ -13944,7 +14768,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-eeed8d6133",
@@ -13977,7 +14803,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-f5ec0ff41f",
@@ -14010,7 +14838,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-f40deb2598",
@@ -14043,7 +14873,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-acfc1412c8",
@@ -14076,7 +14908,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-faaddde6cd",
@@ -14109,7 +14943,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-2493866494",
@@ -14142,7 +14978,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-931643f4f5",
@@ -14175,7 +15013,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-e78c9e5ad4",
@@ -14208,7 +15048,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-b70506305b",
@@ -14241,7 +15083,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-f81d4a1897",
@@ -14274,7 +15118,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-0122abf32c",
@@ -14307,7 +15153,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-39f222c8bb",
@@ -14340,7 +15188,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "nba-d746725c54",
@@ -14373,7 +15223,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-4a98bff0a6",
@@ -14406,7 +15258,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-2aba8da685",
@@ -14439,7 +15293,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-58f933e258",
@@ -14472,7 +15328,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-e456eb4b8e",
@@ -14505,7 +15363,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-8ee0d8a58a",
@@ -14538,7 +15398,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "h2h-639238181f",
@@ -14571,7 +15433,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-58653460a1",
@@ -14604,7 +15468,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-2795dc5261",
@@ -14637,7 +15503,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-596f6ae562",
@@ -14670,7 +15538,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-4f67ea1636",
@@ -14703,7 +15573,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-42c8d37d7b",
@@ -14736,7 +15608,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-70ced09a3f",
@@ -14769,7 +15643,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-c79714fc36",
@@ -14802,7 +15678,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-68d2f6962c",
@@ -14835,7 +15713,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-5f6c24dc88",
@@ -14868,7 +15748,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-b375b27277",
@@ -14901,7 +15783,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-004113e59a",
@@ -14934,7 +15818,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-20b3377e01",
@@ -14967,7 +15853,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-42f578d9ff",
@@ -15000,7 +15888,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-e6b087e54f",
@@ -15033,7 +15923,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-9bbed1e63c",
@@ -15066,7 +15958,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-28dc20c4dd",
@@ -15099,7 +15993,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "nba-a06d8cd07e",
@@ -15132,7 +16028,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-3a223d6bef",
@@ -15165,7 +16063,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-54505fc517",
@@ -15198,7 +16098,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-870db563cd",
@@ -15231,7 +16133,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-0aa949dd1f",
@@ -15264,7 +16168,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-716e3367a1",
@@ -15297,7 +16203,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-a76ad38e27",
@@ -15330,7 +16238,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-fa260d1909",
@@ -15363,7 +16273,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "h2h-8a223fcd60",
@@ -15396,7 +16308,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-9fc67eeab6",
@@ -15429,7 +16343,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-80e6e6481a",
@@ -15462,7 +16378,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-22a8d1134d",
@@ -15495,7 +16413,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-76768a384f",
@@ -15528,7 +16448,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-30c7a8577b",
@@ -15561,7 +16483,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-6730ff1cec",
@@ -15594,7 +16518,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     }
    ]
   },
@@ -15645,7 +16571,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-e7065bc440",
@@ -15678,7 +16606,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-3b536d3033",
@@ -15711,7 +16641,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-16a5e873ce",
@@ -15744,7 +16676,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-6c252f389a",
@@ -15777,7 +16711,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-b923f3ba24",
@@ -15810,7 +16746,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "h2h-733f4050c2",
@@ -15843,7 +16781,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-37811a76f1",
@@ -15876,7 +16816,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-a1785854a9",
@@ -15909,7 +16851,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-d6fdb0804e",
@@ -15942,7 +16886,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-681cf6a97f",
@@ -15975,7 +16921,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-ea57bb8132",
@@ -16008,7 +16956,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-4f05ded805",
@@ -16041,7 +16991,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-5123ab9ea5",
@@ -16074,7 +17026,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-679a999f1b",
@@ -16107,7 +17061,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-81c2a765c7",
@@ -16140,7 +17096,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-c3c9970b1f",
@@ -16173,7 +17131,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-6101aeadc1",
@@ -16206,7 +17166,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "nba-e42d4a111a",
@@ -16239,7 +17201,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-56fe4b2693",
@@ -16272,7 +17236,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-7bba1ad933",
@@ -16305,7 +17271,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-fee434ed92",
@@ -16338,7 +17306,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-a5dea09a1e",
@@ -16371,7 +17341,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-ce67c46bff",
@@ -16404,7 +17376,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-b7f2e19444",
@@ -16437,7 +17411,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-feadbcc535",
@@ -16470,7 +17446,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-0306268013",
@@ -16503,7 +17481,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-28d3772835",
@@ -16536,7 +17516,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-44b3eeea6e",
@@ -16569,7 +17551,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-13a6d8c0cf",
@@ -16602,7 +17586,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-e648d43f61",
@@ -16635,7 +17621,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-a9d264016b",
@@ -16668,7 +17656,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-9460d3e0cb",
@@ -16701,7 +17691,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-43ef387c88",
@@ -16734,7 +17726,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-dfd7459007",
@@ -16767,7 +17761,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-4dfd2b7f21",
@@ -16800,7 +17796,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-12e27a1731",
@@ -16833,7 +17831,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "h2h-ceb7b28d7c",
@@ -16866,7 +17866,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-2c1da7b72b",
@@ -16899,7 +17901,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-694f6e19e2",
@@ -16932,7 +17936,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-fea15636a2",
@@ -16965,7 +17971,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-13d308c61f",
@@ -16998,7 +18006,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-48aebbb500",
@@ -17031,7 +18041,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-4859e4041e",
@@ -17064,7 +18076,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-5e2515779d",
@@ -17097,7 +18111,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-906f37e18a",
@@ -17130,7 +18146,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-8595c76ecc",
@@ -17163,7 +18181,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-acab5f3d62",
@@ -17196,7 +18216,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-b1a766059d",
@@ -17229,7 +18251,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-fe3b5dfdee",
@@ -17262,7 +18286,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-2c0c20f801",
@@ -17295,7 +18321,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-c259bf2bde",
@@ -17328,7 +18356,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-23603c6ca1",
@@ -17361,7 +18391,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-cd24e5a2e7",
@@ -17394,7 +18426,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-20400eee80",
@@ -17427,7 +18461,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-2f1098bf1a",
@@ -17460,7 +18496,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-7f3c0544bd",
@@ -17493,7 +18531,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-e36402c54d",
@@ -17526,7 +18566,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-f8106a3619",
@@ -17559,7 +18601,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-cfdcf61b3a",
@@ -17592,7 +18636,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-459b6df47a",
@@ -17625,7 +18671,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-18878273a6",
@@ -17658,7 +18706,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-e0b6202004",
@@ -17691,7 +18741,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-fe82aacdcd",
@@ -17724,7 +18776,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-da29ffbb73",
@@ -17757,7 +18811,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-8d66229984",
@@ -17790,7 +18846,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-10751a554c",
@@ -17823,7 +18881,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-b768ce25e3",
@@ -17856,7 +18916,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-cbe56aa30e",
@@ -17889,7 +18951,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-4ffc7fcfd5",
@@ -17922,7 +18986,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-93aa0491e1",
@@ -17955,7 +19021,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-1c8e99786e",
@@ -17988,7 +19056,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-079cb1df04",
@@ -18021,7 +19091,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-5567bb3f93",
@@ -18054,7 +19126,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-5eea580195",
@@ -18087,7 +19161,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-8cde01cdd1",
@@ -18120,7 +19196,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-c5f3163513",
@@ -18153,7 +19231,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-9b6a228bf1",
@@ -18186,7 +19266,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-62a3f90bd4",
@@ -18219,7 +19301,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-1f99441fcb",
@@ -18252,7 +19336,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-0b73ae8db7",
@@ -18285,7 +19371,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-2f8f657065",
@@ -18318,7 +19406,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-d0aa812288",
@@ -18351,7 +19441,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-72744b4937",
@@ -18384,7 +19476,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-492860b955",
@@ -18417,7 +19511,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-eeb1dc93b4",
@@ -18450,7 +19546,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-99cc48c491",
@@ -18483,7 +19581,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-fa98e1f8be",
@@ -18516,7 +19616,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-dee1d1ebbc",
@@ -18549,7 +19651,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-f3a5f4dec1",
@@ -18582,7 +19686,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-834edfdd84",
@@ -18615,7 +19721,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-52e7e4ec8b",
@@ -18648,7 +19756,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-6a844cf030",
@@ -18681,7 +19791,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-e3e11506f6",
@@ -18714,7 +19826,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-2509dca250",
@@ -18747,7 +19861,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-a37d776076",
@@ -18780,7 +19896,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-7bb8525f82",
@@ -18813,7 +19931,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-a14e1f7d79",
@@ -18846,7 +19966,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-87603c5db0",
@@ -18879,7 +20001,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-3934f056ee",
@@ -18912,7 +20036,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-451c140395",
@@ -18945,7 +20071,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-248b2cf765",
@@ -18978,7 +20106,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-918c1e3a03",
@@ -19011,7 +20141,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-5de4d439f6",
@@ -19044,7 +20176,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-f57207bf93",
@@ -19077,7 +20211,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-6d0ea35e1e",
@@ -19110,7 +20246,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-93618c6c9a",
@@ -19143,7 +20281,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-648812b3a6",
@@ -19176,7 +20316,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-6b2471c5fb",
@@ -19209,7 +20351,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-6cffd181d8",
@@ -19242,7 +20386,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-374995ec16",
@@ -19275,7 +20421,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-31da491969",
@@ -19308,7 +20456,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-dcee074af5",
@@ -19341,7 +20491,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "nba-bbf9a11441",
@@ -19374,7 +20526,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-4e6eeb0179",
@@ -19407,7 +20561,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "h2h-99172ceee8",
@@ -19440,7 +20596,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-e607ce5fe4",
@@ -19473,7 +20631,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-0759f21cc9",
@@ -19506,7 +20666,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-cf3adf7ab8",
@@ -19539,7 +20701,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-9825ecd121",
@@ -19572,7 +20736,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-fead545aa9",
@@ -19605,7 +20771,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-a32104de17",
@@ -19638,7 +20806,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-35b6fb4aad",
@@ -19671,7 +20841,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-fba7dcde3c",
@@ -19704,7 +20876,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-f06f2161ee",
@@ -19737,7 +20911,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-fa796df62e",
@@ -19770,7 +20946,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-f12debbce8",
@@ -19803,7 +20981,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-7666927890",
@@ -19836,7 +21016,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-3c93596f2c",
@@ -19869,7 +21051,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-d7957852a9",
@@ -19902,7 +21086,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-283995b849",
@@ -19935,7 +21121,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-568a61b5d7",
@@ -19968,7 +21156,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-629fe4ab9c",
@@ -20001,7 +21191,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-34276a672e",
@@ -20034,7 +21226,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-0121a7d01b",
@@ -20067,7 +21261,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-a7686241c8",
@@ -20100,7 +21296,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "nba-d4e949b6d0",
@@ -20133,7 +21331,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-9da4132dc6",
@@ -20166,7 +21366,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-227f121816",
@@ -20199,7 +21401,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-30839a2476",
@@ -20232,7 +21436,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-d60df380d4",
@@ -20265,7 +21471,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-bdfa1bb463",
@@ -20298,7 +21506,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-368a0dbb87",
@@ -20331,7 +21541,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-8291002f19",
@@ -20364,7 +21576,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "h2h-d3ee8e85b5",
@@ -20397,7 +21611,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-45b117cfa2",
@@ -20430,7 +21646,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-942b0d4281",
@@ -20463,7 +21681,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-e74ba98099",
@@ -20496,7 +21716,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-82fa5c755f",
@@ -20529,7 +21751,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-67baece40f",
@@ -20562,7 +21786,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-f51e454770",
@@ -20595,7 +21821,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-7b74dd8642",
@@ -20628,7 +21856,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-8dde8ce61c",
@@ -20661,7 +21891,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-a7fad284c2",
@@ -20694,7 +21926,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-8a3554e4a0",
@@ -20727,7 +21961,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-9e77023500",
@@ -20760,7 +21996,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-7a21c38ddc",
@@ -20793,7 +22031,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-70561dd392",
@@ -20826,7 +22066,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-885575f474",
@@ -20859,7 +22101,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-9895ff0755",
@@ -20892,7 +22136,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-0463670727",
@@ -20925,7 +22171,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-1a2ae71a65",
@@ -20958,7 +22206,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-4e850c361c",
@@ -20991,7 +22241,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-2f12718bce",
@@ -21024,7 +22276,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-1580121b91",
@@ -21057,7 +22311,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-9c25b467d1",
@@ -21090,7 +22346,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-14f55da3f9",
@@ -21123,7 +22381,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-631a7bc3e1",
@@ -21156,7 +22416,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-c2e22cb9ed",
@@ -21189,7 +22451,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-5c2645f4a0",
@@ -21222,7 +22486,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-4ce0d722a4",
@@ -21255,7 +22521,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-39cc161991",
@@ -21288,7 +22556,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-289f75f631",
@@ -21321,7 +22591,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-25072cabb7",
@@ -21354,7 +22626,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "nba-491eec495a",
@@ -21387,7 +22661,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-5cdbcf9203",
@@ -21420,7 +22696,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-00e98f167f",
@@ -21453,7 +22731,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-a4fde956da",
@@ -21486,7 +22766,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-0f18a73270",
@@ -21519,7 +22801,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-02b8023390",
@@ -21552,7 +22836,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-bbe41b7eef",
@@ -21585,7 +22871,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-c1bb3599c2",
@@ -21618,7 +22906,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-4b6d23a7ff",
@@ -21651,7 +22941,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-e69c7cb6b2",
@@ -21684,7 +22976,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-aed3b66457",
@@ -21717,7 +23011,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "h2h-ff27ac0817",
@@ -21750,7 +23046,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-f27cb0bae2",
@@ -21783,7 +23081,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-2b6eac06ca",
@@ -21816,7 +23116,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-99db09ad7e",
@@ -21849,7 +23151,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-673713dbbe",
@@ -21882,7 +23186,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-443ae9de50",
@@ -21915,7 +23221,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-0bbd4c5938",
@@ -21948,7 +23256,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-298d236faf",
@@ -21981,7 +23291,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-203d6adcd6",
@@ -22014,7 +23326,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-22cc00c3be",
@@ -22047,7 +23361,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-13925cbcea",
@@ -22080,7 +23396,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-11b6af6f7c",
@@ -22113,7 +23431,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-d59139914b",
@@ -22146,7 +23466,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-9923d648e1",
@@ -22179,7 +23501,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-c563f8e604",
@@ -22212,7 +23536,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-e1d4ff2975",
@@ -22245,7 +23571,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-80c8a660d4",
@@ -22278,7 +23606,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-322f57c058",
@@ -22311,7 +23641,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-a13f84425d",
@@ -22344,7 +23676,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-65d00e988b",
@@ -22377,7 +23711,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-55cbc0a772",
@@ -22410,7 +23746,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-901d2311bc",
@@ -22443,7 +23781,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-f8a8245a48",
@@ -22476,7 +23816,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-0bf3a8751b",
@@ -22509,7 +23851,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-3e81ea11c6",
@@ -22542,7 +23886,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-01eba45c59",
@@ -22575,7 +23921,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-bcf554861d",
@@ -22608,7 +23956,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-bec3361b3e",
@@ -22641,7 +23991,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-013b1a0635",
@@ -22674,7 +24026,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-3e3fa82bcb",
@@ -22707,7 +24061,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-38de99da23",
@@ -22740,7 +24096,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-40e1da09fc",
@@ -22773,7 +24131,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-ce5f7a3c09",
@@ -22806,7 +24166,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-9767d6769d",
@@ -22839,7 +24201,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-e4613fce35",
@@ -22872,7 +24236,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-a3c407550b",
@@ -22905,7 +24271,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-fe5bb42d1f",
@@ -22938,7 +24306,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-0581080d69",
@@ -22971,7 +24341,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-983afe7f35",
@@ -23004,7 +24376,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-31a349a8a4",
@@ -23037,7 +24411,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-d0518a1eef",
@@ -23070,7 +24446,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-8c11dad415",
@@ -23103,7 +24481,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-e99840a6e3",
@@ -23136,7 +24516,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     }
    ]
   },
@@ -23187,7 +24569,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-5ea5b652f4",
@@ -23220,7 +24604,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-7f32adb68d",
@@ -23253,7 +24639,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-86fdda40df",
@@ -23286,7 +24674,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-03f0221e58",
@@ -23319,7 +24709,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-8402091365",
@@ -23352,7 +24744,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-5a9e9a1560",
@@ -23385,7 +24779,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-b7991286fd",
@@ -23418,7 +24814,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-cef02137f7",
@@ -23451,7 +24849,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-0281ff5452",
@@ -23484,7 +24884,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "h2h-2d9aa80fc8",
@@ -23517,7 +24919,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-ae3c5bf836",
@@ -23550,7 +24954,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-7e9b72a9d7",
@@ -23583,7 +24989,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-62408caa9e",
@@ -23616,7 +25024,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-40f4d1d18a",
@@ -23649,7 +25059,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-ca4fd28109",
@@ -23682,7 +25094,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-591516b594",
@@ -23715,7 +25129,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-fb6154619b",
@@ -23748,7 +25164,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-c19ea8be58",
@@ -23781,7 +25199,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-b70c5bd97e",
@@ -23814,7 +25234,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-58a73da069",
@@ -23847,7 +25269,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-bea97a8b06",
@@ -23880,7 +25304,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-7140010f38",
@@ -23913,7 +25339,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-6eff42cbf9",
@@ -23946,7 +25374,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-e819a025a2",
@@ -23979,7 +25409,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-c712f50708",
@@ -24012,7 +25444,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-afc7174a66",
@@ -24045,7 +25479,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-69bc923649",
@@ -24078,7 +25514,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-0773b75aac",
@@ -24111,7 +25549,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-1ad175e293",
@@ -24144,7 +25584,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "nba-1e3c09a2dd",
@@ -24177,7 +25619,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-3be0d3080e",
@@ -24210,7 +25654,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-b297736ff6",
@@ -24243,7 +25689,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "h2h-ebcc17598d",
@@ -24276,7 +25724,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-3ed390542a",
@@ -24309,7 +25759,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-1e906b4b66",
@@ -24342,7 +25794,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-181ae2194b",
@@ -24375,7 +25829,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-4a7a42396c",
@@ -24408,7 +25864,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-76a37c93cc",
@@ -24441,7 +25899,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-160e4254fa",
@@ -24474,7 +25934,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-c3d35fbd73",
@@ -24507,7 +25969,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-8bf03c3ecb",
@@ -24540,7 +26004,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-19ca27c5d1",
@@ -24573,7 +26039,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-3c63587cbc",
@@ -24606,7 +26074,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-51785e7c57",
@@ -24639,7 +26109,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-e8a9e4094b",
@@ -24672,7 +26144,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-b07fa00a80",
@@ -24705,7 +26179,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-d8b2ab049e",
@@ -24738,7 +26214,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-076366afd4",
@@ -24771,7 +26249,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     },
     {
      "id": "h2h-97c5afced2",
@@ -24804,7 +26284,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-h2h",
+     "live": false
     }
    ]
   },
@@ -24855,7 +26337,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-8d6db5f927",
@@ -24888,7 +26372,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-5e4e65cb5c",
@@ -24921,7 +26407,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-788fdf5f43",
@@ -24954,7 +26442,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-e315180a77",
@@ -24987,7 +26477,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-21a66c71b7",
@@ -25020,7 +26512,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-ad0457d463",
@@ -25053,7 +26547,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-bb536b87d3",
@@ -25086,7 +26582,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-1e83662c7f",
@@ -25119,7 +26617,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-2e6e9645c7",
@@ -25152,7 +26652,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-1b12219da8",
@@ -25185,7 +26687,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-39bba0953d",
@@ -25218,7 +26722,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-4d873ea712",
@@ -25251,7 +26757,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-c2456c770b",
@@ -25284,7 +26792,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-d49d169a1e",
@@ -25317,7 +26827,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-bf02f2c3f4",
@@ -25350,7 +26862,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-290a421f9f",
@@ -25383,7 +26897,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-b483f0a499",
@@ -25416,7 +26932,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-0b80fb9644",
@@ -25449,7 +26967,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-923f79488d",
@@ -25482,7 +27002,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-4d071fabe1",
@@ -25515,7 +27037,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-6b7346ddbf",
@@ -25548,7 +27072,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-a5f099edb8",
@@ -25581,7 +27107,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-ddcf348c84",
@@ -25614,7 +27142,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-9fea56566b",
@@ -25647,7 +27177,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-1a1882f5e1",
@@ -25680,7 +27212,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-c77cf1a02e",
@@ -25713,7 +27247,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-2a389b0227",
@@ -25746,7 +27282,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-4327d098de",
@@ -25779,7 +27317,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-6fb8a4605b",
@@ -25812,7 +27352,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-f3fd73548d",
@@ -25845,7 +27387,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-921a50144b",
@@ -25878,7 +27422,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-6d145f3f3e",
@@ -25911,7 +27457,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-e3406df29e",
@@ -25944,7 +27492,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-c589cf64f3",
@@ -25977,7 +27527,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-e116c616d4",
@@ -26010,7 +27562,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-12dc68c0d7",
@@ -26043,7 +27597,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-98895547d0",
@@ -26076,7 +27632,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-c11163718b",
@@ -26109,7 +27667,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-8b3032e415",
@@ -26142,7 +27702,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-fcb34b591a",
@@ -26175,7 +27737,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-265bfcdf07",
@@ -26208,7 +27772,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-0b6ee8d658",
@@ -26241,7 +27807,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-e267ec7b23",
@@ -26274,7 +27842,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-fa4dc10e0d",
@@ -26307,7 +27877,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-7c8fbcc57f",
@@ -26340,7 +27912,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-d6f0874837",
@@ -26373,7 +27947,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-bcfa25976b",
@@ -26406,7 +27982,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-c9c5294a13",
@@ -26439,7 +28017,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-79afbda7a6",
@@ -26472,7 +28052,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     }
    ]
   },
@@ -26523,7 +28105,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-0a13d1917a",
@@ -26556,7 +28140,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-1f88ef3088",
@@ -26589,7 +28175,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-11e7578008",
@@ -26622,7 +28210,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-d006c53e17",
@@ -26655,7 +28245,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     },
     {
      "id": "nba-e33726b709",
@@ -26688,7 +28280,9 @@
      "v3_ver": "",
      "matchup": "",
      "stake_v3": null,
-     "cost": null
+     "cost": null,
+     "strategy": "nba-old",
+     "live": false
     }
    ]
   }
