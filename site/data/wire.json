@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-02T21:30:15.533507+00:00",
+   "kind": "injury",
+   "source": "rapsheet",
+   "text": "The Seahawks plan to activate first-round RB Jadarian Price from Injured Reserve to play tonight against the Bears, source says. His first game action since Sept. 27."
+  },
+  {
    "at": "2026-11-02T20:58:39.173787+00:00",
    "kind": "injury",
    "source": "rapsheet",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Colby Parkinson officially questionable for Week 8"
-  },
-  {
-   "at": "2026-10-30T18:31:42.603310+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Glenn: Breece Hall (quad) questionable for Week 8"
   }
  ]
 }
