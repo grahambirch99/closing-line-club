@@ -2,192 +2,415 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Closing Line Club: NFL picks with receipts</title>
-  <meta name="description" content="Model-driven NFL picks, posted before kickoff and graded afterwards, with closing-line value for every bet.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Closing Line Club: betting research with receipts</title>
+  <meta name="description" content="Independent sports betting research. Every pick is timestamped before kickoff, graded afterwards and scored by closing-line value, losses and failed strategies included.">
+  <meta name="theme-color" content="#0F1A2E">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="alternate" type="application/rss+xml" title="Closing Line Club picks" href="feed.xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,500..800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a class="skip" href="#main">Skip to picks</a>
-  <header class="top">
-    <div class="top-in">
-      <a class="brand" href="#board" aria-label="Closing Line Club home">
-        <span class="brand-word">Closing</span>
-        <span class="brand-close">Line</span>
-        <span class="brand-word">Club</span>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="masthead">
+    <div class="masthead-in">
+      <a class="brand" href="#board" aria-label="Closing Line Club, home">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+          <path d="M9 5v22" class="bm-range"/>
+          <path d="M4 21h5" class="bm-open"/>
+          <path d="M9 12h19" class="bm-close"/>
+        </svg>
+        <span class="brand-name">Closing Line Club</span>
       </a>
-      <nav class="tabs" aria-label="Sections">
-        <a href="#board" data-tab="board">Board</a>
-        <a href="#record" data-tab="record">Record</a>
-        <a href="#nba" data-tab="nba">NBA Test</a>
-        <a href="#wire" data-tab="wire">News wire</a>
-        <a href="#method" data-tab="method">How it works</a>
+      <nav class="nav" aria-label="Sections">
+        <a href="#board" data-tab="board"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5h14M3 10h14M3 15h9"/></svg><span>Board</span></a>
+        <a href="#record" data-tab="record"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 16l4-5 3 2 6-8"/><path d="M3 18h14"/></svg><span>Record</span></a>
+        <a href="#nba" data-tab="nba"><svg viewBox="0 0 20 20" aria-hidden="true"><rect x="3" y="3" width="14" height="14" rx="2" stroke-dasharray="3 2"/><path d="M7 10h6"/></svg><span><span class="nav-long">NBA research</span><span class="nav-short">NBA</span></span></a>
+        <a href="#wire" data-tab="wire"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="2"/><path d="M5.5 5.5a6.4 6.4 0 000 9M14.5 5.5a6.4 6.4 0 010 9"/></svg><span>News</span></a>
+        <a href="#method" data-tab="method"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 3h9l3 3v11H4z"/><path d="M7 9h6M7 12h6"/></svg><span>Method</span></a>
       </nav>
-      <a class="alert-btn" id="top-discord" href="#alerts">Join the Discord</a>
+      <a class="discord-link" id="top-discord" href="#alerts">Discord</a>
     </div>
   </header>
 
-  <main id="main">
-    <!-- BOARD -->
+  <div id="data-error" class="data-error" role="alert" hidden>
+    <b>The pick data didn't load.</b> Refresh the page. If it keeps failing, the full record is in the
+    <a href="https://github.com/grahambirch99/closing-line-club/tree/main/site/data">public data files</a>.
+  </div>
+
+  <main id="main" tabindex="-1">
+
+    <!-- ================= BOARD ================= -->
     <section class="view" id="view-board" aria-labelledby="board-title">
-      <div class="board-head">
-        <div>
-          <h1 id="board-title" class="week-title">Week <span id="week-num">–</span></h1>
-          <p class="week-sub" id="week-sub"></p>
+      <header class="report-head">
+        <dl class="report-meta" id="board-meta"></dl>
+        <h1 id="board-title" class="report-title">Week <span id="week-num">–</span> board</h1>
+        <p class="report-lede" id="board-lede">Loading this week's picks.</p>
+      </header>
+
+      <section class="block" aria-labelledby="standing-title">
+        <div class="block-head">
+          <h2 id="standing-title" class="h2">What's on real money</h2>
+          <p class="block-note">Only strategies marked Live count in the record. Everything else is posted and graded the same way, on paper, until it passes a test written down before it started.</p>
         </div>
-        <p class="season-line" id="season-line"></p>
-      </div>
-      <div class="weeks" role="tablist" aria-label="NFL week" id="week-pills"></div>
-      <div class="filters" role="group" aria-label="Show">
-        <button class="chip on" data-filter="all">All</button>
-        <button class="chip" data-filter="open">Open</button>
-        <button class="chip" data-filter="W">Won</button>
-        <button class="chip" data-filter="L">Lost</button>
-      </div>
-      <div id="tickets" class="tickets" aria-live="polite"></div>
-      <section class="apps" id="apps" aria-labelledby="apps-title" hidden>
-        <h2 id="apps-title" class="h2">Where we bet</h2>
-        <p class="note">Picks come from these apps. Sign up with our links to get the welcome offer.</p>
-        <div class="app-grid" id="app-grid"></div>
-        <p class="note small">Referral links: we may get a bonus when you sign up. Offers, age limits and availability vary by
-          state and change often, so check the terms in the app.</p>
+        <div class="standing" id="standing"></div>
+      </section>
+
+      <section class="block" aria-labelledby="perf-title">
+        <div class="block-head">
+          <h2 id="perf-title" class="h2">Real-money record, season to date</h2>
+          <p class="block-note" id="perf-note"></p>
+        </div>
+        <div class="figures" id="board-figures"></div>
+        <p class="verdict-line" id="board-verdict"></p>
+      </section>
+
+      <section class="block" aria-labelledby="picks-title">
+        <div class="block-head block-head-row">
+          <h2 id="picks-title" class="h2">Picks</h2>
+          <p class="block-note">Times are Pacific. Prices are what was available when the pick was posted.</p>
+        </div>
+        <div class="toolbar">
+          <div class="weeks" role="tablist" aria-label="NFL week" id="week-pills"></div>
+          <div class="filter-row">
+            <div class="seg" role="group" aria-label="Show picks" id="status-filter">
+              <button type="button" data-filter="all" aria-pressed="true">All</button>
+              <button type="button" data-filter="open" aria-pressed="false">Open</button>
+              <button type="button" data-filter="W" aria-pressed="false">Won</button>
+              <button type="button" data-filter="L" aria-pressed="false">Lost</button>
+              <button type="button" data-filter="live" aria-pressed="false">Live</button>
+              <button type="button" data-filter="paper" aria-pressed="false">Paper</button>
+            </div>
+            <label class="select"><span>Sport</span>
+              <select id="sport-filter">
+                <option value="all">All sports</option>
+                <option value="nfl">NFL</option>
+                <option value="cfb">College football</option>
+              </select>
+            </label>
+            <label class="select"><span>Market</span>
+              <select id="market-filter">
+                <option value="all">All markets</option>
+                <option value="props">Player props</option>
+                <option value="lines">Game lines</option>
+                <option value="teaser">Teasers</option>
+              </select>
+            </label>
+          </div>
+          <p class="result-count" id="result-count" aria-live="polite"></p>
+        </div>
+        <div id="board-picks"></div>
+        <p class="legend" id="board-legend"></p>
+      </section>
+
+      <section class="block alerts" id="alerts" aria-labelledby="alerts-title">
+        <div>
+          <h2 id="alerts-title" class="h3">Get picks when they post</h2>
+          <p class="block-note">Picks post to the Discord when they appear here, including ones triggered by injury news, and every result follows when the game is graded. Paper picks are labelled paper there too.</p>
+        </div>
+        <a class="btn" id="discord-btn" href="#" hidden>Join the Discord</a>
+      </section>
+
+      <section class="block venues" id="apps" aria-labelledby="apps-title" hidden>
+        <div class="block-head">
+          <h2 id="apps-title" class="h3">Where the prices come from</h2>
+          <p class="block-note"><b>Referral disclosure:</b> the links below are referral links, and we may get a bonus when you sign up. They don't affect which picks are posted. Offers, age limits and availability vary by state and change often, so check the terms in each app.</p>
+        </div>
+        <div class="table-wrap">
+          <table class="data venue-table" id="app-table"></table>
+        </div>
       </section>
     </section>
 
-    <!-- RECORD -->
+    <!-- ================= RECORD ================= -->
     <section class="view" id="view-record" aria-labelledby="record-title" hidden>
-      <h1 id="record-title" class="page-title">The record</h1>
-      <p class="lede">Every pick that counts, graded after the game. Closing-line value says whether we got a better price than the
-        market's final word, which predicts long-run results better than a few weeks of wins and losses.</p>
-      <div class="stats" id="stats"></div>
-      <div class="panel chart-panel">
-        <h2 class="h2">Units over time</h2>
-        <p class="note">Running profit in units, one step per graded pick.</p>
-        <div id="units-chart" class="chart"></div>
-      </div>
-      <div class="panel chart-panel">
-        <h2 class="h2">Closing-line value by week</h2>
-        <p class="note">Average points of win probability we beat (above zero) or trailed (below zero) the closing price by.</p>
-        <div id="clv-chart" class="chart"></div>
-      </div>
-      <div class="panel">
-        <h2 class="h2">By bet type</h2>
-        <table class="table" id="type-table"></table>
-      </div>
-    </section>
+      <header class="report-head">
+        <dl class="report-meta" id="record-meta"></dl>
+        <h1 id="record-title" class="report-title">Performance record</h1>
+        <p class="report-lede">Every real-money pick, graded after the game, losses included. The money record counts bets and teasers only; paper tests are reported separately below and never mixed in. Closing-line value, whether we got a better price than the market's final word, is the main scorecard, because a few dozen wins and losses say little about skill.</p>
+      </header>
 
-    <!-- WIRE -->
-    <!-- NBA TEST -->
-    <section class="view" id="view-nba" aria-labelledby="nba-title" hidden>
-      <div class="board-head">
-        <div>
-          <h1 id="nba-title" class="week-title">NBA Test</h1>
-          <p class="week-sub" id="nba-sub"></p>
+      <section class="block" aria-labelledby="rec-sum-title">
+        <h2 id="rec-sum-title" class="h2">Real-money record</h2>
+        <div class="figures" id="record-figures"></div>
+        <p class="verdict-line" id="record-verdict"></p>
+      </section>
+
+      <section class="block" aria-labelledby="units-title">
+        <div class="block-head">
+          <h2 id="units-title" class="h2">Cumulative units</h2>
+          <p class="block-note">Running profit in units after each graded real-money pick, in kickoff order. Voids count as zero.</p>
         </div>
-        <span class="tag test-tag">Paper only</span>
+        <figure class="chart" id="units-chart"></figure>
+      </section>
+
+      <div class="split">
+        <section class="block" aria-labelledby="clvw-title">
+          <div class="block-head">
+            <h2 id="clvw-title" class="h2">Closing-line value by week</h2>
+            <p class="block-note" id="clvw-note">Average points of win probability by which our price beat (above zero) or trailed (below zero) Pinnacle's no-margin closing price.</p>
+          </div>
+          <figure class="chart" id="clv-chart"></figure>
+        </section>
+        <section class="block" aria-labelledby="type-title">
+          <div class="block-head">
+            <h2 id="type-title" class="h2">By bet type</h2>
+            <p class="block-note">Real-money picks only. Small rows are listed for completeness, not as evidence.</p>
+          </div>
+          <div class="table-wrap"><table class="data" id="type-table"></table></div>
+        </section>
       </div>
-      <p class="lede">We're testing NBA player props on paper before anything goes live. Since Oct 26 (rules v3) a pick
-        needs an exchange price (Novig or ProphetX) whose break-even, after fees, is at least 3 points below Kalshi's
-        price for the same side. Since Oct 28 (v3.1) there is no limit per game or per night (Oct 26–27 allowed 3 per game
-        and 8 per night). Each pick is tagged with what our separate matchup test says about the same player and stat:
-        agrees, disagrees, or no matchup pick. The tag is tracked, not a confidence rating. Picks are judged on
-        results: to pass, 400 graded v3.1 picks must win at least 3 points more often than their break-even, with the 95%
-        range above zero and a profit. Nothing here counts in the NFL record.</p>
-      <p class="lede">Oct 22–25 used rules v2 (Unders 3%+, Overs 6%+ against Pinnacle and Kalshi combined). We scored
-        those against Kalshi's closing price, but Kalshi was part of the price we bet against and barely moves before
-        tip-off, so that score mostly repeated the edge we started with. It said "passed"; the results over those nights (86-102, about
-        what Kalshi's prices expected) don't show a proven edge. v2 bets are still tracked but no longer posted.</p>
-      <p class="lede">Our first rules (Oct 20–21) compared exchange prices with Pinnacle alone and went 17-39; retired
-        Oct 22. The matchup test (past results against tonight's opponent, priced at Kalshi) keeps a separate record
-        and is decided at 1,500 bets or Jan 31.</p>
-      <div class="panel goal">
-        <div class="goal-head"><span><b id="nba-goal-n">0 of 400</b> v3 picks graded on results</span><span id="nba-goal-verdict"></span></div>
-        <div class="goal-track" role="progressbar" aria-label="Paper bets graded" aria-valuemin="0" aria-valuemax="400" id="nba-goal-bar"><div class="goal-fill" id="nba-goal-fill"></div></div>
-      </div>
-      <div class="stats" id="nba-stats"></div>
-      <div class="weeks" role="tablist" aria-label="Game night" id="nba-nights"></div>
-      <div id="nba-tickets" class="tickets" aria-live="polite"></div>
-      <div class="panel">
-        <h2 class="h2">By market</h2>
-        <table class="table" id="nba-type-table"></table>
-      </div>
+
+      <section class="block" aria-labelledby="tests-title">
+        <div class="block-head">
+          <h2 id="tests-title" class="h2">Paper tests in progress</h2>
+          <p class="block-note">Posted and graded like real picks, never counted above. Each is judged once, at a sample size set before it started.</p>
+        </div>
+        <div class="table-wrap"><table class="data" id="tests-table"></table></div>
+      </section>
+
+      <section class="block" aria-labelledby="hist-title">
+        <div class="block-head">
+          <h2 id="hist-title" class="h2">Strategy history</h2>
+          <p class="block-note">Every strategy we've run, including the ones that failed. Retired strategies keep their records.</p>
+        </div>
+        <ol class="history" id="history"></ol>
+      </section>
     </section>
 
-    <!-- WIRE -->
+    <!-- ================= NBA ================= -->
+    <section class="view" id="view-nba" aria-labelledby="nba-title" hidden>
+      <header class="report-head">
+        <dl class="report-meta" id="nba-meta"></dl>
+        <div class="title-row">
+          <h1 id="nba-title" class="report-title">NBA player props</h1>
+          <span class="chip chip-paper chip-lg">Paper only</span>
+        </div>
+        <p class="report-lede">A paper experiment: every pick the rules would make is posted and graded, but no money is on it, none of it goes to the main Discord channel, and nothing here counts in the NFL record.</p>
+      </header>
+
+      <section class="block experiment" aria-labelledby="exp-title">
+        <div class="exp-grid">
+          <div class="exp-status">
+            <h2 id="exp-title" class="h2">Rules v3.1 test</h2>
+            <p class="exp-state" id="nba-state"></p>
+            <div class="progress-big">
+              <div class="progress-num"><b id="nba-n" class="num">0</b><span> of <span id="nba-goal" class="num">400</span> picks graded</span></div>
+              <div class="bar" role="progressbar" aria-label="Picks graded toward the 400-pick verdict" aria-valuemin="0" aria-valuemax="400" id="nba-bar"><span id="nba-fill"></span></div>
+              <p class="small" id="nba-progress-note"></p>
+            </div>
+          </div>
+          <div class="exp-gauge">
+            <h3 class="h3">Wins above break-even</h3>
+            <p class="block-note">How often picks won, minus how often the price we paid needed them to win, in percentage points, with the 95% range.</p>
+            <figure class="gauge" id="nba-gauge"></figure>
+          </div>
+        </div>
+        <div class="criteria" id="nba-criteria"></div>
+        <div class="figures" id="nba-figures"></div>
+      </section>
+
+      <div class="split">
+        <section class="block" aria-labelledby="nba-mkt-title">
+          <div class="block-head">
+            <h2 id="nba-mkt-title" class="h2">By market</h2>
+            <p class="block-note">v3.1 picks only.</p>
+          </div>
+          <div class="table-wrap"><table class="data" id="nba-type-table"></table></div>
+        </section>
+        <section class="block" aria-labelledby="nba-tag-title">
+          <div class="block-head">
+            <h2 id="nba-tag-title" class="h2">By matchup tag</h2>
+            <p class="block-note">Each v3.1 pick is tagged with what the separate matchup test says about the same player and stat. The tag never changes which picks are made, and it is not a confidence rating. The question declared in advance: do picks it agrees with beat ones it disagrees with?</p>
+          </div>
+          <div class="table-wrap"><table class="data" id="nba-tag-table"></table></div>
+        </section>
+      </div>
+
+      <section class="block" aria-labelledby="nba-picks-title">
+        <div class="block-head">
+          <h2 id="nba-picks-title" class="h2">Picks by game night</h2>
+          <p class="block-note" id="nba-night-note"></p>
+        </div>
+        <div class="weeks" role="tablist" aria-label="Game night" id="nba-nights"></div>
+        <div id="nba-picks"></div>
+        <p class="legend">CLV on this page is measured against Kalshi's price at tip-off. Kalshi is also the price v3.1 compares against, and it barely moves before games, so that number mostly repeats the starting gap. It is shown for reference; the test is judged on results.</p>
+      </section>
+
+      <section class="block" aria-labelledby="ver-title">
+        <div class="block-head">
+          <h2 id="ver-title" class="h2">Rules versions</h2>
+          <p class="block-note">Each version has its own record. They are never combined.</p>
+        </div>
+        <div class="table-wrap"><table class="data" id="nba-versions"></table></div>
+      </section>
+
+      <section class="block experiment" aria-labelledby="h2h-title">
+        <div class="title-row">
+          <h2 id="h2h-title" class="h2">Matchup test</h2>
+          <span class="chip chip-exp">Experimental</span>
+        </div>
+        <p class="block-note">A separate experiment with its own record. It is tracked for measurement, not posted as picks, and is never combined with the rules v3.1 test. It bets players whose past results against tonight's opponent rank in the top or bottom 20% of last season's matchups, priced at Kalshi.</p>
+        <div class="exp-grid">
+          <div class="exp-status">
+            <p class="exp-state" id="h2h-state"></p>
+            <div class="progress-big">
+              <div class="progress-num"><b id="h2h-n" class="num">0</b><span> of <span class="num">1,500</span> bets graded</span></div>
+              <div class="bar" role="progressbar" aria-label="Matchup test bets graded toward 1,500" aria-valuemin="0" aria-valuemax="1500" id="h2h-bar"><span id="h2h-fill"></span></div>
+              <p class="small">Decided once, at 1,500 graded bets or Jan 31, 2027, whichever comes first.</p>
+            </div>
+          </div>
+          <div class="exp-gauge">
+            <h3 class="h3">Net result after costs</h3>
+            <p class="block-note">Wins minus the price actually paid, including Kalshi's fee, in percentage points, with the 95% range.</p>
+            <figure class="gauge" id="h2h-gauge"></figure>
+          </div>
+        </div>
+        <div class="figures" id="h2h-figures"></div>
+      </section>
+    </section>
+
+    <!-- ================= NEWS ================= -->
     <section class="view" id="view-wire" aria-labelledby="wire-title" hidden>
-      <h1 id="wire-title" class="page-title">News wire</h1>
-      <p class="lede">Quarterback and injury news the model reacted to. A starting-QB change triggers a fresh look at every line;
-        an injured pass-catcher triggers a look at his game's props.</p>
-      <ol class="wire" id="wire-list"></ol>
-    </section>
-
-    <!-- METHOD -->
-    <section class="view prose" id="view-method" aria-labelledby="method-title" hidden>
-      <h1 id="method-title" class="page-title">How it works</h1>
-      <h2 class="h2">Price first</h2>
-      <p>We compare prices on betting exchanges (Novig, ProphetX, Kalshi) with Pinnacle, the sharpest sportsbook, after removing
-        its built-in margin (since Oct 26 with Shin's method, which puts more of the margin on the underdog; spreading it evenly
-        made big underdogs look likelier than they are). A pick is posted only when the price you can actually get is at least 3% better than that fair
-        price and the fair chance of winning is at least 2 points above the price's break-even (since Oct 28; smaller edges
-        mostly disappeared by kickoff). Each card shows the worst price still worth taking.</p>
-      <h2 class="h2">On paper since Nov 1</h2>
-      <p>An outside review and our own recheck found that our closing-line value was smaller than it looked. Once we
-        count only closing lines Pinnacle actually moved, it was about zero over the first 26 measurable bets, so the
-        edge is not proven. From Nov 1 every game-day pick is still posted the same way, but on paper, marked
-        "Paper". Real-money picks return only if 150 measurable picks beat Pinnacle's close by at least 1 point, with
-        the 95% range above zero, and also beat Kalshi's close. We judge that once, by Jan 13. The record above stays as it was.</p>
-      <h2 class="h2">Timing</h2>
-      <p>Most picks go out on Sunday mornings, right after inactives are announced, when our research showed prices are
-        softest. Breaking quarterback and injury news triggers extra checks during the week. Since Oct 28, Saturday preview
-        edges are posted as paper only: two weeks of tracking showed they were gone by Sunday's close.</p>
-      <h2 class="h2">Teasers</h2>
-      <p>Two-team, six-point teasers on underdogs of +1.5 to +2.5 in games with totals of 49 or less. Teasing through 3 and 7
-        has won about 78% of legs since 2014, above the 74% needed at the usual price.</p>
-      <h2 class="h2">Grading</h2>
-      <p>Results come from official box scores. Closing-line value compares our price with the no-margin closing price at
-        Pinnacle (Shin's method). The average counts only picks where Pinnacle quoted the same line at the close and its
-        price changed after we posted. When the line moved we estimate the close, and when the price never changed the
-        number just repeats our starting edge, so those picks show a value but are left out of the average. Picks marked
-        "paper" are tracked but not counted in the money record.</p>
-      <h2 class="h2">NBA Test</h2>
-      <p>NBA picks are on paper while we test them. Every bet the model would make is posted and graded on the NBA Test tab,
-        but none go to Discord or into the record. NBA bets are graded against Kalshi's price at tip-off, because Pinnacle's
-        NBA prop prices rarely move before the game. Our first NBA rules failed this check and were retired on Oct 22
-        (17-39); their bets are still shown.</p>
-      <h2 class="h2">Units</h2>
-      <p>Every stake and result is in units, so the record means the same thing whatever your bankroll. One unit is 2% of
-        your bankroll. With a $500 bankroll, 1 unit is $10: a 0.5u pick is a $5 bet, a 0.75u Strong pick is $7.50, and a
-        +1.2u week means you're up $12. Picks are flat 0.5u to 0.75u, and long shots (+150 or longer) stay at 0.5u.</p>
-      <h2 class="h2">Receipts</h2>
-      <p>Every pick is committed to a public GitHub repository when it appears here, before kickoff, so the timestamps can be
-        checked.</p>
-    </section>
-
-    <!-- ALERTS -->
-    <section class="panel alerts" id="alerts" aria-labelledby="alerts-title">
-      <div>
-        <h2 id="alerts-title" class="h2">Get picks when news breaks</h2>
-        <p class="note">New picks post to our Discord the moment they go live, including the ones triggered by injury and weather
-          news, and every result follows when the game is graded.</p>
+      <header class="report-head">
+        <dl class="report-meta" id="wire-meta"></dl>
+        <h1 id="wire-title" class="report-title">News wire</h1>
+        <p class="report-lede">Quarterback and injury news picked up by the news watcher, newest first. A starting-quarterback change triggers a fresh look at every line in that game; an injured pass-catcher triggers a look at his game's props. A fresh look doesn't always produce a pick.</p>
+      </header>
+      <div class="wire-legend" aria-hidden="true">
+        <span class="chip chip-qb">QB</span><span>Quarterback news</span>
+        <span class="chip chip-inj">Injury</span><span>Injury or status change</span>
       </div>
-      <div>
-        <a class="discord-btn" id="discord-btn" href="#" hidden>Join the Discord</a>
+      <div id="wire-list" class="wire"></div>
+    </section>
+
+    <!-- ================= METHOD ================= -->
+    <section class="view" id="view-method" aria-labelledby="method-title" hidden>
+      <header class="report-head">
+        <h1 id="method-title" class="report-title">Methodology</h1>
+        <p class="report-lede">How picks are found, posted, graded and judged, written so a skeptical reader can check every claim on this site. When a rule changes, the change and its date are recorded here and the old record stays as it was.</p>
+      </header>
+      <div class="method">
+        <nav class="toc" aria-label="On this page">
+          <p class="toc-title">On this page</p>
+          <ol>
+            <li><a href="#m-price">Price comparison</a></li>
+            <li><a href="#m-fair">Pinnacle's fair price</a></li>
+            <li><a href="#m-shin">Shin's method</a></li>
+            <li><a href="#m-fees">Exchanges and fees</a></li>
+            <li><a href="#m-thresholds">Pick thresholds</a></li>
+            <li><a href="#m-timing">Timing</a></li>
+            <li><a href="#m-clv">Closing-line value</a></li>
+            <li><a href="#m-grading">Grading</a></li>
+            <li><a href="#m-paper">Paper and live</a></li>
+            <li><a href="#m-units">Units and staking</a></li>
+            <li><a href="#m-teasers">Teasers</a></li>
+            <li><a href="#m-nba">NBA research</a></li>
+            <li><a href="#m-history">Strategy versions</a></li>
+            <li><a href="#m-limits">Limitations</a></li>
+            <li><a href="#m-receipts">Receipts</a></li>
+          </ol>
+        </nav>
+        <div class="prose">
+          <section id="m-price">
+            <h2>Price comparison</h2>
+            <p>Every pick starts with a price, not a story. We compare the prices you can actually bet on exchanges (Novig, ProphetX, Kalshi) with Pinnacle, the sharpest sportsbook, after removing Pinnacle's built-in margin. The working assumption is that the market is right; a pick needs the available price to be clearly better than Pinnacle's fair price, not a reason to like the player.</p>
+          </section>
+          <section id="m-fair">
+            <h2>Pinnacle's fair price</h2>
+            <p>A sportsbook's two prices on a market add up to more than 100% (the margin, or vig). Removing that margin gives a fair, no-margin probability for each side. For NFL game-day picks and college football, Pinnacle alone is the reference (no consensus fallback since Oct 31). The mid-week props model prices each play twice, once against Pinnacle and once against Kalshi, and flags plays where both agree.</p>
+          </section>
+          <section id="m-shin">
+            <h2>Shin's method for removing the margin</h2>
+            <p>Since Oct 26 the margin is removed with Shin's method, which puts more of the margin on the underdog. Spreading it evenly made big underdogs look likelier than they are. The same method is used for the fair price at posting and for the closing price used to grade closing-line value.</p>
+          </section>
+          <section id="m-fees">
+            <h2>Exchanges and fees</h2>
+            <p>The price on each pick is the price available on that venue at posting. Break-even is calculated after the venue's fee where the venue charges one (ProphetX takes a cut of winnings; Kalshi charges a trading fee), so a pick's edge is what's left after costs. Each open pick shows the worst price still worth taking on that venue.</p>
+            <p>Only venues available in California are used for picks: exchanges and prediction markets (Novig, ProphetX, Kalshi, DraftKings Predictions, FanDuel's prediction market) and pick'em apps. Their legal status can change; check what's legal where you are.</p>
+          </section>
+          <section id="m-thresholds">
+            <h2>Pick thresholds</h2>
+            <p>A game-day pick is posted only when the price you can get is at least 3% better than Pinnacle's fair price and the fair chance of winning is at least 2 points above the price's break-even (the 2-point minimum since Oct 28; smaller edges mostly disappeared by kickoff). Strong picks are larger edges and get a bigger stake (see Units).</p>
+          </section>
+          <section id="m-timing">
+            <h2>Timing</h2>
+            <p>Most picks go out on Sunday mornings, right after inactives are announced, when our research showed prices are softest. Breaking quarterback and injury news triggers extra checks during the week (see the News wire). Since Oct 28, Saturday preview edges are posted as paper only: two weeks of tracking showed they were gone by Sunday's close.</p>
+            <p>Picks appear on this site 20 minutes after they are logged. Each is committed to the public repository when it appears, before kickoff.</p>
+          </section>
+          <section id="m-clv">
+            <h2>Closing-line value</h2>
+            <p>Closing-line value (CLV) is how much better our price was than the fair closing price, in points of win probability. If our price needed a 48% chance to break even and Pinnacle's no-margin price at kickoff said 51%, the pick beat the close by 3 points. Beating the close consistently is a better guide to long-run results than a few weeks of wins and losses, which are mostly noise below several hundred bets.</p>
+            <p>The headline average counts only picks where Pinnacle quoted the same line at the close and its price changed after we posted. When the line moved, the close is estimated; when the price never changed, the number just repeats our starting edge. Those picks show a value, marked <i>est.</i> or <i>flat</i>, but are left out of the average. The all-picks figure is shown as reference only.</p>
+            <p>Ranges shown as "95% range" are uncertainty intervals: for NFL CLV, the average plus or minus about two standard errors; for the NBA tests, a bootstrap that resamples whole games. A range that includes zero means the data can't yet tell the result apart from no edge.</p>
+          </section>
+          <section id="m-grading">
+            <h2>Grading</h2>
+            <p>Results come from official box scores. A player who doesn't play is void and counts as zero. Picks marked paper are graded exactly the same way but are never counted in the money record. NFL picks are graded against Pinnacle's close; NBA picks are graded against Kalshi's price at tip-off, because Pinnacle's NBA prop prices rarely move before the game.</p>
+          </section>
+          <section id="m-paper">
+            <h2>Paper and live</h2>
+            <p><span class="chip chip-live">Live</span> picks are real-money and count in the record. <span class="chip chip-paper">Paper</span> picks are posted and graded the same way but never counted. A strategy moves from paper to live only by passing a test written down before it started, and then a second, untouched paper sample half that size.</p>
+            <p>An outside review and our own recheck found that NFL closing-line value was smaller than it looked. Counting only closing lines Pinnacle actually moved, it was about zero over the first 26 measurable bets, so the edge is not proven. From Nov 1 every NFL game-day pick is still posted the same way, but on paper. Real-money picks return only if 150 measurable picks beat Pinnacle's close by at least 1 point, with the 95% range above zero, and also beat Kalshi's close. That is judged once, by Jan 13, 2027. The record before Nov 1 stays exactly as it was.</p>
+          </section>
+          <section id="m-units">
+            <h2>Units and staking</h2>
+            <p>Every stake and result is in units, so the record means the same thing whatever your bankroll. One unit is 2% of your bankroll. With a $500 bankroll, 1 unit is $10: a 0.5u pick is a $5 bet, a 0.75u Strong pick is $7.50, and a +1.2u week means you're up $12. Picks are flat 0.5u to 0.75u, and long shots (+150 or longer) stay at 0.5u. Stakes never go up after losses.</p>
+          </section>
+          <section id="m-teasers">
+            <h2>Teasers</h2>
+            <p>Two-team, six-point teasers on underdogs of +1.5 to +2.5 in games with totals of 49 or less. Teasing through 3 and 7 has won about 78% of legs since 2014, above the 74% needed at the usual price. Teasers have no closing-line value, so they are judged on results.</p>
+          </section>
+          <section id="m-nba">
+            <h2>NBA research</h2>
+            <p>NBA picks are on paper while we test them. Every bet the rules would make is posted and graded on the NBA research page, but none count in the record. Rules v3.1 (since Oct 28) needs an exchange price (Novig or ProphetX) whose break-even, after fees, is at least 3 points below Kalshi's price for the same side, with no limit per game or per night. To pass, 400 graded v3.1 picks must win at least 3 points more often than their break-even, with the 95% range above zero and a profit, judged by Feb 15, 2027 at the latest. The separate matchup test is decided at 1,500 bets or Jan 31, 2027.</p>
+          </section>
+          <section id="m-history">
+            <h2>Strategy versions</h2>
+            <p>Every version that has run, with its dates and what happened to it. Records for each live on the Record and NBA research pages.</p>
+            <ol class="history compact" id="method-history"></ol>
+          </section>
+          <section id="m-limits">
+            <h2>Limitations</h2>
+            <ul>
+              <li>The samples are small. A few hundred bets are needed before wins and losses mean much, and the closing-line averages here rest on dozens of picks, not hundreds.</li>
+              <li>A positive record doesn't prove an edge, and a negative one doesn't disprove it. That's why each test has a fixed sample size and pass mark.</li>
+              <li>Closing-line value can only be measured cleanly when Pinnacle quotes the same line at the close and its price moves. Many picks don't meet that bar and are left out of the average.</li>
+              <li>The prices shown were available at posting. Prices move, limits are small on exchanges, and you may not get the same number.</li>
+              <li>Paper results are not bets. They show what the rules would have done at the posted price.</li>
+              <li>The news wire shows what the watcher picked up and when. It doesn't show which item led to which pick.</li>
+            </ul>
+          </section>
+          <section id="m-receipts">
+            <h2>Receipts</h2>
+            <p>Every pick is committed to a public GitHub repository when it appears here, before kickoff, so the timestamps can be checked independently. The commit history of the <a id="receipt-picks" href="https://github.com/grahambirch99/closing-line-club/commits/main/site/data/picks.json">NFL picks file</a> and the <a id="receipt-nba" href="https://github.com/grahambirch99/closing-line-club/commits/main/data/nba/paper.csv">NBA paper file</a> are the record. The odds model and raw data are kept private.</p>
+          </section>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer class="foot">
-    <p>Research and entertainment, not financial advice. 21+ only, and only where sports betting or prediction markets are legal
-      for you. If gambling stops being fun, call 1-800-GAMBLER.</p>
-    <p id="updated" class="small"></p>
+  <footer class="footer">
+    <div class="footer-in">
+      <div class="footer-brand">
+        <span class="brand-name">Closing Line Club</span>
+        <p>Independent research. Every pick timestamped before kickoff, losses included.</p>
+      </div>
+      <div class="footer-legal">
+        <p>Research and entertainment, not financial advice. 21+ only, and only where sports betting or prediction markets are legal for you. If gambling stops being fun, call 1-800-GAMBLER.</p>
+        <p class="small"><span id="updated"></span> <a id="repo-link" href="https://github.com/grahambirch99/closing-line-club">Public repository</a> <a href="feed.xml">RSS feed</a></p>
+      </div>
+    </div>
   </footer>
 
+  <noscript><p class="data-error">This site needs JavaScript to show the picks. The raw data is in the <a href="https://github.com/grahambirch99/closing-line-club/tree/main/site/data">public repository</a>.</p></noscript>
+
   <script src="config.js"></script>
+  <script src="strategies.js"></script>
   <script src="data/bundle.js"></script>
   <script src="app.js"></script>
 </body>
