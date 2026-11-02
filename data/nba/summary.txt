@@ -1,0 +1,2 @@
+POLICY legs (fair >= 56.2%): none graded (0 logged)
+shadow legs (54.2-56.2%): none graded (0 logged)
