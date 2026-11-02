@@ -820,6 +820,12 @@
    "units": 6.82
   },
   {
+   "id": "wind-921859689f5f8b3b8b1caf4248bdb1ec-43.5",
+   "week": 8,
+   "label": "Falcons at Buccaneers: Under 43.5 points",
+   "units": 6.82
+  },
+  {
    "id": "wind-159dbf0253dd2038eda2212f84387f0c-46.5",
    "week": 8,
    "label": "Colts at Jaguars: Under 46.5 points",
@@ -913,6 +919,18 @@
    "id": "pp-45-309",
    "week": 8,
    "label": "DeMario Douglas: Under 3.5 receptions",
+   "units": 9.66
+  },
+  {
+   "id": "wind-f2a036d5edf483a277880014861e78ad-40.5",
+   "week": 8,
+   "label": "Chiefs at Broncos: Under 40.5 points",
+   "units": 9.66
+  },
+  {
+   "id": "wind-05405af79752f5e742cdf50b61f6745e-43.5",
+   "week": 8,
+   "label": "Patriots at Dolphins: Under 43.5 points",
    "units": 9.66
   },
   {
