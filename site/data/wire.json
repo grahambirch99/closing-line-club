@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-03T19:03:51.979168+00:00",
+   "kind": "injury",
+   "source": "rapsheet",
+   "text": "Sources: Cardinals RB Jeremiyah Love is headed to Injured Reserve because of a high-ankle sprain that will knock him out for 4-5 weeks. Arizona\u2019s first-round pick has previously been dealing with a different ankle sprain."
+  },
+  {
    "at": "2026-11-03T01:24:42.778737+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "DeVonta, Dontayvion Wicks ruled out for Week 8"
-  },
-  {
-   "at": "2026-10-30T19:54:33.398792+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Carnell Tate ruled out for Week 8 vs. Bengals"
   }
  ]
 }
