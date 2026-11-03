@@ -1,2 +1,2 @@
-POLICY legs (fair >= 56.2%): none graded (10 logged)
-shadow legs (54.2-56.2%): none graded (40 logged)
+POLICY legs (fair >= 56.2%): 4-5 (44.4% vs fair 57.4%, break-even 56.2%), 6 games
+shadow legs (54.2-56.2%): 15-23 (39.5% vs fair 54.9%, break-even 56.2%), 14 games
