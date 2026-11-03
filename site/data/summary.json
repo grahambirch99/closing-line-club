@@ -1,15 +1,15 @@
 {
  "season": {
-  "w": 76,
+  "w": 77,
   "l": 68,
   "p": 0,
-  "units": 12.58,
-  "roi": 16.5,
+  "units": 13.11,
+  "roi": 17.1,
   "clv": -0.06,
   "beat": 68,
   "n_clv": 41,
-  "clv_any": 0.15,
-  "n_clv_any": 129
+  "clv_any": 0.11,
+  "n_clv_any": 130
  },
  "real_money": {
   "w": 0,
@@ -30,9 +30,9 @@
    "reason": "Rules v1 retired Oct 31 (CLV about zero on measurable picks)"
   },
   "teasers": {
-   "status": "paper",
-   "since": "2026-11-02T17:45:00Z",
-   "reason": "Graham, Nov 2: everything to paper"
+   "status": "retired",
+   "since": "2026-11-03T15:40:00Z",
+   "reason": "Kalshi teaser legs cost what they win (76.8% vs 76.9%, n=39); sportsbook teasers not legal in CA"
   },
   "props-midweek": {
    "status": "live",
@@ -962,6 +962,12 @@
    "week": 8,
    "label": "Rachaad White: Under 12.5 rush attempts",
    "units": 12.58
+  },
+  {
+   "id": "pp-42-236",
+   "week": 8,
+   "label": "Caleb Williams: Under 21.5 rushing yards",
+   "units": 13.11
   }
  ],
  "clv_by_week": [
@@ -980,16 +986,16 @@
   {
    "type": "Mid-week props model",
    "id": "props-midweek",
-   "w": 37,
+   "w": 38,
    "l": 23,
    "p": 0,
-   "units": 8.05,
-   "roi": 26.8,
+   "units": 8.58,
+   "roi": 28.1,
    "clv": null,
    "beat": null,
    "n_clv": 0,
-   "clv_any": 0.09,
-   "n_clv_any": 55
+   "clv_any": 0.0,
+   "n_clv_any": 56
   },
   {
    "type": "Game-day picks, rules v1",

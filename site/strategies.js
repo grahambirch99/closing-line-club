@@ -10,9 +10,9 @@
 // progress: which data block counts toward the verdict (filled in by app.js from data/bundle.js):
 //   "gate" | "cfb" | "cfb_props" (summary.json), "nba" | "h2h" (nba.json)
 window.CLC_STRATEGIES = [
-  { id: "teasers", sport: "NFL", name: "Two-team teasers", status: "paper", since: "Oct 2026",
+  { id: "teasers", sport: "NFL", name: "Two-team teasers", status: "retired", since: "Oct 20 – Nov 2, 2026",
     rule: "Six-point teasers on underdogs of +1.5 to +2.5 in games with a total of 49 or less, teased through 3 and 7.",
-    verdict: "Backed by closing lines since 2014 (about 78% of legs won), but only a handful of forward picks so far, so not proven. On paper since Nov 2; counted in the record. Reviewed after 25 graded: stops if the leg win rate is under 70%." },
+    verdict: "Retired Nov 3: fixed-price teasers are only offered by sportsbooks, which aren't legal in California. On Kalshi the same teased legs cost about what they win (39 legs in 2025-26: won 76.9%, cost 76.8%), so there is no edge to take. Its record stays in full." },
   { id: "nfl-v2", sport: "NFL", name: "Game-day prices, rules v2", status: "paper", since: "Nov 1, 2026",
     rule: "Same picks and posting as rules v1, re-tested with stricter closing-line value.",
     verdict: "Judged once at 150 measurable picks or Jan 13, 2027: average CLV vs Pinnacle's close of at least +1.0 pt with the 95% range above zero, and positive CLV vs Kalshi's close. A pass is followed by a second, untouched paper sample.",

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T08:55:57Z",
+ "generated_at": "2026-11-03T15:17:13Z",
  "current_week": 9,
  "weeks": [
   {
@@ -47,16 +47,16 @@
    "week": 8,
    "dates": "Oct 29 \u2013 Nov 2",
    "record": {
-    "w": 29,
+    "w": 30,
     "l": 25,
     "p": 0,
-    "units": 5.89,
-    "roi": 19.3,
+    "units": 6.42,
+    "roi": 20.7,
     "clv": -0.23,
     "beat": 69,
     "n_clv": 16,
-    "clv_any": -0.08,
-    "n_clv_any": 50
+    "clv_any": -0.17,
+    "n_clv_any": 51
    },
    "paper_record": {
     "w": 6,
@@ -71,16 +71,16 @@
     "n_clv_any": 10
    },
    "clv_record": {
-    "w": 29,
+    "w": 30,
     "l": 25,
     "p": 0,
-    "units": 5.89,
-    "roi": 19.3,
+    "units": 6.42,
+    "roi": 20.7,
     "clv": -0.23,
     "beat": 69,
     "n_clv": 16,
-    "clv_any": -0.08,
-    "n_clv_any": 50
+    "clv_any": -0.17,
+    "n_clv_any": 51
    },
    "picks": [
     {
@@ -1767,10 +1767,10 @@
      "edge": 3.0,
      "worst": "",
      "analysis": "Mid-week props model (paper): price +3.0% vs the sharp fair price (Pinnacle).",
-     "status": "pending",
-     "actual": "",
-     "clv": null,
-     "units": null,
+     "status": "W",
+     "actual": "1 rushing yards",
+     "clv": -5.1,
+     "units": 0.53,
      "posted": "2026-10-29T22:33:15Z",
      "system": "Mid-week props model",
      "strategy": "props-midweek",
