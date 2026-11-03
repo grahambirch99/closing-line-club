@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-03T01:24:42.778737+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Bhayshul Tuten 'DNP' on Monday's practice report"
+  },
+  {
    "at": "2026-11-02T22:41:29.657627+00:00",
    "kind": "qb",
    "source": "rapsheet",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Carnell Tate ruled out for Week 8 vs. Bengals"
-  },
-  {
-   "at": "2026-10-30T19:39:04.851064+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Jakobi Meyers DNP Friday, draws 'Q' tag for Week 8"
   }
  ]
 }
