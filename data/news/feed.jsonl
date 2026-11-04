@@ -127,3 +127,6 @@
 {"kind": "qb", "source": "sleeper", "team": "SEA", "player": "Sam Darnold", "pos": "QB", "text": "Sam Darnold (SEA QB) status healthy -> out [Quadriceps]", "at": "2026-11-04T19:08:26.677416+00:00"}
 {"kind": "injury", "team": "", "player": "Christian Mccaffrey", "pos": "", "source": "rotoworld-fb", "text": "Christian McCaffrey (hamstring) DNP to begin week", "at": "2026-11-04T20:54:14.327896+00:00"}
 {"kind": "injury", "team": "", "player": "Travis Kelce", "pos": "", "source": "rotoworld-fb", "text": "Travis Kelce (ankle) limited in Wednesday practice", "at": "2026-11-04T21:41:28.397023+00:00"}
+{"kind": "injury", "team": "", "player": "Breece Hall", "pos": "", "source": "rotoworld-fb", "text": "Breece Hall (quad) listed as limited on Wednesday", "at": "2026-11-04T22:03:33.745226+00:00"}
+{"kind": "injury", "team": "", "player": "George Pickens", "pos": "", "source": "rotoworld-fb", "text": "George Pickens (hamstring) limited to begin week", "at": "2026-11-04T22:06:37.769705+00:00"}
+{"kind": "injury", "team": "", "player": "Denzel Boston", "pos": "", "source": "rotoworld-fb", "text": "Denzel Boston (calf) limited in Wednesday practice", "at": "2026-11-04T22:15:49.871496+00:00"}
