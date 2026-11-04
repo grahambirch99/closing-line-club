@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "at": "2026-11-04T19:08:26.677416+00:00",
+   "kind": "qb",
+   "source": "sleeper",
+   "text": "Sam Darnold (SEA QB) status healthy -> out [Quadriceps]"
+  },
+  {
+   "at": "2026-11-04T18:59:13.323776+00:00",
+   "kind": "qb",
+   "source": "rapsheet",
+   "text": "The Browns have placed QB Deshaun Watson in the NFL\u2019s concussion protocol. Shedeur Sanders could make his first start for the Browns this season."
+  },
+  {
+   "at": "2026-11-04T18:59:13.323776+00:00",
+   "kind": "qb",
+   "source": "rotoworld-fb",
+   "text": "Sam Darnold (quad) out for Week 9 vs. Cardinals"
+  },
+  {
+   "at": "2026-11-04T18:59:13.323776+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Garrett Wilson placed in concussion protocol"
+  },
+  {
    "at": "2026-11-04T11:41:28.892263+00:00",
    "kind": "qb",
    "source": "sleeper",
@@ -155,30 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "TreVeyon Henderson (illness) out for Week 8"
-  },
-  {
-   "at": "2026-10-31T17:13:26.188059+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "A.J. Brown (knee) ruled out for Week 8 vs. MIA"
-  },
-  {
-   "at": "2026-10-30T21:21:04.256624+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "George Pickens officially questionable for Week 8"
-  },
-  {
-   "at": "2026-10-30T20:53:05.710511+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Jaylen Waddle (chest) questionable for Week 8"
-  },
-  {
-   "at": "2026-10-30T20:06:39.035967+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "DeVonta Smith (PHI WR) status questionable -> out [Hamstring]"
   }
  ]
 }

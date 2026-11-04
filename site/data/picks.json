@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T15:17:13Z",
+ "generated_at": "2026-11-04T19:27:16Z",
  "current_week": 9,
  "weeks": [
   {
@@ -41,7 +41,70 @@
     "clv_any": null,
     "n_clv_any": 0
    },
-   "picks": []
+   "picks": [
+    {
+     "id": "2026-W09-0083",
+     "week": 9,
+     "kind": "trial",
+     "tier": "A",
+     "market": "totals",
+     "title": "Cardinals at Seahawks",
+     "bet": "Over 41.5 points",
+     "game": "Cardinals at Seahawks",
+     "kick": "2026-11-08T21:25:00Z",
+     "kick_label": "Sun 1:25 PM PT",
+     "venue": "ProphetX",
+     "price": "+138",
+     "stake": 7.5,
+     "implied": 42.0,
+     "fair": 49.8,
+     "edge": 17.1,
+     "worst": "+109",
+     "analysis": "ProphetX at +138 beats Pinnacle's no-vig price (50% to hit), a +17.1% edge right after news broke (QB SEA: Sam Darnold (quad) out for Week 9 vs. Cardinals).",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-04T18:59:32Z",
+     "rules": "nfl-v2-paper",
+     "clv_method": "",
+     "close_moved": "",
+     "clv_ok": false,
+     "strategy": "nfl-v2",
+     "live": false
+    },
+    {
+     "id": "2026-W09-0084",
+     "week": 9,
+     "kind": "trial",
+     "tier": "A",
+     "market": "h2h",
+     "title": "Seahawks",
+     "bet": "moneyline",
+     "game": "Cardinals at Seahawks",
+     "kick": "2026-11-08T21:25:00Z",
+     "kick_label": "Sun 1:25 PM PT",
+     "venue": "ProphetX",
+     "price": "-345",
+     "stake": 7.5,
+     "implied": 77.5,
+     "fair": 85.3,
+     "edge": 9.5,
+     "worst": "-471",
+     "analysis": "ProphetX at -345 beats Pinnacle's no-vig price (85% to hit), a +9.5% edge right after news broke (QB SEA: Sam Darnold (quad) out for Week 9 vs. Cardinals).",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-04T18:59:32Z",
+     "rules": "nfl-v2-paper",
+     "clv_method": "",
+     "close_moved": "",
+     "clv_ok": false,
+     "strategy": "nfl-v2",
+     "live": false
+    }
+   ]
   },
   {
    "week": 8,
