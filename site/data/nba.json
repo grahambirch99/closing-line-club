@@ -10,7 +10,7 @@
   "n_clv": 0,
   "clv_any": 3.55,
   "n_clv_any": 119,
-  "bets": 129,
+  "bets": 130,
   "goal": 400,
   "graded": 120,
   "lean": -0.7,
@@ -68,7 +68,7 @@
     "n_clv": 0,
     "clv_any": 3.36,
     "n_clv_any": 78,
-    "bets": 84
+    "bets": 85
    }
   },
   "v2": {
@@ -82,7 +82,7 @@
    "n_clv": 0,
    "clv_any": 2.61,
    "n_clv_any": 468,
-   "bets": 482
+   "bets": 484
   },
   "v1": {
    "w": 17,
@@ -108,7 +108,7 @@
    "n_clv": 0,
    "clv_any": -2.92,
    "n_clv_any": 1350,
-   "bets": 1548,
+   "bets": 1562,
    "net_lean": 0.1,
    "net_lo": -3.1,
    "net_hi": 3.5,
@@ -345,6 +345,41 @@
      "matchup": "none",
      "stake_v3": 5.0,
      "cost": 0.5739,
+     "strategy": "nba-v31",
+     "live": false
+    },
+    {
+     "id": "nba-946b1bf930",
+     "night": "2026-11-04",
+     "kind": "nba",
+     "tier": "A",
+     "market": "player_points",
+     "title": "Mikel Brown Jr.",
+     "bet": "Under 11.5 points",
+     "game": "Hornets at Nets",
+     "kick": "2026-11-05T00:30:00Z",
+     "kick_label": "Wed 4:30 PM PT",
+     "venue": "Novig",
+     "price": "+138",
+     "stake": 5.0,
+     "implied": 42.0,
+     "fair": 45.9,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 46% chance; Novig at +138 breaks even at 42% after fees, a 3.9-point gap, 60 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-04T23:30:18Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "none",
+     "stake_v3": 5.0,
+     "cost": 0.4202,
      "strategy": "nba-v31",
      "live": false
     }
