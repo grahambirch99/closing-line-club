@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-04T11:41:28.892263+00:00",
+   "kind": "qb",
+   "source": "sleeper",
+   "text": "Joe Fagnano (BAL QB) status out -> healthy"
+  },
+  {
    "at": "2026-11-03T19:03:51.979168+00:00",
    "kind": "injury",
    "source": "rapsheet",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "sleeper",
    "text": "DeVonta Smith (PHI WR) status questionable -> out [Hamstring]"
-  },
-  {
-   "at": "2026-10-30T20:00:36.097743+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "DeVonta, Dontayvion Wicks ruled out for Week 8"
   }
  ]
 }
