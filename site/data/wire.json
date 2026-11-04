@@ -1,6 +1,24 @@
 {
  "items": [
   {
+   "at": "2026-11-04T22:15:49.871496+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Denzel Boston (calf) limited in Wednesday practice"
+  },
+  {
+   "at": "2026-11-04T22:06:37.769705+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "George Pickens (hamstring) limited to begin week"
+  },
+  {
+   "at": "2026-11-04T22:03:33.745226+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Breece Hall (quad) listed as limited on Wednesday"
+  },
+  {
    "at": "2026-11-04T21:41:28.397023+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -161,24 +179,6 @@
    "kind": "injury",
    "source": "rapsheet",
    "text": "Titans WR Calvin Ridley (hip) is listed as questionable and and expected to play, source said."
-  },
-  {
-   "at": "2026-11-01T17:21:41.146272+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Breece Hall (quad) officially inactive vs. Raiders"
-  },
-  {
-   "at": "2026-10-31T21:03:42.835387+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Rashid Shaheed (knee) out for Week 8 vs. Bears"
-  },
-  {
-   "at": "2026-10-31T20:32:22.093477+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Broncos move RJ Harvey (knee) to injured reserve"
   }
  ]
 }
