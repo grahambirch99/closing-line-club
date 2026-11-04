@@ -125,3 +125,4 @@
 {"kind": "qb", "team": "SEA", "player": "Sam Darnold", "pos": "QB", "strong": true, "source": "rotoworld-fb", "text": "Sam Darnold (quad) out for Week 9 vs. Cardinals", "at": "2026-11-04T18:59:13.323776+00:00"}
 {"kind": "injury", "team": "", "player": "Garrett Wilson", "pos": "", "source": "rotoworld-fb", "text": "Garrett Wilson placed in concussion protocol", "at": "2026-11-04T18:59:13.323776+00:00"}
 {"kind": "qb", "source": "sleeper", "team": "SEA", "player": "Sam Darnold", "pos": "QB", "text": "Sam Darnold (SEA QB) status healthy -> out [Quadriceps]", "at": "2026-11-04T19:08:26.677416+00:00"}
+{"kind": "injury", "team": "", "player": "Christian Mccaffrey", "pos": "", "source": "rotoworld-fb", "text": "Christian McCaffrey (hamstring) DNP to begin week", "at": "2026-11-04T20:54:14.327896+00:00"}
