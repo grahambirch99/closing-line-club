@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-05T22:41:27.276431+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "DJ Moore (shoulder) limited in non-contact jersey"
+  },
+  {
    "at": "2026-11-05T21:54:55.701772+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Jeremiyah Love (ankle) questionable to return"
-  },
-  {
-   "at": "2026-11-01T19:12:13.286459+00:00",
-   "kind": "injury",
-   "source": "rapsheet",
-   "text": "Ravens undrafted QB Joe Fagnano is now in the game. He was the emergency No. 3 QB \u2014 the first one to be used all season. Baltimore QB Tyler Huntley is questionable with a toe injury."
   }
  ]
 }
