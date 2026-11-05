@@ -58,6 +58,9 @@ jobs:
           path: universe-cache
           key: uni-db-${{ github.run_id }}
           restore-keys: uni-db-
+      - name: Fingerprint the database (save the cache only when it changes)
+        id: fp0
+        run: echo "h=$(md5sum universe-cache/universe.db 2>/dev/null | cut -d' ' -f1)" >> "$GITHUB_OUTPUT"
       - name: Scores (at most once per 20 h) + grade college football paper picks
         run: |
           python p/universe.py scores || true
@@ -94,8 +97,14 @@ jobs:
             for i in 1 2 3 4 5; do git pull -q --rebase -X theirs && git push -q && break; sleep $((i*5)); done
             gh api -X POST "repos/${{ github.repository }}/actions/workflows/site.yml/dispatches" -f ref=main || true
           fi
-      - name: Save universe cache
+      - name: Did the database change?
+        id: fp1
         if: always()
+        run: |
+          h=$(md5sum universe-cache/universe.db 2>/dev/null | cut -d' ' -f1)
+          echo "changed=$([ "$h" != "${{ steps.fp0.outputs.h }}" ] && echo 1 || echo 0)" >> "$GITHUB_OUTPUT"
+      - name: Save universe cache
+        if: always() && steps.fp1.outputs.changed == '1'
         uses: actions/cache/save@v4
         with:
           path: universe-cache
