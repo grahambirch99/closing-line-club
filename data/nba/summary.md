@@ -1,4 +1,4 @@
-# NBA Test: paper tracking (updated Wed Nov 4 4:36 PM PT)
+# NBA Test: paper tracking (updated Wed Nov 4 4:47 PM PT)
 
 Rules v2 (research/nba_rules_v2_PREREG.md): fair = Pinnacle + Kalshi ladder; Unders >= 3% edge, Overs >= 6% and no
 longer than +233; Novig/ProphetX only. Scorecard: CLV vs the Kalshi ladder at tip ('Kalshi CLV').
@@ -16,23 +16,23 @@ Matchup test (research/nba_h2h_forward_PREREG.md, Kalshi taker): 1585 bets; grad
 
 | Group | Edges | Avg est. edge | With close | Avg CLV vs Pinnacle (pts) | Beat close |
 |---|---|---|---|---|---|
-| Paper bets | 629 | +6.5% | 507 | +1.47 | 73% |
-| All Tier A/B | 1330 | +6.2% | 1034 | +1.61 | 76% |
-| Tier A | 876 | +7.7% | 684 | +1.96 | 79% |
-| Tier B | 454 | +3.5% | 350 | +0.92 | 72% |
+| Paper bets | 629 | +6.5% | 511 | +1.49 | 73% |
+| All Tier A/B | 1330 | +6.2% | 1040 | +1.61 | 76% |
+| Tier A | 876 | +7.7% | 686 | +1.97 | 79% |
+| Tier B | 454 | +3.5% | 354 | +0.91 | 71% |
 | Tier C (2-3%) | 598 | +2.5% | 453 | +0.66 | 68% |
 | A/B h2h | 14 | +7.0% | 14 | +0.82 | 93% |
-| A/B assists | 401 | +7.3% | 233 | +1.70 | 78% |
-| A/B points | 506 | +5.8% | 470 | +1.12 | 68% |
-| A/B rebounds | 407 | +5.8% | 317 | +2.30 | 87% |
+| A/B assists | 401 | +7.3% | 235 | +1.73 | 78% |
+| A/B points | 506 | +5.8% | 472 | +1.12 | 68% |
+| A/B rebounds | 407 | +5.8% | 319 | +2.29 | 87% |
 | A/B totals | 2 | +3.4% | 0 | +nan | 0% |
 
 Independent checks on v2 paper bets (CLV vs Pinnacle mostly restates the starting edge, because Pinnacle's NBA
 prop prices rarely move before tip):
-- Pinnacle fair move, bet to close: -1.50 (n=507, 29% > 0) pts (+ = moved our way)
-- Beat the venue's own closing price: +2.14 (n=586, 42% > 0) pts
-- CLV vs Kalshi ladder at tip (independent): +2.83 (n=602, 94% > 0) pts
+- Pinnacle fair move, bet to close: -1.48 (n=511, 29% > 0) pts (+ = moved our way)
+- Beat the venue's own closing price: +2.13 (n=590, 42% > 0) pts
+- CLV vs Kalshi ladder at tip (independent): +2.83 (n=605, 94% > 0) pts
 - Over share of paper bets: 11%
 
 Nights tracked: 13; edges per night: 2026-10-22 31, 2026-10-23 200, 2026-10-24 211, 2026-10-25 168, 2026-10-26 201, 2026-10-27 80, 2026-10-28 237, 2026-10-29 50, 2026-10-30 198, 2026-10-31 172, 2026-11-01 52, 2026-11-02 223, 2026-11-04 105
-Odds API credits: 14836 left (shared with NFL); NBA spend by night: 2026-10-28 108, 2026-10-29 30, 2026-10-30 84, 2026-10-31 72, 2026-11-01 48, 2026-11-02 129, 2026-11-04 69
+Odds API credits: 14830 left (shared with NFL); NBA spend by night: 2026-10-28 108, 2026-10-29 30, 2026-10-30 84, 2026-10-31 72, 2026-11-01 48, 2026-11-02 129, 2026-11-04 75
