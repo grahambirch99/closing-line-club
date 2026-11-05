@@ -369,7 +369,7 @@
      "analysis": "Kalshi's price gives this side a 46% chance; Novig at +138 breaks even at 42% after fees, a 3.9-point gap, 60 minutes before tip.",
      "status": "pending",
      "actual": "",
-     "clv": null,
+     "clv": 5.0,
      "units": null,
      "posted": "2026-11-04T23:30:18Z",
      "rules": "v3",
