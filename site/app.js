@@ -214,14 +214,18 @@
 
   /* ---------- picks table ---------- */
   function clvCell(p, nba) {
+    if (nba) {   // NBA is judged on wins vs break-even; its Kalshi "CLV" was circular and is no longer shown (Nov 5, 2026)
+      const t = "Win rate this price needs to break even, after the venue's fee";
+      return isNum(p.be) ? `<td class="c-clv r num" title="${esc(t)}">${p.be.toFixed(1)}%</td>` : `<td class="c-clv r na"><span class="muted">–</span></td>`;
+    }
     if (!isNum(p.clv)) {
       const why = p.status === "pending" ? `Closing price comes in at ${nba ? "tip-off" : "kickoff"}`
         : p.kind === "teaser" ? "Teasers have no closing-line value" : p.price === "Pick'em" ? "No closing price for pick'em apps" : "No closing price captured";
       return `<td class="c-clv r na" title="${esc(why)}"><span class="muted" aria-label="${esc(why)}">–</span></td>`;
     }
     const v = fmtPts(p.clv);
-    if (nba || p.kind === "paper") {
-      const t = nba ? "Against Kalshi's price at tip-off. Reference only: the NBA test is judged on results." : "Reference only: mid-week paper picks are not part of any headline average.";
+    if (p.kind === "paper") {
+      const t = "Reference only: mid-week paper picks are not part of any headline average.";
       return `<td class="c-clv r" title="${esc(t)}"><span class="clv-ref">${v}</span><span class="clv-flag">ref</span></td>`;
     }
     if (p.clv_ok) return `<td class="c-clv r"><span class="${tone(p.clv)}">${v}</span></td>`;
@@ -290,7 +294,7 @@
     return `<div class="table-wrap"><table class="data picks">
       <colgroup><col class="w-kick"><col><col class="w-price"><col class="w-worst"><col class="w-stake"><col class="w-result"><col class="w-clv"><col class="w-more"></colgroup>
       <thead><tr><th scope="col" class="c-kick">${nba ? "Tip-off" : "Kickoff"}</th><th scope="col">Pick</th><th scope="col">Price</th>
-      <th scope="col" class="r">Take at</th><th scope="col" class="r">Stake</th><th scope="col">Result</th><th scope="col" class="r">${nba ? "CLV (Kalshi)" : "CLV"}</th><th scope="col"><span class="sr">Details</span></th></tr></thead>
+      <th scope="col" class="r">Take at</th><th scope="col" class="r">Stake</th><th scope="col">Result</th><th scope="col" class="r">${nba ? "Break-even" : "CLV"}</th><th scope="col"><span class="sr">Details</span></th></tr></thead>
       <tbody>${ps.map(pickRow).join("")}</tbody></table></div>`;
   }
   function miniRecord(ps, units) {
