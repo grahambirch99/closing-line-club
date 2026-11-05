@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-05T02:20:12.003983+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Bam Knight (concussion) DNP Wednesday"
+  },
+  {
    "at": "2026-11-04T22:31:29.000896+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "sleeper",
    "text": "Breece Hall (NYJ RB) status questionable -> out [Quadriceps]"
-  },
-  {
-   "at": "2026-11-01T17:21:41.146272+00:00",
-   "kind": "injury",
-   "source": "rapsheet",
-   "text": "Jaguars WR Jakobi Meyers, questionable with hamstring and ankle injuries, is good to go today, per source."
   }
  ]
 }
