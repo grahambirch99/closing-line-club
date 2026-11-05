@@ -1,8 +1,8 @@
 id,sport,posted_at,kick_utc,game,app,market,player,point,side,fair,src,policy,run_id,close_fair,status,actual
 pk-0a12a55607-pr-assis-ajaymitchell-4,nba,2026-11-02T23:10:02Z,2026-11-03T00:10:00Z,Oklahoma City Thunder @ Cleveland Cavaliers,prizepicks,player_assists,Ajay Mitchell,4,Under,0.5469,Kalshi,0,118,0.5338,W,1
 pk-0a12a55607-pr-point-evanmobley-17.5,nba,2026-11-02T23:10:02Z,2026-11-03T00:10:00Z,Oklahoma City Thunder @ Cleveland Cavaliers,prizepicks,player_points,Evan Mobley,17.5,Under,0.5664,Kalshi,1,118,0.5244,W,16
-pk-0a12a55607-pr-point-peytonwatson-12.5,nba,2026-11-02T23:10:02Z,2026-11-03T00:10:00Z,Oklahoma City Thunder @ Cleveland Cavaliers,prizepicks,player_points,Peyton Watson,12.5,Under,0.5454,Kalshi,0,118,,pending,
-pk-0a12a55607-un-point-peytonwatson-12.5,nba,2026-11-02T23:10:02Z,2026-11-03T00:10:00Z,Oklahoma City Thunder @ Cleveland Cavaliers,underdog,player_points,Peyton Watson,12.5,Under,0.5454,Kalshi,0,118,,pending,
+pk-0a12a55607-pr-point-peytonwatson-12.5,nba,2026-11-02T23:10:02Z,2026-11-03T00:10:00Z,Oklahoma City Thunder @ Cleveland Cavaliers,prizepicks,player_points,Peyton Watson,12.5,Under,0.5454,Kalshi,0,118,,void,did not play
+pk-0a12a55607-un-point-peytonwatson-12.5,nba,2026-11-02T23:10:02Z,2026-11-03T00:10:00Z,Oklahoma City Thunder @ Cleveland Cavaliers,underdog,player_points,Peyton Watson,12.5,Under,0.5454,Kalshi,0,118,,void,did not play
 pk-0a12a55607-pr-assis-kenrichwilliams-1.5,nba,2026-11-02T23:10:02Z,2026-11-03T00:10:00Z,Oklahoma City Thunder @ Cleveland Cavaliers,prizepicks,player_assists,Kenrich Williams,1.5,Under,0.545,Kalshi,0,118,0.535,W,1
 pk-4f6688e4d1-pr-assis-mikelbrown-3.5,nba,2026-11-02T23:40:06Z,2026-11-03T00:40:00Z,Brooklyn Nets @ New York Knicks,prizepicks,player_assists,Mikel Brown Jr.,3.5,Over,0.5653,Pinnacle,1,119,,L,3
 pk-4f6688e4d1-pr-point-juliusrandle-18.5,nba,2026-11-02T23:40:06Z,2026-11-03T00:40:00Z,Brooklyn Nets @ New York Knicks,prizepicks,player_points,Julius Randle,18.5,Under,0.5448,Pinnacle,0,119,0.5448,L,21
