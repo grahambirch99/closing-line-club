@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "at": "2026-11-05T21:54:55.701772+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "George Pickens (hamstring) limited again Thursday"
+  },
+  {
+   "at": "2026-11-05T21:42:41.048465+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Christian Watson (rib) limited in practice Thursday"
+  },
+  {
    "at": "2026-11-05T19:17:16.592840+00:00",
    "kind": "qb",
    "source": "rapsheet",
@@ -167,18 +179,6 @@
    "kind": "injury",
    "source": "rapsheet",
    "text": "Ravens undrafted QB Joe Fagnano is now in the game. He was the emergency No. 3 QB \u2014 the first one to be used all season. Baltimore QB Tyler Huntley is questionable with a toe injury."
-  },
-  {
-   "at": "2026-11-01T18:50:49.918282+00:00",
-   "kind": "qb",
-   "source": "sleeper",
-   "text": "Lamar Jackson (BAL QB) status questionable -> out [Thumb]"
-  },
-  {
-   "at": "2026-11-01T18:35:18.073453+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Jake Ferguson (ankle) questionable to return"
   }
  ]
 }
