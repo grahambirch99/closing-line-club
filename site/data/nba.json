@@ -10,7 +10,7 @@
   "n_clv": 0,
   "clv_any": null,
   "n_clv_any": 0,
-  "bets": 158,
+  "bets": 159,
   "goal": 400,
   "graded": 143,
   "lean": 1.5,
@@ -68,7 +68,7 @@
     "n_clv": 0,
     "clv_any": null,
     "n_clv_any": 0,
-    "bets": 103
+    "bets": 104
    }
   },
   "v2": {
@@ -82,7 +82,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 516
+   "bets": 517
   },
   "v1": {
    "w": 17,
@@ -108,7 +108,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 1812,
+   "bets": 1820,
    "net_lean": 0.1,
    "net_lo": -3.0,
    "net_hi": 3.3,
@@ -530,6 +530,42 @@
      "stake_v3": 5.0,
      "cost": 0.5652,
      "be": 56.5,
+     "strategy": "nba-v31",
+     "live": false
+    },
+    {
+     "id": "nba-9929c2d883",
+     "night": "2026-11-06",
+     "kind": "nba",
+     "tier": "C (paper)",
+     "market": "player_rebounds",
+     "title": "James Harden",
+     "bet": "Under 4.5 rebounds",
+     "game": "76ers at Cavaliers",
+     "kick": "2026-11-07T00:40:00Z",
+     "kick_label": "Fri 4:40 PM PT",
+     "venue": "Novig",
+     "price": "+115",
+     "stake": 5.0,
+     "implied": 46.5,
+     "fair": 47.6,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 50% chance; Novig at +115 breaks even at 47% after fees, a 3.2-point gap, 60 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-06T23:40:09Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "none",
+     "stake_v3": 5.0,
+     "cost": 0.4651,
+     "be": 46.5,
      "strategy": "nba-v31",
      "live": false
     }
