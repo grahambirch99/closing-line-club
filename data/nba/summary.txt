@@ -1,2 +1,2 @@
 POLICY legs (fair >= 56.2%): 9-11 (45.0% vs fair 57.7%, break-even 56.2%), 12 games
-shadow legs (54.2-56.2%): 38-36 (51.4% vs fair 55.1%, break-even 56.2%), 26 games
+shadow legs (54.2-56.2%): 41-38 (51.9% vs fair 55.0%, break-even 56.2%), 27 games

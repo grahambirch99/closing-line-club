@@ -103,8 +103,8 @@ pk-72c786e70a-pr-assis-giannisantetokou-6,nba,2026-11-05T02:40:44Z,2026-11-05T03
 pk-72c786e70a-pr-rebou-brooklopez-4.5,nba,2026-11-05T02:40:44Z,2026-11-05T03:40:00Z,Miami Heat @ Los Angeles Clippers,prizepicks,player_rebounds,Brook Lopez,4.5,Over,0.5448,Pinnacle,0,149,0.5162,W,8
 pk-72c786e70a-un-rebou-brooklopez-4.5,nba,2026-11-05T02:40:44Z,2026-11-05T03:40:00Z,Miami Heat @ Los Angeles Clippers,underdog,player_rebounds,Brook Lopez,4.5,Over,0.5448,Pinnacle,0,149,0.5162,W,8
 pk-72c786e70a-pr-rebou-derrickjones-4,nba,2026-11-05T02:40:44Z,2026-11-05T03:40:00Z,Miami Heat @ Los Angeles Clippers,prizepicks,player_rebounds,Derrick Jones,4,Under,0.5497,Kalshi,0,149,0.5497,L,8
-pk-2a76b31e02-pr-point-collingillespie-9.5,nba,2026-11-06T01:10:04Z,2026-11-06T02:10:00Z,Orlando Magic @ Phoenix Suns,prizepicks,player_points,Collin Gillespie,9.5,Under,0.5518,Pinnacle,0,152,,pending,
-pk-2a76b31e02-pr-point-franzwagner-23.5,nba,2026-11-06T01:10:04Z,2026-11-06T02:10:00Z,Orlando Magic @ Phoenix Suns,prizepicks,player_points,Franz Wagner,23.5,Under,0.5425,Kalshi,0,152,,pending,
-pk-2a76b31e02-un-point-franzwagner-23.5,nba,2026-11-06T01:10:04Z,2026-11-06T02:10:00Z,Orlando Magic @ Phoenix Suns,underdog,player_points,Franz Wagner,23.5,Under,0.5425,Kalshi,0,152,,pending,
-pk-2a76b31e02-pr-point-jalengreen-16.5,nba,2026-11-06T01:10:04Z,2026-11-06T02:10:00Z,Orlando Magic @ Phoenix Suns,prizepicks,player_points,Jalen Green,16.5,Over,0.5448,Pinnacle,0,152,,pending,
-pk-2a76b31e02-un-point-jalengreen-16.5,nba,2026-11-06T01:10:04Z,2026-11-06T02:10:00Z,Orlando Magic @ Phoenix Suns,underdog,player_points,Jalen Green,16.5,Over,0.5448,Pinnacle,0,152,,pending,
+pk-2a76b31e02-pr-point-collingillespie-9.5,nba,2026-11-06T01:10:04Z,2026-11-06T02:10:00Z,Orlando Magic @ Phoenix Suns,prizepicks,player_points,Collin Gillespie,9.5,Under,0.5518,Pinnacle,0,152,,W,6
+pk-2a76b31e02-pr-point-franzwagner-23.5,nba,2026-11-06T01:10:04Z,2026-11-06T02:10:00Z,Orlando Magic @ Phoenix Suns,prizepicks,player_points,Franz Wagner,23.5,Under,0.5425,Kalshi,0,152,0.5425,W,15
+pk-2a76b31e02-un-point-franzwagner-23.5,nba,2026-11-06T01:10:04Z,2026-11-06T02:10:00Z,Orlando Magic @ Phoenix Suns,underdog,player_points,Franz Wagner,23.5,Under,0.5425,Kalshi,0,152,0.5425,W,15
+pk-2a76b31e02-pr-point-jalengreen-16.5,nba,2026-11-06T01:10:04Z,2026-11-06T02:10:00Z,Orlando Magic @ Phoenix Suns,prizepicks,player_points,Jalen Green,16.5,Over,0.5448,Pinnacle,0,152,0.5448,L,6
+pk-2a76b31e02-un-point-jalengreen-16.5,nba,2026-11-06T01:10:04Z,2026-11-06T02:10:00Z,Orlando Magic @ Phoenix Suns,underdog,player_points,Jalen Green,16.5,Over,0.5448,Pinnacle,0,152,0.5448,L,6
