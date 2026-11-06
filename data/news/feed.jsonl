@@ -144,3 +144,6 @@
 {"kind": "injury", "team": "", "player": "Bam Knight", "pos": "", "source": "rotoworld-fb", "text": "Bam Knight (concussion) won't play vs. Seahawks", "at": "2026-11-06T18:38:12.264317+00:00"}
 {"kind": "injury", "team": "", "player": "Garrett Wilson", "pos": "", "source": "rotoworld-fb", "text": "Garrett Wilson (concussion) won't play vs. Chiefs", "at": "2026-11-06T18:38:12.264317+00:00"}
 {"kind": "injury", "team": "", "player": "Devonta Smith", "pos": "", "source": "rotoworld-fb", "text": "DeVonta Smith (hamstring) ruled out vs. Giants", "at": "2026-11-06T21:06:31.723610+00:00"}
+{"kind": "injury", "source": "sleeper", "team": "NYG", "player": "Cam Skattebo", "pos": "RB", "text": "Cam Skattebo (NYG RB) status questionable -> doubtful [Hamstring]", "at": "2026-11-06T21:31:18.970859+00:00"}
+{"kind": "injury", "team": "", "player": "Cam Skattebo", "pos": "", "source": "rotoworld-fb", "text": "Cam Skattebo (hamstring) doubtful to face Eagles", "at": "2026-11-06T21:31:18.970859+00:00"}
+{"kind": "injury", "team": "", "player": "Amonra St Brown", "pos": "", "source": "rotoworld-fb", "text": "Amon-Ra St. Brown (ribs) questionable for Week 9", "at": "2026-11-06T21:46:35.863758+00:00"}
