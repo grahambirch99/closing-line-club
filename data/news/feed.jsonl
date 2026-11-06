@@ -147,3 +147,4 @@
 {"kind": "injury", "source": "sleeper", "team": "NYG", "player": "Cam Skattebo", "pos": "RB", "text": "Cam Skattebo (NYG RB) status questionable -> doubtful [Hamstring]", "at": "2026-11-06T21:31:18.970859+00:00"}
 {"kind": "injury", "team": "", "player": "Cam Skattebo", "pos": "", "source": "rotoworld-fb", "text": "Cam Skattebo (hamstring) doubtful to face Eagles", "at": "2026-11-06T21:31:18.970859+00:00"}
 {"kind": "injury", "team": "", "player": "Amonra St Brown", "pos": "", "source": "rotoworld-fb", "text": "Amon-Ra St. Brown (ribs) questionable for Week 9", "at": "2026-11-06T21:46:35.863758+00:00"}
+{"kind": "qb", "team": "SEA", "player": "Drew Lock", "pos": "QB", "strong": false, "source": "rotoworld-fb", "text": "Drew Lock (elbow) cleared to start vs. Cardinals", "at": "2026-11-06T22:08:26.089657+00:00"}
