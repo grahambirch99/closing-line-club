@@ -1,4 +1,4 @@
-# NBA Test: paper tracking (updated Thu Nov 5 6:50 PM PT)
+# NBA Test: paper tracking (updated Thu Nov 5 10:00 PM PT)
 
 Rules v2 (research/nba_rules_v2_PREREG.md): fair = Pinnacle + Kalshi ladder; Unders >= 3% edge, Overs >= 6% and no
 longer than +233; Novig/ProphetX only. Scorecard: CLV vs the Kalshi ladder at tip ('Kalshi CLV').
@@ -10,9 +10,9 @@ v3 picks Oct 26-27 (3/game, 8/night caps): 14 picks; graded 5-9, -1.56u; lean (w
   v3.1 matchup disagree: 26 picks; graded 13-12, +0.62u; lean (win - cost) +6.4 pts
   v3.1 matchup none: 97 picks; graded 45-49, +0.55u; lean (win - cost) +1.1 pts
 
-v2 paper bets (no longer posted; its Kalshi-CLV gate was circular): 655 bets; graded 282-357-0, -1.51u (-0.4% ROI)
+v2 paper bets (no longer posted; its Kalshi-CLV gate was circular): 655 bets; graded 283-360-0, -2.14u (-0.6% ROI)
 v1 (retired Oct 22, Pinnacle-only fair): 56 bets; graded 17-39-0, -10.66u (-31.4% ROI)
-Matchup test (research/nba_h2h_forward_PREREG.md, Kalshi taker): 1686 bets; graded 870-763-0, +7.05u (+0.9% ROI); lean vs entry price +3.4 pts (n=1633)
+Matchup test (research/nba_h2h_forward_PREREG.md, Kalshi taker): 1686 bets; graded 874-772-0, +4.97u (+0.6% ROI); lean vs entry price +3.3 pts (n=1646)
 
 | Group | Edges | Avg est. edge | With close | Avg CLV vs Pinnacle (pts) | Beat close |
 |---|---|---|---|---|---|
@@ -31,7 +31,7 @@ Independent checks on v2 paper bets (CLV vs Pinnacle mostly restates the startin
 prop prices rarely move before tip):
 - Pinnacle fair move, bet to close: -1.48 (n=540, 29% > 0) pts (+ = moved our way)
 - Beat the venue's own closing price: +2.06 (n=625, 42% > 0) pts
-- CLV vs Kalshi ladder at tip (independent): +2.80 (n=651, 93% > 0) pts
+- CLV vs Kalshi ladder at tip (independent): +2.80 (n=652, 93% > 0) pts
 - Over share of paper bets: 11%
 
 Nights tracked: 14; edges per night: 2026-10-22 31, 2026-10-23 200, 2026-10-24 211, 2026-10-25 168, 2026-10-26 201, 2026-10-27 80, 2026-10-28 237, 2026-10-29 50, 2026-10-30 198, 2026-10-31 172, 2026-11-01 52, 2026-11-02 223, 2026-11-04 173, 2026-11-05 20
