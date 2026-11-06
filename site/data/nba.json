@@ -72,11 +72,11 @@
    }
   },
   "v2": {
-   "w": 218,
-   "l": 283,
+   "w": 219,
+   "l": 286,
    "p": 0,
-   "units": -0.51,
-   "roi": -0.2,
+   "units": -1.13,
+   "roi": -0.4,
    "clv": null,
    "beat": null,
    "n_clv": 0,
@@ -98,21 +98,21 @@
    "bets": 56
   },
   "h2h": {
-   "w": 870,
-   "l": 763,
+   "w": 874,
+   "l": 772,
    "p": 0,
-   "units": 7.05,
-   "roi": 0.9,
+   "units": 4.97,
+   "roi": 0.6,
    "clv": null,
    "beat": null,
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 1686,
-   "net_lean": 0.4,
-   "net_lo": -2.8,
-   "net_hi": 3.8,
-   "lean_vs_mid": 3.4
+   "bets": 1690,
+   "net_lean": 0.3,
+   "net_lo": -3.0,
+   "net_hi": 3.5,
+   "lean_vs_mid": 3.3
   }
  },
  "by_type": [
