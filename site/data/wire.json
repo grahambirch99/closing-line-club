@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-06T00:27:24.512728+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Malik Nabers (knee) DNP, says he is good for Wk 9"
+  },
+  {
    "at": "2026-11-05T22:41:27.276431+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "sleeper",
    "text": "Jake Ferguson (DAL TE) status questionable -> out [Ankle]"
-  },
-  {
-   "at": "2026-11-01T19:12:35.529066+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Jeremiyah Love (ankle) questionable to return"
   }
  ]
 }
