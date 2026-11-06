@@ -98,21 +98,21 @@
    "bets": 56
   },
   "h2h": {
-   "w": 829,
-   "l": 749,
+   "w": 870,
+   "l": 763,
    "p": 0,
-   "units": -6.1,
-   "roi": -0.8,
+   "units": 7.05,
+   "roi": 0.9,
    "clv": null,
    "beat": null,
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
    "bets": 1657,
-   "net_lean": -0.4,
-   "net_lo": -3.4,
-   "net_hi": 2.9,
-   "lean_vs_mid": 2.7
+   "net_lean": 0.4,
+   "net_lo": -2.8,
+   "net_hi": 3.8,
+   "lean_vs_mid": 3.4
   }
  },
  "by_type": [
