@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-06T22:08:26.089657+00:00",
+   "kind": "qb",
+   "source": "rotoworld-fb",
+   "text": "Drew Lock (elbow) cleared to start vs. Cardinals"
+  },
+  {
    "at": "2026-11-06T21:46:35.863758+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Bhayshul Tuten 'DNP' on Monday's practice report"
-  },
-  {
-   "at": "2026-11-02T22:41:29.657627+00:00",
-   "kind": "qb",
-   "source": "rapsheet",
-   "text": "The Cardinals are naming QB Gardner Minshew as their starting QB, one day after his heroics led to a dramatic win over the Cowboys. Jacoby Brissett heads to the bench"
   }
  ]
 }
