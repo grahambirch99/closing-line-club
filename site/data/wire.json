@@ -1,6 +1,36 @@
 {
  "items": [
   {
+   "at": "2026-11-06T18:38:12.264317+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "Garrett Wilson (NYJ WR) status questionable -> out [Concussion]"
+  },
+  {
+   "at": "2026-11-06T18:38:12.264317+00:00",
+   "kind": "qb",
+   "source": "rotowire",
+   "text": "Shedeur Sanders: Will start Sunday"
+  },
+  {
+   "at": "2026-11-06T18:38:12.264317+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "A.J. Brown (ankle/knee) ruled out for Week 9"
+  },
+  {
+   "at": "2026-11-06T18:38:12.264317+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Bam Knight (concussion) won't play vs. Seahawks"
+  },
+  {
+   "at": "2026-11-06T18:38:12.264317+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Garrett Wilson (concussion) won't play vs. Chiefs"
+  },
+  {
    "at": "2026-11-06T00:27:24.512728+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -149,36 +179,6 @@
    "kind": "qb",
    "source": "rotoworld-fb",
    "text": "Daniel Jones will start in Week 9 against Cowboys"
-  },
-  {
-   "at": "2026-11-02T00:20:30.609626+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Hunter Henry (NE TE) status questionable -> out [Foot]"
-  },
-  {
-   "at": "2026-11-01T21:43:33.806529+00:00",
-   "kind": "qb",
-   "source": "rapsheet",
-   "text": "Ravens QB Lamar Jackson will have surgery on his thumb and will go on Injured Reserve, per coach Jesse Minter. \u201cWe\u2019ll see\u201d if it\u2019s season ending."
-  },
-  {
-   "at": "2026-11-01T21:43:33.806529+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Lamar Jackson (thumb) to have surgery, headed to IR"
-  },
-  {
-   "at": "2026-11-01T21:21:53.869955+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Jeremiyah Love (ARI RB) status questionable -> out [Ankle]"
-  },
-  {
-   "at": "2026-11-01T20:01:34.273649+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Jake Ferguson (DAL TE) status questionable -> out [Ankle]"
   }
  ]
 }
