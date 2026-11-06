@@ -138,3 +138,8 @@
 {"kind": "injury", "team": "", "player": "George Pickens", "pos": "", "source": "rotoworld-fb", "text": "George Pickens (hamstring) limited again Thursday", "at": "2026-11-05T21:54:55.701772+00:00"}
 {"kind": "injury", "team": "", "player": "Dj Moore", "pos": "", "source": "rotoworld-fb", "text": "DJ Moore (shoulder) limited in non-contact jersey", "at": "2026-11-05T22:41:27.276431+00:00"}
 {"kind": "injury", "team": "", "player": "Malik Nabers", "pos": "", "source": "rotoworld-fb", "text": "Malik Nabers (knee) DNP, says he is good for Wk 9", "at": "2026-11-06T00:27:24.512728+00:00"}
+{"kind": "injury", "source": "sleeper", "team": "NYJ", "player": "Garrett Wilson", "pos": "WR", "text": "Garrett Wilson (NYJ WR) status questionable -> out [Concussion]", "at": "2026-11-06T18:38:12.264317+00:00"}
+{"kind": "qb", "team": "CLE", "player": "Shedeur Sanders", "pos": "QB", "strong": false, "source": "rotowire", "text": "Shedeur Sanders: Will start Sunday", "at": "2026-11-06T18:38:12.264317+00:00"}
+{"kind": "injury", "team": "", "player": "Aj Brown", "pos": "", "source": "rotoworld-fb", "text": "A.J. Brown (ankle/knee) ruled out for Week 9", "at": "2026-11-06T18:38:12.264317+00:00"}
+{"kind": "injury", "team": "", "player": "Bam Knight", "pos": "", "source": "rotoworld-fb", "text": "Bam Knight (concussion) won't play vs. Seahawks", "at": "2026-11-06T18:38:12.264317+00:00"}
+{"kind": "injury", "team": "", "player": "Garrett Wilson", "pos": "", "source": "rotoworld-fb", "text": "Garrett Wilson (concussion) won't play vs. Chiefs", "at": "2026-11-06T18:38:12.264317+00:00"}
