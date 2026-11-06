@@ -1,6 +1,24 @@
 {
  "items": [
   {
+   "at": "2026-11-06T21:46:35.863758+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Amon-Ra St. Brown (ribs) questionable for Week 9"
+  },
+  {
+   "at": "2026-11-06T21:31:18.970859+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "Cam Skattebo (NYG RB) status questionable -> doubtful [Hamstring]"
+  },
+  {
+   "at": "2026-11-06T21:31:18.970859+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Cam Skattebo (hamstring) doubtful to face Eagles"
+  },
+  {
    "at": "2026-11-06T21:06:31.723610+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -161,24 +179,6 @@
    "kind": "qb",
    "source": "rapsheet",
    "text": "The Cardinals are naming QB Gardner Minshew as their starting QB, one day after his heroics led to a dramatic win over the Cowboys. Jacoby Brissett heads to the bench"
-  },
-  {
-   "at": "2026-11-02T22:13:33.272720+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "LaFleur: Bam Knight in concussion protocol"
-  },
-  {
-   "at": "2026-11-02T21:30:15.533507+00:00",
-   "kind": "injury",
-   "source": "rapsheet",
-   "text": "The Seahawks plan to activate first-round RB Jadarian Price from Injured Reserve to play tonight against the Bears, source says. His first game action since Sept. 27."
-  },
-  {
-   "at": "2026-11-02T20:58:39.173787+00:00",
-   "kind": "injury",
-   "source": "rapsheet",
-   "text": "Vikings coach Kevin O'Connell said QB Kyler Murray is dealing with a sore hamstring, and he'll have a full evaluation. Murray seemed limited at the end of Sunday's game."
   }
  ]
 }
