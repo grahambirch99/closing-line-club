@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-07T00:33:23.948440+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "George Pickens (hamstring) questionable in Week 9"
+  },
+  {
    "at": "2026-11-06T22:08:26.089657+00:00",
    "kind": "qb",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rapsheet",
    "text": "Sources: Cardinals RB Jeremiyah Love is headed to Injured Reserve because of a high-ankle sprain that will knock him out for 4-5 weeks. Arizona\u2019s first-round pick has previously been dealing with a different ankle sprain."
-  },
-  {
-   "at": "2026-11-03T01:24:42.778737+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Bhayshul Tuten 'DNP' on Monday's practice report"
   }
  ]
 }
