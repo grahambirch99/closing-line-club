@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-07T18:08:07.733839+00:00",
+   "kind": "qb",
+   "source": "rapsheet",
+   "text": "Browns QB Deshaun Watson has also cleared concussion protocol and remains questionable. Shedeur Sanders will start."
+  },
+  {
    "at": "2026-11-07T00:33:23.948440+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "qb",
    "source": "sleeper",
    "text": "Joe Fagnano (BAL QB) status out -> healthy"
-  },
-  {
-   "at": "2026-11-03T19:03:51.979168+00:00",
-   "kind": "injury",
-   "source": "rapsheet",
-   "text": "Sources: Cardinals RB Jeremiyah Love is headed to Injured Reserve because of a high-ankle sprain that will knock him out for 4-5 weeks. Arizona\u2019s first-round pick has previously been dealing with a different ankle sprain."
   }
  ]
 }
