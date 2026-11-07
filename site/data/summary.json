@@ -1079,6 +1079,20 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0
+  },
+  {
+   "type": "College football props",
+   "id": "cfb-props",
+   "w": 0,
+   "l": 0,
+   "p": 0,
+   "units": 0,
+   "roi": null,
+   "clv": null,
+   "beat": null,
+   "n_clv": 0,
+   "clv_any": null,
+   "n_clv_any": 0
   }
  ]
 }
