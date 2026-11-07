@@ -10,7 +10,7 @@
   "n_clv": 0,
   "clv_any": null,
   "n_clv_any": 0,
-  "bets": 166,
+  "bets": 168,
   "goal": 400,
   "graded": 161,
   "lean": 0.2,
@@ -42,7 +42,7 @@
     "n_clv": 0,
     "clv_any": null,
     "n_clv_any": 0,
-    "bets": 28
+    "bets": 29
    },
    "disagree": {
     "w": 14,
@@ -68,7 +68,7 @@
     "n_clv": 0,
     "clv_any": null,
     "n_clv_any": 0,
-    "bets": 109
+    "bets": 110
    }
   },
   "v2": {
@@ -82,7 +82,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 526
+   "bets": 527
   },
   "v1": {
    "w": 17,
@@ -108,7 +108,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 1856,
+   "bets": 1868,
    "net_lean": 0.1,
    "net_lo": -2.9,
    "net_hi": 3.2,
@@ -157,6 +157,96 @@
   }
  ],
  "nights": [
+  {
+   "night": "2026-11-07",
+   "label": "Sat Nov 7",
+   "record": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "units": 0,
+    "roi": null,
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": null,
+    "n_clv_any": 0
+   },
+   "picks": [
+    {
+     "id": "nba-60dea3ec48",
+     "night": "2026-11-07",
+     "kind": "nba",
+     "tier": "A",
+     "market": "player_assists",
+     "title": "DeMar DeRozan",
+     "bet": "Under 2.5 assists",
+     "game": "Nuggets at Pacers",
+     "kick": "2026-11-07T22:10:00Z",
+     "kick_label": "Sat 2:10 PM PT",
+     "venue": "Novig",
+     "price": "+113",
+     "stake": 5.0,
+     "implied": 46.9,
+     "fair": 50.0,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 50% chance; Novig at +113 breaks even at 47% after fees, a 3.0-point gap, 60 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-07T21:10:01Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "agree",
+     "stake_v3": 5.0,
+     "cost": 0.4695,
+     "be": 46.9,
+     "strategy": "nba-v31",
+     "live": false
+    },
+    {
+     "id": "nba-ac3ff0c32b",
+     "night": "2026-11-07",
+     "kind": "nba",
+     "tier": "C (paper)",
+     "market": "player_rebounds",
+     "title": "Jamal Murray",
+     "bet": "Under 4.5 rebounds",
+     "game": "Nuggets at Pacers",
+     "kick": "2026-11-07T22:10:00Z",
+     "kick_label": "Sat 2:10 PM PT",
+     "venue": "Novig",
+     "price": "-102",
+     "stake": 5.0,
+     "implied": 50.5,
+     "fair": 52.0,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 54% chance; Novig at -102 breaks even at 50% after fees, a 3.2-point gap, 60 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-07T21:10:01Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "none",
+     "stake_v3": 5.0,
+     "cost": 0.505,
+     "be": 50.5,
+     "strategy": "nba-v31",
+     "live": false
+    }
+   ]
+  },
   {
    "night": "2026-11-06",
    "label": "Fri Nov 6",
