@@ -1147,7 +1147,9 @@
   "nba-0e96ede180",
   "nba-9df028d806",
   "nba-7b0e3eb5c8",
-  "nba-ddf1fc868d"
+  "nba-ddf1fc868d",
+  "nba-60dea3ec48",
+  "nba-ac3ff0c32b"
  ],
  "nba_results": [
   "nba-75937aa989",
@@ -2009,6 +2011,8 @@
   "1568418924322623629": "nba-9df028d806",
   "1568449311040213094": "nba-7b0e3eb5c8",
   "1568449317876793345": "nba-ddf1fc868d",
-  "1568708082152771836": "cfb-208e919ada-player_rush_yds-jabreecoleman"
+  "1568708082152771836": "cfb-208e919ada-player_rush_yds-jabreecoleman",
+  "1568735723463639226": "nba-60dea3ec48",
+  "1568735730467864778": "nba-ac3ff0c32b"
  }
 }
