@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-07T19:40:57.381096+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Kyler Murray (hammy) ruled out for MNF in Week 9"
+  },
+  {
    "at": "2026-11-07T18:08:07.733839+00:00",
    "kind": "qb",
    "source": "rapsheet",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Garrett Wilson placed in concussion protocol"
-  },
-  {
-   "at": "2026-11-04T11:41:28.892263+00:00",
-   "kind": "qb",
-   "source": "sleeper",
-   "text": "Joe Fagnano (BAL QB) status out -> healthy"
   }
  ]
 }
