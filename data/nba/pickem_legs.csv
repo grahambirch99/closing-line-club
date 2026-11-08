@@ -142,13 +142,13 @@ pk-83d77fe350-pr-point-jrueholiday-14.5,nba,2026-11-07T02:10:01Z,2026-11-07T03:1
 pk-83d77fe350-pr-point-matissethybulle-6.5,nba,2026-11-07T02:10:01Z,2026-11-07T03:10:00Z,Portland Trail Blazers @ Los Angeles Lakers,prizepicks,player_points,Matisse Thybulle,6.5,Under,0.5498,Pinnacle,0,162,0.5518,W,2
 pk-d24eb54929-pr-point-malikmonk-12.5,nba,2026-11-07T02:10:01Z,2026-11-07T03:10:00Z,San Antonio Spurs @ Sacramento Kings,prizepicks,player_points,Malik Monk,12.5,Under,0.5426,Kalshi,0,162,0.5426,W,12
 pk-d24eb54929-un-point-malikmonk-12.5,nba,2026-11-07T02:10:01Z,2026-11-07T03:10:00Z,San Antonio Spurs @ Sacramento Kings,underdog,player_points,Malik Monk,12.5,Under,0.5426,Kalshi,0,162,0.5426,W,12
-pk-e76682ca6c-pr-assis-pascalsiakam-4,nba,2026-11-07T21:10:01Z,2026-11-07T22:10:00Z,Denver Nuggets @ Indiana Pacers,prizepicks,player_assists,Pascal Siakam,4,Under,0.5563,Kalshi,0,164,,pending,
-pk-e76682ca6c-pr-point-obitoppin-11.5,nba,2026-11-07T21:10:01Z,2026-11-07T22:10:00Z,Denver Nuggets @ Indiana Pacers,prizepicks,player_points,Obi Toppin,11.5,Under,0.5448,Pinnacle,0,164,,pending,
-pk-e76682ca6c-un-point-obitoppin-11.5,nba,2026-11-07T21:10:01Z,2026-11-07T22:10:00Z,Denver Nuggets @ Indiana Pacers,underdog,player_points,Obi Toppin,11.5,Under,0.5448,Pinnacle,0,164,,pending,
-pk-e76682ca6c-pr-point-kellyoubre-9.5,nba,2026-11-07T21:10:01Z,2026-11-07T22:10:00Z,Denver Nuggets @ Indiana Pacers,prizepicks,player_points,Kelly Oubre Jr.,9.5,Under,0.5448,Pinnacle,0,164,,pending,
-pk-e76682ca6c-un-point-kellyoubre-9.5,nba,2026-11-07T21:10:01Z,2026-11-07T22:10:00Z,Denver Nuggets @ Indiana Pacers,underdog,player_points,Kelly Oubre Jr.,9.5,Under,0.5448,Pinnacle,0,164,,pending,
-pk-e76682ca6c-pr-point-ivicazubac-9.5,nba,2026-11-07T21:10:01Z,2026-11-07T22:10:00Z,Denver Nuggets @ Indiana Pacers,prizepicks,player_points,Ivica Zubac,9.5,Over,0.555,Kalshi,0,164,,pending,
-pk-e76682ca6c-un-point-ivicazubac-9.5,nba,2026-11-07T21:10:01Z,2026-11-07T22:10:00Z,Denver Nuggets @ Indiana Pacers,underdog,player_points,Ivica Zubac,9.5,Over,0.555,Kalshi,0,164,,pending,
+pk-e76682ca6c-pr-assis-pascalsiakam-4,nba,2026-11-07T21:10:01Z,2026-11-07T22:10:00Z,Denver Nuggets @ Indiana Pacers,prizepicks,player_assists,Pascal Siakam,4,Under,0.5563,Kalshi,0,164,0.5563,L,5
+pk-e76682ca6c-pr-point-obitoppin-11.5,nba,2026-11-07T21:10:01Z,2026-11-07T22:10:00Z,Denver Nuggets @ Indiana Pacers,prizepicks,player_points,Obi Toppin,11.5,Under,0.5448,Pinnacle,0,164,0.5427,W,10
+pk-e76682ca6c-un-point-obitoppin-11.5,nba,2026-11-07T21:10:01Z,2026-11-07T22:10:00Z,Denver Nuggets @ Indiana Pacers,underdog,player_points,Obi Toppin,11.5,Under,0.5448,Pinnacle,0,164,,W,10
+pk-e76682ca6c-pr-point-kellyoubre-9.5,nba,2026-11-07T21:10:01Z,2026-11-07T22:10:00Z,Denver Nuggets @ Indiana Pacers,prizepicks,player_points,Kelly Oubre Jr.,9.5,Under,0.5448,Pinnacle,0,164,,W,2
+pk-e76682ca6c-un-point-kellyoubre-9.5,nba,2026-11-07T21:10:01Z,2026-11-07T22:10:00Z,Denver Nuggets @ Indiana Pacers,underdog,player_points,Kelly Oubre Jr.,9.5,Under,0.5448,Pinnacle,0,164,,W,2
+pk-e76682ca6c-pr-point-ivicazubac-9.5,nba,2026-11-07T21:10:01Z,2026-11-07T22:10:00Z,Denver Nuggets @ Indiana Pacers,prizepicks,player_points,Ivica Zubac,9.5,Over,0.555,Kalshi,0,164,,W,10
+pk-e76682ca6c-un-point-ivicazubac-9.5,nba,2026-11-07T21:10:01Z,2026-11-07T22:10:00Z,Denver Nuggets @ Indiana Pacers,underdog,player_points,Ivica Zubac,9.5,Over,0.555,Kalshi,0,164,,W,10
 pk-ee45341df8-pr-point-jalenjohnson-20.5,nba,2026-11-07T23:40:12Z,2026-11-08T00:40:00Z,Brooklyn Nets @ Atlanta Hawks,prizepicks,player_points,Jalen Johnson,20.5,Under,0.5539,Pinnacle,0,166,,pending,
 pk-ee45341df8-pr-rebou-dysondaniels-7,nba,2026-11-07T23:40:12Z,2026-11-08T00:40:00Z,Brooklyn Nets @ Atlanta Hawks,prizepicks,player_rebounds,Dyson Daniels,7,Under,0.566,Kalshi,1,166,,pending,
 pk-ee45341df8-pr-rebou-juliusrandle-7,nba,2026-11-07T23:40:12Z,2026-11-08T00:40:00Z,Brooklyn Nets @ Atlanta Hawks,prizepicks,player_rebounds,Julius Randle,7,Under,0.5513,Kalshi,0,166,,pending,
