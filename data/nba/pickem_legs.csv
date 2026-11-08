@@ -161,7 +161,7 @@ pk-39099dc032-pr-assis-brandinpodziemsk-4,nba,2026-11-08T00:41:16Z,2026-11-08T01
 pk-af8d920f17-pr-point-jalengreen-15.5,nba,2026-11-08T01:11:19Z,2026-11-08T02:10:00Z,Houston Rockets @ Phoenix Suns,prizepicks,player_points,Jalen Green,15.5,Under,0.5432,Kalshi,0,171,0.5432,L,16
 pk-af8d920f17-un-point-jalengreen-15.5,nba,2026-11-08T01:11:19Z,2026-11-08T02:10:00Z,Houston Rockets @ Phoenix Suns,underdog,player_points,Jalen Green,15.5,Under,0.5432,Kalshi,0,171,0.5432,L,16
 pk-af8d920f17-pr-rebou-amenthompson-7,nba,2026-11-08T01:11:19Z,2026-11-08T02:10:00Z,Houston Rockets @ Phoenix Suns,prizepicks,player_rebounds,Amen Thompson,7,Under,0.5529,Kalshi,0,171,0.5529,P,7
-pk-08d47dd5e5-pr-assis-stephoncastle-6,nba,2026-11-08T02:01:24Z,2026-11-08T03:00:00Z,San Antonio Spurs @ Portland Trail Blazers,prizepicks,player_assists,Stephon Castle,6,Under,0.5423,Kalshi,0,174,,pending,
-pk-08d47dd5e5-pr-rebou-scoothenderson-2.5,nba,2026-11-08T02:01:24Z,2026-11-08T03:00:00Z,San Antonio Spurs @ Portland Trail Blazers,prizepicks,player_rebounds,Scoot Henderson,2.5,Under,0.5489,Pinnacle,0,174,,pending,
-pk-08d47dd5e5-un-rebou-scoothenderson-2.5,nba,2026-11-08T02:01:24Z,2026-11-08T03:00:00Z,San Antonio Spurs @ Portland Trail Blazers,underdog,player_rebounds,Scoot Henderson,2.5,Under,0.5489,Pinnacle,0,174,,pending,
-pk-08d47dd5e5-pr-rebou-sidycissoko-2.5,nba,2026-11-08T02:01:24Z,2026-11-08T03:00:00Z,San Antonio Spurs @ Portland Trail Blazers,prizepicks,player_rebounds,Sidy Cissoko,2.5,Over,0.5445,Kalshi,0,174,,pending,
+pk-08d47dd5e5-pr-assis-stephoncastle-6,nba,2026-11-08T02:01:24Z,2026-11-08T03:00:00Z,San Antonio Spurs @ Portland Trail Blazers,prizepicks,player_assists,Stephon Castle,6,Under,0.5423,Kalshi,0,174,0.5423,W,5
+pk-08d47dd5e5-pr-rebou-scoothenderson-2.5,nba,2026-11-08T02:01:24Z,2026-11-08T03:00:00Z,San Antonio Spurs @ Portland Trail Blazers,prizepicks,player_rebounds,Scoot Henderson,2.5,Under,0.5489,Pinnacle,0,174,0.5489,W,2
+pk-08d47dd5e5-un-rebou-scoothenderson-2.5,nba,2026-11-08T02:01:24Z,2026-11-08T03:00:00Z,San Antonio Spurs @ Portland Trail Blazers,underdog,player_rebounds,Scoot Henderson,2.5,Under,0.5489,Pinnacle,0,174,0.5489,W,2
+pk-08d47dd5e5-pr-rebou-sidycissoko-2.5,nba,2026-11-08T02:01:24Z,2026-11-08T03:00:00Z,San Antonio Spurs @ Portland Trail Blazers,prizepicks,player_rebounds,Sidy Cissoko,2.5,Over,0.5445,Kalshi,0,174,,W,3

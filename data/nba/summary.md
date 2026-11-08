@@ -1,4 +1,4 @@
-# NBA Test: paper tracking (updated Sat Nov 7 10:11 PM PT)
+# NBA Test: paper tracking (updated Sun Nov 8 3:02 AM PT)
 
 Rules v2 (research/nba_rules_v2_PREREG.md): fair = Pinnacle + Kalshi ladder; Unders >= 3% edge, Overs >= 6% and no
 longer than +233; Novig/ProphetX only. Scorecard: CLV vs the Kalshi ladder at tip ('Kalshi CLV').
