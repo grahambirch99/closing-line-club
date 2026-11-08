@@ -1,18 +1,18 @@
-# NBA Test: paper tracking (updated Sat Nov 7 9:51 PM PT)
+# NBA Test: paper tracking (updated Sat Nov 7 10:11 PM PT)
 
 Rules v2 (research/nba_rules_v2_PREREG.md): fair = Pinnacle + Kalshi ladder; Unders >= 3% edge, Overs >= 6% and no
 longer than +233; Novig/ProphetX only. Scorecard: CLV vs the Kalshi ladder at tip ('Kalshi CLV').
 Gate (100+ graded): Kalshi CLV >= +1.0 pt with lower 95% bound > 0, >= 55% beat it, wins not significantly below expected.
 
-v3.1 picks (no caps, from Oct 28; the posted NBA bets; gate at 400): 177 picks; graded 77-93, -3.93u; lean (win - cost) -1.2 pts
+v3.1 picks (no caps, from Oct 28; the posted NBA bets; gate at 400): 177 picks; graded 79-93, -2.91u; lean (win - cost) -0.6 pts
 v3 picks Oct 26-27 (3/game, 8/night caps): 14 picks; graded 5-9, -1.56u; lean (win - cost) -8.8 pts
-  v3.1 matchup agree: 30 picks; graded 11-17, -1.78u; lean (win - cost) -4.9 pts
-  v3.1 matchup disagree: 31 picks; graded 14-15, -0.48u; lean (win - cost) +2.3 pts
+  v3.1 matchup agree: 30 picks; graded 12-17, -1.16u; lean (win - cost) -2.8 pts
+  v3.1 matchup disagree: 31 picks; graded 15-15, -0.08u; lean (win - cost) +3.7 pts
   v3.1 matchup none: 116 picks; graded 52-61, -1.67u; lean (win - cost) -1.2 pts
 
-v2 paper bets (no longer posted; its Kalshi-CLV gate was circular): 706 bets; graded 301-391-0, -9.78u (-2.3% ROI)
+v2 paper bets (no longer posted; its Kalshi-CLV gate was circular): 706 bets; graded 303-392-0, -8.99u (-2.1% ROI)
 v1 (retired Oct 22, Pinnacle-only fair): 56 bets; graded 17-39-0, -10.66u (-31.4% ROI)
-Matchup test (research/nba_h2h_forward_PREREG.md, Kalshi taker): 1957 bets; graded 1013-892-0, +1.72u (+0.2% ROI); lean vs entry price +3.2 pts (n=1905)
+Matchup test (research/nba_h2h_forward_PREREG.md, Kalshi taker): 1979 bets; graded 1043-905-0, +9.48u (+1.0% ROI); lean vs entry price +3.6 pts (n=1948)
 
 | Group | Edges | Avg est. edge | With close | Avg CLV vs Pinnacle (pts) | Beat close |
 |---|---|---|---|---|---|
