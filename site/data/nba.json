@@ -10,7 +10,7 @@
   "n_clv": 0,
   "clv_any": null,
   "n_clv_any": 0,
-  "bets": 177,
+  "bets": 178,
   "goal": 400,
   "graded": 172,
   "lean": -0.6,
@@ -68,7 +68,7 @@
     "n_clv": 0,
     "clv_any": null,
     "n_clv_any": 0,
-    "bets": 116
+    "bets": 117
    }
   },
   "v2": {
@@ -82,7 +82,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 544
+   "bets": 545
   },
   "v1": {
    "w": 17,
@@ -108,7 +108,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 1979,
+   "bets": 1997,
    "net_lean": 0.6,
    "net_lo": -2.1,
    "net_hi": 3.6,
@@ -157,6 +157,60 @@
   }
  ],
  "nights": [
+  {
+   "night": "2026-11-08",
+   "label": "Sun Nov 8",
+   "record": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "units": 0,
+    "roi": null,
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": null,
+    "n_clv_any": 0
+   },
+   "picks": [
+    {
+     "id": "nba-2f409966e7",
+     "night": "2026-11-08",
+     "kind": "nba",
+     "tier": "A",
+     "market": "player_rebounds",
+     "title": "Caleb Wilson",
+     "bet": "Under 6.5 rebounds",
+     "game": "76ers at Bulls",
+     "kick": "2026-11-08T20:40:00Z",
+     "kick_label": "Sun 12:40 PM PT",
+     "venue": "Novig",
+     "price": "-127",
+     "stake": 5.0,
+     "implied": 55.9,
+     "fair": 59.5,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 60% chance; Novig at -127 breaks even at 56% after fees, a 3.5-point gap, 60 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-08T19:40:02Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "none",
+     "stake_v3": 5.0,
+     "cost": 0.5595,
+     "be": 55.9,
+     "strategy": "nba-v31",
+     "live": false
+    }
+   ]
+  },
   {
    "night": "2026-11-07",
    "label": "Sat Nov 7",
