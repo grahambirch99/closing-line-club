@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-08T20:16:16.104634+00:00",
+   "kind": "qb",
+   "source": "rotoworld-fb",
+   "text": "J.J. McCarthy (hip) questionable after huge hit"
+  },
+  {
    "at": "2026-11-08T20:03:43.859048+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Garrett Wilson (concussion) not at practice again"
-  },
-  {
-   "at": "2026-11-05T02:20:12.003983+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Bam Knight (concussion) DNP Wednesday"
   }
  ]
 }
