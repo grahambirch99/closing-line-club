@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-08T21:28:55.391596+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Ladd McConkey (back) suddenly questionable in Wk 9"
+  },
+  {
    "at": "2026-11-08T20:16:16.104634+00:00",
    "kind": "qb",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "qb",
    "source": "rapsheet",
    "text": "The Vikings are planning to start Carson Wentz on MNF against the Bills, as Kyler Murray\u2019s hamstring injury would limit his mobility. Murray could also make it worse by playing. When healthy, Wentz has thrived in Kevin O\u2019Connell\u2019s offense. Now, a shot at 1 of the NFL\u2019s best."
-  },
-  {
-   "at": "2026-11-05T19:11:12.798783+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Garrett Wilson (concussion) not at practice again"
   }
  ]
 }

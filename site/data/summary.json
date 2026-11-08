@@ -1,27 +1,27 @@
 {
  "season": {
-  "w": 79,
-  "l": 70,
+  "w": 83,
+  "l": 73,
   "p": 0,
   "units": 13.19,
-  "roi": 16.7,
+  "roi": 15.8,
   "clv": -0.06,
   "beat": 68,
   "n_clv": 41,
-  "clv_any": 0.17,
-  "n_clv_any": 134
+  "clv_any": 0.19,
+  "n_clv_any": 138
  },
  "real_money": {
-  "w": 1,
+  "w": 5,
   "l": 1,
   "p": 0,
-  "units": 0.25,
-  "roi": 25.0,
+  "units": 2.5,
+  "roi": 83.3,
   "clv": null,
   "beat": null,
   "n_clv": 0,
-  "clv_any": 0.82,
-  "n_clv_any": 2
+  "clv_any": 0.85,
+  "n_clv_any": 6
  },
  "status": {
   "nfl-v1": {
@@ -42,10 +42,10 @@
  },
  "gate": {
   "w": 6,
-  "l": 4,
+  "l": 6,
   "p": 0,
-  "units": 1.48,
-  "roi": 22.7,
+  "units": -0.02,
+  "roi": -0.3,
   "clv": -0.42,
   "beat": 60,
   "n_clv": 5,
@@ -1005,6 +1005,48 @@
    "week": 9,
    "label": "Ja'Marr Chase: Under 6.5 receptions",
    "units": 13.19
+  },
+  {
+   "id": "2026-W09-0085",
+   "week": 9,
+   "label": "Xavier Worthy: Under 30.5 receiving yards",
+   "units": 12.44
+  },
+  {
+   "id": "2026-W09-0086",
+   "week": 9,
+   "label": "Emmett Johnson: Under 11.5 rushing yards",
+   "units": 11.69
+  },
+  {
+   "id": "2026-W09-0089",
+   "week": 9,
+   "label": "Kenyon Sadiq: Under 2.5 receptions",
+   "units": 10.94
+  },
+  {
+   "id": "pp-75-356",
+   "week": 9,
+   "label": "Adonai Mitchell: Under 51.5 receiving yards",
+   "units": 11.44
+  },
+  {
+   "id": "pp-75-367",
+   "week": 9,
+   "label": "Jahmyr Gibbs: Under 24.5 receiving yards",
+   "units": 12.27
+  },
+  {
+   "id": "pp-75-374",
+   "week": 9,
+   "label": "Chris Bell: Under 2.5 receptions",
+   "units": 12.63
+  },
+  {
+   "id": "pp-75-389",
+   "week": 9,
+   "label": "Geno Smith: Under 211.5 passing yards",
+   "units": 13.19
   }
  ],
  "clv_by_week": [
@@ -1023,16 +1065,16 @@
   {
    "type": "Mid-week props model",
    "id": "props-midweek",
-   "w": 39,
+   "w": 43,
    "l": 24,
    "p": 0,
-   "units": 8.83,
-   "roi": 28.0,
+   "units": 11.08,
+   "roi": 33.1,
    "clv": null,
    "beat": null,
    "n_clv": 0,
-   "clv_any": 0.03,
-   "n_clv_any": 58
+   "clv_any": 0.08,
+   "n_clv_any": 62
   },
   {
    "type": "Game-day picks, rules v1",
@@ -1052,10 +1094,10 @@
    "type": "Saturday preview and Week 6 card",
    "id": "sat-preview",
    "w": 9,
-   "l": 3,
+   "l": 4,
    "p": 0,
-   "units": 5.42,
-   "roi": 90.4,
+   "units": 4.67,
+   "roi": 69.2,
    "clv": 0.75,
    "beat": 88,
    "n_clv": 8,
@@ -1066,10 +1108,10 @@
    "type": "Game-day picks, rules v2",
    "id": "nfl-v2",
    "w": 6,
-   "l": 4,
+   "l": 6,
    "p": 0,
-   "units": 1.48,
-   "roi": 22.7,
+   "units": -0.02,
+   "roi": -0.3,
    "clv": -0.42,
    "beat": 60,
    "n_clv": 5,
