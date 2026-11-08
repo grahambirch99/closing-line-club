@@ -162,3 +162,4 @@
 {"kind": "injury", "source": "sleeper", "team": "DEN", "player": "Jaylen Waddle", "pos": "WR", "text": "Jaylen Waddle (DEN WR) status questionable -> out [Head]", "at": "2026-11-08T19:57:35.281499+00:00"}
 {"kind": "injury", "team": "", "player": "Marshawn Lloyd", "pos": "", "source": "rotoworld-fb", "text": "MarShawn Lloyd (knee) inactive vs. Patriots", "at": "2026-11-08T20:03:43.859048+00:00"}
 {"kind": "qb", "team": "NYG", "player": "J.J. McCarthy", "pos": "QB", "strong": false, "source": "rotoworld-fb", "text": "J.J. McCarthy (hip) questionable after huge hit", "at": "2026-11-08T20:16:16.104634+00:00"}
+{"kind": "injury", "team": "", "player": "Ladd Mcconkey", "pos": "", "source": "rotoworld-fb", "text": "Ladd McConkey (back) suddenly questionable in Wk 9", "at": "2026-11-08T21:28:55.391596+00:00"}
