@@ -149,15 +149,15 @@ pk-e76682ca6c-pr-point-kellyoubre-9.5,nba,2026-11-07T21:10:01Z,2026-11-07T22:10:
 pk-e76682ca6c-un-point-kellyoubre-9.5,nba,2026-11-07T21:10:01Z,2026-11-07T22:10:00Z,Denver Nuggets @ Indiana Pacers,underdog,player_points,Kelly Oubre Jr.,9.5,Under,0.5448,Pinnacle,0,164,,W,2
 pk-e76682ca6c-pr-point-ivicazubac-9.5,nba,2026-11-07T21:10:01Z,2026-11-07T22:10:00Z,Denver Nuggets @ Indiana Pacers,prizepicks,player_points,Ivica Zubac,9.5,Over,0.555,Kalshi,0,164,,W,10
 pk-e76682ca6c-un-point-ivicazubac-9.5,nba,2026-11-07T21:10:01Z,2026-11-07T22:10:00Z,Denver Nuggets @ Indiana Pacers,underdog,player_points,Ivica Zubac,9.5,Over,0.555,Kalshi,0,164,,W,10
-pk-ee45341df8-pr-point-jalenjohnson-20.5,nba,2026-11-07T23:40:12Z,2026-11-08T00:40:00Z,Brooklyn Nets @ Atlanta Hawks,prizepicks,player_points,Jalen Johnson,20.5,Under,0.5539,Pinnacle,0,166,,pending,
-pk-ee45341df8-pr-rebou-dysondaniels-7,nba,2026-11-07T23:40:12Z,2026-11-08T00:40:00Z,Brooklyn Nets @ Atlanta Hawks,prizepicks,player_rebounds,Dyson Daniels,7,Under,0.566,Kalshi,1,166,,pending,
-pk-ee45341df8-pr-rebou-juliusrandle-7,nba,2026-11-07T23:40:12Z,2026-11-08T00:40:00Z,Brooklyn Nets @ Atlanta Hawks,prizepicks,player_rebounds,Julius Randle,7,Under,0.5513,Kalshi,0,166,,pending,
-pk-fdf3b77f50-pr-rebou-peytonwatson-5,nba,2026-11-08T00:10:26Z,2026-11-08T01:10:00Z,New York Knicks @ Cleveland Cavaliers,prizepicks,player_rebounds,Peyton Watson,5,Under,0.5485,Kalshi,0,167,,pending,
-pk-6faeaee3bd-pr-point-alexcaruso-7.5,nba,2026-11-08T00:10:26Z,2026-11-08T01:10:00Z,Washington Wizards @ Oklahoma City Thunder,prizepicks,player_points,Alex Caruso,7.5,Under,0.5469,Pinnacle,0,167,,pending,
-pk-6faeaee3bd-un-point-alexcaruso-7.5,nba,2026-11-08T00:10:26Z,2026-11-08T01:10:00Z,Washington Wizards @ Oklahoma City Thunder,underdog,player_points,Alex Caruso,7.5,Under,0.5469,Pinnacle,0,167,,pending,
-pk-6faeaee3bd-pr-point-alexsarr-12.5,nba,2026-11-08T00:10:26Z,2026-11-08T01:10:00Z,Washington Wizards @ Oklahoma City Thunder,prizepicks,player_points,Alex Sarr,12.5,Under,0.5754,Kalshi,1,167,,pending,
-pk-6faeaee3bd-pr-point-kyshawngeorge-16.5,nba,2026-11-08T00:10:26Z,2026-11-08T01:10:00Z,Washington Wizards @ Oklahoma City Thunder,prizepicks,player_points,Kyshawn George,16.5,Under,0.5435,Kalshi,0,167,,pending,
-pk-39099dc032-pr-assis-brandinpodziemsk-4,nba,2026-11-08T00:41:16Z,2026-11-08T01:40:00Z,Orlando Magic @ Golden State Warriors,prizepicks,player_assists,Brandin Podziemski,4,Under,0.5433,Kalshi,0,169,,pending,
+pk-ee45341df8-pr-point-jalenjohnson-20.5,nba,2026-11-07T23:40:12Z,2026-11-08T00:40:00Z,Brooklyn Nets @ Atlanta Hawks,prizepicks,player_points,Jalen Johnson,20.5,Under,0.5539,Pinnacle,0,166,0.5539,L,30
+pk-ee45341df8-pr-rebou-dysondaniels-7,nba,2026-11-07T23:40:12Z,2026-11-08T00:40:00Z,Brooklyn Nets @ Atlanta Hawks,prizepicks,player_rebounds,Dyson Daniels,7,Under,0.566,Kalshi,1,166,0.553,L,10
+pk-ee45341df8-pr-rebou-juliusrandle-7,nba,2026-11-07T23:40:12Z,2026-11-08T00:40:00Z,Brooklyn Nets @ Atlanta Hawks,prizepicks,player_rebounds,Julius Randle,7,Under,0.5513,Kalshi,0,166,0.5727,P,7
+pk-fdf3b77f50-pr-rebou-peytonwatson-5,nba,2026-11-08T00:10:26Z,2026-11-08T01:10:00Z,New York Knicks @ Cleveland Cavaliers,prizepicks,player_rebounds,Peyton Watson,5,Under,0.5485,Kalshi,0,167,0.549,L,6
+pk-6faeaee3bd-pr-point-alexcaruso-7.5,nba,2026-11-08T00:10:26Z,2026-11-08T01:10:00Z,Washington Wizards @ Oklahoma City Thunder,prizepicks,player_points,Alex Caruso,7.5,Under,0.5469,Pinnacle,0,167,0.5469,W,0
+pk-6faeaee3bd-un-point-alexcaruso-7.5,nba,2026-11-08T00:10:26Z,2026-11-08T01:10:00Z,Washington Wizards @ Oklahoma City Thunder,underdog,player_points,Alex Caruso,7.5,Under,0.5469,Pinnacle,0,167,0.5469,W,0
+pk-6faeaee3bd-pr-point-alexsarr-12.5,nba,2026-11-08T00:10:26Z,2026-11-08T01:10:00Z,Washington Wizards @ Oklahoma City Thunder,prizepicks,player_points,Alex Sarr,12.5,Under,0.5754,Kalshi,1,167,0.5612,L,15
+pk-6faeaee3bd-pr-point-kyshawngeorge-16.5,nba,2026-11-08T00:10:26Z,2026-11-08T01:10:00Z,Washington Wizards @ Oklahoma City Thunder,prizepicks,player_points,Kyshawn George,16.5,Under,0.5435,Kalshi,0,167,0.5148,W,14
+pk-39099dc032-pr-assis-brandinpodziemsk-4,nba,2026-11-08T00:41:16Z,2026-11-08T01:40:00Z,Orlando Magic @ Golden State Warriors,prizepicks,player_assists,Brandin Podziemski,4,Under,0.5433,Kalshi,0,169,0.5565,W,1
 pk-af8d920f17-pr-point-jalengreen-15.5,nba,2026-11-08T01:11:19Z,2026-11-08T02:10:00Z,Houston Rockets @ Phoenix Suns,prizepicks,player_points,Jalen Green,15.5,Under,0.5432,Kalshi,0,171,,pending,
 pk-af8d920f17-un-point-jalengreen-15.5,nba,2026-11-08T01:11:19Z,2026-11-08T02:10:00Z,Houston Rockets @ Phoenix Suns,underdog,player_points,Jalen Green,15.5,Under,0.5432,Kalshi,0,171,,pending,
 pk-af8d920f17-pr-rebou-amenthompson-7,nba,2026-11-08T01:11:19Z,2026-11-08T02:10:00Z,Houston Rockets @ Phoenix Suns,prizepicks,player_rebounds,Amen Thompson,7,Under,0.5529,Kalshi,0,171,,pending,
