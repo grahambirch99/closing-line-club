@@ -1,27 +1,27 @@
 {
  "season": {
-  "w": 83,
-  "l": 73,
+  "w": 87,
+  "l": 76,
   "p": 0,
-  "units": 13.19,
-  "roi": 15.8,
+  "units": 12.73,
+  "roi": 14.8,
   "clv": -0.06,
   "beat": 68,
   "n_clv": 41,
-  "clv_any": 0.19,
-  "n_clv_any": 138
+  "clv_any": 0.25,
+  "n_clv_any": 141
  },
  "real_money": {
-  "w": 5,
-  "l": 1,
+  "w": 6,
+  "l": 3,
   "p": 0,
-  "units": 2.5,
-  "roi": 83.3,
+  "units": 2.04,
+  "roi": 45.4,
   "clv": null,
   "beat": null,
   "n_clv": 0,
-  "clv_any": 0.85,
-  "n_clv_any": 6
+  "clv_any": 1.51,
+  "n_clv_any": 9
  },
  "status": {
   "nfl-v1": {
@@ -1019,9 +1019,21 @@
    "units": 11.69
   },
   {
+   "id": "2026-W09-0088",
+   "week": 9,
+   "label": "Malik Nabers: Under 5.5 receptions",
+   "units": 12.44
+  },
+  {
    "id": "2026-W09-0089",
    "week": 9,
    "label": "Kenyon Sadiq: Under 2.5 receptions",
+   "units": 11.69
+  },
+  {
+   "id": "2026-W09-0090",
+   "week": 9,
+   "label": "CeeDee Lamb: Under 6.5 receptions",
    "units": 10.94
   },
   {
@@ -1037,16 +1049,46 @@
    "units": 12.27
   },
   {
+   "id": "pp-75-371",
+   "week": 9,
+   "label": "Shedeur Sanders: Under 14.5 rushing yards",
+   "units": 11.77
+  },
+  {
    "id": "pp-75-374",
    "week": 9,
    "label": "Chris Bell: Under 2.5 receptions",
-   "units": 12.63
+   "units": 12.13
+  },
+  {
+   "id": "pp-75-375",
+   "week": 9,
+   "label": "Jaylen Waddle: Under 47.5 receiving yards",
+   "units": 12.68
   },
   {
    "id": "pp-75-389",
    "week": 9,
    "label": "Geno Smith: Under 211.5 passing yards",
-   "units": 13.19
+   "units": 13.23
+  },
+  {
+   "id": "pp-75-390",
+   "week": 9,
+   "label": "Darnell Mooney: Under 1.5 receptions",
+   "units": 12.73
+  },
+  {
+   "id": "wind-89de07377e0aa8ffaa2ae6a7dc0855cc-47.5",
+   "week": 9,
+   "label": "Rams at Commanders: Under 47.5 points",
+   "units": 12.73
+  },
+  {
+   "id": "wind-fe93e6ab1e553c0169936a0a983c324f-38.5",
+   "week": 9,
+   "label": "Giants at Eagles: Under 38.5 points",
+   "units": 12.73
   }
  ],
  "clv_by_week": [
@@ -1065,16 +1107,16 @@
   {
    "type": "Mid-week props model",
    "id": "props-midweek",
-   "w": 43,
-   "l": 24,
+   "w": 44,
+   "l": 26,
    "p": 0,
-   "units": 11.08,
-   "roi": 33.1,
+   "units": 10.62,
+   "roi": 30.3,
    "clv": null,
    "beat": null,
    "n_clv": 0,
-   "clv_any": 0.08,
-   "n_clv_any": 62
+   "clv_any": 0.21,
+   "n_clv_any": 65
   },
   {
    "type": "Game-day picks, rules v1",
@@ -1093,11 +1135,11 @@
   {
    "type": "Saturday preview and Week 6 card",
    "id": "sat-preview",
-   "w": 9,
-   "l": 4,
+   "w": 10,
+   "l": 5,
    "p": 0,
    "units": 4.67,
-   "roi": 69.2,
+   "roi": 56.7,
    "clv": 0.75,
    "beat": 88,
    "n_clv": 8,
@@ -1119,13 +1161,13 @@
    "n_clv_any": 10
   },
   {
-   "type": "Teasers",
-   "id": "teasers",
-   "w": 1,
-   "l": 1,
+   "type": "Wind Unders angle",
+   "id": "wind",
+   "w": 2,
+   "l": 2,
    "p": 0,
-   "units": -0.08,
-   "roi": -8.3,
+   "units": 0,
+   "roi": null,
    "clv": null,
    "beat": null,
    "n_clv": 0,
@@ -1133,13 +1175,13 @@
    "n_clv_any": 0
   },
   {
-   "type": "Wind Unders angle",
-   "id": "wind",
-   "w": 0,
-   "l": 2,
+   "type": "Teasers",
+   "id": "teasers",
+   "w": 1,
+   "l": 1,
    "p": 0,
-   "units": 0,
-   "roi": null,
+   "units": -0.08,
+   "roi": -8.3,
    "clv": null,
    "beat": null,
    "n_clv": 0,
