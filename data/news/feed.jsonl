@@ -159,3 +159,5 @@
 {"kind": "injury", "team": "", "player": "Emeka Egbuka", "pos": "", "source": "rapsheet", "text": "Bucs WR Emeka Egbuka (foot) is playing today after being listed as questionable. He missed Wednesday but was a full participant after that.", "at": "2026-11-08T17:20:53.162212+00:00"}
 {"kind": "injury", "team": "", "player": "Garrett Wilson", "pos": "", "source": "rotoworld-fb", "text": "Garrett Wilson officially inactive vs. Chiefs", "at": "2026-11-08T17:20:53.162212+00:00"}
 {"kind": "injury", "team": "", "player": "George Pickens", "pos": "", "source": "rotoworld-fb", "text": "George Pickens inactive for Week 9 against Colts", "at": "2026-11-08T17:20:53.162212+00:00"}
+{"kind": "injury", "source": "sleeper", "team": "DEN", "player": "Jaylen Waddle", "pos": "WR", "text": "Jaylen Waddle (DEN WR) status questionable -> out [Head]", "at": "2026-11-08T19:57:35.281499+00:00"}
+{"kind": "injury", "team": "", "player": "Marshawn Lloyd", "pos": "", "source": "rotoworld-fb", "text": "MarShawn Lloyd (knee) inactive vs. Patriots", "at": "2026-11-08T20:03:43.859048+00:00"}
