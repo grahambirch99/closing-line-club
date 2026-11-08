@@ -1099,6 +1099,20 @@
    "n_clv": 0,
    "clv_any": 4.3,
    "n_clv_any": 1
+  },
+  {
+   "type": "Game-day picks, new markets",
+   "id": "nfl-xmkt",
+   "w": 0,
+   "l": 0,
+   "p": 0,
+   "units": 0,
+   "roi": null,
+   "clv": null,
+   "beat": null,
+   "n_clv": 0,
+   "clv_any": null,
+   "n_clv_any": 0
   }
  ]
 }
