@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-11-07T22:15:25Z",
+ "generated_at": "2026-11-08T01:48:50Z",
  "current_week": 9,
  "weeks": [
   {
    "week": 9,
    "dates": "Nov 5\u20139",
    "record": {
-    "w": 0,
+    "w": 1,
     "l": 0,
     "p": 0,
-    "units": 0,
-    "roi": null,
+    "units": 0.58,
+    "roi": 116.6,
     "clv": null,
     "beat": null,
     "n_clv": 0,
-    "clv_any": null,
-    "n_clv_any": 0
+    "clv_any": 4.3,
+    "n_clv_any": 1
    },
    "paper_record": {
     "w": 0,
@@ -30,16 +30,16 @@
     "n_clv_any": 0
    },
    "clv_record": {
-    "w": 0,
+    "w": 1,
     "l": 0,
     "p": 0,
-    "units": 0,
-    "roi": null,
+    "units": 0.58,
+    "roi": 116.6,
     "clv": null,
     "beat": null,
     "n_clv": 0,
-    "clv_any": null,
-    "n_clv_any": 0
+    "clv_any": 4.3,
+    "n_clv_any": 1
    },
    "picks": [
     {
@@ -60,10 +60,10 @@
      "fair": 50.0,
      "edge": 8.3,
      "worst": "",
-     "status": "pending",
-     "actual": "",
+     "status": "W",
+     "actual": "25",
      "clv": 4.3,
-     "units": null,
+     "units": 0.583,
      "posted": "2026-11-07T18:45:00Z",
      "analysis": "ProphetX +119 vs Pinnacle's no-margin 50.0%: 8.3% return, 3.8 pts above break-even after fees. College football prop paper test (ACC/Big 12/Notre Dame games, no Big Ten or SEC teams).",
      "system": "College football props",
