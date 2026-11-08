@@ -10,7 +10,7 @@
   "n_clv": 0,
   "clv_any": null,
   "n_clv_any": 0,
-  "bets": 172,
+  "bets": 173,
   "goal": 400,
   "graded": 161,
   "lean": 0.2,
@@ -68,7 +68,7 @@
     "n_clv": 0,
     "clv_any": null,
     "n_clv_any": 0,
-    "bets": 113
+    "bets": 114
    }
   },
   "v2": {
@@ -82,7 +82,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 537
+   "bets": 539
   },
   "v1": {
    "w": 17,
@@ -108,7 +108,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 1955,
+   "bets": 1957,
    "net_lean": 0.1,
    "net_lo": -2.9,
    "net_hi": 3.2,
@@ -386,6 +386,42 @@
      "stake_v3": 5.0,
      "cost": 0.505,
      "be": 50.5,
+     "strategy": "nba-v31",
+     "live": false
+    },
+    {
+     "id": "nba-469afaa752",
+     "night": "2026-11-07",
+     "kind": "nba",
+     "tier": "A",
+     "market": "player_points",
+     "title": "Wendell Carter Jr",
+     "bet": "Under 13.5 points",
+     "game": "Magic at Warriors",
+     "kick": "2026-11-08T01:40:00Z",
+     "kick_label": "Sat 5:40 PM PT",
+     "venue": "ProphetX",
+     "price": "-117",
+     "stake": 5.0,
+     "implied": 53.9,
+     "fair": 57.9,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 58% chance; ProphetX at -117 breaks even at 54% after fees, a 3.5-point gap, 59 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-08T00:41:16Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "none",
+     "stake_v3": 5.0,
+     "cost": 0.5442,
+     "be": 54.4,
      "strategy": "nba-v31",
      "live": false
     }
