@@ -1,27 +1,27 @@
 {
  "season": {
-  "w": 78,
-  "l": 68,
+  "w": 79,
+  "l": 70,
   "p": 0,
-  "units": 13.69,
-  "roi": 17.7,
+  "units": 13.19,
+  "roi": 16.7,
   "clv": -0.06,
   "beat": 68,
   "n_clv": 41,
-  "clv_any": 0.14,
-  "n_clv_any": 131
+  "clv_any": 0.17,
+  "n_clv_any": 134
  },
  "real_money": {
-  "w": 0,
-  "l": 0,
+  "w": 1,
+  "l": 1,
   "p": 0,
-  "units": 0,
-  "roi": null,
+  "units": 0.25,
+  "roi": 25.0,
   "clv": null,
   "beat": null,
   "n_clv": 0,
-  "clv_any": null,
-  "n_clv_any": 0
+  "clv_any": 0.82,
+  "n_clv_any": 2
  },
  "status": {
   "nfl-v1": {
@@ -56,15 +56,15 @@
  },
  "xmkt": {
   "w": 0,
-  "l": 0,
+  "l": 1,
   "p": 0,
-  "units": 0,
-  "roi": null,
+  "units": -0.75,
+  "roi": -100.0,
   "clv": null,
   "beat": null,
   "n_clv": 0,
-  "clv_any": null,
-  "n_clv_any": 0,
+  "clv_any": 2.5,
+  "n_clv_any": 1,
   "goal": 50
  },
  "cfb": {
@@ -987,6 +987,24 @@
    "week": 9,
    "label": "Jabree Coleman: Under 42.5 rushing yards",
    "units": 13.69
+  },
+  {
+   "id": "2026-W09-0092",
+   "week": 9,
+   "label": "Bijan Robinson: Over 19.5 rush attempts",
+   "units": 12.94
+  },
+  {
+   "id": "pp-75-359",
+   "week": 9,
+   "label": "Kyle Pitts: Under 3.5 receptions",
+   "units": 13.69
+  },
+  {
+   "id": "pp-75-366",
+   "week": 9,
+   "label": "Ja'Marr Chase: Under 6.5 receptions",
+   "units": 13.19
   }
  ],
  "clv_by_week": [
@@ -1005,16 +1023,16 @@
   {
    "type": "Mid-week props model",
    "id": "props-midweek",
-   "w": 38,
-   "l": 23,
+   "w": 39,
+   "l": 24,
    "p": 0,
-   "units": 8.58,
-   "roi": 28.1,
+   "units": 8.83,
+   "roi": 28.0,
    "clv": null,
    "beat": null,
    "n_clv": 0,
-   "clv_any": 0.0,
-   "n_clv_any": 56
+   "clv_any": 0.03,
+   "n_clv_any": 58
   },
   {
    "type": "Game-day picks, rules v1",
@@ -1087,6 +1105,20 @@
    "n_clv_any": 0
   },
   {
+   "type": "Game-day picks, new markets",
+   "id": "nfl-xmkt",
+   "w": 0,
+   "l": 1,
+   "p": 0,
+   "units": -0.75,
+   "roi": -100.0,
+   "clv": null,
+   "beat": null,
+   "n_clv": 0,
+   "clv_any": 2.5,
+   "n_clv_any": 1
+  },
+  {
    "type": "College football props",
    "id": "cfb-props",
    "w": 1,
@@ -1099,20 +1131,6 @@
    "n_clv": 0,
    "clv_any": 4.3,
    "n_clv_any": 1
-  },
-  {
-   "type": "Game-day picks, new markets",
-   "id": "nfl-xmkt",
-   "w": 0,
-   "l": 0,
-   "p": 0,
-   "units": 0,
-   "roi": null,
-   "clv": null,
-   "beat": null,
-   "n_clv": 0,
-   "clv_any": null,
-   "n_clv_any": 0
   }
  ]
 }
