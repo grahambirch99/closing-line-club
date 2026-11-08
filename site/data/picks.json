@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T22:15:55Z",
+ "generated_at": "2026-11-08T23:57:50Z",
  "current_week": 9,
  "weeks": [
   {
@@ -589,7 +589,7 @@
      "analysis": "Mid-week props model (paper): price +5.9% vs the sharp fair price (Kalshi ladder). Kalshi only; Pinnacle has no line.",
      "status": "pending",
      "actual": "",
-     "clv": null,
+     "clv": 7.31,
      "units": null,
      "posted": "2026-11-06T19:53:44Z",
      "system": "Props model: Kalshi only \u00b7 Pinnacle has no line",
@@ -617,7 +617,7 @@
      "analysis": "Mid-week props model (paper): price +5.6% vs the sharp fair price (Kalshi ladder). Kalshi only; Pinnacle has no line.",
      "status": "pending",
      "actual": "",
-     "clv": null,
+     "clv": -5.41,
      "units": null,
      "posted": "2026-11-06T19:53:44Z",
      "system": "Props model: Kalshi only \u00b7 Pinnacle has no line",
@@ -645,7 +645,7 @@
      "analysis": "Mid-week props model (paper): price +4.5% vs the sharp fair price (Pinnacle). Pinnacle and Kalshi both agree.",
      "status": "pending",
      "actual": "",
-     "clv": null,
+     "clv": -1.48,
      "units": null,
      "posted": "2026-11-06T19:53:44Z",
      "system": "Props model: both agree",
