@@ -1,6 +1,54 @@
 {
  "items": [
   {
+   "at": "2026-11-08T17:20:53.162212+00:00",
+   "kind": "injury",
+   "source": "rapsheet",
+   "text": "Deshaun Watson is inactive."
+  },
+  {
+   "at": "2026-11-08T17:20:53.162212+00:00",
+   "kind": "injury",
+   "source": "rapsheet",
+   "text": "Lions WR Amon-Ra St. Brown (ribs) is expected to play today, source said. He was limited all week."
+  },
+  {
+   "at": "2026-11-08T17:20:53.162212+00:00",
+   "kind": "injury",
+   "source": "rapsheet",
+   "text": "Dolphins RB Jaylen Wright (quad), listed as questionable, won't play today, source said."
+  },
+  {
+   "at": "2026-11-08T17:20:53.162212+00:00",
+   "kind": "qb",
+   "source": "rapsheet",
+   "text": "Browns QB Deshaun Watson has cleared the NFL's concussion protocol but is expected to be inactive today, source said. Watson only practiced once, and Shedeur Sanders will start."
+  },
+  {
+   "at": "2026-11-08T17:20:53.162212+00:00",
+   "kind": "qb",
+   "source": "rapsheet",
+   "text": "Eagles QB Tanner McKee (rib) is expected to serve as the backup QB to Joe Milton today, source said. He's listed as questionable with a cracked rib he suffered on the first drive last week."
+  },
+  {
+   "at": "2026-11-08T17:20:53.162212+00:00",
+   "kind": "injury",
+   "source": "rapsheet",
+   "text": "Bucs WR Emeka Egbuka (foot) is playing today after being listed as questionable. He missed Wednesday but was a full participant after that."
+  },
+  {
+   "at": "2026-11-08T17:20:53.162212+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Garrett Wilson officially inactive vs. Chiefs"
+  },
+  {
+   "at": "2026-11-08T17:20:53.162212+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "George Pickens inactive for Week 9 against Colts"
+  },
+  {
    "at": "2026-11-07T19:40:57.381096+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -131,54 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Denzel Boston (calf) limited in Wednesday practice"
-  },
-  {
-   "at": "2026-11-04T22:06:37.769705+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "George Pickens (hamstring) limited to begin week"
-  },
-  {
-   "at": "2026-11-04T22:03:33.745226+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Breece Hall (quad) listed as limited on Wednesday"
-  },
-  {
-   "at": "2026-11-04T21:41:28.397023+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Travis Kelce (ankle) limited in Wednesday practice"
-  },
-  {
-   "at": "2026-11-04T20:54:14.327896+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Christian McCaffrey (hamstring) DNP to begin week"
-  },
-  {
-   "at": "2026-11-04T19:08:26.677416+00:00",
-   "kind": "qb",
-   "source": "sleeper",
-   "text": "Sam Darnold (SEA QB) status healthy -> out [Quadriceps]"
-  },
-  {
-   "at": "2026-11-04T18:59:13.323776+00:00",
-   "kind": "qb",
-   "source": "rapsheet",
-   "text": "The Browns have placed QB Deshaun Watson in the NFL\u2019s concussion protocol. Shedeur Sanders could make his first start for the Browns this season."
-  },
-  {
-   "at": "2026-11-04T18:59:13.323776+00:00",
-   "kind": "qb",
-   "source": "rotoworld-fb",
-   "text": "Sam Darnold (quad) out for Week 9 vs. Cardinals"
-  },
-  {
-   "at": "2026-11-04T18:59:13.323776+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Garrett Wilson placed in concussion protocol"
   }
  ]
 }
