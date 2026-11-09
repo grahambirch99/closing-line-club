@@ -169,16 +169,16 @@ pk-a5d2d9c68b-pr-point-calebwilson-21.5,nba,2026-11-08T19:40:02Z,2026-11-08T20:4
 pk-a5d2d9c68b-un-point-calebwilson-21.5,nba,2026-11-08T19:40:02Z,2026-11-08T20:40:00Z,Philadelphia 76ers @ Chicago Bulls,underdog,player_points,Caleb Wilson,21.5,Under,0.5435,Kalshi,0,176,0.528,W,18
 pk-a5d2d9c68b-pr-assis-anferneesimons-1.5,nba,2026-11-08T19:40:02Z,2026-11-08T20:40:00Z,Philadelphia 76ers @ Chicago Bulls,prizepicks,player_assists,Anfernee Simons,1.5,Under,0.545,Kalshi,0,176,0.545,L,2
 pk-a5d2d9c68b-pr-rebou-trejones-2.5,nba,2026-11-08T19:40:02Z,2026-11-08T20:40:00Z,Philadelphia 76ers @ Chicago Bulls,prizepicks,player_rebounds,Tre Jones,2.5,Under,0.5458,Kalshi,0,176,0.5458,W,1
-pk-182e2b5349-pr-assis-danissjenkins-4,nba,2026-11-08T22:10:01Z,2026-11-08T23:10:00Z,Los Angeles Lakers @ Detroit Pistons,prizepicks,player_assists,Daniss Jenkins,4,Under,0.5433,Kalshi,0,178,,pending,
-pk-182e2b5349-pr-assis-austinreaves-6.5,nba,2026-11-08T22:10:01Z,2026-11-08T23:10:00Z,Los Angeles Lakers @ Detroit Pistons,prizepicks,player_assists,Austin Reaves,6.5,Under,0.5448,Pinnacle,0,178,,pending,
-pk-182e2b5349-pr-rebou-johncollins-6,nba,2026-11-08T22:10:01Z,2026-11-08T23:10:00Z,Los Angeles Lakers @ Detroit Pistons,prizepicks,player_rebounds,John Collins,6,Under,0.5433,Kalshi,0,178,,pending,
-pk-758ca94b2a-pr-assis-ayodosunmu-5,nba,2026-11-08T23:10:06Z,2026-11-09T00:10:00Z,Utah Jazz @ Minnesota Timberwolves,prizepicks,player_assists,Ayo Dosunmu,5,Under,0.5511,Kalshi,0,180,,pending,
-pk-758ca94b2a-pr-rebou-keyontegeorge-4,nba,2026-11-08T23:10:06Z,2026-11-09T00:10:00Z,Utah Jazz @ Minnesota Timberwolves,prizepicks,player_rebounds,Keyonte George,4,Under,0.5619,Kalshi,0,180,,pending,
-pk-758ca94b2a-pr-rebou-ayodosunmu-5,nba,2026-11-08T23:10:06Z,2026-11-09T00:10:00Z,Utah Jazz @ Minnesota Timberwolves,prizepicks,player_rebounds,Ayo Dosunmu,5,Under,0.5659,Kalshi,1,180,,pending,
-pk-758ca94b2a-pr-rebou-darrynpeterson-4.5,nba,2026-11-08T23:10:06Z,2026-11-09T00:10:00Z,Utah Jazz @ Minnesota Timberwolves,prizepicks,player_rebounds,Darryn Peterson,4.5,Under,0.5614,Pinnacle,0,180,,pending,
-pk-c5b6599e8e-pr-point-moritzwagner-9.5,nba,2026-11-08T23:40:09Z,2026-11-09T00:40:00Z,Brooklyn Nets @ Dallas Mavericks,prizepicks,player_points,Moritz Wagner,9.5,Under,0.545,Kalshi,0,181,,pending,
-pk-c5b6599e8e-pr-point-nolantraore-13.5,nba,2026-11-08T23:40:09Z,2026-11-09T00:40:00Z,Brooklyn Nets @ Dallas Mavericks,prizepicks,player_points,Nolan Traore,13.5,Under,0.5488,Kalshi,0,181,,pending,
-pk-c5b6599e8e-pr-rebou-kyrieirving-4,nba,2026-11-08T23:40:09Z,2026-11-09T00:40:00Z,Brooklyn Nets @ Dallas Mavericks,prizepicks,player_rebounds,Kyrie Irving,4,Under,0.5637,Kalshi,1,181,,pending,
+pk-182e2b5349-pr-assis-danissjenkins-4,nba,2026-11-08T22:10:01Z,2026-11-08T23:10:00Z,Los Angeles Lakers @ Detroit Pistons,prizepicks,player_assists,Daniss Jenkins,4,Under,0.5433,Kalshi,0,178,0.5433,P,4
+pk-182e2b5349-pr-assis-austinreaves-6.5,nba,2026-11-08T22:10:01Z,2026-11-08T23:10:00Z,Los Angeles Lakers @ Detroit Pistons,prizepicks,player_assists,Austin Reaves,6.5,Under,0.5448,Pinnacle,0,178,,W,4
+pk-182e2b5349-pr-rebou-johncollins-6,nba,2026-11-08T22:10:01Z,2026-11-08T23:10:00Z,Los Angeles Lakers @ Detroit Pistons,prizepicks,player_rebounds,John Collins,6,Under,0.5433,Kalshi,0,178,0.5433,W,4
+pk-758ca94b2a-pr-assis-ayodosunmu-5,nba,2026-11-08T23:10:06Z,2026-11-09T00:10:00Z,Utah Jazz @ Minnesota Timberwolves,prizepicks,player_assists,Ayo Dosunmu,5,Under,0.5511,Kalshi,0,180,0.555,W,1
+pk-758ca94b2a-pr-rebou-keyontegeorge-4,nba,2026-11-08T23:10:06Z,2026-11-09T00:10:00Z,Utah Jazz @ Minnesota Timberwolves,prizepicks,player_rebounds,Keyonte George,4,Under,0.5619,Kalshi,0,180,,L,5
+pk-758ca94b2a-pr-rebou-ayodosunmu-5,nba,2026-11-08T23:10:06Z,2026-11-09T00:10:00Z,Utah Jazz @ Minnesota Timberwolves,prizepicks,player_rebounds,Ayo Dosunmu,5,Under,0.5659,Kalshi,1,180,0.562,W,4
+pk-758ca94b2a-pr-rebou-darrynpeterson-4.5,nba,2026-11-08T23:10:06Z,2026-11-09T00:10:00Z,Utah Jazz @ Minnesota Timberwolves,prizepicks,player_rebounds,Darryn Peterson,4.5,Under,0.5614,Pinnacle,0,180,0.5761,L,6
+pk-c5b6599e8e-pr-point-moritzwagner-9.5,nba,2026-11-08T23:40:09Z,2026-11-09T00:40:00Z,Brooklyn Nets @ Dallas Mavericks,prizepicks,player_points,Moritz Wagner,9.5,Under,0.545,Kalshi,0,181,,L,12
+pk-c5b6599e8e-pr-point-nolantraore-13.5,nba,2026-11-08T23:40:09Z,2026-11-09T00:40:00Z,Brooklyn Nets @ Dallas Mavericks,prizepicks,player_points,Nolan Traore,13.5,Under,0.5488,Kalshi,0,181,0.5511,L,14
+pk-c5b6599e8e-pr-rebou-kyrieirving-4,nba,2026-11-08T23:40:09Z,2026-11-09T00:40:00Z,Brooklyn Nets @ Dallas Mavericks,prizepicks,player_rebounds,Kyrie Irving,4,Under,0.5637,Kalshi,1,181,0.5656,W,3
 pk-98eae523ed-pr-assis-tylerherro-4,nba,2026-11-09T00:10:12Z,2026-11-09T01:10:00Z,Boston Celtics @ Milwaukee Bucks,prizepicks,player_assists,Tyler Herro,4,Over,0.5431,Kalshi,0,183,,pending,
 pk-98eae523ed-pr-point-neemiasqueta-10.5,nba,2026-11-09T00:10:12Z,2026-11-09T01:10:00Z,Boston Celtics @ Milwaukee Bucks,prizepicks,player_points,Neemias Queta,10.5,Under,0.5516,Kalshi,0,183,,pending,
 pk-98eae523ed-pr-point-mylesturner-9.5,nba,2026-11-09T00:10:12Z,2026-11-09T01:10:00Z,Boston Celtics @ Milwaukee Bucks,prizepicks,player_points,Myles Turner,9.5,Under,0.5498,Pinnacle,0,183,,pending,
