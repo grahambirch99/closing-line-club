@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "at": "2026-11-09T22:31:29.536264+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Chig Okonkwo (hip) listed as limited on Monday"
+  },
+  {
+   "at": "2026-11-09T22:31:29.536264+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Treylon Burks (foot) listed as DNP on Monday"
+  },
+  {
+   "at": "2026-11-09T22:28:26.082481+00:00",
+   "kind": "injury",
+   "source": "rotowire",
+   "text": "Joshua Palmer: Headed to injured reserve"
+  },
+  {
+   "at": "2026-11-09T22:13:07.501985+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "Jake Ferguson (DAL TE) status questionable -> out [Knee]"
+  },
+  {
    "at": "2026-11-09T22:09:43.242555+00:00",
    "kind": "injury",
    "source": "sleeper",
@@ -155,30 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Cam Skattebo (hamstring) doubtful to face Eagles"
-  },
-  {
-   "at": "2026-11-06T21:06:31.723610+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "DeVonta Smith (hamstring) ruled out vs. Giants"
-  },
-  {
-   "at": "2026-11-06T18:38:12.264317+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Garrett Wilson (NYJ WR) status questionable -> out [Concussion]"
-  },
-  {
-   "at": "2026-11-06T18:38:12.264317+00:00",
-   "kind": "qb",
-   "source": "rotowire",
-   "text": "Shedeur Sanders: Will start Sunday"
-  },
-  {
-   "at": "2026-11-06T18:38:12.264317+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "A.J. Brown (ankle/knee) ruled out for Week 9"
   }
  ]
 }
