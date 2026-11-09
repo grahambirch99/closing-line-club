@@ -1,27 +1,27 @@
 {
  "season": {
-  "w": 87,
-  "l": 76,
+  "w": 90,
+  "l": 80,
   "p": 0,
-  "units": 12.73,
-  "roi": 14.8,
+  "units": 11.22,
+  "roi": 12.4,
   "clv": -0.06,
   "beat": 68,
   "n_clv": 41,
-  "clv_any": 0.25,
-  "n_clv_any": 141
+  "clv_any": 0.3,
+  "n_clv_any": 144
  },
  "real_money": {
-  "w": 6,
-  "l": 3,
+  "w": 7,
+  "l": 5,
   "p": 0,
-  "units": 2.04,
-  "roi": 45.4,
+  "units": 1.48,
+  "roi": 24.7,
   "clv": null,
   "beat": null,
   "n_clv": 0,
-  "clv_any": 1.51,
-  "n_clv_any": 9
+  "clv_any": 1.88,
+  "n_clv_any": 12
  },
  "status": {
   "nfl-v1": {
@@ -41,11 +41,11 @@
   }
  },
  "gate": {
-  "w": 6,
-  "l": 6,
+  "w": 8,
+  "l": 7,
   "p": 0,
-  "units": -0.02,
-  "roi": -0.3,
+  "units": -0.22,
+  "roi": -2.2,
   "clv": -0.42,
   "beat": 60,
   "n_clv": 5,
@@ -1089,6 +1089,48 @@
    "week": 9,
    "label": "Giants at Eagles: Under 38.5 points",
    "units": 12.73
+  },
+  {
+   "id": "pp-75-362",
+   "week": 9,
+   "label": "Tre Tucker: Under 41.5 receiving yards",
+   "units": 12.23
+  },
+  {
+   "id": "pp-75-363",
+   "week": 9,
+   "label": "Jordan Watkins: Under 20.5 receiving yards",
+   "units": 11.73
+  },
+  {
+   "id": "2026-W09-0083",
+   "week": 9,
+   "label": "Cardinals at Seahawks: Over 41.5 points",
+   "units": 10.98
+  },
+  {
+   "id": "2026-W09-0084",
+   "week": 9,
+   "label": "Seahawks: moneyline",
+   "units": 11.2
+  },
+  {
+   "id": "2026-W09-0087",
+   "week": 9,
+   "label": "Zach Charbonnet: Over 1.5 receptions",
+   "units": 10.45
+  },
+  {
+   "id": "2026-W09-0091",
+   "week": 9,
+   "label": "Tory Horton: Over 1.5 receptions",
+   "units": 10.79
+  },
+  {
+   "id": "pp-75-373",
+   "week": 9,
+   "label": "Drew Lock: Under 215.5 passing yards",
+   "units": 11.22
   }
  ],
  "clv_by_week": [
@@ -1107,16 +1149,16 @@
   {
    "type": "Mid-week props model",
    "id": "props-midweek",
-   "w": 44,
-   "l": 26,
+   "w": 45,
+   "l": 28,
    "p": 0,
-   "units": 10.62,
-   "roi": 30.3,
+   "units": 10.06,
+   "roi": 27.6,
    "clv": null,
    "beat": null,
    "n_clv": 0,
-   "clv_any": 0.21,
-   "n_clv_any": 65
+   "clv_any": 0.33,
+   "n_clv_any": 68
   },
   {
    "type": "Game-day picks, rules v1",
@@ -1136,10 +1178,10 @@
    "type": "Saturday preview and Week 6 card",
    "id": "sat-preview",
    "w": 10,
-   "l": 5,
+   "l": 6,
    "p": 0,
-   "units": 4.67,
-   "roi": 56.7,
+   "units": 3.92,
+   "roi": 43.6,
    "clv": 0.75,
    "beat": 88,
    "n_clv": 8,
@@ -1149,11 +1191,11 @@
   {
    "type": "Game-day picks, rules v2",
    "id": "nfl-v2",
-   "w": 6,
-   "l": 6,
+   "w": 8,
+   "l": 7,
    "p": 0,
-   "units": -0.02,
-   "roi": -0.3,
+   "units": -0.22,
+   "roi": -2.2,
    "clv": -0.42,
    "beat": 60,
    "n_clv": 5,
