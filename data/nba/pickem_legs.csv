@@ -185,3 +185,10 @@ pk-98eae523ed-pr-point-mylesturner-9.5,nba,2026-11-09T00:10:12Z,2026-11-09T01:10
 pk-98eae523ed-un-point-mylesturner-9.5,nba,2026-11-09T00:10:12Z,2026-11-09T01:10:00Z,Boston Celtics @ Milwaukee Bucks,underdog,player_points,Myles Turner,9.5,Under,0.5498,Pinnacle,0,183,0.5498,W,3
 pk-c205d8d810-pr-point-derrickjones-11.5,nba,2026-11-09T01:10:17Z,2026-11-09T02:10:00Z,New Orleans Pelicans @ Los Angeles Clippers,prizepicks,player_points,Derrick Jones,11.5,Under,0.5614,Pinnacle,0,186,,W,8
 pk-7ea5547b35-un-point-keeganmurray-10.5,nba,2026-11-09T01:10:17Z,2026-11-09T02:10:00Z,Miami Heat @ Sacramento Kings,underdog,player_points,Keegan Murray,10.5,Under,0.573,Kalshi,1,186,,W,10
+pk-07361a8381-pr-rebou-sandromamukelash-4,nba,2026-11-09T23:10:01Z,2026-11-10T00:10:00Z,Los Angeles Lakers @ Atlanta Hawks,prizepicks,player_rebounds,Sandro Mamukelashvili,4,Over,0.5602,Kalshi,0,188,,pending,
+pk-1df5ff8fe9-pr-assis-donovanmitchell-5,nba,2026-11-09T23:10:01Z,2026-11-10T00:10:00Z,Cleveland Cavaliers @ Charlotte Hornets,prizepicks,player_assists,Donovan Mitchell,5,Under,0.5427,Kalshi,0,188,,pending,
+pk-929b863ace-pr-assis-traeyoung-8.5,nba,2026-11-09T23:10:01Z,2026-11-10T00:10:00Z,Washington Wizards @ Detroit Pistons,prizepicks,player_assists,Trae Young,8.5,Under,0.5427,Pinnacle,0,188,,pending,
+pk-929b863ace-un-assis-traeyoung-8.5,nba,2026-11-09T23:10:01Z,2026-11-10T00:10:00Z,Washington Wizards @ Detroit Pistons,underdog,player_assists,Trae Young,8.5,Under,0.5427,Pinnacle,0,188,,pending,
+pk-929b863ace-pr-point-ajdybantsa-16.5,nba,2026-11-09T23:10:01Z,2026-11-10T00:10:00Z,Washington Wizards @ Detroit Pistons,prizepicks,player_points,AJ Dybantsa,16.5,Under,0.5428,Kalshi,0,188,,pending,
+pk-929b863ace-un-point-ajdybantsa-16.5,nba,2026-11-09T23:10:01Z,2026-11-10T00:10:00Z,Washington Wizards @ Detroit Pistons,underdog,player_points,AJ Dybantsa,16.5,Under,0.5428,Kalshi,0,188,,pending,
+pk-929b863ace-pr-point-paulreed-12.5,nba,2026-11-09T23:10:01Z,2026-11-10T00:10:00Z,Washington Wizards @ Detroit Pistons,prizepicks,player_points,Paul Reed Jr,12.5,Under,0.5456,Kalshi,0,188,,pending,
