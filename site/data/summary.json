@@ -1,15 +1,15 @@
 {
  "season": {
   "w": 91,
-  "l": 81,
+  "l": 83,
   "p": 0,
-  "units": 10.72,
-  "roi": 11.8,
-  "clv": -0.06,
-  "beat": 68,
-  "n_clv": 41,
-  "clv_any": 0.32,
-  "n_clv_any": 145
+  "units": 9.22,
+  "roi": 10.0,
+  "clv": 0.02,
+  "beat": 70,
+  "n_clv": 43,
+  "clv_any": 0.33,
+  "n_clv_any": 147
  },
  "real_money": {
   "w": 7,
@@ -56,15 +56,15 @@
  },
  "xmkt": {
   "w": 0,
-  "l": 1,
+  "l": 3,
   "p": 0,
-  "units": -0.75,
+  "units": -2.25,
   "roi": -100.0,
-  "clv": null,
-  "beat": null,
-  "n_clv": 0,
-  "clv_any": 2.5,
-  "n_clv_any": 1,
+  "clv": 1.6,
+  "beat": 100,
+  "n_clv": 2,
+  "clv_any": 1.9,
+  "n_clv_any": 3,
   "goal": 50
  },
  "cfb": {
@@ -1103,6 +1103,12 @@
    "units": 11.73
   },
   {
+   "id": "pp-75-376",
+   "week": 9,
+   "label": "Ladd McConkey: Under 3.5 receptions",
+   "units": 11.73
+  },
+  {
    "id": "2026-W09-0083",
    "week": 9,
    "label": "Cardinals at Seahawks: Over 41.5 points",
@@ -1143,6 +1149,18 @@
    "week": 9,
    "label": "Cardinals at Seahawks: Under 39.5 points",
    "units": 10.72
+  },
+  {
+   "id": "2026-W09-0094",
+   "week": 9,
+   "label": "Roschon Johnson: Over 16.5 rushing yards",
+   "units": 9.97
+  },
+  {
+   "id": "2026-W09-0095",
+   "week": 9,
+   "label": "Baker Mayfield: Over 17.5 rushing yards",
+   "units": 9.22
   }
  ],
  "clv_by_week": [
@@ -1155,6 +1173,11 @@
    "week": 8,
    "clv": -0.23,
    "n": 16
+  },
+  {
+   "week": 9,
+   "clv": 1.6,
+   "n": 2
   }
  ],
  "by_type": [
@@ -1229,6 +1252,20 @@
    "n_clv_any": 0
   },
   {
+   "type": "Game-day picks, new markets",
+   "id": "nfl-xmkt",
+   "w": 0,
+   "l": 3,
+   "p": 0,
+   "units": -2.25,
+   "roi": -100.0,
+   "clv": 1.6,
+   "beat": 100,
+   "n_clv": 2,
+   "clv_any": 1.9,
+   "n_clv_any": 3
+  },
+  {
    "type": "Teasers",
    "id": "teasers",
    "w": 1,
@@ -1241,20 +1278,6 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0
-  },
-  {
-   "type": "Game-day picks, new markets",
-   "id": "nfl-xmkt",
-   "w": 0,
-   "l": 1,
-   "p": 0,
-   "units": -0.75,
-   "roi": -100.0,
-   "clv": null,
-   "beat": null,
-   "n_clv": 0,
-   "clv_any": 2.5,
-   "n_clv_any": 1
   },
   {
    "type": "College football props",
