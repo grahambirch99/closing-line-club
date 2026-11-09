@@ -49,6 +49,8 @@ jobs:
           token: ${{ secrets.PRIVATE_REPO_TOKEN }}
           path: p
           fetch-depth: 1
+      - name: Unpack private odds.db (stored as p/data/odds.db.gz since Nov 9)
+        run: if [ -f p/ops/db.sh ]; then bash p/ops/db.sh unpack; fi
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
