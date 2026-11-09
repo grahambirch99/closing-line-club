@@ -10,7 +10,7 @@
   "n_clv": 0,
   "clv_any": null,
   "n_clv_any": 0,
-  "bets": 180,
+  "bets": 181,
   "goal": 400,
   "graded": 174,
   "lean": -0.1,
@@ -68,7 +68,7 @@
     "n_clv": 0,
     "clv_any": null,
     "n_clv_any": 0,
-    "bets": 118
+    "bets": 119
    }
   },
   "v2": {
@@ -82,7 +82,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 570
+   "bets": 574
   },
   "v1": {
    "w": 17,
@@ -108,7 +108,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 2183,
+   "bets": 2189,
    "net_lean": 0.8,
    "net_lo": -1.8,
    "net_hi": 3.5,
@@ -206,6 +206,42 @@
      "stake_v3": 5.0,
      "cost": 0.6403,
      "be": 64.0,
+     "strategy": "nba-v31",
+     "live": false
+    },
+    {
+     "id": "nba-498a91369a",
+     "night": "2026-11-09",
+     "kind": "nba",
+     "tier": "A",
+     "market": "player_assists",
+     "title": "Cedric Coward",
+     "bet": "Under 1.5 assists",
+     "game": "Grizzlies at Raptors",
+     "kick": "2026-11-10T00:40:00Z",
+     "kick_label": "Mon 4:40 PM PT",
+     "venue": "ProphetX",
+     "price": "+225",
+     "stake": 5.0,
+     "implied": 30.8,
+     "fair": 35.0,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 35% chance; ProphetX at +225 breaks even at 31% after fees, a 3.8-point gap, 60 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-09T23:40:04Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "none",
+     "stake_v3": 5.0,
+     "cost": 0.312,
+     "be": 31.2,
      "strategy": "nba-v31",
      "live": false
     }
