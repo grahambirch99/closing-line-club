@@ -1,6 +1,6 @@
 {
  "season": {
-  "w": 90,
+  "w": 91,
   "l": 81,
   "p": 0,
   "units": 10.72,
@@ -1137,6 +1137,12 @@
    "week": 9,
    "label": "Drew Lock: Under 215.5 passing yards",
    "units": 10.72
+  },
+  {
+   "id": "wind-240e23b02b1e3fef655d04a286b5a623-39.5",
+   "week": 9,
+   "label": "Cardinals at Seahawks: Under 39.5 points",
+   "units": 10.72
   }
  ],
  "clv_by_week": [
@@ -1211,7 +1217,7 @@
   {
    "type": "Wind Unders angle",
    "id": "wind",
-   "w": 2,
+   "w": 3,
    "l": 2,
    "p": 0,
    "units": 0,

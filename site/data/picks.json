@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-09T01:09:46Z",
+ "generated_at": "2026-11-09T04:33:39Z",
  "current_week": 9,
  "weeks": [
   {
    "week": 9,
    "dates": "Nov 5\u20139",
    "record": {
-    "w": 13,
+    "w": 14,
     "l": 13,
     "p": 0,
     "units": -2.38,
@@ -30,7 +30,7 @@
     "n_clv_any": 1
    },
    "clv_record": {
-    "w": 13,
+    "w": 14,
     "l": 13,
     "p": 0,
     "units": -2.38,
@@ -851,8 +851,8 @@
      "edge": null,
      "worst": "",
      "analysis": "Wind Unders angle (paper): forecast 9.2 mph at kickoff.",
-     "status": "pending",
-     "actual": "",
+     "status": "W",
+     "actual": "final total 20 vs 39.5",
      "clv": null,
      "units": null,
      "posted": "2026-11-07T21:54:00Z",
