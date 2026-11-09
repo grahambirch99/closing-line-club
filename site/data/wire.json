@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-09T22:59:15.137430+00:00",
+   "kind": "qb",
+   "source": "rotoworld-fb",
+   "text": "Rap: Cardinals fear torn UCL for Gardner Minshew"
+  },
+  {
    "at": "2026-11-09T22:31:29.536264+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "sleeper",
    "text": "Cam Skattebo (NYG RB) status questionable -> doubtful [Hamstring]"
-  },
-  {
-   "at": "2026-11-06T21:31:18.970859+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Cam Skattebo (hamstring) doubtful to face Eagles"
   }
  ]
 }
