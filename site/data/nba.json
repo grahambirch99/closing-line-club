@@ -10,7 +10,7 @@
   "n_clv": 0,
   "clv_any": null,
   "n_clv_any": 0,
-  "bets": 179,
+  "bets": 180,
   "goal": 400,
   "graded": 174,
   "lean": -0.1,
@@ -42,7 +42,7 @@
     "n_clv": 0,
     "clv_any": null,
     "n_clv_any": 0,
-    "bets": 30
+    "bets": 31
    },
    "disagree": {
     "w": 15,
@@ -82,7 +82,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 557
+   "bets": 570
   },
   "v1": {
    "w": 17,
@@ -108,7 +108,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 2093,
+   "bets": 2183,
    "net_lean": 0.8,
    "net_lo": -1.8,
    "net_hi": 3.5,
@@ -157,6 +157,60 @@
   }
  ],
  "nights": [
+  {
+   "night": "2026-11-09",
+   "label": "Mon Nov 9",
+   "record": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "units": 0,
+    "roi": null,
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": null,
+    "n_clv_any": 0
+   },
+   "picks": [
+    {
+     "id": "nba-bfd236362c",
+     "night": "2026-11-09",
+     "kind": "nba",
+     "tier": "A",
+     "market": "player_assists",
+     "title": "Alex Sarr",
+     "bet": "Under 2.5 assists",
+     "game": "Wizards at Pistons",
+     "kick": "2026-11-10T00:10:00Z",
+     "kick_label": "Mon 4:10 PM PT",
+     "venue": "Novig",
+     "price": "-178",
+     "stake": 5.0,
+     "implied": 64.0,
+     "fair": 67.8,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 68% chance; Novig at -178 breaks even at 64% after fees, a 3.8-point gap, 60 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-09T23:10:01Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "agree",
+     "stake_v3": 5.0,
+     "cost": 0.6403,
+     "be": 64.0,
+     "strategy": "nba-v31",
+     "live": false
+    }
+   ]
+  },
   {
    "night": "2026-11-08",
    "label": "Sun Nov 8",
