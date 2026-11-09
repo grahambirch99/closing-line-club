@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T00:38:46Z",
+ "generated_at": "2026-11-09T01:09:46Z",
  "current_week": 9,
  "weeks": [
   {
@@ -7,15 +7,15 @@
    "dates": "Nov 5\u20139",
    "record": {
     "w": 13,
-    "l": 12,
+    "l": 13,
     "p": 0,
-    "units": -1.88,
-    "roi": -13.7,
+    "units": -2.38,
+    "roi": -16.7,
     "clv": null,
     "beat": null,
     "n_clv": 0,
-    "clv_any": 2.1,
-    "n_clv_any": 14
+    "clv_any": 2.11,
+    "n_clv_any": 15
    },
    "paper_record": {
     "w": 2,
@@ -31,15 +31,15 @@
    },
    "clv_record": {
     "w": 13,
-    "l": 12,
+    "l": 13,
     "p": 0,
-    "units": -1.88,
-    "roi": -13.7,
+    "units": -2.38,
+    "roi": -16.7,
     "clv": null,
     "beat": null,
     "n_clv": 0,
-    "clv_any": 2.1,
-    "n_clv_any": 14
+    "clv_any": 2.11,
+    "n_clv_any": 15
    },
    "picks": [
     {
@@ -764,10 +764,10 @@
      "edge": 6.0,
      "worst": "",
      "analysis": "Mid-week props model (paper): price +6.0% vs the sharp fair price (Kalshi ladder). Kalshi only; Pinnacle has no line.",
-     "status": "pending",
-     "actual": "",
+     "status": "L",
+     "actual": "25 receiving yards",
      "clv": 2.24,
-     "units": null,
+     "units": -0.5,
      "posted": "2026-11-06T19:53:44Z",
      "system": "Props model: Kalshi only \u00b7 Pinnacle has no line",
      "strategy": "props-midweek",

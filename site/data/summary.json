@@ -1,27 +1,27 @@
 {
  "season": {
   "w": 90,
-  "l": 80,
+  "l": 81,
   "p": 0,
-  "units": 11.22,
-  "roi": 12.4,
+  "units": 10.72,
+  "roi": 11.8,
   "clv": -0.06,
   "beat": 68,
   "n_clv": 41,
-  "clv_any": 0.3,
-  "n_clv_any": 144
+  "clv_any": 0.32,
+  "n_clv_any": 145
  },
  "real_money": {
   "w": 7,
-  "l": 5,
+  "l": 6,
   "p": 0,
-  "units": 1.48,
-  "roi": 24.7,
+  "units": 0.98,
+  "roi": 15.1,
   "clv": null,
   "beat": null,
   "n_clv": 0,
-  "clv_any": 1.88,
-  "n_clv_any": 12
+  "clv_any": 1.91,
+  "n_clv_any": 13
  },
  "status": {
   "nfl-v1": {
@@ -1127,10 +1127,16 @@
    "units": 10.79
   },
   {
+   "id": "pp-75-361",
+   "week": 9,
+   "label": "Savion Williams: Under 17.5 receiving yards",
+   "units": 10.29
+  },
+  {
    "id": "pp-75-373",
    "week": 9,
    "label": "Drew Lock: Under 215.5 passing yards",
-   "units": 11.22
+   "units": 10.72
   }
  ],
  "clv_by_week": [
@@ -1150,15 +1156,15 @@
    "type": "Mid-week props model",
    "id": "props-midweek",
    "w": 45,
-   "l": 28,
+   "l": 29,
    "p": 0,
-   "units": 10.06,
-   "roi": 27.6,
+   "units": 9.56,
+   "roi": 25.8,
    "clv": null,
    "beat": null,
    "n_clv": 0,
-   "clv_any": 0.33,
-   "n_clv_any": 68
+   "clv_any": 0.36,
+   "n_clv_any": 69
   },
   {
    "type": "Game-day picks, rules v1",
