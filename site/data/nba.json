@@ -10,7 +10,7 @@
   "n_clv": 0,
   "clv_any": null,
   "n_clv_any": 0,
-  "bets": 178,
+  "bets": 179,
   "goal": 400,
   "graded": 173,
   "lean": -0.3,
@@ -68,7 +68,7 @@
     "n_clv": 0,
     "clv_any": null,
     "n_clv_any": 0,
-    "bets": 117
+    "bets": 118
    }
   },
   "v2": {
@@ -82,7 +82,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 553
+   "bets": 557
   },
   "v1": {
    "w": 17,
@@ -108,7 +108,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 2091,
+   "bets": 2093,
    "net_lean": 0.7,
    "net_lo": -2.1,
    "net_hi": 3.6,
@@ -206,6 +206,42 @@
      "stake_v3": 5.0,
      "cost": 0.5595,
      "be": 55.9,
+     "strategy": "nba-v31",
+     "live": false
+    },
+    {
+     "id": "nba-4dd8c6ce61",
+     "night": "2026-11-08",
+     "kind": "nba",
+     "tier": "A",
+     "market": "player_rebounds",
+     "title": "Darius Acuff Jr.",
+     "bet": "Over 2.5 rebounds",
+     "game": "Heat at Kings",
+     "kick": "2026-11-09T02:10:00Z",
+     "kick_label": "Sun 6:10 PM PT",
+     "venue": "Novig",
+     "price": "-203",
+     "stake": 5.0,
+     "implied": 67.0,
+     "fair": 75.4,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 75% chance; Novig at -203 breaks even at 67% after fees, a 8.4-point gap, 60 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-09T01:10:17Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "none",
+     "stake_v3": 5.0,
+     "cost": 0.67,
+     "be": 67.0,
      "strategy": "nba-v31",
      "live": false
     }
