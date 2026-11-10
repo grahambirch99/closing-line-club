@@ -10,7 +10,7 @@
   "n_clv": 0,
   "clv_any": null,
   "n_clv_any": 0,
-  "bets": 181,
+  "bets": 182,
   "goal": 400,
   "graded": 174,
   "lean": -0.1,
@@ -68,7 +68,7 @@
     "n_clv": 0,
     "clv_any": null,
     "n_clv_any": 0,
-    "bets": 119
+    "bets": 120
    }
   },
   "v2": {
@@ -82,7 +82,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 576
+   "bets": 578
   },
   "v1": {
    "w": 17,
@@ -108,7 +108,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 2205,
+   "bets": 2207,
    "net_lean": 0.8,
    "net_lo": -1.8,
    "net_hi": 3.5,
@@ -242,6 +242,42 @@
      "stake_v3": 5.0,
      "cost": 0.312,
      "be": 31.2,
+     "strategy": "nba-v31",
+     "live": false
+    },
+    {
+     "id": "nba-1595044c1b",
+     "night": "2026-11-09",
+     "kind": "nba",
+     "tier": "A",
+     "market": "player_points",
+     "title": "Christian Braun",
+     "bet": "Under 10.5 points",
+     "game": "Nuggets at Rockets",
+     "kick": "2026-11-10T01:40:00Z",
+     "kick_label": "Mon 5:40 PM PT",
+     "venue": "Novig",
+     "price": "-104",
+     "stake": 5.0,
+     "implied": 51.0,
+     "fair": 53.6,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 56% chance; Novig at -104 breaks even at 51% after fees, a 5.3-point gap, 60 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-10T00:40:10Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "none",
+     "stake_v3": 5.0,
+     "cost": 0.5098,
+     "be": 51.0,
      "strategy": "nba-v31",
      "live": false
     }
