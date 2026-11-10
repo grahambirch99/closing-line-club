@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T15:44:26Z",
+ "generated_at": "2026-11-10T00:15:57Z",
  "current_week": 9,
  "weeks": [
   {
@@ -920,6 +920,37 @@
      "close_moved": "1",
      "clv_ok": true,
      "strategy": "nfl-xmkt",
+     "live": false
+    },
+    {
+     "id": "2026-W09-0096",
+     "week": 9,
+     "kind": "trial",
+     "tier": "A",
+     "market": "player_receptions",
+     "title": "Keon Coleman",
+     "bet": "Over 2.5 receptions",
+     "game": "Bills at Vikings",
+     "kick": "2026-11-10T01:15:00Z",
+     "kick_label": "Mon 5:15 PM PT",
+     "venue": "Novig",
+     "price": "+182",
+     "stake": 5.0,
+     "implied": 35.5,
+     "fair": 37.5,
+     "edge": 5.7,
+     "worst": "+175",
+     "analysis": "Novig at +182 beats Pinnacle's no-vig price (38% to hit), a +5.7% edge after inactives were announced.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-09T23:55:07Z",
+     "rules": "nfl-v2-paper",
+     "clv_method": "",
+     "close_moved": "",
+     "clv_ok": false,
+     "strategy": "nfl-v2",
      "live": false
     },
     {
