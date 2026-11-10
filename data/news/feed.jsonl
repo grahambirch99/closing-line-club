@@ -177,3 +177,4 @@
 {"kind": "qb", "team": "ARI", "player": "Gardner Minshew II", "pos": "QB", "strong": true, "source": "rotoworld-fb", "text": "Rap: Cardinals fear torn UCL for Gardner Minshew", "at": "2026-11-09T22:59:15.137430+00:00"}
 {"kind": "qb", "team": "MIA", "player": "Malik Willis", "pos": "QB", "strong": true, "source": "rotoworld-fb", "text": "Groin injury sends Malik Willis to injured reserve", "at": "2026-11-10T20:53:52.871419+00:00"}
 {"kind": "qb", "source": "sleeper", "team": "MIA", "player": "Malik Willis", "pos": "QB", "text": "Malik Willis (MIA QB) status questionable -> ir [Groin]", "at": "2026-11-10T21:12:16.017344+00:00"}
+{"kind": "qb", "source": "sleeper", "team": "ARI", "player": "Gardner Minshew II", "pos": "QB", "text": "Gardner Minshew II (ARI QB) status questionable -> ir [Elbow]", "at": "2026-11-10T22:20:38.881658+00:00"}
