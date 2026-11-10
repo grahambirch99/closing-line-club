@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T15:58:40Z",
+ "generated_at": "2026-11-10T21:15:08Z",
  "current_week": 10,
  "weeks": [
   {
@@ -41,7 +41,39 @@
     "clv_any": null,
     "n_clv_any": 0
    },
-   "picks": []
+   "picks": [
+    {
+     "id": "2026-W10-0097",
+     "week": 10,
+     "kind": "trial",
+     "tier": "A",
+     "market": "h2h",
+     "title": "Dolphins",
+     "bet": "moneyline",
+     "game": "Dolphins at Colts",
+     "kick": "2026-11-15T18:00:00Z",
+     "kick_label": "Sun 10:00 AM PT",
+     "venue": "ProphetX",
+     "price": "+180",
+     "stake": 5.0,
+     "implied": 35.7,
+     "fair": 42.5,
+     "edge": 17.5,
+     "worst": "+145",
+     "analysis": "ProphetX at +180 beats Pinnacle's no-vig price (42% to hit), a +17.5% edge right after news broke (QB MIA: Groin injury sends Malik Willis to injured reserve).",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-10T20:54:17Z",
+     "rules": "nfl-v2-paper",
+     "clv_method": "",
+     "close_moved": "",
+     "clv_ok": false,
+     "strategy": "nfl-v2",
+     "live": false
+    }
+   ]
   },
   {
    "week": 9,
