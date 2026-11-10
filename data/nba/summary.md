@@ -1,4 +1,4 @@
-# NBA Test: paper tracking (updated Mon Nov 9 5:08 PM PT)
+# NBA Test: paper tracking (updated Mon Nov 9 5:19 PM PT)
 
 Rules v2 (research/nba_rules_v2_PREREG.md): fair = Pinnacle + Kalshi ladder; Unders >= 3% edge, Overs >= 6% and no
 longer than +233; Novig/ProphetX only. Scorecard: CLV vs the Kalshi ladder at tip ('Kalshi CLV').
@@ -10,21 +10,21 @@ v3 picks Oct 26-27 (3/game, 8/night caps): 14 picks; graded 5-9, -1.56u; lean (w
   v3.1 matchup disagree: 31 picks; graded 15-15, -0.08u; lean (win - cost) +3.7 pts
   v3.1 matchup none: 120 picks; graded 54-61, -1.03u; lean (win - cost) -0.5 pts
 
-v2 paper bets (no longer posted; its Kalshi-CLV gate was circular): 745 bets; graded 311-399-0, -8.25u (-1.9% ROI)
+v2 paper bets (no longer posted; its Kalshi-CLV gate was circular): 747 bets; graded 311-399-0, -8.25u (-1.9% ROI)
 v1 (retired Oct 22, Pinnacle-only fair): 56 bets; graded 17-39-0, -10.66u (-31.4% ROI)
 Matchup test (research/nba_h2h_forward_PREREG.md, Kalshi taker): 2207 bets; graded 1106-953-0, +13.65u (+1.3% ROI); lean vs entry price +3.7 pts (n=2059)
 
 | Group | Edges | Avg est. edge | With close | Avg CLV vs Pinnacle (pts) | Beat close |
 |---|---|---|---|---|---|
-| Paper bets | 745 | +6.4% | 601 | +1.44 | 74% |
-| All Tier A/B | 1584 | +6.1% | 1247 | +1.57 | 77% |
-| Tier A | 1035 | +7.5% | 808 | +1.88 | 79% |
-| Tier B | 549 | +3.5% | 439 | +0.99 | 74% |
-| Tier C (2-3%) | 754 | +2.5% | 579 | +0.71 | 70% |
+| Paper bets | 747 | +6.4% | 601 | +1.44 | 74% |
+| All Tier A/B | 1589 | +6.1% | 1247 | +1.57 | 77% |
+| Tier A | 1038 | +7.5% | 808 | +1.88 | 79% |
+| Tier B | 551 | +3.5% | 439 | +0.99 | 74% |
+| Tier C (2-3%) | 757 | +2.5% | 579 | +0.71 | 70% |
 | A/B h2h | 21 | +7.0% | 21 | +0.71 | 90% |
 | A/B assists | 479 | +6.9% | 283 | +1.68 | 78% |
-| A/B points | 592 | +5.7% | 557 | +1.10 | 69% |
-| A/B rebounds | 487 | +5.7% | 385 | +2.21 | 87% |
+| A/B points | 595 | +5.7% | 557 | +1.10 | 69% |
+| A/B rebounds | 489 | +5.7% | 385 | +2.21 | 87% |
 | A/B spreads | 3 | +4.1% | 1 | -1.39 | 0% |
 | A/B totals | 2 | +3.4% | 0 | +nan | 0% |
 
@@ -35,5 +35,5 @@ prop prices rarely move before tip):
 - CLV vs Kalshi ladder at tip (independent): +2.72 (n=737, 92% > 0) pts
 - Over share of paper bets: 11%
 
-Nights tracked: 18; edges per night: 2026-10-22 31, 2026-10-23 200, 2026-10-24 211, 2026-10-25 168, 2026-10-26 201, 2026-10-27 80, 2026-10-28 237, 2026-10-29 50, 2026-10-30 198, 2026-10-31 172, 2026-11-01 52, 2026-11-02 223, 2026-11-04 173, 2026-11-05 20, 2026-11-06 110, 2026-11-07 82, 2026-11-08 63, 2026-11-09 67
-Odds API credits: 11601 left (shared with NFL); NBA spend by night: 2026-11-02 129, 2026-11-04 144, 2026-11-05 24, 2026-11-06 78, 2026-11-07 78, 2026-11-08 78, 2026-11-09 54
+Nights tracked: 18; edges per night: 2026-10-22 31, 2026-10-23 200, 2026-10-24 211, 2026-10-25 168, 2026-10-26 201, 2026-10-27 80, 2026-10-28 237, 2026-10-29 50, 2026-10-30 198, 2026-10-31 172, 2026-11-01 52, 2026-11-02 223, 2026-11-04 173, 2026-11-05 20, 2026-11-06 110, 2026-11-07 82, 2026-11-08 63, 2026-11-09 75
+Odds API credits: 11584 left (shared with NFL); NBA spend by night: 2026-11-02 129, 2026-11-04 144, 2026-11-05 24, 2026-11-06 78, 2026-11-07 78, 2026-11-08 78, 2026-11-09 60
