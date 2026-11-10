@@ -193,3 +193,6 @@ pk-929b863ace-pr-point-ajdybantsa-16.5,nba,2026-11-09T23:10:01Z,2026-11-10T00:10
 pk-929b863ace-un-point-ajdybantsa-16.5,nba,2026-11-09T23:10:01Z,2026-11-10T00:10:00Z,Washington Wizards @ Detroit Pistons,underdog,player_points,AJ Dybantsa,16.5,Under,0.5428,Kalshi,0,188,,pending,
 pk-929b863ace-pr-point-paulreed-12.5,nba,2026-11-09T23:10:01Z,2026-11-10T00:10:00Z,Washington Wizards @ Detroit Pistons,prizepicks,player_points,Paul Reed Jr,12.5,Under,0.5456,Kalshi,0,188,,pending,
 pk-56efae2815-pr-rebou-camspencer-2.5,nba,2026-11-09T23:40:04Z,2026-11-10T00:40:00Z,Memphis Grizzlies @ Toronto Raptors,prizepicks,player_rebounds,Cam Spencer,2.5,Under,0.5426,Kalshi,0,189,,pending,
+pk-9866fa22ad-pr-point-pascalsiakam-20.5,nba,2026-11-10T00:10:07Z,2026-11-10T01:10:00Z,Indiana Pacers @ Dallas Mavericks,prizepicks,player_points,Pascal Siakam,20.5,Over,0.5456,Kalshi,0,191,,pending,
+pk-9866fa22ad-pr-rebou-kellyoubre-2.5,nba,2026-11-10T00:10:07Z,2026-11-10T01:10:00Z,Indiana Pacers @ Dallas Mavericks,prizepicks,player_rebounds,Kelly Oubre Jr.,2.5,Over,0.5527,Kalshi,0,191,,pending,
+pk-9866fa22ad-pr-rebou-kyrieirving-4,nba,2026-11-10T00:10:07Z,2026-11-10T01:10:00Z,Indiana Pacers @ Dallas Mavericks,prizepicks,player_rebounds,Kyrie Irving,4,Under,0.5807,Kalshi,1,191,,pending,
