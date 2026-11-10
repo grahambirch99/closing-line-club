@@ -1,7 +1,48 @@
 {
- "generated_at": "2026-11-10T00:15:57Z",
- "current_week": 9,
+ "generated_at": "2026-11-10T11:13:45Z",
+ "current_week": 10,
  "weeks": [
+  {
+   "week": 10,
+   "dates": "Nov 12\u201316",
+   "record": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "units": 0,
+    "roi": null,
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": null,
+    "n_clv_any": 0
+   },
+   "paper_record": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "units": 0,
+    "roi": null,
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": null,
+    "n_clv_any": 0
+   },
+   "clv_record": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "units": 0,
+    "roi": null,
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": null,
+    "n_clv_any": 0
+   },
+   "picks": []
+  },
   {
    "week": 9,
    "dates": "Nov 5\u20139",
