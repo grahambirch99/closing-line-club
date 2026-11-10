@@ -175,3 +175,5 @@
 {"kind": "injury", "team": "", "player": "Chig Okonkwo", "pos": "", "source": "rotoworld-fb", "text": "Chig Okonkwo (hip) listed as limited on Monday", "at": "2026-11-09T22:31:29.536264+00:00"}
 {"kind": "injury", "team": "", "player": "Treylon Burks", "pos": "", "source": "rotoworld-fb", "text": "Treylon Burks (foot) listed as DNP on Monday", "at": "2026-11-09T22:31:29.536264+00:00"}
 {"kind": "qb", "team": "ARI", "player": "Gardner Minshew II", "pos": "QB", "strong": true, "source": "rotoworld-fb", "text": "Rap: Cardinals fear torn UCL for Gardner Minshew", "at": "2026-11-09T22:59:15.137430+00:00"}
+{"kind": "qb", "team": "MIA", "player": "Malik Willis", "pos": "QB", "strong": true, "source": "rotoworld-fb", "text": "Groin injury sends Malik Willis to injured reserve", "at": "2026-11-10T20:53:52.871419+00:00"}
+{"kind": "qb", "source": "sleeper", "team": "MIA", "player": "Malik Willis", "pos": "QB", "text": "Malik Willis (MIA QB) status questionable -> ir [Groin]", "at": "2026-11-10T21:12:16.017344+00:00"}
