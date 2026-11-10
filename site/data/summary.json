@@ -1,27 +1,27 @@
 {
  "season": {
-  "w": 91,
+  "w": 94,
   "l": 83,
   "p": 0,
-  "units": 9.22,
-  "roi": 10.0,
+  "units": 11.3,
+  "roi": 12.0,
   "clv": 0.02,
   "beat": 70,
   "n_clv": 43,
-  "clv_any": 0.33,
-  "n_clv_any": 147
+  "clv_any": 0.36,
+  "n_clv_any": 150
  },
  "real_money": {
-  "w": 7,
+  "w": 8,
   "l": 6,
   "p": 0,
-  "units": 0.98,
-  "roi": 15.1,
+  "units": 1.44,
+  "roi": 20.6,
   "clv": null,
   "beat": null,
   "n_clv": 0,
-  "clv_any": 1.91,
-  "n_clv_any": 13
+  "clv_any": 1.95,
+  "n_clv_any": 14
  },
  "status": {
   "nfl-v1": {
@@ -41,16 +41,16 @@
   }
  },
  "gate": {
-  "w": 8,
+  "w": 10,
   "l": 7,
   "p": 0,
-  "units": -0.22,
-  "roi": -2.2,
+  "units": 1.4,
+  "roi": 12.4,
   "clv": -0.42,
   "beat": 60,
   "n_clv": 5,
-  "clv_any": -0.15,
-  "n_clv_any": 10,
+  "clv_any": 0.04,
+  "n_clv_any": 12,
   "goal": 150,
   "deadline": "2027-01-13"
  },
@@ -1161,6 +1161,24 @@
    "week": 9,
    "label": "Baker Mayfield: Over 17.5 rushing yards",
    "units": 9.22
+  },
+  {
+   "id": "2026-W09-0093",
+   "week": 9,
+   "label": "T.J. Hockenson: Under 41.5 receiving yards",
+   "units": 9.93
+  },
+  {
+   "id": "2026-W09-0096",
+   "week": 9,
+   "label": "Keon Coleman: Over 2.5 receptions",
+   "units": 10.84
+  },
+  {
+   "id": "pp-75-364",
+   "week": 9,
+   "label": "Aaron Jones: Under 32.5 rushing yards",
+   "units": 11.3
   }
  ],
  "clv_by_week": [
@@ -1184,16 +1202,16 @@
   {
    "type": "Mid-week props model",
    "id": "props-midweek",
-   "w": 45,
+   "w": 46,
    "l": 29,
    "p": 0,
-   "units": 9.56,
-   "roi": 25.8,
+   "units": 10.02,
+   "roi": 26.7,
    "clv": null,
    "beat": null,
    "n_clv": 0,
-   "clv_any": 0.36,
-   "n_clv_any": 69
+   "clv_any": 0.39,
+   "n_clv_any": 70
   },
   {
    "type": "Game-day picks, rules v1",
@@ -1210,6 +1228,20 @@
    "n_clv_any": 54
   },
   {
+   "type": "Game-day picks, rules v2",
+   "id": "nfl-v2",
+   "w": 10,
+   "l": 7,
+   "p": 0,
+   "units": 1.4,
+   "roi": 12.4,
+   "clv": -0.42,
+   "beat": 60,
+   "n_clv": 5,
+   "clv_any": 0.04,
+   "n_clv_any": 12
+  },
+  {
    "type": "Saturday preview and Week 6 card",
    "id": "sat-preview",
    "w": 10,
@@ -1221,20 +1253,6 @@
    "beat": 88,
    "n_clv": 8,
    "clv_any": 0.6,
-   "n_clv_any": 10
-  },
-  {
-   "type": "Game-day picks, rules v2",
-   "id": "nfl-v2",
-   "w": 8,
-   "l": 7,
-   "p": 0,
-   "units": -0.22,
-   "roi": -2.2,
-   "clv": -0.42,
-   "beat": 60,
-   "n_clv": 5,
-   "clv_any": -0.15,
    "n_clv_any": 10
   },
   {
