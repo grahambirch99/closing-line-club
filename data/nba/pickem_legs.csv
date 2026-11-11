@@ -204,17 +204,17 @@ pk-dc4eb6ae99-pr-rebou-keldonjohnson-5,nba,2026-11-10T01:10:13Z,2026-11-10T02:10
 pk-3619e1cf4b-pr-assis-stephencurry-5,nba,2026-11-10T02:10:02Z,2026-11-10T03:10:00Z,New Orleans Pelicans @ Golden State Warriors,prizepicks,player_assists,Stephen Curry,5,Under,0.5462,Kalshi,0,198,0.5462,W,2
 pk-3619e1cf4b-pr-point-dejountemurray-18,nba,2026-11-10T02:10:02Z,2026-11-10T03:10:00Z,New Orleans Pelicans @ Golden State Warriors,prizepicks,player_points,Dejounte Murray,18,Under,0.5583,Kalshi,0,198,0.5583,W,12
 pk-3619e1cf4b-pr-rebou-bennedictmathuri-3.5,nba,2026-11-10T02:10:02Z,2026-11-10T03:10:00Z,New Orleans Pelicans @ Golden State Warriors,prizepicks,player_rebounds,Bennedict Mathurin,3.5,Under,0.56,Kalshi,0,198,0.56,W,2
-pk-3689d555c9-pr-point-oganunoby-17.5,nba,2026-11-10T23:40:02Z,2026-11-11T00:40:00Z,Milwaukee Bucks @ New York Knicks,prizepicks,player_points,OG Anunoby,17.5,Under,0.5604,Kalshi,0,200,,pending,
-pk-3689d555c9-pr-rebou-mikalbridges-3.5,nba,2026-11-10T23:40:02Z,2026-11-11T00:40:00Z,Milwaukee Bucks @ New York Knicks,prizepicks,player_rebounds,Mikal Bridges,3.5,Under,0.555,Kalshi,0,200,,pending,
-pk-cfa503c66c-pr-point-tyresemaxey-17.5,nba,2026-11-11T00:10:04Z,2026-11-11T01:10:00Z,Boston Celtics @ Philadelphia 76ers,prizepicks,player_points,Tyrese Maxey,17.5,Over,0.7715,Kalshi,1,201,,pending,
-pk-cfa503c66c-pr-rebou-jaysontatum-7,nba,2026-11-11T00:10:04Z,2026-11-11T01:10:00Z,Boston Celtics @ Philadelphia 76ers,prizepicks,player_rebounds,Jayson Tatum,7,Over,0.5486,Kalshi,0,201,,pending,
-pk-8178ff2ec6-pr-point-jalengreen-14.5,nba,2026-11-11T01:10:09Z,2026-11-11T02:10:00Z,Los Angeles Clippers @ Phoenix Suns,prizepicks,player_points,Jalen Green,14.5,Over,0.545,Kalshi,0,204,,pending,
-pk-8178ff2ec6-pr-rebou-milesbridges-7,nba,2026-11-11T01:10:09Z,2026-11-11T02:10:00Z,Los Angeles Clippers @ Phoenix Suns,prizepicks,player_rebounds,Miles Bridges,7,Under,0.5423,Kalshi,0,204,,pending,
-pk-9ac02cb22a-pr-assis-davionmitchell-8,nba,2026-11-11T01:10:09Z,2026-11-11T02:10:00Z,Miami Heat @ Utah Jazz,prizepicks,player_assists,Davion Mitchell,8,Under,0.5535,Kalshi,0,204,,pending,
-pk-9ac02cb22a-un-assis-davionmitchell-7.5,nba,2026-11-11T01:10:09Z,2026-11-11T02:10:00Z,Miami Heat @ Utah Jazz,underdog,player_assists,Davion Mitchell,7.5,Over,0.5743,Pinnacle,1,204,,pending,
-pk-9ac02cb22a-pr-point-andrewwiggins-9.5,nba,2026-11-11T01:10:09Z,2026-11-11T02:10:00Z,Miami Heat @ Utah Jazz,prizepicks,player_points,Andrew Wiggins,9.5,Under,0.605,Kalshi,1,204,,pending,
-pk-9ac02cb22a-pr-rebou-giannisantetokou-12.5,nba,2026-11-11T01:10:09Z,2026-11-11T02:10:00Z,Miami Heat @ Utah Jazz,prizepicks,player_rebounds,Giannis Antetokounmpo,12.5,Under,0.5444,Kalshi,0,204,,pending,
-pk-9ac02cb22a-un-rebou-giannisantetokou-12.5,nba,2026-11-11T01:10:09Z,2026-11-11T02:10:00Z,Miami Heat @ Utah Jazz,underdog,player_rebounds,Giannis Antetokounmpo,12.5,Under,0.5444,Kalshi,0,204,,pending,
+pk-3689d555c9-pr-point-oganunoby-17.5,nba,2026-11-10T23:40:02Z,2026-11-11T00:40:00Z,Milwaukee Bucks @ New York Knicks,prizepicks,player_points,OG Anunoby,17.5,Under,0.5604,Kalshi,0,200,0.5205,L,19
+pk-3689d555c9-pr-rebou-mikalbridges-3.5,nba,2026-11-10T23:40:02Z,2026-11-11T00:40:00Z,Milwaukee Bucks @ New York Knicks,prizepicks,player_rebounds,Mikal Bridges,3.5,Under,0.555,Kalshi,0,200,,L,5
+pk-cfa503c66c-pr-point-tyresemaxey-17.5,nba,2026-11-11T00:10:04Z,2026-11-11T01:10:00Z,Boston Celtics @ Philadelphia 76ers,prizepicks,player_points,Tyrese Maxey,17.5,Over,0.7715,Kalshi,1,201,0.7715,W,24
+pk-cfa503c66c-pr-rebou-jaysontatum-7,nba,2026-11-11T00:10:04Z,2026-11-11T01:10:00Z,Boston Celtics @ Philadelphia 76ers,prizepicks,player_rebounds,Jayson Tatum,7,Over,0.5486,Kalshi,0,201,0.5486,L,6
+pk-8178ff2ec6-pr-point-jalengreen-14.5,nba,2026-11-11T01:10:09Z,2026-11-11T02:10:00Z,Los Angeles Clippers @ Phoenix Suns,prizepicks,player_points,Jalen Green,14.5,Over,0.545,Kalshi,0,204,0.545,L,13
+pk-8178ff2ec6-pr-rebou-milesbridges-7,nba,2026-11-11T01:10:09Z,2026-11-11T02:10:00Z,Los Angeles Clippers @ Phoenix Suns,prizepicks,player_rebounds,Miles Bridges,7,Under,0.5423,Kalshi,0,204,0.5423,W,4
+pk-9ac02cb22a-pr-assis-davionmitchell-8,nba,2026-11-11T01:10:09Z,2026-11-11T02:10:00Z,Miami Heat @ Utah Jazz,prizepicks,player_assists,Davion Mitchell,8,Under,0.5535,Kalshi,0,204,,P,8
+pk-9ac02cb22a-un-assis-davionmitchell-7.5,nba,2026-11-11T01:10:09Z,2026-11-11T02:10:00Z,Miami Heat @ Utah Jazz,underdog,player_assists,Davion Mitchell,7.5,Over,0.5743,Pinnacle,1,204,0.5087,W,8
+pk-9ac02cb22a-pr-point-andrewwiggins-9.5,nba,2026-11-11T01:10:09Z,2026-11-11T02:10:00Z,Miami Heat @ Utah Jazz,prizepicks,player_points,Andrew Wiggins,9.5,Under,0.605,Kalshi,1,204,,L,13
+pk-9ac02cb22a-pr-rebou-giannisantetokou-12.5,nba,2026-11-11T01:10:09Z,2026-11-11T02:10:00Z,Miami Heat @ Utah Jazz,prizepicks,player_rebounds,Giannis Antetokounmpo,12.5,Under,0.5444,Kalshi,0,204,,W,11
+pk-9ac02cb22a-un-rebou-giannisantetokou-12.5,nba,2026-11-11T01:10:09Z,2026-11-11T02:10:00Z,Miami Heat @ Utah Jazz,underdog,player_rebounds,Giannis Antetokounmpo,12.5,Under,0.5444,Kalshi,0,204,,W,11
 pk-78ab42ddb2-pr-point-deandrehunter-13.5,nba,2026-11-11T02:10:05Z,2026-11-11T03:10:00Z,Orlando Magic @ Sacramento Kings,prizepicks,player_points,De'Andre Hunter,13.5,Under,0.5439,Pinnacle,0,206,,pending,
 pk-f5477c781c-pr-point-shaigilgeousalex-24.5,nba,2026-11-11T03:10:10Z,2026-11-11T04:10:00Z,Oklahoma City Thunder @ Portland Trail Blazers,prizepicks,player_points,Shai Gilgeous-Alexander,24.5,Over,0.84,Kalshi,1,208,,pending,
 pk-f5477c781c-pr-rebou-ajaymitchell-4,nba,2026-11-11T03:10:10Z,2026-11-11T04:10:00Z,Oklahoma City Thunder @ Portland Trail Blazers,prizepicks,player_rebounds,Ajay Mitchell,4,Under,0.5674,Kalshi,1,208,,pending,
