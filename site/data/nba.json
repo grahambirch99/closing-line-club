@@ -10,7 +10,7 @@
   "n_clv": 0,
   "clv_any": null,
   "n_clv_any": 0,
-  "bets": 191,
+  "bets": 192,
   "goal": 400,
   "graded": 186,
   "lean": 0.6,
@@ -68,7 +68,7 @@
     "n_clv": 0,
     "clv_any": null,
     "n_clv_any": 0,
-    "bets": 125
+    "bets": 126
    }
   },
   "v2": {
@@ -82,7 +82,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 588
+   "bets": 592
   },
   "v1": {
    "w": 17,
@@ -108,7 +108,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 2345,
+   "bets": 2451,
    "net_lean": 1.0,
    "net_lo": -1.4,
    "net_hi": 3.4,
@@ -157,6 +157,60 @@
   }
  ],
  "nights": [
+  {
+   "night": "2026-11-11",
+   "label": "Wed Nov 11",
+   "record": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "units": 0,
+    "roi": null,
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": null,
+    "n_clv_any": 0
+   },
+   "picks": [
+    {
+     "id": "nba-71baf307b2",
+     "night": "2026-11-11",
+     "kind": "nba",
+     "tier": "A",
+     "market": "player_points",
+     "title": "AJ Dybantsa",
+     "bet": "Under 16.5 points",
+     "game": "Wizards at Pacers",
+     "kick": "2026-11-12T00:10:00Z",
+     "kick_label": "Wed 4:10 PM PT",
+     "venue": "Novig",
+     "price": "+147",
+     "stake": 5.0,
+     "implied": 40.5,
+     "fair": 44.6,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 45% chance; Novig at +147 breaks even at 40% after fees, a 4.1-point gap, 60 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-11T23:10:02Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "none",
+     "stake_v3": 5.0,
+     "cost": 0.4049,
+     "be": 40.5,
+     "strategy": "nba-v31",
+     "live": false
+    }
+   ]
+  },
   {
    "night": "2026-11-10",
    "label": "Tue Nov 10",
