@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-11T18:57:37.765694+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Omar Cooper limited on Wednesday"
+  },
+  {
    "at": "2026-11-10T22:20:38.881658+00:00",
    "kind": "qb",
    "source": "sleeper",
@@ -173,12 +179,6 @@
    "kind": "qb",
    "source": "rapsheet",
    "text": "Browns QB Deshaun Watson has also cleared concussion protocol and remains questionable. Shedeur Sanders will start."
-  },
-  {
-   "at": "2026-11-07T00:33:23.948440+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "George Pickens (hamstring) questionable in Week 9"
   }
  ]
 }
