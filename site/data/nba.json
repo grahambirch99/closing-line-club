@@ -10,7 +10,7 @@
   "n_clv": 0,
   "clv_any": null,
   "n_clv_any": 0,
-  "bets": 190,
+  "bets": 191,
   "goal": 400,
   "graded": 177,
   "lean": 0.2,
@@ -55,7 +55,7 @@
     "n_clv": 0,
     "clv_any": null,
     "n_clv_any": 0,
-    "bets": 32
+    "bets": 33
    },
    "none": {
     "w": 55,
@@ -82,7 +82,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 587
+   "bets": 588
   },
   "v1": {
    "w": 17,
@@ -458,6 +458,42 @@
      "stake_v3": 5.0,
      "cost": 0.3953,
      "be": 39.5,
+     "strategy": "nba-v31",
+     "live": false
+    },
+    {
+     "id": "nba-f7a370bc14",
+     "night": "2026-11-10",
+     "kind": "nba",
+     "tier": "A",
+     "market": "player_assists",
+     "title": "Alex Caruso",
+     "bet": "Over 2.5 assists",
+     "game": "Thunder at Blazers",
+     "kick": "2026-11-11T04:10:00Z",
+     "kick_label": "Tue 8:10 PM PT",
+     "venue": "Novig",
+     "price": "+178",
+     "stake": 5.0,
+     "implied": 36.0,
+     "fair": 39.6,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 40% chance; Novig at +178 breaks even at 36% after fees, a 3.6-point gap, 60 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-11T03:10:10Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "disagree",
+     "stake_v3": 5.0,
+     "cost": 0.3597,
+     "be": 36.0,
      "strategy": "nba-v31",
      "live": false
     }
