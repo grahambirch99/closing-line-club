@@ -220,3 +220,10 @@ pk-f5477c781c-pr-point-shaigilgeousalex-24.5,nba,2026-11-11T03:10:10Z,2026-11-11
 pk-f5477c781c-pr-rebou-ajaymitchell-4,nba,2026-11-11T03:10:10Z,2026-11-11T04:10:00Z,Oklahoma City Thunder @ Portland Trail Blazers,prizepicks,player_rebounds,Ajay Mitchell,4,Under,0.5674,Kalshi,1,208,0.5674,W,3
 pk-f5477c781c-pr-assis-kenrichwilliams-1.5,nba,2026-11-11T03:10:10Z,2026-11-11T04:10:00Z,Oklahoma City Thunder @ Portland Trail Blazers,prizepicks,player_assists,Kenrich Williams,1.5,Under,0.565,Kalshi,1,208,0.565,W,0
 pk-f5477c781c-pr-assis-toumanicamara-1.5,nba,2026-11-11T03:10:10Z,2026-11-11T04:10:00Z,Oklahoma City Thunder @ Portland Trail Blazers,prizepicks,player_assists,Toumani Camara,1.5,Under,0.545,Kalshi,0,208,,L,3
+pk-37f4c00ff7-pr-assis-jaysontatum-6.5,nba,2026-11-11T23:10:02Z,2026-11-12T00:10:00Z,Boston Celtics @ Toronto Raptors,prizepicks,player_assists,Jayson Tatum,6.5,Over,0.5427,Pinnacle,0,210,,pending,
+pk-37f4c00ff7-un-assis-jaysontatum-6.5,nba,2026-11-11T23:10:02Z,2026-11-12T00:10:00Z,Boston Celtics @ Toronto Raptors,underdog,player_assists,Jayson Tatum,6.5,Over,0.5427,Pinnacle,0,210,,pending,
+pk-37f4c00ff7-pr-rebou-rjbarrett-5.5,nba,2026-11-11T23:10:02Z,2026-11-12T00:10:00Z,Boston Celtics @ Toronto Raptors,prizepicks,player_rebounds,R.J. Barrett,5.5,Over,0.5672,Pinnacle,1,210,,pending,
+pk-095441822e-pr-point-oganunoby-17.5,nba,2026-11-11T23:10:02Z,2026-11-12T00:10:00Z,Cleveland Cavaliers @ New York Knicks,prizepicks,player_points,OG Anunoby,17.5,Under,0.5558,Pinnacle,0,210,,pending,
+pk-095441822e-un-point-oganunoby-17.5,nba,2026-11-11T23:10:02Z,2026-11-12T00:10:00Z,Cleveland Cavaliers @ New York Knicks,underdog,player_points,OG Anunoby,17.5,Under,0.5558,Pinnacle,0,210,,pending,
+pk-e9545a3084-pr-point-andrewnembhard-16.5,nba,2026-11-11T23:10:02Z,2026-11-12T00:10:00Z,Washington Wizards @ Indiana Pacers,prizepicks,player_points,Andrew Nembhard,16.5,Under,0.5465,Kalshi,0,210,,pending,
+pk-e9545a3084-pr-rebou-traeyoung-2.5,nba,2026-11-11T23:10:02Z,2026-11-12T00:10:00Z,Washington Wizards @ Indiana Pacers,prizepicks,player_rebounds,Trae Young,2.5,Over,0.5448,Pinnacle,0,210,,pending,
