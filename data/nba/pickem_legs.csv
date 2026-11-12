@@ -237,3 +237,6 @@ pk-2179250148-pr-point-cedriccoward-13.5,nba,2026-11-12T00:10:02Z,2026-11-12T01:
 pk-2179250148-pr-rebou-spencerjones-2.5,nba,2026-11-12T00:10:02Z,2026-11-12T01:10:00Z,Denver Nuggets @ Memphis Grizzlies,prizepicks,player_rebounds,Spencer Jones,2.5,Under,0.5454,Kalshi,0,212,,pending,
 pk-c04e54e9e0-pr-point-collinsexton-12.5,nba,2026-11-12T00:10:02Z,2026-11-12T01:10:00Z,Los Angeles Lakers @ Milwaukee Bucks,prizepicks,player_points,Collin Sexton,12.5,Under,0.56,Kalshi,0,212,,pending,
 pk-c04e54e9e0-pr-point-walkerkessler-14,nba,2026-11-12T00:10:02Z,2026-11-12T01:10:00Z,Los Angeles Lakers @ Milwaukee Bucks,prizepicks,player_points,Walker Kessler,14,Under,0.5444,Kalshi,0,212,,pending,
+pk-423255883d-pr-rebou-wendellcarter-8.5,nba,2026-11-12T01:10:11Z,2026-11-12T02:10:00Z,Orlando Magic @ Utah Jazz,prizepicks,player_rebounds,Wendell Carter Jr,8.5,Over,0.5518,Pinnacle,0,214,,pending,
+pk-423255883d-un-rebou-acebailey-5.5,nba,2026-11-12T01:10:11Z,2026-11-12T02:10:00Z,Orlando Magic @ Utah Jazz,underdog,player_rebounds,Ace Bailey,5.5,Over,0.545,Kalshi,0,214,,pending,
+pk-423255883d-un-rebou-jaxsonhayes-6.5,nba,2026-11-12T01:10:11Z,2026-11-12T02:10:00Z,Orlando Magic @ Utah Jazz,underdog,player_rebounds,Jaxson Hayes,6.5,Under,0.6161,Kalshi,1,214,,pending,
