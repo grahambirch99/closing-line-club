@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T02:35:40Z",
+ "generated_at": "2026-11-12T23:35:51Z",
  "current_week": 10,
  "weeks": [
   {
@@ -153,6 +153,34 @@
      "system": "Props model: Kalshi only \u00b7 Pinnacle has no line",
      "strategy": "props-midweek",
      "live": true
+    },
+    {
+     "id": "wind-74d39e19225caf211ad2c8eb4110179f-41.5",
+     "week": 10,
+     "kind": "paper",
+     "tier": "",
+     "market": "totals",
+     "title": "Commanders at Giants",
+     "bet": "Under 41.5 points",
+     "game": "Commanders at Giants",
+     "kick": "2026-11-13T01:15:00Z",
+     "kick_label": "Thu 5:15 PM PT",
+     "venue": "Kalshi",
+     "price": "-113",
+     "stake": null,
+     "implied": null,
+     "fair": null,
+     "edge": null,
+     "worst": "",
+     "analysis": "Wind Unders angle (paper): forecast 9.0 mph at kickoff.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-12T23:29:00Z",
+     "system": "Wind Unders angle",
+     "strategy": "wind",
+     "live": false
     },
     {
      "id": "2026-W10-0097",
