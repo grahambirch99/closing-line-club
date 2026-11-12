@@ -179,3 +179,6 @@
 {"kind": "qb", "source": "sleeper", "team": "MIA", "player": "Malik Willis", "pos": "QB", "text": "Malik Willis (MIA QB) status questionable -> ir [Groin]", "at": "2026-11-10T21:12:16.017344+00:00"}
 {"kind": "qb", "source": "sleeper", "team": "ARI", "player": "Gardner Minshew II", "pos": "QB", "text": "Gardner Minshew II (ARI QB) status questionable -> ir [Elbow]", "at": "2026-11-10T22:20:38.881658+00:00"}
 {"kind": "injury", "team": "", "player": "Omar Cooper", "pos": "", "source": "rotoworld-fb", "text": "Omar Cooper limited on Wednesday", "at": "2026-11-11T18:57:37.765694+00:00"}
+{"kind": "injury", "team": "", "player": "Jakobi Meyers", "pos": "", "source": "rotoworld-fb", "text": "Jakobi Meyers (ankle) DNP Wednesday", "at": "2026-11-12T01:15:40.157083+00:00"}
+{"kind": "injury", "team": "", "player": "Bhayshul Tuten", "pos": "", "source": "rotoworld-fb", "text": "Bhayshul Tuten (ankle/foot) DNP Wednesday", "at": "2026-11-12T01:15:40.157083+00:00"}
+{"kind": "injury", "team": "", "player": "Terrance Ferguson", "pos": "", "source": "rotoworld-fb", "text": "Terrance Ferguson (ankle/hamstring) DNP Wednesday", "at": "2026-11-12T01:15:40.157083+00:00"}
