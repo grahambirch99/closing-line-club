@@ -10,7 +10,7 @@
   "n_clv": 0,
   "clv_any": null,
   "n_clv_any": 0,
-  "bets": 194,
+  "bets": 195,
   "goal": 400,
   "graded": 186,
   "lean": 0.6,
@@ -55,7 +55,7 @@
     "n_clv": 0,
     "clv_any": null,
     "n_clv_any": 0,
-    "bets": 33
+    "bets": 34
    },
    "none": {
     "w": 58,
@@ -82,7 +82,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 595
+   "bets": 596
   },
   "v1": {
    "w": 17,
@@ -278,6 +278,42 @@
      "stake_v3": 5.0,
      "cost": 0.5745,
      "be": 57.4,
+     "strategy": "nba-v31",
+     "live": false
+    },
+    {
+     "id": "nba-b4e1e46024",
+     "night": "2026-11-11",
+     "kind": "nba",
+     "tier": "A",
+     "market": "player_points",
+     "title": "Stephen Curry",
+     "bet": "Over 26.5 points",
+     "game": "Warriors at Rockets",
+     "kick": "2026-11-12T02:40:00Z",
+     "kick_label": "Wed 6:40 PM PT",
+     "venue": "Novig",
+     "price": "+130",
+     "stake": 5.0,
+     "implied": 43.5,
+     "fair": 47.7,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 48% chance; Novig at +130 breaks even at 43% after fees, a 4.2-point gap, 60 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-12T01:40:14Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "disagree",
+     "stake_v3": 5.0,
+     "cost": 0.4348,
+     "be": 43.5,
      "strategy": "nba-v31",
      "live": false
     }
