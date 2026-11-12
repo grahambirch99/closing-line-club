@@ -1,6 +1,24 @@
 {
  "items": [
   {
+   "at": "2026-11-12T01:15:40.157083+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Jakobi Meyers (ankle) DNP Wednesday"
+  },
+  {
+   "at": "2026-11-12T01:15:40.157083+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Bhayshul Tuten (ankle/foot) DNP Wednesday"
+  },
+  {
+   "at": "2026-11-12T01:15:40.157083+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Terrance Ferguson (ankle/hamstring) DNP Wednesday"
+  },
+  {
    "at": "2026-11-11T18:57:37.765694+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -161,24 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Garrett Wilson officially inactive vs. Chiefs"
-  },
-  {
-   "at": "2026-11-08T17:20:53.162212+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "George Pickens inactive for Week 9 against Colts"
-  },
-  {
-   "at": "2026-11-07T19:40:57.381096+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Kyler Murray (hammy) ruled out for MNF in Week 9"
-  },
-  {
-   "at": "2026-11-07T18:08:07.733839+00:00",
-   "kind": "qb",
-   "source": "rapsheet",
-   "text": "Browns QB Deshaun Watson has also cleared concussion protocol and remains questionable. Shedeur Sanders will start."
   }
  ]
 }
