@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-12T21:07:43.367362+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "A.J. Brown (knee) remains limited on Thursday"
+  },
+  {
    "at": "2026-11-12T01:15:40.157083+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rapsheet",
    "text": "Bucs WR Emeka Egbuka (foot) is playing today after being listed as questionable. He missed Wednesday but was a full participant after that."
-  },
-  {
-   "at": "2026-11-08T17:20:53.162212+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Garrett Wilson officially inactive vs. Chiefs"
   }
  ]
 }
