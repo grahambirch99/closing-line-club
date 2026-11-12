@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-12T22:44:10.357011+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "George Pickens (hamstring) limited again in Wk 10"
+  },
+  {
    "at": "2026-11-12T21:35:31.671356+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rapsheet",
    "text": "Deshaun Watson is inactive."
-  },
-  {
-   "at": "2026-11-08T17:20:53.162212+00:00",
-   "kind": "injury",
-   "source": "rapsheet",
-   "text": "Lions WR Amon-Ra St. Brown (ribs) is expected to play today, source said. He was limited all week."
   }
  ]
 }
