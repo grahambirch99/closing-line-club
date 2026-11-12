@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T23:52:37Z",
+ "generated_at": "2026-11-12T23:55:03Z",
  "current_week": 10,
  "weeks": [
   {
@@ -172,7 +172,7 @@
      "fair": null,
      "edge": null,
      "worst": "",
-     "analysis": "Wind Unders angle (paper): forecast 9.0 mph at kickoff.",
+     "analysis": "Wind Unders angle (paper): forecast 9.5 mph at kickoff.",
      "status": "pending",
      "actual": "",
      "clv": null,
