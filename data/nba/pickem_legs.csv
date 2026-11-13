@@ -255,6 +255,6 @@ pk-3c93e4724d-pr-point-jonathankuminga-13.5,nba,2026-11-13T00:10:07Z,2026-11-13T
 pk-3c93e4724d-un-point-jonathankuminga-13.5,nba,2026-11-13T00:10:07Z,2026-11-13T01:10:00Z,Dallas Mavericks @ Minnesota Timberwolves,underdog,player_points,Jonathan Kuminga,13.5,Over,0.5448,Pinnacle,0,222,0.5448,W,14
 pk-3c93e4724d-pr-rebou-ayodosunmu-4,nba,2026-11-13T00:10:07Z,2026-11-13T01:10:00Z,Dallas Mavericks @ Minnesota Timberwolves,prizepicks,player_rebounds,Ayo Dosunmu,4,Over,0.555,Kalshi,0,222,0.555,L,2
 pk-3c93e4724d-pr-rebou-cooperflagg-6,nba,2026-11-13T00:10:07Z,2026-11-13T01:10:00Z,Dallas Mavericks @ Minnesota Timberwolves,prizepicks,player_rebounds,Cooper Flagg,6,Over,0.5515,Kalshi,0,222,0.5515,W,7
-pk-f3f429e773-pr-assis-graysonallen-4.5,nba,2026-11-13T01:10:12Z,2026-11-13T02:10:00Z,Charlotte Hornets @ Phoenix Suns,prizepicks,player_assists,Grayson Allen,4.5,Under,0.5539,Pinnacle,0,224,,pending,
-pk-f3f429e773-un-point-cobywhite-14.5,nba,2026-11-13T01:10:12Z,2026-11-13T02:10:00Z,Charlotte Hornets @ Phoenix Suns,underdog,player_points,Coby White,14.5,Under,0.5427,Pinnacle,0,224,,pending,
-pk-f3f429e773-un-point-graysonallen-18.5,nba,2026-11-13T01:10:12Z,2026-11-13T02:10:00Z,Charlotte Hornets @ Phoenix Suns,underdog,player_points,Grayson Allen,18.5,Under,0.5508,Kalshi,0,224,,pending,
+pk-f3f429e773-pr-assis-graysonallen-4.5,nba,2026-11-13T01:10:12Z,2026-11-13T02:10:00Z,Charlotte Hornets @ Phoenix Suns,prizepicks,player_assists,Grayson Allen,4.5,Under,0.5539,Pinnacle,0,224,0.5539,L,6
+pk-f3f429e773-un-point-cobywhite-14.5,nba,2026-11-13T01:10:12Z,2026-11-13T02:10:00Z,Charlotte Hornets @ Phoenix Suns,underdog,player_points,Coby White,14.5,Under,0.5427,Pinnacle,0,224,0.5614,L,21
+pk-f3f429e773-un-point-graysonallen-18.5,nba,2026-11-13T01:10:12Z,2026-11-13T02:10:00Z,Charlotte Hornets @ Phoenix Suns,underdog,player_points,Grayson Allen,18.5,Under,0.5508,Kalshi,0,224,0.5508,W,14
