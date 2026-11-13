@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-13T00:16:17.888238+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Deebo Samuel (hamstring) limited on Thursday"
+  },
+  {
    "at": "2026-11-12T22:44:10.357011+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "sleeper",
    "text": "Jaylen Waddle (DEN WR) status questionable -> out [Head]"
-  },
-  {
-   "at": "2026-11-08T17:20:53.162212+00:00",
-   "kind": "injury",
-   "source": "rapsheet",
-   "text": "Deshaun Watson is inactive."
   }
  ]
 }
