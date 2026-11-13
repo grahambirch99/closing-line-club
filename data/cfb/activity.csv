@@ -18,3 +18,4 @@ at,kind,events,credits,remaining,in_pick_window,line_picks,prop_pulls,prop_pulls
 2026-11-12T00:18:00Z,close,74,3,11277,0,0,0,0,0,
 2026-11-12T22:00:00Z,entry,76,3,11165,0,0,0,0,0,
 2026-11-12T23:45:00Z,pick,76,3,11050,1,0,1,0,0,
+2026-11-13T00:45:00Z,pick,76,3,11011,1,0,1,0,0,
