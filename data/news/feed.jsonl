@@ -189,3 +189,7 @@
 {"kind": "injury", "team": "", "player": "Omar Cooper", "pos": "", "source": "rotoworld-fb", "text": "Garrett Wilson, Omar Cooper both limited Thursday", "at": "2026-11-12T21:35:31.671356+00:00"}
 {"kind": "injury", "team": "", "player": "George Pickens", "pos": "", "source": "rotoworld-fb", "text": "George Pickens (hamstring) limited again in Wk 10", "at": "2026-11-12T22:44:10.357011+00:00"}
 {"kind": "injury", "team": "", "player": "Deebo Samuel", "pos": "", "source": "rotoworld-fb", "text": "Deebo Samuel (hamstring) limited on Thursday", "at": "2026-11-13T00:16:17.888238+00:00"}
+{"kind": "injury", "source": "sleeper", "team": "TEN", "player": "Carnell Tate", "pos": "WR", "text": "Carnell Tate (TEN WR) status questionable -> out [Shoulder]", "at": "2026-11-13T18:53:26.602239+00:00"}
+{"kind": "injury", "team": "", "player": "Lamar Jackson", "pos": "", "source": "rapsheet", "text": "The Ravens say QB Lamar Jackson had his thumb surgery and confirm that he's out for 6-10 weeks.", "at": "2026-11-13T18:53:26.602239+00:00"}
+{"kind": "injury", "team": "", "player": "Denzel Boston", "pos": "", "source": "rotoworld-fb", "text": "Browns list Denzel Boston (toe) as questionable", "at": "2026-11-13T18:53:26.602239+00:00"}
+{"kind": "injury", "team": "", "player": "Aj Brown", "pos": "", "source": "rotoworld-fb", "text": "Patriots list A.J. Brown questionable for Week 10", "at": "2026-11-13T18:53:26.602239+00:00"}
