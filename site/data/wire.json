@@ -1,6 +1,24 @@
 {
  "items": [
   {
+   "at": "2026-11-13T21:21:25.193808+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Jordan Addison (thumb) a surprise questionable"
+  },
+  {
+   "at": "2026-11-13T21:21:25.193808+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "T.J. Hockenson (wrist/chest) ruled out for Week 10"
+  },
+  {
+   "at": "2026-11-13T21:18:20.784500+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "T.J. Hockenson (MIN TE) status questionable -> out [Wrist]"
+  },
+  {
    "at": "2026-11-13T20:35:10.400624+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -161,24 +179,6 @@
    "kind": "injury",
    "source": "rapsheet",
    "text": "Sources: Cardinals WR Michael Wilson is out for the season after suffering a neck injury. Brutal."
-  },
-  {
-   "at": "2026-11-09T21:42:25.637562+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Josh Jacobs (GB RB) status questionable -> out [Finger]"
-  },
-  {
-   "at": "2026-11-09T21:42:25.637562+00:00",
-   "kind": "injury",
-   "source": "rapsheet",
-   "text": "Packers RB Josh Jacobs, who suffered a fractured ring finger, will have surgery to repair it, coach Matt LaFleur told reporters. Injured Reserve is a possibility as Green Bay looks into timelines."
-  },
-  {
-   "at": "2026-11-09T21:42:25.637562+00:00",
-   "kind": "qb",
-   "source": "rotoworld-fb",
-   "text": "Drew Lock (oblique) expected to start vs. Raiders"
   }
  ]
 }
