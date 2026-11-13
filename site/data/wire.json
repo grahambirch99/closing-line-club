@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "at": "2026-11-13T18:53:26.602239+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "Carnell Tate (TEN WR) status questionable -> out [Shoulder]"
+  },
+  {
+   "at": "2026-11-13T18:53:26.602239+00:00",
+   "kind": "injury",
+   "source": "rapsheet",
+   "text": "The Ravens say QB Lamar Jackson had his thumb surgery and confirm that he's out for 6-10 weeks."
+  },
+  {
+   "at": "2026-11-13T18:53:26.602239+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Browns list Denzel Boston (toe) as questionable"
+  },
+  {
+   "at": "2026-11-13T18:53:26.602239+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Patriots list A.J. Brown questionable for Week 10"
+  },
+  {
    "at": "2026-11-13T00:16:17.888238+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -155,30 +179,6 @@
    "kind": "injury",
    "source": "sleeper",
    "text": "Rhamondre Stevenson (NE RB) status questionable -> out [Knee]"
-  },
-  {
-   "at": "2026-11-08T21:28:55.391596+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Ladd McConkey (back) suddenly questionable in Wk 9"
-  },
-  {
-   "at": "2026-11-08T20:16:16.104634+00:00",
-   "kind": "qb",
-   "source": "rotoworld-fb",
-   "text": "J.J. McCarthy (hip) questionable after huge hit"
-  },
-  {
-   "at": "2026-11-08T20:03:43.859048+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "MarShawn Lloyd (knee) inactive vs. Patriots"
-  },
-  {
-   "at": "2026-11-08T19:57:35.281499+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Jaylen Waddle (DEN WR) status questionable -> out [Head]"
   }
  ]
 }
