@@ -194,3 +194,6 @@
 {"kind": "injury", "team": "", "player": "Denzel Boston", "pos": "", "source": "rotoworld-fb", "text": "Browns list Denzel Boston (toe) as questionable", "at": "2026-11-13T18:53:26.602239+00:00"}
 {"kind": "injury", "team": "", "player": "Aj Brown", "pos": "", "source": "rotoworld-fb", "text": "Patriots list A.J. Brown questionable for Week 10", "at": "2026-11-13T18:53:26.602239+00:00"}
 {"kind": "injury", "team": "", "player": "Kenneth Walker", "pos": "", "source": "rotoworld-fb", "text": "Kenneth Walker (groin) officially questionable", "at": "2026-11-13T20:35:10.400624+00:00"}
+{"kind": "injury", "source": "sleeper", "team": "MIN", "player": "T.J. Hockenson", "pos": "TE", "text": "T.J. Hockenson (MIN TE) status questionable -> out [Wrist]", "at": "2026-11-13T21:18:20.784500+00:00"}
+{"kind": "injury", "team": "", "player": "Jordan Addison", "pos": "", "source": "rotoworld-fb", "text": "Jordan Addison (thumb) a surprise questionable", "at": "2026-11-13T21:21:25.193808+00:00"}
+{"kind": "injury", "team": "", "player": "Tj Hockenson", "pos": "", "source": "rotoworld-fb", "text": "T.J. Hockenson (wrist/chest) ruled out for Week 10", "at": "2026-11-13T21:21:25.193808+00:00"}
