@@ -1,27 +1,27 @@
 {
  "season": {
-  "w": 94,
-  "l": 83,
+  "w": 97,
+  "l": 85,
   "p": 0,
-  "units": 11.3,
-  "roi": 12.0,
+  "units": 12.3,
+  "roi": 12.8,
   "clv": 0.02,
   "beat": 70,
   "n_clv": 43,
-  "clv_any": 0.36,
-  "n_clv_any": 150
+  "clv_any": 0.37,
+  "n_clv_any": 154
  },
  "real_money": {
-  "w": 8,
-  "l": 6,
+  "w": 11,
+  "l": 7,
   "p": 0,
-  "units": 1.44,
-  "roi": 20.6,
+  "units": 2.43,
+  "roi": 27.0,
   "clv": null,
   "beat": null,
   "n_clv": 0,
-  "clv_any": 1.95,
-  "n_clv_any": 14
+  "clv_any": 1.72,
+  "n_clv_any": 18
  },
  "status": {
   "nfl-v1": {
@@ -1179,6 +1179,36 @@
    "week": 9,
    "label": "Aaron Jones: Under 32.5 rushing yards",
    "units": 11.3
+  },
+  {
+   "id": "pp-95-446",
+   "week": 10,
+   "label": "Cam Skattebo: Under 13.5 rush attempts",
+   "units": 10.8
+  },
+  {
+   "id": "pp-95-454",
+   "week": 10,
+   "label": "Malik Nabers: Under 64.5 receiving yards",
+   "units": 11.4
+  },
+  {
+   "id": "pp-96-460",
+   "week": 10,
+   "label": "Jayden Daniels: Under 37.5 rushing yards",
+   "units": 11.89
+  },
+  {
+   "id": "pp-96-462",
+   "week": 10,
+   "label": "Devin Singletary: Under 7.5 rush attempts",
+   "units": 12.3
+  },
+  {
+   "id": "wind-74d39e19225caf211ad2c8eb4110179f-41.5",
+   "week": 10,
+   "label": "Commanders at Giants: Under 41.5 points",
+   "units": 12.3
   }
  ],
  "clv_by_week": [
@@ -1202,16 +1232,16 @@
   {
    "type": "Mid-week props model",
    "id": "props-midweek",
-   "w": 46,
-   "l": 29,
+   "w": 49,
+   "l": 30,
    "p": 0,
-   "units": 10.02,
-   "roi": 26.7,
+   "units": 11.01,
+   "roi": 27.9,
    "clv": null,
    "beat": null,
    "n_clv": 0,
-   "clv_any": 0.39,
-   "n_clv_any": 70
+   "clv_any": 0.42,
+   "n_clv_any": 74
   },
   {
    "type": "Game-day picks, rules v1",
@@ -1259,7 +1289,7 @@
    "type": "Wind Unders angle",
    "id": "wind",
    "w": 3,
-   "l": 2,
+   "l": 3,
    "p": 0,
    "units": 0,
    "roi": null,
