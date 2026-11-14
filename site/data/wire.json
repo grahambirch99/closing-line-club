@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-14T17:25:58.661382+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "Kenneth Walker III (KC RB) status questionable -> out [Groin]"
+  },
+  {
    "at": "2026-11-14T00:07:53.347907+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "sleeper",
    "text": "Jake Ferguson (DAL TE) status questionable -> out [Knee]"
-  },
-  {
-   "at": "2026-11-09T21:48:29.642671+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Michael Wilson (ARI WR) status healthy -> out [Neck]"
   }
  ]
 }
