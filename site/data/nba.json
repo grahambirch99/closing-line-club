@@ -10,7 +10,7 @@
   "n_clv": 0,
   "clv_any": null,
   "n_clv_any": 0,
-  "bets": 205,
+  "bets": 206,
   "goal": 400,
   "graded": 200,
   "lean": 0.3,
@@ -55,7 +55,7 @@
     "n_clv": 0,
     "clv_any": null,
     "n_clv_any": 0,
-    "bets": 34
+    "bets": 35
    },
    "none": {
     "w": 63,
@@ -82,7 +82,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 617
+   "bets": 620
   },
   "v1": {
    "w": 17,
@@ -108,7 +108,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 2872,
+   "bets": 2876,
    "net_lean": 1.0,
    "net_lo": -1.1,
    "net_hi": 3.1,
@@ -157,6 +157,60 @@
   }
  ],
  "nights": [
+  {
+   "night": "2026-11-14",
+   "label": "Sat Nov 14",
+   "record": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "units": 0,
+    "roi": null,
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": null,
+    "n_clv_any": 0
+   },
+   "picks": [
+    {
+     "id": "nba-2cd1ea5854",
+     "night": "2026-11-14",
+     "kind": "nba",
+     "tier": "A",
+     "market": "player_rebounds",
+     "title": "Caleb Martin",
+     "bet": "Over 2.5 rebounds",
+     "game": "Mavericks at Cavaliers",
+     "kick": "2026-11-15T00:40:00Z",
+     "kick_label": "Sat 4:40 PM PT",
+     "venue": "Novig",
+     "price": "-113",
+     "stake": 5.0,
+     "implied": 53.1,
+     "fair": 56.2,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 56% chance; Novig at -113 breaks even at 53% after fees, a 3.1-point gap, 60 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-14T23:40:13Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "disagree",
+     "stake_v3": 5.0,
+     "cost": 0.5305,
+     "be": 53.1,
+     "strategy": "nba-v31",
+     "live": false
+    }
+   ]
+  },
   {
    "night": "2026-11-13",
    "label": "Fri Nov 13",
