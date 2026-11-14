@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T22:20:17Z",
+ "generated_at": "2026-11-14T22:31:10Z",
  "current_week": 10,
  "weeks": [
   {
@@ -874,6 +874,34 @@
      "system": "Props model: Kalshi only \u00b7 Pinnacle disagrees",
      "strategy": "props-midweek",
      "live": true
+    },
+    {
+     "id": "wind-be0e03cc42fbc9b6962467b22c7bf9dd-40.5",
+     "week": 10,
+     "kind": "paper",
+     "tier": "",
+     "market": "totals",
+     "title": "Texans at Browns",
+     "bet": "Under 40.5 points",
+     "game": "Texans at Browns",
+     "kick": "2026-11-15T18:00:00Z",
+     "kick_label": "Sun 10:00 AM PT",
+     "venue": "ProphetX",
+     "price": "+103",
+     "stake": null,
+     "implied": null,
+     "fair": null,
+     "edge": null,
+     "worst": "",
+     "analysis": "Wind Unders angle (paper): forecast 12.9 mph at kickoff.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-14T22:22:00Z",
+     "system": "Wind Unders angle",
+     "strategy": "wind",
+     "live": false
     },
     {
      "id": "pp-98-465",
