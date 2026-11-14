@@ -1,15 +1,15 @@
 {
  "season": {
-  "w": 97,
-  "l": 85,
+  "w": 98,
+  "l": 86,
   "p": 0,
-  "units": 12.3,
-  "roi": 12.8,
-  "clv": 0.02,
-  "beat": 70,
-  "n_clv": 43,
+  "units": 12.34,
+  "roi": 12.7,
+  "clv": -0.02,
+  "beat": 68,
+  "n_clv": 44,
   "clv_any": 0.37,
-  "n_clv_any": 154
+  "n_clv_any": 156
  },
  "real_money": {
   "w": 11,
@@ -81,16 +81,16 @@
   "goal": 150
  },
  "cfb_props": {
-  "w": 1,
-  "l": 0,
+  "w": 2,
+  "l": 1,
   "p": 0,
-  "units": 0.58,
-  "roi": 116.6,
-  "clv": null,
-  "beat": null,
-  "n_clv": 0,
-  "clv_any": 4.3,
-  "n_clv_any": 1,
+  "units": 0.63,
+  "roi": 41.8,
+  "clv": -1.8,
+  "beat": 0,
+  "n_clv": 1,
+  "clv_any": 1.7,
+  "n_clv_any": 3,
   "goal": 150
  },
  "curve": [
@@ -1209,6 +1209,18 @@
    "week": 10,
    "label": "Commanders at Giants: Under 41.5 points",
    "units": 12.3
+  },
+  {
+   "id": "cfb-0431ccbcda-player_reception_yds-tyclaiborne",
+   "week": 10,
+   "label": "Ty Claiborne: Under 17.5 receiving yards",
+   "units": 12.84
+  },
+  {
+   "id": "cfb-b7d77aed1f-player_rush_yds-kendrickraphael",
+   "week": 10,
+   "label": "Kendrick Raphael: Over 62.5 rushing yards",
+   "units": 12.34
   }
  ],
  "clv_by_week": [
@@ -1226,6 +1238,11 @@
    "week": 9,
    "clv": 1.6,
    "n": 2
+  },
+  {
+   "week": 10,
+   "clv": -1.8,
+   "n": 1
   }
  ],
  "by_type": [
@@ -1314,6 +1331,20 @@
    "n_clv_any": 3
   },
   {
+   "type": "College football props",
+   "id": "cfb-props",
+   "w": 2,
+   "l": 1,
+   "p": 0,
+   "units": 0.63,
+   "roi": 41.8,
+   "clv": -1.8,
+   "beat": 0,
+   "n_clv": 1,
+   "clv_any": 1.7,
+   "n_clv_any": 3
+  },
+  {
    "type": "Teasers",
    "id": "teasers",
    "w": 1,
@@ -1326,20 +1357,6 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0
-  },
-  {
-   "type": "College football props",
-   "id": "cfb-props",
-   "w": 1,
-   "l": 0,
-   "p": 0,
-   "units": 0.58,
-   "roi": 116.6,
-   "clv": null,
-   "beat": null,
-   "n_clv": 0,
-   "clv_any": 4.3,
-   "n_clv_any": 1
   }
  ]
 }
