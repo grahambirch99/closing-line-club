@@ -83,7 +83,9 @@
   "2026-W09-0096",
   "2026-W10-0097",
   "cfb-b7d77aed1f-player_rush_yds-kendrickraphael",
-  "cfb-0431ccbcda-player_reception_yds-tyclaiborne"
+  "cfb-0431ccbcda-player_reception_yds-tyclaiborne",
+  "2026-W10-0098",
+  "2026-W10-0099"
  ],
  "results": [
   "W6-24",
@@ -2259,6 +2261,8 @@
   "1570993561883906149": "nba-a9535d71f9",
   "1570993569395769438": "nba-e7b60e3eae",
   "1571197742770954321": "cfb-b7d77aed1f-player_rush_yds-kendrickraphael",
-  "1571197749234503824": "cfb-0431ccbcda-player_reception_yds-tyclaiborne"
+  "1571197749234503824": "cfb-0431ccbcda-player_reception_yds-tyclaiborne",
+  "1571220021584208025": "2026-W10-0098",
+  "1571220028244762657": "2026-W10-0099"
  }
 }
