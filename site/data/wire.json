@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-14T00:07:53.347907+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Amon-Ra St. Brown (ribs) questionable for Week 10"
+  },
+  {
    "at": "2026-11-13T21:21:25.193808+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "sleeper",
    "text": "Michael Wilson (ARI WR) status healthy -> out [Neck]"
-  },
-  {
-   "at": "2026-11-09T21:45:27.791675+00:00",
-   "kind": "injury",
-   "source": "rapsheet",
-   "text": "Sources: Cardinals WR Michael Wilson is out for the season after suffering a neck injury. Brutal."
   }
  ]
 }
