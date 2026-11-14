@@ -85,7 +85,8 @@
   "cfb-b7d77aed1f-player_rush_yds-kendrickraphael",
   "cfb-0431ccbcda-player_reception_yds-tyclaiborne",
   "2026-W10-0098",
-  "2026-W10-0099"
+  "2026-W10-0099",
+  "cfb-1daaf8ba9d-player_rush_yds-bomaccormack"
  ],
  "results": [
   "W6-24",
@@ -2269,6 +2270,7 @@
   "1571197742770954321": "cfb-b7d77aed1f-player_rush_yds-kendrickraphael",
   "1571197749234503824": "cfb-0431ccbcda-player_reception_yds-tyclaiborne",
   "1571220021584208025": "2026-W10-0098",
-  "1571220028244762657": "2026-W10-0099"
+  "1571220028244762657": "2026-W10-0099",
+  "1571250250587308104": "cfb-1daaf8ba9d-player_rush_yds-bomaccormack"
  }
 }
