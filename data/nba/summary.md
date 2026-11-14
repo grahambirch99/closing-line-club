@@ -1,4 +1,4 @@
-# NBA Test: paper tracking (updated Sat Nov 14 3:45 PM PT)
+# NBA Test: paper tracking (updated Sat Nov 14 3:50 PM PT)
 
 Rules v2 (research/nba_rules_v2_PREREG.md): fair = Pinnacle + Kalshi ladder; Unders >= 3% edge, Overs >= 6% and no
 longer than +233; Novig/ProphetX only. Scorecard: CLV vs the Kalshi ladder at tip ('Kalshi CLV').
@@ -17,14 +17,14 @@ Matchup test (research/nba_h2h_forward_PREREG.md, Kalshi taker): 2876 bets; grad
 | Group | Edges | Avg est. edge | With close | Avg CLV vs Pinnacle (pts) | Beat close |
 |---|---|---|---|---|---|
 | Paper bets | 803 | +6.3% | 646 | +1.44 | 74% |
-| All Tier A/B | 1800 | +6.1% | 1402 | +1.57 | 77% |
-| Tier A | 1179 | +7.5% | 905 | +1.86 | 78% |
-| Tier B | 621 | +3.5% | 497 | +1.05 | 74% |
-| Tier C (2-3%) | 936 | +2.5% | 705 | +0.70 | 69% |
+| All Tier A/B | 1800 | +6.1% | 1405 | +1.57 | 77% |
+| Tier A | 1179 | +7.5% | 907 | +1.86 | 79% |
+| Tier B | 621 | +3.5% | 498 | +1.05 | 74% |
+| Tier C (2-3%) | 936 | +2.5% | 709 | +0.71 | 69% |
 | A/B h2h | 30 | +7.7% | 30 | +1.65 | 93% |
 | A/B assists | 531 | +7.0% | 308 | +1.69 | 78% |
 | A/B points | 690 | +5.6% | 647 | +1.16 | 70% |
-| A/B rebounds | 544 | +5.7% | 416 | +2.11 | 86% |
+| A/B rebounds | 544 | +5.7% | 419 | +2.11 | 86% |
 | A/B spreads | 3 | +4.1% | 1 | -1.39 | 0% |
 | A/B totals | 2 | +3.4% | 0 | +nan | 0% |
 
@@ -36,4 +36,4 @@ prop prices rarely move before tip):
 - Over share of paper bets: 12%
 
 Nights tracked: 23; edges per night: 2026-10-22 31, 2026-10-23 200, 2026-10-24 211, 2026-10-25 168, 2026-10-26 201, 2026-10-27 80, 2026-10-28 237, 2026-10-29 50, 2026-10-30 198, 2026-10-31 172, 2026-11-01 52, 2026-11-02 223, 2026-11-04 173, 2026-11-05 20, 2026-11-06 110, 2026-11-07 82, 2026-11-08 63, 2026-11-09 86, 2026-11-10 93, 2026-11-11 96, 2026-11-12 63, 2026-11-13 100, 2026-11-14 27
-Odds API credits: 10329 left (shared with NFL); NBA spend by night: 2026-11-08 78, 2026-11-09 84, 2026-11-10 66, 2026-11-11 90, 2026-11-12 42, 2026-11-13 90, 2026-11-14 12
+Odds API credits: 10309 left (shared with NFL); NBA spend by night: 2026-11-08 78, 2026-11-09 84, 2026-11-10 66, 2026-11-11 90, 2026-11-12 42, 2026-11-13 90, 2026-11-14 18
