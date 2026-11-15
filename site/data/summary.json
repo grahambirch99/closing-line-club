@@ -1,15 +1,15 @@
 {
  "season": {
   "w": 98,
-  "l": 86,
+  "l": 87,
   "p": 0,
-  "units": 12.34,
-  "roi": 12.7,
-  "clv": -0.02,
-  "beat": 68,
-  "n_clv": 44,
-  "clv_any": 0.37,
-  "n_clv_any": 156
+  "units": 11.84,
+  "roi": 12.1,
+  "clv": -0.04,
+  "beat": 67,
+  "n_clv": 45,
+  "clv_any": 0.36,
+  "n_clv_any": 157
  },
  "real_money": {
   "w": 11,
@@ -82,15 +82,15 @@
  },
  "cfb_props": {
   "w": 2,
-  "l": 1,
+  "l": 2,
   "p": 0,
-  "units": 0.63,
-  "roi": 41.8,
-  "clv": -1.8,
+  "units": 0.13,
+  "roi": 6.3,
+  "clv": -1.45,
   "beat": 0,
-  "n_clv": 1,
-  "clv_any": 1.7,
-  "n_clv_any": 3,
+  "n_clv": 2,
+  "clv_any": 1.0,
+  "n_clv_any": 4,
   "goal": 150
  },
  "curve": [
@@ -1221,6 +1221,12 @@
    "week": 10,
    "label": "Kendrick Raphael: Over 62.5 rushing yards",
    "units": 12.34
+  },
+  {
+   "id": "cfb-1daaf8ba9d-player_rush_yds-bomaccormack",
+   "week": 10,
+   "label": "Bo MacCormack III: Over 33.5 rushing yards",
+   "units": 11.84
   }
  ],
  "clv_by_week": [
@@ -1241,8 +1247,8 @@
   },
   {
    "week": 10,
-   "clv": -1.8,
-   "n": 1
+   "clv": -1.45,
+   "n": 2
   }
  ],
  "by_type": [
@@ -1317,6 +1323,20 @@
    "n_clv_any": 0
   },
   {
+   "type": "College football props",
+   "id": "cfb-props",
+   "w": 2,
+   "l": 2,
+   "p": 0,
+   "units": 0.13,
+   "roi": 6.3,
+   "clv": -1.45,
+   "beat": 0,
+   "n_clv": 2,
+   "clv_any": 1.0,
+   "n_clv_any": 4
+  },
+  {
    "type": "Game-day picks, new markets",
    "id": "nfl-xmkt",
    "w": 0,
@@ -1328,20 +1348,6 @@
    "beat": 100,
    "n_clv": 2,
    "clv_any": 1.9,
-   "n_clv_any": 3
-  },
-  {
-   "type": "College football props",
-   "id": "cfb-props",
-   "w": 2,
-   "l": 1,
-   "p": 0,
-   "units": 0.63,
-   "roi": 41.8,
-   "clv": -1.8,
-   "beat": 0,
-   "n_clv": 1,
-   "clv_any": 1.7,
    "n_clv_any": 3
   },
   {
