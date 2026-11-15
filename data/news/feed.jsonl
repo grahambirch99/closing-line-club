@@ -209,3 +209,5 @@
 {"kind": "qb", "team": "NYJ", "player": "Geno Smith", "pos": "QB", "strong": false, "source": "rotoworld-fb", "text": "Geno Smith being evaluated for a concussion", "at": "2026-11-15T19:51:36.121445+00:00"}
 {"kind": "injury", "team": "", "player": "Ladd Mcconkey", "pos": "", "source": "rapsheet", "text": "Chargers WR Ladd McConkey will not travel to Baltimore with the team and he has been ruled out for MNF.", "at": "2026-11-15T19:54:38.217713+00:00"}
 {"kind": "injury", "team": "", "player": "Ladd Mcconkey", "pos": "", "source": "rotoworld-fb", "text": "Ladd McConkey (back) downgraded to out for Week 10", "at": "2026-11-15T19:57:40.910940+00:00"}
+{"kind": "injury", "source": "sleeper", "team": "LAC", "player": "Ladd McConkey", "pos": "WR", "text": "Ladd McConkey (LAC WR) status questionable -> out [Back]", "at": "2026-11-15T20:04:07.484287+00:00"}
+{"kind": "injury", "team": "", "player": "Woody Marks", "pos": "", "source": "rotoworld-fb", "text": "Woody Marks questionable, evaluated for concussion", "at": "2026-11-15T20:07:11.298979+00:00"}
