@@ -1,15 +1,15 @@
 {
  "season": {
   "w": 98,
-  "l": 87,
+  "l": 88,
   "p": 0,
-  "units": 11.84,
-  "roi": 12.1,
+  "units": 11.09,
+  "roi": 11.3,
   "clv": -0.04,
   "beat": 67,
   "n_clv": 45,
-  "clv_any": 0.36,
-  "n_clv_any": 157
+  "clv_any": 0.38,
+  "n_clv_any": 158
  },
  "real_money": {
   "w": 11,
@@ -56,15 +56,15 @@
  },
  "xmkt": {
   "w": 0,
-  "l": 3,
+  "l": 4,
   "p": 0,
-  "units": -2.25,
+  "units": -3.0,
   "roi": -100.0,
   "clv": 1.6,
   "beat": 100,
   "n_clv": 2,
-  "clv_any": 1.9,
-  "n_clv_any": 3,
+  "clv_any": 2.0,
+  "n_clv_any": 4,
   "goal": 50
  },
  "cfb": {
@@ -1227,6 +1227,12 @@
    "week": 10,
    "label": "Bo MacCormack III: Over 33.5 rushing yards",
    "units": 11.84
+  },
+  {
+   "id": "2026-W10-0104",
+   "week": 10,
+   "label": "Drake Maye: Over 26.5 rushing yards",
+   "units": 11.09
   }
  ],
  "clv_by_week": [
@@ -1323,6 +1329,20 @@
    "n_clv_any": 0
   },
   {
+   "type": "Game-day picks, new markets",
+   "id": "nfl-xmkt",
+   "w": 0,
+   "l": 4,
+   "p": 0,
+   "units": -3.0,
+   "roi": -100.0,
+   "clv": 1.6,
+   "beat": 100,
+   "n_clv": 2,
+   "clv_any": 2.0,
+   "n_clv_any": 4
+  },
+  {
    "type": "College football props",
    "id": "cfb-props",
    "w": 2,
@@ -1335,20 +1355,6 @@
    "n_clv": 2,
    "clv_any": 1.0,
    "n_clv_any": 4
-  },
-  {
-   "type": "Game-day picks, new markets",
-   "id": "nfl-xmkt",
-   "w": 0,
-   "l": 3,
-   "p": 0,
-   "units": -2.25,
-   "roi": -100.0,
-   "clv": 1.6,
-   "beat": 100,
-   "n_clv": 2,
-   "clv_any": 1.9,
-   "n_clv_any": 3
   },
   {
    "type": "Teasers",
