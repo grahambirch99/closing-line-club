@@ -82,7 +82,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 631
+   "bets": 632
   },
   "v1": {
    "w": 17,
@@ -108,7 +108,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 2956,
+   "bets": 2970,
    "net_lean": 0.9,
    "net_lo": -1.4,
    "net_hi": 2.9,
