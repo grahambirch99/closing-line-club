@@ -1,6 +1,24 @@
 {
  "items": [
   {
+   "at": "2026-11-15T19:57:40.910940+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Ladd McConkey (back) downgraded to out for Week 10"
+  },
+  {
+   "at": "2026-11-15T19:54:38.217713+00:00",
+   "kind": "injury",
+   "source": "rapsheet",
+   "text": "Chargers WR Ladd McConkey will not travel to Baltimore with the team and he has been ruled out for MNF."
+  },
+  {
+   "at": "2026-11-15T19:51:36.121445+00:00",
+   "kind": "qb",
+   "source": "rotoworld-fb",
+   "text": "Geno Smith being evaluated for a concussion"
+  },
+  {
    "at": "2026-11-15T18:07:22.098656+00:00",
    "kind": "injury",
    "source": "sleeper",
@@ -161,24 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Terrance Ferguson (ankle/hamstring) DNP Wednesday"
-  },
-  {
-   "at": "2026-11-11T18:57:37.765694+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Omar Cooper limited on Wednesday"
-  },
-  {
-   "at": "2026-11-10T22:20:38.881658+00:00",
-   "kind": "qb",
-   "source": "sleeper",
-   "text": "Gardner Minshew II (ARI QB) status questionable -> ir [Elbow]"
-  },
-  {
-   "at": "2026-11-10T21:12:16.017344+00:00",
-   "kind": "qb",
-   "source": "sleeper",
-   "text": "Malik Willis (MIA QB) status questionable -> ir [Groin]"
   }
  ]
 }
