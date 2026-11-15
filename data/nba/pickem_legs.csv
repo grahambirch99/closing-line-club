@@ -313,3 +313,7 @@ pk-29b8bbf056-pr-point-matissethybulle-7.5,nba,2026-11-15T20:10:01Z,2026-11-15T2
 pk-29b8bbf056-pr-point-sandromamukelash-11.5,nba,2026-11-15T20:10:01Z,2026-11-15T21:10:00Z,Los Angeles Lakers @ Phoenix Suns,prizepicks,player_points,Sandro Mamukelashvili,11.5,Under,0.568,Kalshi,1,244,,pending,
 pk-29b8bbf056-pr-rebou-milesbridges-6,nba,2026-11-15T20:10:01Z,2026-11-15T21:10:00Z,Los Angeles Lakers @ Phoenix Suns,prizepicks,player_rebounds,Miles Bridges,6,Under,0.5465,Kalshi,0,244,,pending,
 pk-29b8bbf056-pr-assis-jakelaravia-2.5,nba,2026-11-15T20:10:01Z,2026-11-15T21:10:00Z,Los Angeles Lakers @ Phoenix Suns,prizepicks,player_assists,Jake LaRavia,2.5,Under,0.5762,Kalshi,1,244,,pending,
+pk-db26abc3cf-pr-point-krisdunn-6.5,nba,2026-11-15T20:40:04Z,2026-11-15T21:40:00Z,Charlotte Hornets @ Los Angeles Clippers,prizepicks,player_points,Kris Dunn,6.5,Under,0.5547,Pinnacle,0,245,,pending,
+pk-db26abc3cf-pr-point-brooklopez-12.5,nba,2026-11-15T20:40:04Z,2026-11-15T21:40:00Z,Charlotte Hornets @ Los Angeles Clippers,prizepicks,player_points,Brook Lopez,12.5,Under,0.5498,Kalshi,0,245,,pending,
+pk-db26abc3cf-un-point-brooklopez-12.5,nba,2026-11-15T20:40:04Z,2026-11-15T21:40:00Z,Charlotte Hornets @ Los Angeles Clippers,underdog,player_points,Brook Lopez,12.5,Under,0.5498,Kalshi,0,245,,pending,
+pk-db26abc3cf-pr-rebou-nazreid-8,nba,2026-11-15T20:40:04Z,2026-11-15T21:40:00Z,Charlotte Hornets @ Los Angeles Clippers,prizepicks,player_rebounds,Naz Reid,8,Under,0.5431,Kalshi,0,245,,pending,
