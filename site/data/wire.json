@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-15T22:44:37.601112+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "Brock Bowers (LV TE) status questionable -> out [Ankle]"
+  },
+  {
    "at": "2026-11-15T21:02:53.241396+00:00",
    "kind": "qb",
    "source": "sleeper",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Dalton Kincaid (ankle) still limited on Thursday"
-  },
-  {
-   "at": "2026-11-12T21:23:19.902837+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Amon-Ra St. Brown (ribs) remains limited Thursday"
   }
  ]
 }
