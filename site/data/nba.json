@@ -10,7 +10,7 @@
   "n_clv": 0,
   "clv_any": null,
   "n_clv_any": 0,
-  "bets": 213,
+  "bets": 214,
   "goal": 400,
   "graded": 208,
   "lean": 0.8,
@@ -55,7 +55,7 @@
     "n_clv": 0,
     "clv_any": null,
     "n_clv_any": 0,
-    "bets": 37
+    "bets": 38
    },
    "none": {
     "w": 66,
@@ -82,7 +82,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 628
+   "bets": 629
   },
   "v1": {
    "w": 17,
@@ -108,7 +108,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 2877,
+   "bets": 2956,
    "net_lean": 0.9,
    "net_lo": -1.4,
    "net_hi": 2.9,
@@ -157,6 +157,60 @@
   }
  ],
  "nights": [
+  {
+   "night": "2026-11-15",
+   "label": "Sun Nov 15",
+   "record": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "units": 0,
+    "roi": null,
+    "clv": null,
+    "beat": null,
+    "n_clv": 0,
+    "clv_any": null,
+    "n_clv_any": 0
+   },
+   "picks": [
+    {
+     "id": "nba-ebe0506d15",
+     "night": "2026-11-15",
+     "kind": "nba",
+     "tier": "A",
+     "market": "player_points",
+     "title": "Matisse Thybulle",
+     "bet": "Over 6.5 points",
+     "game": "Lakers at Suns",
+     "kick": "2026-11-15T21:10:00Z",
+     "kick_label": "Sun 1:10 PM PT",
+     "venue": "Novig",
+     "price": "-102",
+     "stake": 5.0,
+     "implied": 50.5,
+     "fair": 54.9,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 55% chance; Novig at -102 breaks even at 50% after fees, a 4.4-point gap, 60 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-15T20:10:01Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "disagree",
+     "stake_v3": 5.0,
+     "cost": 0.505,
+     "be": 50.5,
+     "strategy": "nba-v31",
+     "live": false
+    }
+   ]
+  },
   {
    "night": "2026-11-14",
    "label": "Sat Nov 14",
