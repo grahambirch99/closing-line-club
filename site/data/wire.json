@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "at": "2026-11-15T20:07:11.298979+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Woody Marks questionable, evaluated for concussion"
+  },
+  {
+   "at": "2026-11-15T20:04:07.484287+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "Ladd McConkey (LAC WR) status questionable -> out [Back]"
+  },
+  {
    "at": "2026-11-15T19:57:40.910940+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -167,18 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Jakobi Meyers (ankle) DNP Wednesday"
-  },
-  {
-   "at": "2026-11-12T01:15:40.157083+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Bhayshul Tuten (ankle/foot) DNP Wednesday"
-  },
-  {
-   "at": "2026-11-12T01:15:40.157083+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Terrance Ferguson (ankle/hamstring) DNP Wednesday"
   }
  ]
 }
