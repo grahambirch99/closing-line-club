@@ -10,7 +10,7 @@
   "n_clv": 0,
   "clv_any": null,
   "n_clv_any": 0,
-  "bets": 214,
+  "bets": 215,
   "goal": 400,
   "graded": 208,
   "lean": 0.8,
@@ -68,7 +68,7 @@
     "n_clv": 0,
     "clv_any": null,
     "n_clv_any": 0,
-    "bets": 139
+    "bets": 140
    }
   },
   "v2": {
@@ -82,7 +82,7 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0,
-   "bets": 629
+   "bets": 631
   },
   "v1": {
    "w": 17,
@@ -206,6 +206,42 @@
      "stake_v3": 5.0,
      "cost": 0.505,
      "be": 50.5,
+     "strategy": "nba-v31",
+     "live": false
+    },
+    {
+     "id": "nba-1063819f26",
+     "night": "2026-11-15",
+     "kind": "nba",
+     "tier": "A",
+     "market": "player_points",
+     "title": "Brook Lopez",
+     "bet": "Under 11.5 points",
+     "game": "Hornets at Clippers",
+     "kick": "2026-11-15T21:40:00Z",
+     "kick_label": "Sun 1:40 PM PT",
+     "venue": "Novig",
+     "price": "+127",
+     "stake": 5.0,
+     "implied": 44.1,
+     "fair": 45.9,
+     "edge": null,
+     "worst": "",
+     "analysis": "Kalshi's price gives this side a 48% chance; Novig at +127 breaks even at 44% after fees, a 4.3-point gap, 60 minutes before tip.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-15T20:40:04Z",
+     "rules": "v3",
+     "retired": false,
+     "conflict": false,
+     "v3": true,
+     "v3_ver": "3.1",
+     "matchup": "none",
+     "stake_v3": 5.0,
+     "cost": 0.4405,
+     "be": 44.1,
      "strategy": "nba-v31",
      "live": false
     }
