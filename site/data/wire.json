@@ -1,6 +1,42 @@
 {
  "items": [
   {
+   "at": "2026-11-15T18:07:22.098656+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "A.J. Brown (NE WR) status questionable -> out [Hamstring]"
+  },
+  {
+   "at": "2026-11-15T18:07:22.098656+00:00",
+   "kind": "qb",
+   "source": "sleeper",
+   "text": "Drake Maye (NE QB) status healthy -> out [Ankle]"
+  },
+  {
+   "at": "2026-11-15T18:07:22.098656+00:00",
+   "kind": "injury",
+   "source": "rapsheet",
+   "text": "And now: Patriots WR A.J. Brown has a hamstring injury and is questionable to return."
+  },
+  {
+   "at": "2026-11-15T18:07:22.098656+00:00",
+   "kind": "injury",
+   "source": "rapsheet",
+   "text": "Jets WR Garrett Wilson (concussion) cleared the NFL\u2019s concussion protocol and will play today. Meanwhile, WR Omar Cooper Jr. (ankle) and AD Mitchell (knee) are both expected to go after being listed as questionable."
+  },
+  {
+   "at": "2026-11-15T18:07:22.098656+00:00",
+   "kind": "injury",
+   "source": "rapsheet",
+   "text": "Vikings WR Jordan Addison, who suffered a thumb injury in practice on Friday and is questionable, will have his status determined closed to game-time. But there is some doubt, as MIN elevated WR Jeshaun Jones as insurance."
+  },
+  {
+   "at": "2026-11-15T18:07:22.098656+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Chris Bell (knee) inactive Week 10"
+  },
+  {
    "at": "2026-11-14T21:14:03.303217+00:00",
    "kind": "injury",
    "source": "rapsheet",
@@ -143,42 +179,6 @@
    "kind": "qb",
    "source": "sleeper",
    "text": "Malik Willis (MIA QB) status questionable -> ir [Groin]"
-  },
-  {
-   "at": "2026-11-10T20:53:52.871419+00:00",
-   "kind": "qb",
-   "source": "rotoworld-fb",
-   "text": "Groin injury sends Malik Willis to injured reserve"
-  },
-  {
-   "at": "2026-11-09T22:59:15.137430+00:00",
-   "kind": "qb",
-   "source": "rotoworld-fb",
-   "text": "Rap: Cardinals fear torn UCL for Gardner Minshew"
-  },
-  {
-   "at": "2026-11-09T22:31:29.536264+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Chig Okonkwo (hip) listed as limited on Monday"
-  },
-  {
-   "at": "2026-11-09T22:31:29.536264+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Treylon Burks (foot) listed as DNP on Monday"
-  },
-  {
-   "at": "2026-11-09T22:28:26.082481+00:00",
-   "kind": "injury",
-   "source": "rotowire",
-   "text": "Joshua Palmer: Headed to injured reserve"
-  },
-  {
-   "at": "2026-11-09T22:13:07.501985+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Jake Ferguson (DAL TE) status questionable -> out [Knee]"
   }
  ]
 }
