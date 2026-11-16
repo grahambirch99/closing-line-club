@@ -1,0 +1,38 @@
+name: discord-note
+
+# One-off notice to a Discord channel (a correction, say). Started by hand; posts exactly the text given.
+on:
+  workflow_dispatch:
+    inputs:
+      channel:
+        description: "picks or nba"
+        required: true
+        default: nba
+      text:
+        description: "Message text"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  post:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          repository: grahambirch99/nfl-odds-logger
+          token: ${{ secrets.PRIVATE_REPO_TOKEN }}
+          path: p
+          fetch-depth: 1
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Post
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_WEBHOOK_NBA: ${{ secrets.DISCORD_WEBHOOK_NBA }}
+          DISCORD_NOTE: ${{ inputs.text }}
+          CHANNEL: ${{ inputs.channel }}
+        run: python p/discord_alerts.py note "$CHANNEL"
