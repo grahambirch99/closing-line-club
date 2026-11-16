@@ -1,27 +1,27 @@
 {
  "season": {
-  "w": 120,
+  "w": 123,
   "l": 108,
   "p": 0,
-  "units": 13.9,
-  "roi": 11.4,
-  "clv": 0.05,
+  "units": 15.66,
+  "roi": 12.7,
+  "clv": 0.07,
   "beat": 67,
-  "n_clv": 57,
-  "clv_any": 0.33,
-  "n_clv_any": 195
+  "n_clv": 58,
+  "clv_any": 0.32,
+  "n_clv_any": 198
  },
  "real_money": {
-  "w": 23,
+  "w": 25,
   "l": 17,
   "p": 0,
-  "units": 4.34,
-  "roi": 21.7,
+  "units": 5.23,
+  "roi": 24.9,
   "clv": null,
   "beat": null,
   "n_clv": 0,
-  "clv_any": 0.54,
-  "n_clv_any": 37
+  "clv_any": 0.45,
+  "n_clv_any": 39
  },
  "status": {
   "nfl-v1": {
@@ -41,16 +41,16 @@
   }
  },
  "gate": {
-  "w": 15,
+  "w": 16,
   "l": 14,
   "p": 0,
-  "units": 0.47,
-  "roi": 2.4,
-  "clv": 0.2,
-  "beat": 67,
-  "n_clv": 12,
-  "clv_any": 0.58,
-  "n_clv_any": 24,
+  "units": 1.33,
+  "roi": 6.6,
+  "clv": 0.25,
+  "beat": 69,
+  "n_clv": 13,
+  "clv_any": 0.59,
+  "n_clv_any": 25,
   "goal": 150,
   "deadline": "2027-01-13"
  },
@@ -1485,6 +1485,24 @@
    "week": 10,
    "label": "Deebo Samuel: Over 3.5 receptions",
    "units": 13.9
+  },
+  {
+   "id": "2026-W10-0116",
+   "week": 10,
+   "label": "Samaje Perine: Over 4.5 receiving yards",
+   "units": 14.76
+  },
+  {
+   "id": "pp-98-497",
+   "week": 10,
+   "label": "Tee Higgins: Under 76.5 receiving yards",
+   "units": 15.25
+  },
+  {
+   "id": "pp-102-541",
+   "week": 10,
+   "label": "Mike Gesicki: Under 2.5 receptions",
+   "units": 15.66
   }
  ],
  "clv_by_week": [
@@ -1505,24 +1523,24 @@
   },
   {
    "week": 10,
-   "clv": 0.14,
-   "n": 14
+   "clv": 0.19,
+   "n": 15
   }
  ],
  "by_type": [
   {
    "type": "Mid-week props model",
    "id": "props-midweek",
-   "w": 61,
+   "w": 63,
    "l": 40,
    "p": 0,
-   "units": 12.92,
-   "roi": 25.6,
+   "units": 13.81,
+   "roi": 26.8,
    "clv": null,
    "beat": null,
    "n_clv": 0,
-   "clv_any": 0.22,
-   "n_clv_any": 93
+   "clv_any": 0.19,
+   "n_clv_any": 95
   },
   {
    "type": "Game-day picks, rules v1",
@@ -1541,16 +1559,16 @@
   {
    "type": "Game-day picks, rules v2",
    "id": "nfl-v2",
-   "w": 15,
+   "w": 16,
    "l": 14,
    "p": 0,
-   "units": 0.47,
-   "roi": 2.4,
-   "clv": 0.2,
-   "beat": 67,
-   "n_clv": 12,
-   "clv_any": 0.58,
-   "n_clv_any": 24
+   "units": 1.33,
+   "roi": 6.6,
+   "clv": 0.25,
+   "beat": 69,
+   "n_clv": 13,
+   "clv_any": 0.59,
+   "n_clv_any": 25
   },
   {
    "type": "Saturday preview and Week 6 card",
