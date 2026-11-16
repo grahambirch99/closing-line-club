@@ -325,11 +325,11 @@ pk-78f61a78b7-pr-rebou-rjbarrett-6,nba,2026-11-15T22:10:12Z,2026-11-15T23:10:00Z
 pk-488c2bc1e0-pr-assis-kyshawngeorge-4,nba,2026-11-15T23:10:16Z,2026-11-16T00:10:00Z,Houston Rockets @ Washington Wizards,prizepicks,player_assists,Kyshawn George,4,Under,0.5507,Kalshi,0,252,,P,4
 pk-488c2bc1e0-un-point-reedsheppard-12.5,nba,2026-11-15T23:10:16Z,2026-11-16T00:10:00Z,Houston Rockets @ Washington Wizards,underdog,player_points,Reed Sheppard,12.5,Over,0.5547,Pinnacle,0,252,0.5448,L,11
 pk-488c2bc1e0-pr-rebou-anthonydavis-10,nba,2026-11-15T23:10:16Z,2026-11-16T00:10:00Z,Houston Rockets @ Washington Wizards,prizepicks,player_rebounds,Anthony Davis,10,Under,0.5521,Kalshi,0,252,0.5521,W,8
-pk-b931a21d34-pr-assis-braydenburries-3.5,nba,2026-11-16T00:10:01Z,2026-11-16T01:10:00Z,Atlanta Hawks @ Milwaukee Bucks,prizepicks,player_assists,Brayden Burries,3.5,Under,0.545,Kalshi,0,254,,pending,
-pk-b931a21d34-pr-assis-kylekuzma-2.5,nba,2026-11-16T00:10:01Z,2026-11-16T01:10:00Z,Atlanta Hawks @ Milwaukee Bucks,prizepicks,player_assists,Kyle Kuzma,2.5,Over,0.5603,Kalshi,0,254,,pending,
-pk-b931a21d34-pr-point-luguentzdort-8.5,nba,2026-11-16T00:10:01Z,2026-11-16T01:10:00Z,Atlanta Hawks @ Milwaukee Bucks,prizepicks,player_points,Luguentz Dort,8.5,Under,0.5573,Kalshi,0,254,,pending,
-pk-b931a21d34-un-point-tylerherro-22.5,nba,2026-11-16T00:10:01Z,2026-11-16T01:10:00Z,Atlanta Hawks @ Milwaukee Bucks,underdog,player_points,Tyler Herro,22.5,Under,0.5542,Kalshi,0,254,,pending,
-pk-b931a21d34-pr-rebou-braydenburries-6,nba,2026-11-16T00:10:01Z,2026-11-16T01:10:00Z,Atlanta Hawks @ Milwaukee Bucks,prizepicks,player_rebounds,Brayden Burries,6,Under,0.5481,Kalshi,0,254,,pending,
+pk-b931a21d34-pr-assis-braydenburries-3.5,nba,2026-11-16T00:10:01Z,2026-11-16T01:10:00Z,Atlanta Hawks @ Milwaukee Bucks,prizepicks,player_assists,Brayden Burries,3.5,Under,0.545,Kalshi,0,254,0.545,L,4
+pk-b931a21d34-pr-assis-kylekuzma-2.5,nba,2026-11-16T00:10:01Z,2026-11-16T01:10:00Z,Atlanta Hawks @ Milwaukee Bucks,prizepicks,player_assists,Kyle Kuzma,2.5,Over,0.5603,Kalshi,0,254,0.5603,L,2
+pk-b931a21d34-pr-point-luguentzdort-8.5,nba,2026-11-16T00:10:01Z,2026-11-16T01:10:00Z,Atlanta Hawks @ Milwaukee Bucks,prizepicks,player_points,Luguentz Dort,8.5,Under,0.5573,Kalshi,0,254,0.5573,W,3
+pk-b931a21d34-un-point-tylerherro-22.5,nba,2026-11-16T00:10:01Z,2026-11-16T01:10:00Z,Atlanta Hawks @ Milwaukee Bucks,underdog,player_points,Tyler Herro,22.5,Under,0.5542,Kalshi,0,254,,W,5
+pk-b931a21d34-pr-rebou-braydenburries-6,nba,2026-11-16T00:10:01Z,2026-11-16T01:10:00Z,Atlanta Hawks @ Milwaukee Bucks,prizepicks,player_rebounds,Brayden Burries,6,Under,0.5481,Kalshi,0,254,0.5481,L,8
 pk-f8334b355c-un-point-deandrehunter-12.5,nba,2026-11-16T01:10:17Z,2026-11-16T02:10:00Z,Oklahoma City Thunder @ Sacramento Kings,underdog,player_points,De'Andre Hunter,12.5,Over,0.5562,Kalshi,0,256,,pending,
 pk-f8334b355c-un-point-domantassabonis-14.5,nba,2026-11-16T01:10:17Z,2026-11-16T02:10:00Z,Oklahoma City Thunder @ Sacramento Kings,underdog,player_points,Domantas Sabonis,14.5,Under,0.575,Kalshi,1,256,,pending,
 pk-f8334b355c-un-point-dariusacuff-26.5,nba,2026-11-16T01:10:17Z,2026-11-16T02:10:00Z,Oklahoma City Thunder @ Sacramento Kings,underdog,player_points,Darius Acuff Jr.,26.5,Under,0.5541,Kalshi,0,256,,pending,
