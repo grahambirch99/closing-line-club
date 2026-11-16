@@ -157,7 +157,7 @@
     const firstWeek = Math.min(...nflPicks.filter((p) => COUNTED.includes(p.kind)).map((p) => p.week));
     const winPct = s.w + s.l ? Math.round((100 * s.w) / (s.w + s.l)) : null;
     return [
-      figure("Graded picks", fmtInt(g), isFinite(firstWeek) ? `Every tracked pick since Week ${firstWeek}` : "Every tracked pick",
+      figure("Graded picks", fmtInt(g), isFinite(firstWeek) ? `Strategies still being tested, since Week ${firstWeek}` : "Strategies still being tested",
         "Every NFL and college pick we posted that has a final result, from every strategy and rule version. Voids are not counted. NBA has its own page."),
       figure("Record", rec(s), winPct != null ? `${winPct}% won` : "", "Wins–losses (–pushes). Win rate alone doesn't show skill: it depends on the prices taken."),
       figure("Units", `<span class="${tone(s.units)}">${fmtU(s.units)}</span>`, "Flat 0.5u–0.75u stakes",
@@ -183,7 +183,6 @@
     if (key === "cfb" && S.cfb) return { n: S.cfb.n_clv || 0, goal: S.cfb.goal || 150, unit: "measurable picks", r: S.cfb };
     if (key === "cfb_props" && S.cfb_props) return { n: S.cfb_props.n_clv || 0, goal: S.cfb_props.goal || 150, unit: "measurable picks", r: S.cfb_props };
     if (key === "nba" && N.goal) return { n: N.graded || 0, goal: N.goal, unit: "graded picks", r: N };
-    if (key === "h2h" && N.h2h) return { n: graded(N.h2h), goal: 1500, unit: "graded bets", r: N.h2h };
     return null;
   }
   function stratRecord(id) {
@@ -206,8 +205,8 @@
       return { w: ps.filter((p) => p.status === "W").length, l: ps.filter((p) => p.status === "L").length,
         p: ps.filter((p) => p.status === "P").length, units: ps.reduce((a, p) => a + (p.units || 0), 0) };
     };
-    const map = { "sat-preview": sumStrat("sat-preview"), "nfl-v1": sumKind("bet"), teasers: sumKind("teaser"), "props-midweek": sumSys((x) => /props/i.test(x)), wind: sumSys((x) => /wind/i.test(x)), "nfl-v2": D.summary.gate, cfb: D.summary.cfb, "cfb-props": D.summary.cfb_props,
-      "nba-v31": N.goal ? N : null, "nba-v3": N.v3_capped, "nba-v2": N.v2, "nba-v1": N.v1, "nba-h2h": N.h2h };
+    const map = { "sat-preview": sumStrat("sat-preview"), "props-midweek": sumSys((x) => /props/i.test(x)), wind: sumSys((x) => /wind/i.test(x)), "nfl-v2": D.summary.gate, "nfl-xmkt": sumStrat("nfl-xmkt"), cfb: D.summary.cfb, "cfb-props": D.summary.cfb_props,
+      "nba-v31": N.goal ? N : null };
     const r = map[id];
     return r && graded(r) ? r : null;
   }
@@ -241,17 +240,12 @@
   }
   function nbaRuleChip(p) {
     if (p.conflict) return '<span class="chip chip-tag">Conflicts with an earlier bet: not a pick</span>';
-    if (p.retired) return '<span class="chip chip-retired">v1, retired</span>';
-    if (p.rules === "h2h") return '<span class="chip chip-exp">Matchup test</span>';
-    if (p.v3) return `<span class="chip chip-tag">${p.v3_ver === "3.1" ? "v3.1" : "v3 with caps"}</span>`;
-    if (p.rules === "v2") return '<span class="chip chip-retired">v2, retired</span>';
-    return "";
+    return p.v3 ? '<span class="chip chip-tag">v3.1</span>' : "";
   }
   function tagsFor(p) {
     const t = [];
     if (p.kind === "nba") {
       t.push(nbaRuleChip(p));
-      if (p.v3 && p.matchup) t.push(`<span class="chip ${p.matchup === "agree" ? "chip-agree" : "chip-tag"}">${{ agree: "Matchup agrees", disagree: "Matchup disagrees", none: "No matchup pick" }[p.matchup] || ""}</span>`);
     }
     t.push(p.live ? CHIP.live : CHIP.paper);
     if (p.tier === "A" && p.kind !== "nba" && p.kind !== "teaser") t.push('<span class="chip chip-strong">Strong</span>');
@@ -309,10 +303,8 @@
   /* ================= BOARD ================= */
   const weeks = D.picks.weeks || [];
   const GROUPS = [
-    { k: "bet", chip: "retired", title: "NFL game-day picks, rules v1", desc: "Retired Oct 31. Counted in the record." },
     { k: "trial", chip: "paper", title: "NFL game-day picks, rules v2 test", desc: "Judged at 150 measurable picks or Jan 13, 2027. Counted in the record." },
-    { k: "teaser", chip: "paper", title: "Teasers", desc: "Counted in the record. Teasers have no closing-line value, so they are judged on results." },
-    { k: "cfb", chip: "paper", title: "College football test", desc: "Games with no Big Ten or SEC team, judged on closing-line value. Counted in the record." },
+    { k: "cfb", chip: "paper", title: "College football test", desc: "Every FBS game, judged on closing-line value. Counted in the record." },
     { k: "paper", chip: "paper", title: "Mid-week props model and angles", desc: "Counted in the record." },
   ];
   const state = { week: D.picks.current_week, status: "all", sport: "all", market: "all", night: null };
@@ -385,7 +377,7 @@
     $("#board-retired-note").hidden = !state0.hideRetired;
     if (state0.hideRetired) $("#board-retired-note").innerHTML = retiredNote();
     const rm = D.summary.real_money;
-    $("#perf-note").innerHTML = `Every tracked NFL and college pick, real money and paper. NBA has its own page.${rm && graded(rm) ? ` Real-money picks alone: <b>${rec(rm)}, ${fmtU(rm.units)}</b>.` : ""} <a href="#record">Full record and charts</a>`;
+    $("#perf-note").innerHTML = `Picks from the NFL and college strategies we're still testing, real money and paper. Strategies that failed their tests are removed, so this is a status board, not a lifetime record. NBA has its own page.${rm && graded(rm) ? ` Every real-money bet we've ever placed, retired strategies included: <b>${rec(rm)}, ${fmtU(rm.units)}</b>${isNum(rm.roi) ? ` (${fmtPct(rm.roi)})` : ""}.` : ""} <a href="#record">Full record and charts</a>`;
     $("#board-verdict").innerHTML = clvSentence(v.s, v.ci);
   }
 
@@ -524,7 +516,7 @@
     clvChart();
     const t = (S.by_type || []).filter((r) => !(state0.hideRetired && retiredIds.has(r.id)));
     const chipFor = (r) => { const st = STRATS.find((x) => x.id === r.id); return st && st.status !== "paper" ? ` ${CHIP[st.status] || ""}` : ""; };
-    $("#type-table").innerHTML = statHead("Strategy") + `<tbody>${t.length ? t.map((r) => statRow(esc(r.type), r, chipFor(r))).join("") + (S.season ? statRow(state0.hideRetired ? "All except retired" : "All tracked picks", v.s).replace("<tr>", '<tr class="total">') : "") : '<tr><td colspan="7">No graded picks yet.</td></tr>'}</tbody>`;
+    $("#type-table").innerHTML = statHead("Strategy") + `<tbody>${t.length ? t.map((r) => statRow(esc(r.type), r, chipFor(r))).join("") + (S.season ? statRow(state0.hideRetired ? "All except retired" : "All strategies being tested", v.s).replace("<tr>", '<tr class="total">') : "") : '<tr><td colspan="7">No graded picks yet.</td></tr>'}</tbody>`;
 
     // paper tests
     const N = D.nba.summary;
@@ -542,9 +534,6 @@
     if (N.goal) tests.push({ title: '<a href="#nba">NBA player props, v3.1</a>', chip: "paper", r: N, prog: progressHtml(N.graded || 0, N.goal, "graded"),
       key: N.lean == null ? "–" : `Wins vs break-even ${fmtPts(N.lean)}<span class="sub">95% range ${fmtPts(N.lean_lo)} to ${fmtPts(N.lean_hi)}</span>`,
       judged: (STRATS.find((x) => x.id === "nba-v31") || {}).verdict || "" });
-    if (N.h2h) tests.push({ title: '<a href="#nba">NBA matchup test</a>', chip: "experimental", r: N.h2h, prog: progressHtml(graded(N.h2h), 1500, "graded"),
-      key: N.h2h.net_lean == null ? "–" : `Net after costs ${fmtPts(N.h2h.net_lean)}<span class="sub">95% range ${fmtPts(N.h2h.net_lo)} to ${fmtPts(N.h2h.net_hi)}</span>`,
-      judged: (STRATS.find((x) => x.id === "nba-h2h") || {}).verdict || "" });
     $("#tests-table").innerHTML = `<thead><tr><th scope="col">Test</th><th scope="col">Status</th><th scope="col" class="r">Record</th><th scope="col" class="r">Units</th><th scope="col">Progress to verdict</th><th scope="col">Key number so far</th><th scope="col"><span class="sr">How it's judged</span></th></tr></thead><tbody>` +
       (tests.length ? tests.map((x) => `<tr><td class="name">${x.title}</td><td>${CHIP[x.chip]}</td><td class="r">${graded(x.r) ? rec(x.r) : "–"}</td><td class="r ${tone(x.r.units)}">${graded(x.r) ? fmtU(x.r.units) : "–"}</td>
         <td style="min-width:160px">${x.prog}</td><td>${x.key}</td><td>${info(x.judged)}</td></tr>`).join("") : '<tr><td colspan="7">No paper tests running.</td></tr>') + "</tbody>";
@@ -587,7 +576,7 @@
       crit.map(([k, v]) => `<div class="crit"><span>${k}</span><span class="crit-now">${v}</span><span class="small">${s.passed == null ? `Not judged until ${goal}` : s.passed ? "Judged: passed" : "Judged"}</span></div>`).join("");
     $("#nba-figures").className = "figures four";
     $("#nba-figures").innerHTML = [
-      figure("v3.1 record", graded(s) ? rec(s) : "–", `${graded(s)} graded of ${s.bets ?? 0} posted`, "Wins–losses for v3.1 picks only (from Oct 28). Earlier versions are listed separately below."),
+      figure("v3.1 record", graded(s) ? rec(s) : "–", `${graded(s)} graded of ${s.bets ?? 0} posted`, "Wins–losses for v3.1 picks (from Oct 28)."),
       figure("Paper units", `<span class="${tone(s.units)}">${graded(s) ? fmtU(s.units) : "–"}</span>`, "Flat 0.5u paper stakes", "What flat 0.5u stakes would have made at the posted prices, after fees."),
       figure("Return on stakes", `<span class="${tone(s.roi)}">${fmtPct(s.roi)}</span>`, "Paper", "Paper profit divided by paper stakes."),
       figure("Wins vs break-even", s.lean == null ? "–" : `${fmtPts(s.lean)} pts`, s.lean_lo == null ? "" : `95% range ${fmtPts(s.lean_lo)} to ${fmtPts(s.lean_hi)}`, "Win rate minus the win rate the price paid needed (after fees), averaged over graded picks. This is what the test is judged on."),
@@ -595,42 +584,16 @@
     const t = N.by_type || [];
     $("#nba-type-table").innerHTML = `<thead><tr><th scope="col">Market</th><th scope="col" class="r">Graded</th><th scope="col" class="r">Record</th><th scope="col" class="r">Units</th><th scope="col" class="r">ROI</th></tr></thead><tbody>` +
       (t.length ? t.map((r) => `<tr><td class="name">${esc(r.type)}</td><td class="r">${graded(r)}</td><td class="r">${rec(r)}</td><td class="r ${tone(r.units)}">${fmtU(r.units)}</td><td class="r ${tone(r.roi)}">${fmtPct(r.roi)}</td></tr>`).join("") : '<tr><td colspan="5">No graded v3.1 picks yet.</td></tr>') + "</tbody>";
-    const m = s.matchup || {};
-    const tagRows = [["Matchup agrees", m.agree], ["Matchup disagrees", m.disagree], ["No matchup pick", m.none]].filter(([, r]) => r);
-    $("#nba-tag-table").innerHTML = `<thead><tr><th scope="col">Tag</th><th scope="col" class="r">Picks</th><th scope="col" class="r">Record</th><th scope="col" class="r">Units</th><th scope="col" class="r">ROI</th></tr></thead><tbody>` +
-      (tagRows.length ? tagRows.map(([k, r]) => `<tr><td class="name">${k}</td><td class="r">${r.bets ?? graded(r)}</td><td class="r">${rec(r)}</td><td class="r ${tone(r.units)}">${fmtU(r.units)}</td><td class="r ${tone(r.roi)}">${fmtPct(r.roi)}</td></tr>`).join("") : '<tr><td colspan="5">No tagged picks yet.</td></tr>') + "</tbody>";
-
     // nights
     const cur = nights.find((x) => x.night === state.night) || nights[0];
     state.night = cur ? cur.night : null;
     $("#nba-nights").innerHTML = nights.map((x) => `<button type="button" class="pill" role="tab" aria-selected="${x.night === state.night}" data-night="${esc(x.night)}">${esc(x.label)}<small>${graded(x.record) ? rec(x.record) : `${x.picks.length} open`}</small></button>`).join("");
     $("#nba-night-note").textContent = cur
-      ? `${cur.label}: ${cur.picks.length} paper pick${cur.picks.length === 1 ? "" : "s"}${graded(cur.record) ? `, ${rec(cur.record)}, ${fmtU(cur.record.units)}` : ""}. From Oct 26 only v3 picks are listed; earlier nights show the bets as they were posted under v1, v2 and the matchup test, each labelled.`
+      ? `${cur.label}: ${cur.picks.length} paper pick${cur.picks.length === 1 ? "" : "s"}${graded(cur.record) ? `, ${rec(cur.record)}, ${fmtU(cur.record.units)}` : ""}. Only rules v3.1 picks (since Oct 28) are listed.`
       : "";
     $("#nba-picks").innerHTML = cur ? picksTable(cur.picks, true)
       : '<div class="empty"><b>No NBA paper picks yet.</b>The rules check every game 30 to 60 minutes before tip-off. Picks they would make show up here, then get graded after the game.</div>';
 
-    // versions
-    const vers = [["nba-v1", s.v1], ["nba-v2", s.v2], ["nba-v3", s.v3_capped], ["nba-v31", s]];
-    $("#nba-versions").innerHTML = `<thead><tr><th scope="col">Version</th><th scope="col">Dates</th><th scope="col">Rule</th><th scope="col" class="r">Record</th><th scope="col" class="r">Units</th><th scope="col">Status</th></tr></thead><tbody>` +
-      vers.map(([id, r]) => { const v = STRATS.find((x) => x.id === id) || {}; return `<tr><td class="name">${{ "nba-v1": "Rules v1", "nba-v2": "Rules v2", "nba-v3": "Rules v3 (capped)", "nba-v31": "Rules v3.1" }[id]}</td><td style="white-space:nowrap">${esc(v.since || "")}</td><td>${esc(v.rule || "")}<span class="sub">${esc(v.verdict || "")}</span></td><td class="r">${r && graded(r) ? rec(r) : "–"}</td><td class="r ${tone(r && r.units)}">${r && graded(r) ? fmtU(r.units) : "–"}</td><td>${CHIP[v.status] || ""}</td></tr>`; }).join("") + "</tbody>";
-
-    // matchup test
-    const h = s.h2h || {};
-    const hn = graded(h);
-    $("#h2h-n").textContent = fmtInt(Math.min(hn, 1500));
-    $("#h2h-fill").style.width = `${Math.min(100, (100 * hn) / 1500)}%`;
-    $("#h2h-bar").setAttribute("aria-valuenow", Math.min(hn, 1500));
-    $("#h2h-state").innerHTML = hn >= 1500 ? '<span class="chip chip-open">Sample complete</span>Verdict pending review.'
-      : `<span class="chip chip-open">${ICON.open}In progress</span>No verdict until 1,500 graded bets or Jan 31, 2027. Passing would also need the net result's 95% range above zero.`;
-    $("#h2h-gauge").innerHTML = gaugeSvg(h.net_lean, h.net_lo, h.net_hi, 0, { label: "Net result after costs", note: h.lean_vs_mid != null ? `Before the spread and fee, against Kalshi's midpoint: ${fmtPts(h.lean_vs_mid)} pts (context only).` : "" });
-    $("#h2h-figures").className = "figures four";
-    $("#h2h-figures").innerHTML = [
-      figure("Record", hn ? rec(h) : "–", `${fmtInt(hn)} graded of ${fmtInt(h.bets ?? 0)} bets`, "Every bet the matchup rule would make, priced at Kalshi. Tracked, not posted."),
-      figure("Paper units", `<span class="${tone(h.units)}">${hn ? fmtU(h.units) : "–"}</span>`, "Flat paper stakes", "Paper profit at the Kalshi price paid."),
-      figure("Return on stakes", `<span class="${tone(h.roi)}">${fmtPct(h.roi)}</span>`, "Paper", "Paper profit divided by paper stakes."),
-      figure("Net after costs", h.net_lean == null ? "–" : `${fmtPts(h.net_lean)} pts`, h.net_lo == null ? "" : `95% range ${fmtPts(h.net_lo)} to ${fmtPts(h.net_hi)}`, "Win rate minus the price actually paid, including Kalshi's fee. This is what decides the test."),
-    ].join("");
   }
 
   /* ================= NEWS ================= */

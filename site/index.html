@@ -106,7 +106,6 @@
                 <option value="all">All markets</option>
                 <option value="props">Player props</option>
                 <option value="lines">Game lines</option>
-                <option value="teaser">Teasers</option>
               </select>
             </label>
           </div>
@@ -135,7 +134,7 @@
       </header>
 
       <section class="block" aria-labelledby="rec-sum-title">
-        <div class="title-row title-row-split"><h2 id="rec-sum-title" class="h2">Season record, every tracked pick</h2><button type="button" class="toggle" data-retired-toggle aria-pressed="false" hidden><span class="toggle-box" aria-hidden="true"></span>Hide retired strategies</button></div>
+        <div class="title-row title-row-split"><h2 id="rec-sum-title" class="h2">Season record, strategies being tested</h2><button type="button" class="toggle" data-retired-toggle aria-pressed="false" hidden><span class="toggle-box" aria-hidden="true"></span>Hide retired strategies</button></div>
         <p class="retired-note" id="record-retired-note" hidden></p>
         <div class="figures" id="record-figures"></div>
         <p class="verdict-line" id="record-verdict"></p>
@@ -160,7 +159,7 @@
         <section class="block" aria-labelledby="type-title">
           <div class="block-head">
             <h2 id="type-title" class="h2">By strategy</h2>
-            <p class="block-note">Every tracked pick, split by strategy. Small rows are listed for completeness, not as evidence.</p>
+            <p class="block-note">Every pick from the strategies we're still testing, split by strategy. Small rows are listed for completeness, not as evidence.</p>
           </div>
           <div class="table-wrap"><table class="data" id="type-table"></table></div>
         </section>
@@ -177,7 +176,7 @@
       <section class="block" aria-labelledby="hist-title">
         <div class="block-head">
           <h2 id="hist-title" class="h2">Strategy history</h2>
-          <p class="block-note">Every strategy we've run, including the ones that failed. Retired strategies keep their records.</p>
+          <p class="block-note">Every strategy being tested now. Strategies that failed their tests are removed from the site; every real-money bet ever placed stays in the real-money record above.</p>
         </div>
         <ol class="history" id="history"></ol>
       </section>
@@ -223,13 +222,6 @@
           </div>
           <div class="table-wrap"><table class="data" id="nba-type-table"></table></div>
         </section>
-        <section class="block" aria-labelledby="nba-tag-title">
-          <div class="block-head">
-            <h2 id="nba-tag-title" class="h2">By matchup tag</h2>
-            <p class="block-note">Each v3.1 pick is tagged with what the separate matchup test says about the same player and stat. The tag never changes which picks are made, and it is not a confidence rating. The question declared in advance: do picks it agrees with beat ones it disagrees with?</p>
-          </div>
-          <div class="table-wrap"><table class="data" id="nba-tag-table"></table></div>
-        </section>
       </div>
 
       <section class="block" aria-labelledby="nba-picks-title">
@@ -242,37 +234,6 @@
         <p class="legend">Break-even is the win rate each price needs after the venue's fee. The NBA tests are judged on how often picks win compared with that, not on closing-line value: the only NBA close we capture is Kalshi's, which is also the price v3.1 compares against and barely moves before games, so a "CLV" against it would mostly repeat the starting gap.</p>
       </section>
 
-      <section class="block" aria-labelledby="ver-title">
-        <div class="block-head">
-          <h2 id="ver-title" class="h2">Rules versions</h2>
-          <p class="block-note">Each version has its own record. They are never combined.</p>
-        </div>
-        <div class="table-wrap"><table class="data" id="nba-versions"></table></div>
-      </section>
-
-      <section class="block experiment" aria-labelledby="h2h-title">
-        <div class="title-row">
-          <h2 id="h2h-title" class="h2">Matchup test</h2>
-          <span class="chip chip-exp">Experimental</span>
-        </div>
-        <p class="block-note">A separate experiment with its own record. It is tracked for measurement, not posted as picks, and is never combined with the rules v3.1 test. It bets players whose past results against tonight's opponent rank in the top or bottom 20% of last season's matchups, priced at Kalshi.</p>
-        <div class="exp-grid">
-          <div class="exp-status">
-            <p class="exp-state" id="h2h-state"></p>
-            <div class="progress-big">
-              <div class="progress-num"><b id="h2h-n" class="num">0</b><span> of <span class="num">1,500</span> bets graded</span></div>
-              <div class="bar" role="progressbar" aria-label="Matchup test bets graded toward 1,500" aria-valuemin="0" aria-valuemax="1500" id="h2h-bar"><span id="h2h-fill"></span></div>
-              <p class="small">Decided once, at 1,500 graded bets or Jan 31, 2027, whichever comes first.</p>
-            </div>
-          </div>
-          <div class="exp-gauge">
-            <h3 class="h3">Net result after costs</h3>
-            <p class="block-note">Wins minus the price actually paid, including Kalshi's fee, in percentage points, with the 95% range.</p>
-            <figure class="gauge" id="h2h-gauge"></figure>
-          </div>
-        </div>
-        <div class="figures" id="h2h-figures"></div>
-      </section>
     </section>
 
     <!-- ================= NEWS ================= -->
@@ -309,7 +270,6 @@
             <li><a href="#m-grading">Grading</a></li>
             <li><a href="#m-paper">Real money and paper</a></li>
             <li><a href="#m-units">Units and staking</a></li>
-            <li><a href="#m-teasers">Teasers</a></li>
             <li><a href="#m-nba">NBA research</a></li>
             <li><a href="#m-history">Strategy versions</a></li>
             <li><a href="#m-limits">Limitations</a></li>
@@ -355,25 +315,21 @@
           </section>
           <section id="m-paper">
             <h2>Real money and paper</h2>
-            <p>Every pick is posted before kickoff at a real, available price, graded the same way, and counted in the record. A strategy goes on <span class="chip chip-live">Real money</span> once it has at least 30 graded picks and a return on stakes above +10%; it goes back to <span class="chip chip-paper">Paper</span> if its return falls below +10%. Each pick keeps the label it had when it was posted. A strategy is retired if its pre-registered test fails, or after 100 graded picks with a return below −10% and negative closing-line value; its picks stay in the record.</p>
+            <p>Every pick is posted before kickoff at a real, available price, graded the same way, and counted in the record. A strategy goes on <span class="chip chip-live">Real money</span> once it has at least 30 graded picks and a return on stakes above +10%; it goes back to <span class="chip chip-paper">Paper</span> if its return falls below +10%. Each pick keeps the label it had when it was posted. A strategy is retired if its pre-registered test fails, or after 100 graded picks with a return below −10% and negative closing-line value. Retired strategies are removed from the site, but every real-money bet ever placed stays in the real-money record.</p>
             <p>Return at a few dozen picks is mostly luck, so real money is not a claim that a strategy is proven. Closing-line value is shown alongside as the better guide.</p>
-            <p>An outside review and our own recheck found that NFL closing-line value was smaller than it looked. Counting only closing lines Pinnacle actually moved, it was about zero over the first 26 measurable picks, so rules v1 was retired on Oct 31. Rules v2 passes only if 150 measurable picks beat Pinnacle's close by at least 1 point, with the 95% range above zero, and also beat Kalshi's close. That is judged once, by Jan 13, 2027.</p>
+            <p>Since Oct 31, NFL game-day picks have been on paper under rules v2, after a recheck found the first version's closing-line value was about zero. Rules v2 passes only if 150 measurable picks beat Pinnacle's close by at least 1 point, with the 95% range above zero, and also beat Kalshi's close. That is judged once, by Jan 13, 2027.</p>
           </section>
           <section id="m-units">
             <h2>Units and staking</h2>
             <p>Every stake and result is in units, so the record means the same thing whatever your bankroll. One unit is 2% of your bankroll. With a $500 bankroll, 1 unit is $10: a 0.5u pick is $5, a 0.75u Strong pick is $7.50, and a +1.2u week would be up $12. Picks are flat 0.5u to 0.75u, and long shots (+150 or longer) stay at 0.5u. Stakes never go up after losses.</p>
           </section>
-          <section id="m-teasers">
-            <h2>Teasers</h2>
-            <p>Two-team, six-point teasers on underdogs of +1.5 to +2.5 in games with totals of 49 or less. Teasing through 3 and 7 has won about 78% of legs since 2014, above the 74% needed at the usual price. Teasers have no closing-line value, so they are judged on results. On paper since Nov 2, like everything else.</p>
-          </section>
           <section id="m-nba">
             <h2>NBA research</h2>
-            <p>NBA picks are on paper while we test them. Every bet the rules would make is posted, graded and counted on the NBA research page. Rules v3.1 (since Oct 28) needs an exchange price (Novig or ProphetX) whose break-even, after fees, is at least 3 points below Kalshi's price for the same side, with no limit per game or per night. To pass, 400 graded v3.1 picks must win at least 3 points more often than their break-even, with the 95% range above zero and a profit, judged by Feb 15, 2027 at the latest. The separate matchup test is decided at 1,500 bets or Jan 31, 2027.</p>
+            <p>NBA picks are on paper while we test them. Every bet the rules would make is posted, graded and counted on the NBA research page. Rules v3.1 (since Oct 28) needs an exchange price (Novig or ProphetX) whose break-even, after fees, is at least 3 points below Kalshi's price for the same side, with no limit per game or per night. To pass, 400 graded v3.1 picks must win at least 3 points more often than their break-even, with the 95% range above zero and a profit, judged by Feb 15, 2027 at the latest.</p>
           </section>
           <section id="m-history">
             <h2>Strategy versions</h2>
-            <p>Every version that has run, with its dates and what happened to it. Records for each are on the Record and NBA research pages.</p>
+            <p>Every strategy being tested now, with its dates and how it will be judged. Records for each are on the Record and NBA research pages.</p>
             <ol class="history compact" id="method-history"></ol>
           </section>
           <section id="m-limits">

@@ -6,15 +6,12 @@
 //         strategy_status.py: real money at >= 30 graded and ROI > +10%, back to paper below +10% (Graham, Nov 2).
 //         "paper"    posted before kickoff, graded and counted in the record
 //         "experimental" tracked for measurement only (not posted as picks)
-//         "retired"  no longer run; its record stays visible
+//         "retired"  no longer run; removed from the site (Graham, Nov 16): list only strategies being tested
 // progress: which data block counts toward the verdict (filled in by app.js from data/bundle.js):
-//   "gate" | "cfb" | "cfb_props" (summary.json), "nba" | "h2h" (nba.json)
+//   "gate" | "cfb" | "cfb_props" (summary.json), "nba" (nba.json)
 window.CLC_STRATEGIES = [
-  { id: "teasers", sport: "NFL", name: "Two-team teasers", status: "retired", since: "Oct 20 – Nov 2, 2026",
-    rule: "Six-point teasers on underdogs of +1.5 to +2.5 in games with a total of 49 or less, teased through 3 and 7.",
-    verdict: "Retired Nov 3: fixed-price teasers are only offered by sportsbooks, which aren't legal in California. On Kalshi the same teased legs cost about what they win (39 legs in 2025-26: won 76.9%, cost 76.8%), so there is no edge to take. Its record stays in full." },
   { id: "nfl-v2", sport: "NFL", name: "Game-day prices, rules v2", status: "paper", since: "Nov 1, 2026",
-    rule: "Same picks and posting as rules v1, re-tested with stricter closing-line value.",
+    rule: "Exchange prices at least 3% better than Pinnacle's no-margin price, judged on closing-line value against closes Pinnacle actually moved.",
     verdict: "Judged once at 150 measurable picks or Jan 13, 2027: average CLV vs Pinnacle's close of at least +1.0 pt with the 95% range above zero, and positive CLV vs Kalshi's close. A pass is followed by a second, untouched paper sample.",
     progress: "gate" },
   { id: "nfl-xmkt", sport: "NFL", name: "Game-day prices, new markets", status: "paper", since: "Nov 8, 2026",
@@ -30,29 +27,13 @@ window.CLC_STRATEGIES = [
     rule: "Game-total Unders when the kickoff wind forecast is strong.",
     verdict: "Counted in the record." },
   { id: "cfb", sport: "College football", name: "College game lines", status: "paper", since: "Oct 31, 2026",
-    rule: "Same price rule as the NFL picks, in games with no Big Ten or SEC team.",
+    rule: "Same price rule as the NFL picks, in every FBS game (all conferences since Nov 7).",
     verdict: "Judged on closing-line value at 150 measurable picks.", progress: "cfb" },
   { id: "cfb-props", sport: "College football", name: "College player props", status: "paper", since: "Oct 31, 2026",
-    rule: "ProphetX player props against Pinnacle in ACC, Big 12 and Notre Dame games (no Big Ten or SEC teams).",
+    rule: "ProphetX player props against Pinnacle in every FBS game (all conferences since Nov 7).",
     verdict: "Judged on closing-line value at 150 measurable picks.", progress: "cfb_props" },
   { id: "nba-v31", sport: "NBA", name: "NBA player props, rules v3.1", status: "paper", since: "Oct 28, 2026",
     rule: "An exchange price (Novig or ProphetX) whose break-even after fees is at least 3 points below Kalshi's price.",
     verdict: "Judged at 400 graded picks or Feb 15, 2027: wins at least 3 points above break-even, the 95% range above zero, and a profit.",
     progress: "nba" },
-  { id: "nba-h2h", sport: "NBA", name: "NBA matchup test", status: "experimental", since: "Oct 22, 2026",
-    rule: "Players whose past results against tonight's opponent rank in the top or bottom 20% of last season's matchups, priced at Kalshi.",
-    verdict: "Decided once at 1,500 graded bets or Jan 31, 2027. Passing also needs the net result's 95% range above zero.",
-    progress: "h2h" },
-  { id: "nfl-v1", sport: "NFL", name: "Game-day prices, rules v1 to v1.1", status: "retired", since: "Oct 15 – Oct 31, 2026",
-    rule: "Exchange prices at least 3% better than Pinnacle's no-margin price and 2 points above break-even.",
-    verdict: "Retired Oct 31: counting only closing lines Pinnacle actually moved, closing-line value was about zero, so the edge is not proven. Its record stays in full." },
-  { id: "nba-v3", sport: "NBA", name: "NBA rules v3 with caps", status: "retired", since: "Oct 26 – 27, 2026",
-    rule: "The v3 rule with at most 3 picks per game and 8 per night.",
-    verdict: "Replaced by v3.1 on Oct 28 (caps removed). Reported separately; not part of the v3.1 test." },
-  { id: "nba-v2", sport: "NBA", name: "NBA rules v2", status: "retired", since: "Posted Oct 22 – 25, 2026",
-    rule: "Unders 3%+ and Overs 6%+ against Pinnacle and Kalshi combined.",
-    verdict: "Its 'passed' score was mechanical (Kalshi was part of the price it bet against), and results showed no edge. Still tracked, no longer posted." },
-  { id: "nba-v1", sport: "NBA", name: "NBA rules v1", status: "retired", since: "Oct 20 – 21, 2026",
-    rule: "Exchange prices compared with Pinnacle alone.",
-    verdict: "Retired Oct 22 after going 17–39. Its bets are still shown." },
 ];
