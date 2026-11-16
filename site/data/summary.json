@@ -1,27 +1,27 @@
 {
  "season": {
-  "w": 116,
-  "l": 107,
+  "w": 120,
+  "l": 108,
   "p": 0,
-  "units": 12.49,
-  "roi": 10.5,
-  "clv": 0.09,
-  "beat": 68,
-  "n_clv": 56,
-  "clv_any": 0.39,
-  "n_clv_any": 190
+  "units": 13.9,
+  "roi": 11.4,
+  "clv": 0.05,
+  "beat": 67,
+  "n_clv": 57,
+  "clv_any": 0.33,
+  "n_clv_any": 195
  },
  "real_money": {
-  "w": 19,
+  "w": 23,
   "l": 17,
   "p": 0,
-  "units": 2.18,
-  "roi": 12.1,
+  "units": 4.34,
+  "roi": 21.7,
   "clv": null,
   "beat": null,
   "n_clv": 0,
-  "clv_any": 0.79,
-  "n_clv_any": 33
+  "clv_any": 0.54,
+  "n_clv_any": 37
  },
  "status": {
   "nfl-v1": {
@@ -1451,10 +1451,40 @@
    "units": 12.99
   },
   {
+   "id": "pp-98-465",
+   "week": 10,
+   "label": "Mike Washington Jr.: Under 26.5 rushing yards",
+   "units": 13.49
+  },
+  {
    "id": "pp-98-470",
    "week": 10,
    "label": "Blake Corum: Under 56.5 rushing yards",
-   "units": 12.49
+   "units": 12.99
+  },
+  {
+   "id": "pp-98-476",
+   "week": 10,
+   "label": "Ashton Jeanty: Under 33.5 rushing yards",
+   "units": 13.52
+  },
+  {
+   "id": "pp-102-569",
+   "week": 10,
+   "label": "Fernando Mendoza: Under 17.5 completions",
+   "units": 14.09
+  },
+  {
+   "id": "pp-102-570",
+   "week": 10,
+   "label": "Jadarian Price: Under 9.5 receiving yards",
+   "units": 14.65
+  },
+  {
+   "id": "2026-W10-0102",
+   "week": 10,
+   "label": "Deebo Samuel: Over 3.5 receptions",
+   "units": 13.9
   }
  ],
  "clv_by_week": [
@@ -1475,24 +1505,24 @@
   },
   {
    "week": 10,
-   "clv": 0.34,
-   "n": 13
+   "clv": 0.14,
+   "n": 14
   }
  ],
  "by_type": [
   {
    "type": "Mid-week props model",
    "id": "props-midweek",
-   "w": 57,
+   "w": 61,
    "l": 40,
    "p": 0,
-   "units": 10.76,
-   "roi": 22.2,
+   "units": 12.92,
+   "roi": 25.6,
    "clv": null,
    "beat": null,
    "n_clv": 0,
-   "clv_any": 0.29,
-   "n_clv_any": 89
+   "clv_any": 0.22,
+   "n_clv_any": 93
   },
   {
    "type": "Game-day picks, rules v1",
@@ -1526,15 +1556,15 @@
    "type": "Saturday preview and Week 6 card",
    "id": "sat-preview",
    "w": 12,
-   "l": 6,
+   "l": 7,
    "p": 0,
-   "units": 5.69,
-   "roi": 55.5,
-   "clv": 0.93,
-   "beat": 90,
-   "n_clv": 10,
-   "clv_any": 0.78,
-   "n_clv_any": 12
+   "units": 4.94,
+   "roi": 44.9,
+   "clv": 0.63,
+   "beat": 82,
+   "n_clv": 11,
+   "clv_any": 0.53,
+   "n_clv_any": 13
   },
   {
    "type": "Wind Unders angle",
