@@ -1,27 +1,27 @@
 {
  "season": {
-  "w": 123,
+  "w": 126,
   "l": 108,
   "p": 0,
-  "units": 15.66,
-  "roi": 12.7,
+  "units": 17.06,
+  "roi": 13.6,
   "clv": 0.07,
   "beat": 67,
   "n_clv": 58,
-  "clv_any": 0.32,
-  "n_clv_any": 198
+  "clv_any": 0.31,
+  "n_clv_any": 201
  },
  "real_money": {
-  "w": 25,
+  "w": 28,
   "l": 17,
   "p": 0,
-  "units": 5.23,
-  "roi": 24.9,
+  "units": 6.64,
+  "roi": 29.5,
   "clv": null,
   "beat": null,
   "n_clv": 0,
-  "clv_any": 0.45,
-  "n_clv_any": 39
+  "clv_any": 0.39,
+  "n_clv_any": 42
  },
  "status": {
   "nfl-v1": {
@@ -1325,6 +1325,12 @@
    "units": 13.99
   },
   {
+   "id": "pp-98-467",
+   "week": 10,
+   "label": "Kenneth Walker III: Under 88.5 rushing yards",
+   "units": 13.99
+  },
+  {
    "id": "pp-98-474",
    "week": 10,
    "label": "Jerry Jeudy: Under 16.5 receiving yards",
@@ -1463,46 +1469,64 @@
    "units": 12.99
   },
   {
+   "id": "pp-98-473",
+   "week": 10,
+   "label": "Elijah Higgins: Under 16.5 receiving yards",
+   "units": 13.52
+  },
+  {
    "id": "pp-98-476",
    "week": 10,
    "label": "Ashton Jeanty: Under 33.5 rushing yards",
-   "units": 13.52
+   "units": 14.05
   },
   {
    "id": "pp-102-569",
    "week": 10,
    "label": "Fernando Mendoza: Under 17.5 completions",
-   "units": 14.09
+   "units": 14.62
   },
   {
    "id": "pp-102-570",
    "week": 10,
    "label": "Jadarian Price: Under 9.5 receiving yards",
-   "units": 14.65
+   "units": 15.18
   },
   {
    "id": "2026-W10-0102",
    "week": 10,
    "label": "Deebo Samuel: Over 3.5 receptions",
-   "units": 13.9
+   "units": 14.43
+  },
+  {
+   "id": "pp-98-477",
+   "week": 10,
+   "label": "Demarcus Robinson: Under 26.5 receiving yards",
+   "units": 15.02
+  },
+  {
+   "id": "pp-102-564",
+   "week": 10,
+   "label": "Kyle Juszczyk: Under 1.5 receptions",
+   "units": 15.31
   },
   {
    "id": "2026-W10-0116",
    "week": 10,
    "label": "Samaje Perine: Over 4.5 receiving yards",
-   "units": 14.76
+   "units": 16.17
   },
   {
    "id": "pp-98-497",
    "week": 10,
    "label": "Tee Higgins: Under 76.5 receiving yards",
-   "units": 15.25
+   "units": 16.65
   },
   {
    "id": "pp-102-541",
    "week": 10,
    "label": "Mike Gesicki: Under 2.5 receptions",
-   "units": 15.66
+   "units": 17.06
   }
  ],
  "clv_by_week": [
@@ -1531,16 +1555,16 @@
   {
    "type": "Mid-week props model",
    "id": "props-midweek",
-   "w": 63,
+   "w": 66,
    "l": 40,
    "p": 0,
-   "units": 13.81,
-   "roi": 26.8,
+   "units": 15.22,
+   "roi": 28.7,
    "clv": null,
    "beat": null,
    "n_clv": 0,
-   "clv_any": 0.19,
-   "n_clv_any": 95
+   "clv_any": 0.17,
+   "n_clv_any": 98
   },
   {
    "type": "Game-day picks, rules v1",
