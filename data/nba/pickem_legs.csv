@@ -317,14 +317,14 @@ pk-db26abc3cf-pr-point-krisdunn-6.5,nba,2026-11-15T20:40:04Z,2026-11-15T21:40:00
 pk-db26abc3cf-pr-point-brooklopez-12.5,nba,2026-11-15T20:40:04Z,2026-11-15T21:40:00Z,Charlotte Hornets @ Los Angeles Clippers,prizepicks,player_points,Brook Lopez,12.5,Under,0.5498,Kalshi,0,245,0.5498,W,7
 pk-db26abc3cf-un-point-brooklopez-12.5,nba,2026-11-15T20:40:04Z,2026-11-15T21:40:00Z,Charlotte Hornets @ Los Angeles Clippers,underdog,player_points,Brook Lopez,12.5,Under,0.5498,Kalshi,0,245,0.5498,W,7
 pk-db26abc3cf-pr-rebou-nazreid-8,nba,2026-11-15T20:40:04Z,2026-11-15T21:40:00Z,Charlotte Hornets @ Los Angeles Clippers,prizepicks,player_rebounds,Naz Reid,8,Under,0.5431,Kalshi,0,245,0.5409,W,4
-pk-b2ffb781fe-pr-assis-darrynpeterson-4,nba,2026-11-15T21:10:07Z,2026-11-15T22:10:00Z,San Antonio Spurs @ Utah Jazz,prizepicks,player_assists,Darryn Peterson,4,Under,0.5508,Kalshi,0,247,,pending,
-pk-78f61a78b7-pr-point-mikalbridges-8.5,nba,2026-11-15T22:10:12Z,2026-11-15T23:10:00Z,New York Knicks @ Toronto Raptors,prizepicks,player_points,Mikal Bridges,8.5,Under,0.5489,Pinnacle,0,250,,pending,
-pk-78f61a78b7-un-point-scottiebarnes-18.5,nba,2026-11-15T22:10:12Z,2026-11-15T23:10:00Z,New York Knicks @ Toronto Raptors,underdog,player_points,Scottie Barnes,18.5,Under,0.5546,Kalshi,0,250,,pending,
-pk-78f61a78b7-pr-point-oganunoby-17,nba,2026-11-15T22:10:12Z,2026-11-15T23:10:00Z,New York Knicks @ Toronto Raptors,prizepicks,player_points,OG Anunoby,17,Under,0.5511,Kalshi,0,250,,pending,
-pk-78f61a78b7-pr-rebou-rjbarrett-6,nba,2026-11-15T22:10:12Z,2026-11-15T23:10:00Z,New York Knicks @ Toronto Raptors,prizepicks,player_rebounds,R.J. Barrett,6,Under,0.5449,Kalshi,0,250,,pending,
-pk-488c2bc1e0-pr-assis-kyshawngeorge-4,nba,2026-11-15T23:10:16Z,2026-11-16T00:10:00Z,Houston Rockets @ Washington Wizards,prizepicks,player_assists,Kyshawn George,4,Under,0.5507,Kalshi,0,252,,pending,
-pk-488c2bc1e0-un-point-reedsheppard-12.5,nba,2026-11-15T23:10:16Z,2026-11-16T00:10:00Z,Houston Rockets @ Washington Wizards,underdog,player_points,Reed Sheppard,12.5,Over,0.5547,Pinnacle,0,252,,pending,
-pk-488c2bc1e0-pr-rebou-anthonydavis-10,nba,2026-11-15T23:10:16Z,2026-11-16T00:10:00Z,Houston Rockets @ Washington Wizards,prizepicks,player_rebounds,Anthony Davis,10,Under,0.5521,Kalshi,0,252,,pending,
+pk-b2ffb781fe-pr-assis-darrynpeterson-4,nba,2026-11-15T21:10:07Z,2026-11-15T22:10:00Z,San Antonio Spurs @ Utah Jazz,prizepicks,player_assists,Darryn Peterson,4,Under,0.5508,Kalshi,0,247,,P,4
+pk-78f61a78b7-pr-point-mikalbridges-8.5,nba,2026-11-15T22:10:12Z,2026-11-15T23:10:00Z,New York Knicks @ Toronto Raptors,prizepicks,player_points,Mikal Bridges,8.5,Under,0.5489,Pinnacle,0,250,0.5489,W,5
+pk-78f61a78b7-un-point-scottiebarnes-18.5,nba,2026-11-15T22:10:12Z,2026-11-15T23:10:00Z,New York Knicks @ Toronto Raptors,underdog,player_points,Scottie Barnes,18.5,Under,0.5546,Kalshi,0,250,,L,30
+pk-78f61a78b7-pr-point-oganunoby-17,nba,2026-11-15T22:10:12Z,2026-11-15T23:10:00Z,New York Knicks @ Toronto Raptors,prizepicks,player_points,OG Anunoby,17,Under,0.5511,Kalshi,0,250,0.5511,L,21
+pk-78f61a78b7-pr-rebou-rjbarrett-6,nba,2026-11-15T22:10:12Z,2026-11-15T23:10:00Z,New York Knicks @ Toronto Raptors,prizepicks,player_rebounds,R.J. Barrett,6,Under,0.5449,Kalshi,0,250,0.5449,W,5
+pk-488c2bc1e0-pr-assis-kyshawngeorge-4,nba,2026-11-15T23:10:16Z,2026-11-16T00:10:00Z,Houston Rockets @ Washington Wizards,prizepicks,player_assists,Kyshawn George,4,Under,0.5507,Kalshi,0,252,,P,4
+pk-488c2bc1e0-un-point-reedsheppard-12.5,nba,2026-11-15T23:10:16Z,2026-11-16T00:10:00Z,Houston Rockets @ Washington Wizards,underdog,player_points,Reed Sheppard,12.5,Over,0.5547,Pinnacle,0,252,0.5448,L,11
+pk-488c2bc1e0-pr-rebou-anthonydavis-10,nba,2026-11-15T23:10:16Z,2026-11-16T00:10:00Z,Houston Rockets @ Washington Wizards,prizepicks,player_rebounds,Anthony Davis,10,Under,0.5521,Kalshi,0,252,0.5521,W,8
 pk-b931a21d34-pr-assis-braydenburries-3.5,nba,2026-11-16T00:10:01Z,2026-11-16T01:10:00Z,Atlanta Hawks @ Milwaukee Bucks,prizepicks,player_assists,Brayden Burries,3.5,Under,0.545,Kalshi,0,254,,pending,
 pk-b931a21d34-pr-assis-kylekuzma-2.5,nba,2026-11-16T00:10:01Z,2026-11-16T01:10:00Z,Atlanta Hawks @ Milwaukee Bucks,prizepicks,player_assists,Kyle Kuzma,2.5,Over,0.5603,Kalshi,0,254,,pending,
 pk-b931a21d34-pr-point-luguentzdort-8.5,nba,2026-11-16T00:10:01Z,2026-11-16T01:10:00Z,Atlanta Hawks @ Milwaukee Bucks,prizepicks,player_points,Luguentz Dort,8.5,Under,0.5573,Kalshi,0,254,,pending,
