@@ -1,27 +1,27 @@
 {
  "season": {
-  "w": 98,
-  "l": 88,
+  "w": 116,
+  "l": 107,
   "p": 0,
-  "units": 11.09,
-  "roi": 11.3,
-  "clv": -0.04,
-  "beat": 67,
-  "n_clv": 45,
-  "clv_any": 0.38,
-  "n_clv_any": 158
+  "units": 12.49,
+  "roi": 10.5,
+  "clv": 0.09,
+  "beat": 68,
+  "n_clv": 56,
+  "clv_any": 0.39,
+  "n_clv_any": 190
  },
  "real_money": {
-  "w": 11,
-  "l": 7,
+  "w": 19,
+  "l": 17,
   "p": 0,
-  "units": 2.43,
-  "roi": 27.0,
+  "units": 2.18,
+  "roi": 12.1,
   "clv": null,
   "beat": null,
   "n_clv": 0,
-  "clv_any": 1.72,
-  "n_clv_any": 18
+  "clv_any": 0.79,
+  "n_clv_any": 33
  },
  "status": {
   "nfl-v1": {
@@ -41,30 +41,30 @@
   }
  },
  "gate": {
-  "w": 10,
-  "l": 7,
+  "w": 15,
+  "l": 14,
   "p": 0,
-  "units": 1.4,
-  "roi": 12.4,
-  "clv": -0.42,
-  "beat": 60,
-  "n_clv": 5,
-  "clv_any": 0.04,
-  "n_clv_any": 12,
+  "units": 0.47,
+  "roi": 2.4,
+  "clv": 0.2,
+  "beat": 67,
+  "n_clv": 12,
+  "clv_any": 0.58,
+  "n_clv_any": 24,
   "goal": 150,
   "deadline": "2027-01-13"
  },
  "xmkt": {
-  "w": 0,
-  "l": 4,
+  "w": 2,
+  "l": 5,
   "p": 0,
-  "units": -3.0,
-  "roi": -100.0,
-  "clv": 1.6,
-  "beat": 100,
-  "n_clv": 2,
-  "clv_any": 2.0,
-  "n_clv_any": 4,
+  "units": -2.18,
+  "roi": -41.6,
+  "clv": 0.68,
+  "beat": 75,
+  "n_clv": 4,
+  "clv_any": 1.47,
+  "n_clv_any": 7,
   "goal": 50
  },
  "cfb": {
@@ -1233,6 +1233,228 @@
    "week": 10,
    "label": "Drake Maye: Over 26.5 rushing yards",
    "units": 11.09
+  },
+  {
+   "id": "2026-W10-0097",
+   "week": 10,
+   "label": "Dolphins: moneyline",
+   "units": 10.59
+  },
+  {
+   "id": "2026-W10-0098",
+   "week": 10,
+   "label": "Olamide Zaccheaus: Over 7.5 receiving yards",
+   "units": 11.23
+  },
+  {
+   "id": "2026-W10-0099",
+   "week": 10,
+   "label": "Emmett Johnson: Under 24.5 receiving yards",
+   "units": 10.48
+  },
+  {
+   "id": "2026-W10-0100",
+   "week": 10,
+   "label": "Ollie Gordon II: Over 1.5 receptions",
+   "units": 11.28
+  },
+  {
+   "id": "2026-W10-0101",
+   "week": 10,
+   "label": "Jahan Dotson: Over 2.5 receptions",
+   "units": 12.25
+  },
+  {
+   "id": "2026-W10-0103",
+   "week": 10,
+   "label": "Dylan Sampson: Over 22.5 receiving yards",
+   "units": 13.0
+  },
+  {
+   "id": "2026-W10-0105",
+   "week": 10,
+   "label": "Denzel Boston: Over 45.5 receiving yards",
+   "units": 12.25
+  },
+  {
+   "id": "2026-W10-0106",
+   "week": 10,
+   "label": "Alvin Kamara: Over 2.5 receptions",
+   "units": 12.9
+  },
+  {
+   "id": "2026-W10-0107",
+   "week": 10,
+   "label": "Tucker Kraft: Over 4.5 receptions",
+   "units": 12.4
+  },
+  {
+   "id": "2026-W10-0108",
+   "week": 10,
+   "label": "Rashee Rice: Over 5.5 receptions",
+   "units": 11.65
+  },
+  {
+   "id": "2026-W10-0109",
+   "week": 10,
+   "label": "Jonathan Taylor: Over 3.5 receptions",
+   "units": 10.9
+  },
+  {
+   "id": "2026-W10-0110",
+   "week": 10,
+   "label": "Bhayshul Tuten: Over 13.5 receiving yards",
+   "units": 11.71
+  },
+  {
+   "id": "2026-W10-0111",
+   "week": 10,
+   "label": "Josh Cameron: Over 6.5 receiving yards",
+   "units": 12.43
+  },
+  {
+   "id": "2026-W10-0112",
+   "week": 10,
+   "label": "Deshaun Watson: Over 24.5 rushing yards",
+   "units": 13.4
+  },
+  {
+   "id": "2026-W10-0113",
+   "week": 10,
+   "label": "Bryce Young: Under 2.5 rush attempts",
+   "units": 13.99
+  },
+  {
+   "id": "pp-98-474",
+   "week": 10,
+   "label": "Jerry Jeudy: Under 16.5 receiving yards",
+   "units": 13.49
+  },
+  {
+   "id": "pp-98-481",
+   "week": 10,
+   "label": "Juwan Johnson: Under 21.5 receiving yards",
+   "units": 12.99
+  },
+  {
+   "id": "pp-98-482",
+   "week": 10,
+   "label": "Jalen Coker: Under 46.5 receiving yards",
+   "units": 13.58
+  },
+  {
+   "id": "pp-98-483",
+   "week": 10,
+   "label": "Geno Smith: Under 220.5 passing yards",
+   "units": 14.1
+  },
+  {
+   "id": "pp-98-487",
+   "week": 10,
+   "label": "Keon Coleman: Under 28.5 receiving yards",
+   "units": 14.6
+  },
+  {
+   "id": "pp-98-495",
+   "week": 10,
+   "label": "Noah Gray: Under 1.5 receptions",
+   "units": 14.97
+  },
+  {
+   "id": "pp-102-523",
+   "week": 10,
+   "label": "Noah Fant: Under 0.5 receptions",
+   "units": 15.97
+  },
+  {
+   "id": "pp-102-528",
+   "week": 10,
+   "label": "Tommy Tremble: Under 13.5 receiving yards",
+   "units": 15.47
+  },
+  {
+   "id": "pp-102-530",
+   "week": 10,
+   "label": "Jordan Mason: Under 10.5 rush attempts",
+   "units": 14.97
+  },
+  {
+   "id": "pp-102-531",
+   "week": 10,
+   "label": "DJ Moore: Under 3.5 receptions",
+   "units": 14.47
+  },
+  {
+   "id": "pp-102-534",
+   "week": 10,
+   "label": "Josh Allen: Under 18.5 completions",
+   "units": 15.07
+  },
+  {
+   "id": "pp-102-542",
+   "week": 10,
+   "label": "Jordan Love: Under 34.5 pass attempts",
+   "units": 15.7
+  },
+  {
+   "id": "pp-102-544",
+   "week": 10,
+   "label": "Patrick Mahomes: Under 32.5 pass attempts",
+   "units": 15.2
+  },
+  {
+   "id": "pp-102-549",
+   "week": 10,
+   "label": "Drake London: Under 72.5 receiving yards",
+   "units": 14.7
+  },
+  {
+   "id": "pp-102-550",
+   "week": 10,
+   "label": "Xavier Hutchinson: Under 2.5 receptions",
+   "units": 14.2
+  },
+  {
+   "id": "pp-102-557",
+   "week": 10,
+   "label": "Daniel Jones: Under 182.5 passing yards",
+   "units": 14.74
+  },
+  {
+   "id": "pp-102-573",
+   "week": 10,
+   "label": "Malik Washington: Under 35.5 receiving yards",
+   "units": 14.24
+  },
+  {
+   "id": "wind-1057d50949844ddf483da9c8c20354be-50.5",
+   "week": 10,
+   "label": "Bills at Jets: Under 50.5 points",
+   "units": 14.24
+  },
+  {
+   "id": "wind-be0e03cc42fbc9b6962467b22c7bf9dd-41.5",
+   "week": 10,
+   "label": "Texans at Browns: Under 41.5 points",
+   "units": 14.24
+  },
+  {
+   "id": "2026-W10-0114",
+   "week": 10,
+   "label": "Tyler Allgeier: Over 2.5 receptions",
+   "units": 13.74
+  },
+  {
+   "id": "2026-W10-0115",
+   "week": 10,
+   "label": "Carson Beck: Over 11.5 rushing yards",
+   "units": 12.99
+  },
+  {
+   "id": "pp-98-470",
+   "week": 10,
+   "label": "Blake Corum: Under 56.5 rushing yards",
+   "units": 12.49
   }
  ],
  "clv_by_week": [
@@ -1253,24 +1475,24 @@
   },
   {
    "week": 10,
-   "clv": -1.45,
-   "n": 2
+   "clv": 0.34,
+   "n": 13
   }
  ],
  "by_type": [
   {
    "type": "Mid-week props model",
    "id": "props-midweek",
-   "w": 49,
-   "l": 30,
+   "w": 57,
+   "l": 40,
    "p": 0,
-   "units": 11.01,
-   "roi": 27.9,
+   "units": 10.76,
+   "roi": 22.2,
    "clv": null,
    "beat": null,
    "n_clv": 0,
-   "clv_any": 0.42,
-   "n_clv_any": 74
+   "clv_any": 0.29,
+   "n_clv_any": 89
   },
   {
    "type": "Game-day picks, rules v1",
@@ -1289,36 +1511,36 @@
   {
    "type": "Game-day picks, rules v2",
    "id": "nfl-v2",
-   "w": 10,
-   "l": 7,
+   "w": 15,
+   "l": 14,
    "p": 0,
-   "units": 1.4,
-   "roi": 12.4,
-   "clv": -0.42,
-   "beat": 60,
-   "n_clv": 5,
-   "clv_any": 0.04,
-   "n_clv_any": 12
+   "units": 0.47,
+   "roi": 2.4,
+   "clv": 0.2,
+   "beat": 67,
+   "n_clv": 12,
+   "clv_any": 0.58,
+   "n_clv_any": 24
   },
   {
    "type": "Saturday preview and Week 6 card",
    "id": "sat-preview",
-   "w": 10,
+   "w": 12,
    "l": 6,
    "p": 0,
-   "units": 3.92,
-   "roi": 43.6,
-   "clv": 0.75,
-   "beat": 88,
-   "n_clv": 8,
-   "clv_any": 0.6,
-   "n_clv_any": 10
+   "units": 5.69,
+   "roi": 55.5,
+   "clv": 0.93,
+   "beat": 90,
+   "n_clv": 10,
+   "clv_any": 0.78,
+   "n_clv_any": 12
   },
   {
    "type": "Wind Unders angle",
    "id": "wind",
-   "w": 3,
-   "l": 3,
+   "w": 4,
+   "l": 4,
    "p": 0,
    "units": 0,
    "roi": null,
@@ -1331,16 +1553,16 @@
   {
    "type": "Game-day picks, new markets",
    "id": "nfl-xmkt",
-   "w": 0,
-   "l": 4,
+   "w": 2,
+   "l": 5,
    "p": 0,
-   "units": -3.0,
-   "roi": -100.0,
-   "clv": 1.6,
-   "beat": 100,
-   "n_clv": 2,
-   "clv_any": 2.0,
-   "n_clv_any": 4
+   "units": -2.18,
+   "roi": -41.6,
+   "clv": 0.68,
+   "beat": 75,
+   "n_clv": 4,
+   "clv_any": 1.47,
+   "n_clv_any": 7
   },
   {
    "type": "College football props",
