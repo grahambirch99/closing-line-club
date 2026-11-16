@@ -335,3 +335,10 @@ pk-f8334b355c-un-point-domantassabonis-14.5,nba,2026-11-16T01:10:17Z,2026-11-16T
 pk-f8334b355c-un-point-dariusacuff-26.5,nba,2026-11-16T01:10:17Z,2026-11-16T02:10:00Z,Oklahoma City Thunder @ Sacramento Kings,underdog,player_points,Darius Acuff Jr.,26.5,Under,0.5541,Kalshi,0,256,0.5541,W,26
 pk-f8334b355c-un-point-keeganmurray-11.5,nba,2026-11-16T01:10:17Z,2026-11-16T02:10:00Z,Oklahoma City Thunder @ Sacramento Kings,underdog,player_points,Keegan Murray,11.5,Over,0.5698,Pinnacle,1,256,,L,6
 pk-f8334b355c-un-point-ajaymitchell-18.5,nba,2026-11-16T01:10:17Z,2026-11-16T02:10:00Z,Oklahoma City Thunder @ Sacramento Kings,underdog,player_points,Ajay Mitchell,18.5,Under,0.5971,Kalshi,1,256,,W,14
+pk-7c2ac54a11-pr-point-jalensuggs-8.5,nba,2026-11-16T23:10:01Z,2026-11-17T00:10:00Z,Orlando Magic @ Boston Celtics,prizepicks,player_points,Jalen Suggs,8.5,Under,0.5587,Pinnacle,0,258,,pending,
+pk-7c2ac54a11-pr-point-derrickwhite-12.5,nba,2026-11-16T23:10:01Z,2026-11-17T00:10:00Z,Orlando Magic @ Boston Celtics,prizepicks,player_points,Derrick White,12.5,Over,0.5442,Kalshi,0,258,,pending,
+pk-39dbdb7fdc-pr-point-jamesharden-18.5,nba,2026-11-16T23:10:01Z,2026-11-17T00:10:00Z,Chicago Bulls @ Cleveland Cavaliers,prizepicks,player_points,James Harden,18.5,Under,0.5539,Pinnacle,0,258,,pending,
+pk-39dbdb7fdc-un-point-jamesharden-18.5,nba,2026-11-16T23:10:01Z,2026-11-17T00:10:00Z,Chicago Bulls @ Cleveland Cavaliers,underdog,player_points,James Harden,18.5,Under,0.5539,Pinnacle,0,258,,pending,
+pk-39dbdb7fdc-pr-point-jalensmith-13.5,nba,2026-11-16T23:10:01Z,2026-11-17T00:10:00Z,Chicago Bulls @ Cleveland Cavaliers,prizepicks,player_points,Jalen Smith,13.5,Under,0.5427,Pinnacle,0,258,,pending,
+pk-39dbdb7fdc-pr-point-isaacokoro-7.5,nba,2026-11-16T23:10:01Z,2026-11-17T00:10:00Z,Chicago Bulls @ Cleveland Cavaliers,prizepicks,player_points,Isaac Okoro,7.5,Over,0.5652,Kalshi,1,258,,pending,
+pk-a613d212ac-pr-rebou-ajdybantsa-5,nba,2026-11-16T23:10:01Z,2026-11-17T00:10:00Z,Memphis Grizzlies @ Washington Wizards,prizepicks,player_rebounds,AJ Dybantsa,5,Over,0.5511,Kalshi,0,258,,pending,
