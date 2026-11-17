@@ -216,3 +216,4 @@
 {"kind": "qb", "source": "sleeper", "team": "NYJ", "player": "Geno Smith", "pos": "QB", "text": "Geno Smith (NYJ QB) status questionable -> out [Ankle]", "at": "2026-11-15T21:02:53.241396+00:00"}
 {"kind": "injury", "source": "sleeper", "team": "LV", "player": "Brock Bowers", "pos": "TE", "text": "Brock Bowers (LV TE) status questionable -> out [Ankle]", "at": "2026-11-15T22:44:37.601112+00:00"}
 {"kind": "injury", "team": "", "player": "Oronde Gadsden", "pos": "", "source": "rotowire", "text": "Oronde Gadsden: Questionable to return Monday", "at": "2026-11-17T01:51:54.004237+00:00"}
+{"kind": "injury", "team": "", "player": "Luther Burden", "pos": "", "source": "rotoworld-fb", "text": "Luther Burden clears concussion protocol", "at": "2026-11-17T18:12:55.211054+00:00"}
