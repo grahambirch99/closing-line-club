@@ -1,27 +1,27 @@
 {
  "season": {
   "w": 100,
-  "l": 70,
+  "l": 72,
   "p": 0,
-  "units": 19.44,
-  "roi": 21.2,
+  "units": 18.44,
+  "roi": 19.9,
   "clv": 0.33,
   "beat": 70,
   "n_clv": 30,
-  "clv_any": 0.36,
-  "n_clv_any": 145
+  "clv_any": 0.37,
+  "n_clv_any": 147
  },
  "real_money": {
   "w": 52,
-  "l": 53,
+  "l": 55,
   "p": 0,
-  "units": 4.27,
-  "roi": 7.6,
+  "units": 3.27,
+  "roi": 5.7,
   "clv": -0.22,
   "beat": 64,
   "n_clv": 28,
-  "clv_any": 0.27,
-  "n_clv_any": 96
+  "clv_any": 0.29,
+  "n_clv_any": 98
  },
  "status": {
   "nfl-v1": {
@@ -1148,6 +1148,18 @@
    "week": 10,
    "label": "Mike Gesicki: Under 2.5 receptions",
    "units": 19.44
+  },
+  {
+   "id": "pp-98-468",
+   "week": 10,
+   "label": "Mark Andrews: Under 19.5 receiving yards",
+   "units": 18.94
+  },
+  {
+   "id": "pp-98-479",
+   "week": 10,
+   "label": "Derrick Henry: Under 1.5 receptions",
+   "units": 18.44
   }
  ],
  "clv_by_week": [
@@ -1172,15 +1184,15 @@
    "type": "Mid-week props model",
    "id": "props-midweek",
    "w": 66,
-   "l": 40,
+   "l": 42,
    "p": 0,
-   "units": 15.22,
-   "roi": 28.7,
+   "units": 14.22,
+   "roi": 26.3,
    "clv": null,
    "beat": null,
    "n_clv": 0,
-   "clv_any": 0.17,
-   "n_clv_any": 98
+   "clv_any": 0.19,
+   "n_clv_any": 100
   },
   {
    "type": "Game-day picks, rules v2",
