@@ -353,3 +353,6 @@ pk-c2c9d97293-pr-assis-milesbridges-2.5,nba,2026-11-17T01:10:14Z,2026-11-17T02:1
 pk-c2c9d97293-pr-point-nikolajokic-24.5,nba,2026-11-17T01:10:14Z,2026-11-17T02:10:00Z,Phoenix Suns @ Denver Nuggets,prizepicks,player_points,Nikola Jokic,24.5,Over,0.545,Kalshi,0,264,,W,28
 pk-c2c9d97293-pr-rebou-milesbridges-6,nba,2026-11-17T01:10:14Z,2026-11-17T02:10:00Z,Phoenix Suns @ Denver Nuggets,prizepicks,player_rebounds,Miles Bridges,6,Under,0.5497,Kalshi,0,264,0.5497,L,8
 pk-c2c9d97293-pr-rebou-trevonbrazile-4,nba,2026-11-17T01:10:14Z,2026-11-17T02:10:00Z,Phoenix Suns @ Denver Nuggets,prizepicks,player_rebounds,Trevon Brazile,4,Under,0.5729,Kalshi,1,264,,P,4
+pk-5ff20ee693-pr-point-karlanthonytowns-20.5,nba,2026-11-17T23:40:00Z,2026-11-18T00:40:00Z,New York Knicks @ Toronto Raptors,prizepicks,player_points,Karl-Anthony Towns,20.5,Under,0.5427,Pinnacle,0,266,,pending,
+pk-5ff20ee693-un-point-karlanthonytowns-20.5,nba,2026-11-17T23:40:00Z,2026-11-18T00:40:00Z,New York Knicks @ Toronto Raptors,underdog,player_points,Karl-Anthony Towns,20.5,Under,0.5427,Pinnacle,0,266,,pending,
+pk-5ff20ee693-pr-point-scottiebarnes-15.5,nba,2026-11-17T23:40:00Z,2026-11-18T00:40:00Z,New York Knicks @ Toronto Raptors,prizepicks,player_points,Scottie Barnes,15.5,Over,0.7601,Kalshi,1,266,,pending,
