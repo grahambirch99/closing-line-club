@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-17T18:12:55.211054+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Luther Burden clears concussion protocol"
+  },
+  {
    "at": "2026-11-17T01:51:54.004237+00:00",
    "kind": "injury",
    "source": "rotowire",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "George Pickens (hamstring) limited again in Wk 10"
-  },
-  {
-   "at": "2026-11-12T21:35:31.671356+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Garrett Wilson, Omar Cooper both limited Thursday"
   }
  ]
 }
