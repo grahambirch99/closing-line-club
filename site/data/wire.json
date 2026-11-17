@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-17T01:51:54.004237+00:00",
+   "kind": "injury",
+   "source": "rotowire",
+   "text": "Oronde Gadsden: Questionable to return Monday"
+  },
+  {
    "at": "2026-11-15T22:44:37.601112+00:00",
    "kind": "injury",
    "source": "sleeper",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Garrett Wilson, Omar Cooper both limited Thursday"
-  },
-  {
-   "at": "2026-11-12T21:26:22.533270+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Dalton Kincaid (ankle) still limited on Thursday"
   }
  ]
 }
