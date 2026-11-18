@@ -222,3 +222,4 @@
 {"kind": "injury", "team": "", "player": "Wandale Robinson", "pos": "", "source": "rapsheet", "text": "The Titans have promoted WR Xavier Restrepo to the team\u2019s 53-man roster and placed WR Wan\u2019Dale Robinson on Injured Reserve.", "at": "2026-11-18T00:18:20.009330+00:00"}
 {"kind": "qb", "source": "sleeper", "team": "NYJ", "player": "Geno Smith", "pos": "QB", "text": "Geno Smith (NYJ QB) status out -> questionable [Ankle]", "at": "2026-11-18T11:59:19.398539+00:00"}
 {"kind": "qb", "team": "PHI", "player": "Joe Milton", "pos": "QB", "strong": false, "source": "rapsheet", "text": " QB Joe Milton will start for the Philadelphia Eagles on Sunday.", "at": "2026-11-18T20:02:09.091580+00:00"}
+{"kind": "injury", "team": "", "player": "Bhayshul Tuten", "pos": "", "source": "rotoworld-fb", "text": "Bhayshul Tuten (foot/ankle) limited in practice", "at": "2026-11-18T21:22:26.412018+00:00"}
