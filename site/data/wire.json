@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-18T23:20:20.916230+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Jaylen Waddle (concussion) practices in full Wed."
+  },
+  {
    "at": "2026-11-18T21:50:20.548444+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "T.J. Hockenson (wrist/chest) ruled out for Week 10"
-  },
-  {
-   "at": "2026-11-13T21:18:20.784500+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "T.J. Hockenson (MIN TE) status questionable -> out [Wrist]"
   }
  ]
 }
