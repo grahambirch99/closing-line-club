@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-18T20:02:09.091580+00:00",
+   "kind": "qb",
+   "source": "rapsheet",
+   "text": " QB Joe Milton will start for the Philadelphia Eagles on Sunday."
+  },
+  {
    "at": "2026-11-18T11:59:19.398539+00:00",
    "kind": "qb",
    "source": "sleeper",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "sleeper",
    "text": "Carnell Tate (TEN WR) status questionable -> out [Shoulder]"
-  },
-  {
-   "at": "2026-11-13T18:53:26.602239+00:00",
-   "kind": "injury",
-   "source": "rapsheet",
-   "text": "The Ravens say QB Lamar Jackson had his thumb surgery and confirm that he's out for 6-10 weeks."
   }
  ]
 }
