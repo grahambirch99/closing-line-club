@@ -370,3 +370,8 @@ pk-635a9b07c0-un-assis-joelembiid-3.5,nba,2026-11-18T23:10:01Z,2026-11-19T00:10:
 pk-635a9b07c0-un-point-vjedgecombe-14.5,nba,2026-11-18T23:10:01Z,2026-11-19T00:10:00Z,Philadelphia 76ers @ Orlando Magic,underdog,player_points,VJ Edgecombe,14.5,Under,0.57,Kalshi,1,274,,pending,
 pk-635a9b07c0-un-point-lebronjames-18.5,nba,2026-11-18T23:10:01Z,2026-11-19T00:10:00Z,Philadelphia 76ers @ Orlando Magic,underdog,player_points,LeBron James,18.5,Under,0.5823,Kalshi,1,274,,pending,
 pk-635a9b07c0-pr-point-jalensuggs-9.5,nba,2026-11-18T23:10:01Z,2026-11-19T00:10:00Z,Philadelphia 76ers @ Orlando Magic,prizepicks,player_points,Jalen Suggs,9.5,Over,0.5427,Pinnacle,0,274,,pending,
+pk-6a72c23de4-pr-point-juliusrandle-22.5,nba,2026-11-18T23:40:04Z,2026-11-19T00:40:00Z,Chicago Bulls @ Brooklyn Nets,prizepicks,player_points,Julius Randle,22.5,Under,0.5426,Kalshi,0,275,,pending,
+pk-6a72c23de4-un-point-juliusrandle-22.5,nba,2026-11-18T23:40:04Z,2026-11-19T00:40:00Z,Chicago Bulls @ Brooklyn Nets,underdog,player_points,Julius Randle,22.5,Under,0.5426,Kalshi,0,275,,pending,
+pk-6a72c23de4-pr-point-dayronsharpe-10.5,nba,2026-11-18T23:40:04Z,2026-11-19T00:40:00Z,Chicago Bulls @ Brooklyn Nets,prizepicks,player_points,Day'Ron Sharpe,10.5,Under,0.5653,Pinnacle,1,275,,pending,
+pk-6a72c23de4-pr-point-normanpowell-23.5,nba,2026-11-18T23:40:04Z,2026-11-19T00:40:00Z,Chicago Bulls @ Brooklyn Nets,prizepicks,player_points,Norman Powell,23.5,Under,0.5717,Pinnacle,1,275,,pending,
+pk-6a72c23de4-un-point-normanpowell-23.5,nba,2026-11-18T23:40:04Z,2026-11-19T00:40:00Z,Chicago Bulls @ Brooklyn Nets,underdog,player_points,Norman Powell,23.5,Under,0.5717,Pinnacle,1,275,,pending,
