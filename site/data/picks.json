@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T20:30:02Z",
+ "generated_at": "2026-11-19T02:52:41Z",
  "current_week": 11,
  "weeks": [
   {
@@ -66,6 +66,34 @@
      "clv": null,
      "units": null,
      "posted": "2026-11-18T19:54:12Z",
+     "system": "Props model: Kalshi only \u00b7 Pinnacle has no line",
+     "strategy": "props-midweek",
+     "live": true
+    },
+    {
+     "id": "pp-129-631",
+     "week": 11,
+     "kind": "paper",
+     "tier": "A",
+     "market": "player_pass_yds",
+     "title": "C.J. Stroud",
+     "bet": "Under 239.5 passing yards",
+     "game": "Colts at Texans",
+     "kick": "2026-11-20T01:15:00Z",
+     "kick_label": "Thu 5:15 PM PT",
+     "venue": "ProphetX",
+     "price": "+178",
+     "stake": 5.0,
+     "implied": 36.0,
+     "fair": 37.9,
+     "edge": 4.1,
+     "worst": "",
+     "analysis": "Mid-week props model (paper): price +4.1% vs the sharp fair price (Kalshi ladder). Kalshi only; Pinnacle has no line.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-19T02:31:50Z",
      "system": "Props model: Kalshi only \u00b7 Pinnacle has no line",
      "strategy": "props-midweek",
      "live": true
