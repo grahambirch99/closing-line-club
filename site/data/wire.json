@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "at": "2026-11-19T21:33:51.130984+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Jordyn Tyson (chest) remains limited on Thursday"
+  },
+  {
+   "at": "2026-11-19T21:24:44.579704+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Carnell Tate (shoulder) remains limited Thursday"
+  },
+  {
    "at": "2026-11-19T20:13:26.642442+00:00",
    "kind": "injury",
    "source": "rotowire",
@@ -167,18 +179,6 @@
    "kind": "injury",
    "source": "rapsheet",
    "text": "The Patriots placed RB TreVeyon Henderson on injured reserve."
-  },
-  {
-   "at": "2026-11-14T17:25:58.661382+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Kenneth Walker III (KC RB) status questionable -> out [Groin]"
-  },
-  {
-   "at": "2026-11-14T00:07:53.347907+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Amon-Ra St. Brown (ribs) questionable for Week 10"
   }
  ]
 }
