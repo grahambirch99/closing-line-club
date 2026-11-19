@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-19T23:31:29.936920+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Ladd McConkey (back) limited again on Thursday"
+  },
+  {
    "at": "2026-11-19T22:36:06.005390+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rapsheet",
    "text": "Vikings WR Jordan Addison, who suffered a thumb injury in practice on Friday and is questionable, will have his status determined closed to game-time. But there is some doubt, as MIN elevated WR Jeshaun Jones as insurance."
-  },
-  {
-   "at": "2026-11-15T18:07:22.098656+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Chris Bell (knee) inactive Week 10"
   }
  ]
 }
