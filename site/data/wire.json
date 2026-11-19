@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-19T22:36:06.005390+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Brock Bowers (ankle/quad) officially limited Thu."
+  },
+  {
    "at": "2026-11-19T21:33:51.130984+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Chris Bell (knee) inactive Week 10"
-  },
-  {
-   "at": "2026-11-14T21:14:03.303217+00:00",
-   "kind": "injury",
-   "source": "rapsheet",
-   "text": "The Patriots placed RB TreVeyon Henderson on injured reserve."
   }
  ]
 }
