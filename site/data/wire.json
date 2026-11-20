@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "at": "2026-11-20T20:26:52.628928+00:00",
+   "kind": "injury",
+   "source": "rapsheet",
+   "text": "The Chiefs have ruled out RB Kenneth Walker, in addition to OLs Trey Smith and Jaylon Moore."
+  },
+  {
+   "at": "2026-11-20T20:26:52.628928+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Brock Bowers (ankle/quad) questionable in Week 11"
+  },
+  {
    "at": "2026-11-20T20:02:03.004317+00:00",
    "kind": "injury",
    "source": "rapsheet",
@@ -167,18 +179,6 @@
    "kind": "qb",
    "source": "rotoworld-fb",
    "text": "Geno Smith being evaluated for a concussion"
-  },
-  {
-   "at": "2026-11-15T18:07:22.098656+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "A.J. Brown (NE WR) status questionable -> out [Hamstring]"
-  },
-  {
-   "at": "2026-11-15T18:07:22.098656+00:00",
-   "kind": "qb",
-   "source": "sleeper",
-   "text": "Drake Maye (NE QB) status healthy -> out [Ankle]"
   }
  ]
 }
