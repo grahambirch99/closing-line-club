@@ -390,10 +390,10 @@ pk-ffeefa47d9-pr-point-jaysontatum-25.5,nba,2026-11-19T01:10:14Z,2026-11-19T02:1
 pk-ffeefa47d9-pr-rebou-neemiasqueta-6.5,nba,2026-11-19T01:10:14Z,2026-11-19T02:10:00Z,Boston Celtics @ Denver Nuggets,prizepicks,player_rebounds,Neemias Queta,6.5,Under,0.5518,Pinnacle,0,281,,L,10
 pk-ffeefa47d9-pr-rebou-samhauser-2.5,nba,2026-11-19T01:10:14Z,2026-11-19T02:10:00Z,Boston Celtics @ Denver Nuggets,prizepicks,player_rebounds,Sam Hauser,2.5,Over,0.5537,Kalshi,0,281,,L,2
 pk-4bdafbab22-pr-point-zachlavine-18.5,nba,2026-11-19T02:10:16Z,2026-11-19T03:10:00Z,Phoenix Suns @ Sacramento Kings,prizepicks,player_points,Zach LaVine,18.5,Under,0.5439,Pinnacle,0,282,0.5439,W,18
-pk-3c082b72aa-pr-point-alhorford-5.5,nba,2026-11-20T00:10:01Z,2026-11-20T01:10:00Z,Golden State Warriors @ Memphis Grizzlies,prizepicks,player_points,Al Horford,5.5,Over,0.5459,Kalshi,0,285,,pending,
-pk-3c082b72aa-pr-point-cameronboozer-19.5,nba,2026-11-20T00:10:01Z,2026-11-20T01:10:00Z,Golden State Warriors @ Memphis Grizzlies,prizepicks,player_points,Cameron Boozer,19.5,Under,0.5518,Pinnacle,0,285,,pending,
-pk-3c082b72aa-pr-point-jaylenwells-10.5,nba,2026-11-20T00:10:01Z,2026-11-20T01:10:00Z,Golden State Warriors @ Memphis Grizzlies,prizepicks,player_points,Jaylen Wells,10.5,Under,0.5547,Pinnacle,0,285,,pending,
-pk-3c082b72aa-pr-rebou-deanthonymelton-3.5,nba,2026-11-20T00:10:01Z,2026-11-20T01:10:00Z,Golden State Warriors @ Memphis Grizzlies,prizepicks,player_rebounds,De'Anthony Melton,3.5,Under,0.5427,Pinnacle,0,285,,pending,
-pk-20fa5e2d73-pr-point-keatonwagler-9.5,nba,2026-11-20T00:10:01Z,2026-11-20T01:10:00Z,Los Angeles Clippers @ San Antonio Spurs,prizepicks,player_points,Keaton Wagler,9.5,Over,0.5427,Pinnacle,0,285,,pending,
-pk-20fa5e2d73-pr-rebou-brooklopez-5,nba,2026-11-20T00:10:01Z,2026-11-20T01:10:00Z,Los Angeles Clippers @ San Antonio Spurs,prizepicks,player_rebounds,Brook Lopez,5,Under,0.5492,Kalshi,0,285,,pending,
-pk-20fa5e2d73-pr-rebou-derrickjones-4,nba,2026-11-20T00:10:01Z,2026-11-20T01:10:00Z,Los Angeles Clippers @ San Antonio Spurs,prizepicks,player_rebounds,Derrick Jones,4,Under,0.5565,Kalshi,0,285,,pending,
+pk-3c082b72aa-pr-point-alhorford-5.5,nba,2026-11-20T00:10:01Z,2026-11-20T01:10:00Z,Golden State Warriors @ Memphis Grizzlies,prizepicks,player_points,Al Horford,5.5,Over,0.5459,Kalshi,0,285,0.5459,L,3
+pk-3c082b72aa-pr-point-cameronboozer-19.5,nba,2026-11-20T00:10:01Z,2026-11-20T01:10:00Z,Golden State Warriors @ Memphis Grizzlies,prizepicks,player_points,Cameron Boozer,19.5,Under,0.5518,Pinnacle,0,285,,W,16
+pk-3c082b72aa-pr-point-jaylenwells-10.5,nba,2026-11-20T00:10:01Z,2026-11-20T01:10:00Z,Golden State Warriors @ Memphis Grizzlies,prizepicks,player_points,Jaylen Wells,10.5,Under,0.5547,Pinnacle,0,285,0.5547,L,22
+pk-3c082b72aa-pr-rebou-deanthonymelton-3.5,nba,2026-11-20T00:10:01Z,2026-11-20T01:10:00Z,Golden State Warriors @ Memphis Grizzlies,prizepicks,player_rebounds,De'Anthony Melton,3.5,Under,0.5427,Pinnacle,0,285,0.5427,W,1
+pk-20fa5e2d73-pr-point-keatonwagler-9.5,nba,2026-11-20T00:10:01Z,2026-11-20T01:10:00Z,Los Angeles Clippers @ San Antonio Spurs,prizepicks,player_points,Keaton Wagler,9.5,Over,0.5427,Pinnacle,0,285,,L,7
+pk-20fa5e2d73-pr-rebou-brooklopez-5,nba,2026-11-20T00:10:01Z,2026-11-20T01:10:00Z,Los Angeles Clippers @ San Antonio Spurs,prizepicks,player_rebounds,Brook Lopez,5,Under,0.5492,Kalshi,0,285,,W,3
+pk-20fa5e2d73-pr-rebou-derrickjones-4,nba,2026-11-20T00:10:01Z,2026-11-20T01:10:00Z,Los Angeles Clippers @ San Antonio Spurs,prizepicks,player_rebounds,Derrick Jones,4,Under,0.5565,Kalshi,0,285,0.5565,W,2
