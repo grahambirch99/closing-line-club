@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-20T20:02:03.004317+00:00",
+   "kind": "injury",
+   "source": "rapsheet",
+   "text": "Injury updates: -- 49ers WR Mike Evans (Achilles) is questionable with a real chance to go. -- Bears RB Kyle Monangai is good to go, as is WR Luther Burden."
+  },
+  {
    "at": "2026-11-20T19:21:59.699671+00:00",
    "kind": "injury",
    "source": "sleeper",
@@ -173,12 +179,6 @@
    "kind": "qb",
    "source": "sleeper",
    "text": "Drake Maye (NE QB) status healthy -> out [Ankle]"
-  },
-  {
-   "at": "2026-11-15T18:07:22.098656+00:00",
-   "kind": "injury",
-   "source": "rapsheet",
-   "text": "And now: Patriots WR A.J. Brown has a hamstring injury and is questionable to return."
   }
  ]
 }
