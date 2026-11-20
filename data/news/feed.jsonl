@@ -236,3 +236,5 @@
 {"kind": "injury", "team": "", "player": "Kyle Monangai", "pos": "", "source": "rapsheet", "text": "Injury updates: -- 49ers WR Mike Evans (Achilles) is questionable with a real chance to go. -- Bears RB Kyle Monangai is good to go, as is WR Luther Burden.", "at": "2026-11-20T20:02:03.004317+00:00"}
 {"kind": "injury", "team": "", "player": "Kenneth Walker", "pos": "", "source": "rapsheet", "text": "The Chiefs have ruled out RB Kenneth Walker, in addition to OLs Trey Smith and Jaylon Moore.", "at": "2026-11-20T20:26:52.628928+00:00"}
 {"kind": "injury", "team": "", "player": "Brock Bowers", "pos": "", "source": "rotoworld-fb", "text": "Brock Bowers (ankle/quad) questionable in Week 11", "at": "2026-11-20T20:26:52.628928+00:00"}
+{"kind": "qb", "team": "TB", "player": "Baker Mayfield", "pos": "QB", "strong": false, "source": "rotoworld-fb", "text": "Baker Mayfield (foot) officially questionable", "at": "2026-11-20T20:51:46.422397+00:00"}
+{"kind": "injury", "team": "", "player": "Dontayvion Wicks", "pos": "", "source": "rotoworld-fb", "text": "Dontayvion Wicks (ankle) ruled out for Week 11", "at": "2026-11-20T21:07:02.449436+00:00"}
