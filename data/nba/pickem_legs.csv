@@ -397,3 +397,13 @@ pk-3c082b72aa-pr-rebou-deanthonymelton-3.5,nba,2026-11-20T00:10:01Z,2026-11-20T0
 pk-20fa5e2d73-pr-point-keatonwagler-9.5,nba,2026-11-20T00:10:01Z,2026-11-20T01:10:00Z,Los Angeles Clippers @ San Antonio Spurs,prizepicks,player_points,Keaton Wagler,9.5,Over,0.5427,Pinnacle,0,285,,L,7
 pk-20fa5e2d73-pr-rebou-brooklopez-5,nba,2026-11-20T00:10:01Z,2026-11-20T01:10:00Z,Los Angeles Clippers @ San Antonio Spurs,prizepicks,player_rebounds,Brook Lopez,5,Under,0.5492,Kalshi,0,285,,W,3
 pk-20fa5e2d73-pr-rebou-derrickjones-4,nba,2026-11-20T00:10:01Z,2026-11-20T01:10:00Z,Los Angeles Clippers @ San Antonio Spurs,prizepicks,player_rebounds,Derrick Jones,4,Under,0.5565,Kalshi,0,285,0.5565,W,2
+pk-f8ad540db0-pr-point-royceoneale-7.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,prizepicks,player_points,Royce O'Neale,7.5,Over,0.5439,Pinnacle,0,287,,pending,
+pk-f8ad540db0-pr-point-nazreid-18.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,prizepicks,player_points,Naz Reid,18.5,Over,0.5427,Pinnacle,0,287,,pending,
+pk-f8ad540db0-un-point-nazreid-18.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,underdog,player_points,Naz Reid,18.5,Over,0.5427,Pinnacle,0,287,,pending,
+pk-f8ad540db0-pr-point-luguentzdort-8.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,prizepicks,player_points,Luguentz Dort,8.5,Over,0.5469,Pinnacle,0,287,,pending,
+pk-f8ad540db0-un-point-luguentzdort-8.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,underdog,player_points,Luguentz Dort,8.5,Over,0.5469,Pinnacle,0,287,,pending,
+pk-f8ad540db0-pr-point-sionjames-6.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,prizepicks,player_points,Sion James,6.5,Over,0.5607,Kalshi,0,287,,pending,
+pk-f8ad540db0-un-point-brandonmiller-20.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,underdog,player_points,Brandon Miller,20.5,Over,0.5469,Pinnacle,0,287,,pending,
+pk-f8ad540db0-pr-rebou-nazreid-8.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,prizepicks,player_rebounds,Naz Reid,8.5,Under,0.5528,Kalshi,0,287,,pending,
+pk-f8ad540db0-pr-rebou-brandonmiller-4,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,prizepicks,player_rebounds,Brandon Miller,4,Over,0.5442,Kalshi,0,287,,pending,
+pk-f8ad540db0-pr-assis-royceoneale-1.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,prizepicks,player_assists,Royce O'Neale,1.5,Over,0.545,Kalshi,0,287,,pending,
