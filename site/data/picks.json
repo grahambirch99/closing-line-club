@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-11-19T23:53:45Z",
+ "generated_at": "2026-11-20T18:55:21Z",
  "current_week": 11,
  "weeks": [
   {
    "week": 11,
    "dates": "Nov 19\u201323",
    "record": {
-    "w": 0,
-    "l": 0,
+    "w": 1,
+    "l": 1,
     "p": 0,
-    "units": 0,
-    "roi": null,
+    "units": 0.37,
+    "roi": 37.2,
     "clv": null,
     "beat": null,
     "n_clv": 0,
-    "clv_any": null,
-    "n_clv_any": 0
+    "clv_any": 2.75,
+    "n_clv_any": 2
    },
    "paper_record": {
     "w": 0,
@@ -30,16 +30,16 @@
     "n_clv_any": 0
    },
    "clv_record": {
-    "w": 0,
-    "l": 0,
+    "w": 1,
+    "l": 1,
     "p": 0,
-    "units": 0,
-    "roi": null,
+    "units": 0.37,
+    "roi": 37.2,
     "clv": null,
     "beat": null,
     "n_clv": 0,
-    "clv_any": null,
-    "n_clv_any": 0
+    "clv_any": 2.75,
+    "n_clv_any": 2
    },
    "picks": [
     {
@@ -61,10 +61,10 @@
      "edge": 4.1,
      "worst": "",
      "analysis": "Mid-week props model (paper): price +4.1% vs the sharp fair price (Kalshi ladder). Kalshi only; Pinnacle has no line.",
-     "status": "pending",
-     "actual": "",
-     "clv": null,
-     "units": null,
+     "status": "L",
+     "actual": "30 receiving yards",
+     "clv": 1.8,
+     "units": -0.5,
      "posted": "2026-11-18T19:54:12Z",
      "system": "Props model: Kalshi only \u00b7 Pinnacle has no line",
      "strategy": "props-midweek",
@@ -89,10 +89,10 @@
      "edge": 4.1,
      "worst": "",
      "analysis": "Mid-week props model (paper): price +4.1% vs the sharp fair price (Kalshi ladder). Kalshi only; Pinnacle has no line.",
-     "status": "pending",
-     "actual": "",
-     "clv": null,
-     "units": null,
+     "status": "W",
+     "actual": "194 passing yards",
+     "clv": 3.7,
+     "units": 0.872,
      "posted": "2026-11-19T02:31:50Z",
      "system": "Props model: Kalshi only \u00b7 Pinnacle has no line",
      "strategy": "props-midweek",

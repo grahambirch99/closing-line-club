@@ -1,27 +1,27 @@
 {
  "season": {
-  "w": 100,
-  "l": 72,
+  "w": 101,
+  "l": 73,
   "p": 0,
-  "units": 18.44,
-  "roi": 19.9,
+  "units": 18.81,
+  "roi": 20.1,
   "clv": 0.33,
   "beat": 70,
   "n_clv": 30,
-  "clv_any": 0.37,
-  "n_clv_any": 147
+  "clv_any": 0.4,
+  "n_clv_any": 149
  },
  "real_money": {
-  "w": 52,
-  "l": 55,
+  "w": 53,
+  "l": 56,
   "p": 0,
-  "units": 3.27,
-  "roi": 5.7,
+  "units": 3.64,
+  "roi": 6.3,
   "clv": -0.22,
   "beat": 64,
   "n_clv": 28,
-  "clv_any": 0.29,
-  "n_clv_any": 98
+  "clv_any": 0.34,
+  "n_clv_any": 100
  },
  "status": {
   "nfl-v1": {
@@ -1160,6 +1160,18 @@
    "week": 10,
    "label": "Derrick Henry: Under 1.5 receptions",
    "units": 18.44
+  },
+  {
+   "id": "pp-128-625",
+   "week": 11,
+   "label": "Ashton Dulin: Under 15.5 receiving yards",
+   "units": 17.94
+  },
+  {
+   "id": "pp-129-631",
+   "week": 11,
+   "label": "C.J. Stroud: Under 239.5 passing yards",
+   "units": 18.81
   }
  ],
  "clv_by_week": [
@@ -1183,16 +1195,16 @@
   {
    "type": "Mid-week props model",
    "id": "props-midweek",
-   "w": 66,
-   "l": 42,
+   "w": 67,
+   "l": 43,
    "p": 0,
-   "units": 14.22,
-   "roi": 26.3,
+   "units": 14.59,
+   "roi": 26.5,
    "clv": null,
    "beat": null,
    "n_clv": 0,
-   "clv_any": 0.19,
-   "n_clv_any": 100
+   "clv_any": 0.24,
+   "n_clv_any": 102
   },
   {
    "type": "Game-day picks, rules v2",
