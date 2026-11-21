@@ -102,7 +102,8 @@
   "2026-W10-0114",
   "2026-W10-0116",
   "cfb-03a07ec7a6-player_reception_yds-jeremiahsmith",
-  "cfb-ffbcf81433-player_pass_yds-giolopez"
+  "cfb-ffbcf81433-player_pass_yds-giolopez",
+  "cfb-725c6205de-player_rush_yds-aidanlaughery"
  ],
  "results": [
   "W6-24",
@@ -2607,6 +2608,7 @@
   "1573522374647619707": "nba-97628796d0",
   "1573522380544942221": "nba-b88b103a74",
   "1573741364544413928": "cfb-03a07ec7a6-player_reception_yds-jeremiahsmith",
-  "1573741370911367303": "cfb-ffbcf81433-player_pass_yds-giolopez"
+  "1573741370911367303": "cfb-ffbcf81433-player_pass_yds-giolopez",
+  "1573771766227013753": "cfb-725c6205de-player_rush_yds-aidanlaughery"
  }
 }
