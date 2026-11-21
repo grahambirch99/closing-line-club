@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-21T18:52:23.663735+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Titans send Tyjae Spears (knee) to injured reserve"
+  },
+  {
    "at": "2026-11-20T21:28:50.118702+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Woody Marks questionable, evaluated for concussion"
-  },
-  {
-   "at": "2026-11-15T20:04:07.484287+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Ladd McConkey (LAC WR) status questionable -> out [Back]"
   }
  ]
 }
