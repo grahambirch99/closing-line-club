@@ -424,8 +424,8 @@ pk-17e3a8dc71-pr-rebou-saddiqbey-5,nba,2026-11-21T00:10:20Z,2026-11-21T01:10:00Z
 pk-ee204ae35d-pr-assis-devinbooker-5,nba,2026-11-21T01:41:45Z,2026-11-21T02:40:00Z,Phoenix Suns @ Utah Jazz,prizepicks,player_assists,Devin Booker,5,Over,0.547,Kalshi,0,293,0.5526,L,3
 pk-ee204ae35d-pr-rebou-keyontegeorge-4,nba,2026-11-21T01:41:45Z,2026-11-21T02:40:00Z,Phoenix Suns @ Utah Jazz,prizepicks,player_rebounds,Keyonte George,4,Under,0.5656,Kalshi,1,293,0.5582,W,3
 pk-ee204ae35d-pr-rebou-bricesensabaugh-3,nba,2026-11-21T01:41:45Z,2026-11-21T02:40:00Z,Phoenix Suns @ Utah Jazz,prizepicks,player_rebounds,Brice Sensabaugh,3,Over,0.549,Kalshi,0,293,0.5511,P,3
-pk-086d2fe804-pr-assis-fredvanvleet-5,nba,2026-11-21T02:11:47Z,2026-11-21T03:10:00Z,Houston Rockets @ Denver Nuggets,prizepicks,player_assists,Fred VanVleet,5,Under,0.5507,Kalshi,0,294,,pending,
-pk-086d2fe804-pr-rebou-fredvanvleet-2.5,nba,2026-11-21T02:11:47Z,2026-11-21T03:10:00Z,Houston Rockets @ Denver Nuggets,prizepicks,player_rebounds,Fred VanVleet,2.5,Over,0.5539,Pinnacle,0,294,,pending,
-pk-086d2fe804-un-rebou-fredvanvleet-2.5,nba,2026-11-21T02:11:47Z,2026-11-21T03:10:00Z,Houston Rockets @ Denver Nuggets,underdog,player_rebounds,Fred VanVleet,2.5,Over,0.5539,Pinnacle,0,294,,pending,
-pk-55c3096b11-pr-rebou-quentingrimes-4,nba,2026-11-21T02:11:47Z,2026-11-21T03:10:00Z,Sacramento Kings @ Los Angeles Lakers,prizepicks,player_rebounds,Quentin Grimes,4,Under,0.5433,Kalshi,0,294,,pending,
-pk-55c3096b11-pr-rebou-jakelaravia-4,nba,2026-11-21T02:11:47Z,2026-11-21T03:10:00Z,Sacramento Kings @ Los Angeles Lakers,prizepicks,player_rebounds,Jake LaRavia,4,Under,0.5546,Kalshi,0,294,,pending,
+pk-086d2fe804-pr-assis-fredvanvleet-5,nba,2026-11-21T02:11:47Z,2026-11-21T03:10:00Z,Houston Rockets @ Denver Nuggets,prizepicks,player_assists,Fred VanVleet,5,Under,0.5507,Kalshi,0,294,0.5507,L,9
+pk-086d2fe804-pr-rebou-fredvanvleet-2.5,nba,2026-11-21T02:11:47Z,2026-11-21T03:10:00Z,Houston Rockets @ Denver Nuggets,prizepicks,player_rebounds,Fred VanVleet,2.5,Over,0.5539,Pinnacle,0,294,,L,1
+pk-086d2fe804-un-rebou-fredvanvleet-2.5,nba,2026-11-21T02:11:47Z,2026-11-21T03:10:00Z,Houston Rockets @ Denver Nuggets,underdog,player_rebounds,Fred VanVleet,2.5,Over,0.5539,Pinnacle,0,294,0.5539,L,1
+pk-55c3096b11-pr-rebou-quentingrimes-4,nba,2026-11-21T02:11:47Z,2026-11-21T03:10:00Z,Sacramento Kings @ Los Angeles Lakers,prizepicks,player_rebounds,Quentin Grimes,4,Under,0.5433,Kalshi,0,294,0.5433,L,5
+pk-55c3096b11-pr-rebou-jakelaravia-4,nba,2026-11-21T02:11:47Z,2026-11-21T03:10:00Z,Sacramento Kings @ Los Angeles Lakers,prizepicks,player_rebounds,Jake LaRavia,4,Under,0.5546,Kalshi,0,294,0.5546,W,3
