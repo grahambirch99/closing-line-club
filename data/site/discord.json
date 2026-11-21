@@ -393,7 +393,10 @@
   "pp-136-759",
   "pp-136-743",
   "pp-136-751",
-  "pp-136-756"
+  "pp-136-756",
+  "wind-403a88701352da05b0710a9e883b803e-40.5",
+  "wind-4c5b1c0843a260278e95eb93e7787576-44.5",
+  "wind-3ea90704fb576633bd1e2fa5aafd9ea3-48.5"
  ],
  "paper_results": [
   "W6-10",
@@ -2613,6 +2616,9 @@
   "1573741370911367303": "cfb-ffbcf81433-player_pass_yds-giolopez",
   "1573771766227013753": "cfb-725c6205de-player_rush_yds-aidanlaughery",
   "1573794299886313503": "cfb-ae9b81f481-player_rush_yds-bryceunderwood",
-  "1573794306979004447": "cfb-0cdac6d2b6-player_pass_tds-samleavitt"
+  "1573794306979004447": "cfb-0cdac6d2b6-player_pass_tds-samleavitt",
+  "1573843332826923049": "wind-403a88701352da05b0710a9e883b803e-40.5",
+  "1573843339789344989": "wind-4c5b1c0843a260278e95eb93e7787576-44.5",
+  "1573843345862565951": "wind-3ea90704fb576633bd1e2fa5aafd9ea3-48.5"
  }
 }
