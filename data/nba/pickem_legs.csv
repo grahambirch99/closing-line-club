@@ -397,30 +397,30 @@ pk-3c082b72aa-pr-rebou-deanthonymelton-3.5,nba,2026-11-20T00:10:01Z,2026-11-20T0
 pk-20fa5e2d73-pr-point-keatonwagler-9.5,nba,2026-11-20T00:10:01Z,2026-11-20T01:10:00Z,Los Angeles Clippers @ San Antonio Spurs,prizepicks,player_points,Keaton Wagler,9.5,Over,0.5427,Pinnacle,0,285,,L,7
 pk-20fa5e2d73-pr-rebou-brooklopez-5,nba,2026-11-20T00:10:01Z,2026-11-20T01:10:00Z,Los Angeles Clippers @ San Antonio Spurs,prizepicks,player_rebounds,Brook Lopez,5,Under,0.5492,Kalshi,0,285,,W,3
 pk-20fa5e2d73-pr-rebou-derrickjones-4,nba,2026-11-20T00:10:01Z,2026-11-20T01:10:00Z,Los Angeles Clippers @ San Antonio Spurs,prizepicks,player_rebounds,Derrick Jones,4,Under,0.5565,Kalshi,0,285,0.5565,W,2
-pk-f8ad540db0-pr-point-royceoneale-7.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,prizepicks,player_points,Royce O'Neale,7.5,Over,0.5439,Pinnacle,0,287,,pending,
-pk-f8ad540db0-pr-point-nazreid-18.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,prizepicks,player_points,Naz Reid,18.5,Over,0.5427,Pinnacle,0,287,,pending,
-pk-f8ad540db0-un-point-nazreid-18.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,underdog,player_points,Naz Reid,18.5,Over,0.5427,Pinnacle,0,287,,pending,
-pk-f8ad540db0-pr-point-luguentzdort-8.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,prizepicks,player_points,Luguentz Dort,8.5,Over,0.5469,Pinnacle,0,287,,pending,
-pk-f8ad540db0-un-point-luguentzdort-8.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,underdog,player_points,Luguentz Dort,8.5,Over,0.5469,Pinnacle,0,287,,pending,
-pk-f8ad540db0-pr-point-sionjames-6.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,prizepicks,player_points,Sion James,6.5,Over,0.5607,Kalshi,0,287,,pending,
-pk-f8ad540db0-un-point-brandonmiller-20.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,underdog,player_points,Brandon Miller,20.5,Over,0.5469,Pinnacle,0,287,,pending,
-pk-f8ad540db0-pr-rebou-nazreid-8.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,prizepicks,player_rebounds,Naz Reid,8.5,Under,0.5528,Kalshi,0,287,,pending,
-pk-f8ad540db0-pr-rebou-brandonmiller-4,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,prizepicks,player_rebounds,Brandon Miller,4,Over,0.5442,Kalshi,0,287,,pending,
-pk-f8ad540db0-pr-assis-royceoneale-1.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,prizepicks,player_assists,Royce O'Neale,1.5,Over,0.545,Kalshi,0,287,,pending,
-pk-6e1faf38d3-pr-assis-jalensuggs-4,nba,2026-11-20T23:40:16Z,2026-11-21T00:40:00Z,Orlando Magic @ Brooklyn Nets,prizepicks,player_assists,Jalen Suggs,4,Over,0.5602,Kalshi,0,288,,pending,
-pk-6e1faf38d3-pr-point-tristandasilva-12.5,nba,2026-11-20T23:40:16Z,2026-11-21T00:40:00Z,Orlando Magic @ Brooklyn Nets,prizepicks,player_points,Tristan da Silva,12.5,Under,0.5498,Kalshi,0,288,,pending,
-pk-6e1faf38d3-pr-point-gogabitadze-6.5,nba,2026-11-20T23:40:16Z,2026-11-21T00:40:00Z,Orlando Magic @ Brooklyn Nets,prizepicks,player_points,Goga Bitadze,6.5,Under,0.5493,Kalshi,0,288,,pending,
-pk-10e9b9aca5-pr-point-tyreseproctor-11,nba,2026-11-20T23:40:16Z,2026-11-21T00:40:00Z,Indiana Pacers @ Cleveland Cavaliers,prizepicks,player_points,Tyrese Proctor,11,Over,0.5426,Kalshi,0,288,,pending,
-pk-10e9b9aca5-pr-rebou-kellyoubre-4,nba,2026-11-20T23:40:16Z,2026-11-21T00:40:00Z,Indiana Pacers @ Cleveland Cavaliers,prizepicks,player_rebounds,Kelly Oubre Jr.,4,Under,0.5544,Kalshi,0,288,,pending,
-pk-10e9b9aca5-pr-point-sammerrill-6.5,nba,2026-11-20T23:40:16Z,2026-11-21T00:40:00Z,Indiana Pacers @ Cleveland Cavaliers,prizepicks,player_points,Sam Merrill,6.5,Over,0.5541,Kalshi,0,288,,pending,
-pk-9051693857-pr-point-immanuelquickley-17.5,nba,2026-11-20T23:40:16Z,2026-11-21T00:40:00Z,Toronto Raptors @ Detroit Pistons,prizepicks,player_points,Immanuel Quickley,17.5,Over,0.5645,Kalshi,1,288,,pending,
-pk-9051693857-un-point-johncollins-12.5,nba,2026-11-20T23:40:16Z,2026-11-21T00:40:00Z,Toronto Raptors @ Detroit Pistons,underdog,player_points,John Collins,12.5,Under,0.5478,Kalshi,0,288,,pending,
-pk-9051693857-pr-point-jakobpoeltl-11,nba,2026-11-20T23:40:16Z,2026-11-21T00:40:00Z,Toronto Raptors @ Detroit Pistons,prizepicks,player_points,Jakob Poeltl,11,Under,0.5427,Kalshi,0,288,,pending,
-pk-d6ed1e97c3-pr-rebou-alexsarr-6.5,nba,2026-11-21T00:10:20Z,2026-11-21T01:10:00Z,Washington Wizards @ Chicago Bulls,prizepicks,player_rebounds,Alex Sarr,6.5,Over,0.5427,Pinnacle,0,290,,pending,
-pk-d6ed1e97c3-pr-rebou-nicclaxton-7,nba,2026-11-21T00:10:20Z,2026-11-21T01:10:00Z,Washington Wizards @ Chicago Bulls,prizepicks,player_rebounds,Nic Claxton,7,Under,0.5661,Kalshi,1,290,,pending,
-pk-17e3a8dc71-pr-assis-ajaymitchell-4,nba,2026-11-21T00:10:20Z,2026-11-21T01:10:00Z,New Orleans Pelicans @ Oklahoma City Thunder,prizepicks,player_assists,Ajay Mitchell,4,Under,0.5432,Kalshi,0,290,,pending,
-pk-17e3a8dc71-pr-rebou-adaymara-7.5,nba,2026-11-21T00:10:20Z,2026-11-21T01:10:00Z,New Orleans Pelicans @ Oklahoma City Thunder,prizepicks,player_rebounds,Aday Mara,7.5,Under,0.545,Kalshi,0,290,,pending,
-pk-17e3a8dc71-pr-rebou-saddiqbey-5,nba,2026-11-21T00:10:20Z,2026-11-21T01:10:00Z,New Orleans Pelicans @ Oklahoma City Thunder,prizepicks,player_rebounds,Saddiq Bey,5,Under,0.5781,Kalshi,1,290,,pending,
+pk-f8ad540db0-pr-point-royceoneale-7.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,prizepicks,player_points,Royce O'Neale,7.5,Over,0.5439,Pinnacle,0,287,0.5397,W,9
+pk-f8ad540db0-pr-point-nazreid-18.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,prizepicks,player_points,Naz Reid,18.5,Over,0.5427,Pinnacle,0,287,0.5427,L,12
+pk-f8ad540db0-un-point-nazreid-18.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,underdog,player_points,Naz Reid,18.5,Over,0.5427,Pinnacle,0,287,0.5427,L,12
+pk-f8ad540db0-pr-point-luguentzdort-8.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,prizepicks,player_points,Luguentz Dort,8.5,Over,0.5469,Pinnacle,0,287,0.5448,L,2
+pk-f8ad540db0-un-point-luguentzdort-8.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,underdog,player_points,Luguentz Dort,8.5,Over,0.5469,Pinnacle,0,287,0.5448,L,2
+pk-f8ad540db0-pr-point-sionjames-6.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,prizepicks,player_points,Sion James,6.5,Over,0.5607,Kalshi,0,287,0.5607,W,9
+pk-f8ad540db0-un-point-brandonmiller-20.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,underdog,player_points,Brandon Miller,20.5,Over,0.5469,Pinnacle,0,287,,L,19
+pk-f8ad540db0-pr-rebou-nazreid-8.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,prizepicks,player_rebounds,Naz Reid,8.5,Under,0.5528,Kalshi,0,287,,L,10
+pk-f8ad540db0-pr-rebou-brandonmiller-4,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,prizepicks,player_rebounds,Brandon Miller,4,Over,0.5442,Kalshi,0,287,0.5427,W,8
+pk-f8ad540db0-pr-assis-royceoneale-1.5,nba,2026-11-20T23:10:01Z,2026-11-21T00:10:00Z,Charlotte Hornets @ Atlanta Hawks,prizepicks,player_assists,Royce O'Neale,1.5,Over,0.545,Kalshi,0,287,0.535,L,0
+pk-6e1faf38d3-pr-assis-jalensuggs-4,nba,2026-11-20T23:40:16Z,2026-11-21T00:40:00Z,Orlando Magic @ Brooklyn Nets,prizepicks,player_assists,Jalen Suggs,4,Over,0.5602,Kalshi,0,288,0.5573,L,2
+pk-6e1faf38d3-pr-point-tristandasilva-12.5,nba,2026-11-20T23:40:16Z,2026-11-21T00:40:00Z,Orlando Magic @ Brooklyn Nets,prizepicks,player_points,Tristan da Silva,12.5,Under,0.5498,Kalshi,0,288,0.543,W,6
+pk-6e1faf38d3-pr-point-gogabitadze-6.5,nba,2026-11-20T23:40:16Z,2026-11-21T00:40:00Z,Orlando Magic @ Brooklyn Nets,prizepicks,player_points,Goga Bitadze,6.5,Under,0.5493,Kalshi,0,288,,W,4
+pk-10e9b9aca5-pr-point-tyreseproctor-11,nba,2026-11-20T23:40:16Z,2026-11-21T00:40:00Z,Indiana Pacers @ Cleveland Cavaliers,prizepicks,player_points,Tyrese Proctor,11,Over,0.5426,Kalshi,0,288,0.4725,L,5
+pk-10e9b9aca5-pr-rebou-kellyoubre-4,nba,2026-11-20T23:40:16Z,2026-11-21T00:40:00Z,Indiana Pacers @ Cleveland Cavaliers,prizepicks,player_rebounds,Kelly Oubre Jr.,4,Under,0.5544,Kalshi,0,288,0.5582,L,6
+pk-10e9b9aca5-pr-point-sammerrill-6.5,nba,2026-11-20T23:40:16Z,2026-11-21T00:40:00Z,Indiana Pacers @ Cleveland Cavaliers,prizepicks,player_points,Sam Merrill,6.5,Over,0.5541,Kalshi,0,288,,L,6
+pk-9051693857-pr-point-immanuelquickley-17.5,nba,2026-11-20T23:40:16Z,2026-11-21T00:40:00Z,Toronto Raptors @ Detroit Pistons,prizepicks,player_points,Immanuel Quickley,17.5,Over,0.5645,Kalshi,1,288,0.5574,W,18
+pk-9051693857-un-point-johncollins-12.5,nba,2026-11-20T23:40:16Z,2026-11-21T00:40:00Z,Toronto Raptors @ Detroit Pistons,underdog,player_points,John Collins,12.5,Under,0.5478,Kalshi,0,288,,W,3
+pk-9051693857-pr-point-jakobpoeltl-11,nba,2026-11-20T23:40:16Z,2026-11-21T00:40:00Z,Toronto Raptors @ Detroit Pistons,prizepicks,player_points,Jakob Poeltl,11,Under,0.5427,Kalshi,0,288,0.5504,W,10
+pk-d6ed1e97c3-pr-rebou-alexsarr-6.5,nba,2026-11-21T00:10:20Z,2026-11-21T01:10:00Z,Washington Wizards @ Chicago Bulls,prizepicks,player_rebounds,Alex Sarr,6.5,Over,0.5427,Pinnacle,0,290,0.532,L,3
+pk-d6ed1e97c3-pr-rebou-nicclaxton-7,nba,2026-11-21T00:10:20Z,2026-11-21T01:10:00Z,Washington Wizards @ Chicago Bulls,prizepicks,player_rebounds,Nic Claxton,7,Under,0.5661,Kalshi,1,290,,P,7
+pk-17e3a8dc71-pr-assis-ajaymitchell-4,nba,2026-11-21T00:10:20Z,2026-11-21T01:10:00Z,New Orleans Pelicans @ Oklahoma City Thunder,prizepicks,player_assists,Ajay Mitchell,4,Under,0.5432,Kalshi,0,290,0.5432,P,4
+pk-17e3a8dc71-pr-rebou-adaymara-7.5,nba,2026-11-21T00:10:20Z,2026-11-21T01:10:00Z,New Orleans Pelicans @ Oklahoma City Thunder,prizepicks,player_rebounds,Aday Mara,7.5,Under,0.545,Kalshi,0,290,,L,16
+pk-17e3a8dc71-pr-rebou-saddiqbey-5,nba,2026-11-21T00:10:20Z,2026-11-21T01:10:00Z,New Orleans Pelicans @ Oklahoma City Thunder,prizepicks,player_rebounds,Saddiq Bey,5,Under,0.5781,Kalshi,1,290,0.5781,L,6
 pk-ee204ae35d-pr-assis-devinbooker-5,nba,2026-11-21T01:41:45Z,2026-11-21T02:40:00Z,Phoenix Suns @ Utah Jazz,prizepicks,player_assists,Devin Booker,5,Over,0.547,Kalshi,0,293,,pending,
 pk-ee204ae35d-pr-rebou-keyontegeorge-4,nba,2026-11-21T01:41:45Z,2026-11-21T02:40:00Z,Phoenix Suns @ Utah Jazz,prizepicks,player_rebounds,Keyonte George,4,Under,0.5656,Kalshi,1,293,,pending,
 pk-ee204ae35d-pr-rebou-bricesensabaugh-3,nba,2026-11-21T01:41:45Z,2026-11-21T02:40:00Z,Phoenix Suns @ Utah Jazz,prizepicks,player_rebounds,Brice Sensabaugh,3,Over,0.549,Kalshi,0,293,,pending,
