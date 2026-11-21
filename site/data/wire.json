@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "at": "2026-11-21T19:35:46.784969+00:00",
+   "kind": "qb",
+   "source": "sleeper",
+   "text": "Carson Beck (ARI QB) status questionable -> out [Back]"
+  },
+  {
+   "at": "2026-11-21T19:32:41.901859+00:00",
+   "kind": "qb",
+   "source": "rotoworld-fb",
+   "text": "Carson Beck ruled out, Josh Johnson to start"
+  },
+  {
    "at": "2026-11-21T18:52:23.663735+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -167,18 +179,6 @@
    "kind": "qb",
    "source": "rapsheet",
    "text": "Jets QB Geno Smith has been ruled out with an ankle injury."
-  },
-  {
-   "at": "2026-11-15T20:35:11.460550+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Woody Marks (HOU RB) status questionable -> out [Concussion]"
-  },
-  {
-   "at": "2026-11-15T20:07:11.298979+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Woody Marks questionable, evaluated for concussion"
   }
  ]
 }
