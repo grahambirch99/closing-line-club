@@ -240,3 +240,5 @@
 {"kind": "injury", "team": "", "player": "Dontayvion Wicks", "pos": "", "source": "rotoworld-fb", "text": "Dontayvion Wicks (ankle) ruled out for Week 11", "at": "2026-11-20T21:07:02.449436+00:00"}
 {"kind": "injury", "team": "", "player": "Ladd Mcconkey", "pos": "", "source": "rotoworld-fb", "text": "Ladd McConkey (back) draws questionable tag", "at": "2026-11-20T21:28:50.118702+00:00"}
 {"kind": "injury", "team": "", "player": "Tyjae Spears", "pos": "", "source": "rotoworld-fb", "text": "Titans send Tyjae Spears (knee) to injured reserve", "at": "2026-11-21T18:52:23.663735+00:00"}
+{"kind": "qb", "team": "ARI", "player": "Carson Beck", "pos": "QB", "strong": true, "source": "rotoworld-fb", "text": "Carson Beck ruled out, Josh Johnson to start", "at": "2026-11-21T19:32:41.901859+00:00"}
+{"kind": "qb", "source": "sleeper", "team": "ARI", "player": "Carson Beck", "pos": "QB", "text": "Carson Beck (ARI QB) status questionable -> out [Back]", "at": "2026-11-21T19:35:46.784969+00:00"}
