@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T17:51:55Z",
+ "generated_at": "2026-11-22T19:43:00Z",
  "current_week": 11,
  "weeks": [
   {
@@ -1684,6 +1684,34 @@
      "system": "Props model: Pinnacle only \u00b7 Kalshi has no line",
      "strategy": "props-midweek",
      "live": true
+    },
+    {
+     "id": "wind-3a60ed1d20004aa4d4772b2c1a2272e7-54.5",
+     "week": 11,
+     "kind": "paper",
+     "tier": "",
+     "market": "totals",
+     "title": "Bengals at Commanders",
+     "bet": "Under 54.5 points",
+     "game": "Bengals at Commanders",
+     "kick": "2026-11-24T01:15:00Z",
+     "kick_label": "Mon 5:15 PM PT",
+     "venue": "Novig",
+     "price": "-106",
+     "stake": null,
+     "implied": null,
+     "fair": null,
+     "edge": null,
+     "worst": "",
+     "analysis": "Wind Unders angle (paper): forecast 12.5 mph at kickoff.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-22T19:41:00Z",
+     "system": "Wind Unders angle",
+     "strategy": "wind",
+     "live": false
     }
    ]
   },
