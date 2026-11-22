@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-22T23:22:13.400948+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Jordyn Tyson limited to two targets, 10 yards"
+  },
+  {
    "at": "2026-11-22T22:02:08.932355+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Woody Marks (concussion) remains a DNP Tuesday"
-  },
-  {
-   "at": "2026-11-17T21:21:48.255068+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Titans send Wan'Dale Robinson to injured reserve"
   }
  ]
 }
