@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "at": "2026-11-22T18:47:30.010850+00:00",
+   "kind": "injury",
+   "source": "rapsheet",
+   "text": "Titans WR Carnell Tate (shoulder) is expected to play despite a shoulder injury that has him questionable, source says."
+  },
+  {
+   "at": "2026-11-22T18:47:30.010850+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Carson Beck officially out for Cardinals"
+  },
+  {
    "at": "2026-11-21T19:35:46.784969+00:00",
    "kind": "qb",
    "source": "sleeper",
@@ -167,18 +179,6 @@
    "kind": "injury",
    "source": "sleeper",
    "text": "Brock Bowers (LV TE) status questionable -> out [Ankle]"
-  },
-  {
-   "at": "2026-11-15T21:02:53.241396+00:00",
-   "kind": "qb",
-   "source": "sleeper",
-   "text": "Geno Smith (NYJ QB) status questionable -> out [Ankle]"
-  },
-  {
-   "at": "2026-11-15T20:50:22.101422+00:00",
-   "kind": "qb",
-   "source": "rapsheet",
-   "text": "Jets QB Geno Smith has been ruled out with an ankle injury."
   }
  ]
 }
