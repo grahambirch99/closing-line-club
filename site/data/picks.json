@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-11-22T00:13:13Z",
+ "generated_at": "2026-11-22T05:31:46Z",
  "current_week": 11,
  "weeks": [
   {
    "week": 11,
    "dates": "Nov 19\u201323",
    "record": {
-    "w": 3,
+    "w": 5,
     "l": 2,
     "p": 0,
-    "units": 1.0,
-    "roi": 40.0,
-    "clv": 5.03,
+    "units": 1.9,
+    "roi": 54.2,
+    "clv": 4.12,
     "beat": 100,
-    "n_clv": 3,
-    "clv_any": 4.12,
-    "n_clv_any": 5
+    "n_clv": 4,
+    "clv_any": 3.53,
+    "n_clv_any": 7
    },
    "paper_record": {
     "w": 0,
@@ -30,16 +30,16 @@
     "n_clv_any": 0
    },
    "clv_record": {
-    "w": 3,
+    "w": 5,
     "l": 2,
     "p": 0,
-    "units": 1.0,
-    "roi": 40.0,
-    "clv": 5.03,
+    "units": 1.9,
+    "roi": 54.2,
+    "clv": 4.12,
     "beat": 100,
-    "n_clv": 3,
-    "clv_any": 4.12,
-    "n_clv_any": 5
+    "n_clv": 4,
+    "clv_any": 3.53,
+    "n_clv_any": 7
    },
    "picks": [
     {
@@ -212,10 +212,10 @@
      "fair": 49.1,
      "edge": 7.8,
      "worst": "",
-     "status": "pending",
-     "actual": "",
+     "status": "W",
+     "actual": "5",
      "clv": 1.4,
-     "units": null,
+     "units": 0.598,
      "posted": "2026-11-21T19:15:00Z",
      "analysis": "ProphetX +122 vs Pinnacle's no-margin 49.1%: 7.8% return, 3.6 pts above break-even after fees. College football prop paper test (ACC/Big 12/Notre Dame games, no Big Ten or SEC teams).",
      "system": "College football props",
@@ -244,10 +244,10 @@
      "fair": 64.8,
      "edge": 3.5,
      "worst": "",
-     "status": "pending",
-     "actual": "",
+     "status": "W",
+     "actual": "1",
      "clv": 2.7,
-     "units": null,
+     "units": 0.299,
      "posted": "2026-11-21T19:15:00Z",
      "analysis": "ProphetX -164 vs Pinnacle's no-margin 64.8%: 3.5% return, 2.2 pts above break-even after fees. College football prop paper test (ACC/Big 12/Notre Dame games, no Big Ten or SEC teams).",
      "system": "College football props",
