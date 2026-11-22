@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-22T21:12:29.566152+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Derrick Henry (concussion) headed to locker room"
+  },
+  {
    "at": "2026-11-22T20:10:25.220848+00:00",
    "kind": "injury",
    "source": "sleeper",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Luther Burden clears concussion protocol"
-  },
-  {
-   "at": "2026-11-17T01:51:54.004237+00:00",
-   "kind": "injury",
-   "source": "rotowire",
-   "text": "Oronde Gadsden: Questionable to return Monday"
   }
  ]
 }
