@@ -1,27 +1,27 @@
 {
  "season": {
-  "w": 105,
-  "l": 74,
+  "w": 108,
+  "l": 75,
   "p": 0,
-  "units": 20.33,
-  "roi": 21.2,
-  "clv": 0.78,
+  "units": 21.83,
+  "roi": 22.2,
+  "clv": 0.83,
   "beat": 74,
-  "n_clv": 34,
-  "clv_any": 0.51,
-  "n_clv_any": 154
+  "n_clv": 35,
+  "clv_any": 0.56,
+  "n_clv_any": 158
  },
  "real_money": {
-  "w": 53,
-  "l": 56,
+  "w": 55,
+  "l": 57,
   "p": 0,
-  "units": 3.64,
-  "roi": 6.3,
+  "units": 4.14,
+  "roi": 6.9,
   "clv": -0.22,
   "beat": 64,
   "n_clv": 28,
-  "clv_any": 0.34,
-  "n_clv_any": 100
+  "clv_any": 0.4,
+  "n_clv_any": 103
  },
  "status": {
   "nfl-v1": {
@@ -46,16 +46,16 @@
   }
  },
  "gate": {
-  "w": 16,
+  "w": 17,
   "l": 14,
   "p": 0,
-  "units": 1.33,
-  "roi": 6.6,
-  "clv": 0.25,
-  "beat": 69,
-  "n_clv": 13,
-  "clv_any": 0.59,
-  "n_clv_any": 25,
+  "units": 2.33,
+  "roi": 11.1,
+  "clv": 0.42,
+  "beat": 71,
+  "n_clv": 14,
+  "clv_any": 0.67,
+  "n_clv_any": 26,
   "goal": 150,
   "deadline": "2027-01-13"
  },
@@ -1202,6 +1202,30 @@
    "week": 11,
    "label": "Bryce Underwood: Under 27.5 rushing yards",
    "units": 20.33
+  },
+  {
+   "id": "2026-W11-0119",
+   "week": 11,
+   "label": "Josh Downs: Over 3.5 receptions",
+   "units": 21.33
+  },
+  {
+   "id": "pp-135-702",
+   "week": 11,
+   "label": "Emmett Johnson: Under 85.5 rushing yards",
+   "units": 20.83
+  },
+  {
+   "id": "pp-135-713",
+   "week": 11,
+   "label": "Elijah Higgins: Under 14.5 receiving yards",
+   "units": 21.31
+  },
+  {
+   "id": "pp-136-742",
+   "week": 11,
+   "label": "Tyler Allgeier: Under 9.5 rush attempts",
+   "units": 21.83
   }
  ],
  "clv_by_week": [
@@ -1222,38 +1246,38 @@
   },
   {
    "week": 11,
-   "clv": 4.12,
-   "n": 4
+   "clv": 3.82,
+   "n": 5
   }
  ],
  "by_type": [
   {
    "type": "Mid-week props model",
    "id": "props-midweek",
-   "w": 67,
-   "l": 43,
+   "w": 69,
+   "l": 44,
    "p": 0,
-   "units": 14.59,
-   "roi": 26.5,
+   "units": 15.09,
+   "roi": 26.7,
    "clv": null,
    "beat": null,
    "n_clv": 0,
-   "clv_any": 0.24,
-   "n_clv_any": 102
+   "clv_any": 0.3,
+   "n_clv_any": 105
   },
   {
    "type": "Game-day picks, rules v2",
    "id": "nfl-v2",
-   "w": 16,
+   "w": 17,
    "l": 14,
    "p": 0,
-   "units": 1.33,
-   "roi": 6.6,
-   "clv": 0.25,
-   "beat": 69,
-   "n_clv": 13,
-   "clv_any": 0.59,
-   "n_clv_any": 25
+   "units": 2.33,
+   "roi": 11.1,
+   "clv": 0.42,
+   "beat": 71,
+   "n_clv": 14,
+   "clv_any": 0.67,
+   "n_clv_any": 26
   },
   {
    "type": "Saturday preview",
