@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T19:43:00Z",
+ "generated_at": "2026-11-22T20:02:10Z",
  "current_week": 11,
  "weeks": [
   {
@@ -1291,6 +1291,37 @@
      "live": false
     },
     {
+     "id": "2026-W11-0126",
+     "week": 11,
+     "kind": "trial",
+     "tier": "A",
+     "market": "player_receptions",
+     "title": "Charlie Kolar",
+     "bet": "Over 1.5 receptions",
+     "game": "Jets at Chargers",
+     "kick": "2026-11-22T21:05:00Z",
+     "kick_label": "Sun 1:05 PM PT",
+     "venue": "Novig",
+     "price": "-115",
+     "stake": 7.5,
+     "implied": 53.5,
+     "fair": 55.7,
+     "edge": 4.2,
+     "worst": "-118",
+     "analysis": "Novig at -115 beats Pinnacle's no-vig price (56% to hit), a +4.2% edge after inactives were announced.",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-22T19:41:12Z",
+     "rules": "nfl-v2-paper",
+     "clv_method": "",
+     "close_moved": "",
+     "clv_ok": false,
+     "strategy": "nfl-v2",
+     "live": false
+    },
+    {
      "id": "pp-131-648",
      "week": 11,
      "kind": "paper",
@@ -1703,7 +1734,7 @@
      "fair": null,
      "edge": null,
      "worst": "",
-     "analysis": "Wind Unders angle (paper): forecast 12.5 mph at kickoff.",
+     "analysis": "Wind Unders angle (paper): forecast 13.5 mph at kickoff.",
      "status": "pending",
      "actual": "",
      "clv": null,
