@@ -242,3 +242,5 @@
 {"kind": "injury", "team": "", "player": "Tyjae Spears", "pos": "", "source": "rotoworld-fb", "text": "Titans send Tyjae Spears (knee) to injured reserve", "at": "2026-11-21T18:52:23.663735+00:00"}
 {"kind": "qb", "team": "ARI", "player": "Carson Beck", "pos": "QB", "strong": true, "source": "rotoworld-fb", "text": "Carson Beck ruled out, Josh Johnson to start", "at": "2026-11-21T19:32:41.901859+00:00"}
 {"kind": "qb", "source": "sleeper", "team": "ARI", "player": "Carson Beck", "pos": "QB", "text": "Carson Beck (ARI QB) status questionable -> out [Back]", "at": "2026-11-21T19:35:46.784969+00:00"}
+{"kind": "injury", "team": "", "player": "Carnell Tate", "pos": "", "source": "rapsheet", "text": "Titans WR Carnell Tate (shoulder) is expected to play despite a shoulder injury that has him questionable, source says.", "at": "2026-11-22T18:47:30.010850+00:00"}
+{"kind": "injury", "team": "", "player": "Carson Beck", "pos": "", "source": "rotoworld-fb", "text": "Carson Beck officially out for Cardinals", "at": "2026-11-22T18:47:30.010850+00:00"}
