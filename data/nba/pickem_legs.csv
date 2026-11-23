@@ -439,9 +439,9 @@ pk-37e3f99d7e-pr-rebou-jonathankuminga-5,nba,2026-11-22T00:10:06Z,2026-11-22T01:
 pk-37e3f99d7e-pr-rebou-lameloball-4.5,nba,2026-11-22T00:10:06Z,2026-11-22T01:10:00Z,Memphis Grizzlies @ Minnesota Timberwolves,prizepicks,player_rebounds,LaMelo Ball,4.5,Over,0.5472,Kalshi,0,300,0.5472,W,5
 pk-37e3f99d7e-pr-rebou-cedriccoward-7.5,nba,2026-11-22T00:10:06Z,2026-11-22T01:10:00Z,Memphis Grizzlies @ Minnesota Timberwolves,prizepicks,player_rebounds,Cedric Coward,7.5,Under,0.5625,Pinnacle,1,300,,W,7
 pk-37e3f99d7e-pr-point-treylyles-6.5,nba,2026-11-22T00:10:06Z,2026-11-22T01:10:00Z,Memphis Grizzlies @ Minnesota Timberwolves,prizepicks,player_points,Trey Lyles,6.5,Under,0.5638,Kalshi,1,300,,W,3
-pk-222a288781-un-assis-nickeilalexander-2.5,nba,2026-11-22T19:40:02Z,2026-11-22T20:40:00Z,Detroit Pistons @ Atlanta Hawks,underdog,player_assists,Nickeil Alexander-Walker,2.5,Over,0.5559,Kalshi,0,305,,pending,
-pk-222a288781-pr-assis-jalenjohnson-7,nba,2026-11-22T19:40:02Z,2026-11-22T20:40:00Z,Detroit Pistons @ Atlanta Hawks,prizepicks,player_assists,Jalen Johnson,7,Under,0.5527,Kalshi,0,305,,pending,
-pk-222a288781-pr-point-isaiahjoe-8.5,nba,2026-11-22T19:40:02Z,2026-11-22T20:40:00Z,Detroit Pistons @ Atlanta Hawks,prizepicks,player_points,Isaiah Joe,8.5,Over,0.559,Kalshi,0,305,,pending,
+pk-222a288781-un-assis-nickeilalexander-2.5,nba,2026-11-22T19:40:02Z,2026-11-22T20:40:00Z,Detroit Pistons @ Atlanta Hawks,underdog,player_assists,Nickeil Alexander-Walker,2.5,Over,0.5559,Kalshi,0,305,0.5559,L,1
+pk-222a288781-pr-assis-jalenjohnson-7,nba,2026-11-22T19:40:02Z,2026-11-22T20:40:00Z,Detroit Pistons @ Atlanta Hawks,prizepicks,player_assists,Jalen Johnson,7,Under,0.5527,Kalshi,0,305,,W,0
+pk-222a288781-pr-point-isaiahjoe-8.5,nba,2026-11-22T19:40:02Z,2026-11-22T20:40:00Z,Detroit Pistons @ Atlanta Hawks,prizepicks,player_points,Isaiah Joe,8.5,Over,0.559,Kalshi,0,305,0.559,W,19
 pk-90da1cde41-pr-rebou-isaiahhartenstei-11,nba,2026-11-22T22:10:00Z,2026-11-22T23:10:00Z,Oklahoma City Thunder @ Miami Heat,prizepicks,player_rebounds,Isaiah Hartenstein,11,Under,0.5454,Kalshi,0,307,,pending,
 pk-15a079f55e-pr-rebou-trevonbrazile-4.5,nba,2026-11-22T23:10:03Z,2026-11-23T00:10:00Z,Denver Nuggets @ Chicago Bulls,prizepicks,player_rebounds,Trevon Brazile,4.5,Over,0.5788,Kalshi,1,309,,pending,
 pk-1e7b9477c6-pr-assis-najimarshall-3.5,nba,2026-11-22T23:10:03Z,2026-11-23T00:10:00Z,Dallas Mavericks @ Utah Jazz,prizepicks,player_assists,Naji Marshall,3.5,Under,0.545,Kalshi,0,309,,pending,
