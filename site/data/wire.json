@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-23T00:42:26.390805+00:00",
+   "kind": "qb",
+   "source": "rapsheet",
+   "text": "Chargers QB Justin Herbert is now in the NFL\u2019s concussion protocol, per a team official."
+  },
+  {
    "at": "2026-11-22T23:22:13.400948+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rapsheet",
    "text": "The Titans have promoted WR Xavier Restrepo to the team\u2019s 53-man roster and placed WR Wan\u2019Dale Robinson on Injured Reserve."
-  },
-  {
-   "at": "2026-11-17T21:58:43.951239+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Woody Marks (concussion) remains a DNP Tuesday"
   }
  ]
 }
