@@ -1,27 +1,27 @@
 {
  "season": {
-  "w": 108,
-  "l": 75,
+  "w": 125,
+  "l": 90,
   "p": 0,
-  "units": 21.83,
-  "roi": 22.2,
-  "clv": 0.83,
-  "beat": 74,
-  "n_clv": 35,
-  "clv_any": 0.56,
-  "n_clv_any": 158
+  "units": 21.73,
+  "roi": 19.0,
+  "clv": 0.93,
+  "beat": 75,
+  "n_clv": 40,
+  "clv_any": 0.63,
+  "n_clv_any": 187
  },
  "real_money": {
-  "w": 55,
-  "l": 57,
+  "w": 68,
+  "l": 66,
   "p": 0,
-  "units": 4.14,
-  "roi": 6.9,
+  "units": 6.49,
+  "roi": 9.2,
   "clv": -0.22,
   "beat": 64,
   "n_clv": 28,
-  "clv_any": 0.4,
-  "n_clv_any": 103
+  "clv_any": 0.45,
+  "n_clv_any": 125
  },
  "status": {
   "nfl-v1": {
@@ -43,33 +43,38 @@
    "status": "retired",
    "since": "2026-11-14T16:00:00Z",
    "reason": "Failed its pre-registered test at 1,500 bets; post-mortem found a look-ahead leak (273 bets saved after tip)"
+  },
+  "nfl-v2": {
+   "status": "live",
+   "since": "2026-11-22T23:53:53Z",
+   "reason": "31 graded, ROI +11.1% (> +10%)"
   }
  },
  "gate": {
-  "w": 17,
-  "l": 14,
+  "w": 18,
+  "l": 16,
   "p": 0,
-  "units": 2.33,
-  "roi": 11.1,
-  "clv": 0.42,
-  "beat": 71,
-  "n_clv": 14,
-  "clv_any": 0.67,
-  "n_clv_any": 26,
+  "units": 1.36,
+  "roi": 5.9,
+  "clv": 0.53,
+  "beat": 75,
+  "n_clv": 16,
+  "clv_any": 0.76,
+  "n_clv_any": 29,
   "goal": 150,
   "deadline": "2027-01-13"
  },
  "xmkt": {
-  "w": 2,
-  "l": 5,
+  "w": 3,
+  "l": 7,
   "p": 0,
-  "units": -2.18,
-  "roi": -41.6,
-  "clv": 0.68,
-  "beat": 75,
-  "n_clv": 4,
-  "clv_any": 1.47,
-  "n_clv_any": 7,
+  "units": -2.92,
+  "roi": -38.9,
+  "clv": 0.72,
+  "beat": 67,
+  "n_clv": 6,
+  "clv_any": 1.43,
+  "n_clv_any": 10,
   "goal": 50
  },
  "cfb": {
@@ -1204,28 +1209,220 @@
    "units": 20.33
   },
   {
+   "id": "2026-W11-0117",
+   "week": 11,
+   "label": "Tony Pollard: Over 3.5 receptions",
+   "units": 19.58
+  },
+  {
    "id": "2026-W11-0119",
    "week": 11,
    "label": "Josh Downs: Over 3.5 receptions",
-   "units": 21.33
+   "units": 20.58
+  },
+  {
+   "id": "2026-W11-0120",
+   "week": 11,
+   "label": "Josh Allen: Over 5.5 rush attempts",
+   "units": 19.83
+  },
+  {
+   "id": "2026-W11-0122",
+   "week": 11,
+   "label": "Carnell Tate: Over 5.5 receptions",
+   "units": 19.08
+  },
+  {
+   "id": "2026-W11-0124",
+   "week": 11,
+   "label": "Baker Mayfield: Under 211.5 passing yards",
+   "units": 19.85
+  },
+  {
+   "id": "2026-W11-0125",
+   "week": 11,
+   "label": "Derrick Henry: Under 63.5 rushing yards",
+   "units": 19.1
+  },
+  {
+   "id": "pp-131-638",
+   "week": 11,
+   "label": "Rico Dowdle: Under 37.5 rushing yards",
+   "units": 19.6
+  },
+  {
+   "id": "pp-131-639",
+   "week": 11,
+   "label": "Ollie Gordon II: Under 65.5 rushing yards",
+   "units": 19.1
+  },
+  {
+   "id": "pp-131-651",
+   "week": 11,
+   "label": "Tez Johnson: Under 19.5 receiving yards",
+   "units": 19.77
+  },
+  {
+   "id": "pp-131-652",
+   "week": 11,
+   "label": "Chris Olave: Under 5.5 receptions",
+   "units": 19.27
+  },
+  {
+   "id": "pp-131-664",
+   "week": 11,
+   "label": "Kyle Monangai: Under 42.5 rushing yards",
+   "units": 19.86
+  },
+  {
+   "id": "pp-131-666",
+   "week": 11,
+   "label": "Jameson Williams: Under 50.5 receiving yards",
+   "units": 19.36
+  },
+  {
+   "id": "pp-131-667",
+   "week": 11,
+   "label": "Dak Prescott: Under 276.5 passing yards",
+   "units": 18.86
+  },
+  {
+   "id": "pp-131-668",
+   "week": 11,
+   "label": "Jaylen Warren: Under 65.5 rushing yards",
+   "units": 19.39
+  },
+  {
+   "id": "pp-135-692",
+   "week": 11,
+   "label": "Kyle McCord: Under 29.5 pass attempts",
+   "units": 18.89
+  },
+  {
+   "id": "pp-135-693",
+   "week": 11,
+   "label": "Joe Milton: Under 18.5 completions",
+   "units": 19.39
+  },
+  {
+   "id": "pp-135-694",
+   "week": 11,
+   "label": "Amon-Ra St. Brown: Under 6.5 receptions",
+   "units": 20.15
+  },
+  {
+   "id": "pp-135-698",
+   "week": 11,
+   "label": "Colston Loveland: Under 50.5 receiving yards",
+   "units": 20.66
+  },
+  {
+   "id": "pp-135-699",
+   "week": 11,
+   "label": "Cam Ward: Under 11.5 rushing yards",
+   "units": 21.35
   },
   {
    "id": "pp-135-702",
    "week": 11,
    "label": "Emmett Johnson: Under 85.5 rushing yards",
-   "units": 20.83
+   "units": 20.85
+  },
+  {
+   "id": "pp-135-705",
+   "week": 11,
+   "label": "Caleb Williams: Under 20.5 completions",
+   "units": 21.3
+  },
+  {
+   "id": "pp-135-707",
+   "week": 11,
+   "label": "Dallas Goedert: Under 3.5 receptions",
+   "units": 21.74
+  },
+  {
+   "id": "pp-135-711",
+   "week": 11,
+   "label": "Chuba Hubbard: Under 16.5 rush attempts",
+   "units": 21.24
+  },
+  {
+   "id": "pp-135-712",
+   "week": 11,
+   "label": "Sam LaPorta: Under 3.5 receptions",
+   "units": 21.77
   },
   {
    "id": "pp-135-713",
    "week": 11,
    "label": "Elijah Higgins: Under 14.5 receiving yards",
-   "units": 21.31
+   "units": 22.25
+  },
+  {
+   "id": "pp-136-735",
+   "week": 11,
+   "label": "Darren Waller: Under 19.5 receiving yards",
+   "units": 21.75
   },
   {
    "id": "pp-136-742",
    "week": 11,
    "label": "Tyler Allgeier: Under 9.5 rush attempts",
-   "units": 21.83
+   "units": 22.27
+  },
+  {
+   "id": "pp-136-747",
+   "week": 11,
+   "label": "Chris Godwin: Under 3.5 receptions",
+   "units": 22.68
+  },
+  {
+   "id": "pp-136-753",
+   "week": 11,
+   "label": "Javonte Williams: Under 21.5 rush attempts",
+   "units": 22.95
+  },
+  {
+   "id": "pp-136-759",
+   "week": 11,
+   "label": "Kenny Gainwell: Under 1.5 receptions",
+   "units": 22.45
+  },
+  {
+   "id": "wind-403a88701352da05b0710a9e883b803e-40.5",
+   "week": 11,
+   "label": "Cardinals at Chiefs: Under 40.5 points",
+   "units": 22.45
+  },
+  {
+   "id": "wind-4c5b1c0843a260278e95eb93e7787576-45.5",
+   "week": 11,
+   "label": "Dolphins at Bills: Under 45.5 points",
+   "units": 22.45
+  },
+  {
+   "id": "wind-3ea90704fb576633bd1e2fa5aafd9ea3-47.5",
+   "week": 11,
+   "label": "Saints at Bears: Under 47.5 points",
+   "units": 22.45
+  },
+  {
+   "id": "2026-W11-0121",
+   "week": 11,
+   "label": "Adonai Mitchell: Under 3.5 receptions",
+   "units": 22.98
+  },
+  {
+   "id": "2026-W11-0126",
+   "week": 11,
+   "label": "Charlie Kolar: Over 1.5 receptions",
+   "units": 22.23
+  },
+  {
+   "id": "pp-131-648",
+   "week": 11,
+   "label": "Omarion Hampton: Under 62.5 rushing yards",
+   "units": 21.73
   }
  ],
  "clv_by_week": [
@@ -1246,52 +1443,80 @@
   },
   {
    "week": 11,
-   "clv": 3.82,
-   "n": 5
+   "clv": 2.73,
+   "n": 10
   }
  ],
  "by_type": [
   {
    "type": "Mid-week props model",
    "id": "props-midweek",
-   "w": 69,
-   "l": 44,
+   "w": 82,
+   "l": 53,
    "p": 0,
-   "units": 15.09,
-   "roi": 26.7,
+   "units": 17.44,
+   "roi": 25.8,
    "clv": null,
    "beat": null,
    "n_clv": 0,
-   "clv_any": 0.3,
-   "n_clv_any": 105
+   "clv_any": 0.37,
+   "n_clv_any": 127
   },
   {
    "type": "Game-day picks, rules v2",
    "id": "nfl-v2",
-   "w": 17,
-   "l": 14,
+   "w": 18,
+   "l": 16,
    "p": 0,
-   "units": 2.33,
-   "roi": 11.1,
-   "clv": 0.42,
-   "beat": 71,
-   "n_clv": 14,
-   "clv_any": 0.67,
-   "n_clv_any": 26
+   "units": 1.36,
+   "roi": 5.9,
+   "clv": 0.53,
+   "beat": 75,
+   "n_clv": 16,
+   "clv_any": 0.76,
+   "n_clv_any": 29
   },
   {
    "type": "Saturday preview",
    "id": "sat-preview",
    "w": 10,
+   "l": 6,
+   "p": 0,
+   "units": 4.19,
+   "roi": 35.7,
+   "clv": 0.91,
+   "beat": 83,
+   "n_clv": 12,
+   "clv_any": 0.91,
+   "n_clv_any": 12
+  },
+  {
+   "type": "Wind Unders angle",
+   "id": "wind",
+   "w": 6,
    "l": 5,
    "p": 0,
-   "units": 4.94,
-   "roi": 44.9,
-   "clv": 0.63,
-   "beat": 82,
-   "n_clv": 11,
-   "clv_any": 0.63,
-   "n_clv_any": 11
+   "units": 0,
+   "roi": null,
+   "clv": null,
+   "beat": null,
+   "n_clv": 0,
+   "clv_any": null,
+   "n_clv_any": 0
+  },
+  {
+   "type": "Game-day picks, new markets",
+   "id": "nfl-xmkt",
+   "w": 3,
+   "l": 7,
+   "p": 0,
+   "units": -2.92,
+   "roi": -38.9,
+   "clv": 0.72,
+   "beat": 67,
+   "n_clv": 6,
+   "clv_any": 1.43,
+   "n_clv_any": 10
   },
   {
    "type": "College football props",
@@ -1306,34 +1531,6 @@
    "n_clv": 6,
    "clv_any": 2.58,
    "n_clv_any": 9
-  },
-  {
-   "type": "Wind Unders angle",
-   "id": "wind",
-   "w": 4,
-   "l": 4,
-   "p": 0,
-   "units": 0,
-   "roi": null,
-   "clv": null,
-   "beat": null,
-   "n_clv": 0,
-   "clv_any": null,
-   "n_clv_any": 0
-  },
-  {
-   "type": "Game-day picks, new markets",
-   "id": "nfl-xmkt",
-   "w": 2,
-   "l": 5,
-   "p": 0,
-   "units": -2.18,
-   "roi": -41.6,
-   "clv": 0.68,
-   "beat": 75,
-   "n_clv": 4,
-   "clv_any": 1.47,
-   "n_clv_any": 7
   }
  ]
 }
