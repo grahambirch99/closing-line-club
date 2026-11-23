@@ -1,15 +1,15 @@
 {
  "season": {
   "w": 131,
-  "l": 96,
+  "l": 97,
   "p": 0,
-  "units": 21.54,
-  "roi": 17.8,
+  "units": 21.04,
+  "roi": 17.4,
   "clv": 0.87,
   "beat": 73,
   "n_clv": 41,
-  "clv_any": 0.65,
-  "n_clv_any": 199
+  "clv_any": 0.66,
+  "n_clv_any": 200
  },
  "real_money": {
   "w": 73,
@@ -52,15 +52,15 @@
  },
  "gate": {
   "w": 18,
-  "l": 16,
+  "l": 17,
   "p": 0,
-  "units": 1.36,
-  "roi": 5.9,
+  "units": 0.86,
+  "roi": 3.6,
   "clv": 0.53,
   "beat": 75,
   "n_clv": 16,
-  "clv_any": 0.76,
-  "n_clv_any": 29,
+  "clv_any": 0.83,
+  "n_clv_any": 30,
   "goal": 150,
   "deadline": "2027-01-13"
  },
@@ -1233,268 +1233,280 @@
    "units": 19.08
   },
   {
+   "id": "2026-W11-0123",
+   "week": 11,
+   "label": "Reggie Virgil: Over 1.5 receptions",
+   "units": 18.58
+  },
+  {
    "id": "2026-W11-0124",
    "week": 11,
    "label": "Baker Mayfield: Under 211.5 passing yards",
-   "units": 19.85
+   "units": 19.35
   },
   {
    "id": "2026-W11-0125",
    "week": 11,
    "label": "Derrick Henry: Under 63.5 rushing yards",
-   "units": 19.1
+   "units": 18.6
   },
   {
    "id": "pp-131-638",
    "week": 11,
    "label": "Rico Dowdle: Under 37.5 rushing yards",
-   "units": 19.6
+   "units": 19.1
   },
   {
    "id": "pp-131-639",
    "week": 11,
    "label": "Ollie Gordon II: Under 65.5 rushing yards",
-   "units": 19.1
+   "units": 18.6
   },
   {
    "id": "pp-131-651",
    "week": 11,
    "label": "Tez Johnson: Under 19.5 receiving yards",
-   "units": 19.77
+   "units": 19.27
   },
   {
    "id": "pp-131-652",
    "week": 11,
    "label": "Chris Olave: Under 5.5 receptions",
-   "units": 19.27
+   "units": 18.77
+  },
+  {
+   "id": "pp-131-655",
+   "week": 11,
+   "label": "Carson Beck: Under 170.5 passing yards",
+   "units": 18.77
   },
   {
    "id": "pp-131-664",
    "week": 11,
    "label": "Kyle Monangai: Under 42.5 rushing yards",
-   "units": 19.86
+   "units": 19.36
   },
   {
    "id": "pp-131-666",
    "week": 11,
    "label": "Jameson Williams: Under 50.5 receiving yards",
-   "units": 19.36
+   "units": 18.86
   },
   {
    "id": "pp-131-667",
    "week": 11,
    "label": "Dak Prescott: Under 276.5 passing yards",
-   "units": 18.86
+   "units": 18.36
   },
   {
    "id": "pp-131-668",
    "week": 11,
    "label": "Jaylen Warren: Under 65.5 rushing yards",
-   "units": 19.39
+   "units": 18.89
   },
   {
    "id": "pp-135-692",
    "week": 11,
    "label": "Kyle McCord: Under 29.5 pass attempts",
-   "units": 18.89
+   "units": 18.39
   },
   {
    "id": "pp-135-693",
    "week": 11,
    "label": "Joe Milton: Under 18.5 completions",
-   "units": 19.39
+   "units": 18.89
   },
   {
    "id": "pp-135-694",
    "week": 11,
    "label": "Amon-Ra St. Brown: Under 6.5 receptions",
-   "units": 20.15
+   "units": 19.65
   },
   {
    "id": "pp-135-698",
    "week": 11,
    "label": "Colston Loveland: Under 50.5 receiving yards",
-   "units": 20.66
+   "units": 20.16
   },
   {
    "id": "pp-135-699",
    "week": 11,
    "label": "Cam Ward: Under 11.5 rushing yards",
-   "units": 21.35
+   "units": 20.85
   },
   {
    "id": "pp-135-702",
    "week": 11,
    "label": "Emmett Johnson: Under 85.5 rushing yards",
-   "units": 20.85
+   "units": 20.35
   },
   {
    "id": "pp-135-705",
    "week": 11,
    "label": "Caleb Williams: Under 20.5 completions",
-   "units": 21.3
+   "units": 20.8
   },
   {
    "id": "pp-135-707",
    "week": 11,
    "label": "Dallas Goedert: Under 3.5 receptions",
-   "units": 21.74
+   "units": 21.24
   },
   {
    "id": "pp-135-711",
    "week": 11,
    "label": "Chuba Hubbard: Under 16.5 rush attempts",
-   "units": 21.24
+   "units": 20.74
   },
   {
    "id": "pp-135-712",
    "week": 11,
    "label": "Sam LaPorta: Under 3.5 receptions",
-   "units": 21.77
+   "units": 21.27
   },
   {
    "id": "pp-135-713",
    "week": 11,
    "label": "Elijah Higgins: Under 14.5 receiving yards",
-   "units": 22.25
+   "units": 21.75
   },
   {
    "id": "pp-136-735",
    "week": 11,
    "label": "Darren Waller: Under 19.5 receiving yards",
-   "units": 21.75
+   "units": 21.25
   },
   {
    "id": "pp-136-742",
    "week": 11,
    "label": "Tyler Allgeier: Under 9.5 rush attempts",
-   "units": 22.27
+   "units": 21.77
   },
   {
    "id": "pp-136-747",
    "week": 11,
    "label": "Chris Godwin: Under 3.5 receptions",
-   "units": 22.68
+   "units": 22.18
   },
   {
    "id": "pp-136-753",
    "week": 11,
    "label": "Javonte Williams: Under 21.5 rush attempts",
-   "units": 22.95
+   "units": 22.45
   },
   {
    "id": "pp-136-759",
    "week": 11,
    "label": "Kenny Gainwell: Under 1.5 receptions",
-   "units": 22.45
+   "units": 21.95
   },
   {
    "id": "wind-403a88701352da05b0710a9e883b803e-40.5",
    "week": 11,
    "label": "Cardinals at Chiefs: Under 40.5 points",
-   "units": 22.45
+   "units": 21.95
   },
   {
    "id": "wind-4c5b1c0843a260278e95eb93e7787576-45.5",
    "week": 11,
    "label": "Dolphins at Bills: Under 45.5 points",
-   "units": 22.45
+   "units": 21.95
   },
   {
    "id": "wind-3ea90704fb576633bd1e2fa5aafd9ea3-47.5",
    "week": 11,
    "label": "Saints at Bears: Under 47.5 points",
-   "units": 22.45
+   "units": 21.95
   },
   {
    "id": "2026-W11-0121",
    "week": 11,
    "label": "Adonai Mitchell: Under 3.5 receptions",
-   "units": 22.98
+   "units": 22.48
   },
   {
    "id": "2026-W11-0126",
    "week": 11,
    "label": "Charlie Kolar: Over 1.5 receptions",
-   "units": 22.23
+   "units": 21.73
   },
   {
    "id": "pp-131-648",
    "week": 11,
    "label": "Omarion Hampton: Under 62.5 rushing yards",
-   "units": 21.73
+   "units": 21.23
   },
   {
    "id": "pp-131-644",
    "week": 11,
    "label": "J.K. Dobbins: Under 22.5 rushing yards",
-   "units": 22.23
+   "units": 21.73
   },
   {
    "id": "pp-131-665",
    "week": 11,
    "label": "Mike Washington Jr.: Under 49.5 rushing yards",
-   "units": 22.35
+   "units": 21.85
   },
   {
    "id": "pp-135-689",
    "week": 11,
    "label": "Malachi Fields: Under 19.5 receiving yards",
-   "units": 21.85
+   "units": 21.35
   },
   {
    "id": "pp-135-700",
    "week": 11,
    "label": "Ashton Jeanty: Under 27.5 receiving yards",
-   "units": 21.35
+   "units": 20.85
   },
   {
    "id": "pp-135-708",
    "week": 11,
    "label": "Brian Thomas Jr: Under 1.5 receptions",
-   "units": 21.65
+   "units": 21.15
   },
   {
    "id": "pp-136-743",
    "week": 11,
    "label": "Jaylen Waddle: Under 39.5 receiving yards",
-   "units": 21.15
+   "units": 20.65
   },
   {
    "id": "pp-136-751",
    "week": 11,
    "label": "Isaiah Likely: Under 5.5 receptions",
-   "units": 21.52
+   "units": 21.02
   },
   {
    "id": "pp-136-756",
    "week": 11,
    "label": "Theo Johnson: Under 9.5 receiving yards",
-   "units": 21.02
+   "units": 20.52
   },
   {
    "id": "2026-W11-0118",
    "week": 11,
    "label": "Tai Felton: Over 1.5 receptions",
-   "units": 21.91
+   "units": 21.41
   },
   {
    "id": "2026-W11-0127",
    "week": 11,
    "label": "Jordan Mason: Over 12.5 rush attempts",
-   "units": 21.41
+   "units": 20.91
   },
   {
    "id": "pp-131-640",
    "week": 11,
    "label": "Justin Jefferson: Under 79.5 receiving yards",
-   "units": 20.91
+   "units": 20.41
   },
   {
    "id": "pp-135-696",
    "week": 11,
    "label": "Christian McCaffrey: Under 3.5 receptions",
-   "units": 21.54
+   "units": 21.04
   }
  ],
  "clv_by_week": [
@@ -1538,15 +1550,15 @@
    "type": "Game-day picks, rules v2",
    "id": "nfl-v2",
    "w": 18,
-   "l": 16,
+   "l": 17,
    "p": 0,
-   "units": 1.36,
-   "roi": 5.9,
+   "units": 0.86,
+   "roi": 3.6,
    "clv": 0.53,
    "beat": 75,
    "n_clv": 16,
-   "clv_any": 0.76,
-   "n_clv_any": 29
+   "clv_any": 0.83,
+   "n_clv_any": 30
   },
   {
    "type": "Saturday preview",
