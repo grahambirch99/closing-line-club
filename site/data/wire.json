@@ -1,6 +1,24 @@
 {
  "items": [
   {
+   "at": "2026-11-23T23:00:09.483520+00:00",
+   "kind": "injury",
+   "source": "rapsheet",
+   "text": "The Commanders are activating RB Jacory Croskey-Merritt from Injured Reserve, and he\u2019ll play tonight. A big list, as he\u2019s recovered from a groin injury."
+  },
+  {
+   "at": "2026-11-23T23:00:09.483520+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Kenneth Walker (groin) estimated DNP on Monday"
+  },
+  {
+   "at": "2026-11-23T23:00:09.483520+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Saquon Barkley (neck/illness) limited on Monday"
+  },
+  {
    "at": "2026-11-23T00:42:26.390805+00:00",
    "kind": "qb",
    "source": "rapsheet",
@@ -161,24 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Bhayshul Tuten (foot/ankle) limited in practice"
-  },
-  {
-   "at": "2026-11-18T20:02:09.091580+00:00",
-   "kind": "qb",
-   "source": "rapsheet",
-   "text": " QB Joe Milton will start for the Philadelphia Eagles on Sunday."
-  },
-  {
-   "at": "2026-11-18T11:59:19.398539+00:00",
-   "kind": "qb",
-   "source": "sleeper",
-   "text": "Geno Smith (NYJ QB) status out -> questionable [Ankle]"
-  },
-  {
-   "at": "2026-11-18T00:18:20.009330+00:00",
-   "kind": "injury",
-   "source": "rapsheet",
-   "text": "The Titans have promoted WR Xavier Restrepo to the team\u2019s 53-man roster and placed WR Wan\u2019Dale Robinson on Injured Reserve."
   }
  ]
 }
