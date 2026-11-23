@@ -1,27 +1,27 @@
 {
  "season": {
-  "w": 129,
-  "l": 94,
+  "w": 131,
+  "l": 96,
   "p": 0,
-  "units": 21.02,
-  "roi": 17.7,
-  "clv": 0.93,
-  "beat": 75,
-  "n_clv": 40,
-  "clv_any": 0.66,
-  "n_clv_any": 195
+  "units": 21.54,
+  "roi": 17.8,
+  "clv": 0.87,
+  "beat": 73,
+  "n_clv": 41,
+  "clv_any": 0.65,
+  "n_clv_any": 199
  },
  "real_money": {
-  "w": 72,
-  "l": 70,
+  "w": 73,
+  "l": 71,
   "p": 0,
-  "units": 5.78,
-  "roi": 7.7,
+  "units": 5.91,
+  "roi": 7.8,
   "clv": -0.22,
   "beat": 64,
   "n_clv": 28,
   "clv_any": 0.52,
-  "n_clv_any": 133
+  "n_clv_any": 135
  },
  "status": {
   "nfl-v1": {
@@ -66,15 +66,15 @@
  },
  "xmkt": {
   "w": 3,
-  "l": 7,
+  "l": 8,
   "p": 0,
-  "units": -2.92,
-  "roi": -38.9,
+  "units": -3.42,
+  "roi": -42.7,
   "clv": 0.72,
   "beat": 67,
   "n_clv": 6,
-  "clv_any": 1.43,
-  "n_clv_any": 10,
+  "clv_any": 1.21,
+  "n_clv_any": 11,
   "goal": 50
  },
  "cfb": {
@@ -1471,6 +1471,30 @@
    "week": 11,
    "label": "Theo Johnson: Under 9.5 receiving yards",
    "units": 21.02
+  },
+  {
+   "id": "2026-W11-0118",
+   "week": 11,
+   "label": "Tai Felton: Over 1.5 receptions",
+   "units": 21.91
+  },
+  {
+   "id": "2026-W11-0127",
+   "week": 11,
+   "label": "Jordan Mason: Over 12.5 rush attempts",
+   "units": 21.41
+  },
+  {
+   "id": "pp-131-640",
+   "week": 11,
+   "label": "Justin Jefferson: Under 79.5 receiving yards",
+   "units": 20.91
+  },
+  {
+   "id": "pp-135-696",
+   "week": 11,
+   "label": "Christian McCaffrey: Under 3.5 receptions",
+   "units": 21.54
   }
  ],
  "clv_by_week": [
@@ -1491,24 +1515,24 @@
   },
   {
    "week": 11,
-   "clv": 2.73,
-   "n": 10
+   "clv": 2.35,
+   "n": 11
   }
  ],
  "by_type": [
   {
    "type": "Mid-week props model",
    "id": "props-midweek",
-   "w": 86,
-   "l": 57,
+   "w": 87,
+   "l": 58,
    "p": 0,
-   "units": 16.74,
-   "roi": 23.4,
+   "units": 16.86,
+   "roi": 23.3,
    "clv": null,
    "beat": null,
    "n_clv": 0,
    "clv_any": 0.44,
-   "n_clv_any": 135
+   "n_clv_any": 137
   },
   {
    "type": "Game-day picks, rules v2",
@@ -1527,16 +1551,30 @@
   {
    "type": "Saturday preview",
    "id": "sat-preview",
-   "w": 10,
+   "w": 11,
    "l": 6,
    "p": 0,
-   "units": 4.19,
-   "roi": 35.7,
-   "clv": 0.91,
-   "beat": 83,
-   "n_clv": 12,
-   "clv_any": 0.91,
-   "n_clv_any": 12
+   "units": 5.08,
+   "roi": 40.6,
+   "clv": 0.72,
+   "beat": 77,
+   "n_clv": 13,
+   "clv_any": 0.72,
+   "n_clv_any": 13
+  },
+  {
+   "type": "Game-day picks, new markets",
+   "id": "nfl-xmkt",
+   "w": 3,
+   "l": 8,
+   "p": 0,
+   "units": -3.42,
+   "roi": -42.7,
+   "clv": 0.72,
+   "beat": 67,
+   "n_clv": 6,
+   "clv_any": 1.21,
+   "n_clv_any": 11
   },
   {
    "type": "Wind Unders angle",
@@ -1551,20 +1589,6 @@
    "n_clv": 0,
    "clv_any": null,
    "n_clv_any": 0
-  },
-  {
-   "type": "Game-day picks, new markets",
-   "id": "nfl-xmkt",
-   "w": 3,
-   "l": 7,
-   "p": 0,
-   "units": -2.92,
-   "roi": -38.9,
-   "clv": 0.72,
-   "beat": 67,
-   "n_clv": 6,
-   "clv_any": 1.43,
-   "n_clv_any": 10
   },
   {
    "type": "College football props",
