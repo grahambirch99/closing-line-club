@@ -1,27 +1,27 @@
 {
  "season": {
-  "w": 125,
-  "l": 90,
+  "w": 129,
+  "l": 94,
   "p": 0,
-  "units": 21.73,
-  "roi": 19.0,
+  "units": 21.02,
+  "roi": 17.7,
   "clv": 0.93,
   "beat": 75,
   "n_clv": 40,
-  "clv_any": 0.63,
-  "n_clv_any": 187
+  "clv_any": 0.66,
+  "n_clv_any": 195
  },
  "real_money": {
-  "w": 68,
-  "l": 66,
+  "w": 72,
+  "l": 70,
   "p": 0,
-  "units": 6.49,
-  "roi": 9.2,
+  "units": 5.78,
+  "roi": 7.7,
   "clv": -0.22,
   "beat": 64,
   "n_clv": 28,
-  "clv_any": 0.45,
-  "n_clv_any": 125
+  "clv_any": 0.52,
+  "n_clv_any": 133
  },
  "status": {
   "nfl-v1": {
@@ -45,9 +45,9 @@
    "reason": "Failed its pre-registered test at 1,500 bets; post-mortem found a look-ahead leak (273 bets saved after tip)"
   },
   "nfl-v2": {
-   "status": "live",
-   "since": "2026-11-22T23:53:53Z",
-   "reason": "31 graded, ROI +11.1% (> +10%)"
+   "status": "paper",
+   "since": "2026-11-23T01:06:52Z",
+   "reason": "ROI fell to +5.9% (< +10%) on 34 graded"
   }
  },
  "gate": {
@@ -1423,6 +1423,54 @@
    "week": 11,
    "label": "Omarion Hampton: Under 62.5 rushing yards",
    "units": 21.73
+  },
+  {
+   "id": "pp-131-644",
+   "week": 11,
+   "label": "J.K. Dobbins: Under 22.5 rushing yards",
+   "units": 22.23
+  },
+  {
+   "id": "pp-131-665",
+   "week": 11,
+   "label": "Mike Washington Jr.: Under 49.5 rushing yards",
+   "units": 22.35
+  },
+  {
+   "id": "pp-135-689",
+   "week": 11,
+   "label": "Malachi Fields: Under 19.5 receiving yards",
+   "units": 21.85
+  },
+  {
+   "id": "pp-135-700",
+   "week": 11,
+   "label": "Ashton Jeanty: Under 27.5 receiving yards",
+   "units": 21.35
+  },
+  {
+   "id": "pp-135-708",
+   "week": 11,
+   "label": "Brian Thomas Jr: Under 1.5 receptions",
+   "units": 21.65
+  },
+  {
+   "id": "pp-136-743",
+   "week": 11,
+   "label": "Jaylen Waddle: Under 39.5 receiving yards",
+   "units": 21.15
+  },
+  {
+   "id": "pp-136-751",
+   "week": 11,
+   "label": "Isaiah Likely: Under 5.5 receptions",
+   "units": 21.52
+  },
+  {
+   "id": "pp-136-756",
+   "week": 11,
+   "label": "Theo Johnson: Under 9.5 receiving yards",
+   "units": 21.02
   }
  ],
  "clv_by_week": [
@@ -1451,16 +1499,16 @@
   {
    "type": "Mid-week props model",
    "id": "props-midweek",
-   "w": 82,
-   "l": 53,
+   "w": 86,
+   "l": 57,
    "p": 0,
-   "units": 17.44,
-   "roi": 25.8,
+   "units": 16.74,
+   "roi": 23.4,
    "clv": null,
    "beat": null,
    "n_clv": 0,
-   "clv_any": 0.37,
-   "n_clv_any": 127
+   "clv_any": 0.44,
+   "n_clv_any": 135
   },
   {
    "type": "Game-day picks, rules v2",
