@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T11:14:05Z",
+ "generated_at": "2026-11-24T16:04:48Z",
  "current_week": 12,
  "weeks": [
   {
@@ -47,16 +47,16 @@
    "week": 11,
    "dates": "Nov 19\u201323",
    "record": {
-    "w": 31,
-    "l": 25,
+    "w": 32,
+    "l": 27,
     "p": 0,
-    "units": 2.6,
-    "roi": 9.0,
+    "units": 1.6,
+    "roi": 5.4,
     "clv": 2.35,
     "beat": 82,
     "n_clv": 11,
-    "clv_any": 1.45,
-    "n_clv_any": 53
+    "clv_any": 1.37,
+    "n_clv_any": 55
    },
    "paper_record": {
     "w": 3,
@@ -71,16 +71,16 @@
     "n_clv_any": 9
    },
    "clv_record": {
-    "w": 31,
-    "l": 25,
+    "w": 32,
+    "l": 27,
     "p": 0,
-    "units": 2.6,
-    "roi": 9.0,
+    "units": 1.6,
+    "roi": 5.4,
     "clv": 2.35,
     "beat": 82,
     "n_clv": 11,
-    "clv_any": 1.45,
-    "n_clv_any": 53
+    "clv_any": 1.37,
+    "n_clv_any": 55
    },
    "picks": [
     {
@@ -1751,10 +1751,10 @@
      "edge": 5.1,
      "worst": "",
      "analysis": "Mid-week props model (paper): price +5.1% vs the sharp fair price (Kalshi ladder). Kalshi only; Pinnacle has no line.",
-     "status": "pending",
-     "actual": "",
-     "clv": null,
-     "units": null,
+     "status": "L",
+     "actual": "66 receiving yards",
+     "clv": 1.17,
+     "units": -0.5,
      "posted": "2026-11-19T23:32:52Z",
      "system": "Props model: Kalshi only \u00b7 Pinnacle has no line",
      "strategy": "props-midweek",
@@ -1779,10 +1779,10 @@
      "edge": 4.4,
      "worst": "",
      "analysis": "Mid-week props model (paper): price +4.4% vs the sharp fair price (Pinnacle). Pinnacle only; Kalshi has no line.",
-     "status": "pending",
-     "actual": "",
-     "clv": null,
-     "units": null,
+     "status": "L",
+     "actual": "40 pass attempts",
+     "clv": -2.89,
+     "units": -0.5,
      "posted": "2026-11-19T23:32:52Z",
      "system": "Props model: Pinnacle only \u00b7 Kalshi has no line",
      "strategy": "props-midweek",
@@ -1807,8 +1807,8 @@
      "edge": null,
      "worst": "",
      "analysis": "Wind Unders angle (paper): forecast 13.5 mph at kickoff.",
-     "status": "pending",
-     "actual": "",
+     "status": "W",
+     "actual": "final total 42 vs 54.5",
      "clv": null,
      "units": null,
      "posted": "2026-11-22T19:41:00Z",

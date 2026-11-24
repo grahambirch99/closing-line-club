@@ -1,27 +1,27 @@
 {
  "season": {
-  "w": 131,
-  "l": 97,
+  "w": 132,
+  "l": 99,
   "p": 0,
-  "units": 21.04,
-  "roi": 17.4,
+  "units": 20.04,
+  "roi": 16.4,
   "clv": 0.87,
   "beat": 73,
   "n_clv": 41,
-  "clv_any": 0.66,
-  "n_clv_any": 200
+  "clv_any": 0.64,
+  "n_clv_any": 202
  },
  "real_money": {
   "w": 73,
-  "l": 71,
+  "l": 73,
   "p": 0,
-  "units": 5.91,
-  "roi": 7.8,
+  "units": 4.91,
+  "roi": 6.4,
   "clv": -0.22,
   "beat": 64,
   "n_clv": 28,
-  "clv_any": 0.52,
-  "n_clv_any": 135
+  "clv_any": 0.5,
+  "n_clv_any": 137
  },
  "status": {
   "nfl-v1": {
@@ -1507,6 +1507,24 @@
    "week": 11,
    "label": "Christian McCaffrey: Under 3.5 receptions",
    "units": 21.04
+  },
+  {
+   "id": "pp-131-647",
+   "week": 11,
+   "label": "Chig Okonkwo: Under 29.5 receiving yards",
+   "units": 20.54
+  },
+  {
+   "id": "pp-131-656",
+   "week": 11,
+   "label": "Joe Burrow: Under 37.5 pass attempts",
+   "units": 20.04
+  },
+  {
+   "id": "wind-3a60ed1d20004aa4d4772b2c1a2272e7-54.5",
+   "week": 11,
+   "label": "Bengals at Commanders: Under 54.5 points",
+   "units": 20.04
   }
  ],
  "clv_by_week": [
@@ -1536,15 +1554,15 @@
    "type": "Mid-week props model",
    "id": "props-midweek",
    "w": 87,
-   "l": 58,
+   "l": 60,
    "p": 0,
-   "units": 16.86,
-   "roi": 23.3,
+   "units": 15.86,
+   "roi": 21.6,
    "clv": null,
    "beat": null,
    "n_clv": 0,
-   "clv_any": 0.44,
-   "n_clv_any": 137
+   "clv_any": 0.43,
+   "n_clv_any": 139
   },
   {
    "type": "Game-day picks, rules v2",
@@ -1575,6 +1593,20 @@
    "n_clv_any": 13
   },
   {
+   "type": "Wind Unders angle",
+   "id": "wind",
+   "w": 7,
+   "l": 5,
+   "p": 0,
+   "units": 0,
+   "roi": null,
+   "clv": null,
+   "beat": null,
+   "n_clv": 0,
+   "clv_any": null,
+   "n_clv_any": 0
+  },
+  {
    "type": "Game-day picks, new markets",
    "id": "nfl-xmkt",
    "w": 3,
@@ -1587,20 +1619,6 @@
    "n_clv": 6,
    "clv_any": 1.21,
    "n_clv_any": 11
-  },
-  {
-   "type": "Wind Unders angle",
-   "id": "wind",
-   "w": 6,
-   "l": 5,
-   "p": 0,
-   "units": 0,
-   "roi": null,
-   "clv": null,
-   "beat": null,
-   "n_clv": 0,
-   "clv_any": null,
-   "n_clv_any": 0
   },
   {
    "type": "College football props",
