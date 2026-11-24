@@ -455,19 +455,19 @@ pk-031fa761cc-un-rebou-joshhart-8.5,nba,2026-11-23T00:10:06Z,2026-11-23T01:10:00
 pk-b8c5bdb502-pr-assis-brandinpodziemsk-4,nba,2026-11-23T00:40:08Z,2026-11-23T01:40:00Z,Boston Celtics @ Golden State Warriors,prizepicks,player_assists,Brandin Podziemski,4,Under,0.5471,Kalshi,0,312,0.5471,W,2
 pk-b8c5bdb502-pr-assis-deanthonymelton-2.5,nba,2026-11-23T00:40:08Z,2026-11-23T01:40:00Z,Boston Celtics @ Golden State Warriors,prizepicks,player_assists,De'Anthony Melton,2.5,Over,0.5435,Kalshi,0,312,0.5435,W,7
 pk-b8c5bdb502-pr-point-draymondgreen-5,nba,2026-11-23T00:40:08Z,2026-11-23T01:40:00Z,Boston Celtics @ Golden State Warriors,prizepicks,player_points,Draymond Green,5,Under,0.5685,Kalshi,1,312,,L,9
-pk-35ca45d3e5-un-point-sionjames-6.5,nba,2026-11-23T23:10:02Z,2026-11-24T00:10:00Z,Memphis Grizzlies @ Charlotte Hornets,underdog,player_points,Sion James,6.5,Over,0.5543,Kalshi,0,315,,pending,
-pk-35ca45d3e5-pr-rebou-cobywhite-2.5,nba,2026-11-23T23:10:02Z,2026-11-24T00:10:00Z,Memphis Grizzlies @ Charlotte Hornets,prizepicks,player_rebounds,Coby White,2.5,Over,0.5548,Kalshi,0,315,,pending,
-pk-ac6fb079d6-pr-point-sidycissoko-6,nba,2026-11-23T23:10:02Z,2026-11-24T00:10:00Z,Portland Trail Blazers @ Philadelphia 76ers,prizepicks,player_points,Sidy Cissoko,6,Over,0.5434,Kalshi,0,315,,pending,
-pk-ac6fb079d6-pr-rebou-damianlillard-3.5,nba,2026-11-23T23:10:02Z,2026-11-24T00:10:00Z,Portland Trail Blazers @ Philadelphia 76ers,prizepicks,player_rebounds,Damian Lillard,3.5,Under,0.5448,Pinnacle,0,315,,pending,
-pk-a5184238c2-pr-assis-immanuelquickley-6,nba,2026-11-23T23:40:06Z,2026-11-24T00:40:00Z,Milwaukee Bucks @ Toronto Raptors,prizepicks,player_assists,Immanuel Quickley,6,Over,0.5446,Kalshi,0,316,,pending,
-pk-a5184238c2-pr-assis-ryanrollins-4,nba,2026-11-23T23:40:06Z,2026-11-24T00:40:00Z,Milwaukee Bucks @ Toronto Raptors,prizepicks,player_assists,Ryan Rollins,4,Under,0.5508,Kalshi,0,316,,pending,
-pk-a5184238c2-pr-point-kelelware-9.5,nba,2026-11-23T23:40:06Z,2026-11-24T00:40:00Z,Milwaukee Bucks @ Toronto Raptors,prizepicks,player_points,Kel'el Ware,9.5,Under,0.555,Kalshi,0,316,,pending,
-pk-a5184238c2-pr-point-jamalshead-6.5,nba,2026-11-23T23:40:06Z,2026-11-24T00:40:00Z,Milwaukee Bucks @ Toronto Raptors,prizepicks,player_points,Jamal Shead,6.5,Over,0.5518,Kalshi,0,316,,pending,
-pk-a5184238c2-pr-rebou-allengraves-5,nba,2026-11-23T23:40:06Z,2026-11-24T00:40:00Z,Milwaukee Bucks @ Toronto Raptors,prizepicks,player_rebounds,Allen Graves,5,Under,0.542,Kalshi,0,316,,pending,
-pk-a5184238c2-pr-rebou-jakobpoeltl-8,nba,2026-11-23T23:40:06Z,2026-11-24T00:40:00Z,Milwaukee Bucks @ Toronto Raptors,prizepicks,player_rebounds,Jakob Poeltl,8,Under,0.549,Kalshi,0,316,,pending,
-pk-6caeb7cce7-pr-assis-collingillespie-4,nba,2026-11-24T00:10:12Z,2026-11-24T01:10:00Z,Phoenix Suns @ New Orleans Pelicans,prizepicks,player_assists,Collin Gillespie,4,Under,0.5432,Kalshi,0,318,,pending,
-pk-6caeb7cce7-pr-point-osoighodaro-7.5,nba,2026-11-24T00:10:12Z,2026-11-24T01:10:00Z,Phoenix Suns @ New Orleans Pelicans,prizepicks,player_points,Oso Ighodaro,7.5,Under,0.5539,Pinnacle,0,318,,pending,
-pk-6caeb7cce7-pr-point-lukekennard-8,nba,2026-11-24T00:10:12Z,2026-11-24T01:10:00Z,Phoenix Suns @ New Orleans Pelicans,prizepicks,player_points,Luke Kennard,8,Under,0.547,Kalshi,0,318,,pending,
-pk-db2311c331-pr-point-kevindurant-20.5,nba,2026-11-24T00:40:16Z,2026-11-24T01:40:00Z,Los Angeles Clippers @ Houston Rockets,prizepicks,player_points,Kevin Durant,20.5,Over,0.544,Kalshi,0,320,,pending,
+pk-35ca45d3e5-un-point-sionjames-6.5,nba,2026-11-23T23:10:02Z,2026-11-24T00:10:00Z,Memphis Grizzlies @ Charlotte Hornets,underdog,player_points,Sion James,6.5,Over,0.5543,Kalshi,0,315,0.553,L,5
+pk-35ca45d3e5-pr-rebou-cobywhite-2.5,nba,2026-11-23T23:10:02Z,2026-11-24T00:10:00Z,Memphis Grizzlies @ Charlotte Hornets,prizepicks,player_rebounds,Coby White,2.5,Over,0.5548,Kalshi,0,315,0.5454,W,3
+pk-ac6fb079d6-pr-point-sidycissoko-6,nba,2026-11-23T23:10:02Z,2026-11-24T00:10:00Z,Portland Trail Blazers @ Philadelphia 76ers,prizepicks,player_points,Sidy Cissoko,6,Over,0.5434,Kalshi,0,315,0.5512,L,5
+pk-ac6fb079d6-pr-rebou-damianlillard-3.5,nba,2026-11-23T23:10:02Z,2026-11-24T00:10:00Z,Portland Trail Blazers @ Philadelphia 76ers,prizepicks,player_rebounds,Damian Lillard,3.5,Under,0.5448,Pinnacle,0,315,0.5448,W,3
+pk-a5184238c2-pr-assis-immanuelquickley-6,nba,2026-11-23T23:40:06Z,2026-11-24T00:40:00Z,Milwaukee Bucks @ Toronto Raptors,prizepicks,player_assists,Immanuel Quickley,6,Over,0.5446,Kalshi,0,316,0.542,P,6
+pk-a5184238c2-pr-assis-ryanrollins-4,nba,2026-11-23T23:40:06Z,2026-11-24T00:40:00Z,Milwaukee Bucks @ Toronto Raptors,prizepicks,player_assists,Ryan Rollins,4,Under,0.5508,Kalshi,0,316,0.5526,W,3
+pk-a5184238c2-pr-point-kelelware-9.5,nba,2026-11-23T23:40:06Z,2026-11-24T00:40:00Z,Milwaukee Bucks @ Toronto Raptors,prizepicks,player_points,Kel'el Ware,9.5,Under,0.555,Kalshi,0,316,0.565,W,9
+pk-a5184238c2-pr-point-jamalshead-6.5,nba,2026-11-23T23:40:06Z,2026-11-24T00:40:00Z,Milwaukee Bucks @ Toronto Raptors,prizepicks,player_points,Jamal Shead,6.5,Over,0.5518,Kalshi,0,316,,W,11
+pk-a5184238c2-pr-rebou-allengraves-5,nba,2026-11-23T23:40:06Z,2026-11-24T00:40:00Z,Milwaukee Bucks @ Toronto Raptors,prizepicks,player_rebounds,Allen Graves,5,Under,0.542,Kalshi,0,316,0.527,W,2
+pk-a5184238c2-pr-rebou-jakobpoeltl-8,nba,2026-11-23T23:40:06Z,2026-11-24T00:40:00Z,Milwaukee Bucks @ Toronto Raptors,prizepicks,player_rebounds,Jakob Poeltl,8,Under,0.549,Kalshi,0,316,0.5551,L,10
+pk-6caeb7cce7-pr-assis-collingillespie-4,nba,2026-11-24T00:10:12Z,2026-11-24T01:10:00Z,Phoenix Suns @ New Orleans Pelicans,prizepicks,player_assists,Collin Gillespie,4,Under,0.5432,Kalshi,0,318,0.5432,W,3
+pk-6caeb7cce7-pr-point-osoighodaro-7.5,nba,2026-11-24T00:10:12Z,2026-11-24T01:10:00Z,Phoenix Suns @ New Orleans Pelicans,prizepicks,player_points,Oso Ighodaro,7.5,Under,0.5539,Pinnacle,0,318,0.5498,W,7
+pk-6caeb7cce7-pr-point-lukekennard-8,nba,2026-11-24T00:10:12Z,2026-11-24T01:10:00Z,Phoenix Suns @ New Orleans Pelicans,prizepicks,player_points,Luke Kennard,8,Under,0.547,Kalshi,0,318,0.5516,W,4
+pk-db2311c331-pr-point-kevindurant-20.5,nba,2026-11-24T00:40:16Z,2026-11-24T01:40:00Z,Los Angeles Clippers @ Houston Rockets,prizepicks,player_points,Kevin Durant,20.5,Over,0.544,Kalshi,0,320,,W,32
 pk-3e9dc52cb0-pr-point-darrynpeterson-17.5,nba,2026-11-24T02:12:54Z,2026-11-24T03:10:00Z,Utah Jazz @ Los Angeles Lakers,prizepicks,player_points,Darryn Peterson,17.5,Under,0.5483,Kalshi,0,323,,pending,
 pk-3e9dc52cb0-un-point-darrynpeterson-17.5,nba,2026-11-24T02:12:54Z,2026-11-24T03:10:00Z,Utah Jazz @ Los Angeles Lakers,underdog,player_points,Darryn Peterson,17.5,Under,0.5483,Kalshi,0,323,,pending,
