@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-24T21:45:43.574135+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Kenneth Walker (groin) gets in limited session"
+  },
+  {
    "at": "2026-11-23T23:00:09.483520+00:00",
    "kind": "injury",
    "source": "rapsheet",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Jordyn Tyson (chest) limited to begin Week 11"
-  },
-  {
-   "at": "2026-11-18T21:22:26.412018+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Bhayshul Tuten (foot/ankle) limited in practice"
   }
  ]
 }
