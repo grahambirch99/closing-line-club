@@ -480,8 +480,8 @@ pk-3167a4072c-pr-point-jaysontatum-19.5,nba,2026-11-25T00:11:06Z,2026-11-25T01:1
 pk-3167a4072c-pr-point-derrickwhite-13.5,nba,2026-11-25T00:11:06Z,2026-11-25T01:10:00Z,Boston Celtics @ Washington Wizards,prizepicks,player_points,Derrick White,13.5,Under,0.5606,Pinnacle,0,327,0.5614,W,6
 pk-3167a4072c-pr-point-hugogonzalez-5.5,nba,2026-11-25T00:11:06Z,2026-11-25T01:10:00Z,Boston Celtics @ Washington Wizards,prizepicks,player_points,Hugo Gonzalez,5.5,Under,0.5449,Kalshi,0,327,,W,0
 pk-3167a4072c-pr-point-khrismiddleton-5.5,nba,2026-11-25T00:11:06Z,2026-11-25T01:10:00Z,Boston Celtics @ Washington Wizards,prizepicks,player_points,Khris Middleton,5.5,Under,0.5484,Kalshi,0,327,,W,0
-pk-6bfadbd22e-pr-assis-jamalmurray-6.5,nba,2026-11-25T02:10:02Z,2026-11-25T03:10:00Z,Dallas Mavericks @ Denver Nuggets,prizepicks,player_assists,Jamal Murray,6.5,Under,0.5448,Pinnacle,0,329,,pending,
-pk-6bfadbd22e-pr-assis-cooperflagg-6.5,nba,2026-11-25T02:10:02Z,2026-11-25T03:10:00Z,Dallas Mavericks @ Denver Nuggets,prizepicks,player_assists,Cooper Flagg,6.5,Under,0.5448,Pinnacle,0,329,,pending,
-pk-6bfadbd22e-un-assis-kyrieirving-4.5,nba,2026-11-25T02:10:02Z,2026-11-25T03:10:00Z,Dallas Mavericks @ Denver Nuggets,underdog,player_assists,Kyrie Irving,4.5,Over,0.5978,Pinnacle,1,329,,pending,
-pk-6bfadbd22e-un-point-cooperflagg-23.5,nba,2026-11-25T02:10:02Z,2026-11-25T03:10:00Z,Dallas Mavericks @ Denver Nuggets,underdog,player_points,Cooper Flagg,23.5,Over,0.5724,Pinnacle,1,329,,pending,
-pk-6bfadbd22e-pr-point-zaccharierisache-7.5,nba,2026-11-25T02:10:02Z,2026-11-25T03:10:00Z,Dallas Mavericks @ Denver Nuggets,prizepicks,player_points,Zaccharie Risacher,7.5,Under,0.547,Kalshi,0,329,,pending,
+pk-6bfadbd22e-pr-assis-jamalmurray-6.5,nba,2026-11-25T02:10:02Z,2026-11-25T03:10:00Z,Dallas Mavericks @ Denver Nuggets,prizepicks,player_assists,Jamal Murray,6.5,Under,0.5448,Pinnacle,0,329,0.5448,W,3
+pk-6bfadbd22e-pr-assis-cooperflagg-6.5,nba,2026-11-25T02:10:02Z,2026-11-25T03:10:00Z,Dallas Mavericks @ Denver Nuggets,prizepicks,player_assists,Cooper Flagg,6.5,Under,0.5448,Pinnacle,0,329,,L,12
+pk-6bfadbd22e-un-assis-kyrieirving-4.5,nba,2026-11-25T02:10:02Z,2026-11-25T03:10:00Z,Dallas Mavericks @ Denver Nuggets,underdog,player_assists,Kyrie Irving,4.5,Over,0.5978,Pinnacle,1,329,,W,6
+pk-6bfadbd22e-un-point-cooperflagg-23.5,nba,2026-11-25T02:10:02Z,2026-11-25T03:10:00Z,Dallas Mavericks @ Denver Nuggets,underdog,player_points,Cooper Flagg,23.5,Over,0.5724,Pinnacle,1,329,0.513,W,24
+pk-6bfadbd22e-pr-point-zaccharierisache-7.5,nba,2026-11-25T02:10:02Z,2026-11-25T03:10:00Z,Dallas Mavericks @ Denver Nuggets,prizepicks,player_points,Zaccharie Risacher,7.5,Under,0.547,Kalshi,0,329,0.547,L,12
