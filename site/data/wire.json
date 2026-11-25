@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-25T22:31:58.127879+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Brock Bowers (ankle) limited to begin Week 12"
+  },
+  {
    "at": "2026-11-25T20:47:25.212361+00:00",
    "kind": "qb",
    "source": "sleeper",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Jordyn Tyson (chest) remains limited on Thursday"
-  },
-  {
-   "at": "2026-11-19T21:24:44.579704+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Carnell Tate (shoulder) remains limited Thursday"
   }
  ]
 }
