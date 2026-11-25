@@ -485,3 +485,7 @@ pk-6bfadbd22e-pr-assis-cooperflagg-6.5,nba,2026-11-25T02:10:02Z,2026-11-25T03:10
 pk-6bfadbd22e-un-assis-kyrieirving-4.5,nba,2026-11-25T02:10:02Z,2026-11-25T03:10:00Z,Dallas Mavericks @ Denver Nuggets,underdog,player_assists,Kyrie Irving,4.5,Over,0.5978,Pinnacle,1,329,,W,6
 pk-6bfadbd22e-un-point-cooperflagg-23.5,nba,2026-11-25T02:10:02Z,2026-11-25T03:10:00Z,Dallas Mavericks @ Denver Nuggets,underdog,player_points,Cooper Flagg,23.5,Over,0.5724,Pinnacle,1,329,0.513,W,24
 pk-6bfadbd22e-pr-point-zaccharierisache-7.5,nba,2026-11-25T02:10:02Z,2026-11-25T03:10:00Z,Dallas Mavericks @ Denver Nuggets,prizepicks,player_points,Zaccharie Risacher,7.5,Under,0.547,Kalshi,0,329,0.547,L,12
+pk-4f6d199bb6-pr-assis-giannisantetokou-6,nba,2026-11-25T21:10:03Z,2026-11-25T22:10:00Z,Miami Heat @ Philadelphia 76ers,prizepicks,player_assists,Giannis Antetokounmpo,6,Under,0.5481,Kalshi,0,331,,pending,
+pk-4f6d199bb6-pr-point-jabariwalker-6.5,nba,2026-11-25T21:10:03Z,2026-11-25T22:10:00Z,Miami Heat @ Philadelphia 76ers,prizepicks,player_points,Jabari Walker,6.5,Over,0.5554,Kalshi,0,331,,pending,
+pk-4f6d199bb6-un-point-jabariwalker-6.5,nba,2026-11-25T21:10:03Z,2026-11-25T22:10:00Z,Miami Heat @ Philadelphia 76ers,underdog,player_points,Jabari Walker,6.5,Over,0.5554,Kalshi,0,331,,pending,
+pk-4f6d199bb6-pr-assis-anferneesimons-1.5,nba,2026-11-25T21:10:03Z,2026-11-25T22:10:00Z,Miami Heat @ Philadelphia 76ers,prizepicks,player_assists,Anfernee Simons,1.5,Under,0.565,Kalshi,1,331,,pending,
