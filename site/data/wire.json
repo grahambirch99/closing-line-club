@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "at": "2026-11-25T20:47:25.212361+00:00",
+   "kind": "qb",
+   "source": "sleeper",
+   "text": "Sam Darnold (SEA QB) status out -> questionable [Quadriceps]"
+  },
+  {
+   "at": "2026-11-25T20:47:25.212361+00:00",
+   "kind": "qb",
+   "source": "sleeper",
+   "text": "Carson Beck (ARI QB) status out -> questionable [Back]"
+  },
+  {
+   "at": "2026-11-25T20:47:25.212361+00:00",
+   "kind": "qb",
+   "source": "rotoworld-fb",
+   "text": "Justin Herbert (concussion) will not practice"
+  },
+  {
+   "at": "2026-11-25T20:47:25.212361+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Derrick Henry enters concussion protocol on Wed."
+  },
+  {
    "at": "2026-11-24T21:45:43.574135+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -155,30 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Carnell Tate (shoulder) remains limited Thursday"
-  },
-  {
-   "at": "2026-11-19T20:13:26.642442+00:00",
-   "kind": "injury",
-   "source": "rotowire",
-   "text": "Darren Waller: Limited Thursday"
-  },
-  {
-   "at": "2026-11-19T00:40:08.616655+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Ladd McConkey (back) limited Wednesday"
-  },
-  {
-   "at": "2026-11-18T23:20:20.916230+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Jaylen Waddle (concussion) practices in full Wed."
-  },
-  {
-   "at": "2026-11-18T21:50:20.548444+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Jordyn Tyson (chest) limited to begin Week 11"
   }
  ]
 }
