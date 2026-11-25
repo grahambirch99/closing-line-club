@@ -489,3 +489,8 @@ pk-4f6d199bb6-pr-assis-giannisantetokou-6,nba,2026-11-25T21:10:03Z,2026-11-25T22
 pk-4f6d199bb6-pr-point-jabariwalker-6.5,nba,2026-11-25T21:10:03Z,2026-11-25T22:10:00Z,Miami Heat @ Philadelphia 76ers,prizepicks,player_points,Jabari Walker,6.5,Over,0.5554,Kalshi,0,331,,pending,
 pk-4f6d199bb6-un-point-jabariwalker-6.5,nba,2026-11-25T21:10:03Z,2026-11-25T22:10:00Z,Miami Heat @ Philadelphia 76ers,underdog,player_points,Jabari Walker,6.5,Over,0.5554,Kalshi,0,331,,pending,
 pk-4f6d199bb6-pr-assis-anferneesimons-1.5,nba,2026-11-25T21:10:03Z,2026-11-25T22:10:00Z,Miami Heat @ Philadelphia 76ers,prizepicks,player_assists,Anfernee Simons,1.5,Under,0.565,Kalshi,1,331,,pending,
+pk-87ce247fb8-pr-assis-cobywhite-4.5,nba,2026-11-25T23:10:10Z,2026-11-26T00:10:00Z,Chicago Bulls @ Charlotte Hornets,prizepicks,player_assists,Coby White,4.5,Under,0.5489,Pinnacle,0,333,,pending,
+pk-87ce247fb8-pr-assis-nazreid-2.5,nba,2026-11-25T23:10:10Z,2026-11-26T00:10:00Z,Chicago Bulls @ Charlotte Hornets,prizepicks,player_assists,Naz Reid,2.5,Over,0.5515,Kalshi,0,333,,pending,
+pk-87ce247fb8-un-assis-nazreid-2.5,nba,2026-11-25T23:10:10Z,2026-11-26T00:10:00Z,Chicago Bulls @ Charlotte Hornets,underdog,player_assists,Naz Reid,2.5,Over,0.5515,Kalshi,0,333,,pending,
+pk-87ce247fb8-pr-point-trejones-13,nba,2026-11-25T23:10:10Z,2026-11-26T00:10:00Z,Chicago Bulls @ Charlotte Hornets,prizepicks,player_points,Tre Jones,13,Under,0.5457,Kalshi,0,333,,pending,
+pk-87ce247fb8-pr-rebou-moussadiabate-10.5,nba,2026-11-25T23:10:10Z,2026-11-26T00:10:00Z,Chicago Bulls @ Charlotte Hornets,prizepicks,player_rebounds,Moussa Diabate,10.5,Over,0.5469,Pinnacle,0,333,,pending,
