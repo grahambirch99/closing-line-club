@@ -253,3 +253,7 @@
 {"kind": "injury", "team": "", "player": "Kenneth Walker", "pos": "", "source": "rotoworld-fb", "text": "Kenneth Walker (groin) estimated DNP on Monday", "at": "2026-11-23T23:00:09.483520+00:00"}
 {"kind": "injury", "team": "", "player": "Saquon Barkley", "pos": "", "source": "rotoworld-fb", "text": "Saquon Barkley (neck/illness) limited on Monday", "at": "2026-11-23T23:00:09.483520+00:00"}
 {"kind": "injury", "team": "", "player": "Kenneth Walker", "pos": "", "source": "rotoworld-fb", "text": "Kenneth Walker (groin) gets in limited session", "at": "2026-11-24T21:45:43.574135+00:00"}
+{"kind": "qb", "source": "sleeper", "team": "SEA", "player": "Sam Darnold", "pos": "QB", "text": "Sam Darnold (SEA QB) status out -> questionable [Quadriceps]", "at": "2026-11-25T20:47:25.212361+00:00"}
+{"kind": "qb", "source": "sleeper", "team": "ARI", "player": "Carson Beck", "pos": "QB", "text": "Carson Beck (ARI QB) status out -> questionable [Back]", "at": "2026-11-25T20:47:25.212361+00:00"}
+{"kind": "qb", "team": "LAC", "player": "Justin Herbert", "pos": "QB", "strong": false, "source": "rotoworld-fb", "text": "Justin Herbert (concussion) will not practice", "at": "2026-11-25T20:47:25.212361+00:00"}
+{"kind": "injury", "team": "", "player": "Derrick Henry", "pos": "", "source": "rotoworld-fb", "text": "Derrick Henry enters concussion protocol on Wed.", "at": "2026-11-25T20:47:25.212361+00:00"}
