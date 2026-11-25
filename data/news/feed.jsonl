@@ -257,3 +257,4 @@
 {"kind": "qb", "source": "sleeper", "team": "ARI", "player": "Carson Beck", "pos": "QB", "text": "Carson Beck (ARI QB) status out -> questionable [Back]", "at": "2026-11-25T20:47:25.212361+00:00"}
 {"kind": "qb", "team": "LAC", "player": "Justin Herbert", "pos": "QB", "strong": false, "source": "rotoworld-fb", "text": "Justin Herbert (concussion) will not practice", "at": "2026-11-25T20:47:25.212361+00:00"}
 {"kind": "injury", "team": "", "player": "Derrick Henry", "pos": "", "source": "rotoworld-fb", "text": "Derrick Henry enters concussion protocol on Wed.", "at": "2026-11-25T20:47:25.212361+00:00"}
+{"kind": "injury", "team": "", "player": "Brock Bowers", "pos": "", "source": "rotoworld-fb", "text": "Brock Bowers (ankle) limited to begin Week 12", "at": "2026-11-25T22:31:58.127879+00:00"}
