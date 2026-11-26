@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-26T03:25:38.781403+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "Christian Watson (GB WR) status questionable -> out [Concussion]"
+  },
+  {
    "at": "2026-11-26T00:42:07.575302+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Brock Bowers (ankle/quad) questionable in Week 11"
-  },
-  {
-   "at": "2026-11-20T20:02:03.004317+00:00",
-   "kind": "injury",
-   "source": "rapsheet",
-   "text": "Injury updates: -- 49ers WR Mike Evans (Achilles) is questionable with a real chance to go. -- Bears RB Kyle Monangai is good to go, as is WR Luther Burden."
   }
  ]
 }
