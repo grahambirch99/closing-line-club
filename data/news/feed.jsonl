@@ -269,3 +269,4 @@
 {"kind": "injury", "team": "", "player": "Colston Loveland", "pos": "", "source": "rotoworld-fb", "text": "Colston Loveland (knee) ruled out vs. Lions", "at": "2026-11-26T18:51:32.891463+00:00"}
 {"kind": "injury", "source": "sleeper", "team": "CHI", "player": "Colston Loveland", "pos": "TE", "text": "Colston Loveland (CHI TE) status questionable -> out [Knee]", "at": "2026-11-26T18:57:37.227058+00:00"}
 {"kind": "qb", "team": "LAC", "player": "Justin Herbert", "pos": "QB", "strong": false, "source": "rapsheet", "text": "With Justin Herbert in the NFL\u2019s concussion protocol, the Chargers signed QB Jake Browning to the active roster", "at": "2026-11-26T19:01:05.734908+00:00"}
+{"kind": "injury", "team": "", "player": "Derrick Henry", "pos": "", "source": "rotoworld-fb", "text": "Derrick Henry (concussion) gets full practice", "at": "2026-11-26T21:41:18.771595+00:00"}
