@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "at": "2026-11-26T18:57:37.227058+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "Colston Loveland (CHI TE) status questionable -> out [Knee]"
+  },
+  {
+   "at": "2026-11-26T18:51:32.891463+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Colston Loveland (knee) ruled out vs. Lions"
+  },
+  {
    "at": "2026-11-26T14:19:17.455634+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -167,18 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Ladd McConkey (back) draws questionable tag"
-  },
-  {
-   "at": "2026-11-20T21:07:02.449436+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Dontayvion Wicks (ankle) ruled out for Week 11"
-  },
-  {
-   "at": "2026-11-20T20:51:46.422397+00:00",
-   "kind": "qb",
-   "source": "rotoworld-fb",
-   "text": "Baker Mayfield (foot) officially questionable"
   }
  ]
 }
