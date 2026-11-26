@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-26T03:56:27.382554+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "Tyler Higbee (LAR TE) status healthy -> out [Chest]"
+  },
+  {
    "at": "2026-11-26T03:25:38.781403+00:00",
    "kind": "injury",
    "source": "sleeper",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rapsheet",
    "text": "The Chiefs have ruled out RB Kenneth Walker, in addition to OLs Trey Smith and Jaylon Moore."
-  },
-  {
-   "at": "2026-11-20T20:26:52.628928+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Brock Bowers (ankle/quad) questionable in Week 11"
   }
  ]
 }
