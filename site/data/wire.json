@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-26T00:42:07.575302+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Keaton Mitchell (knee) DNP Wednesday"
+  },
+  {
    "at": "2026-11-26T00:20:18.109755+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rapsheet",
    "text": "Injury updates: -- 49ers WR Mike Evans (Achilles) is questionable with a real chance to go. -- Bears RB Kyle Monangai is good to go, as is WR Luther Burden."
-  },
-  {
-   "at": "2026-11-20T19:21:59.699671+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Dalton Kincaid (BUF TE) status questionable -> doubtful [Thumb]"
   }
  ]
 }
