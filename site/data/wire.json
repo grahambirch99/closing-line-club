@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-26T14:19:17.455634+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Christian Watson in concussion protocol Thursday"
+  },
+  {
    "at": "2026-11-26T03:56:27.382554+00:00",
    "kind": "injury",
    "source": "sleeper",
@@ -173,12 +179,6 @@
    "kind": "qb",
    "source": "rotoworld-fb",
    "text": "Baker Mayfield (foot) officially questionable"
-  },
-  {
-   "at": "2026-11-20T20:26:52.628928+00:00",
-   "kind": "injury",
-   "source": "rapsheet",
-   "text": "The Chiefs have ruled out RB Kenneth Walker, in addition to OLs Trey Smith and Jaylon Moore."
   }
  ]
 }
