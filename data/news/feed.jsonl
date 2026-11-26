@@ -266,3 +266,5 @@
 {"kind": "injury", "source": "sleeper", "team": "GB", "player": "Christian Watson", "pos": "WR", "text": "Christian Watson (GB WR) status questionable -> out [Concussion]", "at": "2026-11-26T03:25:38.781403+00:00"}
 {"kind": "injury", "source": "sleeper", "team": "LAR", "player": "Tyler Higbee", "pos": "TE", "text": "Tyler Higbee (LAR TE) status healthy -> out [Chest]", "at": "2026-11-26T03:56:27.382554+00:00"}
 {"kind": "injury", "team": "", "player": "Christian Watson", "pos": "", "source": "rotoworld-fb", "text": "Christian Watson in concussion protocol Thursday", "at": "2026-11-26T14:19:17.455634+00:00"}
+{"kind": "injury", "team": "", "player": "Colston Loveland", "pos": "", "source": "rotoworld-fb", "text": "Colston Loveland (knee) ruled out vs. Lions", "at": "2026-11-26T18:51:32.891463+00:00"}
+{"kind": "injury", "source": "sleeper", "team": "CHI", "player": "Colston Loveland", "pos": "TE", "text": "Colston Loveland (CHI TE) status questionable -> out [Knee]", "at": "2026-11-26T18:57:37.227058+00:00"}
