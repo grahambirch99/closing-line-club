@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-25T23:40:07.085207+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Dalton Kincaid questionable for Week 12"
+  },
+  {
    "at": "2026-11-25T23:12:21.776728+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Ladd McConkey (back) limited again on Thursday"
-  },
-  {
-   "at": "2026-11-19T22:36:06.005390+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Brock Bowers (ankle/quad) officially limited Thu."
   }
  ]
 }
