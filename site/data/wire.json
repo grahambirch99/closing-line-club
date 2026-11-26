@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "at": "2026-11-26T00:20:18.109755+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Kayshon Boutte (hip) DNP Wednesday"
+  },
+  {
+   "at": "2026-11-26T00:08:03.609487+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Zay Flowers (ankle) limited Wednesday"
+  },
+  {
    "at": "2026-11-25T23:40:07.085207+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -167,18 +179,6 @@
    "kind": "injury",
    "source": "sleeper",
    "text": "Dalton Kincaid (BUF TE) status questionable -> doubtful [Thumb]"
-  },
-  {
-   "at": "2026-11-20T19:21:59.699671+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Brady: Dalton Kincaid doubtful for Week 11"
-  },
-  {
-   "at": "2026-11-19T23:31:29.936920+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Ladd McConkey (back) limited again on Thursday"
   }
  ]
 }
