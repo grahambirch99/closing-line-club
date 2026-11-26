@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-26T21:41:18.771595+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Derrick Henry (concussion) gets full practice"
+  },
+  {
    "at": "2026-11-26T19:01:05.734908+00:00",
    "kind": "qb",
    "source": "rapsheet",
@@ -173,12 +179,6 @@
    "kind": "qb",
    "source": "rotoworld-fb",
    "text": "Carson Beck ruled out, Josh Johnson to start"
-  },
-  {
-   "at": "2026-11-21T18:52:23.663735+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Titans send Tyjae Spears (knee) to injured reserve"
   }
  ]
 }
