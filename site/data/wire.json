@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-26T23:17:04.332643+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "Dallas Goedert (PHI TE) status questionable -> out [Shoulder]"
+  },
+  {
    "at": "2026-11-26T23:04:29.546311+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Derrick Henry (concussion) headed to locker room"
-  },
-  {
-   "at": "2026-11-22T20:10:25.220848+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Brock Bowers (LV TE) status questionable -> out [Ankle]"
   }
  ]
 }
