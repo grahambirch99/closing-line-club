@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T00:03:29Z",
+ "generated_at": "2026-11-27T01:27:03Z",
  "current_week": 12,
  "weeks": [
   {
@@ -175,7 +175,7 @@
      "analysis": "Mid-week props model (paper): price +6.0% vs the sharp fair price (Pinnacle). Pinnacle only; Kalshi agrees, smaller edge.",
      "status": "pending",
      "actual": "",
-     "clv": null,
+     "clv": 5.88,
      "units": null,
      "posted": "2026-11-25T19:54:15Z",
      "system": "Props model: Pinnacle only \u00b7 Kalshi agrees, smaller edge",
@@ -203,7 +203,7 @@
      "analysis": "Mid-week props model (paper): price +4.5% vs the sharp fair price (Pinnacle). Pinnacle only; Kalshi disagrees.",
      "status": "pending",
      "actual": "",
-     "clv": null,
+     "clv": -0.48,
      "units": null,
      "posted": "2026-11-25T19:54:15Z",
      "system": "Props model: Pinnacle only \u00b7 Kalshi disagrees",
@@ -231,7 +231,7 @@
      "analysis": "Mid-week props model (paper): price +3.6% vs the sharp fair price (Kalshi ladder). Kalshi only; Pinnacle has no line.",
      "status": "pending",
      "actual": "",
-     "clv": null,
+     "clv": 2.84,
      "units": null,
      "posted": "2026-11-26T03:31:16Z",
      "system": "Props model: Kalshi only \u00b7 Pinnacle has no line",
@@ -259,7 +259,7 @@
      "analysis": "Mid-week props model (paper): price +3.0% vs the sharp fair price (Kalshi ladder). Kalshi only; Pinnacle agrees, smaller edge.",
      "status": "pending",
      "actual": "",
-     "clv": null,
+     "clv": -0.52,
      "units": null,
      "posted": "2026-11-26T03:31:16Z",
      "system": "Props model: Kalshi only \u00b7 Pinnacle agrees, smaller edge",
