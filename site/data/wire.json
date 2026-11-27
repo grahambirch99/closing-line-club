@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-27T21:07:34.995108+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "Bhayshul Tuten (JAX RB) status questionable -> out [Ankle]"
+  },
+  {
    "at": "2026-11-27T20:51:58.420519+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Jordan Addison (thumb) DNP Wednesday"
-  },
-  {
-   "at": "2026-11-25T22:31:58.127879+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Brock Bowers (ankle) limited to begin Week 12"
   }
  ]
 }
