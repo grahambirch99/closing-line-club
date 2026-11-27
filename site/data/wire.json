@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-27T19:56:22.021487+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "Juwan Johnson (NO TE) status questionable -> out [Hamstring]"
+  },
+  {
    "at": "2026-11-27T18:32:54.711264+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Kenneth Walker (groin) gets in limited session"
-  },
-  {
-   "at": "2026-11-23T23:00:09.483520+00:00",
-   "kind": "injury",
-   "source": "rapsheet",
-   "text": "The Commanders are activating RB Jacory Croskey-Merritt from Injured Reserve, and he\u2019ll play tonight. A big list, as he\u2019s recovered from a groin injury."
   }
  ]
 }
