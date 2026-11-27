@@ -288,3 +288,5 @@
 {"kind": "injury", "team": "", "player": "Jordan Addison", "pos": "", "source": "rapsheet", "text": "The Vikings have ruled out WR Jordan Addison, OT Christian Darrisaw and CB Isaiah Rodgers", "at": "2026-11-27T20:27:12.840804+00:00"}
 {"kind": "injury", "team": "", "player": "Brock Bowers", "pos": "", "source": "rotoworld-fb", "text": "Brock Bowers (ankle) officially questionable", "at": "2026-11-27T20:51:58.420519+00:00"}
 {"kind": "injury", "source": "sleeper", "team": "JAX", "player": "Bhayshul Tuten", "pos": "RB", "text": "Bhayshul Tuten (JAX RB) status questionable -> out [Ankle]", "at": "2026-11-27T21:07:34.995108+00:00"}
+{"kind": "qb", "team": "LAC", "player": "Justin Herbert", "pos": "QB", "strong": true, "source": "rapsheet", "text": "Chargers QB Justin Herbert (concussion) has been officially ruled out vs the Patriots. DJ Uiagalelei starts.", "at": "2026-11-27T22:21:34.700623+00:00"}
+{"kind": "qb", "team": "SF", "player": "Brock Purdy", "pos": "QB", "strong": true, "source": "rapsheet", "text": "49ers QB Brock Purdy has been ruled out with an ankle injury. Mac Jones gets the start.", "at": "2026-11-27T22:24:39.070724+00:00"}
