@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "at": "2026-11-27T16:01:18.464480+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Omar Cooper (ankle/groin) ruled out vs. Dolphins"
+  },
+  {
+   "at": "2026-11-27T15:58:15.486745+00:00",
+   "kind": "injury",
+   "source": "sleeper",
+   "text": "Parker Washington (JAX WR) status questionable -> out [Shoulder]"
+  },
+  {
    "at": "2026-11-27T15:42:41.572225+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -167,18 +179,6 @@
    "kind": "qb",
    "source": "rapsheet",
    "text": "Chargers QB Justin Herbert is now in the NFL\u2019s concussion protocol, per a team official."
-  },
-  {
-   "at": "2026-11-22T23:22:13.400948+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Jordyn Tyson limited to two targets, 10 yards"
-  },
-  {
-   "at": "2026-11-22T22:02:08.932355+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Derrick Henry cleared concussion protocol"
   }
  ]
 }
