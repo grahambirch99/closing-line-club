@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "at": "2026-11-27T17:46:21.189291+00:00",
+   "kind": "qb",
+   "source": "sleeper",
+   "text": "Carson Beck (ARI QB) status questionable -> out [Back]"
+  },
+  {
+   "at": "2026-11-27T17:40:12.089621+00:00",
+   "kind": "qb",
+   "source": "rotoworld-fb",
+   "text": "Carson Beck (back) ruled out vs. Commanders"
+  },
+  {
    "at": "2026-11-27T16:01:18.464480+00:00",
    "kind": "injury",
    "source": "rotoworld-fb",
@@ -167,18 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Kenneth Walker (groin) estimated DNP on Monday"
-  },
-  {
-   "at": "2026-11-23T23:00:09.483520+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Saquon Barkley (neck/illness) limited on Monday"
-  },
-  {
-   "at": "2026-11-23T00:42:26.390805+00:00",
-   "kind": "qb",
-   "source": "rapsheet",
-   "text": "Chargers QB Justin Herbert is now in the NFL\u2019s concussion protocol, per a team official."
   }
  ]
 }
