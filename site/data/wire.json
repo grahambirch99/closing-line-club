@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-27T20:51:58.420519+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Brock Bowers (ankle) officially questionable"
+  },
+  {
    "at": "2026-11-27T20:27:12.840804+00:00",
    "kind": "injury",
    "source": "rapsheet",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Brock Bowers (ankle) limited to begin Week 12"
-  },
-  {
-   "at": "2026-11-25T20:47:25.212361+00:00",
-   "kind": "qb",
-   "source": "sleeper",
-   "text": "Sam Darnold (SEA QB) status out -> questionable [Quadriceps]"
   }
  ]
 }
