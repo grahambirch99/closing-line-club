@@ -278,3 +278,5 @@
 {"kind": "injury", "team": "", "player": "Parker Washington", "pos": "", "source": "rotoworld-fb", "text": "Parker Washington (shoulder) ruled out vs. Titans", "at": "2026-11-27T15:42:41.572225+00:00"}
 {"kind": "injury", "source": "sleeper", "team": "JAX", "player": "Parker Washington", "pos": "WR", "text": "Parker Washington (JAX WR) status questionable -> out [Shoulder]", "at": "2026-11-27T15:58:15.486745+00:00"}
 {"kind": "injury", "team": "", "player": "Omar Cooper", "pos": "", "source": "rotoworld-fb", "text": "Omar Cooper (ankle/groin) ruled out vs. Dolphins", "at": "2026-11-27T16:01:18.464480+00:00"}
+{"kind": "qb", "team": "ARI", "player": "Carson Beck", "pos": "QB", "strong": true, "source": "rotoworld-fb", "text": "Carson Beck (back) ruled out vs. Commanders", "at": "2026-11-27T17:40:12.089621+00:00"}
+{"kind": "qb", "source": "sleeper", "team": "ARI", "player": "Carson Beck", "pos": "QB", "text": "Carson Beck (ARI QB) status questionable -> out [Back]", "at": "2026-11-27T17:46:21.189291+00:00"}
