@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-27T15:42:41.572225+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Parker Washington (shoulder) ruled out vs. Titans"
+  },
+  {
    "at": "2026-11-26T23:17:04.332643+00:00",
    "kind": "injury",
    "source": "sleeper",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Derrick Henry cleared concussion protocol"
-  },
-  {
-   "at": "2026-11-22T21:12:29.566152+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Derrick Henry (concussion) headed to locker room"
   }
  ]
 }
