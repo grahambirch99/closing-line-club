@@ -1,6 +1,18 @@
 {
  "items": [
   {
+   "at": "2026-11-27T22:24:39.070724+00:00",
+   "kind": "qb",
+   "source": "rapsheet",
+   "text": "49ers QB Brock Purdy has been ruled out with an ankle injury. Mac Jones gets the start."
+  },
+  {
+   "at": "2026-11-27T22:21:34.700623+00:00",
+   "kind": "qb",
+   "source": "rapsheet",
+   "text": "Chargers QB Justin Herbert (concussion) has been officially ruled out vs the Patriots. DJ Uiagalelei starts."
+  },
+  {
    "at": "2026-11-27T21:07:34.995108+00:00",
    "kind": "injury",
    "source": "sleeper",
@@ -167,18 +179,6 @@
    "kind": "injury",
    "source": "rotoworld-fb",
    "text": "Zay Flowers (ankle) limited Wednesday"
-  },
-  {
-   "at": "2026-11-25T23:40:07.085207+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Dalton Kincaid questionable for Week 12"
-  },
-  {
-   "at": "2026-11-25T23:12:21.776728+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Jordan Addison (thumb) DNP Wednesday"
   }
  ]
 }
