@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T20:14:52Z",
+ "generated_at": "2026-11-27T22:52:36Z",
  "current_week": 12,
  "weeks": [
   {
@@ -965,6 +965,37 @@
      "system": "Props model: Kalshi only \u00b7 Pinnacle has no line",
      "strategy": "props-midweek",
      "live": true
+    },
+    {
+     "id": "2026-W12-0128",
+     "week": 12,
+     "kind": "trial",
+     "tier": "A",
+     "market": "h2h",
+     "title": "49ers",
+     "bet": "moneyline",
+     "game": "Seahawks at 49ers",
+     "kick": "2026-11-29T21:25:00Z",
+     "kick_label": "Sun 1:25 PM PT",
+     "venue": "Novig",
+     "price": "+100",
+     "stake": 7.5,
+     "implied": 50.0,
+     "fair": 54.9,
+     "edge": 9.8,
+     "worst": "-114",
+     "analysis": "Novig at +100 beats Pinnacle's no-vig price (55% to hit), a +9.8% edge right after news broke (QB SF: 49ers QB Brock Purdy has been ruled out with an ankle).",
+     "status": "pending",
+     "actual": "",
+     "clv": null,
+     "units": null,
+     "posted": "2026-11-27T22:24:59Z",
+     "rules": "nfl-v2-paper",
+     "clv_method": "",
+     "close_moved": "",
+     "clv_ok": false,
+     "strategy": "nfl-v2",
+     "live": false
     },
     {
      "id": "pp-163-816",

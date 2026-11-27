@@ -1,6 +1,24 @@
 {
  "items": [
   {
+   "at": "2026-11-27T22:37:09.262997+00:00",
+   "kind": "qb",
+   "source": "sleeper",
+   "text": "Brock Purdy (SF QB) status questionable -> out [Ankle]"
+  },
+  {
+   "at": "2026-11-27T22:28:05.691779+00:00",
+   "kind": "qb",
+   "source": "sleeper",
+   "text": "Justin Herbert (LAC QB) status questionable -> out [Concussion]"
+  },
+  {
+   "at": "2026-11-27T22:25:04.197075+00:00",
+   "kind": "qb",
+   "source": "rotoworld-fb",
+   "text": "Chargers rule out Justin Herbert (concussion)"
+  },
+  {
    "at": "2026-11-27T22:24:39.070724+00:00",
    "kind": "qb",
    "source": "rapsheet",
@@ -161,24 +179,6 @@
    "kind": "injury",
    "source": "sleeper",
    "text": "Christian Watson (GB WR) status questionable -> out [Concussion]"
-  },
-  {
-   "at": "2026-11-26T00:42:07.575302+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Keaton Mitchell (knee) DNP Wednesday"
-  },
-  {
-   "at": "2026-11-26T00:20:18.109755+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Kayshon Boutte (hip) DNP Wednesday"
-  },
-  {
-   "at": "2026-11-26T00:08:03.609487+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Zay Flowers (ankle) limited Wednesday"
   }
  ]
 }
