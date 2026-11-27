@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "at": "2026-11-27T20:27:12.840804+00:00",
+   "kind": "injury",
+   "source": "rapsheet",
+   "text": "Bengals WR Tee Higgins did not practice today and is questionable because of a hamstring injury."
+  },
+  {
+   "at": "2026-11-27T20:27:12.840804+00:00",
+   "kind": "injury",
+   "source": "rapsheet",
+   "text": "The Vikings have ruled out WR Jordan Addison, OT Christian Darrisaw and CB Isaiah Rodgers"
+  },
+  {
+   "at": "2026-11-27T20:21:08.123420+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Tee Higgins (hamstring) questionable vs. Saints"
+  },
+  {
+   "at": "2026-11-27T20:12:00.874236+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Tetairoa McMillan (foot) limited on Friday"
+  },
+  {
    "at": "2026-11-27T19:56:22.021487+00:00",
    "kind": "injury",
    "source": "sleeper",
@@ -155,30 +179,6 @@
    "kind": "qb",
    "source": "sleeper",
    "text": "Sam Darnold (SEA QB) status out -> questionable [Quadriceps]"
-  },
-  {
-   "at": "2026-11-25T20:47:25.212361+00:00",
-   "kind": "qb",
-   "source": "sleeper",
-   "text": "Carson Beck (ARI QB) status out -> questionable [Back]"
-  },
-  {
-   "at": "2026-11-25T20:47:25.212361+00:00",
-   "kind": "qb",
-   "source": "rotoworld-fb",
-   "text": "Justin Herbert (concussion) will not practice"
-  },
-  {
-   "at": "2026-11-25T20:47:25.212361+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Derrick Henry enters concussion protocol on Wed."
-  },
-  {
-   "at": "2026-11-24T21:45:43.574135+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Kenneth Walker (groin) gets in limited session"
   }
  ]
 }
