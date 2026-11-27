@@ -293,3 +293,4 @@
 {"kind": "qb", "team": "LAC", "player": "Justin Herbert", "pos": "QB", "strong": false, "source": "rotoworld-fb", "text": "Chargers rule out Justin Herbert (concussion)", "at": "2026-11-27T22:25:04.197075+00:00"}
 {"kind": "qb", "source": "sleeper", "team": "LAC", "player": "Justin Herbert", "pos": "QB", "text": "Justin Herbert (LAC QB) status questionable -> out [Concussion]", "at": "2026-11-27T22:28:05.691779+00:00"}
 {"kind": "qb", "source": "sleeper", "team": "SF", "player": "Brock Purdy", "pos": "QB", "text": "Brock Purdy (SF QB) status questionable -> out [Ankle]", "at": "2026-11-27T22:37:09.262997+00:00"}
+{"kind": "injury", "team": "", "player": "Mike Evans", "pos": "", "source": "rotoworld-fb", "text": "Mike Evans (Achilles) questionable vs. Seahawks", "at": "2026-11-27T23:01:44.719744+00:00"}
