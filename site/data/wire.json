@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-27T18:32:54.711264+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Denzel Boston (quad) questionable vs. Raiders"
+  },
+  {
    "at": "2026-11-27T17:46:21.189291+00:00",
    "kind": "qb",
    "source": "sleeper",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "rapsheet",
    "text": "The Commanders are activating RB Jacory Croskey-Merritt from Injured Reserve, and he\u2019ll play tonight. A big list, as he\u2019s recovered from a groin injury."
-  },
-  {
-   "at": "2026-11-23T23:00:09.483520+00:00",
-   "kind": "injury",
-   "source": "rotoworld-fb",
-   "text": "Kenneth Walker (groin) estimated DNP on Monday"
   }
  ]
 }
