@@ -1,6 +1,12 @@
 {
  "items": [
   {
+   "at": "2026-11-27T23:01:44.719744+00:00",
+   "kind": "injury",
+   "source": "rotoworld-fb",
+   "text": "Mike Evans (Achilles) questionable vs. Seahawks"
+  },
+  {
    "at": "2026-11-27T22:37:09.262997+00:00",
    "kind": "qb",
    "source": "sleeper",
@@ -173,12 +179,6 @@
    "kind": "injury",
    "source": "sleeper",
    "text": "Tyler Higbee (LAR TE) status healthy -> out [Chest]"
-  },
-  {
-   "at": "2026-11-26T03:25:38.781403+00:00",
-   "kind": "injury",
-   "source": "sleeper",
-   "text": "Christian Watson (GB WR) status questionable -> out [Concussion]"
   }
  ]
 }

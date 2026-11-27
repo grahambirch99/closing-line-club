@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-11-27T22:52:36Z",
+ "generated_at": "2026-11-27T23:20:19Z",
  "current_week": 12,
  "weeks": [
   {
    "week": 12,
    "dates": "Nov 26\u201330",
    "record": {
-    "w": 5,
+    "w": 7,
     "l": 6,
     "p": 0,
-    "units": -0.89,
-    "roi": -17.8,
+    "units": 0.21,
+    "roi": 3.5,
     "clv": null,
     "beat": null,
     "n_clv": 0,
-    "clv_any": 0.58,
-    "n_clv_any": 9
+    "clv_any": 0.17,
+    "n_clv_any": 10
    },
    "paper_record": {
     "w": 0,
@@ -30,16 +30,16 @@
     "n_clv_any": 0
    },
    "clv_record": {
-    "w": 5,
+    "w": 7,
     "l": 6,
     "p": 0,
-    "units": -0.89,
-    "roi": -17.8,
+    "units": 0.21,
+    "roi": 3.5,
     "clv": null,
     "beat": null,
     "n_clv": 0,
-    "clv_any": 0.58,
-    "n_clv_any": 9
+    "clv_any": 0.17,
+    "n_clv_any": 10
    },
    "picks": [
     {
@@ -369,10 +369,10 @@
      "edge": 4.9,
      "worst": "",
      "analysis": "Mid-week props model (paper): price +4.9% vs the sharp fair price (Pinnacle). Pinnacle only; Kalshi has no line.",
-     "status": "pending",
-     "actual": "",
+     "status": "W",
+     "actual": "9 completions",
      "clv": null,
-     "units": null,
+     "units": 0.6,
      "posted": "2026-11-26T23:33:08Z",
      "system": "Props model: Pinnacle only \u00b7 Kalshi has no line",
      "strategy": "props-midweek",
@@ -397,10 +397,10 @@
      "edge": 4.2,
      "worst": "",
      "analysis": "Mid-week props model (paper): price +4.2% vs the sharp fair price (Pinnacle). Pinnacle only; Kalshi disagrees.",
-     "status": "pending",
-     "actual": "",
-     "clv": null,
-     "units": null,
+     "status": "W",
+     "actual": "1 receptions",
+     "clv": -3.5,
+     "units": 0.5,
      "posted": "2026-11-26T23:33:08Z",
      "system": "Props model: Pinnacle only \u00b7 Kalshi disagrees",
      "strategy": "props-midweek",
