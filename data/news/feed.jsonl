@@ -281,3 +281,4 @@
 {"kind": "qb", "team": "ARI", "player": "Carson Beck", "pos": "QB", "strong": true, "source": "rotoworld-fb", "text": "Carson Beck (back) ruled out vs. Commanders", "at": "2026-11-27T17:40:12.089621+00:00"}
 {"kind": "qb", "source": "sleeper", "team": "ARI", "player": "Carson Beck", "pos": "QB", "text": "Carson Beck (ARI QB) status questionable -> out [Back]", "at": "2026-11-27T17:46:21.189291+00:00"}
 {"kind": "injury", "team": "", "player": "Denzel Boston", "pos": "", "source": "rotoworld-fb", "text": "Denzel Boston (quad) questionable vs. Raiders", "at": "2026-11-27T18:32:54.711264+00:00"}
+{"kind": "injury", "source": "sleeper", "team": "NO", "player": "Juwan Johnson", "pos": "TE", "text": "Juwan Johnson (NO TE) status questionable -> out [Hamstring]", "at": "2026-11-27T19:56:22.021487+00:00"}
