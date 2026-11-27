@@ -276,3 +276,5 @@
 {"kind": "injury", "team": "", "player": "Dallas Goedert", "pos": "", "source": "rotoworld-fb", "text": "Dallas Goedert (shoulder) ruled out vs. Cowboys", "at": "2026-11-26T23:04:29.546311+00:00"}
 {"kind": "injury", "source": "sleeper", "team": "PHI", "player": "Dallas Goedert", "pos": "TE", "text": "Dallas Goedert (PHI TE) status questionable -> out [Shoulder]", "at": "2026-11-26T23:17:04.332643+00:00"}
 {"kind": "injury", "team": "", "player": "Parker Washington", "pos": "", "source": "rotoworld-fb", "text": "Parker Washington (shoulder) ruled out vs. Titans", "at": "2026-11-27T15:42:41.572225+00:00"}
+{"kind": "injury", "source": "sleeper", "team": "JAX", "player": "Parker Washington", "pos": "WR", "text": "Parker Washington (JAX WR) status questionable -> out [Shoulder]", "at": "2026-11-27T15:58:15.486745+00:00"}
+{"kind": "injury", "team": "", "player": "Omar Cooper", "pos": "", "source": "rotoworld-fb", "text": "Omar Cooper (ankle/groin) ruled out vs. Dolphins", "at": "2026-11-27T16:01:18.464480+00:00"}
