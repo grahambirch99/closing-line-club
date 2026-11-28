@@ -1,18 +1,18 @@
-# NBA Test: paper tracking (updated Fri Nov 27 9:32 PM PT)
+# NBA Test: paper tracking (updated Fri Nov 27 9:54 PM PT)
 
 Rules v2 (research/nba_rules_v2_PREREG.md): fair = Pinnacle + Kalshi ladder; Unders >= 3% edge, Overs >= 6% and no
 longer than +233; Novig/ProphetX only. Scorecard: CLV vs the Kalshi ladder at tip ('Kalshi CLV').
 Gate (100+ graded): Kalshi CLV >= +1.0 pt with lower 95% bound > 0, >= 55% beat it, wins not significantly below expected.
 
-v3.1 picks (no caps, from Oct 28; the posted NBA bets; gate at 400): 308 picks; graded 142-153, -0.16u; lean (win - cost) +0.7 pts
+v3.1 picks (no caps, from Oct 28; the posted NBA bets; gate at 400): 308 picks; graded 145-158, -0.90u; lean (win - cost) +0.5 pts
 v3 picks Oct 26-27 (3/game, 8/night caps): 14 picks; graded 5-9, -1.56u; lean (win - cost) -8.8 pts
-  v3.1 matchup agree: 58 picks; graded 24-31, -2.61u; lean (win - cost) -3.4 pts
-  v3.1 matchup disagree: 59 picks; graded 29-28, +1.31u; lean (win - cost) +4.0 pts
-  v3.1 matchup none: 191 picks; graded 89-94, +1.14u; lean (win - cost) +0.8 pts
+  v3.1 matchup agree: 58 picks; graded 25-32, -2.38u; lean (win - cost) -2.8 pts
+  v3.1 matchup disagree: 59 picks; graded 29-29, +0.81u; lean (win - cost) +3.2 pts
+  v3.1 matchup none: 191 picks; graded 91-97, +0.66u; lean (win - cost) +0.6 pts
 
-v2 paper bets (no longer posted; its Kalshi-CLV gate was circular): 1007 bets; graded 433-552-0, -12.40u (-2.1% ROI)
+v2 paper bets (no longer posted; its Kalshi-CLV gate was circular): 1007 bets; graded 437-558-0, -12.50u (-2.0% ROI)
 v1 (retired Oct 22, Pinnacle-only fair): 56 bets; graded 17-39-0, -10.66u (-31.4% ROI)
-Matchup test (research/nba_h2h_forward_PREREG.md, Kalshi taker): 4434 bets; graded 2245-2038-0, -8.33u (-0.4% ROI); lean vs entry price +2.5 pts (n=4283)
+Matchup test (research/nba_h2h_forward_PREREG.md, Kalshi taker): 4434 bets; graded 2293-2067-0, -2.06u (-0.1% ROI); lean vs entry price +2.7 pts (n=4360)
 
 | Group | Edges | Avg est. edge | With close | Avg CLV vs Pinnacle (pts) | Beat close |
 |---|---|---|---|---|---|

@@ -535,11 +535,11 @@ pk-5b64071f3e-pr-point-pascalsiakam-23.5,nba,2026-11-27T23:40:02Z,2026-11-28T00:
 pk-5b64071f3e-pr-rebou-pascalsiakam-6,nba,2026-11-27T23:40:02Z,2026-11-28T00:40:00Z,Philadelphia 76ers @ Indiana Pacers,prizepicks,player_rebounds,Pascal Siakam,6,Over,0.5437,Kalshi,0,345,0.5197,L,2
 pk-c5dc35b411-pr-point-jaysontatum-26.5,nba,2026-11-28T00:10:04Z,2026-11-28T01:10:00Z,Atlanta Hawks @ Boston Celtics,prizepicks,player_points,Jayson Tatum,26.5,Under,0.5539,Pinnacle,0,347,0.5539,W,20
 pk-c5dc35b411-pr-point-baylorscheierman-5.5,nba,2026-11-28T00:10:04Z,2026-11-28T01:10:00Z,Atlanta Hawks @ Boston Celtics,prizepicks,player_points,Baylor Scheierman,5.5,Under,0.5488,Kalshi,0,347,,W,3
-pk-f0bc60d151-pr-assis-jonathankuminga-2.5,nba,2026-11-28T00:40:05Z,2026-11-28T01:40:00Z,Memphis Grizzlies @ Minnesota Timberwolves,prizepicks,player_assists,Jonathan Kuminga,2.5,Over,0.5468,Kalshi,0,349,,pending,
-pk-f0bc60d151-pr-point-ayodosunmu-19.5,nba,2026-11-28T00:40:05Z,2026-11-28T01:40:00Z,Memphis Grizzlies @ Minnesota Timberwolves,prizepicks,player_points,Ayo Dosunmu,19.5,Under,0.5469,Pinnacle,0,349,,pending,
-pk-f0bc60d151-un-point-ayodosunmu-18.5,nba,2026-11-28T00:40:05Z,2026-11-28T01:40:00Z,Memphis Grizzlies @ Minnesota Timberwolves,underdog,player_points,Ayo Dosunmu,18.5,Over,0.5494,Kalshi,0,349,,pending,
-pk-f0bc60d151-pr-point-zachedey-8,nba,2026-11-28T00:40:05Z,2026-11-28T01:40:00Z,Memphis Grizzlies @ Minnesota Timberwolves,prizepicks,player_points,Zach Edey,8,Over,0.5474,Kalshi,0,349,,pending,
-pk-f0bc60d151-pr-rebou-joanberinger-4.5,nba,2026-11-28T00:40:05Z,2026-11-28T01:40:00Z,Memphis Grizzlies @ Minnesota Timberwolves,prizepicks,player_rebounds,Joan Beringer,4.5,Over,0.5781,Kalshi,1,349,,pending,
+pk-f0bc60d151-pr-assis-jonathankuminga-2.5,nba,2026-11-28T00:40:05Z,2026-11-28T01:40:00Z,Memphis Grizzlies @ Minnesota Timberwolves,prizepicks,player_assists,Jonathan Kuminga,2.5,Over,0.5468,Kalshi,0,349,0.5401,L,1
+pk-f0bc60d151-pr-point-ayodosunmu-19.5,nba,2026-11-28T00:40:05Z,2026-11-28T01:40:00Z,Memphis Grizzlies @ Minnesota Timberwolves,prizepicks,player_points,Ayo Dosunmu,19.5,Under,0.5469,Pinnacle,0,349,0.514,L,27
+pk-f0bc60d151-un-point-ayodosunmu-18.5,nba,2026-11-28T00:40:05Z,2026-11-28T01:40:00Z,Memphis Grizzlies @ Minnesota Timberwolves,underdog,player_points,Ayo Dosunmu,18.5,Over,0.5494,Kalshi,0,349,,W,27
+pk-f0bc60d151-pr-point-zachedey-8,nba,2026-11-28T00:40:05Z,2026-11-28T01:40:00Z,Memphis Grizzlies @ Minnesota Timberwolves,prizepicks,player_points,Zach Edey,8,Over,0.5474,Kalshi,0,349,0.487,L,5
+pk-f0bc60d151-pr-rebou-joanberinger-4.5,nba,2026-11-28T00:40:05Z,2026-11-28T01:40:00Z,Memphis Grizzlies @ Minnesota Timberwolves,prizepicks,player_rebounds,Joan Beringer,4.5,Over,0.5781,Kalshi,1,349,,L,4
 pk-46b1c571cf-pr-point-pjwashington-12.5,nba,2026-11-28T01:10:08Z,2026-11-28T02:10:00Z,Dallas Mavericks @ Phoenix Suns,prizepicks,player_points,P.J. Washington,12.5,Under,0.5464,Kalshi,0,351,,pending,
 pk-46b1c571cf-un-point-pjwashington-12.5,nba,2026-11-28T01:10:08Z,2026-11-28T02:10:00Z,Dallas Mavericks @ Phoenix Suns,underdog,player_points,P.J. Washington,12.5,Under,0.5464,Kalshi,0,351,,pending,
 pk-46b1c571cf-pr-point-jordangoodwin-7.5,nba,2026-11-28T01:10:08Z,2026-11-28T02:10:00Z,Dallas Mavericks @ Phoenix Suns,prizepicks,player_points,Jordan Goodwin,7.5,Under,0.5528,Kalshi,0,351,,pending,
