@@ -546,16 +546,16 @@ pk-46b1c571cf-pr-point-jordangoodwin-7.5,nba,2026-11-28T01:10:08Z,2026-11-28T02:
 pk-46b1c571cf-un-point-jordangoodwin-7.5,nba,2026-11-28T01:10:08Z,2026-11-28T02:10:00Z,Dallas Mavericks @ Phoenix Suns,underdog,player_points,Jordan Goodwin,7.5,Under,0.5528,Kalshi,0,351,0.5339,L,8
 pk-46b1c571cf-pr-rebou-osoighodaro-6,nba,2026-11-28T01:10:08Z,2026-11-28T02:10:00Z,Dallas Mavericks @ Phoenix Suns,prizepicks,player_rebounds,Oso Ighodaro,6,Under,0.5449,Kalshi,0,351,0.5449,W,5
 pk-46b1c571cf-pr-rebou-jordangoodwin-4,nba,2026-11-28T01:10:08Z,2026-11-28T02:10:00Z,Dallas Mavericks @ Phoenix Suns,prizepicks,player_rebounds,Jordan Goodwin,4,Under,0.5473,Kalshi,0,351,0.5511,P,4
-pk-428050645d-pr-point-keyontegeorge-20.5,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,Denver Nuggets @ Utah Jazz,prizepicks,player_points,Keyonte George,20.5,Under,0.5444,Kalshi,0,353,,pending,
-pk-428050645d-pr-point-nikolajokic-27,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,Denver Nuggets @ Utah Jazz,prizepicks,player_points,Nikola Jokic,27,Under,0.5432,Kalshi,0,353,,pending,
-pk-428050645d-pr-rebou-jaxsonhayes-5.5,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,Denver Nuggets @ Utah Jazz,prizepicks,player_rebounds,Jaxson Hayes,5.5,Under,0.5633,Pinnacle,1,353,,pending,
-pk-428050645d-pr-rebou-spencerjones-2.5,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,Denver Nuggets @ Utah Jazz,prizepicks,player_rebounds,Spencer Jones,2.5,Over,0.5448,Pinnacle,0,353,,pending,
-pk-428050645d-un-rebou-spencerjones-2.5,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,Denver Nuggets @ Utah Jazz,underdog,player_rebounds,Spencer Jones,2.5,Over,0.5448,Pinnacle,0,353,,pending,
-pk-592a440c59-pr-assis-deniavdija-6,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,Golden State Warriors @ Portland Trail Blazers,prizepicks,player_assists,Deni Avdija,6,Over,0.5434,Kalshi,0,353,,pending,
-pk-592a440c59-pr-point-jrueholiday-16.5,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,Golden State Warriors @ Portland Trail Blazers,prizepicks,player_points,Jrue Holiday,16.5,Under,0.5514,Kalshi,0,353,,pending,
-pk-592a440c59-pr-rebou-deniavdija-6,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,Golden State Warriors @ Portland Trail Blazers,prizepicks,player_rebounds,Deni Avdija,6,Over,0.542,Kalshi,0,353,,pending,
-pk-592a440c59-pr-rebou-yaxellendeborg-7,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,Golden State Warriors @ Portland Trail Blazers,prizepicks,player_rebounds,Yaxel Lendeborg,7,Under,0.553,Kalshi,0,353,,pending,
-pk-fecbaa4e19-pr-point-krisdunn-5.5,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,New Orleans Pelicans @ Los Angeles Clippers,prizepicks,player_points,Kris Dunn,5.5,Under,0.5485,Kalshi,0,353,,pending,
-pk-13d9ca3bcb-pr-assis-stephoncastle-7,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,Los Angeles Lakers @ San Antonio Spurs,prizepicks,player_assists,Stephon Castle,7,Under,0.5474,Kalshi,0,353,,pending,
-pk-13d9ca3bcb-un-point-collinsexton-8.5,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,Los Angeles Lakers @ San Antonio Spurs,underdog,player_points,Collin Sexton,8.5,Under,0.568,Kalshi,1,353,,pending,
-pk-13d9ca3bcb-pr-rebou-dylanharper-4.5,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,Los Angeles Lakers @ San Antonio Spurs,prizepicks,player_rebounds,Dylan Harper,4.5,Under,0.5506,Kalshi,0,353,,pending,
+pk-428050645d-pr-point-keyontegeorge-20.5,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,Denver Nuggets @ Utah Jazz,prizepicks,player_points,Keyonte George,20.5,Under,0.5444,Kalshi,0,353,0.5444,L,25
+pk-428050645d-pr-point-nikolajokic-27,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,Denver Nuggets @ Utah Jazz,prizepicks,player_points,Nikola Jokic,27,Under,0.5432,Kalshi,0,353,0.5432,W,17
+pk-428050645d-pr-rebou-jaxsonhayes-5.5,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,Denver Nuggets @ Utah Jazz,prizepicks,player_rebounds,Jaxson Hayes,5.5,Under,0.5633,Pinnacle,1,353,,W,5
+pk-428050645d-pr-rebou-spencerjones-2.5,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,Denver Nuggets @ Utah Jazz,prizepicks,player_rebounds,Spencer Jones,2.5,Over,0.5448,Pinnacle,0,353,0.5448,L,2
+pk-428050645d-un-rebou-spencerjones-2.5,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,Denver Nuggets @ Utah Jazz,underdog,player_rebounds,Spencer Jones,2.5,Over,0.5448,Pinnacle,0,353,0.5448,L,2
+pk-592a440c59-pr-assis-deniavdija-6,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,Golden State Warriors @ Portland Trail Blazers,prizepicks,player_assists,Deni Avdija,6,Over,0.5434,Kalshi,0,353,0.5434,W,7
+pk-592a440c59-pr-point-jrueholiday-16.5,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,Golden State Warriors @ Portland Trail Blazers,prizepicks,player_points,Jrue Holiday,16.5,Under,0.5514,Kalshi,0,353,0.5514,W,12
+pk-592a440c59-pr-rebou-deniavdija-6,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,Golden State Warriors @ Portland Trail Blazers,prizepicks,player_rebounds,Deni Avdija,6,Over,0.542,Kalshi,0,353,0.542,W,7
+pk-592a440c59-pr-rebou-yaxellendeborg-7,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,Golden State Warriors @ Portland Trail Blazers,prizepicks,player_rebounds,Yaxel Lendeborg,7,Under,0.553,Kalshi,0,353,0.553,P,7
+pk-fecbaa4e19-pr-point-krisdunn-5.5,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,New Orleans Pelicans @ Los Angeles Clippers,prizepicks,player_points,Kris Dunn,5.5,Under,0.5485,Kalshi,0,353,,W,2
+pk-13d9ca3bcb-pr-assis-stephoncastle-7,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,Los Angeles Lakers @ San Antonio Spurs,prizepicks,player_assists,Stephon Castle,7,Under,0.5474,Kalshi,0,353,,L,9
+pk-13d9ca3bcb-un-point-collinsexton-8.5,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,Los Angeles Lakers @ San Antonio Spurs,underdog,player_points,Collin Sexton,8.5,Under,0.568,Kalshi,1,353,,L,12
+pk-13d9ca3bcb-pr-rebou-dylanharper-4.5,nba,2026-11-28T01:40:09Z,2026-11-28T02:40:00Z,Los Angeles Lakers @ San Antonio Spurs,prizepicks,player_rebounds,Dylan Harper,4.5,Under,0.5506,Kalshi,0,353,,W,4
